@@ -1,0 +1,17 @@
+# Ignore data and results
+data/
+xai_results/
+*.csv
+*.png
+*.json
+
+# Ignore model checkpoints
+saved_models/
+*.pth
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore IDE configs
+.vscode/
