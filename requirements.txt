@@ -3,3 +3,4 @@ transformers
 datasets
 librosa
 pyannote.audio
+moviepy

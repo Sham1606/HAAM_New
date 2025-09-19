@@ -1,61 +1,89 @@
 import torch
 import os
 import sys
+import json
+import matplotlib.pyplot as plt
 import pandas as pd
-from torch.utils.data import DataLoader
-from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
-import numpy as np
-# add src to path
+import seaborn as sns
+from sklearn.metrics import classification_report, confusion_matrix
+
+# Add src to path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from data_processing.embedding_dataset import MELDEmbeddingDataset
 from models.fusion_model import MultimodalFusionModel
 
-def load_model(model_path, device):
-    model = MultimodalFusionModel()
-    state = torch.load(model_path, map_location=device)
-    model.load_state_dict(state)
-    model.to(device)
-    model.eval()
-    return model
 
-def predict_and_analyze(model, dataloader, device):
-    all_sent_preds, all_emo_preds = [], []
-    all_sent_trues, all_emo_trues = [], []
-    all_dialogue, all_utt = [], []
-    all_audio_attn = []
+# -------------------------------
+# Confusion Matrix Plot
+def plot_confusion(y_true, y_pred, labels, title, filename):
+    cm = confusion_matrix(y_true, y_pred)
+    plt.figure(figsize=(7, 6))
+    sns.heatmap(cm, annot=True, fmt="d", cmap="Blues",
+                xticklabels=labels, yticklabels=labels)
+    plt.title(title)
+    plt.ylabel("True")
+    plt.xlabel("Predicted")
+    plt.tight_layout()
+    plt.savefig(filename)
+    plt.close()
 
-    with torch.no_grad():
-        for batch in dataloader:
-            audio = batch['audio_embedding'].to(device)
-            text = batch['text_embedding'].to(device)
-            s_true = batch['sentiment_label'].numpy()
-            e_true = batch['emotion_label'].numpy()
 
-            s_logits, e_logits, attn_w = model(audio, text)
-            s_pred = torch.argmax(s_logits, dim=1).cpu().numpy()
-            e_pred = torch.argmax(e_logits, dim=1).cpu().numpy()
-            audio_attn = attn_w[:,0].cpu().numpy()  # audio weight
+# -------------------------------
+# Per-class Attention Bar Chart
+def plot_attention_bar(df, label_col, title, filename):
+    plt.figure(figsize=(8, 6))
+    sns.barplot(data=df, x=label_col, y="avg_audio_attn", color="darkorange", label="Audio")
+    sns.barplot(data=df, x=label_col, y="avg_text_attn", color="dodgerblue", label="Text",
+                bottom=df["avg_audio_attn"])
+    plt.ylabel("Attention Share")
+    plt.title(title)
+    plt.legend()
+    plt.tight_layout()
+    plt.savefig(filename)
+    plt.close()
 
-            all_sent_preds.extend(s_pred.tolist())
-            all_emo_preds.extend(e_pred.tolist())
-            all_sent_trues.extend(s_true.tolist())
-            all_emo_trues.extend(e_true.tolist())
-            all_dialogue.extend(batch.get('dialogue_id', [-1]*len(s_pred)))
-            all_utt.extend(batch.get('utterance_id', [-1]*len(s_pred)))
-            all_audio_attn.extend(audio_attn.tolist())
 
-    return {
-        "sent_pred": np.array(all_sent_preds),
-        "emo_pred": np.array(all_emo_preds),
-        "sent_true": np.array(all_sent_trues),
-        "emo_true": np.array(all_emo_trues),
-        "dialogue": np.array(all_dialogue),
-        "utterance": np.array(all_utt),
-        "audio_attn": np.array(all_audio_attn)
-    }
+# -------------------------------
+# Combined Plot (Sentiment + Emotion) with Normalized Y-axis
+# -------------------------------
 
-if __name__ == "__main__":
+def plot_combined_attention(sent_df, emo_df, combined_filename):
+    fig, axes = plt.subplots(1, 2, figsize=(16, 6), sharey=True)
+
+    max_y = 1.0  # normalized scale (0 to 1)
+
+    # Sentiment plot
+    sns.barplot(data=sent_df, x="True_Sentiment", y="avg_audio_attn",
+                color="darkorange", label="Audio", ax=axes[0])
+    sns.barplot(data=sent_df, x="True_Sentiment", y="avg_text_attn",
+                color="dodgerblue", label="Text",
+                bottom=sent_df["avg_audio_attn"], ax=axes[0])
+    axes[0].set_title("Per-class Attention (Sentiment)")
+    axes[0].set_ylabel("Attention Share")
+    axes[0].set_ylim(0, max_y)
+    axes[0].legend()
+
+    # Emotion plot
+    sns.barplot(data=emo_df, x="True_Emotion", y="avg_audio_attn",
+                color="darkorange", label="Audio", ax=axes[1])
+    sns.barplot(data=emo_df, x="True_Emotion", y="avg_text_attn",
+                color="dodgerblue", label="Text",
+                bottom=emo_df["avg_audio_attn"], ax=axes[1])
+    axes[1].set_title("Per-class Attention (Emotion)")
+    axes[1].set_ylabel("")
+    axes[1].set_ylim(0, max_y)
+    axes[1].legend()
+
+    plt.tight_layout()
+    plt.savefig(combined_filename)
+    plt.close()
+    print(f"📊 Normalized combined attention plot saved to: {combined_filename}")
+
+
+# -------------------------------
+# Main
+if __name__ == '__main__':
     try:
         script_dir = os.path.dirname(os.path.abspath(__file__))
         PROJECT_ROOT = os.path.dirname(os.path.dirname(script_dir))
@@ -63,65 +91,110 @@ if __name__ == "__main__":
         PROJECT_ROOT = os.getcwd()
 
     MODEL_PATH = os.path.join(PROJECT_ROOT, 'saved_models', 'sprint_model_v5_best.pth')
+
+    # Model config
+    AUDIO_DIM = 768
+    TEXT_DIM = 768
+    HIDDEN_DIM = 1024
+    DROPOUT = 0.3
+    NUM_SENTIMENT_CLASSES = 3
+    NUM_EMOTION_CLASSES = 7
+    NUM_CONTEXT_CLASSES = 4
+
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"Using device: {device}")
 
+    # Load model
+    model = MultimodalFusionModel(
+        audio_input_dim=AUDIO_DIM,
+        text_input_dim=TEXT_DIM,
+        hidden_dim=HIDDEN_DIM,
+        num_sentiment_classes=NUM_SENTIMENT_CLASSES,
+        num_emotion_classes=NUM_EMOTION_CLASSES,
+        dropout_rate=DROPOUT
+    ).to(device)
+
+    if not os.path.exists(MODEL_PATH):
+        print(f"❌ Error: Model file not found at {MODEL_PATH}")
+        exit()
+
+    state = torch.load(MODEL_PATH, map_location=device)
+    model.load_state_dict(state)
+    print("✅ Model loaded.")
+
     # Load test dataset
-    test_dataset = MELDEmbeddingDataset(project_root=PROJECT_ROOT, data_type='test')
-    test_loader = DataLoader(test_dataset, batch_size=32, shuffle=False)
+    test_dataset = MELDEmbeddingDataset(PROJECT_ROOT, data_type='test')
     print(f"Loaded {len(test_dataset)} test samples.")
 
-    # Load model
-    if not os.path.exists(MODEL_PATH):
-        raise FileNotFoundError(f"Model not found at {MODEL_PATH}. Train first.")
-    model = load_model(MODEL_PATH, device)
-    print("Model loaded.")
+    sentiment_preds, sentiment_true = [], []
+    emotion_preds, emotion_true = [], []
+    rows = []
 
-    # Predict
-    results = predict_and_analyze(model, test_loader, device)
+    model.eval()
+    with torch.no_grad():
+        for idx in range(len(test_dataset)):
+            sample = test_dataset[idx]
+            audio = sample['audio_embedding'].unsqueeze(0).to(device)
+            text = sample['text_embedding'].unsqueeze(0).to(device)
 
-    # Map ids back to labels
-    sent_id2label = {v:k for k,v in test_dataset.sentiment_mapping.items()}
-    emo_id2label = {v:k for k,v in test_dataset.emotion_mapping.items()}
+            s_true = sample['sentiment_label'].item()
+            e_true = sample['emotion_label'].item()
 
-    sent_pred_labels = [sent_id2label[int(i)] for i in results['sent_pred']]
-    emo_pred_labels = [emo_id2label[int(i)] for i in results['emo_pred']]
-    sent_true_labels = [sent_id2label[int(i)] for i in results['sent_true']]
-    emo_true_labels = [emo_id2label[int(i)] for i in results['emo_true']]
+            s_logit, e_logit, attn = model(audio, text)
 
-    # Overall metrics
-    sent_acc = accuracy_score(results['sent_true'], results['sent_pred'])
-    emo_acc = accuracy_score(results['emo_true'], results['emo_pred'])
-    sent_f1 = f1_score(results['sent_true'], results['sent_pred'], average='macro', zero_division=0)
-    emo_f1 = f1_score(results['emo_true'], results['emo_pred'], average='macro', zero_division=0)
-    print(f"Sentiment: Acc={sent_acc:.4f}, F1={sent_f1:.4f}")
-    print(f"Emotion:   Acc={emo_acc:.4f}, F1={emo_f1:.4f}")
+            s_pred = torch.argmax(s_logit, dim=1).item()
+            e_pred = torch.argmax(e_logit, dim=1).item()
 
-    # Per-class average audio attention (group by true emotion)
-    df = pd.DataFrame({
-        "Dialogue_ID": results['dialogue'],
-        "Utterance_ID": results['utterance'],
-        "true_emotion": results['emo_true'],
-        "pred_emotion": results['emo_pred'],
-        "audio_attn": results['audio_attn']
-    })
+            sentiment_true.append(s_true)
+            sentiment_preds.append(s_pred)
+            emotion_true.append(e_true)
+            emotion_preds.append(e_pred)
 
-    per_class_attn = df.groupby('true_emotion')['audio_attn'].agg(['mean','count']).reset_index()
-    per_class_attn['emotion_label'] = per_class_attn['true_emotion'].map(emo_id2label)
-    per_class_attn = per_class_attn[['true_emotion','emotion_label','mean','count']].rename(columns={'mean':'avg_audio_attn','count':'n_samples'})
-    print("\nPer-emotion average audio attention:")
-    print(per_class_attn.to_string(index=False))
+            audio_weight = attn[0, 0].item()
 
-    # Save predictions CSV (with attention)
-    out_df = pd.DataFrame({
-        "Dialogue_ID": results['dialogue'],
-        "Utterance_ID": results['utterance'],
-        "True_Emotion": [emo_id2label[int(i)] for i in results['emo_true']],
-        "Pred_Emotion": [emo_id2label[int(i)] for i in results['emo_pred']],
-        "True_Sentiment": [sent_id2label[int(i)] for i in results['sent_true']],
-        "Pred_Sentiment": [sent_id2label[int(i)] for i in results['sent_pred']],
-        "Audio_Attention": results['audio_attn']
-    })
-    out_path = os.path.join(PROJECT_ROOT, 'predictions_with_attention.csv')
-    out_df.to_csv(out_path, index=False)
-    print(f"\nPredictions with attention saved to {out_path}")
+            rows.append({
+                "Dialogue_ID": sample['dialogue_id'],
+                "Utterance_ID": sample['utterance_id'],
+                "True_Emotion": test_dataset.emotion_mapping_inv[e_true],
+                "Pred_Emotion": test_dataset.emotion_mapping_inv[e_pred],
+                "True_Sentiment": test_dataset.sentiment_mapping_inv[s_true],
+                "Pred_Sentiment": test_dataset.sentiment_mapping_inv[s_pred],
+                "Audio_Attention": audio_weight,
+                "Text_Attention": 1 - audio_weight
+            })
+
+    # Save predictions
+    df = pd.DataFrame(rows)
+    out_csv = os.path.join(PROJECT_ROOT, "predictions_with_attention.csv")
+    df.to_csv(out_csv, index=False)
+
+    # -------------------------------
+    # Per-class average attention
+    emo_attention = df.groupby("True_Emotion").agg(
+        avg_audio_attn=("Audio_Attention", "mean"),
+        avg_text_attn=("Text_Attention", "mean"),
+        n_samples=("True_Emotion", "count")
+    ).reset_index()
+
+    sent_attention = df.groupby("True_Sentiment").agg(
+        avg_audio_attn=("Audio_Attention", "mean"),
+        avg_text_attn=("Text_Attention", "mean"),
+        n_samples=("True_Sentiment", "count")
+    ).reset_index()
+
+    # Save CSVs
+    emo_csv = os.path.join(PROJECT_ROOT, "per_class_emotion_attention.csv")
+    sent_csv = os.path.join(PROJECT_ROOT, "per_class_sentiment_attention.csv")
+    emo_attention.to_csv(emo_csv, index=False)
+    sent_attention.to_csv(sent_csv, index=False)
+
+    # Save plots
+    emo_plot = os.path.join(PROJECT_ROOT, "per_class_emotion_attention.png")
+    sent_plot = os.path.join(PROJECT_ROOT, "per_class_sentiment_attention.png")
+    combined_plot = os.path.join(PROJECT_ROOT, "per_class_attention_combined.png")
+
+    plot_attention_bar(emo_attention, "True_Emotion", "Per-class Attention (Emotion)", emo_plot)
+    plot_attention_bar(sent_attention, "True_Sentiment", "Per-class Attention (Sentiment)", sent_plot)
+    plot_combined_attention(sent_attention, emo_attention, combined_plot)
+
+    print(f"📊 All attention plots saved:\n  {sent_plot}\n  {emo_plot}\n  {combined_plot}")
