@@ -175,7 +175,7 @@ if __name__ == '__main__':
         print(f"❌ Error: Model file not found at {MODEL_PATH}")
         exit()
 
-    state = torch.load(MODEL_PATH, map_location=device, weights_only=True)
+    state = torch.load(MODEL_PATH, map_location=device)
     model.load_state_dict(state)
     print("✅ Model loaded.")
 
