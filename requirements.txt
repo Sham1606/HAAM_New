@@ -16,3 +16,7 @@ tqdm
 openai-whisper
 scipy
 webrtcvad
+fastapi
+uvicorn
+python-multipart
+slowapi
