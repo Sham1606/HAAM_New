@@ -13,3 +13,6 @@ seaborn
 flask
 python-dotenv
 tqdm
+openai-whisper
+scipy
+webrtcvad
