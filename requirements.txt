@@ -20,3 +20,5 @@ fastapi
 uvicorn
 python-multipart
 slowapi
+pytest
+httpx
