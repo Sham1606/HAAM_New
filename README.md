@@ -1,15 +1,153 @@
-# HAAM: Hierarchical Attention-based Agent Monitoring Framework
+# HAAM Framework
 
-## 📌 Introduction
+**Human-Agent-Action-Management** (HAAM) is an agentic coding framework for call center audio analysis, feature aggregation, risk scoring, and visualization.
 
-The **Hierarchical Attention-based Agent Monitoring (HAAM)** framework is designed for **real-time, multimodal monitoring of call center interactions**. It goes beyond traditional text-only sentiment analysis by integrating **audio and text data** through deep learning, attention mechanisms, and explainable AI (XAI).
+## Features
+- **Sprint Layer**: Processes audio calls, transcribes text, and extracts sentiment/emotions.
+- **Marathon Layer**: Aggregates data into time-series, calculates rolling trends, and scores burnout risk.
+- **API**: FastAPI backend for real-time processing and data retrieval.
+- **Dashboard**: React-based UI for monitoring calls and agent risk profiles.
 
-HAAM enables organizations to:
+---
 
-* Capture emotional nuances in customer-agent conversations.
-* Detect workload trends and early signs of agent fatigue or burnout.
-* Provide actionable, transparent feedback for supervisors.
-* Scale to handle all calls in **real-time** with multilingual and cross-industry adaptability.
+## Installation
+
+### Prerequisites
+- Python 3.8+
+- Node.js 14+
+- FFmpeg (for audio processing)
+
+### Setup
+1. **Clone the repository**:
+   ```bash
+   git clone <repo-url>
+   cd haam_framework
+   ```
+
+2. **Install Python dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Install Dashboard dependencies**:
+   ```bash
+   cd src/dashboard
+   npm install
+   cd ../..
+   ```
+
+4. **Environment Configuration**:
+   Create a `.env` file (optional, defaults provided):
+   ```env
+   # API Configuration
+   HOST=0.0.0.0
+   PORT=8000
+   ```
+
+---
+
+## Quick Start
+
+### 1. Start the API
+```bash
+uvicorn src.api.app:app --reload --port 8000
+```
+
+### 2. Start the Dashboard
+In a new terminal:
+```bash
+cd src/dashboard
+npm start
+```
+Access the dashboard at [http://localhost:3000](http://localhost:3000).
+
+### 3. Process a Call
+Upload a .wav file via the **Calls List** page in the dashboard or use Curl:
+```bash
+curl -X POST http://localhost:8000/api/calls/process \
+  -F "file=@sample.wav" \
+  -F "agent_id=agent_01" \
+  -F "call_id=call_001"
+```
+
+---
+
+## Architecture
+
+### Sprint Layer (`src/sprint_layer`)
+- **Input**: Audio file (WAV/MP3)
+- **Process**: 
+  - `librosa` for acoustic features (pitch, speech rate).
+  - `openai-whisper` for transcription.
+  - Transformer models for Sentiment & Emotion analysis.
+- **Output**: JSON file (`results/calls/call_{id}.json`).
+
+### Marathon Layer (`src/marathon_layer`)
+- **Input**: Collection of call JSONs.
+- **Process**:
+  - `aggregate_features.py`: Aggregates daily metrics and calculates rolling 7-day trends.
+  - `risk_scoring.py`: Evaluates risk factors (Sentiment Decline, Stress, Anger, etc.).
+- **Output**: Risk Scores CSV and actionable recommendations.
+
+### Data Flow
+`Audio` -> **Sprint Pipeline** -> `JSON` -> **Feature Aggregation** -> `Time-Series CSV` -> **Risk Scoring** -> `Risk Profiles` -> **API/Dashboard**
+
+---
+
+## API Documentation
+
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/api/calls/process` | POST | Upload and process audio (Async). |
+| `/api/calls` | GET | List processed calls. |
+| `/api/calls/{id}` | GET | Get detailed metrics & transcript. |
+| `/api/agents` | GET | List agents stats. |
+| `/api/agents/{id}/risk` | GET | Get specific agent risk profile. |
+| `/api/marathon/aggregate` | POST | Trigger feature aggregation. |
+| `/api/marathon/update-risk` | POST | Trigger risk scoring. |
+
+---
+
+## Dashboard
+
+### Pages
+- **Calls List**: Filterable table of all processed calls. Upload interface.
+- **Call Detail**: Interactive transcript with sentiment analysis per segment. Charts for emotion timeline.
+- **Agent Risk**: High-level view of agent burnout risk. 
+- **Analytics**: System-wide overview of call volume, sentiment trends, and emotion distribution.
+
+---
+
+## Development
+
+### Running Tests
+Run the integration suite:
+```bash
+pytest tests/integration_test.py
+```
+
+### Directory Structure
+```
+src/
+├── api/             # FastAPI App
+├── dashboard/       # React App
+├── feature_store/   # Aggregation Logic
+├── marathon_layer/  # Risk Scoring
+└── sprint_layer/    # Audio Processing
+tests/               # Integration Tests
+results/             # Output Directory
+```
+
+## Deployment with Docker
+
+1. **Build and Run**:
+   ```bash
+   docker-compose up --build
+   ```
+
+2. **Access**:
+   - API: `http://localhost:8000`
+   - Dashboard: `http://localhost:3000` (mapped port)
 
 ---
 
