@@ -1,6 +1,15 @@
 torch
+torchaudio
 transformers
 datasets
 librosa
 pyannote.audio
 moviepy
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+flask
+python-dotenv
+tqdm
