@@ -1,8 +1,6 @@
 # Ignore data and results
-data/
 xai_results/
-*.csv
-*.png
+
 
 
 # Ignore model checkpoints
