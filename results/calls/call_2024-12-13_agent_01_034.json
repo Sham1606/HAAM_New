@@ -1,0 +1,28 @@
+{
+  "call_id": "call_2024-12-13_agent_01_034",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T18:18:36.718921",
+  "duration_seconds": 5.0,
+  "transcript": "It's a moment of cock.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "It's a moment of cock.",
+      "emotion": "disgust",
+      "sentiment_score": 0.0543,
+      "pitch_mean": 281.21
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0543,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 59.94,
+    "avg_pitch": 279.1
+  }
+}
