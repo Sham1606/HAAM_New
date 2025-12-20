@@ -1,8 +1,8 @@
 {
   "summary": {
     "total_calls": 90,
-    "correct_predictions": 0,
-    "overall_accuracy": 0.0
+    "correct_predictions": 13,
+    "overall_accuracy": 14.44
   },
   "per_emotion_accuracy": {
     "anger": {
@@ -12,8 +12,8 @@
     },
     "joy": {
       "total": 15,
-      "correct": 0,
-      "accuracy": 0.0
+      "correct": 1,
+      "accuracy": 6.67
     },
     "sadness": {
       "total": 15,
@@ -22,8 +22,8 @@
     },
     "neutral": {
       "total": 15,
-      "correct": 0,
-      "accuracy": 0.0
+      "correct": 12,
+      "accuracy": 80.0
     },
     "fear": {
       "total": 15,
@@ -36,6 +36,31 @@
       "accuracy": 0.0
     }
   },
-  "confusion_pairs": {},
-  "agent_risk_profiles": []
+  "confusion_pairs": {
+    "anger -> surprise": 13,
+    "anger -> neutral": 1,
+    "anger -> joy": 1,
+    "joy -> surprise": 9,
+    "joy -> neutral": 5,
+    "joy -> joy": 1,
+    "sadness -> neutral": 14,
+    "sadness -> disgust": 1,
+    "neutral -> neutral": 12,
+    "neutral -> surprise": 2,
+    "neutral -> disgust": 1,
+    "fear -> neutral": 5,
+    "fear -> surprise": 10,
+    "disgust -> neutral": 11,
+    "disgust -> surprise": 4
+  },
+  "agent_risk_profiles": [
+    {
+      "agent_id": "agent_01",
+      "risk_score": 0.0,
+      "risk_level": "low",
+      "top_factor": "none",
+      "recommendation_count": 1,
+      "details_json": "{\"agent_id\": \"agent_01\", \"risk_score\": 0.0, \"risk_level\": \"low\", \"trend_direction\": \"improving\", \"risk_factors\": [], \"recommendations\": [\"Maintain current performance\"], \"key_metrics\": {\"current_sentiment\": 0.17, \"baseline_sentiment\": 0.17, \"current_stress\": 0.23}}"
+    }
+  ]
 }

@@ -6,7 +6,7 @@ import csv
 from datetime import datetime, timedelta
 
 # Configuration
-CREMAD_SOURCE = r"C:\Users\ASUS\Downloads\CREMA-D-1.0\CREMA-D-1.0\AudioWAV"
+CREMAD_SOURCE = r"D:\haam_framework\crema-d-mirror-main\AudioWAV"
 TARGET_DIR = r"D:\haam_framework\data\cremad_samples"
 GROUND_TRUTH_FILE = r"D:\haam_framework\data\cremad_ground_truth.csv"
 

@@ -11,6 +11,8 @@ import whisper
 from transformers import pipeline
 from datetime import datetime
 import warnings
+import soundfile as sf
+
 
 # Suppress warnings for cleaner output
 warnings.filterwarnings("ignore")
@@ -163,6 +165,27 @@ class SprintPipeline:
 
         return emotion_label, sentiment_score
 
+    def load_audio_robust(self, audio_path, target_sr=16000):
+        """
+        Load audio using soundfile to avoid ffmpeg dependency issues.
+        Returns: y (np.array), sr (int)
+        """
+        try:
+            y, sr = sf.read(audio_path)
+            # Convert to mono if stereo
+            if len(y.shape) > 1:
+                y = y.mean(axis=1)
+            
+            # Resample if needed
+            if sr != target_sr:
+                y = librosa.resample(y, orig_sr=sr, target_sr=target_sr)
+                sr = target_sr
+                
+            return y, sr
+        except Exception as e:
+            logger.error(f"Robust load failed: {e}")
+            raise
+
     def process_call(self, audio_path, agent_id, call_id):
         """
         Main processing function for a single call.
@@ -176,16 +199,24 @@ class SprintPipeline:
         # 1. Load Audio & Extract Acoustic Features
         logger.info("Extracting acoustic features...")
         try:
-            # Load with librosa
-            y, sr = librosa.load(audio_path, sr=16000) 
+            # Load with robust loader
+            y, sr = self.load_audio_robust(audio_path, target_sr=16000) 
             acoustic_features = self.extract_acoustic_features(y, sr)
         except Exception as e:
+            import traceback
             logger.error(f"Failed to load audio: {e}")
+            logger.error(traceback.format_exc())
             raise
 
         # 2. Transcribe
         logger.info("Transcribing audio...")
-        transcription_result = self.transcribe_audio(audio_path)
+        # Dictionary expected by transcribe_audio used to take path. 
+        # But self.whisper_model.transcribe can take array.
+        # Let's adjust transcribe_audio to take audio_path OR array.
+        # Or just call model directly here?
+        # Let's check transcribe_audio signature. It uses self.whisper_model.transcribe(path).
+        # We can pass 'y' (float32 array) to it instead of path.
+        transcription_result = self.whisper_model.transcribe(y.astype(np.float32))
         full_transcript = transcription_result['text']
         whisper_segments = transcription_result['segments']
 
