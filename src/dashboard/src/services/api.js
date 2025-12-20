@@ -1,7 +1,7 @@
 
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:8000/api';
+const API_BASE_URL = 'http://localhost:8001/api';
 
 const api = axios.create({
     baseURL: API_BASE_URL,
@@ -20,9 +20,7 @@ api.interceptors.response.use(
 export const callsAPI = {
     getAll: (params) => api.get('/calls', { params }),
     getById: (id) => api.get(`/calls/${id}`),
-    process: (formData) => api.post('/calls/process', formData, {
-        headers: { 'Content-Type': 'multipart/form-data' }
-    })
+    process: (formData) => api.post('/calls/process', formData)
 };
 
 export const agentsAPI = {
