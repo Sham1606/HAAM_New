@@ -1,0 +1,65 @@
+{
+  "call_id": "call_053",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-19T00:00:00",
+  "duration_seconds": 150.59197385724758,
+  "transcript": "Sample call transcript for agent_01",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 30.12,
+      "text": "This is a sample segment 1 representative of the conversation.",
+      "emotion": "joy",
+      "sentiment_score": 0.5389,
+      "pitch_mean": 290.06
+    },
+    {
+      "start_time": 30.12,
+      "end_time": 60.24,
+      "text": "This is a sample segment 2 representative of the conversation.",
+      "emotion": "neutral",
+      "sentiment_score": 0.475,
+      "pitch_mean": 277.1
+    },
+    {
+      "start_time": 60.24,
+      "end_time": 90.36,
+      "text": "This is a sample segment 3 representative of the conversation.",
+      "emotion": "anger",
+      "sentiment_score": 0.5059,
+      "pitch_mean": 252.4
+    },
+    {
+      "start_time": 90.36,
+      "end_time": 120.47,
+      "text": "This is a sample segment 4 representative of the conversation.",
+      "emotion": "anger",
+      "sentiment_score": 0.2423,
+      "pitch_mean": 196.07
+    },
+    {
+      "start_time": 120.47,
+      "end_time": 150.59,
+      "text": "This is a sample segment 5 representative of the conversation.",
+      "emotion": "sadness",
+      "sentiment_score": 0.3966,
+      "pitch_mean": 204.62
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.34520957265388785,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 0.2,
+      "neutral": 0.5,
+      "anger": 0.15,
+      "sadness": 0.1,
+      "fear": 0.03,
+      "surprise": 0.02
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.3788260985780574,
+    "avg_pitch": 236.34064058230297,
+    "speech_rate_wpm": 120.0
+  }
+}

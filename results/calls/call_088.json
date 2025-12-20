@@ -1,0 +1,81 @@
+{
+  "call_id": "call_088",
+  "agent_id": "agent_02",
+  "timestamp": "2025-12-15T00:00:00",
+  "duration_seconds": 176.25344516363896,
+  "transcript": "Sample call transcript for agent_02",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 25.18,
+      "text": "This is a sample segment 1 representative of the conversation.",
+      "emotion": "neutral",
+      "sentiment_score": -0.3966,
+      "pitch_mean": 212.02
+    },
+    {
+      "start_time": 25.18,
+      "end_time": 50.36,
+      "text": "This is a sample segment 2 representative of the conversation.",
+      "emotion": "neutral",
+      "sentiment_score": -0.66,
+      "pitch_mean": 295.98
+    },
+    {
+      "start_time": 50.36,
+      "end_time": 75.54,
+      "text": "This is a sample segment 3 representative of the conversation.",
+      "emotion": "neutral",
+      "sentiment_score": -0.2506,
+      "pitch_mean": 277.86
+    },
+    {
+      "start_time": 75.54,
+      "end_time": 100.72,
+      "text": "This is a sample segment 4 representative of the conversation.",
+      "emotion": "neutral",
+      "sentiment_score": -0.116,
+      "pitch_mean": 268.94
+    },
+    {
+      "start_time": 100.72,
+      "end_time": 125.9,
+      "text": "This is a sample segment 5 representative of the conversation.",
+      "emotion": "neutral",
+      "sentiment_score": -0.521,
+      "pitch_mean": 257.39
+    },
+    {
+      "start_time": 125.9,
+      "end_time": 151.07,
+      "text": "This is a sample segment 6 representative of the conversation.",
+      "emotion": "sadness",
+      "sentiment_score": -0.4346,
+      "pitch_mean": 205.72
+    },
+    {
+      "start_time": 151.07,
+      "end_time": 176.25,
+      "text": "This is a sample segment 7 representative of the conversation.",
+      "emotion": "sadness",
+      "sentiment_score": -0.1633,
+      "pitch_mean": 226.32
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.40538717023638793,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 0.2,
+      "neutral": 0.5,
+      "anger": 0.15,
+      "sadness": 0.1,
+      "fear": 0.03,
+      "surprise": 0.02
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5237399767343474,
+    "avg_pitch": 210.84487605398076,
+    "speech_rate_wpm": 120.0
+  }
+}

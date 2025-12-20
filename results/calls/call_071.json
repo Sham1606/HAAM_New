@@ -1,0 +1,49 @@
+{
+  "call_id": "call_071",
+  "agent_id": "agent_02",
+  "timestamp": "2025-12-12T00:00:00",
+  "duration_seconds": 174.28780148212425,
+  "transcript": "Sample call transcript for agent_02",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 58.1,
+      "text": "This is a sample segment 1 representative of the conversation.",
+      "emotion": "sadness",
+      "sentiment_score": -0.568,
+      "pitch_mean": 179.55
+    },
+    {
+      "start_time": 58.1,
+      "end_time": 116.19,
+      "text": "This is a sample segment 2 representative of the conversation.",
+      "emotion": "anger",
+      "sentiment_score": -0.2921,
+      "pitch_mean": 258.27
+    },
+    {
+      "start_time": 116.19,
+      "end_time": 174.29,
+      "text": "This is a sample segment 3 representative of the conversation.",
+      "emotion": "sadness",
+      "sentiment_score": -0.5786,
+      "pitch_mean": 261.59
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3543578113096718,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 0.2,
+      "neutral": 0.5,
+      "anger": 0.15,
+      "sadness": 0.1,
+      "fear": 0.03,
+      "surprise": 0.02
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.11521797771679243,
+    "avg_pitch": 181.09970253735574,
+    "speech_rate_wpm": 120.0
+  }
+}

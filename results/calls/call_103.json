@@ -1,0 +1,89 @@
+{
+  "call_id": "call_103",
+  "agent_id": "agent_02",
+  "timestamp": "2025-12-18T00:00:00",
+  "duration_seconds": 136.96584214709065,
+  "transcript": "Sample call transcript for agent_02",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 17.12,
+      "text": "This is a sample segment 1 representative of the conversation.",
+      "emotion": "joy",
+      "sentiment_score": 0.669,
+      "pitch_mean": 234.06
+    },
+    {
+      "start_time": 17.12,
+      "end_time": 34.24,
+      "text": "This is a sample segment 2 representative of the conversation.",
+      "emotion": "neutral",
+      "sentiment_score": 0.6161,
+      "pitch_mean": 206.98
+    },
+    {
+      "start_time": 34.24,
+      "end_time": 51.36,
+      "text": "This is a sample segment 3 representative of the conversation.",
+      "emotion": "joy",
+      "sentiment_score": 0.8285,
+      "pitch_mean": 267.2
+    },
+    {
+      "start_time": 51.36,
+      "end_time": 68.48,
+      "text": "This is a sample segment 4 representative of the conversation.",
+      "emotion": "joy",
+      "sentiment_score": 0.8015,
+      "pitch_mean": 177.04
+    },
+    {
+      "start_time": 68.48,
+      "end_time": 85.6,
+      "text": "This is a sample segment 5 representative of the conversation.",
+      "emotion": "sadness",
+      "sentiment_score": 0.8495,
+      "pitch_mean": 237.54
+    },
+    {
+      "start_time": 85.6,
+      "end_time": 102.72,
+      "text": "This is a sample segment 6 representative of the conversation.",
+      "emotion": "anger",
+      "sentiment_score": 0.6668,
+      "pitch_mean": 175.06
+    },
+    {
+      "start_time": 102.72,
+      "end_time": 119.85,
+      "text": "This is a sample segment 7 representative of the conversation.",
+      "emotion": "anger",
+      "sentiment_score": 0.4982,
+      "pitch_mean": 250.14
+    },
+    {
+      "start_time": 119.85,
+      "end_time": 136.97,
+      "text": "This is a sample segment 8 representative of the conversation.",
+      "emotion": "joy",
+      "sentiment_score": 0.4921,
+      "pitch_mean": 196.1
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.715375292921651,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "joy": 0.2,
+      "neutral": 0.5,
+      "anger": 0.15,
+      "sadness": 0.1,
+      "fear": 0.03,
+      "surprise": 0.02
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5660149671705443,
+    "avg_pitch": 192.34685485042291,
+    "speech_rate_wpm": 120.0
+  }
+}

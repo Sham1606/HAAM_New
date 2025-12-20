@@ -1,0 +1,73 @@
+{
+  "call_id": "call_044",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-18T00:00:00",
+  "duration_seconds": 259.50633177993546,
+  "transcript": "Sample call transcript for agent_01",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 43.25,
+      "text": "This is a sample segment 1 representative of the conversation.",
+      "emotion": "neutral",
+      "sentiment_score": -0.5183,
+      "pitch_mean": 157.58
+    },
+    {
+      "start_time": 43.25,
+      "end_time": 86.5,
+      "text": "This is a sample segment 2 representative of the conversation.",
+      "emotion": "anger",
+      "sentiment_score": -0.7337,
+      "pitch_mean": 286.45
+    },
+    {
+      "start_time": 86.5,
+      "end_time": 129.75,
+      "text": "This is a sample segment 3 representative of the conversation.",
+      "emotion": "neutral",
+      "sentiment_score": -0.5806,
+      "pitch_mean": 201.88
+    },
+    {
+      "start_time": 129.75,
+      "end_time": 173.0,
+      "text": "This is a sample segment 4 representative of the conversation.",
+      "emotion": "joy",
+      "sentiment_score": -0.338,
+      "pitch_mean": 161.59
+    },
+    {
+      "start_time": 173.0,
+      "end_time": 216.26,
+      "text": "This is a sample segment 5 representative of the conversation.",
+      "emotion": "neutral",
+      "sentiment_score": -0.4773,
+      "pitch_mean": 198.63
+    },
+    {
+      "start_time": 216.26,
+      "end_time": 259.51,
+      "text": "This is a sample segment 6 representative of the conversation.",
+      "emotion": "sadness",
+      "sentiment_score": -0.7854,
+      "pitch_mean": 174.38
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4980030914654376,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "joy": 0.2,
+      "neutral": 0.5,
+      "anger": 0.15,
+      "sadness": 0.1,
+      "fear": 0.03,
+      "surprise": 0.02
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.6467915815452089,
+    "avg_pitch": 231.75361215700113,
+    "speech_rate_wpm": 120.0
+  }
+}
