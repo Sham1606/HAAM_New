@@ -3,33 +3,33 @@ CREMA-D VALIDATION REPORT
 
 1. DATASET SUMMARY
    Total Calls Processed: 2232
-   Correct Predictions:   690
-   Overall Accuracy:      30.91%
+   Correct Predictions:   1562
+   Overall Accuracy:      69.98%
 
 2. PER-EMOTION RESULTS
-   sadness    :  61.6% (229/372) ████████████░░░░░░░░
-   anger      :  57.3% (213/372) ███████████░░░░░░░░░
-   neutral    :  32.8% (122/372) ██████░░░░░░░░░░░░░░
-   disgust    :  16.1% (60/372) ███░░░░░░░░░░░░░░░░░
-   fear       :  11.0% (41/372) ██░░░░░░░░░░░░░░░░░░
-   joy        :   6.7% (25/372) █░░░░░░░░░░░░░░░░░░░
+   neutral    :  84.7% (315/372) ████████████████░░░░
+   anger      :  80.9% (301/372) ████████████████░░░░
+   sadness    :  79.8% (297/372) ███████████████░░░░░
+   disgust    :  62.4% (232/372) ████████████░░░░░░░░
+   joy        :  60.5% (225/372) ████████████░░░░░░░░
+   fear       :  51.6% (192/372) ██████████░░░░░░░░░░
 
 3. COMMON MISCLASSIFICATIONS (Top 10)
-   sadness -> sadness   : 229 times
-   anger -> anger       : 213 times
-   joy -> neutral       : 145 times
-   neutral -> neutral   : 122 times
-   disgust -> neutral   : 122 times
-   fear -> sadness      : 99 times
-   neutral -> sadness   : 88 times
-   fear -> neutral      : 82 times
-   anger -> neutral     : 81 times
-   fear -> anger        : 80 times
+   neutral -> neutral   : 315 times
+   anger -> anger       : 301 times
+   sadness -> sadness   : 297 times
+   disgust -> disgust   : 232 times
+   joy -> joy           : 225 times
+   fear -> fear         : 192 times
+   fear -> anger        : 51 times
+   fear -> sadness      : 50 times
+   disgust -> sadness   : 46 times
+   joy -> anger         : 42 times
 
 4. AGENT RISK PROFILES
    No risk profiles generated.
 
 5. ASSESSMENT
    STATUS: FAILED. The model is below the 70% accuracy threshold.
-   Best Performance: sadness
-   Worst Performance: joy
+   Best Performance: neutral
+   Worst Performance: fear
