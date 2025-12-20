@@ -180,9 +180,26 @@ async def get_call_detail(call_id: str):
     """
     Get full details for a specific call.
     """
-    fpath = os.path.join(CALLS_DIR, f"call_{call_id}.json")
+    call_id_clean = call_id
+    if call_id.startswith("call_") and not os.path.exists(os.path.join(CALLS_DIR, f"call_{call_id}.json")):
+         # If ID is 'call_049' and file is 'call_049.json', we shouldn't add prefix.
+         # The formatting below adds 'call_', so if input is 'call_049', it becomes 'call_call_049'.
+         # If file is 'call_049.json', we want just 'call_049.json'.
+         # Let's try direct first.
+         if os.path.exists(os.path.join(CALLS_DIR, f"{call_id}.json")):
+             fpath = os.path.join(CALLS_DIR, f"{call_id}.json")
+         else:
+             fpath = os.path.join(CALLS_DIR, f"call_{call_id}.json")
+    else:
+        fpath = os.path.join(CALLS_DIR, f"call_{call_id}.json")
+
     if not os.path.exists(fpath):
-        raise HTTPException(status_code=404, detail="Call not found")
+        # Fallback: maybe ID was '049' but file is 'call_049.json'
+        # Or ID is 'call_049' but file is 'call_049.json'
+        if os.path.exists(os.path.join(CALLS_DIR,  f"{call_id}.json")):
+             fpath = os.path.join(CALLS_DIR, f"{call_id}.json")
+        else:
+             raise HTTPException(status_code=404, detail=f"Call not found: {call_id}")
         
     with open(fpath, 'r') as f:
         data = json.load(f)

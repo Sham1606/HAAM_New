@@ -21,7 +21,7 @@ class OverallMetricsModel(BaseModel):
     emotion_distribution: Dict[str, float]
     escalation_flag: bool
     agent_stress_score: float
-    speech_rate_wpm: float
+    speech_rate_wpm: Optional[float] = 0.0
     avg_pitch: float
 
 class CallDetailResponse(BaseModel):
