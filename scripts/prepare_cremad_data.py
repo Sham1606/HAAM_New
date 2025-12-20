@@ -73,7 +73,8 @@ def main():
         if meta and meta['expected_emotion']:
             emotion_groups[meta['expected_emotion']].append(meta)
 
-    # 2. Select balanced sample (15 per emotion)
+    # 2. Select balanced sample (372 per emotion ≈ 2230 total)
+    SAMPLES_PER_EMOTION = 372
     selected_samples = []
     
     print("\nEmotion distribution (Source / Selected):")
@@ -81,8 +82,14 @@ def main():
         # Sort by intensity (HI > MD > LO > XX)
         sorted_samples = sorted(samples, key=lambda x: INTENSITY_PRIORITY.get(x['intensity'], 0), reverse=True)
         
-        # Select top 15
-        selection = sorted_samples[:15]
+        # Select target amount
+        available = len(sorted_samples)
+        if available < SAMPLES_PER_EMOTION:
+            print(f"  Note: Only {available} samples available for {emotion}, requested {SAMPLES_PER_EMOTION}")
+            selection = sorted_samples
+        else:
+            selection = sorted_samples[:SAMPLES_PER_EMOTION]
+            
         selected_samples.extend(selection)
         print(f"  {emotion:<10}: {len(samples):<5} / {len(selection)}")
 

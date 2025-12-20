@@ -25,11 +25,126 @@ def main():
     per_emotion = report['per_emotion_accuracy']
     confusion = report['confusion_pairs']
     
+    # NOTE: The following statistical analysis assumes 'validation_data' is available,
+    # which should be a list of dictionaries like [{'expected': 'happy', 'detected': 'sad', 'match': False}, ...]
+    # This variable is not defined in the provided context. You may need to load it from the report.
+    # For example: validation_data = report.get('predictions', [])
+    
     # 1. Confusion Matrix Heatmap
-    # Parse confusion pairs into a DataFrame
-    # Key format: "Expected -> Detected"
+    # Parse    # Confusion Matrix
+    print("\nConfusion Matrix:")
+    
+    # Get all emotions
+    # This part assumes 'validation_data' is available. If not, it will cause an error.
+    # As a placeholder, using emotions from per_emotion if validation_data is not present.
+
+    # Construct validation_data list for detailed analysis
+    # Construct validation_data list for detailed analysis
+    validation_data = []
+    
+    # Reconstruct synthetic validation_data from per_emotion_stats for CI calculation
+    for emo, stats in per_emotion.items():
+        total = stats['total']
+        correct = stats['correct']
+        incorrect = total - correct
+        
+        # Append correct instances
+        for _ in range(correct):
+            validation_data.append({'expected': emo, 'detected': emo, 'match': True})
+            
+        # Append incorrect instances (we don't know *what* they were detected as, only that they were wrong)
+        # But for CONFIDENCE INTERVALS on ACCURACY, we only need Match/NoMatch.
+        for _ in range(incorrect):
+            validation_data.append({'expected': emo, 'detected': 'unknown', 'match': False})
+            
+    # For Chi-Square on the Matrix, we need the full matrix from confusion_pairs
+    unique_emotions = sorted(per_emotion.keys())
+    matrix_data = {e: {d: 0 for d in unique_emotions} for e in unique_emotions}
+    
+    for pair, count in confusion.items():
+        parts = pair.split(' -> ')
+        if len(parts) == 2:
+            exp, det = parts
+            if exp in matrix_data and det in matrix_data[exp]:
+                matrix_data[exp][det] = count
+                
+    conf_matrix = pd.DataFrame(matrix_data).T.fillna(0) # Rows=Expected, Cols=Detected
+    print("\nConfusion Matrix:")
+    print(conf_matrix)
+
+    # Statistical Significance Analysis (Chi-Square)
+    try:
+        from scipy import stats
+        import numpy as np
+        print("\nStatistical Significance Analysis:")
+        print("-" * 70)
+
+        # Chi-square test
+        total_obs = conf_matrix.sum().sum()
+        if total_obs > 0:
+            expected_random = total_obs / len(unique_emotions)
+            
+            chi2_statistic = 0
+            for emotion in unique_emotions:
+                observed = conf_matrix.loc[emotion, emotion]
+                # Goodness of fit for "Diagonal vs Random"? 
+                # Or standard Chi-Square test of independence for the whole matrix?
+                # The user requested "Chi-square test for overall performance" comparing diagonal to random.
+                # observed diagonal vs expected random diagonal.
+                chi2_statistic += (observed - expected_random) ** 2 / expected_random
+
+            p_value = 1 - stats.chi2.cdf(chi2_statistic, df=len(unique_emotions)-1)
+
+            print(f"Chi-square statistic: {chi2_statistic:.2f}")
+            print(f"P-value: {p_value:.4f}")
+
+            if p_value < 0.001:
+                print("✅ Results are HIGHLY statistically significant (p < 0.001)")
+            elif p_value < 0.05:
+                print("✅ Results are statistically significant (p < 0.05)")
+            else:
+                print("⚠️ Results may not be statistically significant")
+            
+        # 95% Confidence Intervals
+        print("\n95% Confidence Intervals:")
+        print("-" * 70)
+
+        for emotion in unique_emotions:
+            stats_emo = per_emotion.get(emotion, {'total':0, 'correct':0})
+            n = stats_emo['total']
+            correct = stats_emo['correct']
+            
+            if n == 0:
+                print(f"{emotion:10s}: No data")
+                continue
+                
+            accuracy = correct / n
+            
+            # Wilson score interval
+            z = 1.96
+            denominator = 1 + z**2 / n
+            centre = (accuracy + z**2 / (2*n)) / denominator
+            adjustment = z * np.sqrt((accuracy * (1 - accuracy) + z**2 / (4*n)) / n) / denominator
+            
+            ci_lower = max(0, centre - adjustment)
+            ci_upper = min(1, centre + adjustment)
+            
+            print(f"{emotion:10s}: {accuracy:.3f} [{ci_lower:.3f}, {ci_upper:.3f}]")
+            
+    except ImportError:
+        print("\nSkipping statistical analysis (scipy or numpy not installed)")
+    except Exception as e:
+        print(f"\nStats error: {e}")
+    # End of new statistical analysis block
+    
+    # Original confusion matrix heatmap generation (using df_cm from earlier)
+    # If validation_data was present, df_cm would need to be created from conf_matrix
+    # For now, assuming the original df_cm generation logic is still desired for the plot
+    # and the new conf_matrix is for console output.
+    
+    # Re-creating df_cm for the plot, ensuring it's always available
     emotions = sorted(per_emotion.keys())
-    matrix_data = {e: {d: 0 for d in emotions} for e in emotions}
+    matrix_data = {e: {d: 0 for d in emotions} for e in emotions} # Initialize with all emotions
     
     for pair, count in confusion.items():
         parts = pair.split(' -> ')

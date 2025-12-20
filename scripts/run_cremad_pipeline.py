@@ -99,8 +99,39 @@ def main():
 
     print("\nStarting processing...")
     
+    # Configuration for large dataset
+    BATCH_SIZE = 100
+    ENABLE_CHECKPOINT = True
+    checkpoint_file = "cremad_processing_checkpoint.json"
+    
+    # Load checkpoint if exists
+    results = []
+    processed_ids = set()
+    
+    if ENABLE_CHECKPOINT and os.path.exists(checkpoint_file):
+        try:
+            with open(checkpoint_file, 'r') as f:
+                results = json.load(f)
+            processed_ids = {r['call_id'] for r in results}
+            print(f"Resuming from checkpoint: {len(results)} calls already processed.")
+            # Update metrics from checkpoint
+            for res in results:
+                expected = res.get('expected_emotion') # Need to ensure we have this. 
+                # Actually, results in JSON usually don't store 'expected_emotion' unless we put it there.
+                # However, we can re-calculate metrics at end.
+                # Just keeping processed_ids is enough to skip.
+        except Exception as e:
+            print(f"Error loading checkpoint: {e}")
+
+    start_time = time.time()
+    
     for i, call in enumerate(tqdm(calls)):
         call_id = call['call_id']
+        
+        # Skip if already processed
+        if call_id in processed_ids:
+            continue
+            
         agent_id = call['agent_id']
         audio_path = call['local_path']
         expected = call['expected_emotion']
@@ -112,7 +143,6 @@ def main():
         
         try:
             # Process Call
-            # Note: process_call takes audio_path, agent_id, call_id
             result = pipeline.process_call(audio_path, agent_id, call_id)
             
             # Save JSON
@@ -120,25 +150,77 @@ def main():
             with open(out_file, 'w') as f:
                 json.dump(result, f, indent=2)
                 
-            # Check Result
-            # Logic: We check dominant_emotion from overall_metrics
-            detected = result['overall_metrics']['dominant_emotion']
+            # Add expected emotion to result for analysis later if needed (though ground truth has it)
+            # Add to results list for checkpointing
+            # We strictly only need call_id for checkpointing skip logic, but user might want intermediate result dump?
+            # Ideally minimal info to save memory if 2230 calls?
+            # Actually 2000 objects is small.
+            chk_data = {
+                'call_id': call_id,
+                'expected_emotion': expected,
+                'detected_emotion': result['overall_metrics']['dominant_emotion']
+            }
+            results.append(chk_data)
             
+            # Check Result
+            detected = result['overall_metrics']['dominant_emotion']
             is_match = (detected == expected)
             if is_match:
                 correct_count += 1
                 by_emotion[expected]['correct'] += 1
-                emoji = "MATCH"
-            else:
-                emoji = "MISS"
                 
             # Confusion tracking
             pair_key = f"{expected} -> {detected}"
             confusion_pairs[pair_key] = confusion_pairs.get(pair_key, 0) + 1
+            
+            # Progress update
+            if (i + 1) % 50 == 0:
+                elapsed = time.time() - start_time
+                # Avoid division by zero if resuming
+                active_processed = len(results) - len(processed_ids)
+                if active_processed > 0:
+                     rate = active_processed / elapsed
+                     remaining = (len(calls) - i - 1) / rate if rate > 0 else 0
+                     print(f"\n  Progress: {i + 1}/{len(calls)} ({(i+1)/len(calls)*100:.1f}%)")
+                     print(f"  Rate: {rate:.2f} calls/sec | ETA: {remaining/60:.1f} minutes")
+
+            # Checkpoint
+            if ENABLE_CHECKPOINT and len(results) % BATCH_SIZE == 0:
+                with open(checkpoint_file, 'w') as f:
+                    json.dump(results, f, indent=2)
+                print(f"  [Checkpoint saved: {len(results)} processed]")
 
         except Exception as e:
             print(f"Error processing {call_id}: {e}")
             continue
+
+    # Final checkpoint
+    if ENABLE_CHECKPOINT:
+        with open(checkpoint_file, 'w') as f:
+            json.dump(results, f, indent=2)
+
+    # Re-calculate correct counts from full results list to ensure accuracy matches checkpointed data
+    # (Since counters were initialized outside loop and we skipped some)
+    # Reset counters
+    correct_count = 0
+    by_emotion = {}
+    confusion_pairs = {}
+    
+    print("\nRecalculating metrics from all results...")
+    for res in results:
+        exp = res['expected_emotion']
+        det = res['detected_emotion']
+        
+        if exp not in by_emotion:
+            by_emotion[exp] = {'total': 0, 'correct': 0}
+        by_emotion[exp]['total'] += 1
+        
+        if exp == det:
+            correct_count += 1
+            by_emotion[exp]['correct'] += 1
+            
+        pair_key = f"{exp} -> {det}"
+        confusion_pairs[pair_key] = confusion_pairs.get(pair_key, 0) + 1
 
     # Marathon Layer
     print("\nRunning Marathon Layer aggregation...")

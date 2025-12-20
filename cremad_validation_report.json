@@ -1,66 +1,76 @@
 {
   "summary": {
-    "total_calls": 90,
-    "correct_predictions": 13,
-    "overall_accuracy": 14.44
+    "total_calls": 2232,
+    "correct_predictions": 690,
+    "overall_accuracy": 30.91
   },
   "per_emotion_accuracy": {
     "anger": {
-      "total": 15,
-      "correct": 0,
-      "accuracy": 0.0
-    },
-    "joy": {
-      "total": 15,
-      "correct": 1,
-      "accuracy": 6.67
+      "accuracy": 57.26,
+      "correct": 213,
+      "total": 372
     },
     "sadness": {
-      "total": 15,
-      "correct": 0,
-      "accuracy": 0.0
+      "accuracy": 61.56,
+      "correct": 229,
+      "total": 372
     },
     "neutral": {
-      "total": 15,
-      "correct": 12,
-      "accuracy": 80.0
+      "accuracy": 32.8,
+      "correct": 122,
+      "total": 372
     },
     "fear": {
-      "total": 15,
-      "correct": 0,
-      "accuracy": 0.0
+      "accuracy": 11.02,
+      "correct": 41,
+      "total": 372
     },
     "disgust": {
-      "total": 15,
-      "correct": 0,
-      "accuracy": 0.0
+      "accuracy": 16.13,
+      "correct": 60,
+      "total": 372
+    },
+    "joy": {
+      "accuracy": 6.72,
+      "correct": 25,
+      "total": 372
     }
   },
   "confusion_pairs": {
-    "anger -> surprise": 13,
-    "anger -> neutral": 1,
-    "anger -> joy": 1,
-    "joy -> surprise": 9,
-    "joy -> neutral": 5,
-    "joy -> joy": 1,
-    "sadness -> neutral": 14,
-    "sadness -> disgust": 1,
-    "neutral -> neutral": 12,
-    "neutral -> surprise": 2,
-    "neutral -> disgust": 1,
-    "fear -> neutral": 5,
-    "fear -> surprise": 10,
-    "disgust -> neutral": 11,
-    "disgust -> surprise": 4
-  },
-  "agent_risk_profiles": [
-    {
-      "agent_id": "agent_01",
-      "risk_score": 0.0,
-      "risk_level": "low",
-      "top_factor": "none",
-      "recommendation_count": 1,
-      "details_json": "{\"agent_id\": \"agent_01\", \"risk_score\": 0.0, \"risk_level\": \"low\", \"trend_direction\": \"improving\", \"risk_factors\": [], \"recommendations\": [\"Maintain current performance\"], \"key_metrics\": {\"current_sentiment\": 0.17, \"baseline_sentiment\": 0.17, \"current_stress\": 0.23}}"
-    }
-  ]
+    "anger -> anger": 213,
+    "anger -> neutral": 81,
+    "anger -> fear": 39,
+    "anger -> sadness": 10,
+    "anger -> disgust": 8,
+    "anger -> joy": 21,
+    "sadness -> fear": 20,
+    "sadness -> sadness": 229,
+    "sadness -> disgust": 70,
+    "sadness -> neutral": 43,
+    "sadness -> joy": 8,
+    "sadness -> anger": 2,
+    "neutral -> fear": 66,
+    "neutral -> sadness": 88,
+    "neutral -> disgust": 79,
+    "neutral -> neutral": 122,
+    "neutral -> joy": 17,
+    "fear -> disgust": 54,
+    "fear -> anger": 80,
+    "fear -> neutral": 82,
+    "fear -> fear": 41,
+    "fear -> sadness": 99,
+    "fear -> joy": 16,
+    "disgust -> fear": 76,
+    "disgust -> anger": 31,
+    "disgust -> sadness": 70,
+    "disgust -> disgust": 60,
+    "disgust -> neutral": 122,
+    "disgust -> joy": 13,
+    "joy -> anger": 66,
+    "joy -> neutral": 145,
+    "joy -> disgust": 52,
+    "joy -> sadness": 33,
+    "joy -> fear": 51,
+    "joy -> joy": 25
+  }
 }
