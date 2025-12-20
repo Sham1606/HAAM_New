@@ -283,3 +283,33 @@ MIT License (or specify if different)
 
 # HAAM
 THIS REPOSITORY INVOLVES IN A BUILDING AN INNOVATIVE FRAMEWORK FOR AUDIO TRANSCRIPTION AND DETECTION OF CONTEXT AS WELL AS EMOTION IN THE CONVERSATIONT THROUGH AUDIO CALLS
+
+## 🏃 Validation & Benchmarking
+
+The framework includes a validation suite to benchmark emotion detection accuracy against the **CREMA-D** dataset.
+
+### Steps to Run Validation
+
+1. **Prepare Data**:
+   This script scans your local CREMA-D dataset, selects balanced samples, and creates a ground truth CSV.
+   ```bash
+   python scripts/prepare_cremad_data.py
+   ```
+
+2. **Run Pipeline**:
+   Processes the 90 selected calls through the Sprint and Marathon layers. This may take 15-20 minutes.
+   ```bash
+   python scripts/run_cremad_pipeline.py
+   ```
+
+3. **Generate Report**:
+   Creates visualization charts and a detailed text report in the `docs/` directory.
+   ```bash
+   python scripts/validate_cremad_results.py
+   ```
+
+### Outputs
+- **Confusion Matrix**: `docs/cremad_confusion_matrix.png`
+- **Accuracy Chart**: `docs/cremad_accuracy_chart.png`
+- **Detailed Report**: `docs/cremad_detailed_report.txt`
+

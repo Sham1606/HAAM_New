@@ -80,9 +80,9 @@ def main():
             if is_match:
                 correct_count += 1
                 by_emotion[expected]['correct'] += 1
-                emoji = "✅ MATCH"
+                emoji = "MATCH"
             else:
-                emoji = "❌ MISS"
+                emoji = "MISS"
                 
             # Confusion tracking
             pair_key = f"{expected} -> {detected}"
@@ -102,7 +102,7 @@ def main():
     print("\nRunning Marathon Layer aggregation...")
     try:
         aggregate_sprint_to_timeseries(RESULTS_DIR, AGG_CSV)
-        print(f"✅ Aggregated data saved to {AGG_CSV}")
+        print(f"Aggregated data saved to {AGG_CSV}")
     except Exception as e:
         print(f"Aggregation failed: {e}")
 
@@ -113,7 +113,7 @@ def main():
         risk_df.to_csv(RISK_CSV, index=False)
         # Convert to dict for report
         risk_profiles = risk_df.to_dict(orient='records')
-        print(f"✅ Risk scores saved to {RISK_CSV}")
+        print(f"Risk scores saved to {RISK_CSV}")
     except Exception as e:
         print(f"Risk scoring failed: {e}")
 
@@ -151,7 +151,7 @@ def main():
     print("Per-Emotion Accuracy:")
     for emo, res in sorted(per_emotion_stats.items(), key=lambda x: x[1]['accuracy'], reverse=True):
         bars = int(res['accuracy'] / 5)
-        bar_str = "█" * bars + "░" * (20 - bars)
+        bar_str = "|" * bars + "." * (20 - bars)
         print(f"  {emo:<10}: {res['accuracy']:>5.1f}% ({res['correct']}/{res['total']}) {bar_str}")
 
 if __name__ == "__main__":

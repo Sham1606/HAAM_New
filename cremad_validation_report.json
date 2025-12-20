@@ -1,0 +1,41 @@
+{
+  "summary": {
+    "total_calls": 90,
+    "correct_predictions": 0,
+    "overall_accuracy": 0.0
+  },
+  "per_emotion_accuracy": {
+    "anger": {
+      "total": 15,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    "joy": {
+      "total": 15,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    "sadness": {
+      "total": 15,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    "neutral": {
+      "total": 15,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    "fear": {
+      "total": 15,
+      "correct": 0,
+      "accuracy": 0.0
+    },
+    "disgust": {
+      "total": 15,
+      "correct": 0,
+      "accuracy": 0.0
+    }
+  },
+  "confusion_pairs": {},
+  "agent_risk_profiles": []
+}

@@ -1,0 +1,35 @@
+CREMA-D VALIDATION REPORT
+=========================
+
+1. DATASET SUMMARY
+   Total Calls Processed: 90
+   Correct Predictions:   13
+   Overall Accuracy:      14.44%
+
+2. PER-EMOTION RESULTS
+   neutral    :  80.0% (12/15) ████████████████░░░░
+   joy        :   6.7% (1/15) █░░░░░░░░░░░░░░░░░░░
+   anger      :   0.0% (0/15) ░░░░░░░░░░░░░░░░░░░░
+   sadness    :   0.0% (0/15) ░░░░░░░░░░░░░░░░░░░░
+   fear       :   0.0% (0/15) ░░░░░░░░░░░░░░░░░░░░
+   disgust    :   0.0% (0/15) ░░░░░░░░░░░░░░░░░░░░
+
+3. COMMON MISCLASSIFICATIONS (Top 10)
+   sadness -> neutral   : 14 times
+   anger -> surprise    : 13 times
+   neutral -> neutral   : 12 times
+   disgust -> neutral   : 11 times
+   fear -> surprise     : 10 times
+   joy -> surprise      : 9 times
+   joy -> neutral       : 5 times
+   fear -> neutral      : 5 times
+   disgust -> surprise  : 4 times
+   neutral -> surprise  : 2 times
+
+4. AGENT RISK PROFILES
+   Agent agent_01: Risk Level = low (Score: 0.0)
+
+5. ASSESSMENT
+   STATUS: FAILED. The model is below the 70% accuracy threshold.
+   Best Performance: neutral
+   Worst Performance: disgust

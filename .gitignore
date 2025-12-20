@@ -3,7 +3,7 @@ data/
 xai_results/
 *.csv
 *.png
-*.json
+
 
 # Ignore model checkpoints
 saved_models/
