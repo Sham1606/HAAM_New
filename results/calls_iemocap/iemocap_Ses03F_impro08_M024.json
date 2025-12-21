@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro08_M024",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:29:09.012124",
+  "duration_seconds": 5.1,
+  "transcript": "10 hours. So basically a day is worth a minute, which I pay $40 a month from my",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.94,
+      "text": "10 hours. So basically a day is worth a minute, which I pay $40 a month from my",
+      "emotion": "neutral",
+      "emotion_confidence": 0.845,
+      "sentiment_score": 0.0951,
+      "pitch_mean": 332.37
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0951,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 211.76,
+    "avg_pitch": 332.54
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro08",
+    "utterance_id": "Ses03F_impro08_M024",
+    "transcript_ground_truth": "Ten hours? So, basically, a day's worth of minutes which I pay forty dollars a month from it."
+  }
+}

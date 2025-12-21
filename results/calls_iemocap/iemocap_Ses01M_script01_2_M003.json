@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script01_2_M003",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:04:31.637383",
+  "duration_seconds": 2.5,
+  "transcript": "How do you know has even been thinking about it?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "How do you know has even been thinking about it?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.727,
+      "sentiment_score": -0.2953,
+      "pitch_mean": 332.12
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2953,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 240.0,
+    "avg_pitch": 332.38
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_2",
+    "utterance_id": "Ses01M_script01_2_M003",
+    "transcript_ground_truth": "How do you know he's even thinking about it?"
+  }
+}

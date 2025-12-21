@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01F_script01_3_M032",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:37:14.580263",
+  "duration_seconds": 13.32,
+  "transcript": "to bring that on to the earth again, you know, as like some kind of monument. And I thought it would just make a difference to him.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "to bring that on to the earth again, you know, as like some kind of monument.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.776,
+      "sentiment_score": -0.2535,
+      "pitch_mean": 328.53
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 14.0,
+      "text": "And I thought it would just make a difference to him.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.1976,
+      "pitch_mean": 325.72
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2256,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 121.62,
+    "avg_pitch": 325.72
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_3",
+    "utterance_id": "Ses01F_script01_3_M032",
+    "transcript_ground_truth": "To bring that on to the earth again, you know, is like some kind of monument and I thought I would just make a difference to them."
+  }
+}

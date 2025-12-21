@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01F_impro02_M005",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:17:40.119919",
+  "duration_seconds": 4.95,
+  "transcript": "I don't know how you can be okay with this. I don't know why you're not. I'm not okay with it. I...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I don't know how you can be okay with this. I don't know why you're not.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.697,
+      "sentiment_score": -0.8994,
+      "pitch_mean": 331.51
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 5.0,
+      "text": "I'm not okay with it. I...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.8762,
+      "pitch_mean": 334.96
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8878,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 266.67,
+    "avg_pitch": 334.96
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro02",
+    "utterance_id": "Ses01F_impro02_M005",
+    "transcript_ground_truth": "I don't know how you can be okay with this?  I don't know why you're not-- you're fine with it."
+  }
+}

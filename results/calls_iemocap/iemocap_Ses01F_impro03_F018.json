@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses01F_impro03_F018",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:19:08.601135",
+  "duration_seconds": 2.92,
+  "transcript": "Penny slots. Penny slots. What do you place?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "Penny slots.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.793,
+      "sentiment_score": 0.1232,
+      "pitch_mean": 352.76
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 2.0,
+      "text": "Penny slots.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.793,
+      "sentiment_score": 0.1232,
+      "pitch_mean": 345.24
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "What do you place?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.532,
+      "sentiment_score": 0.0377,
+      "pitch_mean": 341.44
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0947,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 164.24,
+    "avg_pitch": 341.44
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.6667,
+    "arousal": 3.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro03",
+    "utterance_id": "Ses01F_impro03_F018",
+    "transcript_ground_truth": "Penny slots. That's what he plays."
+  }
+}

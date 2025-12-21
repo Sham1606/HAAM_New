@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02M_impro01_M014",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:47:54.162630",
+  "duration_seconds": 2.38,
+  "transcript": "This is ridiculous! Come on!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.52,
+      "text": "This is ridiculous!",
+      "emotion": "anger",
+      "emotion_confidence": 0.49,
+      "sentiment_score": -0.8458,
+      "pitch_mean": 323.92
+    },
+    {
+      "start_time": 1.52,
+      "end_time": 2.32,
+      "text": "Come on!",
+      "emotion": "anger",
+      "emotion_confidence": 0.724,
+      "sentiment_score": 0.5862,
+      "pitch_mean": 351.91
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1298,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 126.06,
+    "avg_pitch": 334.83
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro01",
+    "utterance_id": "Ses02M_impro01_M014",
+    "transcript_ground_truth": "This is ridiculous. Come on"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script03_2_F011",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:54:06.687110",
+  "duration_seconds": 4.45,
+  "transcript": "I don't see what you have to go on and on with this kind of thing.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.24,
+      "text": "I don't see what you have to go on and on with this kind of thing.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.417,
+      "sentiment_score": -0.8802,
+      "pitch_mean": 341.02
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8802,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 215.6,
+    "avg_pitch": 341.4
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script03_2",
+    "utterance_id": "Ses03M_script03_2_F011",
+    "transcript_ground_truth": "I don't see what you have to go on and on with this kind of thing."
+  }
+}

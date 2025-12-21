@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05F_impro05_M017",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:03:05.712463",
+  "duration_seconds": 7.75,
+  "transcript": "No, I understand. I mean, it's got to be tough almost sentimental things, but This is all I can do for you",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.48,
+      "text": "No, I understand. I mean, it's got to be tough almost sentimental things, but",
+      "emotion": "disgust",
+      "emotion_confidence": 0.454,
+      "sentiment_score": -0.3415,
+      "pitch_mean": 327.45
+    },
+    {
+      "start_time": 5.28,
+      "end_time": 7.28,
+      "text": "This is all I can do for you",
+      "emotion": "neutral",
+      "emotion_confidence": 0.641,
+      "sentiment_score": 0.8374,
+      "pitch_mean": 326.1
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.248,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 170.37,
+    "avg_pitch": 321.58
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro05",
+    "utterance_id": "Ses05F_impro05_M017",
+    "transcript_ground_truth": "No, I understand. I mean. It's got to be tough all those sentimental things, but um- this is all I can do for you."
+  }
+}

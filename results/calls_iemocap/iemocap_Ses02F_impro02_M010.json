@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02F_impro02_M010",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:21:07.735151",
+  "duration_seconds": 7.59,
+  "transcript": "God, it would just be so much better if we could stay together somehow. You know, we could do this together.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.24,
+      "text": "God, it would just be so much better if we could stay together somehow.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.589,
+      "sentiment_score": 0.9321,
+      "pitch_mean": 313.85
+    },
+    {
+      "start_time": 4.24,
+      "end_time": 7.24,
+      "text": "You know, we could do this together.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.851,
+      "sentiment_score": 0.8304,
+      "pitch_mean": 323.57
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.8812,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 166.05,
+    "avg_pitch": 318.22
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro02",
+    "utterance_id": "Ses02F_impro02_M010",
+    "transcript_ground_truth": "...it would be so much better if we can--if we could stay together somehow.  You know--we could--we could do this together."
+  }
+}

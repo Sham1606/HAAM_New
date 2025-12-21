@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script01_2_M008",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:28:02.140037",
+  "duration_seconds": 2.34,
+  "transcript": "You can't read her mind.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "You can't read her mind.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.504,
+      "sentiment_score": -0.7154,
+      "pitch_mean": 318.78
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7154,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 128.21,
+    "avg_pitch": 318.55
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script01_2",
+    "utterance_id": "Ses04F_script01_2_M008",
+    "transcript_ground_truth": "You can't read her mind."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro08b_M016",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:36:17.626128",
+  "duration_seconds": 3.39,
+  "transcript": "Throw in that, yeah, going there, telling Brent Braxton to say.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Throw in that, yeah, going there, telling Brent Braxton to say.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.866,
+      "sentiment_score": -0.0052,
+      "pitch_mean": 356.22
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0052,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 194.69,
+    "avg_pitch": 353.67
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro08b",
+    "utterance_id": "Ses03M_impro08b_M016",
+    "transcript_ground_truth": "Go in there, yeah, go in there.  Tell them Brent Backersen sent you."
+  }
+}

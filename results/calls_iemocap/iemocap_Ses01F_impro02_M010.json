@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro02_M010",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:17:58.862276",
+  "duration_seconds": 4.22,
+  "transcript": "What am I gonna do?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "What am I gonna do?",
+      "emotion": "sadness",
+      "emotion_confidence": 0.517,
+      "sentiment_score": -0.174,
+      "pitch_mean": 320.45
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.174,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 71.1,
+    "avg_pitch": 322.39
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro02",
+    "utterance_id": "Ses01F_impro02_M010",
+    "transcript_ground_truth": "What am I going to do? Huh?"
+  }
+}

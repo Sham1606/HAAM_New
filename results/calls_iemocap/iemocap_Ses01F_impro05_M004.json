@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01F_impro05_M004",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:25:35.835502",
+  "duration_seconds": 1.52,
+  "transcript": "Okay. We visit.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "Okay.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.402,
+      "sentiment_score": 0.2809,
+      "pitch_mean": 349.1
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 2.0,
+      "text": "We visit.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.595,
+      "sentiment_score": 0.1554,
+      "pitch_mean": 351.1
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2181,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 118.43,
+    "avg_pitch": 351.1
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.5,
+    "arousal": 1.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro05",
+    "utterance_id": "Ses01F_impro05_M004",
+    "transcript_ground_truth": "Okay."
+  }
+}

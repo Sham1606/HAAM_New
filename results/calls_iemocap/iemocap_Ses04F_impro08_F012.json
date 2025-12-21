@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04F_impro08_F012",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:19:59.049179",
+  "duration_seconds": 3.16,
+  "transcript": "Okay, sorry. Yeah, they have to send me a ch...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "Okay, sorry.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.711,
+      "sentiment_score": -0.3102,
+      "pitch_mean": 349.59
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 3.0,
+      "text": "Yeah, they have to send me a ch...",
+      "emotion": "joy",
+      "emotion_confidence": 0.44,
+      "sentiment_score": -0.0968,
+      "pitch_mean": 359.48
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2035,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 0.5,
+      "joy": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 189.88,
+    "avg_pitch": 351.14
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro08",
+    "utterance_id": "Ses04F_impro08_F012",
+    "transcript_ground_truth": "Okay, sir.  They- they have to-"
+  }
+}

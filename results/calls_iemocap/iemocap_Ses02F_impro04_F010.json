@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02F_impro04_F010",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:23:40.679095",
+  "duration_seconds": 6.22,
+  "transcript": "And what would make you say that? There doesn't seem to be any indicators. Then anything's gonna get better.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "And what would make you say that? There doesn't seem to be any indicators.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.384,
+      "sentiment_score": -0.5964,
+      "pitch_mean": 341.56
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "Then anything's gonna get better.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.692,
+      "sentiment_score": 0.7596,
+      "pitch_mean": 323.53
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0816,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 183.33,
+    "avg_pitch": 333.1
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 2.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro04",
+    "utterance_id": "Ses02F_impro04_F010",
+    "transcript_ground_truth": "And what would make you say that?  There doesn't seem to be any indicators that anything's going to get better."
+  }
+}

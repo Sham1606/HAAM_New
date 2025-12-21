@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro05a_M015",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:58:18.428848",
+  "duration_seconds": 4.09,
+  "transcript": "What am I gonna do tomorrow without the earn?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "What am I gonna do tomorrow without the earn?",
+      "emotion": "joy",
+      "emotion_confidence": 0.361,
+      "sentiment_score": -0.5392,
+      "pitch_mean": 348.64
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5392,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 132.03,
+    "avg_pitch": 348.67
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro05a",
+    "utterance_id": "Ses03M_impro05a_M015",
+    "transcript_ground_truth": "What am I going to do tomorrow without the urn?"
+  }
+}

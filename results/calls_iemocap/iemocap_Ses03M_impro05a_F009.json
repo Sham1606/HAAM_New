@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro05a_F009",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:57:10.368821",
+  "duration_seconds": 2.81,
+  "transcript": "it's picture, okay?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.56,
+      "text": "it's picture, okay?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.1105,
+      "pitch_mean": 339.42
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1105,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 64.06,
+    "avg_pitch": 339.42
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro05a",
+    "utterance_id": "Ses03M_impro05a_F009",
+    "transcript_ground_truth": "Eight pieces of luggage.  Okay."
+  }
+}

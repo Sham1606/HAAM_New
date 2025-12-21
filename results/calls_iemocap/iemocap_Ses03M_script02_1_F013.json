@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses03M_script02_1_F013",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:45:39.410807",
+  "duration_seconds": 7.92,
+  "transcript": "Pass up what? This fish swim up to shore on the beach and then they flop around a little, they swim away and then they die.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Pass up what?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.384,
+      "sentiment_score": -0.1577,
+      "pitch_mean": 338.55
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 5.0,
+      "text": "This fish swim up to shore on the beach",
+      "emotion": "disgust",
+      "emotion_confidence": 0.371,
+      "sentiment_score": -0.0063,
+      "pitch_mean": 352.5
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 6.0,
+      "text": "and then they flop around a little,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.908,
+      "sentiment_score": -0.1667,
+      "pitch_mean": 391.83
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 8.0,
+      "text": "they swim away and then they die.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.728,
+      "sentiment_score": -0.6694,
+      "pitch_mean": 348.88
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.25,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 197.01,
+    "avg_pitch": 348.88
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_1",
+    "utterance_id": "Ses03M_script02_1_F013",
+    "transcript_ground_truth": "Pass up what?  These fish swim up to shore, on the beach and then they flop around a little, they swim away and then they die."
+  }
+}

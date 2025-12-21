@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03F_script01_1_F001",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:29:16.837491",
+  "duration_seconds": 4.95,
+  "transcript": "What, how did he see it? I mean, I was the first one of it. He was still in bed.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "What, how did he see it?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.893,
+      "sentiment_score": -0.1218,
+      "pitch_mean": 321.44
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 5.0,
+      "text": "I mean, I was the first one of it. He was still in bed.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.0312,
+      "pitch_mean": 333.01
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0453,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 242.23,
+    "avg_pitch": 333.01
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.3333,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_1",
+    "utterance_id": "Ses03F_script01_1_F001",
+    "transcript_ground_truth": "What-how did he see it? I mean, I was the first one up. He was still in bed."
+  }
+}

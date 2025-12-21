@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro06_M008",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:28:10.504624",
+  "duration_seconds": 7.86,
+  "transcript": "I was always the one to tell him to be more wild, you know?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "I was always the one to tell him to be more wild, you know?",
+      "emotion": "sadness",
+      "emotion_confidence": 0.527,
+      "sentiment_score": -0.1832,
+      "pitch_mean": 322.93
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1832,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 106.86,
+    "avg_pitch": 322.31
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro06",
+    "utterance_id": "Ses03M_impro06_M008",
+    "transcript_ground_truth": "You know I was always the one to tell him to be more wild you know?"
+  }
+}

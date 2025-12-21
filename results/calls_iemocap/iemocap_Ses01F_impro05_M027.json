@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro05_M027",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:26:17.464034",
+  "duration_seconds": 1.71,
+  "transcript": "What the amount of",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "What the amount of",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.0649,
+      "pitch_mean": 335.61
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0649,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 140.36,
+    "avg_pitch": 335.61
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro05",
+    "utterance_id": "Ses01F_impro05_M027",
+    "transcript_ground_truth": "With the amount of--"
+  }
+}

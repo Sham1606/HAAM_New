@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script01_3_F006",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:28:43.928751",
+  "duration_seconds": 4.47,
+  "transcript": "Well, kind of embarrassed ever since I got here.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Well, kind of embarrassed ever since I got here.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.51,
+      "sentiment_score": -0.8948,
+      "pitch_mean": 338.47
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8948,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 120.81,
+    "avg_pitch": 337.56
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script01_3",
+    "utterance_id": "Ses04F_script01_3_F006",
+    "transcript_ground_truth": "Well kind of embarrassed ever since I got here."
+  }
+}

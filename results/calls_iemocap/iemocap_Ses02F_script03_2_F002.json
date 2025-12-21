@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script03_2_F002",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:44:09.068707",
+  "duration_seconds": 4.28,
+  "transcript": "No, it wasn't. It was very pretty. I still haven't nowhere often.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "No, it wasn't. It was very pretty. I still haven't nowhere often.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.358,
+      "sentiment_score": 0.3657,
+      "pitch_mean": 330.87
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3657,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 168.22,
+    "avg_pitch": 326.57
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script03_2",
+    "utterance_id": "Ses02F_script03_2_F002",
+    "transcript_ground_truth": "No, it wasn't.  It was very pretty.  I still have it and I wear it often."
+  }
+}

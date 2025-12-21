@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro05_F039",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:02:04.705067",
+  "duration_seconds": 5.34,
+  "transcript": "because you guys lost it so it should be your responsibility to find it too.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "because you guys lost it so it should be your responsibility to find it too.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.455,
+      "sentiment_score": -0.5999,
+      "pitch_mean": 343.49
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5999,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 168.54,
+    "avg_pitch": 343.15
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro05",
+    "utterance_id": "Ses05F_impro05_F039",
+    "transcript_ground_truth": "Uh- Because you guys lost it, so it should be your responsibility to find it, too."
+  }
+}

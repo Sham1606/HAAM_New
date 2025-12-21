@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro02_M006",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:48:57.454853",
+  "duration_seconds": 2.22,
+  "transcript": "I thought I was going to do it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I thought I was going to do it.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.442,
+      "sentiment_score": -0.0707,
+      "pitch_mean": 331.87
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0707,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 216.22,
+    "avg_pitch": 332.23
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 1.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro02",
+    "utterance_id": "Ses05F_impro02_M006",
+    "transcript_ground_truth": "What am I going to do?"
+  }
+}

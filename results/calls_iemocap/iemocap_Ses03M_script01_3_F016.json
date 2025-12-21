@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script01_3_F016",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:42:50.734758",
+  "duration_seconds": 2.4,
+  "transcript": "I read a sense.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I read a sense.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.602,
+      "sentiment_score": 0.0956,
+      "pitch_mean": 330.87
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0956,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 100.05,
+    "avg_pitch": 327.77
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_3",
+    "utterance_id": "Ses03M_script01_3_F016",
+    "transcript_ground_truth": "Every day since."
+  }
+}

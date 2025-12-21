@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_impro06_F000",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T04:00:51.040219",
+  "duration_seconds": 5.04,
+  "transcript": "How's it going? How are you feeling?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "How's it going?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.405,
+      "sentiment_score": 0.0642,
+      "pitch_mean": 324.52
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "How are you feeling?",
+      "emotion": "sadness",
+      "emotion_confidence": 0.542,
+      "sentiment_score": 0.0607,
+      "pitch_mean": 315.66
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0624,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "sadness": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 83.37,
+    "avg_pitch": 319.18
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro06",
+    "utterance_id": "Ses03M_impro06_F000",
+    "transcript_ground_truth": "How's it going?  How are you feeling?"
+  }
+}

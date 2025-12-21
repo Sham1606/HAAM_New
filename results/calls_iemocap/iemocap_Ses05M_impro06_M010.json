@@ -1,0 +1,79 @@
+{
+  "call_id": "iemocap_Ses05M_impro06_M010",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:46:00.942826",
+  "duration_seconds": 13.74,
+  "transcript": "You know, sometimes you think you want to make that phone call or you think you want to tell somebody something or something like that. You know what I mean? Like that's the, he was the person that I did that with. You know, like that's the person who I needed to call to tell things to you all the time.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.72,
+      "text": "You know, sometimes you think you want to make that phone call or you think you want to",
+      "emotion": "neutral",
+      "emotion_confidence": 0.772,
+      "sentiment_score": 0.0019,
+      "pitch_mean": 316.02
+    },
+    {
+      "start_time": 4.72,
+      "end_time": 6.32,
+      "text": "tell somebody something or something like that.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.786,
+      "sentiment_score": -0.1401,
+      "pitch_mean": 332.83
+    },
+    {
+      "start_time": 6.32,
+      "end_time": 7.32,
+      "text": "You know what I mean?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.478,
+      "sentiment_score": 0.0239,
+      "pitch_mean": 325.83
+    },
+    {
+      "start_time": 7.32,
+      "end_time": 9.24,
+      "text": "Like that's the, he was the person that I did that with.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.926,
+      "sentiment_score": 0.0587,
+      "pitch_mean": 318.35
+    },
+    {
+      "start_time": 9.24,
+      "end_time": 12.28,
+      "text": "You know, like that's the person who I needed to call to tell things to you all the time.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.883,
+      "sentiment_score": 0.0057,
+      "pitch_mean": 330.5
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.01,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 266.38,
+    "avg_pitch": 319.15
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro06",
+    "utterance_id": "Ses05M_impro06_M010",
+    "transcript_ground_truth": "you know, sometimes you think you want to make that phone call, or you think you want to tell somebody something, or something like that.  Do you know what I mean?  Like that's -- he was the person that I did that with.  You know, like, that's the person who I needed to call to tell things to all the time."
+  }
+}

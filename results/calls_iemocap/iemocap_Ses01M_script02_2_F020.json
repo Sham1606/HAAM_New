@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01M_script02_2_F020",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:10:45.193271",
+  "duration_seconds": 10.13,
+  "transcript": "We thought I was pregnant. We had this bottle of champagne, but no glasses. You asked me to dance, so we took off our shoes.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.84,
+      "text": "We thought I was pregnant. We had this bottle of champagne, but no glasses.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.364,
+      "sentiment_score": -0.1416,
+      "pitch_mean": 325.7
+    },
+    {
+      "start_time": 5.84,
+      "end_time": 10.0,
+      "text": "You asked me to dance, so we took off our shoes.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.69,
+      "sentiment_score": 0.2624,
+      "pitch_mean": 315.27
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0604,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 148.0,
+    "avg_pitch": 321.35
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script02_2",
+    "utterance_id": "Ses01M_script02_2_F020",
+    "transcript_ground_truth": "We thought I was pregnant we had this bottle of champagne but no glasses.  You asked me to dance so we took off our shoes."
+  }
+}

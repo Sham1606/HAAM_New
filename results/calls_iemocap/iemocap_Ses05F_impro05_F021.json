@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses05F_impro05_F021",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:01:17.403023",
+  "duration_seconds": 13.77,
+  "transcript": "Yeah, meaning I didn't die in a fiery plane crash. How convenient. But I paid $2,000 to ride your airline and I would really appreciate getting my bags there to my destination in one place.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.6,
+      "text": "Yeah, meaning I didn't die in a fiery plane crash.",
+      "emotion": "anger",
+      "emotion_confidence": 0.934,
+      "sentiment_score": -0.3777,
+      "pitch_mean": 343.39
+    },
+    {
+      "start_time": 3.6,
+      "end_time": 4.8,
+      "text": "How convenient.",
+      "emotion": "joy",
+      "emotion_confidence": 0.382,
+      "sentiment_score": 0.596,
+      "pitch_mean": 353.71
+    },
+    {
+      "start_time": 4.8,
+      "end_time": 11.1,
+      "text": "But I paid $2,000 to ride your airline and I would really appreciate getting my bags",
+      "emotion": "joy",
+      "emotion_confidence": 0.662,
+      "sentiment_score": -0.0433,
+      "pitch_mean": 360.95
+    },
+    {
+      "start_time": 11.1,
+      "end_time": 13.6,
+      "text": "there to my destination in one place.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.505,
+      "sentiment_score": 0.3584,
+      "pitch_mean": 350.03
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1333,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "anger": 0.25,
+      "joy": 0.5,
+      "neutral": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 152.51,
+    "avg_pitch": 352.61
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro05",
+    "utterance_id": "Ses05F_impro05_F021",
+    "transcript_ground_truth": "Yeah, meaning I didn't die in a fiery plane crash.  How convenient, but um- I paid two thousand dollar to ride your airline, and I would really appreciate getting my bags there to my destination in one place."
+  }
+}

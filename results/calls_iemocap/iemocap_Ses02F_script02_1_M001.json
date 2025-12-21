@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02F_script02_1_M001",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:37:53.909458",
+  "duration_seconds": 4.13,
+  "transcript": "Yeah, this is great, isn't it? Look at the night we got here, couldn't be better.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Yeah, this is great, isn't it?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.426,
+      "sentiment_score": 0.9829,
+      "pitch_mean": 322.04
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "Look at the night we got here, couldn't be better.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.423,
+      "sentiment_score": 0.9555,
+      "pitch_mean": 333.63
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9692,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 232.45,
+    "avg_pitch": 328.94
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script02_1",
+    "utterance_id": "Ses02F_script02_1_M001",
+    "transcript_ground_truth": "This is great, isn't it?  Look at the night we've got here, couldn't be better."
+  }
+}

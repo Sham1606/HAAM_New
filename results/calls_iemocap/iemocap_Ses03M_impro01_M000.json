@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_impro01_M000",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:48:07.920170",
+  "duration_seconds": 8.75,
+  "transcript": "Listen here, Missy. I've been in this line for an hour and I'm finally here so you're gonna take my application.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.48,
+      "text": "Listen here, Missy. I've been in this line for an hour and I'm finally here so you're",
+      "emotion": "disgust",
+      "emotion_confidence": 0.465,
+      "sentiment_score": 0.4736,
+      "pitch_mean": 330.36
+    },
+    {
+      "start_time": 6.48,
+      "end_time": 8.48,
+      "text": "gonna take my application.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.472,
+      "sentiment_score": 0.1996,
+      "pitch_mean": 329.46
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3366,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 143.97,
+    "avg_pitch": 329.93
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro01",
+    "utterance_id": "Ses03M_impro01_M000",
+    "transcript_ground_truth": "Hey listen here missy, I've been in this line for an hour and now I'm finally here.  So you're going to take my application."
+  }
+}

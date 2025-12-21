@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses05M_script02_2_M024",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:09:25.817197",
+  "duration_seconds": 13.99,
+  "transcript": "Welcome to the human race. Do you think this is what I had planned? Do you think that when I proposed I had this great fantasy going that four years down the road We didn't up arguing on a beach over some fish",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.36,
+      "text": "Welcome to the human race. Do you think this is what I had planned?",
+      "emotion": "anger",
+      "emotion_confidence": 0.441,
+      "sentiment_score": -0.12,
+      "pitch_mean": 329.14
+    },
+    {
+      "start_time": 5.28,
+      "end_time": 10.56,
+      "text": "Do you think that when I proposed I had this great fantasy going that four years down the road",
+      "emotion": "anger",
+      "emotion_confidence": 0.455,
+      "sentiment_score": 0.4732,
+      "pitch_mean": 337.52
+    },
+    {
+      "start_time": 10.56,
+      "end_time": 13.34,
+      "text": "We didn't up arguing on a beach over some fish",
+      "emotion": "anger",
+      "emotion_confidence": 0.435,
+      "sentiment_score": -0.3106,
+      "pitch_mean": 331.47
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0142,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 184.42,
+    "avg_pitch": 331.55
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 4.3333,
+    "dominance": 3.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script02_2",
+    "utterance_id": "Ses05M_script02_2_M024",
+    "transcript_ground_truth": "Well, welcome to the human race.  Do you think this is what I had planned?  Do you think that when I proposed that I had this great fantasy going that four years down the road we would end up arguing on the beach over some fish?"
+  }
+}

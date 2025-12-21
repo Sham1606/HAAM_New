@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro02_F032",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:48:25.981525",
+  "duration_seconds": 3.87,
+  "transcript": "You have to send me pictures of the matters every day.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "You have to send me pictures of the matters every day.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.894,
+      "sentiment_score": -0.0158,
+      "pitch_mean": 353.43
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0158,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 170.54,
+    "avg_pitch": 353.43
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.0,
+    "arousal": 3.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro02",
+    "utterance_id": "Ses05F_impro02_F032",
+    "transcript_ground_truth": "You'll have to send me pictures and letters everyday."
+  }
+}

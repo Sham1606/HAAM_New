@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses01M_impro07_M003",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:00:22.937412",
+  "duration_seconds": 13.46,
+  "transcript": "Yeah, well, I don't well yeah, I can't pitch. I'm not like the pitcher though. I'm like the the pinch hitter guy I mostly just hit but I guess I mean I have to yeah, and then I play shortstop too But it's so good news that I get to stay here",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.44,
+      "text": "Yeah, well, I don't well yeah, I can't pitch. I'm not like the pitcher though. I'm like the the pinch hitter guy",
+      "emotion": "joy",
+      "emotion_confidence": 0.375,
+      "sentiment_score": -0.801,
+      "pitch_mean": 355.19
+    },
+    {
+      "start_time": 5.44,
+      "end_time": 9.44,
+      "text": "I mostly just hit but I guess I mean I have to yeah, and then I play shortstop too",
+      "emotion": "neutral",
+      "emotion_confidence": 0.917,
+      "sentiment_score": 0.1182,
+      "pitch_mean": 351.4
+    },
+    {
+      "start_time": 9.44,
+      "end_time": 12.84,
+      "text": "But it's so good news that I get to stay here",
+      "emotion": "joy",
+      "emotion_confidence": 0.945,
+      "sentiment_score": 0.977,
+      "pitch_mean": 370.18
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0981,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 0.667,
+      "neutral": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 231.8,
+    "avg_pitch": 357.22
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro07",
+    "utterance_id": "Ses01M_impro07_M003",
+    "transcript_ground_truth": "Yeah.  Well, I don't--well yeah I can pitch, I'm not like the pitcher though. I'm like the pinch hitter guy I mostly just hit.  But I guess I'm going to have to... Yeah, and then I play shortstop too but... It's so ex- The good news is I get to stay here."
+  }
+}

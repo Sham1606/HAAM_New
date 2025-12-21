@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03F_script03_2_F007",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:44:25.285362",
+  "duration_seconds": 4.38,
+  "transcript": "Well, if you hadn't been so suspicious and nosy, would he have never known anything about it?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.32,
+      "text": "Well, if you hadn't been so suspicious and nosy,",
+      "emotion": "disgust",
+      "emotion_confidence": 0.437,
+      "sentiment_score": -0.5304,
+      "pitch_mean": 341.59
+    },
+    {
+      "start_time": 2.32,
+      "end_time": 4.32,
+      "text": "would he have never known anything about it?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.79,
+      "sentiment_score": -0.4376,
+      "pitch_mean": 343.48
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.484,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 232.61,
+    "avg_pitch": 342.72
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script03_2",
+    "utterance_id": "Ses03F_script03_2_F007",
+    "transcript_ground_truth": "Well, if you hadn't been so suspicious and nosey you'd have never known anything about it."
+  }
+}

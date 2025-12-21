@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04F_impro07_M037",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:17:18.599981",
+  "duration_seconds": 8.3,
+  "transcript": "I don't know, I just thought that maybe we could, you know, just test the waters anyway, and see what the problem is.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "I don't know, I just thought that maybe we could, you know, just test the waters anyway,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.793,
+      "sentiment_score": -0.0278,
+      "pitch_mean": 335.86
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 8.0,
+      "text": "and see what the problem is.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.491,
+      "sentiment_score": -0.4278,
+      "pitch_mean": 340.57
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2278,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 166.27,
+    "avg_pitch": 338.89
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro07",
+    "utterance_id": "Ses04F_impro07_M037",
+    "transcript_ground_truth": "I don't know I just thought that, you know, maybe we could, you know, I don't know.  It's like, you know, just test the waters anyway.  I don't see what the problem is."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses04M_impro07_F004",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:00:04.046493",
+  "duration_seconds": 9.23,
+  "transcript": "That's amazing. I've seen it on TV. Wow, I mean, well, what are you gonna major in? What are you gonna do?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "That's amazing. I've seen it on TV.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.829,
+      "sentiment_score": 0.9784,
+      "pitch_mean": 342.44
+    },
+    {
+      "start_time": 4.5,
+      "end_time": 8.36,
+      "text": "Wow, I mean, well, what are you gonna major in? What are you gonna do?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.963,
+      "sentiment_score": 0.3541,
+      "pitch_mean": 370.35
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.6662,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 143.01,
+    "avg_pitch": 348.09
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro07",
+    "utterance_id": "Ses04M_impro07_F004",
+    "transcript_ground_truth": "That's amazing.  I've seen it on TV. Um, Wow.  I mean, well what are you going to major in?  What are you going to do?"
+  }
+}

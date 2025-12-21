@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02M_impro01_M018",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:48:01.994211",
+  "duration_seconds": 6.9,
+  "transcript": "Shouldn't you have like a sign or something maybe like a counter when you get the application maybe on the application",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.6,
+      "text": "Shouldn't you have like a sign or something maybe like a",
+      "emotion": "anger",
+      "emotion_confidence": 0.467,
+      "sentiment_score": -0.1014,
+      "pitch_mean": 350.82
+    },
+    {
+      "start_time": 3.6,
+      "end_time": 6.64,
+      "text": "counter when you get the application maybe on the application",
+      "emotion": "neutral",
+      "emotion_confidence": 0.908,
+      "sentiment_score": 0.0574,
+      "pitch_mean": 362.27
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.022,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 182.62,
+    "avg_pitch": 354.63
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 4.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro01",
+    "utterance_id": "Ses02M_impro01_M018",
+    "transcript_ground_truth": "You- shouldn't you have like a sign or something maybe like up on the counter when you get the applica- maybe on the application"
+  }
+}

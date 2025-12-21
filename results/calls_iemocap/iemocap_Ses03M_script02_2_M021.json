@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_script02_2_M021",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:50:24.098857",
+  "duration_seconds": 8.82,
+  "transcript": "Let's get some champagne and I said times of wasting or something like that. You want this to be like that other time, right?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.54,
+      "text": "Let's get some champagne and I said times of wasting or something like that.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.688,
+      "sentiment_score": 0.366,
+      "pitch_mean": 319.06
+    },
+    {
+      "start_time": 6.54,
+      "end_time": 8.12,
+      "text": "You want this to be like that other time, right?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.764,
+      "sentiment_score": -0.4053,
+      "pitch_mean": 319.74
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0196,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 163.27,
+    "avg_pitch": 319.31
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_2",
+    "utterance_id": "Ses03M_script02_2_M021",
+    "transcript_ground_truth": "And you said let's get some champagne and I said time's a wasting or something like that."
+  }
+}

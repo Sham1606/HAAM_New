@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_impro08a_M002",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:33:00.419460",
+  "duration_seconds": 7.85,
+  "transcript": "Okay, can you give me the last four digits of your social security numbers? I can verify Well, I'm speaking with",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.2,
+      "text": "Okay, can you give me the last four digits of your social security numbers? I can verify",
+      "emotion": "neutral",
+      "emotion_confidence": 0.891,
+      "sentiment_score": 0.1261,
+      "pitch_mean": 321.41
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 8.0,
+      "text": "Well, I'm speaking with",
+      "emotion": "neutral",
+      "emotion_confidence": 0.928,
+      "sentiment_score": 0.1164,
+      "pitch_mean": 322.46
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1212,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 160.55,
+    "avg_pitch": 322.46
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro08a",
+    "utterance_id": "Ses03M_impro08a_M002",
+    "transcript_ground_truth": "Okay.  Can you give me the last four digits of your social security number so I can verify who I'm speaking with?"
+  }
+}

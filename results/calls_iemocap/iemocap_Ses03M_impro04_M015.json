@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro04_M015",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:55:54.077060",
+  "duration_seconds": 2.09,
+  "transcript": "I don't want to be a lot clerk.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I don't want to be a lot clerk.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.54,
+      "sentiment_score": -0.7195,
+      "pitch_mean": 329.15
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7195,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 229.67,
+    "avg_pitch": 329.01
+  },
+  "ground_truth": {
+    "emotion": "disgust",
+    "raw_emotion": "dis",
+    "valence": 2.5,
+    "arousal": 2.0,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro04",
+    "utterance_id": "Ses03M_impro04_M015",
+    "transcript_ground_truth": "I don't want to be a law clerk."
+  }
+}

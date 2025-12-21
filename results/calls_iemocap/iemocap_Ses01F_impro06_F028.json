@@ -1,0 +1,100 @@
+{
+  "call_id": "iemocap_Ses01F_impro06_F028",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:28:15.631171",
+  "duration_seconds": 29.13,
+  "transcript": "I remember two when we were, she died at UCLA. She had brain surgery and there wasn't much hope to be given with. I gave blood for her surgery, her mom and I before. So we dropped her off in a waiting room and then we were giving blood and came back. And she's in her wheelchair, like, can hardly do anything. Reciting her poetry for these people, like, in the waiting room. All she needs is a goddamn audience, you know.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I remember two when we were, she died at UCLA.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.91,
+      "sentiment_score": -0.3261,
+      "pitch_mean": 329.69
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 9.0,
+      "text": "She had brain surgery and there wasn't much hope to be given with.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.77,
+      "sentiment_score": -0.7959,
+      "pitch_mean": 328.33
+    },
+    {
+      "start_time": 9.0,
+      "end_time": 15.0,
+      "text": "I gave blood for her surgery, her mom and I before.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.576,
+      "sentiment_score": 0.0938,
+      "pitch_mean": 324.55
+    },
+    {
+      "start_time": 15.0,
+      "end_time": 18.0,
+      "text": "So we dropped her off in a waiting room and then we were giving blood and came back.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.659,
+      "sentiment_score": 0.0076,
+      "pitch_mean": 338.2
+    },
+    {
+      "start_time": 18.0,
+      "end_time": 21.0,
+      "text": "And she's in her wheelchair, like, can hardly do anything.",
+      "emotion": "joy",
+      "emotion_confidence": 0.422,
+      "sentiment_score": -0.8987,
+      "pitch_mean": 348.34
+    },
+    {
+      "start_time": 21.0,
+      "end_time": 24.0,
+      "text": "Reciting her poetry for these people, like, in the waiting room.",
+      "emotion": "joy",
+      "emotion_confidence": 0.383,
+      "sentiment_score": -0.0628,
+      "pitch_mean": 353.04
+    },
+    {
+      "start_time": 24.0,
+      "end_time": 28.0,
+      "text": "All she needs is a goddamn audience, you know.",
+      "emotion": "anger",
+      "emotion_confidence": 0.815,
+      "sentiment_score": -0.7529,
+      "pitch_mean": 328.79
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3907,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 0.286,
+      "disgust": 0.286,
+      "joy": 0.286,
+      "anger": 0.143
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 168.9,
+    "avg_pitch": 332.88
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro06",
+    "utterance_id": "Ses01F_impro06_F028",
+    "transcript_ground_truth": "I remember, too, when we were--  she died at U.C.L.A.  She had brain surgery and there was not much hope to begin with, but I gave blood for her surgery, her mom and I before, so we dropped her off in the waiting room and then we were giving blood and came back.  And she, in her wheelchair, like can hardly do anything, reciting her poetry for these people like in the waiting room.  All she needs is a God damn audience.  You know?"
+  }
+}

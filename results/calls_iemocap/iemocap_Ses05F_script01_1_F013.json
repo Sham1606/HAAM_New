@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script01_1_F013",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:13:22.166028",
+  "duration_seconds": 6.99,
+  "transcript": "How are you gonna prove it? I mean, there's no body and there's no grave. So what are you gonna do?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.16,
+      "text": "How are you gonna prove it? I mean, there's no body and there's no grave. So what are you gonna do?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.4,
+      "sentiment_score": -0.6656,
+      "pitch_mean": 350.43
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6656,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 180.26,
+    "avg_pitch": 346.85
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_1",
+    "utterance_id": "Ses05F_script01_1_F013",
+    "transcript_ground_truth": "How are you going to prove it, I mean, there's no body and there's no grave.  So what are you going to do? Do you have proof?"
+  }
+}

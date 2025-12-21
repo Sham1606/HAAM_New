@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05F_script01_3_F015",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:18:10.238634",
+  "duration_seconds": 7.46,
+  "transcript": "I'll never forgive you. Why did you wait so long? All this time I'm wondering if I was a fool for thinking of you.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I'll never forgive you. Why did you wait so long?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.408,
+      "sentiment_score": -0.9476,
+      "pitch_mean": 343.59
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 7.0,
+      "text": "All this time I'm wondering if I was a fool for thinking of you.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.942,
+      "sentiment_score": -0.5715,
+      "pitch_mean": 356.62
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7595,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 193.0,
+    "avg_pitch": 346.84
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_3",
+    "utterance_id": "Ses05F_script01_3_F015",
+    "transcript_ground_truth": "I'll never forgive you.  Why did you wait so long?  All this time I've been wondering if I was a fool for thinking of you!"
+  }
+}

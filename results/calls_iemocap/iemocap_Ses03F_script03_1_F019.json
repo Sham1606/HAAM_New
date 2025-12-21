@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03F_script03_1_F019",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:42:52.926914",
+  "duration_seconds": 8.6,
+  "transcript": "Thank you dear. The same applies to you. Except that if I ever so much has catch you looking at another woman I'll kill you.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.28,
+      "text": "Thank you dear. The same applies to you. Except that if I ever so much has",
+      "emotion": "disgust",
+      "emotion_confidence": 0.369,
+      "sentiment_score": 0.8299,
+      "pitch_mean": 323.53
+    },
+    {
+      "start_time": 5.28,
+      "end_time": 8.28,
+      "text": "catch you looking at another woman I'll kill you.",
+      "emotion": "anger",
+      "emotion_confidence": 0.74,
+      "sentiment_score": -0.8911,
+      "pitch_mean": 338.37
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0306,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 174.37,
+    "avg_pitch": 327.26
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script03_1",
+    "utterance_id": "Ses03F_script03_1_F019",
+    "transcript_ground_truth": "Thank you, dear. The same applies to you. Except that if I ever so much as catch you looking at another woman I'll kill you."
+  }
+}

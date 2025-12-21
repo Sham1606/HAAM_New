@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses01M_script03_1_M031",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:15:45.607099",
+  "duration_seconds": 8.91,
+  "transcript": "See? You know, I don't care what you do. You could paint yourself green and run naked to the palace fandom.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "See?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.706,
+      "sentiment_score": 0.1495,
+      "pitch_mean": 332.35
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 5.0,
+      "text": "You know, I don't care what you do.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.473,
+      "sentiment_score": -0.4674,
+      "pitch_mean": 331.3
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 9.0,
+      "text": "You could paint yourself green and run naked to the palace fandom.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.665,
+      "sentiment_score": -0.1695,
+      "pitch_mean": 331.36
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1625,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 141.41,
+    "avg_pitch": 331.36
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 3.5,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script03_1",
+    "utterance_id": "Ses01M_script03_1_M031",
+    "transcript_ground_truth": "See, you know I don't care what you do.  You could paint yourself green and run naked to the Place Vendome."
+  }
+}

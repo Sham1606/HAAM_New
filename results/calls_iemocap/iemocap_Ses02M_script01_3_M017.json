@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script01_3_M017",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:04:50.250064",
+  "duration_seconds": 7.68,
+  "transcript": "Oh I kissed you God I kissed Annie how long how long I've been waiting to kiss you",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.72,
+      "text": "Oh I kissed you God I kissed Annie how long how long I've been waiting to kiss you",
+      "emotion": "neutral",
+      "emotion_confidence": 0.926,
+      "sentiment_score": 0.8676,
+      "pitch_mean": 327.51
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.8676,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 140.54,
+    "avg_pitch": 327.73
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.5,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script01_3",
+    "utterance_id": "Ses02M_script01_3_M017",
+    "transcript_ground_truth": "God, I kissed Annie.  How long--how long I've been waiting to kiss you."
+  }
+}

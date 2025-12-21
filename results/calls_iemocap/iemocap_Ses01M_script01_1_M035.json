@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses01M_script01_1_M035",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:03:43.225538",
+  "duration_seconds": 11.19,
+  "transcript": "Yes, yes, I like it for one hour a day. I don't care if I have to grub for money all day long when I come home I went at night someone a family I want kids The Annie's in the center of that",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.92,
+      "text": "Yes, yes, I like it for one hour a day. I don't care if I have to grub for money all day long when I come home",
+      "emotion": "anger",
+      "emotion_confidence": 0.457,
+      "sentiment_score": 0.7392,
+      "pitch_mean": 352.36
+    },
+    {
+      "start_time": 5.92,
+      "end_time": 8.26,
+      "text": "I went at night someone a family I want kids",
+      "emotion": "fear",
+      "emotion_confidence": 0.845,
+      "sentiment_score": 0.2611,
+      "pitch_mean": 368.7
+    },
+    {
+      "start_time": 8.84,
+      "end_time": 10.84,
+      "text": "The Annie's in the center of that",
+      "emotion": "anger",
+      "emotion_confidence": 0.544,
+      "sentiment_score": 0.0741,
+      "pitch_mean": 344.79
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3581,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.667,
+      "fear": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 235.93,
+    "avg_pitch": 350.83
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_1",
+    "utterance_id": "Ses01M_script01_1_M035",
+    "transcript_ground_truth": "Yes, yes I like it for one hour a day.  I don't care if I have to grub for money all day long when I come home I want it nice, I want a family, I want to kids and Annie is in the center of that."
+  }
+}

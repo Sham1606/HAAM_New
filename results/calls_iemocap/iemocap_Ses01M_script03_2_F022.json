@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script03_2_F022",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:16:46.711577",
+  "duration_seconds": 1.78,
+  "transcript": "They stink!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "They stink!",
+      "emotion": "disgust",
+      "emotion_confidence": 0.953,
+      "sentiment_score": -0.8664,
+      "pitch_mean": 328.0
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8664,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 67.32,
+    "avg_pitch": 328.0
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script03_2",
+    "utterance_id": "Ses01M_script03_2_F022",
+    "transcript_ground_truth": "They sting."
+  }
+}

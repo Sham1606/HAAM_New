@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03F_script01_1_F000",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:29:14.820717",
+  "duration_seconds": 6.82,
+  "transcript": "What's he going to say? Maybe we ought to talk to him before I seize it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "What's he going to say?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.607,
+      "sentiment_score": -0.116,
+      "pitch_mean": 324.58
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 6.0,
+      "text": "Maybe we ought to talk to him before I seize it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.769,
+      "sentiment_score": -0.1254,
+      "pitch_mean": 334.16
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1207,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 140.86,
+    "avg_pitch": 329.75
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.3333,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_1",
+    "utterance_id": "Ses03F_script01_1_F000",
+    "transcript_ground_truth": "What's he going to say? Maybe we ought to talk to him before he sees it."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script03_2_F022",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:13:38.557477",
+  "duration_seconds": 4.55,
+  "transcript": "Okay, I don't care if they roll about like hoops and bark, okay?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.5,
+      "text": "Okay, I don't care if they roll about like hoops and bark, okay?",
+      "emotion": "joy",
+      "emotion_confidence": 0.596,
+      "sentiment_score": -0.3838,
+      "pitch_mean": 400.05
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3838,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 171.37,
+    "avg_pitch": 355.24
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script03_2",
+    "utterance_id": "Ses05M_script03_2_F022",
+    "transcript_ground_truth": "Okay, I don't care if they roll about like hoops and bark, okay?"
+  }
+}

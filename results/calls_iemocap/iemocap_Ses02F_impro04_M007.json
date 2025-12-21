@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02F_impro04_M007",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:24:15.140887",
+  "duration_seconds": 6.83,
+  "transcript": "Dumber than you I mean there are a lot worse off than you you are much better off than like a lot of those people in there I know",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.86,
+      "text": "Dumber than you I mean there are a lot worse off than you you are much better off than like a lot of those people in there",
+      "emotion": "disgust",
+      "emotion_confidence": 0.751,
+      "sentiment_score": -0.8802,
+      "pitch_mean": 339.42
+    },
+    {
+      "start_time": 5.86,
+      "end_time": 7.86,
+      "text": "I know",
+      "emotion": "neutral",
+      "emotion_confidence": 0.677,
+      "sentiment_score": 0.1714,
+      "pitch_mean": 338.03
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3544,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 254.76,
+    "avg_pitch": 338.03
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro04",
+    "utterance_id": "Ses02F_impro04_M007",
+    "transcript_ground_truth": "...dumber than you.  I mean they're a lot worse off than you.  You are much better off than like a lot of those people in there. I know"
+  }
+}

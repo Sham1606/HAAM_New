@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro06_M006",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:59:30.696730",
+  "duration_seconds": 6.32,
+  "transcript": "I mean they're upset with the...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "I mean they're upset with the...",
+      "emotion": "sadness",
+      "emotion_confidence": 0.486,
+      "sentiment_score": -0.5066,
+      "pitch_mean": 323.57
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5066,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 56.96,
+    "avg_pitch": 322.18
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro06",
+    "utterance_id": "Ses04M_impro06_M006",
+    "transcript_ground_truth": "I mean, they're, you know, they're upset.  It's like you know, they"
+  }
+}

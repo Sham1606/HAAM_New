@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_impro04_M011",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:41:38.456707",
+  "duration_seconds": 6.34,
+  "transcript": "Yeah, yeah, well hello, that's what I'm doing too, but I can't get the restaurant job. I can't get the restaurant gig I can get anything. No one will give me anything",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.48,
+      "text": "Yeah, yeah, well hello, that's what I'm doing too, but I can't get the restaurant job. I can't get the restaurant gig",
+      "emotion": "sadness",
+      "emotion_confidence": 0.91,
+      "sentiment_score": -0.5284,
+      "pitch_mean": 331.35
+    },
+    {
+      "start_time": 4.48,
+      "end_time": 6.48,
+      "text": "I can get anything. No one will give me anything",
+      "emotion": "anger",
+      "emotion_confidence": 0.822,
+      "sentiment_score": -0.2691,
+      "pitch_mean": 331.78
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3987,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 302.84,
+    "avg_pitch": 331.78
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro04",
+    "utterance_id": "Ses05M_impro04_M011",
+    "transcript_ground_truth": "Yeah, yeah.  Well, hello.  That's what I'm doing too.  But I can't get the restaurant job.  I can't get -- -- the restaurant gig.  No one will give me anything."
+  }
+}

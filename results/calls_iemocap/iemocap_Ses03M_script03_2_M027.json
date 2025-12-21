@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script03_2_M027",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:56:32.836335",
+  "duration_seconds": 3.58,
+  "transcript": "I suppose you let him kiss you if you rate more than that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I suppose you let him kiss you if you rate more than that.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.852,
+      "sentiment_score": -0.059,
+      "pitch_mean": 323.16
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.059,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 218.05,
+    "avg_pitch": 325.52
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script03_2",
+    "utterance_id": "Ses03M_script03_2_M027",
+    "transcript_ground_truth": "I suppose you let him kiss you a great deal more then?"
+  }
+}

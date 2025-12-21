@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05F_impro07_F023",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:07:51.053141",
+  "duration_seconds": 4.18,
+  "transcript": "Well, I'm gonna be working too. I mean...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Well, I'm gonna be working too.",
+      "emotion": "joy",
+      "emotion_confidence": 0.408,
+      "sentiment_score": 0.1395,
+      "pitch_mean": 369.79
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 4.0,
+      "text": "I mean...",
+      "emotion": "disgust",
+      "emotion_confidence": 0.325,
+      "sentiment_score": 0.0309,
+      "pitch_mean": 337.94
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0852,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 114.83,
+    "avg_pitch": 364.84
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro07",
+    "utterance_id": "Ses05F_impro07_F023",
+    "transcript_ground_truth": "[LAUGHTER] Oh, I'm going to be working too, I mean."
+  }
+}

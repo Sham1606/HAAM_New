@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro07_F024",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:56:24.798791",
+  "duration_seconds": 2.06,
+  "transcript": "I will do the best I can.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I will do the best I can.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.616,
+      "sentiment_score": 0.7648,
+      "pitch_mean": 346.23
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.7648,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 203.89,
+    "avg_pitch": 347.01
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro07",
+    "utterance_id": "Ses02M_impro07_F024",
+    "transcript_ground_truth": "I will do the best I can."
+  }
+}

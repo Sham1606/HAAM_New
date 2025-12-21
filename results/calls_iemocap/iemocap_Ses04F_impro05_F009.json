@@ -1,0 +1,100 @@
+{
+  "call_id": "iemocap_Ses04F_impro05_F009",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:09:40.896780",
+  "duration_seconds": 23.14,
+  "transcript": "You're kidding me, right? You're gonna give me $50 to completely cover my bag, everything that was in it, the inconvenience that I've gone through. I paid for my ticket, all I expect is to safely get to my destination with my stuff. Is that so much to ask? I mean, I really don't think that's that big a deal to ask you guys to have my bag in the place where I leave and then put my bag where I end up.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "You're kidding me, right?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.507,
+      "sentiment_score": -0.553,
+      "pitch_mean": 327.05
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 7.0,
+      "text": "You're gonna give me $50 to completely cover my bag,",
+      "emotion": "joy",
+      "emotion_confidence": 0.479,
+      "sentiment_score": 0.081,
+      "pitch_mean": 348.46
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 10.0,
+      "text": "everything that was in it, the inconvenience that I've gone through.",
+      "emotion": "joy",
+      "emotion_confidence": 0.491,
+      "sentiment_score": -0.855,
+      "pitch_mean": 387.26
+    },
+    {
+      "start_time": 10.0,
+      "end_time": 14.0,
+      "text": "I paid for my ticket, all I expect is to safely get to my destination with my stuff.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.818,
+      "sentiment_score": 0.4603,
+      "pitch_mean": 378.69
+    },
+    {
+      "start_time": 14.0,
+      "end_time": 16.0,
+      "text": "Is that so much to ask?",
+      "emotion": "anger",
+      "emotion_confidence": 0.625,
+      "sentiment_score": -0.2764,
+      "pitch_mean": 387.12
+    },
+    {
+      "start_time": 16.0,
+      "end_time": 21.0,
+      "text": "I mean, I really don't think that's that big a deal to ask you guys to have my bag in the place where I leave",
+      "emotion": "neutral",
+      "emotion_confidence": 0.938,
+      "sentiment_score": -0.3507,
+      "pitch_mean": 387.98
+    },
+    {
+      "start_time": 21.0,
+      "end_time": 23.0,
+      "text": "and then put my bag where I end up.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.908,
+      "sentiment_score": -0.0232,
+      "pitch_mean": 382.1
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2167,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "disgust": 0.143,
+      "joy": 0.286,
+      "neutral": 0.429,
+      "anger": 0.143
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 215.21,
+    "avg_pitch": 368.3
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro05",
+    "utterance_id": "Ses04F_impro05_F009",
+    "transcript_ground_truth": "You're kidding me, right.  You're going to give me fifty dollars to completely cover my bag, everything that was in it, the inconvenience that I've gone through.  I paid for my ticket.  All I expect is to safely get to my destination with my stuff.  Is that so much to ask?  I mean I really don't think that's that big a deal to ask you guys to have my bag in the place where I leave and then put my bag where I end up."
+  }
+}

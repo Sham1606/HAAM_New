@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_impro04_F018",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:54:53.614731",
+  "duration_seconds": 7.1,
+  "transcript": "Just for a little bit, you know, because I guarantee you're gonna find something when you find something It's just gonna be huge and you're gonna get money",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.46,
+      "text": "Just for a little bit, you know, because I guarantee you're gonna find something when you find something",
+      "emotion": "neutral",
+      "emotion_confidence": 0.921,
+      "sentiment_score": 0.7632,
+      "pitch_mean": 350.06
+    },
+    {
+      "start_time": 4.46,
+      "end_time": 6.46,
+      "text": "It's just gonna be huge and you're gonna get money",
+      "emotion": "joy",
+      "emotion_confidence": 0.553,
+      "sentiment_score": 0.857,
+      "pitch_mean": 335.43
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.8101,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "joy": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 236.62,
+    "avg_pitch": 346.14
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro04",
+    "utterance_id": "Ses03M_impro04_F018",
+    "transcript_ground_truth": "Just for a little bit, you know?  Cause I-I guarantee you're going to find something.  When you find something it's just going to be huge and you're going to get money."
+  }
+}

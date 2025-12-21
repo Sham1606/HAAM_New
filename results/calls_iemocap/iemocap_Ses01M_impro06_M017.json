@@ -1,0 +1,80 @@
+{
+  "call_id": "iemocap_Ses01M_impro06_M017",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:58:35.402901",
+  "duration_seconds": 23.74,
+  "transcript": "It's so weird, you know, that like, one day, it's like, you know, it sounds like stupid, but like one day someone's here, and like, next day, you know, they're not here, and it just kind of makes you like think about like life and mortality and like the kind of stuff. You just like, just need to take for granted, you know.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.64,
+      "text": "It's so weird, you know, that like, one day, it's like, you know, it sounds like stupid,",
+      "emotion": "disgust",
+      "emotion_confidence": 0.9,
+      "sentiment_score": -0.8859,
+      "pitch_mean": 327.42
+    },
+    {
+      "start_time": 6.64,
+      "end_time": 11.88,
+      "text": "but like one day someone's here, and like, next day, you know, they're not here, and",
+      "emotion": "neutral",
+      "emotion_confidence": 0.634,
+      "sentiment_score": -0.5637,
+      "pitch_mean": 329.19
+    },
+    {
+      "start_time": 11.88,
+      "end_time": 19.92,
+      "text": "it just kind of makes you like think about like life and mortality and like the kind of",
+      "emotion": "disgust",
+      "emotion_confidence": 0.416,
+      "sentiment_score": -0.6257,
+      "pitch_mean": 332.61
+    },
+    {
+      "start_time": 19.92,
+      "end_time": 20.92,
+      "text": "stuff.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.405,
+      "sentiment_score": -0.0605,
+      "pitch_mean": 334.05
+    },
+    {
+      "start_time": 20.92,
+      "end_time": 22.96,
+      "text": "You just like, just need to take for granted, you know.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.93,
+      "sentiment_score": -0.4179,
+      "pitch_mean": 327.36
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5107,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.6,
+      "neutral": 0.4
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 159.22,
+    "avg_pitch": 328.91
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro06",
+    "utterance_id": "Ses01M_impro06_M017",
+    "transcript_ground_truth": "So weird you know that like one days it's like you know sounds so stupid but like one day someone's here. And like next day you know they're not here and it just kind of makes you like think about like life and mortality and like that kind of stuff.  You just like used to take for granted--you know."
+  }
+}

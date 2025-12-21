@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script02_2_M000",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:41:33.392959",
+  "duration_seconds": 3.1,
+  "transcript": "Look at this, all the hairs were standing up in my arm.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Look at this, all the hairs were standing up in my arm.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.657,
+      "sentiment_score": -0.2922,
+      "pitch_mean": 340.4
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2922,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 232.45,
+    "avg_pitch": 336.63
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_2",
+    "utterance_id": "Ses01F_script02_2_M000",
+    "transcript_ground_truth": "Look at this, all of the hairs are standing up on my arm."
+  }
+}

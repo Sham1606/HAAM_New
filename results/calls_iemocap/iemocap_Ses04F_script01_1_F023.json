@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script01_1_F023",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:23:21.458740",
+  "duration_seconds": 5.53,
+  "transcript": "From father's point of view, he's not dead and you have no right to take his girl.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "From father's point of view, he's not dead and you have no right to take his girl.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.597,
+      "sentiment_score": -0.7024,
+      "pitch_mean": 342.48
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7024,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 184.34,
+    "avg_pitch": 339.02
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script01_1",
+    "utterance_id": "Ses04F_script01_1_F023",
+    "transcript_ground_truth": "From father's point of view, he's not dead and you have no right to take his girl."
+  }
+}

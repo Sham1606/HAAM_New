@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05F_script02_2_F028",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:24:41.880928",
+  "duration_seconds": 19.31,
+  "transcript": "I mean, it's just this. I mean, it includes a lot and everything and you know, it's the sand and it's the full moon and I just... I'm sorry, but I couldn't help wishing I were somewhere else.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 12.0,
+      "text": "I mean, it's just this. I mean, it includes a lot and everything and you know, it's the sand and it's the full moon and I just...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.76,
+      "sentiment_score": 0.3065,
+      "pitch_mean": 334.97
+    },
+    {
+      "start_time": 14.0,
+      "end_time": 19.0,
+      "text": "I'm sorry, but I couldn't help wishing I were somewhere else.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.943,
+      "sentiment_score": -0.857,
+      "pitch_mean": 330.94
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2752,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "sadness": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 118.05,
+    "avg_pitch": 333.41
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script02_2",
+    "utterance_id": "Ses05F_script02_2_F028",
+    "transcript_ground_truth": "I mean it is just this , I mean it includes a lot and everything and you know it's the sand and it's the full moon and I just-I am sorry but I couldn't help wishing I was somewhere else."
+  }
+}

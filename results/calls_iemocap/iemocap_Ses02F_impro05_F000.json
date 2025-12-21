@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro05_F000",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:24:45.528063",
+  "duration_seconds": 3.65,
+  "transcript": "Hi, excuse me, I believe that the airline lost my baggage.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.5,
+      "text": "Hi, excuse me, I believe that the airline lost my baggage.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.343,
+      "sentiment_score": -0.6058,
+      "pitch_mean": 347.04
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6058,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 180.73,
+    "avg_pitch": 342.25
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro05",
+    "utterance_id": "Ses02F_impro05_F000",
+    "transcript_ground_truth": "Hi, um, excuse me, I believe that the airline lost my baggage."
+  }
+}

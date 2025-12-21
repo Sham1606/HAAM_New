@@ -1,0 +1,81 @@
+{
+  "call_id": "iemocap_Ses02F_impro03_F021",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:22:09.958754",
+  "duration_seconds": 11.09,
+  "transcript": "Yeah, I don't know. I don't know. I don't really know. I mean, I can't even say whole idea of living, spending my whole life with somebody. It's crazy.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Yeah, I don't know.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.42,
+      "sentiment_score": -0.2806,
+      "pitch_mean": 344.75
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.68,
+      "text": "I don't know. I don't really know.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.752,
+      "sentiment_score": -0.5348,
+      "pitch_mean": 362.57
+    },
+    {
+      "start_time": 3.68,
+      "end_time": 7.92,
+      "text": "I mean, I can't even say whole idea of living,",
+      "emotion": "disgust",
+      "emotion_confidence": 0.787,
+      "sentiment_score": -0.7449,
+      "pitch_mean": 342.55
+    },
+    {
+      "start_time": 7.92,
+      "end_time": 9.64,
+      "text": "spending my whole life with somebody.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.652,
+      "sentiment_score": -0.187,
+      "pitch_mean": 367.78
+    },
+    {
+      "start_time": 9.64,
+      "end_time": 11.14,
+      "text": "It's crazy.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.1362,
+      "pitch_mean": 347.32
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3767,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.4,
+      "neutral": 0.4,
+      "sadness": 0.2
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 156.97,
+    "avg_pitch": 347.32
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro03",
+    "utterance_id": "Ses02F_impro03_F021",
+    "transcript_ground_truth": "Yeah, I don't know-[LAUGHTER]-I mean--I can't even--the whole idea of like living--spending my whole life with somebody--that's crazy"
+  }
+}

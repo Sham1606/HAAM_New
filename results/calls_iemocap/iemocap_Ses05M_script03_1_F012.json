@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script03_1_F012",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:10:31.728336",
+  "duration_seconds": 1.95,
+  "transcript": "Who's there?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Who's there?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.887,
+      "sentiment_score": 0.0326,
+      "pitch_mean": 316.03
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0326,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 61.54,
+    "avg_pitch": 316.03
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script03_1",
+    "utterance_id": "Ses05M_script03_1_F012",
+    "transcript_ground_truth": "Who's they?"
+  }
+}

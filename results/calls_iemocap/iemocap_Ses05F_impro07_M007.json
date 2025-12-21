@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro07_M007",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:08:49.639261",
+  "duration_seconds": 4.17,
+  "transcript": "Oh, okay, you're right, you're right, you're right, you're right, right, well, maybe we should get a place together.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Oh, okay, you're right, you're right, you're right, you're right, right, well, maybe we should get a place together.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.38,
+      "sentiment_score": 0.5162,
+      "pitch_mean": 329.94
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5162,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 273.38,
+    "avg_pitch": 327.68
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro07",
+    "utterance_id": "Ses05F_impro07_M007",
+    "transcript_ground_truth": "Okay, you're right, you're right, you're right,  right.  Maybe we should get a place together."
+  }
+}

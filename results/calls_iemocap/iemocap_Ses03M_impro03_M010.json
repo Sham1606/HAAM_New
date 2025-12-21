@@ -1,0 +1,63 @@
+{
+  "call_id": "iemocap_Ses03M_impro03_M010",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:53:23.102498",
+  "duration_seconds": 7.79,
+  "transcript": "Mary Jo B.J. Oh, dirty, dirty girl. I'm so glad.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Mary Jo B.J.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.859,
+      "sentiment_score": 0.0927,
+      "pitch_mean": 342.61
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 5.0,
+      "text": "Oh, dirty, dirty girl.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.967,
+      "sentiment_score": -0.8593,
+      "pitch_mean": 360.43
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 7.0,
+      "text": "I'm so glad.",
+      "emotion": "joy",
+      "emotion_confidence": 0.986,
+      "sentiment_score": 0.9696,
+      "pitch_mean": 372.67
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0677,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.333,
+      "disgust": 0.333,
+      "joy": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 76.97,
+    "avg_pitch": 358.07
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.5,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro03",
+    "utterance_id": "Ses03M_impro03_M010",
+    "transcript_ground_truth": "Barry Joe, B.J. [LAUGHTER] Oh you dirty, dirty girl. you're so dirty."
+  }
+}

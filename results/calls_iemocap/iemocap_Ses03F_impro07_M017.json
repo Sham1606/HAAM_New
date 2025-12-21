@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro07_M017",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:26:34.374265",
+  "duration_seconds": 2.36,
+  "transcript": "and gutting",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.12,
+      "text": "and gutting",
+      "emotion": "anger",
+      "emotion_confidence": 0.926,
+      "sentiment_score": -0.8207,
+      "pitch_mean": 325.4
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8207,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 50.75,
+    "avg_pitch": 324.21
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "sur",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro07",
+    "utterance_id": "Ses03F_impro07_M017",
+    "transcript_ground_truth": "Shit. That's-"
+  }
+}

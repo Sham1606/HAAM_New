@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro01_F013",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:47:08.465676",
+  "duration_seconds": 4.19,
+  "transcript": "I'm sorry there's a lot of people waiting, so you're just gonna have to get in line again.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I'm sorry there's a lot of people waiting, so you're just gonna have to get in line again.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.429,
+      "sentiment_score": -0.6629,
+      "pitch_mean": 365.36
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6629,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 257.61,
+    "avg_pitch": 362.33
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro01",
+    "utterance_id": "Ses02M_impro01_F013",
+    "transcript_ground_truth": "I'm sorry, but there is a lot of people waiting so you're just going to have to get in line again."
+  }
+}

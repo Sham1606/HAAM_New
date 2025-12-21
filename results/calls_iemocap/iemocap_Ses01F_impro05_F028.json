@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro05_F028",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:25:12.544307",
+  "duration_seconds": 2.12,
+  "transcript": "Okay, I'll do that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Okay, I'll do that.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.631,
+      "sentiment_score": 0.4704,
+      "pitch_mean": 333.27
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4704,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 113.34,
+    "avg_pitch": 333.16
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro05",
+    "utterance_id": "Ses01F_impro05_F028",
+    "transcript_ground_truth": "Okay.  I'll do that."
+  }
+}

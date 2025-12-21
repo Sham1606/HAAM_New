@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script03_2_M002",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:31:00.887576",
+  "duration_seconds": 4.18,
+  "transcript": "I remember it well covered in diamonds in the worst possible taste.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I remember it well covered in diamonds in the worst possible taste.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.974,
+      "sentiment_score": -0.9069,
+      "pitch_mean": 344.41
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9069,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 172.25,
+    "avg_pitch": 344.31
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script03_2",
+    "utterance_id": "Ses05F_script03_2_M002",
+    "transcript_ground_truth": "I remember it well, covered in diamonds in the worst possible taste."
+  }
+}

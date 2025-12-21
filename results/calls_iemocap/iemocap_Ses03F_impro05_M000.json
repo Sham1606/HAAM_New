@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03F_impro05_M000",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:22:39.827789",
+  "duration_seconds": 7.77,
+  "transcript": "I'm sorry Mrs. Rosencrantz, but uh... I don't know what to tell you.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I'm sorry Mrs. Rosencrantz, but uh...",
+      "emotion": "sadness",
+      "emotion_confidence": 0.883,
+      "sentiment_score": -0.7852,
+      "pitch_mean": 332.0
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 7.0,
+      "text": "I don't know what to tell you.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.338,
+      "sentiment_score": -0.5178,
+      "pitch_mean": 337.85
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6515,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 100.42,
+    "avg_pitch": 331.23
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro05",
+    "utterance_id": "Ses03F_impro05_M000",
+    "transcript_ground_truth": "I'm sorry, Mrs. Rosenkrantz, but uh- I don't know what to tell you."
+  }
+}

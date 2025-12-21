@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses01F_script02_2_M030",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:42:32.387936",
+  "duration_seconds": 12.22,
+  "transcript": "Well, welcome to the human race, huh? You think I had some grand fantasy going that four years down the line, we'd come to this beach and just be arguing of her fish? No.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Well, welcome to the human race, huh?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.657,
+      "sentiment_score": -0.484,
+      "pitch_mean": 330.8
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 11.0,
+      "text": "You think I had some grand fantasy going that four years down the line, we'd come to this beach and just be arguing of her fish?",
+      "emotion": "anger",
+      "emotion_confidence": 0.603,
+      "sentiment_score": -0.0178,
+      "pitch_mean": 331.86
+    },
+    {
+      "start_time": 11.0,
+      "end_time": 12.0,
+      "text": "No.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.83,
+      "sentiment_score": 0.122,
+      "pitch_mean": 334.45
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1266,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "anger": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 166.94,
+    "avg_pitch": 330.67
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_2",
+    "utterance_id": "Ses01F_script02_2_M030",
+    "transcript_ground_truth": "Well welcome to the human race, huh?  Do you think I had some grand fantasy going that four years down the line we would come to this beach and be arguing over fish?  No."
+  }
+}

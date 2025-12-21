@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script02_2_F031",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:24:48.580656",
+  "duration_seconds": 3.68,
+  "transcript": "Robin's safe, don't you know that?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Robin's safe, don't you know that?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.417,
+      "sentiment_score": 0.0748,
+      "pitch_mean": 328.82
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0748,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 97.82,
+    "avg_pitch": 328.48
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script02_2",
+    "utterance_id": "Ses05F_script02_2_F031",
+    "transcript_ground_truth": "For heaven's sake, don't you know that?"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro01_M007",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:47:41.313834",
+  "duration_seconds": 8.2,
+  "transcript": "What? You telling me I waited in that huge line to go and sit down and get my number called after...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 8.16,
+      "text": "What? You telling me I waited in that huge line to go and sit down and get my number called after...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.866,
+      "sentiment_score": -0.4793,
+      "pitch_mean": 332.9
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4793,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 153.74,
+    "avg_pitch": 333.04
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro01",
+    "utterance_id": "Ses02M_impro01_M007",
+    "transcript_ground_truth": "What? I- You telling me I waited in that huge line to go and sit down and get my number called, like after"
+  }
+}

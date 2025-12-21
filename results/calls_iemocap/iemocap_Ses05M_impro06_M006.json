@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses05M_impro06_M006",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:45:46.791191",
+  "duration_seconds": 9.87,
+  "transcript": "He was a designer, you know, but he did everything. You know, he painted me in the costume design, it set design, it did lighting. He was...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.5,
+      "text": "He was a designer, you know, but he did everything.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.466,
+      "sentiment_score": 0.102,
+      "pitch_mean": 307.42
+    },
+    {
+      "start_time": 3.5,
+      "end_time": 7.92,
+      "text": "You know, he painted me in the costume design,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.57,
+      "sentiment_score": 0.1537,
+      "pitch_mean": 308.82
+    },
+    {
+      "start_time": 7.92,
+      "end_time": 9.28,
+      "text": "it set design, it did lighting.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.946,
+      "sentiment_score": 0.03,
+      "pitch_mean": 309.24
+    },
+    {
+      "start_time": 9.28,
+      "end_time": 10.12,
+      "text": "He was...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.1414,
+      "pitch_mean": 309.39
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1068,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "disgust": 0.25,
+      "neutral": 0.75
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 164.13,
+    "avg_pitch": 309.39
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro06",
+    "utterance_id": "Ses05M_impro06_M006",
+    "transcript_ground_truth": "He was a designer, you know.  But he did everything. You know, He painted and he- and he did costume design, he did set design, he did lighting, he was --"
+  }
+}

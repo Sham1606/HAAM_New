@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05F_impro08_M001",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:11:48.159068",
+  "duration_seconds": 7.88,
+  "transcript": "All I wanna do is put my pay for my freaking credit card and there's something wrong in my bill Like I swear it says that I didn't pay last month, but I know I paid last month",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.32,
+      "text": "All I wanna do is put my pay for my freaking credit card and there's something wrong in my bill",
+      "emotion": "anger",
+      "emotion_confidence": 0.793,
+      "sentiment_score": -0.9241,
+      "pitch_mean": 355.59
+    },
+    {
+      "start_time": 4.32,
+      "end_time": 7.76,
+      "text": "Like I swear it says that I didn't pay last month, but I know I paid last month",
+      "emotion": "neutral",
+      "emotion_confidence": 0.55,
+      "sentiment_score": -0.3454,
+      "pitch_mean": 354.28
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6347,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 289.34,
+    "avg_pitch": 354.29
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 4.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro08",
+    "utterance_id": "Ses05F_impro08_M001",
+    "transcript_ground_truth": "All I want to do is put my, pay for my freaking credit card, and there's something wrong in my bill, Like I swear, it says I didn't paid last month, but I know I paid last month."
+  }
+}

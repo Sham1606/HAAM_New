@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script02_2_M046",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:42:10.672041",
+  "duration_seconds": 1.59,
+  "transcript": "or not.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "or not.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.657,
+      "sentiment_score": -0.0664,
+      "pitch_mean": 332.08
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0664,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 75.47,
+    "avg_pitch": 332.08
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script02_2",
+    "utterance_id": "Ses02F_script02_2_M046",
+    "transcript_ground_truth": "Or not."
+  }
+}

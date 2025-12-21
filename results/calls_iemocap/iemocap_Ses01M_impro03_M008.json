@@ -1,0 +1,63 @@
+{
+  "call_id": "iemocap_Ses01M_impro03_M008",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:52:18.126817",
+  "duration_seconds": 15.07,
+  "transcript": "Yeah, can you believe it? Yeah, she's like hey, I'm like, I'm like, I'm like 50,000 dollars. I tell you The only thing is that it's kind of like illegal So like I could go to jail for like a really long time like a cop but",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.38,
+      "text": "Yeah, can you believe it? Yeah, she's like hey, I'm like, I'm like, I'm like 50,000 dollars. I tell you",
+      "emotion": "joy",
+      "emotion_confidence": 0.469,
+      "sentiment_score": 0.5749,
+      "pitch_mean": 368.82
+    },
+    {
+      "start_time": 8.38,
+      "end_time": 10.38,
+      "text": "The only thing is that it's kind of like illegal",
+      "emotion": "neutral",
+      "emotion_confidence": 0.591,
+      "sentiment_score": -0.57,
+      "pitch_mean": 361.43
+    },
+    {
+      "start_time": 11.04,
+      "end_time": 14.34,
+      "text": "So like I could go to jail for like a really long time like a cop but",
+      "emotion": "anger",
+      "emotion_confidence": 0.497,
+      "sentiment_score": -0.5833,
+      "pitch_mean": 337.94
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1928,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 0.333,
+      "neutral": 0.333,
+      "anger": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 187.16,
+    "avg_pitch": 357.14
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro03",
+    "utterance_id": "Ses01M_impro03_M008",
+    "transcript_ground_truth": "Yeah.  Can you believe that? Yeah, she's like hey, I'm like sure I'll do it, I don't care. Yeah. I'm like fifty thousand dollars, I'd totally do it for fifty thousand dollars. But the only thing is that's kind of like illegal. So like I could go to jail probably for a long if I get caught, but..."
+  }
+}

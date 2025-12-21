@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02M_impro05_M008",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:53:42.194579",
+  "duration_seconds": 7.47,
+  "transcript": "I mean, I've been away for a while and now I've gifts for friends and family. I mean, I've got stuff in there that...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.52,
+      "text": "I mean, I've been away for a while and now I've gifts for friends and family.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.438,
+      "sentiment_score": 0.3275,
+      "pitch_mean": 330.62
+    },
+    {
+      "start_time": 5.52,
+      "end_time": 7.36,
+      "text": "I mean, I've got stuff in there that...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.649,
+      "sentiment_score": 0.0657,
+      "pitch_mean": 332.35
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1966,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 192.77,
+    "avg_pitch": 329.83
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro05",
+    "utterance_id": "Ses02M_impro05_M008",
+    "transcript_ground_truth": "I mean -- I've been away for a while and- and now I've- I've gifts for- for you know friends and family I mean, I got stuff in the there"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script02_1_F002",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:04:02.001331",
+  "duration_seconds": 2.21,
+  "transcript": "You mean our flashlight?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "You mean our flashlight?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.766,
+      "sentiment_score": -0.098,
+      "pitch_mean": 328.85
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.098,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 108.6,
+    "avg_pitch": 330.86
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script02_1",
+    "utterance_id": "Ses05M_script02_1_F002",
+    "transcript_ground_truth": "You mean our flashlight?"
+  }
+}

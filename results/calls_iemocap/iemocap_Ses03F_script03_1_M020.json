@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses03F_script03_1_M020",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:43:50.608413",
+  "duration_seconds": 18.29,
+  "transcript": "Let's blow trumpets and squeakers in party as much as we can like small, quite idiotic school children. Let's savor the delight of the moment. Come kiss me darling before worms pop in and out of your eyes sockets.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 9.76,
+      "text": "Let's blow trumpets and squeakers in party as much as we can like small, quite idiotic",
+      "emotion": "disgust",
+      "emotion_confidence": 0.375,
+      "sentiment_score": -0.6342,
+      "pitch_mean": 335.51
+    },
+    {
+      "start_time": 9.76,
+      "end_time": 12.04,
+      "text": "school children.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.672,
+      "sentiment_score": -0.2344,
+      "pitch_mean": 326.06
+    },
+    {
+      "start_time": 12.04,
+      "end_time": 14.4,
+      "text": "Let's savor the delight of the moment.",
+      "emotion": "joy",
+      "emotion_confidence": 0.827,
+      "sentiment_score": 0.9657,
+      "pitch_mean": 331.42
+    },
+    {
+      "start_time": 14.4,
+      "end_time": 17.96,
+      "text": "Come kiss me darling before worms pop in and out of your eyes sockets.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.751,
+      "sentiment_score": 0.3759,
+      "pitch_mean": 330.3
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1182,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "joy": 0.25,
+      "neutral": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 127.96,
+    "avg_pitch": 332.32
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script03_1",
+    "utterance_id": "Ses03F_script03_1_M020",
+    "transcript_ground_truth": "Let's blow strumpets, blow-blow trumpets and squeakers and party as much as we can like small quite idiotic school children. Let's savor the delight of the moment. Come, kiss me darling, before worms pop in and out of your eye sockets."
+  }
+}

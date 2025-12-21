@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses05M_script01_1b_F027",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:56:57.399761",
+  "duration_seconds": 10.48,
+  "transcript": "No, I don't want to... Your father thinks he's coming back, Chris. If you marry that girl, you're pronouncing him dead.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "No, I don't want to...",
+      "emotion": "sadness",
+      "emotion_confidence": 0.539,
+      "sentiment_score": -0.6733,
+      "pitch_mean": 321.85
+    },
+    {
+      "start_time": 2.82,
+      "end_time": 5.0,
+      "text": "Your father thinks he's coming back, Chris.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.529,
+      "sentiment_score": -0.0542,
+      "pitch_mean": 313.11
+    },
+    {
+      "start_time": 6.54,
+      "end_time": 9.24,
+      "text": "If you marry that girl, you're pronouncing him dead.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.341,
+      "sentiment_score": -0.771,
+      "pitch_mean": 323.25
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4995,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 0.667,
+      "neutral": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 120.23,
+    "avg_pitch": 318.61
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_1b",
+    "utterance_id": "Ses05M_script01_1b_F027",
+    "transcript_ground_truth": "No I don't want a-  Your father thinks he's coming back, Chris.  If you marry that girl, you're pronouncing him dead."
+  }
+}

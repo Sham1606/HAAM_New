@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01M_impro02_M007",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:50:28.103169",
+  "duration_seconds": 8.52,
+  "transcript": "The National Guard is, I guess, really spread thin and everyone has to go. We all have to go back. My whole company is going back.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.4,
+      "text": "The National Guard is, I guess, really spread thin and everyone has to go.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.896,
+      "sentiment_score": -0.7199,
+      "pitch_mean": 338.84
+    },
+    {
+      "start_time": 4.4,
+      "end_time": 6.4,
+      "text": "We all have to go back. My whole company is going back.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.475,
+      "sentiment_score": 0.2241,
+      "pitch_mean": 331.74
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2479,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 183.1,
+    "avg_pitch": 332.7
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro02",
+    "utterance_id": "Ses01M_impro02_M007",
+    "transcript_ground_truth": "The National Guard is I guess really spread thin and then everyone has to go.  We all have to go back, my whole companies going back."
+  }
+}

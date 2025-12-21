@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro04_M019",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:24:42.445107",
+  "duration_seconds": 5.35,
+  "transcript": "Well come on come on thinking about it like this is definitely not gonna help either though",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.68,
+      "text": "Well come on come on thinking about it like this is definitely not gonna help either though",
+      "emotion": "neutral",
+      "emotion_confidence": 0.633,
+      "sentiment_score": -0.8546,
+      "pitch_mean": 331.19
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8546,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 190.65,
+    "avg_pitch": 328.34
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro04",
+    "utterance_id": "Ses02F_impro04_M019",
+    "transcript_ground_truth": "Well, come on, come on.  Thinking about it like this is definitely not gonna help either though."
+  }
+}

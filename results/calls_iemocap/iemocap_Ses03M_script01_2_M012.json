@@ -1,0 +1,63 @@
+{
+  "call_id": "iemocap_Ses03M_script01_2_M012",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:42:02.046745",
+  "duration_seconds": 5.1,
+  "transcript": "Hey, don't look. Calm yourself. Calm yourself.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Hey, don't look.",
+      "emotion": "anger",
+      "emotion_confidence": 0.564,
+      "sentiment_score": -0.248,
+      "pitch_mean": 350.33
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "Calm yourself.",
+      "emotion": "joy",
+      "emotion_confidence": 0.521,
+      "sentiment_score": 0.1672,
+      "pitch_mean": 378.07
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 5.0,
+      "text": "Calm yourself.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.465,
+      "sentiment_score": 0.1672,
+      "pitch_mean": 330.92
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0288,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.333,
+      "joy": 0.333,
+      "disgust": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 82.32,
+    "avg_pitch": 348.11
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_2",
+    "utterance_id": "Ses03M_script01_2_M012",
+    "transcript_ground_truth": "Okay. Calm yourself. Just calm yourself."
+  }
+}

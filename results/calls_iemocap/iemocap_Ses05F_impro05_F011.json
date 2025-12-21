@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro05_F011",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:00:53.331296",
+  "duration_seconds": 2.78,
+  "transcript": "No, it didn't turn up at the baggage claim.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "No, it didn't turn up at the baggage claim.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.3109,
+      "pitch_mean": 335.89
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3109,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 194.25,
+    "avg_pitch": 335.89
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro05",
+    "utterance_id": "Ses05F_impro05_F011",
+    "transcript_ground_truth": "No, it didn't turn up at the baggage claim."
+  }
+}

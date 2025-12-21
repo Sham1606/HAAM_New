@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro01_F024",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:48:03.673992",
+  "duration_seconds": 5.5,
+  "transcript": "No, you cannot get your license you filled out the wrong part of the form",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.8,
+      "text": "No, you cannot get your license you filled out the wrong part of the form",
+      "emotion": "disgust",
+      "emotion_confidence": 0.376,
+      "sentiment_score": -0.6666,
+      "pitch_mean": 344.16
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6666,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 163.56,
+    "avg_pitch": 348.44
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro01",
+    "utterance_id": "Ses03M_impro01_F024",
+    "transcript_ground_truth": "No, You cannot get your license.  You filled out the wrong part of the form."
+  }
+}

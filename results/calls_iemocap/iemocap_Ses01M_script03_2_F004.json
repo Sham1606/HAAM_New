@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script03_2_F004",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:16:13.446989",
+  "duration_seconds": 4.64,
+  "transcript": "Not at all. It was very pretty. I still wear it often.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Not at all. It was very pretty. I still wear it often.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.708,
+      "sentiment_score": 0.9331,
+      "pitch_mean": 338.4
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9331,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 155.21,
+    "avg_pitch": 334.36
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script03_2",
+    "utterance_id": "Ses01M_script03_2_F004",
+    "transcript_ground_truth": "Not at all. It was very pretty. I still wear it often."
+  }
+}

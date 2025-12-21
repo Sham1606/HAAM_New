@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script01_1_F012",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:29:35.712165",
+  "duration_seconds": 2.76,
+  "transcript": "You can't tell him that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "You can't tell him that.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.449,
+      "sentiment_score": -0.4862,
+      "pitch_mean": 328.09
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4862,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 108.53,
+    "avg_pitch": 323.33
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.6667,
+    "arousal": 3.3333,
+    "dominance": 3.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_1",
+    "utterance_id": "Ses03F_script01_1_F012",
+    "transcript_ground_truth": "You can't tell him that."
+  }
+}

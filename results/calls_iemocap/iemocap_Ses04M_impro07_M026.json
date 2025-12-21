@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro07_M026",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:01:51.877483",
+  "duration_seconds": 5.86,
+  "transcript": "No, no, I mean I didn't know I didn't know that about you. Um, I feel like",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.8,
+      "text": "No, no, I mean I didn't know I didn't know that about you. Um, I feel like",
+      "emotion": "anger",
+      "emotion_confidence": 0.334,
+      "sentiment_score": -0.3059,
+      "pitch_mean": 335.26
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3059,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 174.06,
+    "avg_pitch": 328.59
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro07",
+    "utterance_id": "Ses04M_impro07_M026",
+    "transcript_ground_truth": "No, no, I mean, I didn't know -- I didn't know that about you. Um, I feel like --"
+  }
+}

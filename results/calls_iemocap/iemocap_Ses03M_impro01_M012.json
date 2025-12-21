@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses03M_impro01_M012",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:48:29.714037",
+  "duration_seconds": 5.59,
+  "transcript": "in line with this thing. What is it about half an hour? Well, that's too bad because I'm getting my license right now. You will get...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "in line with this thing.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.456,
+      "sentiment_score": -0.439,
+      "pitch_mean": 331.53
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 3.0,
+      "text": "What is it about half an hour?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.419,
+      "sentiment_score": -0.0138,
+      "pitch_mean": 354.82
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 5.0,
+      "text": "Well, that's too bad because I'm getting my license right now.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.577,
+      "sentiment_score": -0.6709,
+      "pitch_mean": 331.26
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 6.0,
+      "text": "You will get...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.92,
+      "sentiment_score": 0.1984,
+      "pitch_mean": 336.72
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2313,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.75,
+      "neutral": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 279.0,
+    "avg_pitch": 336.72
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro01",
+    "utterance_id": "Ses03M_impro01_M012",
+    "transcript_ground_truth": "Hey,uh-- Well that's too bad cause I'm getting my license right now."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro08b_F018",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:35:22.815180",
+  "duration_seconds": 1.72,
+  "transcript": "add palm time",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 24.04,
+      "text": "add palm time",
+      "emotion": "neutral",
+      "emotion_confidence": 0.82,
+      "sentiment_score": 0.0892,
+      "pitch_mean": 352.64
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0892,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 104.65,
+    "avg_pitch": 352.64
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro08b",
+    "utterance_id": "Ses03M_impro08b_F018",
+    "transcript_ground_truth": "And palm pilot."
+  }
+}

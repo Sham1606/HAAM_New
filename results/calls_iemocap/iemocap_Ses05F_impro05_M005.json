@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro05_M005",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:02:34.466805",
+  "duration_seconds": 4.68,
+  "transcript": "It seems like it went through Heathrow. I see it here.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "It seems like it went through Heathrow. I see it here.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.844,
+      "sentiment_score": 0.0267,
+      "pitch_mean": 326.72
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0267,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 140.91,
+    "avg_pitch": 321.7
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro05",
+    "utterance_id": "Ses05F_impro05_M005",
+    "transcript_ground_truth": "It seems like it went through Heath Row.  I see it here. uh-"
+  }
+}

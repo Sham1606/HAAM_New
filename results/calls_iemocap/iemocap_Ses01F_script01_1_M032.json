@@ -1,0 +1,80 @@
+{
+  "call_id": "iemocap_Ses01F_script01_1_M032",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:33:36.409873",
+  "duration_seconds": 10.81,
+  "transcript": "I've given it three years of thought. And I'd hope that if I waited, Father would forget about Larry, and then we could just have a regular wedding, and everyone would be happy.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I've given it three years of thought.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.961,
+      "sentiment_score": 0.0894,
+      "pitch_mean": 321.36
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 5.0,
+      "text": "And I'd hope that if I waited,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.95,
+      "sentiment_score": 0.6387,
+      "pitch_mean": 326.16
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 7.0,
+      "text": "Father would forget about Larry,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.875,
+      "sentiment_score": -0.3227,
+      "pitch_mean": 342.04
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 9.0,
+      "text": "and then we could just have a regular wedding,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.906,
+      "sentiment_score": 0.4016,
+      "pitch_mean": 348.6
+    },
+    {
+      "start_time": 9.0,
+      "end_time": 10.0,
+      "text": "and everyone would be happy.",
+      "emotion": "joy",
+      "emotion_confidence": 0.918,
+      "sentiment_score": 0.929,
+      "pitch_mean": 320.95
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3472,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.8,
+      "joy": 0.2
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 183.18,
+    "avg_pitch": 328.87
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.6667,
+    "arousal": 3.6667,
+    "dominance": 3.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_1",
+    "utterance_id": "Ses01F_script01_1_M032",
+    "transcript_ground_truth": "I've given it three years of thought.  And I'd hope that if I waited, father would forget about Larry and then we could just have a regular wedding and everyone would be happy."
+  }
+}

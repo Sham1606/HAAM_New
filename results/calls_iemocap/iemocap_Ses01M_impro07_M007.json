@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01M_impro07_M007",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:00:30.662977",
+  "duration_seconds": 1.68,
+  "transcript": "Thank you. Good.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "Thank you.",
+      "emotion": "joy",
+      "emotion_confidence": 0.453,
+      "sentiment_score": 0.8156,
+      "pitch_mean": 379.48
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 2.0,
+      "text": "Good.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.739,
+      "pitch_mean": 390.83
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.7773,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 107.14,
+    "avg_pitch": 390.83
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro07",
+    "utterance_id": "Ses01M_impro07_M007",
+    "transcript_ground_truth": "Thank you."
+  }
+}

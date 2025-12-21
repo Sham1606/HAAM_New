@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script03_1_F028",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:11:07.887553",
+  "duration_seconds": 6.68,
+  "transcript": "The manager came in and saw us all rolling all over the floor biting and scratching one another",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.6,
+      "text": "The manager came in and saw us all rolling all over the floor biting and scratching one another",
+      "emotion": "disgust",
+      "emotion_confidence": 0.55,
+      "sentiment_score": -0.2837,
+      "pitch_mean": 356.24
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2837,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 161.68,
+    "avg_pitch": 362.5
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.5,
+    "arousal": 4.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script03_1",
+    "utterance_id": "Ses05M_script03_1_F028",
+    "transcript_ground_truth": "And then the manager came in and saw us all rolling all over the floor, biting and scratching one another. [LAUGHTER]"
+  }
+}

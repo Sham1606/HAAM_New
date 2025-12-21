@@ -1,0 +1,63 @@
+{
+  "call_id": "iemocap_Ses02M_impro06_M016",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:55:29.024704",
+  "duration_seconds": 12.09,
+  "transcript": "I just don't get it. There's nothing you can do about it. You know, there's like, it's just out of your control.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "I just don't get it.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.392,
+      "sentiment_score": -0.8308,
+      "pitch_mean": 317.81
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 8.0,
+      "text": "There's nothing you can do about it.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.532,
+      "sentiment_score": -0.6783,
+      "pitch_mean": 307.83
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 12.0,
+      "text": "You know, there's like, it's just out of your control.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.635,
+      "sentiment_score": -0.4589,
+      "pitch_mean": 322.72
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.656,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.333,
+      "sadness": 0.333,
+      "neutral": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 109.19,
+    "avg_pitch": 316.89
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.0,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro06",
+    "utterance_id": "Ses02M_impro06_M016",
+    "transcript_ground_truth": "I just -- I just don't get it, like there is just nothing you can do about it you know, it's like just out of your control and it"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses04M_impro07_F025",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:00:37.146385",
+  "duration_seconds": 6.79,
+  "transcript": "Just one game though, I mean for the experience. I mean you don't have to go to all the games, but you gotta go to a game.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Just one game though, I mean for the experience.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.929,
+      "sentiment_score": 0.1833,
+      "pitch_mean": 348.89
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 6.0,
+      "text": "I mean you don't have to go to all the games, but you gotta go to a game.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.706,
+      "sentiment_score": 0.0085,
+      "pitch_mean": 357.36
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0959,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 238.59,
+    "avg_pitch": 356.52
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro07",
+    "utterance_id": "Ses04M_impro07_F025",
+    "transcript_ground_truth": "Just one game, though?  I mean, for the experience.  I mean, you don't have to go to all of the games but you gotta go to a game."
+  }
+}

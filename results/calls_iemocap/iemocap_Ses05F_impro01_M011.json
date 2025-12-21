@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05F_impro01_M011",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:46:46.246365",
+  "duration_seconds": 8.57,
+  "transcript": "But obviously I don't have time for you to stand here and waste my time in this line. There are other people who need service behind you who are waiting for the right thing.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.88,
+      "text": "But obviously I don't have time for you to stand here and waste my time in this line.",
+      "emotion": "anger",
+      "emotion_confidence": 0.366,
+      "sentiment_score": -0.8015,
+      "pitch_mean": 349.07
+    },
+    {
+      "start_time": 4.88,
+      "end_time": 8.32,
+      "text": "There are other people who need service behind you who are waiting for the right thing.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.967,
+      "sentiment_score": -0.0704,
+      "pitch_mean": 349.28
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4359,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 238.04,
+    "avg_pitch": 346.59
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro01",
+    "utterance_id": "Ses05F_impro01_M011",
+    "transcript_ground_truth": "But, obviously I don't have time for you to stand here and waste my time in this line.  There are other people who need service behind you who are waiting for the right things."
+  }
+}

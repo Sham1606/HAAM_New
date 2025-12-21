@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02F_script03_2_M028",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:46:13.325239",
+  "duration_seconds": 8.01,
+  "transcript": "As I mentioned before, I have had three minute LeCure glasses of brandy the whole evening long. A child of two couldn't get drunk on that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.6,
+      "text": "As I mentioned before, I have had three minute LeCure glasses of brandy the whole evening long.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.942,
+      "sentiment_score": 0.3066,
+      "pitch_mean": 337.07
+    },
+    {
+      "start_time": 5.6,
+      "end_time": 7.6,
+      "text": "A child of two couldn't get drunk on that.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.923,
+      "sentiment_score": -0.6645,
+      "pitch_mean": 347.62
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.179,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 194.76,
+    "avg_pitch": 340.51
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script03_2",
+    "utterance_id": "Ses02F_script03_2_M028",
+    "transcript_ground_truth": "As I mentioned before, I have had three minute liquor glasses of brandy the whole evening long.  A child of two couldn't get drunk on that."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro03_M026",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:04:59.097979",
+  "duration_seconds": 1.66,
+  "transcript": "Give me the browns!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Give me the browns!",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.3174,
+      "pitch_mean": 367.81
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3174,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 144.58,
+    "avg_pitch": 367.81
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro03",
+    "utterance_id": "Ses04F_impro03_M026",
+    "transcript_ground_truth": "Give me the browns."
+  }
+}

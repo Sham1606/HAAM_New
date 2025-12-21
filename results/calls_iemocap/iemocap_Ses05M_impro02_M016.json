@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro02_M016",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:35:57.963583",
+  "duration_seconds": 4.06,
+  "transcript": "Don't find me anyway, you know they will.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Don't find me anyway, you know they will.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.59,
+      "sentiment_score": -0.5669,
+      "pitch_mean": 330.19
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5669,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 118.13,
+    "avg_pitch": 330.64
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.3333,
+    "arousal": 3.0,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro02",
+    "utterance_id": "Ses05M_impro02_M016",
+    "transcript_ground_truth": "They'll find me anyway.  You know they will."
+  }
+}

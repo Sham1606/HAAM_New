@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05M_script01_1b_F026",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:56:54.474156",
+  "duration_seconds": 7.07,
+  "transcript": "Well, that's a good reason, but it don't mean a thing. I mean, you haven't seen her since you went to war. It's been five years.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Well, that's a good reason, but it don't mean a thing.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.332,
+      "sentiment_score": -0.7368,
+      "pitch_mean": 336.18
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 7.0,
+      "text": "I mean, you haven't seen her since you went to war. It's been five years.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.377,
+      "sentiment_score": -0.6909,
+      "pitch_mean": 322.82
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7139,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 220.65,
+    "avg_pitch": 328.97
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_1b",
+    "utterance_id": "Ses05M_script01_1b_F026",
+    "transcript_ground_truth": "Well, that's a good reason.  But it don't mean a thing. I mean, You haven't seen her since you went to war.  It's been five years."
+  }
+}

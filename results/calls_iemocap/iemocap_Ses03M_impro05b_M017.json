@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses03M_impro05b_M017",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T04:00:16.062045",
+  "duration_seconds": 10.72,
+  "transcript": "I need you to help me out here. Can you get on the phone and get the luggage over on the fastest flight you can and then maybe I won't get you fired.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.8,
+      "text": "I need you to help me out here.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.392,
+      "sentiment_score": 0.3398,
+      "pitch_mean": 323.79
+    },
+    {
+      "start_time": 2.8,
+      "end_time": 8.32,
+      "text": "Can you get on the phone and get the luggage over on the fastest flight you can and then",
+      "emotion": "neutral",
+      "emotion_confidence": 0.852,
+      "sentiment_score": 0.1543,
+      "pitch_mean": 325.42
+    },
+    {
+      "start_time": 8.32,
+      "end_time": 10.24,
+      "text": "maybe I won't get you fired.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.481,
+      "sentiment_score": -0.35,
+      "pitch_mean": 313.38
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.048,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.667,
+      "neutral": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 184.66,
+    "avg_pitch": 321.75
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro05b",
+    "utterance_id": "Ses03M_impro05b_M017",
+    "transcript_ground_truth": "I need you to help me out here.  Can you get on the phone and get the luggage over on the fastest flight you can and then maybe I won't get you fired."
+  }
+}

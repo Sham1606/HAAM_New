@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro06_M019",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:46:28.795510",
+  "duration_seconds": 2.55,
+  "transcript": "Teriz \u043d\u043e\u0447\u05e9ar..",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.26,
+      "text": "Teriz \u043d\u043e\u0447\u05e9ar..",
+      "emotion": "neutral",
+      "emotion_confidence": 0.531,
+      "sentiment_score": 0.0431,
+      "pitch_mean": 312.95
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0431,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 47.06,
+    "avg_pitch": 312.95
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 2.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro06",
+    "utterance_id": "Ses05M_impro06_M019",
+    "transcript_ground_truth": "I just miss him."
+  }
+}

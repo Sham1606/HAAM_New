@@ -1,0 +1,63 @@
+{
+  "call_id": "iemocap_Ses02M_script02_2_M038",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:10:33.110668",
+  "duration_seconds": 5.92,
+  "transcript": "No, I know. But still. I know it'll make you happy.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "No, I know.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.597,
+      "sentiment_score": 0.0394,
+      "pitch_mean": 322.98
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 2.0,
+      "text": "But still.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.748,
+      "sentiment_score": -0.1106,
+      "pitch_mean": 327.58
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 5.44,
+      "text": "I know it'll make you happy.",
+      "emotion": "joy",
+      "emotion_confidence": 0.927,
+      "sentiment_score": 0.9527,
+      "pitch_mean": 328.73
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2938,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.333,
+      "neutral": 0.333,
+      "joy": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 111.49,
+    "avg_pitch": 326.38
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script02_2",
+    "utterance_id": "Ses02M_script02_2_M038",
+    "transcript_ground_truth": "No, I know. But still, I know I don't make you happy."
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses01F_script01_3_M031",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:37:12.447886",
+  "duration_seconds": 23.58,
+  "transcript": "And I had this idea as I was watching them go down. There's one, everything was being destroyed, you know, but this one thing was being made. It was a kind of monument. It's kind of responsibility, you know, a man for man.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "And I had this idea as I was watching them go down.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.61,
+      "sentiment_score": -0.2426,
+      "pitch_mean": 325.51
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 14.0,
+      "text": "There's one, everything was being destroyed, you know, but this one thing was being made.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.531,
+      "sentiment_score": -0.6382,
+      "pitch_mean": 316.1
+    },
+    {
+      "start_time": 14.0,
+      "end_time": 20.0,
+      "text": "It was a kind of monument.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.423,
+      "sentiment_score": 0.0183,
+      "pitch_mean": 320.76
+    },
+    {
+      "start_time": 20.0,
+      "end_time": 27.0,
+      "text": "It's kind of responsibility, you know, a man for man.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.736,
+      "sentiment_score": -0.0885,
+      "pitch_mean": 321.37
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2377,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 109.42,
+    "avg_pitch": 321.37
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 2.6667,
+    "dominance": 3.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_3",
+    "utterance_id": "Ses01F_script01_3_M031",
+    "transcript_ground_truth": "And I had this idea as I was watching them go down.  Everything was being destroyed, you know, but this one thing was being made.  It was kind of a monument, it's kind of responsibility, man for man."
+  }
+}

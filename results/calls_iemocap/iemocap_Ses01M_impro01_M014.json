@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro01_M014",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:48:58.763496",
+  "duration_seconds": 1.18,
+  "transcript": "Hi, Joy.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "Hi, Joy.",
+      "emotion": "joy",
+      "emotion_confidence": 0.639,
+      "sentiment_score": 0.7107,
+      "pitch_mean": 344.09
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.7107,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 101.69,
+    "avg_pitch": 336.5
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro01",
+    "utterance_id": "Ses01M_impro01_M014",
+    "transcript_ground_truth": "Hi, Joy."
+  }
+}

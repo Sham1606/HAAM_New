@@ -1,0 +1,89 @@
+{
+  "call_id": "iemocap_Ses05F_script02_1_M017",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:22:35.715524",
+  "duration_seconds": 2.0,
+  "transcript": "Bueno, isn't it clear? There's one car, is there, there comes it? You can't tell if that car's a little quick to like, see if there's anyone who's a good friend or whatnot. This one has the Hippocuts number's me tested starting alone in my truck, so it works within a lot of numbers limiting.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.92,
+      "text": "Bueno, isn't it clear?",
+      "emotion": "sadness",
+      "emotion_confidence": 0.691,
+      "sentiment_score": -0.1158,
+      "pitch_mean": 312.84
+    },
+    {
+      "start_time": 1.92,
+      "end_time": 5.42,
+      "text": "There's one car, is there, there comes it?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.712,
+      "sentiment_score": 0.0687,
+      "pitch_mean": 315.51
+    },
+    {
+      "start_time": 5.42,
+      "end_time": 6.94,
+      "text": "You can't tell if that car's a little quick to like,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.702,
+      "sentiment_score": -0.1754,
+      "pitch_mean": 315.51
+    },
+    {
+      "start_time": 6.94,
+      "end_time": 17.34,
+      "text": "see if there's anyone who's a good friend or whatnot.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.941,
+      "sentiment_score": 0.0743,
+      "pitch_mean": 315.51
+    },
+    {
+      "start_time": 17.34,
+      "end_time": 22.18,
+      "text": "This one has the Hippocuts number's me tested starting alone in my truck,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.894,
+      "sentiment_score": -0.049,
+      "pitch_mean": 315.51
+    },
+    {
+      "start_time": 22.18,
+      "end_time": 27.42,
+      "text": "so it works within a lot of numbers limiting.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.924,
+      "sentiment_score": 0.0959,
+      "pitch_mean": 315.51
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0169,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "sadness": 0.167,
+      "neutral": 0.833
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 1652.07,
+    "avg_pitch": 315.51
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script02_1",
+    "utterance_id": "Ses05F_script02_1_M017",
+    "transcript_ground_truth": "Why not?"
+  }
+}

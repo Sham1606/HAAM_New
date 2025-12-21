@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro07_F013",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:07:26.989829",
+  "duration_seconds": 4.33,
+  "transcript": "I know they have a really really great program for what I want to do.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I know they have a really really great program for what I want to do.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.347,
+      "sentiment_score": 0.9732,
+      "pitch_mean": 331.92
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9732,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 207.85,
+    "avg_pitch": 331.6
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro07",
+    "utterance_id": "Ses05F_impro07_F013",
+    "transcript_ground_truth": "I know they have a really, really great program for what I want to do."
+  }
+}

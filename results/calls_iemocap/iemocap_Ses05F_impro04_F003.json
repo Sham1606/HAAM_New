@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05F_impro04_F003",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:56:23.488062",
+  "duration_seconds": 4.14,
+  "transcript": "I mean how did you get a job? What am I supposed to do?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I mean how did you get a job?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.908,
+      "sentiment_score": -0.3311,
+      "pitch_mean": 345.92
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "What am I supposed to do?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.442,
+      "sentiment_score": -0.3109,
+      "pitch_mean": 365.63
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.321,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 202.9,
+    "avg_pitch": 352.42
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro04",
+    "utterance_id": "Ses05F_impro04_F003",
+    "transcript_ground_truth": "How did you get a job?  What am I - What am I supposed to do?"
+  }
+}

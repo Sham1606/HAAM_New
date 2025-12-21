@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro03_M030",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:53:59.299679",
+  "duration_seconds": 3.0,
+  "transcript": "You got a meter, she's wonderful.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "You got a meter, she's wonderful.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.455,
+      "sentiment_score": 0.9447,
+      "pitch_mean": 329.31
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9447,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 119.85,
+    "avg_pitch": 333.77
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro03",
+    "utterance_id": "Ses03M_impro03_M030",
+    "transcript_ground_truth": "You got to meet her, she's wonderful."
+  }
+}

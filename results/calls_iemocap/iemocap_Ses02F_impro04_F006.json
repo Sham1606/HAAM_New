@@ -1,0 +1,90 @@
+{
+  "call_id": "iemocap_Ses02F_impro04_F006",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:23:32.081484",
+  "duration_seconds": 11.2,
+  "transcript": "You gotta be. Yeah, but maybe, just because it's competitive, like maybe I'm just not good enough. Maybe the level is here and I'm here and there's just no way I'm ever gonna do that. That's not here.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 0.84,
+      "text": "You gotta be.",
+      "emotion": "anger",
+      "emotion_confidence": 0.397,
+      "sentiment_score": 0.0754,
+      "pitch_mean": 340.23
+    },
+    {
+      "start_time": 0.84,
+      "end_time": 3.12,
+      "text": "Yeah, but maybe, just because it's competitive,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.947,
+      "sentiment_score": 0.0495,
+      "pitch_mean": 333.27
+    },
+    {
+      "start_time": 3.12,
+      "end_time": 5.28,
+      "text": "like maybe I'm just not good enough.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.501,
+      "sentiment_score": -0.8355,
+      "pitch_mean": 320.88
+    },
+    {
+      "start_time": 5.28,
+      "end_time": 8.0,
+      "text": "Maybe the level is here and I'm here",
+      "emotion": "neutral",
+      "emotion_confidence": 0.886,
+      "sentiment_score": 0.371,
+      "pitch_mean": 332.59
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 10.48,
+      "text": "and there's just no way I'm ever gonna do that.",
+      "emotion": "anger",
+      "emotion_confidence": 0.339,
+      "sentiment_score": -0.8848,
+      "pitch_mean": 336.57
+    },
+    {
+      "start_time": 10.48,
+      "end_time": 11.32,
+      "text": "That's not here.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.915,
+      "sentiment_score": -0.2551,
+      "pitch_mean": 330.11
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2466,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "anger": 0.333,
+      "neutral": 0.5,
+      "disgust": 0.167
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 203.57,
+    "avg_pitch": 330.11
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro04",
+    "utterance_id": "Ses02F_impro04_F006",
+    "transcript_ground_truth": "Yeah, but maybe--if just because it's competitive, like maybe I'm just not good enough.  Maybe the level is here and I'm here and there's just no way I'm ever gonna do that--"
+  }
+}

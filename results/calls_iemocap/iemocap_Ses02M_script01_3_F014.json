@@ -1,0 +1,70 @@
+{
+  "call_id": "iemocap_Ses02M_script01_3_F014",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:03:48.301226",
+  "duration_seconds": 9.87,
+  "transcript": "I was waiting for you. I mean, till then you never wrote. And when you did, what did you say? I mean, you could sure be ambiguous sometimes, you know?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I was waiting for you.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.679,
+      "sentiment_score": 0.6535,
+      "pitch_mean": 350.96
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "I mean, till then you never wrote.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.671,
+      "sentiment_score": -0.3187,
+      "pitch_mean": 362.58
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "And when you did, what did you say?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.705,
+      "sentiment_score": -0.0122,
+      "pitch_mean": 358.49
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 9.0,
+      "text": "I mean, you could sure be ambiguous sometimes, you know?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.842,
+      "sentiment_score": -0.2878,
+      "pitch_mean": 360.75
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0087,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 182.33,
+    "avg_pitch": 350.75
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 4.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script01_3",
+    "utterance_id": "Ses02M_script01_3_F014",
+    "transcript_ground_truth": "Well, I was waiting for you.  I mean, till then you never wrote and when you did, what did you say?  I mean, you can sure be ambiguous sometimes, you know?"
+  }
+}

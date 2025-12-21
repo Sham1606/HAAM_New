@@ -1,0 +1,81 @@
+{
+  "call_id": "iemocap_Ses02F_impro05_M020",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:26:16.089649",
+  "duration_seconds": 17.9,
+  "transcript": "Alright miss I I know I realize this but That like I said there are several people that are in your same situation so It's not it's not totally uncommon and I'm actually gonna have to ask you to move so I can help the the next person",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.86,
+      "text": "Alright miss I I know I realize this but",
+      "emotion": "sadness",
+      "emotion_confidence": 0.833,
+      "sentiment_score": -0.0599,
+      "pitch_mean": 339.98
+    },
+    {
+      "start_time": 3.56,
+      "end_time": 6.84,
+      "text": "That like I said there are several people that are in your same situation",
+      "emotion": "neutral",
+      "emotion_confidence": 0.892,
+      "sentiment_score": -0.136,
+      "pitch_mean": 332.0
+    },
+    {
+      "start_time": 7.56,
+      "end_time": 9.56,
+      "text": "so",
+      "emotion": "neutral",
+      "emotion_confidence": 0.798,
+      "sentiment_score": 0.2549,
+      "pitch_mean": 324.81
+    },
+    {
+      "start_time": 9.72,
+      "end_time": 12.96,
+      "text": "It's not it's not totally uncommon and",
+      "emotion": "neutral",
+      "emotion_confidence": 0.749,
+      "sentiment_score": -0.2008,
+      "pitch_mean": 323.01
+    },
+    {
+      "start_time": 13.92,
+      "end_time": 17.84,
+      "text": "I'm actually gonna have to ask you to move so I can help the the next person",
+      "emotion": "disgust",
+      "emotion_confidence": 0.409,
+      "sentiment_score": 0.0702,
+      "pitch_mean": 333.7
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0143,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "sadness": 0.2,
+      "neutral": 0.6,
+      "disgust": 0.2
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 160.89,
+    "avg_pitch": 332.45
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro05",
+    "utterance_id": "Ses02F_impro05_M020",
+    "transcript_ground_truth": "All right, Miss, I-I know.  I realize this. But Like I said, there are several people that are in your same situation, so, um, it's not--it's not totally uncommon and I'm actually gonna have to ask you to move so I can help the next person."
+  }
+}

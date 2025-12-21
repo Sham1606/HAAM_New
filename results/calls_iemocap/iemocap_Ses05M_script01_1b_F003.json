@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script01_1b_F003",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:55:53.590422",
+  "duration_seconds": 3.53,
+  "transcript": "What the hell was he doing out there before in the morning?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "What the hell was he doing out there before in the morning?",
+      "emotion": "sadness",
+      "emotion_confidence": 0.777,
+      "sentiment_score": -0.9001,
+      "pitch_mean": 303.63
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9001,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 203.97,
+    "avg_pitch": 301.0
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_1b",
+    "utterance_id": "Ses05M_script01_1b_F003",
+    "transcript_ground_truth": "What was he doing out here four in the morning?"
+  }
+}

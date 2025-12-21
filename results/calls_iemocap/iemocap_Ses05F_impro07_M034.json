@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro07_M034",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:10:03.988247",
+  "duration_seconds": 1.89,
+  "transcript": "Tomorrow is tomorrow tomorrow tomorrow tomorrow.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Tomorrow is tomorrow tomorrow tomorrow tomorrow.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.898,
+      "sentiment_score": 0.3349,
+      "pitch_mean": 322.62
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3349,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 190.48,
+    "avg_pitch": 322.62
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro07",
+    "utterance_id": "Ses05F_impro07_M034",
+    "transcript_ground_truth": "Tomorrow, tomorrow, tomorrow-"
+  }
+}

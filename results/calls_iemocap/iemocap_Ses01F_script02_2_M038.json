@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script02_2_M038",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:42:46.276729",
+  "duration_seconds": 3.62,
+  "transcript": "I just I know I don't make you happy.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I just I know I don't make you happy.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.435,
+      "sentiment_score": -0.8268,
+      "pitch_mean": 329.62
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8268,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 148.99,
+    "avg_pitch": 324.87
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_2",
+    "utterance_id": "Ses01F_script02_2_M038",
+    "transcript_ground_truth": "I just- I know I don't make you happy."
+  }
+}

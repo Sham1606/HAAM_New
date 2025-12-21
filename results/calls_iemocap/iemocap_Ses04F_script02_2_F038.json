@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script02_2_F038",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:37:17.145095",
+  "duration_seconds": 2.69,
+  "transcript": "I didn't say that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I didn't say that.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.727,
+      "sentiment_score": -0.2585,
+      "pitch_mean": 327.26
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2585,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 89.1,
+    "avg_pitch": 325.35
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script02_2",
+    "utterance_id": "Ses04F_script02_2_F038",
+    "transcript_ground_truth": "I didn't say that."
+  }
+}

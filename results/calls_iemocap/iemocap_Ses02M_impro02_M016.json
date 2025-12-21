@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02M_impro02_M016",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:49:10.903542",
+  "duration_seconds": 6.51,
+  "transcript": "Yeah, I'll write you every day because there's the only thing that's gonna be on my mind.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Yeah, I'll write you every day because",
+      "emotion": "neutral",
+      "emotion_confidence": 0.926,
+      "sentiment_score": 0.3012,
+      "pitch_mean": 320.11
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "there's the only thing that's gonna be on my mind.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.682,
+      "sentiment_score": 0.021,
+      "pitch_mean": 316.36
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1611,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "sadness": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 156.72,
+    "avg_pitch": 318.48
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro02",
+    "utterance_id": "Ses02M_impro02_M016",
+    "transcript_ground_truth": "Yeah, I'll write you every day 'cause you're the only thing that's going to be on my mind."
+  }
+}

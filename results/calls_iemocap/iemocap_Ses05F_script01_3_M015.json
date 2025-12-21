@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05F_script01_3_M015",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:19:26.329594",
+  "duration_seconds": 3.5,
+  "transcript": "ai estaba studying beginning",
+  "segments": [
+    {
+      "start_time": 0.46,
+      "end_time": 2.76,
+      "text": "ai estaba studying",
+      "emotion": "neutral",
+      "emotion_confidence": 0.524,
+      "sentiment_score": 0.015,
+      "pitch_mean": 307.47
+    },
+    {
+      "start_time": 12.78,
+      "end_time": 14.58,
+      "text": "beginning",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.2554,
+      "pitch_mean": 309.33
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1352,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 68.66,
+    "avg_pitch": 309.33
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_3",
+    "utterance_id": "Ses05F_script01_3_M015",
+    "transcript_ground_truth": "Give me a kiss, Ann. Give me a-"
+  }
+}

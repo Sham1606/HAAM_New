@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro05_M019",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:11:18.872876",
+  "duration_seconds": 2.78,
+  "transcript": "The best we can do for you is give you...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "The best we can do for you is give you...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.842,
+      "sentiment_score": 0.6193,
+      "pitch_mean": 371.8
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.6193,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 215.83,
+    "avg_pitch": 367.87
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro05",
+    "utterance_id": "Ses04F_impro05_M019",
+    "transcript_ground_truth": "The best that we can do for you is give you-"
+  }
+}

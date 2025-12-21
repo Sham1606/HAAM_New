@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses02F_script01_3_M032",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:37:04.425370",
+  "duration_seconds": 17.32,
+  "transcript": "I felt what you said a shame somehow because nobody was changed at all It seemed to make suckers out of a lot of guys. I felt wrong to be alive to Open the new bank book drive the new car see the new refrigerator",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.24,
+      "text": "I felt what you said a shame somehow because nobody was changed at all",
+      "emotion": "disgust",
+      "emotion_confidence": 0.829,
+      "sentiment_score": -0.6594,
+      "pitch_mean": 327.12
+    },
+    {
+      "start_time": 6.52,
+      "end_time": 8.82,
+      "text": "It seemed to make suckers out of a lot of guys. I",
+      "emotion": "disgust",
+      "emotion_confidence": 0.908,
+      "sentiment_score": -0.8864,
+      "pitch_mean": 336.35
+    },
+    {
+      "start_time": 9.84,
+      "end_time": 11.84,
+      "text": "felt wrong to be alive to",
+      "emotion": "sadness",
+      "emotion_confidence": 0.937,
+      "sentiment_score": -0.8833,
+      "pitch_mean": 344.83
+    },
+    {
+      "start_time": 12.52,
+      "end_time": 16.64,
+      "text": "Open the new bank book drive the new car see the new refrigerator",
+      "emotion": "disgust",
+      "emotion_confidence": 0.387,
+      "sentiment_score": 0.2854,
+      "pitch_mean": 326.18
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5359,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.75,
+      "sadness": 0.25
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 155.89,
+    "avg_pitch": 328.03
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_3",
+    "utterance_id": "Ses02F_script01_3_M032",
+    "transcript_ground_truth": "And I felt what you said, ashamed somehow 'cause nobody was changed at all.  It seemed to make suckers out of a lot of guys.  I felt wrong to be alive to open the new bank book, drive the new car, see the new refrigerator."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro05_F023",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:25:04.278597",
+  "duration_seconds": 1.92,
+  "transcript": "Because I probably know him.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Because I probably know him.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.869,
+      "sentiment_score": 0.0757,
+      "pitch_mean": 351.06
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0757,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 156.25,
+    "avg_pitch": 351.06
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro05",
+    "utterance_id": "Ses01F_impro05_F023",
+    "transcript_ground_truth": "Because I probably know him."
+  }
+}

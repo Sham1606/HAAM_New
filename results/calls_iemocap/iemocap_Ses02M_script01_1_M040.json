@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses02M_script01_1_M040",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:02:09.790793",
+  "duration_seconds": 10.43,
+  "transcript": "I want a family, I want kids, I want something I can give myself to. And he's in the middle of that. Where do I find it?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.44,
+      "text": "I want a family, I want kids, I want something I can give myself to.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.389,
+      "sentiment_score": 0.4729,
+      "pitch_mean": 330.24
+    },
+    {
+      "start_time": 5.44,
+      "end_time": 7.44,
+      "text": "And he's in the middle of that.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.493,
+      "sentiment_score": -0.2568,
+      "pitch_mean": 327.54
+    },
+    {
+      "start_time": 8.64,
+      "end_time": 10.16,
+      "text": "Where do I find it?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.568,
+      "sentiment_score": -0.0038,
+      "pitch_mean": 330.72
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0707,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.667,
+      "neutral": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 155.32,
+    "avg_pitch": 323.92
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script01_1",
+    "utterance_id": "Ses02M_script01_1_M040",
+    "transcript_ground_truth": "I want a family; I want kids; I want something I can give myself to. Annie is in the middle of that. Now where do I find it?"
+  }
+}

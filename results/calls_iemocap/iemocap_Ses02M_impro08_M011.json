@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses02M_impro08_M011",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:58:52.131570",
+  "duration_seconds": 9.53,
+  "transcript": "Yeah, we'll get rid of it right now. I mean, just, we're gonna have to have you submit something. You know, we're gonna have to have you mail something in for us. That's okay.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.42,
+      "text": "Yeah, we'll get rid of it right now.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.699,
+      "sentiment_score": -0.4719,
+      "pitch_mean": 334.49
+    },
+    {
+      "start_time": 2.42,
+      "end_time": 6.58,
+      "text": "I mean, just, we're gonna have to have you submit something.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.551,
+      "sentiment_score": 0.0166,
+      "pitch_mean": 326.43
+    },
+    {
+      "start_time": 6.58,
+      "end_time": 8.86,
+      "text": "You know, we're gonna have to have you mail something in for us.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.387,
+      "sentiment_score": 0.0636,
+      "pitch_mean": 340.63
+    },
+    {
+      "start_time": 8.86,
+      "end_time": 9.7,
+      "text": "That's okay.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.653,
+      "sentiment_score": 0.5651,
+      "pitch_mean": 333.22
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0434,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 214.14,
+    "avg_pitch": 333.22
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.3333,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro08",
+    "utterance_id": "Ses02M_impro08_M011",
+    "transcript_ground_truth": "Yes, we'll get- we'll get rid of it right now. I mean just we're going to have to have you, um, submit something you know, we're going to have to have you mail something in for us, okay."
+  }
+}

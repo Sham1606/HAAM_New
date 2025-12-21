@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script02_2_M012",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:25:33.085774",
+  "duration_seconds": 4.11,
+  "transcript": "It's just fish, it's nothing to get traumatized over.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "It's just fish, it's nothing to get traumatized over.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.776,
+      "sentiment_score": -0.5972,
+      "pitch_mean": 323.97
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5972,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 131.38,
+    "avg_pitch": 324.17
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script02_2",
+    "utterance_id": "Ses05F_script02_2_M012",
+    "transcript_ground_truth": "It's just fish, it's nothing to get traumatize over."
+  }
+}

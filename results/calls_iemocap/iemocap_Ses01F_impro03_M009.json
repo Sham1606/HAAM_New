@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01F_impro03_M009",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:19:57.326765",
+  "duration_seconds": 4.91,
+  "transcript": "Does that mean you're gonna get citizenship too in England or whatever? Oh!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.3,
+      "text": "Does that mean you're gonna get citizenship too in England or whatever?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.711,
+      "sentiment_score": 0.0503,
+      "pitch_mean": 324.91
+    },
+    {
+      "start_time": 4.3,
+      "end_time": 4.8,
+      "text": "Oh!",
+      "emotion": "neutral",
+      "emotion_confidence": 0.899,
+      "sentiment_score": 0.5968,
+      "pitch_mean": 374.67
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3236,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 158.86,
+    "avg_pitch": 329.99
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.6667,
+    "arousal": 2.3333,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro03",
+    "utterance_id": "Ses01F_impro03_M009",
+    "transcript_ground_truth": "Does that mean that you're going to get citizenship, too, in- in England or whatever?"
+  }
+}

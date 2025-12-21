@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script01_3_F006",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:35:09.732939",
+  "duration_seconds": 4.88,
+  "transcript": "I'm sort of embarrassed ever since I got here.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I'm sort of embarrassed ever since I got here.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.425,
+      "sentiment_score": -0.8957,
+      "pitch_mean": 323.88
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8957,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 110.59,
+    "avg_pitch": 322.41
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.3333,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_3",
+    "utterance_id": "Ses01F_script01_3_F006",
+    "transcript_ground_truth": "Sort of embarrassed ever since I got here."
+  }
+}

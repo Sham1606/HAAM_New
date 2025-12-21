@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05F_script03_2_F026",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:30:18.808570",
+  "duration_seconds": 4.05,
+  "transcript": "You are so inseparable do stop. Oh, this is very...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.16,
+      "text": "You are so inseparable do stop.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.82,
+      "sentiment_score": 0.7603,
+      "pitch_mean": 360.86
+    },
+    {
+      "start_time": 3.16,
+      "end_time": 4.06,
+      "text": "Oh, this is very...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.1035,
+      "pitch_mean": 363.57
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3284,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 148.15,
+    "avg_pitch": 363.57
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script03_2",
+    "utterance_id": "Ses05F_script03_2_F026",
+    "transcript_ground_truth": "Oh, You are so insufferable.  Do you stop."
+  }
+}

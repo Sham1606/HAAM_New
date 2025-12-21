@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02M_impro01_M019",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:48:04.974320",
+  "duration_seconds": 8.3,
+  "transcript": "What wait, I didn't go to a website. Why do I need it's the DMV you come to the DMV you're waiting in line for three hours and then you go home.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.92,
+      "text": "What wait, I didn't go to a website. Why do I need it's the DMV you come to the DMV you're waiting",
+      "emotion": "neutral",
+      "emotion_confidence": 0.836,
+      "sentiment_score": -0.6451,
+      "pitch_mean": 343.57
+    },
+    {
+      "start_time": 5.92,
+      "end_time": 8.12,
+      "text": "in line for three hours and then you go home.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.899,
+      "sentiment_score": -0.0428,
+      "pitch_mean": 340.19
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3439,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 231.44,
+    "avg_pitch": 342.29
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.5,
+    "arousal": 4.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro01",
+    "utterance_id": "Ses02M_impro01_M019",
+    "transcript_ground_truth": "What web- I didn't go to a website - why would I need to - it's the D.M.V.. You come to the D.M.V., you wait in line for three hours, and then you go home."
+  }
+}

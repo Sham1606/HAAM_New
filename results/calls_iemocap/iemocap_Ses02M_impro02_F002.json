@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro02_F002",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:48:15.107042",
+  "duration_seconds": 2.84,
+  "transcript": "I don't want to be a single mom.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I don't want to be a single mom.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.96,
+      "sentiment_score": -0.8057,
+      "pitch_mean": 335.03
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8057,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 169.25,
+    "avg_pitch": 335.03
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 2.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro02",
+    "utterance_id": "Ses02M_impro02_F002",
+    "transcript_ground_truth": "I don't want to be a single mom."
+  }
+}

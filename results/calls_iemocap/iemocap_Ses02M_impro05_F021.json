@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro05_F021",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:53:09.190246",
+  "duration_seconds": 2.94,
+  "transcript": "and we will continue to look for it and because you're happy.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "and we will continue to look for it and because you're happy.",
+      "emotion": "joy",
+      "emotion_confidence": 0.958,
+      "sentiment_score": 0.88,
+      "pitch_mean": 354.63
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.88,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 244.9,
+    "avg_pitch": 354.63
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro05",
+    "utterance_id": "Ses02M_impro05_F021",
+    "transcript_ground_truth": "and we will continue to look for it and because your paper-"
+  }
+}

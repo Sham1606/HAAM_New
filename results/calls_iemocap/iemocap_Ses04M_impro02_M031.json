@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04M_impro02_M031",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:51:15.511920",
+  "duration_seconds": 1.2,
+  "transcript": "Look, I- You're not-",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "Look, I-",
+      "emotion": "disgust",
+      "emotion_confidence": 0.349,
+      "sentiment_score": -0.018,
+      "pitch_mean": 345.54
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 2.0,
+      "text": "You're not-",
+      "emotion": "neutral",
+      "emotion_confidence": 0.579,
+      "sentiment_score": -0.186,
+      "pitch_mean": 345.85
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.102,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 200.0,
+    "avg_pitch": 345.85
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro02",
+    "utterance_id": "Ses04M_impro02_M031",
+    "transcript_ground_truth": "Look, I--"
+  }
+}

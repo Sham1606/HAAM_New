@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_impro05b_F016",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:59:13.593214",
+  "duration_seconds": 8.64,
+  "transcript": "Okay, so if you can get skimmy your name your name and your address and your phone number I can contact you as soon as we find out more information.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.92,
+      "text": "Okay, so if you can get skimmy your name your name and your address and your phone number",
+      "emotion": "neutral",
+      "emotion_confidence": 0.965,
+      "sentiment_score": 0.0016,
+      "pitch_mean": 351.33
+    },
+    {
+      "start_time": 4.92,
+      "end_time": 8.12,
+      "text": "I can contact you as soon as we find out more information.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.898,
+      "sentiment_score": 0.0882,
+      "pitch_mean": 341.16
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0449,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 208.33,
+    "avg_pitch": 345.32
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro05b",
+    "utterance_id": "Ses03M_impro05b_F016",
+    "transcript_ground_truth": "Okay.  So if you can just give me your name, your name and your address and your phone number I can contact you as soon as we find out more information."
+  }
+}

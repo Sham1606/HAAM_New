@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro07_M016",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:57:02.881770",
+  "duration_seconds": 6.53,
+  "transcript": "I know. I'm definitely looking forward to it and I just had a great football season.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "I know. I'm definitely looking forward to it and I just had a great football season.",
+      "emotion": "joy",
+      "emotion_confidence": 0.904,
+      "sentiment_score": 0.9854,
+      "pitch_mean": 335.55
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9854,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 147.02,
+    "avg_pitch": 335.82
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro07",
+    "utterance_id": "Ses02M_impro07_M016",
+    "transcript_ground_truth": "I know ahh- yeah-, I'm definitely looking forward to it, and I mean they had a great football season last year"
+  }
+}

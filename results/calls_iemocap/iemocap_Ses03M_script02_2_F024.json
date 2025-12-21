@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script02_2_F024",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:48:43.841915",
+  "duration_seconds": 3.65,
+  "transcript": "rather not hope for some things.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "rather not hope for some things.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.4598,
+      "pitch_mean": 316.79
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4598,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 98.77,
+    "avg_pitch": 316.79
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.3333,
+    "arousal": 3.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_2",
+    "utterance_id": "Ses03M_script02_2_F024",
+    "transcript_ground_truth": "Rather not hope for something."
+  }
+}

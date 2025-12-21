@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03F_impro05_F003",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:22:09.585066",
+  "duration_seconds": 6.31,
+  "transcript": "I had my luggage transferred here from Paris to LA and now I'm here and I need to be working and I have all my stuff in there.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.7,
+      "text": "I had my luggage transferred here from Paris to LA and now I'm here and I need to be working",
+      "emotion": "neutral",
+      "emotion_confidence": 0.526,
+      "sentiment_score": -0.2225,
+      "pitch_mean": 362.16
+    },
+    {
+      "start_time": 4.7,
+      "end_time": 6.2,
+      "text": "and I have all my stuff in there.",
+      "emotion": "joy",
+      "emotion_confidence": 0.44,
+      "sentiment_score": 0.2329,
+      "pitch_mean": 371.28
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0052,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "joy": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 266.22,
+    "avg_pitch": 365.81
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 5.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro05",
+    "utterance_id": "Ses03F_impro05_F003",
+    "transcript_ground_truth": "I had my luggage transferred here from Paris to L.A. and now I'm here and I need to be working and I have all my stuff in there."
+  }
+}

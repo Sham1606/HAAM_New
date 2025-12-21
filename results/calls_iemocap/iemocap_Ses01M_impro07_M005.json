@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro07_M005",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:00:27.047737",
+  "duration_seconds": 9.5,
+  "transcript": "Everything everything everything free ride and they get to you know like be like a Trojan sports team too",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.32,
+      "text": "Everything everything everything free ride and they get to you know like be like a Trojan sports team too",
+      "emotion": "neutral",
+      "emotion_confidence": 0.875,
+      "sentiment_score": 0.3574,
+      "pitch_mean": 352.14
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3574,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 120.0,
+    "avg_pitch": 355.35
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro07",
+    "utterance_id": "Ses01M_impro07_M005",
+    "transcript_ground_truth": "Yeah, everything. Every like- free ride and I get to, you know, like be on like a Trojans sports team too. And it's like cool. Isn't it awesome?"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro05_M004",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:56:04.458435",
+  "duration_seconds": 4.89,
+  "transcript": "Are you in this in you waiting that I don't have a college education and that's for some reason that makes you a better person than I am?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.5,
+      "text": "Are you in this in you waiting that I don't have a college education and that's for some reason that makes you a better person than I am?",
+      "emotion": "anger",
+      "emotion_confidence": 0.522,
+      "sentiment_score": -0.0895,
+      "pitch_mean": 338.26
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0895,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 343.72,
+    "avg_pitch": 337.23
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro05",
+    "utterance_id": "Ses01M_impro05_M004",
+    "transcript_ground_truth": "Are you insinuating that I don't have a college education and that- for some reason that makes you a better person than I am?"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script03_2_M033",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:56:46.799969",
+  "duration_seconds": 4.35,
+  "transcript": "Oh, thanks. I think I will.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Oh, thanks. I think I will.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.398,
+      "sentiment_score": 0.8755,
+      "pitch_mean": 314.42
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.8755,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 82.8,
+    "avg_pitch": 315.74
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script03_2",
+    "utterance_id": "Ses03M_script03_2_M033",
+    "transcript_ground_truth": "Oh, thanks.  I think I will."
+  }
+}

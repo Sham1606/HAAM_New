@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03F_impro03_F006",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:19:10.890901",
+  "duration_seconds": 7.06,
+  "transcript": "And I like if you went to the bathroom, but you didn't tell me I didn't even notice I'm leaving it all at the same time I swear to God I'm seeing there and",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.24,
+      "text": "And I like if you went to the bathroom, but you didn't tell me I didn't even notice",
+      "emotion": "disgust",
+      "emotion_confidence": 0.42,
+      "sentiment_score": -0.05,
+      "pitch_mean": 352.74
+    },
+    {
+      "start_time": 3.24,
+      "end_time": 7.0,
+      "text": "I'm leaving it all at the same time I swear to God I'm seeing there and",
+      "emotion": "neutral",
+      "emotion_confidence": 0.761,
+      "sentiment_score": -0.3506,
+      "pitch_mean": 335.25
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2003,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 289.01,
+    "avg_pitch": 342.19
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro03",
+    "utterance_id": "Ses03F_impro03_F006",
+    "transcript_ground_truth": "And I'm like oh, he went to the- -the bathroom, but he didn't tell me, I didn't even notice him leaving. And all of a sudden, I swear to God, I'm sitting there and-"
+  }
+}

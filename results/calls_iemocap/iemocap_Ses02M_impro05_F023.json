@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro05_F023",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:53:13.594629",
+  "duration_seconds": 7.17,
+  "transcript": "Well, it's just to sort of help with the fact that you lost some of your possessions and we'd rather do that then.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "Well, it's just to sort of help with the fact that you lost some of your possessions and we'd rather do that then.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.906,
+      "sentiment_score": -0.5226,
+      "pitch_mean": 355.75
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5226,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 192.37,
+    "avg_pitch": 355.34
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro05",
+    "utterance_id": "Ses02M_impro05_F023",
+    "transcript_ground_truth": "Well, it's- it's just sort of help with the fact uh that you lost some of your possessions and we rather do that than-"
+  }
+}

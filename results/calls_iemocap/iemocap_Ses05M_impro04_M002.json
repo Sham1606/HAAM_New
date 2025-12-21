@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_impro04_M002",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:41:15.546972",
+  "duration_seconds": 10.29,
+  "transcript": "Something like that I can't even remember anymore. I don't know what to do anymore. I just get out there every day Well not every day almost every day",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.24,
+      "text": "Something like that I can't even remember anymore. I don't know what to do anymore. I just get out there every day",
+      "emotion": "disgust",
+      "emotion_confidence": 0.344,
+      "sentiment_score": -0.8203,
+      "pitch_mean": 317.5
+    },
+    {
+      "start_time": 7.24,
+      "end_time": 9.24,
+      "text": "Well not every day almost every day",
+      "emotion": "neutral",
+      "emotion_confidence": 0.917,
+      "sentiment_score": 0.0117,
+      "pitch_mean": 326.23
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4043,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 169.1,
+    "avg_pitch": 317.02
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro04",
+    "utterance_id": "Ses05M_impro04_M002",
+    "transcript_ground_truth": "Something like that.  I can't even remember anymore. I don't know what to do anymore.  I just get out there everyday -- well, not everyday, almost everyday."
+  }
+}

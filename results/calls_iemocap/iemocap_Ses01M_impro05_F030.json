@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro05_F030",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:55:44.230572",
+  "duration_seconds": 2.06,
+  "transcript": "I wish I could give it to you.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I wish I could give it to you.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.71,
+      "sentiment_score": 0.4098,
+      "pitch_mean": 341.29
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4098,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 233.02,
+    "avg_pitch": 340.72
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro05",
+    "utterance_id": "Ses01M_impro05_F030",
+    "transcript_ground_truth": "I wish I could give it to you."
+  }
+}

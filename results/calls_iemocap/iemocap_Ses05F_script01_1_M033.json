@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script01_1_M033",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:15:49.799007",
+  "duration_seconds": 4.5,
+  "transcript": "I'll get out. I'll get married and leave someplace else. I don't know maybe maybe New York",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.1,
+      "text": "I'll get out. I'll get married and leave someplace else. I don't know maybe maybe New York",
+      "emotion": "neutral",
+      "emotion_confidence": 0.896,
+      "sentiment_score": -0.0334,
+      "pitch_mean": 327.07
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0334,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 226.67,
+    "avg_pitch": 327.38
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_1",
+    "utterance_id": "Ses05F_script01_1_M033",
+    "transcript_ground_truth": "I'll get out. I'll get married and live some place else.  Maybe, maybe New York?"
+  }
+}

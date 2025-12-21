@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro08_F000",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:10:11.377059",
+  "duration_seconds": 1.75,
+  "transcript": "Hi sir, how can I help you?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Hi sir, how can I help you?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.31,
+      "pitch_mean": 336.68
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.31,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 240.48,
+    "avg_pitch": 336.68
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 1.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro08",
+    "utterance_id": "Ses05F_impro08_F000",
+    "transcript_ground_truth": "Hi, sir.  How can I help you?"
+  }
+}

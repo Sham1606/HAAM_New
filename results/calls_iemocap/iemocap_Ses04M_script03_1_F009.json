@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_script03_1_F009",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:14:22.019874",
+  "duration_seconds": 3.0,
+  "transcript": "It's true the whole business is a very poor joke.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "It's true the whole business is a very poor joke.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.72,
+      "sentiment_score": -0.9274,
+      "pitch_mean": 345.62
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9274,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 200.0,
+    "avg_pitch": 345.62
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script03_1",
+    "utterance_id": "Ses04M_script03_1_F009",
+    "transcript_ground_truth": "It's true.  The whole business is a very poor joke."
+  }
+}

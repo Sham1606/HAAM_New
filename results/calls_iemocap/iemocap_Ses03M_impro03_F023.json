@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses03M_impro03_F023",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:52:22.435761",
+  "duration_seconds": 8.3,
+  "transcript": "Oh wait wait wait I want you to marry me? No I wish you would be more of like question like would you marry me? Not like I want you to marry me it's like a demand.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.96,
+      "text": "Oh wait wait wait I want you to marry me?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.438,
+      "sentiment_score": 0.2828,
+      "pitch_mean": 345.47
+    },
+    {
+      "start_time": 2.96,
+      "end_time": 6.12,
+      "text": "No I wish you would be more of like question like would you marry me?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.41,
+      "sentiment_score": -0.0939,
+      "pitch_mean": 372.45
+    },
+    {
+      "start_time": 6.12,
+      "end_time": 8.24,
+      "text": "Not like I want you to marry me it's like a demand.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.426,
+      "sentiment_score": -0.1734,
+      "pitch_mean": 382.09
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0052,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 267.5,
+    "avg_pitch": 361.64
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.0,
+    "arousal": 4.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro03",
+    "utterance_id": "Ses03M_impro03_F023",
+    "transcript_ground_truth": "Wait, wait, wait I want you to marry me?  No, shouldn't you like be more like a question like, would you marry me?  Not like I want you to marry me.  It's like a demand."
+  }
+}

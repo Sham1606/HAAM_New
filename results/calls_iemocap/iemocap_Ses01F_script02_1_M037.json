@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01F_script02_1_M037",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:39:30.989246",
+  "duration_seconds": 15.06,
+  "transcript": "Right now, out there, there is this mass of silver fish and it's heading this way. No one sent them an invitation, no one told them, don't even give them a map.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 9.56,
+      "text": "Right now, out there, there is this mass of silver fish and it's heading this way.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.853,
+      "sentiment_score": -0.0258,
+      "pitch_mean": 329.24
+    },
+    {
+      "start_time": 9.56,
+      "end_time": 14.88,
+      "text": "No one sent them an invitation, no one told them, don't even give them a map.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.466,
+      "sentiment_score": -0.8493,
+      "pitch_mean": 325.6
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4375,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 127.48,
+    "avg_pitch": 327.73
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_1",
+    "utterance_id": "Ses01F_script02_1_M037",
+    "transcript_ground_truth": "Right now out there, there is this mass of silver fish and it's heading this way.  No one sent them an invitation, no one told them, no one even gave them a map."
+  }
+}

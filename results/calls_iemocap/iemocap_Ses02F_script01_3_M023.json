@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02F_script01_3_M023",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:36:43.575488",
+  "duration_seconds": 7.15,
+  "transcript": "It's all mixed up with so many other things. You remember overseas I was in command of a company?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.88,
+      "text": "It's all mixed up with so many other things.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.768,
+      "sentiment_score": -0.5934,
+      "pitch_mean": 318.94
+    },
+    {
+      "start_time": 4.88,
+      "end_time": 6.88,
+      "text": "You remember overseas I was in command of a company?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.324,
+      "sentiment_score": 0.0418,
+      "pitch_mean": 327.93
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2758,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 159.44,
+    "avg_pitch": 320.19
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_3",
+    "utterance_id": "Ses02F_script01_3_M023",
+    "transcript_ground_truth": "It's all mixed up with so many other things.  You remember overseas, I was in command of a company?"
+  }
+}

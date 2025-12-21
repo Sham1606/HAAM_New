@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01M_impro04_F005",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:53:13.175472",
+  "duration_seconds": 3.3,
+  "transcript": "Do everything it might be your attitude? What's working for you?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Do everything it might be your attitude?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.822,
+      "sentiment_score": -0.1362,
+      "pitch_mean": 330.36
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "What's working for you?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.579,
+      "sentiment_score": 0.1628,
+      "pitch_mean": 339.16
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0133,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 200.0,
+    "avg_pitch": 339.16
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro04",
+    "utterance_id": "Ses01M_impro04_F005",
+    "transcript_ground_truth": "Did you ever think it might be your attitude that's..."
+  }
+}

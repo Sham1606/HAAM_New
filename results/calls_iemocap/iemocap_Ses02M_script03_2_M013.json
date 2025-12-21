@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script03_2_M013",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:14:17.172147",
+  "duration_seconds": 4.63,
+  "transcript": "You need to be so grand just because you don't happen to want yourself right now",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.92,
+      "text": "You need to be so grand just because you don't happen to want yourself right now",
+      "emotion": "neutral",
+      "emotion_confidence": 0.853,
+      "sentiment_score": 0.0807,
+      "pitch_mean": 330.13
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0807,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 207.29,
+    "avg_pitch": 333.82
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script03_2",
+    "utterance_id": "Ses02M_script03_2_M013",
+    "transcript_ground_truth": "You needn't be so grand just because don't happen want any yourself right now."
+  }
+}

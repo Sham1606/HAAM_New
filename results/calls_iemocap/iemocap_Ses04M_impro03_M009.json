@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro03_M009",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:53:02.752260",
+  "duration_seconds": 6.78,
+  "transcript": "But no, I mean, you know, I really want you to like, you know, sort of...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.5,
+      "text": "But no, I mean, you know, I really want you to like, you know, sort of...",
+      "emotion": "disgust",
+      "emotion_confidence": 0.437,
+      "sentiment_score": 0.0516,
+      "pitch_mean": 323.51
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0516,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 141.59,
+    "avg_pitch": 323.24
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 3.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro03",
+    "utterance_id": "Ses04M_impro03_M009",
+    "transcript_ground_truth": "But uh- no, I mean, you know.  You know, I really want you to like, you know, sort of"
+  }
+}

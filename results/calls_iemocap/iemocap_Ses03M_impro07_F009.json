@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses03M_impro07_F009",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:29:40.719713",
+  "duration_seconds": 6.83,
+  "transcript": "Oh man, I'm so proud of you. That is, what, how'd you get, I mean, what'd you do? Like, how'd you find out? Or what?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.46,
+      "text": "Oh man, I'm so proud of you.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.375,
+      "sentiment_score": 0.9794,
+      "pitch_mean": 342.76
+    },
+    {
+      "start_time": 2.46,
+      "end_time": 4.4,
+      "text": "That is, what, how'd you get, I mean, what'd you do?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.645,
+      "sentiment_score": -0.0218,
+      "pitch_mean": 378.07
+    },
+    {
+      "start_time": 4.4,
+      "end_time": 5.96,
+      "text": "Like, how'd you find out?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.642,
+      "sentiment_score": -0.2182,
+      "pitch_mean": 379.35
+    },
+    {
+      "start_time": 5.96,
+      "end_time": 6.8,
+      "text": "Or what?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.427,
+      "sentiment_score": -0.0518,
+      "pitch_mean": 332.19
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1719,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 219.62,
+    "avg_pitch": 353.14
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro07",
+    "utterance_id": "Ses03M_impro07_F009",
+    "transcript_ground_truth": "Oh man I am so proud of you, that is...how did you get...I mean what did you do?  How did you find out or what...?"
+  }
+}

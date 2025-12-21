@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses05M_script01_1_F022",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:53:22.544913",
+  "duration_seconds": 15.07,
+  "transcript": "From your father's point of view, he's not dead and she's still his girl Now you can go on from there if you know where to go Chris, but I don't know So what can I do for you",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.66,
+      "text": "From your father's point of view, he's not dead and she's still his girl",
+      "emotion": "neutral",
+      "emotion_confidence": 0.869,
+      "sentiment_score": 0.0091,
+      "pitch_mean": 365.81
+    },
+    {
+      "start_time": 5.08,
+      "end_time": 9.12,
+      "text": "Now you can go on from there if you know where to go Chris, but I",
+      "emotion": "neutral",
+      "emotion_confidence": 0.919,
+      "sentiment_score": 0.3319,
+      "pitch_mean": 335.35
+    },
+    {
+      "start_time": 9.84,
+      "end_time": 11.84,
+      "text": "don't know",
+      "emotion": "sadness",
+      "emotion_confidence": 0.444,
+      "sentiment_score": -0.0004,
+      "pitch_mean": 320.56
+    },
+    {
+      "start_time": 12.0,
+      "end_time": 14.0,
+      "text": "So what can I do for you",
+      "emotion": "neutral",
+      "emotion_confidence": 0.666,
+      "sentiment_score": 0.208,
+      "pitch_mean": 319.98
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1371,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.75,
+      "sadness": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 155.28,
+    "avg_pitch": 327.43
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_1",
+    "utterance_id": "Ses05M_script01_1_F022",
+    "transcript_ground_truth": "From your father's point of view he's not dead and she's still his girl.  Now, you can go on from there if you know where to go, Chris, but I don't know.  So what can I do for you?"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro04_F016",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:56:57.643986",
+  "duration_seconds": 3.92,
+  "transcript": "Where am I supposed to go? I mean like what?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Where am I supposed to go? I mean like what?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.3237,
+      "pitch_mean": 335.82
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3237,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 152.98,
+    "avg_pitch": 335.82
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro04",
+    "utterance_id": "Ses05F_impro04_F016",
+    "transcript_ground_truth": "Where am I supposed to go?  I mean, like what?"
+  }
+}

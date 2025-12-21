@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script02_2_F024",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:40:04.872586",
+  "duration_seconds": 0.87,
+  "transcript": "You're here now.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "You're here now.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.541,
+      "sentiment_score": 0.2066,
+      "pitch_mean": 322.95
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2066,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 206.9,
+    "avg_pitch": 322.95
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script02_2",
+    "utterance_id": "Ses02F_script02_2_F024",
+    "transcript_ground_truth": "No."
+  }
+}

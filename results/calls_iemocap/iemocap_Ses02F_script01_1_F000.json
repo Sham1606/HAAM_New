@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script01_1_F000",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:31:23.082061",
+  "duration_seconds": 3.47,
+  "transcript": "What's he gonna say maybe we ought to tell him before he sees it?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "What's he gonna say maybe we ought to tell him before he sees it?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.439,
+      "sentiment_score": -0.4063,
+      "pitch_mean": 323.51
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4063,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 242.08,
+    "avg_pitch": 322.28
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_1",
+    "utterance_id": "Ses02F_script01_1_F000",
+    "transcript_ground_truth": "What's he gonna say?  Maybe we ought to tell him before he sees it."
+  }
+}

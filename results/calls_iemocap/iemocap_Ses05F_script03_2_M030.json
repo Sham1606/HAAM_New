@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script03_2_M030",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:32:01.516193",
+  "duration_seconds": 5.72,
+  "transcript": "Oh, this is very interesting. Oh, we might get a splendid debate going about this in temperate tarts",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.88,
+      "text": "Oh, this is very interesting. Oh, we might get a splendid debate going about this in temperate tarts",
+      "emotion": "neutral",
+      "emotion_confidence": 0.798,
+      "sentiment_score": 0.9653,
+      "pitch_mean": 360.41
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9653,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 188.81,
+    "avg_pitch": 352.69
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 5.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script03_2",
+    "utterance_id": "Ses05F_script03_2_M030",
+    "transcript_ground_truth": "Oh, This is very interesting.  We- we might get a splendid debate going about this intemperate tots."
+  }
+}

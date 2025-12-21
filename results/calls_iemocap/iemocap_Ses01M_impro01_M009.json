@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro01_M009",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:48:50.344932",
+  "duration_seconds": 5.31,
+  "transcript": "But that's why I'm here. That's why I'm waiting in the slime. I need to get another form of ID.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "But that's why I'm here. That's why I'm waiting in the slime. I need to get another form of ID.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.697,
+      "sentiment_score": -0.5928,
+      "pitch_mean": 342.34
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5928,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 225.99,
+    "avg_pitch": 341.68
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro01",
+    "utterance_id": "Ses01M_impro01_M009",
+    "transcript_ground_truth": "That's why I'm here, that's why I was waiting in this line.  I need to get another form of ID."
+  }
+}

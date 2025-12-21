@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_script01_3_M029",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:09:36.360403",
+  "duration_seconds": 9.15,
+  "transcript": "They didn't die. They killed themselves for each other. I mean that exactly a little more selfish than they'd been here today",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.74,
+      "text": "They didn't die. They killed themselves for each other. I mean that exactly a little more selfish than they'd been here today",
+      "emotion": "disgust",
+      "emotion_confidence": 0.568,
+      "sentiment_score": -0.8616,
+      "pitch_mean": 328.89
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8616,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 144.26,
+    "avg_pitch": 327.4
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script01_3",
+    "utterance_id": "Ses04M_script01_3_M029",
+    "transcript_ground_truth": "They didn't die.  They killed themselves for each other.  I mean that exactly.  A little more selfish and they'd have been here today."
+  }
+}

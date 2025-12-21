@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses02F_script01_1_M022",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:33:19.224462",
+  "duration_seconds": 11.62,
+  "transcript": "Sometimes you Infuriate me you know that mean isn't it your business too if I tell dad me Flip some freaks out about it. I'm you have such a talent for ignoring things",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Sometimes you",
+      "emotion": "neutral",
+      "emotion_confidence": 0.835,
+      "sentiment_score": 0.056,
+      "pitch_mean": 318.93
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 6.04,
+      "text": "Infuriate me you know that mean isn't it your business too if I tell dad me",
+      "emotion": "anger",
+      "emotion_confidence": 0.821,
+      "sentiment_score": -0.4676,
+      "pitch_mean": 327.75
+    },
+    {
+      "start_time": 6.44,
+      "end_time": 11.0,
+      "text": "Flip some freaks out about it. I'm you have such a talent for ignoring things",
+      "emotion": "neutral",
+      "emotion_confidence": 0.75,
+      "sentiment_score": -0.7125,
+      "pitch_mean": 333.49
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3747,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "anger": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 170.4,
+    "avg_pitch": 328.97
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_1",
+    "utterance_id": "Ses02F_script01_1_M022",
+    "transcript_ground_truth": "Ah, sometimes you infuriate me.  You know that?  I mean, isn't it your business too if I tell Dad and flips--freaks out about it?  I mean, you have such a talent for ignoring things."
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses04M_script02_2_F016",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:12:16.696405",
+  "duration_seconds": 14.25,
+  "transcript": "It was about four years ago right after we got married. We thought I was pregnant and we had a bottle of champagne but no glasses. You asked me to dance so we took off our shoes and you popped the cork.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.48,
+      "text": "It was about four years ago right after we got married.",
+      "emotion": "joy",
+      "emotion_confidence": 0.751,
+      "sentiment_score": 0.0721,
+      "pitch_mean": 343.48
+    },
+    {
+      "start_time": 3.48,
+      "end_time": 9.32,
+      "text": "We thought I was pregnant and we had a bottle of champagne but no glasses.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.452,
+      "sentiment_score": -0.0927,
+      "pitch_mean": 328.02
+    },
+    {
+      "start_time": 9.32,
+      "end_time": 13.6,
+      "text": "You asked me to dance so we took off our shoes and you popped the cork.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.404,
+      "sentiment_score": 0.1663,
+      "pitch_mean": 340.89
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0485,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "joy": 0.333,
+      "disgust": 0.667
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 176.79,
+    "avg_pitch": 337.43
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script02_2",
+    "utterance_id": "Ses04M_script02_2_F016",
+    "transcript_ground_truth": "It was about four years ago, right after we got married.  We thought I was pregnant and we had a bottle of champagne but no glasses.  You asked me to dance.  So we took off our shoes and you popped the cork."
+  }
+}

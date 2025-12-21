@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro02_M015",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:18:14.842377",
+  "duration_seconds": 1.25,
+  "transcript": "Hello",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Hello",
+      "emotion": "neutral",
+      "emotion_confidence": 0.938,
+      "sentiment_score": 0.4716,
+      "pitch_mean": 342.96
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4716,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 48.0,
+    "avg_pitch": 342.96
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro02",
+    "utterance_id": "Ses01F_impro02_M015",
+    "transcript_ground_truth": "I know."
+  }
+}

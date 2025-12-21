@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script01_1_M020",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:01:32.624964",
+  "duration_seconds": 2.79,
+  "transcript": "So it's all right then I'll go ahead with it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "So it's all right then I'll go ahead with it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.847,
+      "sentiment_score": 0.5657,
+      "pitch_mean": 324.72
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5657,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 215.05,
+    "avg_pitch": 312.32
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script01_1",
+    "utterance_id": "Ses02M_script01_1_M020",
+    "transcript_ground_truth": "So it's all right then I'll go ahead with it?"
+  }
+}

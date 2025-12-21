@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01M_script01_1_M002",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:02:41.805814",
+  "duration_seconds": 6.13,
+  "transcript": "I was out here for this morning. I heard a crack and I looked out the window and you stand and run over there.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.76,
+      "text": "I was out here for this morning. I heard a crack and I looked out the window and you",
+      "emotion": "fear",
+      "emotion_confidence": 0.823,
+      "sentiment_score": 0.1354,
+      "pitch_mean": 331.56
+    },
+    {
+      "start_time": 3.76,
+      "end_time": 7.0,
+      "text": "stand and run over there.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.0255,
+      "pitch_mean": 332.9
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.055,
+    "dominant_emotion": "fear",
+    "emotion_distribution": {
+      "fear": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 234.72,
+    "avg_pitch": 332.9
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.3333,
+    "arousal": 2.3333,
+    "dominance": 1.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_1",
+    "utterance_id": "Ses01M_script01_1_M002",
+    "transcript_ground_truth": "I was out here at four this morning I heard a crack and I looked out the window and he was standing right over there."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02F_script02_1_M014",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:38:17.766454",
+  "duration_seconds": 5.58,
+  "transcript": "God, this is great, isn't it? Six pack would be just the ticker right now.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "God, this is great, isn't it?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.827,
+      "sentiment_score": 0.9748,
+      "pitch_mean": 325.16
+    },
+    {
+      "start_time": 3.6,
+      "end_time": 5.6,
+      "text": "Six pack would be just the ticker right now.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.914,
+      "sentiment_score": 0.0536,
+      "pitch_mean": 324.18
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5142,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 161.29,
+    "avg_pitch": 324.18
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script02_1",
+    "utterance_id": "Ses02F_script02_1_M014",
+    "transcript_ground_truth": "This is great, isn't it?  A six pack would be just the ticket right now."
+  }
+}

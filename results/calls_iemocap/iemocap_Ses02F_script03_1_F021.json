@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script03_1_F021",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:42:47.714248",
+  "duration_seconds": 7.62,
+  "transcript": "Oh, thank you dear. The same applies to you except that if I catch you so much as looking at another woman, I'll kill you.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "Oh, thank you dear. The same applies to you except that if I catch you so much as looking at another woman, I'll kill you.",
+      "emotion": "anger",
+      "emotion_confidence": 0.787,
+      "sentiment_score": -0.15,
+      "pitch_mean": 337.67
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.15,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 196.85,
+    "avg_pitch": 332.04
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 2.6667,
+    "dominance": 3.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script03_1",
+    "utterance_id": "Ses02F_script03_1_F021",
+    "transcript_ground_truth": "Oh, thank you, dear.  The same applies to you except that if I catch so much as looking at another woman, I'll kill you."
+  }
+}

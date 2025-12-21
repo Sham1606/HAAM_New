@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02F_impro01_F017",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:19:22.458542",
+  "duration_seconds": 5.16,
+  "transcript": "I really need this done today, so you can see the deadline is almost up and I can't come back. David.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.8,
+      "text": "I really need this done today, so you can see the deadline is almost up and I can't come back.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.812,
+      "sentiment_score": -0.3234,
+      "pitch_mean": 346.69
+    },
+    {
+      "start_time": 4.8,
+      "end_time": 5.3,
+      "text": "David.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.922,
+      "sentiment_score": 0.1369,
+      "pitch_mean": 343.01
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0933,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 244.42,
+    "avg_pitch": 343.01
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro01",
+    "utterance_id": "Ses02F_impro01_F017",
+    "transcript_ground_truth": "I really need this done today.  As you can see, the deadline is almost up and I can't come back."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script02_1_F000",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:37:14.214518",
+  "duration_seconds": 1.34,
+  "transcript": "Fine.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "Fine.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.75,
+      "sentiment_score": 0.4094,
+      "pitch_mean": 304.22
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4094,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 44.78,
+    "avg_pitch": 302.69
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script02_1",
+    "utterance_id": "Ses02F_script02_1_F000",
+    "transcript_ground_truth": "Fine."
+  }
+}

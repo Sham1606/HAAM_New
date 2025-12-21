@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses02F_impro04_M013",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:24:30.800279",
+  "duration_seconds": 13.15,
+  "transcript": "Well, maybe, yeah, but maybe you know you get to that point where it's like you bug them and then they just don't want to hear from you anymore, but you keep bugging them and bugging them and then it's going to annoy them so much that they're going to be like, alright fine, you know.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.56,
+      "text": "Well, maybe, yeah, but maybe you know you get to that point where it's like you bug",
+      "emotion": "disgust",
+      "emotion_confidence": 0.527,
+      "sentiment_score": -0.1096,
+      "pitch_mean": 328.01
+    },
+    {
+      "start_time": 4.56,
+      "end_time": 8.0,
+      "text": "them and then they just don't want to hear from you anymore, but you keep bugging them",
+      "emotion": "disgust",
+      "emotion_confidence": 0.596,
+      "sentiment_score": -0.8107,
+      "pitch_mean": 326.36
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 11.6,
+      "text": "and bugging them and then it's going to annoy them so much that they're going to be like,",
+      "emotion": "anger",
+      "emotion_confidence": 0.729,
+      "sentiment_score": -0.8901,
+      "pitch_mean": 325.52
+    },
+    {
+      "start_time": 11.6,
+      "end_time": 13.6,
+      "text": "alright fine, you know.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.3809,
+      "pitch_mean": 327.17
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3574,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "anger": 0.25,
+      "neutral": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 255.51,
+    "avg_pitch": 327.17
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro04",
+    "utterance_id": "Ses02F_impro04_M013",
+    "transcript_ground_truth": "Well maybe yeah, but maybe you get to that point where it's like you bug 'em and then they just don't wanna hear from you anymore, but you keep bugging them and bugging them and then it's gonna annoy them so much that they're gonna be like all right fine. you know"
+  }
+}

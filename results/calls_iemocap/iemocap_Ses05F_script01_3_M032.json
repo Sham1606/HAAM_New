@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05F_script01_3_M032",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:20:19.178174",
+  "duration_seconds": 10.89,
+  "transcript": "But I'd seem to me that something new was being created at the same time, a kind of responsibility. Man for man, you understand me?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 8.0,
+      "text": "But I'd seem to me that something new was being created at the same time, a kind of responsibility.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.369,
+      "sentiment_score": 0.1448,
+      "pitch_mean": 310.72
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 10.0,
+      "text": "Man for man, you understand me?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.266,
+      "sentiment_score": 0.1886,
+      "pitch_mean": 308.29
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1667,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 137.79,
+    "avg_pitch": 310.74
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_3",
+    "utterance_id": "Ses05F_script01_3_M032",
+    "transcript_ground_truth": "but it seemed to me that something new was being created at the same time, a kind of responsibility, man for man.  Do you understand me?"
+  }
+}

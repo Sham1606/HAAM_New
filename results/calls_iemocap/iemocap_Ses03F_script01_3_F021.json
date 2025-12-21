@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses03F_script01_3_F021",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:34:25.035813",
+  "duration_seconds": 10.53,
+  "transcript": "I don't know if I ever can forgive you for that. Why did you wait so long? I sat in my room wondering if I was crazy for thinking about you.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.32,
+      "text": "I don't know if I ever can forgive you for that.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.391,
+      "sentiment_score": -0.9046,
+      "pitch_mean": 331.03
+    },
+    {
+      "start_time": 4.32,
+      "end_time": 5.96,
+      "text": "Why did you wait so long?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.78,
+      "sentiment_score": -0.5201,
+      "pitch_mean": 335.93
+    },
+    {
+      "start_time": 5.96,
+      "end_time": 9.28,
+      "text": "I sat in my room wondering if I was crazy for thinking about you.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.91,
+      "sentiment_score": -0.3645,
+      "pitch_mean": 366.35
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5964,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "disgust": 0.333,
+      "neutral": 0.667
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 176.59,
+    "avg_pitch": 336.11
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_3",
+    "utterance_id": "Ses03F_script01_3_F021",
+    "transcript_ground_truth": "I don't know if I ever can forgive you for that. Why'd you wait so long? I sat in my room wondering if I was crazy for thinking about you."
+  }
+}

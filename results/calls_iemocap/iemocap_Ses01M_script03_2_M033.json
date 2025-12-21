@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script03_2_M033",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:18:30.326807",
+  "duration_seconds": 2.55,
+  "transcript": "And then you'll wake the people downstairs.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "And then you'll wake the people downstairs.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.745,
+      "sentiment_score": -0.0431,
+      "pitch_mean": 348.5
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0431,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 164.54,
+    "avg_pitch": 345.86
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script03_2",
+    "utterance_id": "Ses01M_script03_2_M033",
+    "transcript_ground_truth": "Well then you'll wake the people downstairs."
+  }
+}

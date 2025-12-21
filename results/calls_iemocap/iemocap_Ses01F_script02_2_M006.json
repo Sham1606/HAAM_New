@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01F_script02_2_M006",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:41:45.324075",
+  "duration_seconds": 6.89,
+  "transcript": "Carla, can I ask you something now? Don't take this the wrong way, but are you in your period?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Carla, can I ask you something now?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.354,
+      "sentiment_score": 0.0195,
+      "pitch_mean": 319.75
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 7.0,
+      "text": "Don't take this the wrong way, but are you in your period?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.608,
+      "sentiment_score": -0.2203,
+      "pitch_mean": 323.92
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1004,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 165.46,
+    "avg_pitch": 323.92
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_2",
+    "utterance_id": "Ses01F_script02_2_M006",
+    "transcript_ground_truth": "Carla, can I ask you something?  Now, don't take this the wrong way, but are you on your period?"
+  }
+}

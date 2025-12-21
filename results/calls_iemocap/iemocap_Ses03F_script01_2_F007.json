@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses03F_script01_2_F007",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:32:43.500210",
+  "duration_seconds": 5.79,
+  "transcript": "Then why is she married? Why isn't she married? She's been in New York and there's hundreds of single men there.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Then why is she married?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.796,
+      "sentiment_score": -0.3683,
+      "pitch_mean": 325.02
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "Why isn't she married?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.57,
+      "sentiment_score": -0.2085,
+      "pitch_mean": 338.44
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 5.0,
+      "text": "She's been in New York and there's hundreds of single men there.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.838,
+      "sentiment_score": -0.206,
+      "pitch_mean": 352.21
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2609,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 217.49,
+    "avg_pitch": 333.33
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 4.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_2",
+    "utterance_id": "Ses03F_script01_2_F007",
+    "transcript_ground_truth": "Then why is she married? Then why isn't she married? She's been in New York and there's hundreds of single men there."
+  }
+}

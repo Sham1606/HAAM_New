@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script03_1_F008",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:11:04.878434",
+  "duration_seconds": 3.44,
+  "transcript": "So horrible is one can't stay happy",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "So horrible is one can't stay happy",
+      "emotion": "disgust",
+      "emotion_confidence": 0.416,
+      "sentiment_score": -0.9213,
+      "pitch_mean": 350.24
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9213,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 122.12,
+    "avg_pitch": 336.79
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script03_1",
+    "utterance_id": "Ses02M_script03_1_F008",
+    "transcript_ground_truth": "What's so horrible is that one can't stay happy."
+  }
+}

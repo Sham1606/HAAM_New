@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses05F_impro07_M030",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:09:56.590716",
+  "duration_seconds": 10.46,
+  "transcript": "Exactly. Mooching off of their like college experiences, that would have been me. But you have saved me from that disastrous fate. Thank you very much.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.64,
+      "text": "Exactly.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.925,
+      "sentiment_score": -0.0218,
+      "pitch_mean": 336.32
+    },
+    {
+      "start_time": 1.64,
+      "end_time": 6.08,
+      "text": "Mooching off of their like college experiences, that would have been me.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.856,
+      "sentiment_score": -0.4271,
+      "pitch_mean": 323.86
+    },
+    {
+      "start_time": 6.08,
+      "end_time": 8.72,
+      "text": "But you have saved me from that disastrous fate.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.457,
+      "sentiment_score": 0.1598,
+      "pitch_mean": 329.4
+    },
+    {
+      "start_time": 8.72,
+      "end_time": 10.12,
+      "text": "Thank you very much.",
+      "emotion": "joy",
+      "emotion_confidence": 0.704,
+      "sentiment_score": 0.9329,
+      "pitch_mean": 342.99
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1609,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.25,
+      "joy": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 149.14,
+    "avg_pitch": 327.71
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro07",
+    "utterance_id": "Ses05F_impro07_M030",
+    "transcript_ground_truth": "Exactly.  Mooching off of all like the college experiences, that would've been me but you have saved me from that disaster. Thank you. Thank you very much."
+  }
+}

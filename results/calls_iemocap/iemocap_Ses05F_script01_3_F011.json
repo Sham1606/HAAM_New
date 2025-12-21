@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script01_3_F011",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:18:00.631904",
+  "duration_seconds": 3.47,
+  "transcript": "almost got married two years ago",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "almost got married two years ago",
+      "emotion": "disgust",
+      "emotion_confidence": 0.417,
+      "sentiment_score": 0.3212,
+      "pitch_mean": 330.85
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3212,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 103.89,
+    "avg_pitch": 329.91
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_3",
+    "utterance_id": "Ses05F_script01_3_F011",
+    "transcript_ground_truth": "I almost got married two years ago."
+  }
+}

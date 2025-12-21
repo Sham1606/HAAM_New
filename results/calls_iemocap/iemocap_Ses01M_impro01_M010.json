@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro01_M010",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:48:51.896716",
+  "duration_seconds": 2.22,
+  "transcript": "No one will have a passport.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "No one will have a passport.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.779,
+      "sentiment_score": -0.2771,
+      "pitch_mean": 333.64
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2771,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 162.17,
+    "avg_pitch": 331.39
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro01",
+    "utterance_id": "Ses01M_impro01_M010",
+    "transcript_ground_truth": "No, I don't have a passport."
+  }
+}

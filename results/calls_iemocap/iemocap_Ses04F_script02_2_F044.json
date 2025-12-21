@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script02_2_F044",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:37:34.088923",
+  "duration_seconds": 3.3,
+  "transcript": "The whole argue brought refreshments.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "The whole argue brought refreshments.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.461,
+      "sentiment_score": 0.7095,
+      "pitch_mean": 343.13
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.7095,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 91.01,
+    "avg_pitch": 341.37
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script02_2",
+    "utterance_id": "Ses04F_script02_2_F044",
+    "transcript_ground_truth": "Oh, Augie you brought refreshments."
+  }
+}

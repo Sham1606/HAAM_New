@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_impro08b_M014",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:36:13.696576",
+  "duration_seconds": 7.28,
+  "transcript": "Tell them that you can go in and get a brand new phone, the hookie-up service in the industry. I don't want to watch that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Tell them that you can go in and get a brand new phone, the hookie-up service in the",
+      "emotion": "neutral",
+      "emotion_confidence": 0.838,
+      "sentiment_score": 0.2758,
+      "pitch_mean": 350.0
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 7.0,
+      "text": "industry. I don't want to watch that.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.827,
+      "sentiment_score": -0.9092,
+      "pitch_mean": 364.19
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3167,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 206.04,
+    "avg_pitch": 355.25
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro08b",
+    "utterance_id": "Ses03M_impro08b_M014",
+    "transcript_ground_truth": "Tell them that.  You can go in, get a brand new phone, they'll hook you up with service even give you a free three months--"
+  }
+}

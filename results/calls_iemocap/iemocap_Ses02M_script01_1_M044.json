@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script01_1_M044",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:02:15.961001",
+  "duration_seconds": 2.48,
+  "transcript": "Well, I am thinking that way.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Well, I am thinking that way.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.915,
+      "sentiment_score": 0.0157,
+      "pitch_mean": 331.1
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0157,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 145.16,
+    "avg_pitch": 328.69
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script01_1",
+    "utterance_id": "Ses02M_script01_1_M044",
+    "transcript_ground_truth": "Well, I am thinking that way."
+  }
+}

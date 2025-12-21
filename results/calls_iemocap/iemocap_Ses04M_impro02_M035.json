@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro02_M035",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:51:26.744831",
+  "duration_seconds": 5.56,
+  "transcript": "Well, I guess we're in a Stanley, that aren't we?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Well, I guess we're in a Stanley, that aren't we?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.807,
+      "sentiment_score": -0.3036,
+      "pitch_mean": 320.28
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3036,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 107.91,
+    "avg_pitch": 322.31
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro02",
+    "utterance_id": "Ses04M_impro02_M035",
+    "transcript_ground_truth": "Well I guess we're at a stalemate then, aren't we?"
+  }
+}

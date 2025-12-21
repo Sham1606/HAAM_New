@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script03_2_M041",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:16:03.316110",
+  "duration_seconds": 8.26,
+  "transcript": "You are a vile tempered wicked living evil little beast and I hope it never set eyes in you out here get you understand",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 8.14,
+      "text": "You are a vile tempered wicked living evil little beast and I hope it never set eyes in you out here get you understand",
+      "emotion": "anger",
+      "emotion_confidence": 0.695,
+      "sentiment_score": -0.9344,
+      "pitch_mean": 332.21
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9344,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 174.34,
+    "avg_pitch": 332.39
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.0,
+    "arousal": 4.5,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script03_2",
+    "utterance_id": "Ses05M_script03_2_M041",
+    "transcript_ground_truth": "You are a vile tempered, wicked living, evil little beast.  And I hope I never set eyes on you ever again."
+  }
+}

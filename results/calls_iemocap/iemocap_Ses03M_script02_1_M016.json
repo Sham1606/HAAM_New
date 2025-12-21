@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script02_1_M016",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:46:37.881765",
+  "duration_seconds": 5.77,
+  "transcript": "I wonder if they can hear us talk or feel the vibrations in the sand when we move around.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "I wonder if they can hear us talk or feel the vibrations in the sand when we move around.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.919,
+      "sentiment_score": -0.06,
+      "pitch_mean": 319.21
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.06,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 197.51,
+    "avg_pitch": 319.21
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_1",
+    "utterance_id": "Ses03M_script02_1_M016",
+    "transcript_ground_truth": "I wonder if they can hear us talk?  Or feel the vibrations in the sand when we move around?"
+  }
+}

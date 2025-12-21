@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses03M_script02_2_M031",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:50:50.437856",
+  "duration_seconds": 8.83,
+  "transcript": "You know, baby, the jokes on us. Because do you know what you get? Do you know what you get, Carla? You get this.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.5,
+      "text": "You know, baby, the jokes on us.",
+      "emotion": "joy",
+      "emotion_confidence": 0.684,
+      "sentiment_score": -0.2267,
+      "pitch_mean": 330.74
+    },
+    {
+      "start_time": 3.5,
+      "end_time": 5.5,
+      "text": "Because do you know what you get?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.379,
+      "sentiment_score": -0.2813,
+      "pitch_mean": 316.16
+    },
+    {
+      "start_time": 5.5,
+      "end_time": 7.5,
+      "text": "Do you know what you get, Carla?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.391,
+      "sentiment_score": -0.0148,
+      "pitch_mean": 331.32
+    },
+    {
+      "start_time": 7.5,
+      "end_time": 8.5,
+      "text": "You get this.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.877,
+      "sentiment_score": 0.7296,
+      "pitch_mean": 322.17
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0517,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "joy": 0.25,
+      "disgust": 0.5,
+      "neutral": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 163.02,
+    "avg_pitch": 324.5
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.6667,
+    "arousal": 3.3333,
+    "dominance": 4.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_2",
+    "utterance_id": "Ses03M_script02_2_M031",
+    "transcript_ground_truth": "...and you know?  Baby the jokes on us.  Because you know what you get?  Do you know what you get Carla?  You get this."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "call_id": "iemocap_Ses01F_impro03_F003",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:18:32.418200",
+  "duration_seconds": 4.62,
+  "transcript": "Don't worry. Chuck. Ahh.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 0.82,
+      "text": "Don't worry.",
+      "emotion": "fear",
+      "emotion_confidence": 0.709,
+      "sentiment_score": 0.1722,
+      "pitch_mean": 370.71
+    },
+    {
+      "start_time": 0.82,
+      "end_time": 1.34,
+      "text": "Chuck.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.82,
+      "sentiment_score": -0.1601,
+      "pitch_mean": 337.55
+    },
+    {
+      "start_time": 1.6,
+      "end_time": 2.46,
+      "text": "Ahh.",
+      "emotion": "anger",
+      "emotion_confidence": 0.753,
+      "sentiment_score": 0.1359,
+      "pitch_mean": 409.91
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0493,
+    "dominant_emotion": "fear",
+    "emotion_distribution": {
+      "fear": 0.333,
+      "neutral": 0.333,
+      "anger": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 51.99,
+    "avg_pitch": 369.97
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 5.0,
+    "arousal": 4.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro03",
+    "utterance_id": "Ses01F_impro03_F003",
+    "transcript_ground_truth": "Chuck. [LAUGHTER]"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses03F_impro02_F008",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:16:50.999449",
+  "duration_seconds": 13.33,
+  "transcript": "I am done. Right. Yeah. They're going to need more nurses on call to go overseas to help out with the war.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "I am done.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.436,
+      "sentiment_score": -0.6522,
+      "pitch_mean": 321.84
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 2.0,
+      "text": "Right.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.827,
+      "sentiment_score": 0.145,
+      "pitch_mean": 320.01
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "Yeah.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.814,
+      "sentiment_score": 0.2224,
+      "pitch_mean": 317.8
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 12.92,
+      "text": "They're going to need more nurses on call to go overseas to help out with the war.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.84,
+      "sentiment_score": -0.4515,
+      "pitch_mean": 321.48
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1841,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "disgust": 0.25,
+      "neutral": 0.75
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 99.02,
+    "avg_pitch": 320.49
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 2.0,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro02",
+    "utterance_id": "Ses03F_impro02_F008",
+    "transcript_ground_truth": "And Uh- Yeah. Uh- They're going to need um- more nurses on call for uh- to go overseas to help out with the war."
+  }
+}

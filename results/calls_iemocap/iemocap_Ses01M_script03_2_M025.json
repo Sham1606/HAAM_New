@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01M_script03_2_M025",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:18:14.996755",
+  "duration_seconds": 3.74,
+  "transcript": "Did you see much of Peter Burton after on divorce? Yes!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.36,
+      "text": "Did you see much of Peter Burton after on divorce?",
+      "emotion": "anger",
+      "emotion_confidence": 0.475,
+      "sentiment_score": 0.0591,
+      "pitch_mean": 339.31
+    },
+    {
+      "start_time": 3.36,
+      "end_time": 3.86,
+      "text": "Yes!",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.6802,
+      "pitch_mean": 345.51
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3696,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 176.37,
+    "avg_pitch": 345.51
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script03_2",
+    "utterance_id": "Ses01M_script03_2_M025",
+    "transcript_ground_truth": "Did you see much of Peter Burden after our divorce?"
+  }
+}

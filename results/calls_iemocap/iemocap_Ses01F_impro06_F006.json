@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses01F_impro06_F006",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:27:06.918398",
+  "duration_seconds": 12.04,
+  "transcript": "I used to go to Cemetery a lot before she died. I just, you know, I felt like there were urban oasis. You know, there's always the screen in the city.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I used to go to Cemetery a lot before she died.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.735,
+      "sentiment_score": -0.132,
+      "pitch_mean": 337.83
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 9.0,
+      "text": "I just, you know, I felt like there were urban oasis.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.927,
+      "sentiment_score": 0.102,
+      "pitch_mean": 327.57
+    },
+    {
+      "start_time": 9.0,
+      "end_time": 12.0,
+      "text": "You know, there's always the screen in the city.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.616,
+      "sentiment_score": 0.0681,
+      "pitch_mean": 326.17
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0127,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 0.667,
+      "neutral": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 154.49,
+    "avg_pitch": 330.11
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro06",
+    "utterance_id": "Ses01F_impro06_F006",
+    "transcript_ground_truth": "I used to go to cemeteries a lot before she died.  I just, you know, I felt like they were urban oasis, you know, there is always this green in the city."
+  }
+}

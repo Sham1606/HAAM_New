@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_script03_1_F001",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:14:09.833095",
+  "duration_seconds": 2.96,
+  "transcript": "Nobody knows we're here except right now and she wouldn't ring up.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.8,
+      "text": "Nobody knows we're here except right now and she wouldn't ring up.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.792,
+      "sentiment_score": -0.5158,
+      "pitch_mean": 352.54
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5158,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 243.25,
+    "avg_pitch": 347.2
+  },
+  "ground_truth": {
+    "emotion": "fear",
+    "raw_emotion": "fea",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script03_1",
+    "utterance_id": "Ses04M_script03_1_F001",
+    "transcript_ground_truth": "Nobody knows we're here, except Freda and she wouldn't ring up."
+  }
+}

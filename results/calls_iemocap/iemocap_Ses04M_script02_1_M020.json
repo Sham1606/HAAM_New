@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_script02_1_M020",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:11:12.014815",
+  "duration_seconds": 3.39,
+  "transcript": "There's mystery here in magic.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "There's mystery here in magic.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.434,
+      "sentiment_score": 0.4438,
+      "pitch_mean": 312.86
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4438,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 88.5,
+    "avg_pitch": 313.85
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script02_1",
+    "utterance_id": "Ses04M_script02_1_M020",
+    "transcript_ground_truth": "There's mystery here and magic."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro05_F026",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:53:19.648060",
+  "duration_seconds": 8.5,
+  "transcript": "We can give you $50 to sort of make up for it to compensate and we can definitely, you know, if it shows up but likely more than likely.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 8.32,
+      "text": "We can give you $50 to sort of make up for it to compensate and we can definitely, you know, if it shows up but likely more than likely.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.932,
+      "sentiment_score": 0.2936,
+      "pitch_mean": 353.42
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2936,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 204.69,
+    "avg_pitch": 352.96
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro05",
+    "utterance_id": "Ses02M_impro05_F026",
+    "transcript_ground_truth": "we can give you fifty dollar to sort of make up for it, to compensate, and we can definitely let you know if it shows up but likely, more than likely-"
+  }
+}

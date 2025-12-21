@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses02F_impro02_M002",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:20:50.654867",
+  "duration_seconds": 9.94,
+  "transcript": "But I'm nothing. I'm nothing without you here, I mean. Maybe we can... We could get out of this somehow.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.6,
+      "text": "But I'm nothing. I'm nothing without you here, I mean.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.339,
+      "sentiment_score": -0.1893,
+      "pitch_mean": 325.78
+    },
+    {
+      "start_time": 5.1,
+      "end_time": 6.1,
+      "text": "Maybe we can...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.908,
+      "sentiment_score": 0.2517,
+      "pitch_mean": 317.11
+    },
+    {
+      "start_time": 7.3,
+      "end_time": 9.1,
+      "text": "We could get out of this somehow.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.872,
+      "sentiment_score": 0.0646,
+      "pitch_mean": 337.24
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0423,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "sadness": 0.333,
+      "neutral": 0.667
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 120.74,
+    "avg_pitch": 327.98
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 2.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro02",
+    "utterance_id": "Ses02F_impro02_M002",
+    "transcript_ground_truth": "But, I'm--I'm nothing--I'm nothing without you here.  Maybe we can--we can get out of this somehow."
+  }
+}

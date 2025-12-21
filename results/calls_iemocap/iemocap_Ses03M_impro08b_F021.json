@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro08b_F021",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:35:28.597797",
+  "duration_seconds": 4.79,
+  "transcript": "Alright, well, I guess, I guess it's okay but...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Alright, well, I guess, I guess it's okay but...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.614,
+      "sentiment_score": 0.3268,
+      "pitch_mean": 347.3
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3268,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 112.73,
+    "avg_pitch": 346.89
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro08b",
+    "utterance_id": "Ses03M_impro08b_F021",
+    "transcript_ground_truth": "Alright. Well-  I guess - I guess that's okay but,"
+  }
+}

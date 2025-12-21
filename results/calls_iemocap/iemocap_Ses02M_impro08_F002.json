@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro08_F002",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:57:40.495763",
+  "duration_seconds": 6.12,
+  "transcript": "It leads you around in circles so you can't, there's no way to like get to a real person if you don't already know how to get there.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "It leads you around in circles so you can't, there's no way to like get to a real person if you don't already know how to get there.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.691,
+      "sentiment_score": -0.832,
+      "pitch_mean": 383.65
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.832,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 274.61,
+    "avg_pitch": 380.99
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 2.6667,
+    "arousal": 3.6667,
+    "dominance": 3.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro08",
+    "utterance_id": "Ses02M_impro08_F002",
+    "transcript_ground_truth": "it leads you around in circles, you can't, there is no way to like get to a real person if you don't already know how to get to there."
+  }
+}

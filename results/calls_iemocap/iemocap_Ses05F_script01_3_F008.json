@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script01_3_F008",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:17:54.354265",
+  "duration_seconds": 4.33,
+  "transcript": "Well, from her point of view, I also when I come.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Well, from her point of view, I also when I come.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.934,
+      "sentiment_score": 0.1045,
+      "pitch_mean": 332.02
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1045,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 152.55,
+    "avg_pitch": 331.09
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_3",
+    "utterance_id": "Ses05F_script01_3_F008",
+    "transcript_ground_truth": "Well, from her point of view why else would I come?"
+  }
+}

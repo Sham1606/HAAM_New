@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro07_M037",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:49:40.282724",
+  "duration_seconds": 4.38,
+  "transcript": "So that comes in handy and like yeah, and you know I'm kind of smart so",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.76,
+      "text": "So that comes in handy and like yeah, and you know I'm kind of smart so",
+      "emotion": "neutral",
+      "emotion_confidence": 0.901,
+      "sentiment_score": 0.8863,
+      "pitch_mean": 330.51
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.8863,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 219.31,
+    "avg_pitch": 328.73
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro07",
+    "utterance_id": "Ses05M_impro07_M037",
+    "transcript_ground_truth": "So it comes Indian like. And you know I'm kind of smart, so."
+  }
+}

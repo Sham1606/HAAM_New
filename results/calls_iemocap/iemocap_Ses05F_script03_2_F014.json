@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script03_2_F014",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:29:48.536416",
+  "duration_seconds": 3.3,
+  "transcript": "just making myself fascinating for you.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "just making myself fascinating for you.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.415,
+      "sentiment_score": 0.7593,
+      "pitch_mean": 335.55
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.7593,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 109.09,
+    "avg_pitch": 331.73
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script03_2",
+    "utterance_id": "Ses05F_script03_2_F014",
+    "transcript_ground_truth": "Just making myself fascinating for you."
+  }
+}

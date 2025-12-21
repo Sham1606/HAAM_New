@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05F_script03_1_M021",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:28:48.342032",
+  "duration_seconds": 8.98,
+  "transcript": "Enjoy the party as long as we can, like, very little quake idiotic school children. Let's save it the delight of the moment!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "Enjoy the party as long as we can, like, very little quake idiotic school children.",
+      "emotion": "joy",
+      "emotion_confidence": 0.896,
+      "sentiment_score": 0.2573,
+      "pitch_mean": 335.88
+    },
+    {
+      "start_time": 6.72,
+      "end_time": 8.72,
+      "text": "Let's save it the delight of the moment!",
+      "emotion": "joy",
+      "emotion_confidence": 0.867,
+      "sentiment_score": 0.8317,
+      "pitch_mean": 342.44
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5445,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 153.67,
+    "avg_pitch": 335.47
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script03_1",
+    "utterance_id": "Ses05F_script03_1_M021",
+    "transcript_ground_truth": "enjoy the party as long as we can like very little quite idiotic schoolchildren. [garbage] Let's savor the delight of the moment."
+  }
+}

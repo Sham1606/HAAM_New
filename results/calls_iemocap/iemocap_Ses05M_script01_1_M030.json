@@ -1,0 +1,81 @@
+{
+  "call_id": "iemocap_Ses05M_script01_1_M030",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:55:17.974559",
+  "duration_seconds": 9.29,
+  "transcript": "I know her best. Alright, I don't know. I grew up next to her when I think of somebody for my wife these days I think of Annie. What do you want a diagram? What?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.32,
+      "text": "I know her best.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.812,
+      "sentiment_score": 0.6884,
+      "pitch_mean": 321.75
+    },
+    {
+      "start_time": 2.32,
+      "end_time": 3.72,
+      "text": "Alright, I don't know.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.331,
+      "sentiment_score": -0.1333,
+      "pitch_mean": 343.35
+    },
+    {
+      "start_time": 3.72,
+      "end_time": 7.8,
+      "text": "I grew up next to her when I think of somebody for my wife these days I think of Annie.",
+      "emotion": "joy",
+      "emotion_confidence": 0.411,
+      "sentiment_score": 0.0748,
+      "pitch_mean": 350.17
+    },
+    {
+      "start_time": 7.8,
+      "end_time": 8.8,
+      "text": "What do you want a diagram?",
+      "emotion": "joy",
+      "emotion_confidence": 0.525,
+      "sentiment_score": -0.0041,
+      "pitch_mean": 367.45
+    },
+    {
+      "start_time": 8.8,
+      "end_time": 9.8,
+      "text": "What?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.922,
+      "sentiment_score": 0.083,
+      "pitch_mean": 342.82
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1418,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.4,
+      "disgust": 0.2,
+      "joy": 0.4
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 226.06,
+    "avg_pitch": 342.82
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_1",
+    "utterance_id": "Ses05M_script01_1_M030",
+    "transcript_ground_truth": "I know her best, all right?  I don't know.  I grew up next to her.  When I think of somebody for my wife these days, I think of Annie.  What do you want, a diagram?"
+  }
+}

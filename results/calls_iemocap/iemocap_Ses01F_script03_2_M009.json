@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses01F_script03_2_M009",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:46:45.273132",
+  "duration_seconds": 6.95,
+  "transcript": "So am I. I'm bored stiff. Do you want some brandy?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "So am I.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.819,
+      "sentiment_score": 0.2168,
+      "pitch_mean": 349.58
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 3.0,
+      "text": "I'm bored stiff.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.871,
+      "sentiment_score": -0.7147,
+      "pitch_mean": 324.16
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 7.0,
+      "text": "Do you want some brandy?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.731,
+      "sentiment_score": 0.0482,
+      "pitch_mean": 327.58
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1499,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "sadness": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 94.96,
+    "avg_pitch": 327.58
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script03_2",
+    "utterance_id": "Ses01F_script03_2_M009",
+    "transcript_ground_truth": "So am I.  I'm bored stiff. [GARBAGE]  Do you want some brandy?"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script01_2_F007",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:34:12.017741",
+  "duration_seconds": 8.89,
+  "transcript": "Then why is she still single New York is full of men. Why is she still single? Probably a hundred people told her she's foolish, but she waited",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 8.18,
+      "text": "Then why is she still single New York is full of men. Why is she still single? Probably a hundred people told her she's foolish, but she waited",
+      "emotion": "neutral",
+      "emotion_confidence": 0.757,
+      "sentiment_score": -0.6862,
+      "pitch_mean": 353.13
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6862,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 188.98,
+    "avg_pitch": 350.65
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_2",
+    "utterance_id": "Ses01F_script01_2_F007",
+    "transcript_ground_truth": "Then why is she still single?  New York is full of men, why is she still single?  Probably a hundred people told her she's foolish, but she waited."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05F_impro05_F007",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:00:43.562477",
+  "duration_seconds": 5.35,
+  "transcript": "Well, I can't leave without it. I mean, could you? I know.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Well, I can't leave without it. I mean, could you?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.417,
+      "sentiment_score": 0.0542,
+      "pitch_mean": 331.12
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 5.0,
+      "text": "I know.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.365,
+      "sentiment_score": 0.1268,
+      "pitch_mean": 335.62
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0905,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 134.53,
+    "avg_pitch": 331.27
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro05",
+    "utterance_id": "Ses05F_impro05_F007",
+    "transcript_ground_truth": "Well, I can't leave without it. I mean, Could you find out?"
+  }
+}

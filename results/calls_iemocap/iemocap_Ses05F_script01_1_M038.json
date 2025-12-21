@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script01_1_M038",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:16:02.711050",
+  "duration_seconds": 5.97,
+  "transcript": "I know that mom. I know. Just you help me stay here.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "I know that mom. I know. Just you help me stay here.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.712,
+      "sentiment_score": 0.4958,
+      "pitch_mean": 335.46
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4958,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 120.6,
+    "avg_pitch": 335.46
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_1",
+    "utterance_id": "Ses05F_script01_1_M038",
+    "transcript_ground_truth": "I know that Mom. I know.  Just you help me stay here."
+  }
+}

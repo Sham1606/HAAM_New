@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro04_M028",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:23:38.551353",
+  "duration_seconds": 1.24,
+  "transcript": "Mm-hmm.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "Mm-hmm.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.466,
+      "sentiment_score": 0.0619,
+      "pitch_mean": 317.04
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0619,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 48.39,
+    "avg_pitch": 314.64
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro04",
+    "utterance_id": "Ses01F_impro04_M028",
+    "transcript_ground_truth": "Mmhmm."
+  }
+}

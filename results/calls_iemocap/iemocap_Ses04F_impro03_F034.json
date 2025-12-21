@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro03_F034",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:02:56.011471",
+  "duration_seconds": 5.3,
+  "transcript": "It's growing a little little trim yellow, maybe some yellow flowers.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "It's growing a little little trim yellow, maybe some yellow flowers.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.805,
+      "sentiment_score": 0.4626,
+      "pitch_mean": 342.16
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4626,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 124.53,
+    "avg_pitch": 339.46
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro03",
+    "utterance_id": "Ses04F_impro03_F034",
+    "transcript_ground_truth": "Throw in a little- little, uh, trim in yellow.  Maybe some yellow flowers."
+  }
+}

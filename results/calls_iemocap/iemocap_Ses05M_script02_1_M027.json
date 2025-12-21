@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script02_1_M027",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:06:18.083334",
+  "duration_seconds": 6.87,
+  "transcript": "We just weren't in a good spot. This is a much better spot. I've got a great sense for these things.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "We just weren't in a good spot. This is a much better spot. I've got a great sense for these things.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.922,
+      "sentiment_score": 0.2086,
+      "pitch_mean": 326.59
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2086,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 183.41,
+    "avg_pitch": 320.19
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script02_1",
+    "utterance_id": "Ses05M_script02_1_M027",
+    "transcript_ground_truth": "We just weren't in a good spot.  This is a much better spot.  I've got a great sense for these things."
+  }
+}

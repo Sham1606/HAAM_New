@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses05M_impro02_M000",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:35:20.475557",
+  "duration_seconds": 9.47,
+  "transcript": "It's weird how you're gonna tell you something. I just gotta call. I'm going to Iraq.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It's weird how you're gonna tell you something.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.889,
+      "sentiment_score": -0.6082,
+      "pitch_mean": 330.15
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 5.0,
+      "text": "I just gotta call.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.341,
+      "sentiment_score": 0.0435,
+      "pitch_mean": 331.75
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 9.0,
+      "text": "I'm going to Iraq.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.56,
+      "sentiment_score": -0.0853,
+      "pitch_mean": 328.09
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2167,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.667,
+      "sadness": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 101.37,
+    "avg_pitch": 330.59
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro02",
+    "utterance_id": "Ses05M_impro02_M000",
+    "transcript_ground_truth": "Sweetheart, I've got to tell you something.  I just got a call.  I'm going to Iraq."
+  }
+}

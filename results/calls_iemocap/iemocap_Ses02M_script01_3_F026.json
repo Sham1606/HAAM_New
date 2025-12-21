@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses02M_script01_3_F026",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:04:13.378141",
+  "duration_seconds": 9.5,
+  "transcript": "Because you mustn't feel that way. Because you have a right to everything you have. Of course, everything you understand that me too.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Because you mustn't feel that way.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.456,
+      "sentiment_score": -0.6064,
+      "pitch_mean": 323.98
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 6.0,
+      "text": "Because you have a right to everything you have.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.697,
+      "sentiment_score": 0.3675,
+      "pitch_mean": 340.87
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 9.0,
+      "text": "Of course, everything you understand that me too.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.937,
+      "sentiment_score": 0.386,
+      "pitch_mean": 346.6
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.049,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "disgust": 0.333,
+      "neutral": 0.667
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 145.24,
+    "avg_pitch": 335.21
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script01_3",
+    "utterance_id": "Ses02M_script01_3_F026",
+    "transcript_ground_truth": "'Cause you mustn't feel that way.  Because you have a right to everything you have, Chris.  Everything, you understand that?  Me too."
+  }
+}

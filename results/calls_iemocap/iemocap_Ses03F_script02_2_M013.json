@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script02_2_M013",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:41:04.019053",
+  "duration_seconds": 6.71,
+  "transcript": "I've been trying to mold this through my head to figure out when the point was when we took a turn from the worst and I can't seem to pinpoint it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "I've been trying to mold this through my head to figure out when the point was when we took a turn from the worst and I can't seem to pinpoint it.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.915,
+      "sentiment_score": -0.6453,
+      "pitch_mean": 331.73
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6453,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 277.03,
+    "avg_pitch": 332.21
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_2",
+    "utterance_id": "Ses03F_script02_2_M013",
+    "transcript_ground_truth": "I've been turning this thing over in my head trying to figure out when the point was when we took a turn for the worse, and I can't seem to pinpoint it."
+  }
+}

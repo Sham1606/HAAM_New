@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses04F_impro06_M000",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:12:02.006921",
+  "duration_seconds": 12.01,
+  "transcript": "Hey, I'm really sorry about what happened. I don't tell... I mean, what can you do, you know? I mean, it's...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "Hey, I'm really sorry about what happened.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.855,
+      "sentiment_score": -0.8743,
+      "pitch_mean": 322.74
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 9.0,
+      "text": "I don't tell...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.755,
+      "sentiment_score": -0.1098,
+      "pitch_mean": 325.56
+    },
+    {
+      "start_time": 9.0,
+      "end_time": 11.0,
+      "text": "I mean, what can you do, you know?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.364,
+      "sentiment_score": -0.1447,
+      "pitch_mean": 320.97
+    },
+    {
+      "start_time": 11.0,
+      "end_time": 12.0,
+      "text": "I mean, it's...",
+      "emotion": "disgust",
+      "emotion_confidence": 0.542,
+      "sentiment_score": 0.0255,
+      "pitch_mean": 323.28
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2758,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "sadness": 0.25,
+      "neutral": 0.25,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 104.89,
+    "avg_pitch": 323.97
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro06",
+    "utterance_id": "Ses04F_impro06_M000",
+    "transcript_ground_truth": "Hey, I'm, uh. I'm really sorry about what happened.  I don't um- I mean what you can you do?  I mean it's-"
+  }
+}

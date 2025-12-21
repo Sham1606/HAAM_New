@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro04_F026",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:06:58.750674",
+  "duration_seconds": 7.46,
+  "transcript": "Well, maybe you could help. I mean, you've got a job. I'm willing to look outside of my realm. I could try something else.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "Well, maybe you could help. I mean, you've got a job. I'm willing to look outside of my realm. I could try something else.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.866,
+      "sentiment_score": 0.3357,
+      "pitch_mean": 352.27
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3357,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 193.03,
+    "avg_pitch": 350.02
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro04",
+    "utterance_id": "Ses04F_impro04_F026",
+    "transcript_ground_truth": "Well maybe you could help.  I mean you've got a job.  I'm willing to look outside of my realm.  I could try something else."
+  }
+}

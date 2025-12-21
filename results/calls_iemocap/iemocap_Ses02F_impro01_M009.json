@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro01_M009",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:19:50.787086",
+  "duration_seconds": 6.95,
+  "transcript": "I think you're just gonna have to go get them and then you can come back and then we'll help you out maybe",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.32,
+      "text": "I think you're just gonna have to go get them and then you can come back and then we'll help you out maybe",
+      "emotion": "neutral",
+      "emotion_confidence": 0.923,
+      "sentiment_score": 0.1773,
+      "pitch_mean": 333.98
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1773,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 198.69,
+    "avg_pitch": 333.35
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro01",
+    "utterance_id": "Ses02F_impro01_M009",
+    "transcript_ground_truth": "I think you're just gonna--you're gonna have to get 'em and then you can back and then, we'll help you out.  Maybe, we can-"
+  }
+}

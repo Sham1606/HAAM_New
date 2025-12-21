@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro01_F014",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:47:45.143617",
+  "duration_seconds": 2.59,
+  "transcript": "No, you can go get another one.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "No, you can go get another one.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.789,
+      "sentiment_score": -0.2187,
+      "pitch_mean": 353.49
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2187,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 162.27,
+    "avg_pitch": 362.59
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro01",
+    "utterance_id": "Ses03M_impro01_F014",
+    "transcript_ground_truth": "No.  You couldn't go get another one."
+  }
+}

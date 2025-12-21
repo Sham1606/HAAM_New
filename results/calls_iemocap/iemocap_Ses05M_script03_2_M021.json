@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script03_2_M021",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:15:17.485710",
+  "duration_seconds": 2.4,
+  "transcript": "Snap, snap, snap, like a little adder.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Snap, snap, snap, like a little adder.",
+      "emotion": "anger",
+      "emotion_confidence": 0.96,
+      "sentiment_score": -0.1888,
+      "pitch_mean": 322.01
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1888,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 175.0,
+    "avg_pitch": 319.64
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script03_2",
+    "utterance_id": "Ses05M_script03_2_M021",
+    "transcript_ground_truth": "oh, Snap, snap, snap.  Like a little Adder."
+  }
+}

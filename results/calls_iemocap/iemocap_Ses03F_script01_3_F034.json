@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script01_3_F034",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:34:50.155825",
+  "duration_seconds": 8.27,
+  "transcript": "The nothing wrong in that money and your father put good planes up in the air and you should be proud of that a man should be paid for that",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.62,
+      "text": "The nothing wrong in that money and your father put good planes up in the air and you should be proud of that a man should be paid for that",
+      "emotion": "anger",
+      "emotion_confidence": 0.557,
+      "sentiment_score": 0.609,
+      "pitch_mean": 358.18
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.609,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 217.69,
+    "avg_pitch": 345.49
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_3",
+    "utterance_id": "Ses03F_script01_3_F034",
+    "transcript_ground_truth": "I mean, there's nothing wrong in that money, and your father put good planes up in the air and you should be proud of that. A man should be paid for that."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro07_M016",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:26:29.298279",
+  "duration_seconds": 3.48,
+  "transcript": "Yeah, I'm only 18 so let's go get drunk",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.04,
+      "text": "Yeah, I'm only 18 so let's go get drunk",
+      "emotion": "neutral",
+      "emotion_confidence": 0.741,
+      "sentiment_score": 0.5081,
+      "pitch_mean": 337.45
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5081,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 155.11,
+    "avg_pitch": 334.95
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro07",
+    "utterance_id": "Ses03F_impro07_M016",
+    "transcript_ground_truth": "Yeah, I'm only eighteen so it's--go get drunk."
+  }
+}

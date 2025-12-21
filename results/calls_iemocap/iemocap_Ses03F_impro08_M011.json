@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro08_M011",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:28:42.177738",
+  "duration_seconds": 4.7,
+  "transcript": "I'm gonna kill myself right now",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.16,
+      "text": "I'm gonna kill myself right now",
+      "emotion": "disgust",
+      "emotion_confidence": 0.407,
+      "sentiment_score": -0.858,
+      "pitch_mean": 351.54
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.858,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 76.56,
+    "avg_pitch": 347.04
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro08",
+    "utterance_id": "Ses03F_impro08_M011",
+    "transcript_ground_truth": "I- I'm going to kill myself right now."
+  }
+}

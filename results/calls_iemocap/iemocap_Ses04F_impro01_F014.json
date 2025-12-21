@@ -1,0 +1,100 @@
+{
+  "call_id": "iemocap_Ses04F_impro01_F014",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T11:58:02.700615",
+  "duration_seconds": 10.03,
+  "transcript": "I mean look she's perfectly nice. She doesn't mind waiting for a couple of minutes because I've been here all day. I have a job to get back to. I have kids to pick up from school. I can't just stay here. Look.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.3,
+      "text": "I mean look she's perfectly nice.",
+      "emotion": "anger",
+      "emotion_confidence": 0.499,
+      "sentiment_score": 0.8923,
+      "pitch_mean": 351.92
+    },
+    {
+      "start_time": 2.3,
+      "end_time": 4.14,
+      "text": "She doesn't mind waiting for a couple of minutes",
+      "emotion": "neutral",
+      "emotion_confidence": 0.914,
+      "sentiment_score": 0.4893,
+      "pitch_mean": 355.5
+    },
+    {
+      "start_time": 4.14,
+      "end_time": 5.54,
+      "text": "because I've been here all day.",
+      "emotion": "joy",
+      "emotion_confidence": 0.562,
+      "sentiment_score": 0.043,
+      "pitch_mean": 393.76
+    },
+    {
+      "start_time": 5.54,
+      "end_time": 7.1,
+      "text": "I have a job to get back to.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.975,
+      "sentiment_score": 0.2112,
+      "pitch_mean": 381.19
+    },
+    {
+      "start_time": 7.1,
+      "end_time": 8.38,
+      "text": "I have kids to pick up from school.",
+      "emotion": "joy",
+      "emotion_confidence": 0.815,
+      "sentiment_score": 0.021,
+      "pitch_mean": 384.01
+    },
+    {
+      "start_time": 8.38,
+      "end_time": 9.74,
+      "text": "I can't just stay here.",
+      "emotion": "anger",
+      "emotion_confidence": 0.612,
+      "sentiment_score": -0.6082,
+      "pitch_mean": 366.16
+    },
+    {
+      "start_time": 9.74,
+      "end_time": 10.58,
+      "text": "Look.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.1883,
+      "pitch_mean": 366.34
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1767,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.286,
+      "neutral": 0.286,
+      "joy": 0.286,
+      "sadness": 0.143
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 257.23,
+    "avg_pitch": 366.34
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro01",
+    "utterance_id": "Ses04F_impro01_F014",
+    "transcript_ground_truth": "I mean look she's -she's perfectly nice.  She doesn't mind waiting for a couple of minutes because I've been here all day. I have a job to get back to.  I have kids to pick up from school.  I can't just stay here."
+  }
+}

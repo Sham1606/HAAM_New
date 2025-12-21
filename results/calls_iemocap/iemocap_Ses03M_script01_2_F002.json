@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script01_2_F002",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:40:49.719203",
+  "duration_seconds": 3.19,
+  "transcript": "Nobody travels 700 miles just to see.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Nobody travels 700 miles just to see.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.401,
+      "sentiment_score": -0.353,
+      "pitch_mean": 333.28
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.353,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 131.63,
+    "avg_pitch": 332.16
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 4.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_2",
+    "utterance_id": "Ses03M_script01_2_F002",
+    "transcript_ground_truth": "Nobody travels seven hundred miles just see."
+  }
+}

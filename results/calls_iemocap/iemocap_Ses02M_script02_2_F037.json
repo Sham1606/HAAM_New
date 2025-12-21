@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script02_2_F037",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:09:00.304818",
+  "duration_seconds": 3.05,
+  "transcript": "I'm very ridiculous, don't you know that?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I'm very ridiculous, don't you know that?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.444,
+      "sentiment_score": -0.8654,
+      "pitch_mean": 357.57
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8654,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 137.7,
+    "avg_pitch": 356.53
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script02_2",
+    "utterance_id": "Ses02M_script02_2_F037",
+    "transcript_ground_truth": "Don't be ridiculous. I mean don't you know that?"
+  }
+}

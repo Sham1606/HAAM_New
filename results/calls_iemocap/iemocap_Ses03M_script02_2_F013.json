@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script02_2_F013",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:48:22.032498",
+  "duration_seconds": 8.7,
+  "transcript": "Listen, I've waited my entire life on this beach just standing there waiting for this fish to show up and these fish never show up.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 8.0,
+      "text": "Listen, I've waited my entire life on this beach just standing there waiting for this fish to show up and these fish never show up.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.633,
+      "sentiment_score": -0.5705,
+      "pitch_mean": 353.37
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5705,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 172.42,
+    "avg_pitch": 352.24
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.6667,
+    "arousal": 4.6667,
+    "dominance": 3.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_2",
+    "utterance_id": "Ses03M_script02_2_F013",
+    "transcript_ground_truth": "Listen, I've waiting my entire life on this beach just standing there waiting for this fish to show up and these fish never show up."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_impro06_M008",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:45:53.282582",
+  "duration_seconds": 8.44,
+  "transcript": "And he's gone now and I... Just can't believe it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "And he's gone now and I...",
+      "emotion": "disgust",
+      "emotion_confidence": 0.414,
+      "sentiment_score": -0.757,
+      "pitch_mean": 315.56
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 8.0,
+      "text": "Just can't believe it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.914,
+      "sentiment_score": -0.8435,
+      "pitch_mean": 300.06
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8002,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 71.09,
+    "avg_pitch": 310.35
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro06",
+    "utterance_id": "Ses05M_impro06_M008",
+    "transcript_ground_truth": "And he's gone now and I  -- I just can't believe it."
+  }
+}

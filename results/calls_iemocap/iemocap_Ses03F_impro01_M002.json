@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03F_impro01_M002",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:16:12.213278",
+  "duration_seconds": 7.68,
+  "transcript": "You didn't fill the sound right. Alright, it says that you have to fill out the back sheet of this, but you filled out the yellow sheet of it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "You didn't fill the sound right.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.428,
+      "sentiment_score": -0.7837,
+      "pitch_mean": 334.85
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 7.0,
+      "text": "Alright, it says that you have to fill out the back sheet of this, but you filled out the yellow sheet of it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.894,
+      "sentiment_score": 0.0045,
+      "pitch_mean": 337.57
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3896,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 226.64,
+    "avg_pitch": 337.61
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.6667,
+    "dominance": 3.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro01",
+    "utterance_id": "Ses03F_impro01_M002",
+    "transcript_ground_truth": "You didn't fill this out right. All right. It says that you have to fill out the back sheet of this, but you filled out the yellow sheet of it."
+  }
+}

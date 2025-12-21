@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04M_impro02_F013",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:48:37.331482",
+  "duration_seconds": 7.97,
+  "transcript": "Well, un-agree, tell them that you can't leave right now. I can't do this by myself. I can't do this without you.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Well, un-agree, tell them that you can't leave right now.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.501,
+      "sentiment_score": -0.4604,
+      "pitch_mean": 339.38
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 8.0,
+      "text": "I can't do this by myself. I can't do this without you.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.1119,
+      "pitch_mean": 342.64
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2861,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 165.62,
+    "avg_pitch": 342.64
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro02",
+    "utterance_id": "Ses04M_impro02_F013",
+    "transcript_ground_truth": "Well unagree.  Tell them that you can't leave right now.  I can't do this by myself.  I can't do this without you."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01F_impro05_F009",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:24:24.663849",
+  "duration_seconds": 7.32,
+  "transcript": "Am I going to be getting like free tickets, free mileage? When can I expect my bag here?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.2,
+      "text": "Am I going to be getting like free tickets, free mileage?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.681,
+      "sentiment_score": 0.0628,
+      "pitch_mean": 341.79
+    },
+    {
+      "start_time": 5.2,
+      "end_time": 6.48,
+      "text": "When can I expect my bag here?",
+      "emotion": "joy",
+      "emotion_confidence": 0.436,
+      "sentiment_score": 0.0228,
+      "pitch_mean": 359.05
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0428,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "joy": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 147.54,
+    "avg_pitch": 342.92
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro05",
+    "utterance_id": "Ses01F_impro05_F009",
+    "transcript_ground_truth": "Am I going to be getting, like, free tickets, free mileage. When can I expect my bag here?"
+  }
+}

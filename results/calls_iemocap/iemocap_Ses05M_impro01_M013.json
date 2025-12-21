@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses05M_impro01_M013",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:33:57.672139",
+  "duration_seconds": 11.32,
+  "transcript": "Why can't we just let's you know what hey? How about if we just pretend that I'm getting renewing my California ID and we just don't tell anybody that I'm getting a new one from a different city?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Why can't we just let's you know what hey?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.566,
+      "sentiment_score": -0.4244,
+      "pitch_mean": 343.17
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 5.3,
+      "text": "How about if we just pretend that I'm getting",
+      "emotion": "disgust",
+      "emotion_confidence": 0.502,
+      "sentiment_score": 0.0306,
+      "pitch_mean": 324.01
+    },
+    {
+      "start_time": 5.3,
+      "end_time": 11.0,
+      "text": "renewing my California ID and we just don't tell anybody that I'm getting a new one from a different city?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.589,
+      "sentiment_score": -0.2678,
+      "pitch_mean": 332.29
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2205,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "disgust": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 201.41,
+    "avg_pitch": 331.28
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 3.0,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro01",
+    "utterance_id": "Ses05M_impro01_M013",
+    "transcript_ground_truth": "Why can't we just -- you know what?  How about if we just pretend that I'm getting a -- renewing my California I.D. and we just don't tell anybody -- That I'm getting a new one from a different state?"
+  }
+}

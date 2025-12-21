@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_script01_1_F019",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:04:51.815224",
+  "duration_seconds": 3.63,
+  "transcript": "Well, you want to make sure your father isn't going to have a...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Well, you want to make sure your father isn't going to have a...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.786,
+      "sentiment_score": -0.2268,
+      "pitch_mean": 328.5
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2268,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 214.81,
+    "avg_pitch": 328.5
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script01_1",
+    "utterance_id": "Ses04M_script01_1_F019",
+    "transcript_ground_truth": "Well you want to make sure your father isn't going to have --"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05F_impro05_M040",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:04:09.860193",
+  "duration_seconds": 1.46,
+  "transcript": "makes up. You're on the...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "makes up.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.411,
+      "sentiment_score": -0.061,
+      "pitch_mean": 312.75
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 2.0,
+      "text": "You're on the...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.035,
+      "pitch_mean": 321.08
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.013,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 205.48,
+    "avg_pitch": 321.08
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro05",
+    "utterance_id": "Ses05F_impro05_M040",
+    "transcript_ground_truth": "makes up?"
+  }
+}

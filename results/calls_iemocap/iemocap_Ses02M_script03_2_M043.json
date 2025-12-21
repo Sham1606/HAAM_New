@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script03_2_M043",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:15:06.944555",
+  "duration_seconds": 2.13,
+  "transcript": "You're not going like this",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "You're not going like this",
+      "emotion": "joy",
+      "emotion_confidence": 0.413,
+      "sentiment_score": -0.5273,
+      "pitch_mean": 347.45
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5273,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 140.54,
+    "avg_pitch": 344.73
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script03_2",
+    "utterance_id": "Ses02M_script03_2_M043",
+    "transcript_ground_truth": "You're not going like this."
+  }
+}

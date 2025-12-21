@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro02_M003",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:35:27.717325",
+  "duration_seconds": 4.72,
+  "transcript": "You think they listened to me? No. Of course I told them that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "You think they listened to me? No. Of course I told them that.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.543,
+      "sentiment_score": -0.3105,
+      "pitch_mean": 328.27
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3105,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 165.25,
+    "avg_pitch": 328.93
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.6667,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro02",
+    "utterance_id": "Ses05M_impro02_M003",
+    "transcript_ground_truth": "You think they'd listen to me?  No.  Of course, I told them that."
+  }
+}

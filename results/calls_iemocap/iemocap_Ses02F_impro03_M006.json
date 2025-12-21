@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro03_M006",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:22:40.487088",
+  "duration_seconds": 1.68,
+  "transcript": "Donna and Mura in Dent repayment and dump worked at laser shortcoming.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.92,
+      "text": "Donna and Mura in Dent repayment and dump worked at laser shortcoming.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.739,
+      "sentiment_score": 0.012,
+      "pitch_mean": 371.83
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.012,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 428.57,
+    "avg_pitch": 371.83
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "sur",
+    "valence": 4.25,
+    "arousal": 4.0,
+    "dominance": 2.75
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro03",
+    "utterance_id": "Ses02F_impro03_M006",
+    "transcript_ground_truth": "What?"
+  }
+}

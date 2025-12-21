@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03F_impro06_M011",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:24:35.198800",
+  "duration_seconds": 5.63,
+  "transcript": "You know, they're through all the hospital days. That's been...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.32,
+      "text": "You know, they're through all the hospital days.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.903,
+      "sentiment_score": -0.0167,
+      "pitch_mean": 326.79
+    },
+    {
+      "start_time": 3.32,
+      "end_time": 5.32,
+      "text": "That's been...",
+      "emotion": "sadness",
+      "emotion_confidence": 0.604,
+      "sentiment_score": 0.0719,
+      "pitch_mean": 317.76
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0276,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "sadness": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 106.58,
+    "avg_pitch": 322.5
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro06",
+    "utterance_id": "Ses03F_impro06_M011",
+    "transcript_ground_truth": "Yeah, but you were there all the hospital days. By his bed-"
+  }
+}

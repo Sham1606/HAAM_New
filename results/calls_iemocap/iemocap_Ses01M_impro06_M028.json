@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro06_M028",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:58:57.799317",
+  "duration_seconds": 4.36,
+  "transcript": "I'm glad I got to be there.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I'm glad I got to be there.",
+      "emotion": "joy",
+      "emotion_confidence": 0.971,
+      "sentiment_score": 0.9767,
+      "pitch_mean": 332.08
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9767,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 96.35,
+    "avg_pitch": 332.76
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 3.5,
+    "arousal": 2.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro06",
+    "utterance_id": "Ses01M_impro06_M028",
+    "transcript_ground_truth": "Yeah, I'm glad I was there. Glad I- glad I got to be there."
+  }
+}

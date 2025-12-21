@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_impro08b_F012",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:35:06.607017",
+  "duration_seconds": 6.43,
+  "transcript": "I don't know. I don't know. You have to use that stuff. It's too complicated. I just want to hold work. I mean I'll give you",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.6,
+      "text": "I don't know. I don't know. You have to use that stuff. It's too complicated. I just want to hold work.",
+      "emotion": "joy",
+      "emotion_confidence": 0.474,
+      "sentiment_score": -0.7548,
+      "pitch_mean": 360.24
+    },
+    {
+      "start_time": 4.6,
+      "end_time": 6.32,
+      "text": "I mean I'll give you",
+      "emotion": "joy",
+      "emotion_confidence": 0.508,
+      "sentiment_score": 0.1651,
+      "pitch_mean": 355.52
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2949,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 242.61,
+    "avg_pitch": 359.77
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro08b",
+    "utterance_id": "Ses03M_impro08b_F012",
+    "transcript_ground_truth": "I don't know even how to use that stuff it's too complicated.  I just want my flip phone to work----that's all I need"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro04_F006",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:39:47.994560",
+  "duration_seconds": 6.59,
+  "transcript": "No, I mean I'm just working in restaurants and stuff, but I'm also, you know, trying to audition and whatnot so it's",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.12,
+      "text": "No, I mean I'm just working in restaurants and stuff, but I'm also, you know, trying to audition and whatnot so it's",
+      "emotion": "neutral",
+      "emotion_confidence": 0.751,
+      "sentiment_score": 0.0801,
+      "pitch_mean": 335.37
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0801,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 200.31,
+    "avg_pitch": 331.13
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro04",
+    "utterance_id": "Ses05M_impro04_F006",
+    "transcript_ground_truth": "No.  I'm just working in restaurants and stuff. But, I'm also trying to audition and what not.  So, it's --"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05F_script01_3_M021",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:19:40.122007",
+  "duration_seconds": 6.71,
+  "transcript": "Yeah, I suppose I have been up. I feel it's going for me.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Yeah, I suppose I have been up.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.877,
+      "sentiment_score": 0.06,
+      "pitch_mean": 318.34
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 7.0,
+      "text": "I feel it's going for me.",
+      "emotion": "joy",
+      "emotion_confidence": 0.874,
+      "sentiment_score": 0.6026,
+      "pitch_mean": 316.65
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3313,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "joy": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 116.24,
+    "avg_pitch": 316.65
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_3",
+    "utterance_id": "Ses05F_script01_3_M021",
+    "transcript_ground_truth": "Yeah, I suppose I have been.  But it's going from me."
+  }
+}

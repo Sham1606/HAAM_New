@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro06_M020",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:55:37.378263",
+  "duration_seconds": 1.83,
+  "transcript": "to talk to somebody about it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "to talk to somebody about it.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.85,
+      "sentiment_score": -0.0543,
+      "pitch_mean": 323.38
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0543,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 196.78,
+    "avg_pitch": 323.38
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro06",
+    "utterance_id": "Ses02M_impro06_M020",
+    "transcript_ground_truth": "to talk to somebody but"
+  }
+}

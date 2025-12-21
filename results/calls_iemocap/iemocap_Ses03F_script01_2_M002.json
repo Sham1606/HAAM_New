@@ -1,0 +1,81 @@
+{
+  "call_id": "iemocap_Ses03F_script01_2_M002",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:33:14.584167",
+  "duration_seconds": 9.97,
+  "transcript": "What do you mean? They live next door to each other entire lives. Why shouldn't he want to see her? Hey, don't look at me like that. I don't know any more than you do.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.62,
+      "text": "What do you mean?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.818,
+      "sentiment_score": -0.0358,
+      "pitch_mean": 340.68
+    },
+    {
+      "start_time": 1.62,
+      "end_time": 4.02,
+      "text": "They live next door to each other entire lives.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.939,
+      "sentiment_score": 0.0463,
+      "pitch_mean": 351.32
+    },
+    {
+      "start_time": 4.02,
+      "end_time": 5.52,
+      "text": "Why shouldn't he want to see her?",
+      "emotion": "anger",
+      "emotion_confidence": 0.821,
+      "sentiment_score": -0.4072,
+      "pitch_mean": 334.35
+    },
+    {
+      "start_time": 5.52,
+      "end_time": 7.82,
+      "text": "Hey, don't look at me like that.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.335,
+      "sentiment_score": -0.6726,
+      "pitch_mean": 333.83
+    },
+    {
+      "start_time": 7.82,
+      "end_time": 9.46,
+      "text": "I don't know any more than you do.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.618,
+      "sentiment_score": -0.3293,
+      "pitch_mean": 341.39
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2797,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.6,
+      "anger": 0.2,
+      "disgust": 0.2
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 210.69,
+    "avg_pitch": 339.56
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_2",
+    "utterance_id": "Ses03F_script01_2_M002",
+    "transcript_ground_truth": "What do you mean? They lived next door to each other their entire lives. Why shouldn't he want to see her? Hey, don't look at me like that. I don't know anymore than you do."
+  }
+}

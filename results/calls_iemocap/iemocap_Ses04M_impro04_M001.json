@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses04M_impro04_M001",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:55:10.895342",
+  "duration_seconds": 16.73,
+  "transcript": "It's just like nobody nobody wants to hire me. It's been years. I mean do you understand years? Like I'm I mean, it's like I've been collecting unemployment for so long now It's just like I just I can't take it. I don't know what to do. I mean, I'm just like losing my mind",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.88,
+      "text": "It's just like nobody nobody wants to hire me. It's been years. I mean do you understand years?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.301,
+      "sentiment_score": -0.9257,
+      "pitch_mean": 313.33
+    },
+    {
+      "start_time": 6.48,
+      "end_time": 10.22,
+      "text": "Like I'm I mean, it's like I've been collecting unemployment for so long now",
+      "emotion": "neutral",
+      "emotion_confidence": 0.855,
+      "sentiment_score": -0.5752,
+      "pitch_mean": 333.62
+    },
+    {
+      "start_time": 10.74,
+      "end_time": 15.98,
+      "text": "It's just like I just I can't take it. I don't know what to do. I mean, I'm just like losing my mind",
+      "emotion": "disgust",
+      "emotion_confidence": 0.555,
+      "sentiment_score": -0.8503,
+      "pitch_mean": 334.61
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7837,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "disgust": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 197.25,
+    "avg_pitch": 326.73
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.3333,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro04",
+    "utterance_id": "Ses04M_impro04_M001",
+    "transcript_ground_truth": "it's just like nobody- nobody wants to hire me. It's been years, I mean, do you understand, years?  Like, I'm -- you know what I mean, it's like I've been collecting unemployment for so long now, it's just like I just -- I can't take it.  I don't know what to do.  I mean, I'm just like losing my mind."
+  }
+}

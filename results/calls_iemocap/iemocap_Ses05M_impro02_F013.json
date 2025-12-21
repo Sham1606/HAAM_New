@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro02_F013",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:34:54.174519",
+  "duration_seconds": 2.3,
+  "transcript": "But they're so young.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "But they're so young.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.865,
+      "sentiment_score": -0.0429,
+      "pitch_mean": 309.64
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0429,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 104.35,
+    "avg_pitch": 313.44
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.6667,
+    "arousal": 3.0,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro02",
+    "utterance_id": "Ses05M_impro02_F013",
+    "transcript_ground_truth": "Well, they're so young."
+  }
+}

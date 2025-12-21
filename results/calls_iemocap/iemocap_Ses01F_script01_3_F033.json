@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses01F_script01_3_F033",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:35:56.879191",
+  "duration_seconds": 9.98,
+  "transcript": "Because you must feel that way. Everything you have, you've earned. Everything you understand me.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Because you must feel that way.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.779,
+      "sentiment_score": -0.4233,
+      "pitch_mean": 326.77
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 7.0,
+      "text": "Everything you have, you've earned.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.875,
+      "sentiment_score": 0.8658,
+      "pitch_mean": 321.21
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 10.0,
+      "text": "Everything you understand me.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.813,
+      "sentiment_score": 0.4654,
+      "pitch_mean": 325.63
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3027,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 90.17,
+    "avg_pitch": 325.63
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 2.3333,
+    "dominance": 3.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_3",
+    "utterance_id": "Ses01F_script01_3_F033",
+    "transcript_ground_truth": "Because you mustn't feel that way.  Everything you have, you've earned - everything.  you understand me?"
+  }
+}

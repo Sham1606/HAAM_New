@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_script01_2_M002",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:00:15.827216",
+  "duration_seconds": 10.01,
+  "transcript": "What are you talking about? He grew up next to the girl this whole life. Why wouldn't he want to see her again? Don't look at me like that. He hasn't told me anything he didn't tell you",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.68,
+      "text": "What are you talking about? He grew up next to the girl this whole life. Why wouldn't he want to see her again?",
+      "emotion": "anger",
+      "emotion_confidence": 0.496,
+      "sentiment_score": -0.4319,
+      "pitch_mean": 337.16
+    },
+    {
+      "start_time": 5.36,
+      "end_time": 9.1,
+      "text": "Don't look at me like that. He hasn't told me anything he didn't tell you",
+      "emotion": "disgust",
+      "emotion_confidence": 0.507,
+      "sentiment_score": -0.731,
+      "pitch_mean": 324.93
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5815,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 227.77,
+    "avg_pitch": 326.92
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.6667,
+    "arousal": 3.3333,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_2",
+    "utterance_id": "Ses05M_script01_2_M002",
+    "transcript_ground_truth": "What are you talking about?  He grew up next to the girl his whole life, why wouldn't he want to see her again?  Don't look at me like that.  He hasn't told me anything he didn't told you."
+  }
+}

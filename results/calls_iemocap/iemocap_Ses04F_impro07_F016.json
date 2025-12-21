@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro07_F016",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:13:08.529963",
+  "duration_seconds": 4.56,
+  "transcript": "They have USC has everything because USC has to have ever...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "They have USC has everything because USC has to have ever...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.773,
+      "sentiment_score": 0.5832,
+      "pitch_mean": 354.12
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5832,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 144.74,
+    "avg_pitch": 349.96
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro07",
+    "utterance_id": "Ses04F_impro07_F016",
+    "transcript_ground_truth": "They have - U.S.C. has everything because U.S.C. is the best school ever."
+  }
+}

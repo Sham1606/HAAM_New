@@ -1,0 +1,91 @@
+{
+  "call_id": "iemocap_Ses03M_script01_1_M011",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:39:17.004998",
+  "duration_seconds": 13.57,
+  "transcript": "Why shouldn't he walk around dream at him at night? Why shouldn't he walk around? Why shouldn't he dream of him? Walk around at night waiting for him. Do we contradict him? Do we stay flat out that we don't have any more hope?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.7,
+      "text": "Why shouldn't he walk around dream at him at night?",
+      "emotion": "fear",
+      "emotion_confidence": 0.919,
+      "sentiment_score": -0.2615,
+      "pitch_mean": 329.94
+    },
+    {
+      "start_time": 3.7,
+      "end_time": 6.2,
+      "text": "Why shouldn't he walk around?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.43,
+      "sentiment_score": -0.3015,
+      "pitch_mean": 326.22
+    },
+    {
+      "start_time": 6.2,
+      "end_time": 7.4,
+      "text": "Why shouldn't he dream of him?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.386,
+      "sentiment_score": -0.4001,
+      "pitch_mean": 318.13
+    },
+    {
+      "start_time": 7.4,
+      "end_time": 9.4,
+      "text": "Walk around at night waiting for him.",
+      "emotion": "fear",
+      "emotion_confidence": 0.92,
+      "sentiment_score": 0.11,
+      "pitch_mean": 326.01
+    },
+    {
+      "start_time": 9.4,
+      "end_time": 10.9,
+      "text": "Do we contradict him?",
+      "emotion": "anger",
+      "emotion_confidence": 0.551,
+      "sentiment_score": -0.2209,
+      "pitch_mean": 299.41
+    },
+    {
+      "start_time": 10.9,
+      "end_time": 13.4,
+      "text": "Do we stay flat out that we don't have any more hope?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.601,
+      "sentiment_score": -0.5901,
+      "pitch_mean": 352.69
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2774,
+    "dominant_emotion": "fear",
+    "emotion_distribution": {
+      "fear": 0.333,
+      "disgust": 0.333,
+      "anger": 0.167,
+      "neutral": 0.167
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 194.55,
+    "avg_pitch": 327.74
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_1",
+    "utterance_id": "Ses03M_script01_1_M011",
+    "transcript_ground_truth": "Why shouldn't he walk around and dream at him at night.  Walk around.  Why shouldn't he walk around?  Why shouldn't he dream of him, walk around at night waiting for him?  Do we contradict him?  Do we say flat out that we don't have anymore hope?"
+  }
+}

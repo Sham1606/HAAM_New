@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04F_impro05_F003",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:09:17.125728",
+  "duration_seconds": 7.5,
+  "transcript": "Look! That bag has my entire life in it and you just lost it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Look!",
+      "emotion": "disgust",
+      "emotion_confidence": 0.497,
+      "sentiment_score": 0.7125,
+      "pitch_mean": 336.77
+    },
+    {
+      "start_time": 2.96,
+      "end_time": 7.2,
+      "text": "That bag has my entire life in it and you just lost it.",
+      "emotion": "joy",
+      "emotion_confidence": 0.392,
+      "sentiment_score": -0.6739,
+      "pitch_mean": 355.8
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0193,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "joy": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 112.0,
+    "avg_pitch": 341.49
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro05",
+    "utterance_id": "Ses04F_impro05_F003",
+    "transcript_ground_truth": "Look that bag has my entire life in it and you just lost it."
+  }
+}

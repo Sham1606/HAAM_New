@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro02_M000",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:17:25.891253",
+  "duration_seconds": 3.03,
+  "transcript": "It's not fair.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.12,
+      "text": "It's not fair.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.446,
+      "sentiment_score": -0.8838,
+      "pitch_mean": 320.54
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8838,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 59.48,
+    "avg_pitch": 321.01
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro02",
+    "utterance_id": "Ses01F_impro02_M000",
+    "transcript_ground_truth": "It's not fair."
+  }
+}

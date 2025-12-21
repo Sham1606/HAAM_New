@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro01_F013",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:15:34.861495",
+  "duration_seconds": 3.35,
+  "transcript": "How long have you been working here?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "How long have you been working here?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.782,
+      "sentiment_score": 0.0275,
+      "pitch_mean": 368.09
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0275,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 125.31,
+    "avg_pitch": 352.07
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro01",
+    "utterance_id": "Ses01F_impro01_F013",
+    "transcript_ground_truth": "How long have you been working here?"
+  }
+}

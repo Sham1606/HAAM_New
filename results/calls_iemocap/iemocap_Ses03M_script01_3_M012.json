@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_script01_3_M012",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:44:00.211438",
+  "duration_seconds": 10.24,
+  "transcript": "I'm embarrassing you. I didn't want to tell you this here. I wanted to drive some place brand new where we'd be brand new to each other. You feel it's wrong here, don't you?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.94,
+      "text": "I'm embarrassing you. I didn't want to tell you this here. I wanted to drive some",
+      "emotion": "disgust",
+      "emotion_confidence": 0.485,
+      "sentiment_score": -0.8565,
+      "pitch_mean": 322.12
+    },
+    {
+      "start_time": 4.94,
+      "end_time": 9.72,
+      "text": "place brand new where we'd be brand new to each other. You feel it's wrong here, don't you?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.557,
+      "sentiment_score": -0.4143,
+      "pitch_mean": 317.58
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6354,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 199.27,
+    "avg_pitch": 319.97
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_3",
+    "utterance_id": "Ses03M_script01_3_M012",
+    "transcript_ground_truth": "I'm embarrassing you.  I didn't want to tell you this here.  I wanted to drive someplace brand new where we'd be brand new to each other.  It feels wrong here don't you?"
+  }
+}

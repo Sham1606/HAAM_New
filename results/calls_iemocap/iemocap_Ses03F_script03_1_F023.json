@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script03_1_F023",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:42:59.904992",
+  "duration_seconds": 3.23,
+  "transcript": "It went on intermittently for days.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "It went on intermittently for days.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.851,
+      "sentiment_score": -0.63,
+      "pitch_mean": 328.24
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.63,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 111.46,
+    "avg_pitch": 328.38
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script03_1",
+    "utterance_id": "Ses03F_script03_1_F023",
+    "transcript_ground_truth": "It went on intermittently for days."
+  }
+}

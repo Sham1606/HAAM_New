@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script03_2_M037",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:56:55.702459",
+  "duration_seconds": 3.56,
+  "transcript": "Oh, this is not time for the year for Tunis.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Oh, this is not time for the year for Tunis.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.763,
+      "sentiment_score": -0.8244,
+      "pitch_mean": 314.31
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8244,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 168.44,
+    "avg_pitch": 316.95
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script03_2",
+    "utterance_id": "Ses03M_script03_2_M037",
+    "transcript_ground_truth": "Oh, this is no time to be in here for Tunis."
+  }
+}

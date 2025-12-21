@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro04_M019",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:08:21.692599",
+  "duration_seconds": 4.79,
+  "transcript": "and you like you know you shave your legs and everything like",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "and you like you know you shave your legs and everything like",
+      "emotion": "neutral",
+      "emotion_confidence": 0.787,
+      "sentiment_score": -0.0047,
+      "pitch_mean": 322.25
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0047,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 150.31,
+    "avg_pitch": 322.25
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro04",
+    "utterance_id": "Ses04F_impro04_M019",
+    "transcript_ground_truth": "And you like- you know, you shave your legs and everything?"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro04_M003",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:55:30.379166",
+  "duration_seconds": 3.32,
+  "transcript": "Last time someone told me I was too qualified.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Last time someone told me I was too qualified.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.444,
+      "sentiment_score": -0.6907,
+      "pitch_mean": 335.42
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6907,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 162.65,
+    "avg_pitch": 334.13
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro04",
+    "utterance_id": "Ses03M_impro04_M003",
+    "transcript_ground_truth": "Last time someone told me I was too qualified."
+  }
+}

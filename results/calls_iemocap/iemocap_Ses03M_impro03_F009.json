@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro03_F009",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:51:50.314448",
+  "duration_seconds": 4.52,
+  "transcript": "Why is Collie Joe, because of your middle name, Joseph?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Why is Collie Joe, because of your middle name, Joseph?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.6,
+      "sentiment_score": -0.0998,
+      "pitch_mean": 356.16
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0998,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 132.67,
+    "avg_pitch": 350.21
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro03",
+    "utterance_id": "Ses03M_impro03_F009",
+    "transcript_ground_truth": "Oh, okay.  Well I call you Joe cause you're middle name Joseph."
+  }
+}

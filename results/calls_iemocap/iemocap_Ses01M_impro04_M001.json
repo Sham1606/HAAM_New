@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro04_M001",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:53:55.841226",
+  "duration_seconds": 4.18,
+  "transcript": "I've been trying to find this job, I can't get any job.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I've been trying to find this job, I can't get any job.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.967,
+      "sentiment_score": -0.7638,
+      "pitch_mean": 338.65
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7638,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 172.25,
+    "avg_pitch": 337.9
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro04",
+    "utterance_id": "Ses01M_impro04_M001",
+    "transcript_ground_truth": "It's--I've been trying to find this job I can't get any job."
+  }
+}

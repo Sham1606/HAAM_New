@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro05_M005",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:44:15.111162",
+  "duration_seconds": 2.95,
+  "transcript": "Yeah, I know, I was in the country. I mean, it's not that complicated.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.8,
+      "text": "Yeah, I know, I was in the country. I mean, it's not that complicated.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.806,
+      "sentiment_score": 0.1759,
+      "pitch_mean": 321.76
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1759,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 284.75,
+    "avg_pitch": 319.18
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro05",
+    "utterance_id": "Ses05M_impro05_M005",
+    "transcript_ground_truth": "Yeah, I know I was in the country.  I mean, it's not that complicated."
+  }
+}

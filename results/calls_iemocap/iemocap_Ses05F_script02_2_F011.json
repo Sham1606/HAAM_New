@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script02_2_F011",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:24:01.440338",
+  "duration_seconds": 6.01,
+  "transcript": "I did I do want to see it. I always want to see it. I'll get",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "I did I do want to see it. I always want to see it. I'll get",
+      "emotion": "neutral",
+      "emotion_confidence": 0.765,
+      "sentiment_score": 0.7638,
+      "pitch_mean": 342.94
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.7638,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 159.61,
+    "avg_pitch": 339.02
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script02_2",
+    "utterance_id": "Ses05F_script02_2_F011",
+    "transcript_ground_truth": "I did, I do want to see it.  I always want to see it, Augie."
+  }
+}

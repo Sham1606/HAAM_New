@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses03F_script02_2_F003",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:38:59.899755",
+  "duration_seconds": 9.38,
+  "transcript": "Exactly. Everyone else just told the same thing. It keeps them feeling excited. It keeps them coming back. It keeps them thinking life's gonna start at any minute now.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Exactly. Everyone else just told the same thing.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.894,
+      "sentiment_score": -0.4421,
+      "pitch_mean": 337.69
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 5.0,
+      "text": "It keeps them feeling excited.",
+      "emotion": "joy",
+      "emotion_confidence": 0.923,
+      "sentiment_score": 0.9287,
+      "pitch_mean": 331.09
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 6.0,
+      "text": "It keeps them coming back.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.862,
+      "sentiment_score": 0.3175,
+      "pitch_mean": 349.3
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 9.0,
+      "text": "It keeps them thinking life's gonna start at any minute now.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.403,
+      "sentiment_score": -0.0435,
+      "pitch_mean": 344.41
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1902,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "joy": 0.25,
+      "disgust": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 185.49,
+    "avg_pitch": 337.02
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.6667,
+    "arousal": 3.6667,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_2",
+    "utterance_id": "Ses03F_script02_2_F003",
+    "transcript_ground_truth": "Exactly. Everyone else is told the same thing. It keeps them feeling excited. Keeps them coming back. Keeps them thinking life's going to start at any minute now."
+  }
+}

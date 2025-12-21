@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro06_F026",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:05:42.805847",
+  "duration_seconds": 3.96,
+  "transcript": "I just heard to say goodbye.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I just heard to say goodbye.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.151,
+      "pitch_mean": 333.38
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.151,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 90.91,
+    "avg_pitch": 333.38
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro06",
+    "utterance_id": "Ses05F_impro06_F026",
+    "transcript_ground_truth": "It's hard to say good-bye."
+  }
+}

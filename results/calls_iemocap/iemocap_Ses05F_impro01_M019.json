@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05F_impro01_M019",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:47:06.325034",
+  "duration_seconds": 6.01,
+  "transcript": "There is a strict system here you need to wait in the right line for the right thing. This is the line for registration.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.68,
+      "text": "There is a strict system here you need to wait in the right line for the right thing.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.979,
+      "sentiment_score": -0.126,
+      "pitch_mean": 350.15
+    },
+    {
+      "start_time": 3.68,
+      "end_time": 5.68,
+      "text": "This is the line for registration.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.954,
+      "sentiment_score": 0.0148,
+      "pitch_mean": 367.01
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0556,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 239.41,
+    "avg_pitch": 358.61
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro01",
+    "utterance_id": "Ses05F_impro01_M019",
+    "transcript_ground_truth": "There is a strict system here.  You need to wait in the right line for the right thing.  This is the line for registration."
+  }
+}

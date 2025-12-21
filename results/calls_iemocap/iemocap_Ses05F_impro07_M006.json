@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05F_impro07_M006",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:08:46.823015",
+  "duration_seconds": 4.76,
+  "transcript": "Well, stay over here. Like travel to school because you're so close to me.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Well, stay over here.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.76,
+      "sentiment_score": -0.129,
+      "pitch_mean": 327.49
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "Like travel to school because you're so close to me.",
+      "emotion": "joy",
+      "emotion_confidence": 0.889,
+      "sentiment_score": 0.7937,
+      "pitch_mean": 329.0
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3323,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "joy": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 176.47,
+    "avg_pitch": 326.65
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro07",
+    "utterance_id": "Ses05F_impro07_M006",
+    "transcript_ground_truth": "Uh! stay over here.  Like travel to school. because you are so close to me"
+  }
+}

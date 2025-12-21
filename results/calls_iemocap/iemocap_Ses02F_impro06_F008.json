@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro06_F008",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:26:32.949893",
+  "duration_seconds": 8.22,
+  "transcript": "The way he wanted to live, he was going to go to Africa and he was going to...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 8.0,
+      "text": "The way he wanted to live, he was going to go to Africa and he was going to...",
+      "emotion": "sadness",
+      "emotion_confidence": 0.518,
+      "sentiment_score": 0.1302,
+      "pitch_mean": 319.23
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1302,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 131.33,
+    "avg_pitch": 318.58
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.6667,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro06",
+    "utterance_id": "Ses02F_impro06_F008",
+    "transcript_ground_truth": "...the way he wanted to live and he was gonna go to Africa and he was gonna--"
+  }
+}

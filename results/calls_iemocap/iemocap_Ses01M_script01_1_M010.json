@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01M_script01_1_M010",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:02:56.647930",
+  "duration_seconds": 10.39,
+  "transcript": "And just why shouldn't he walk the nice way in form? Huh? Do we contradict him? Do we say we don't have any hope anymore? He's not coming back?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "And just why shouldn't he walk the nice way in form?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.442,
+      "sentiment_score": -0.4051,
+      "pitch_mean": 324.06
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 10.0,
+      "text": "Huh? Do we contradict him? Do we say we don't have any hope anymore? He's not coming back?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.462,
+      "sentiment_score": -0.7116,
+      "pitch_mean": 329.37
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5583,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 167.51,
+    "avg_pitch": 325.56
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.6667,
+    "arousal": 3.3333,
+    "dominance": 3.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_1",
+    "utterance_id": "Ses01M_script01_1_M010",
+    "transcript_ground_truth": "I just--why shouldn't he walk the nights waiting for him, huh?  Do we contradict him do we say we don't have any hope any more that he's not coming back?"
+  }
+}

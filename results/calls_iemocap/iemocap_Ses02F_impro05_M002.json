@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro05_M002",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:25:38.298325",
+  "duration_seconds": 6.53,
+  "transcript": "Well, some of the bags were lost on the way over here.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "Well, some of the bags were lost on the way over here.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.367,
+      "sentiment_score": -0.5362,
+      "pitch_mean": 333.45
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5362,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 110.26,
+    "avg_pitch": 334.15
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro05",
+    "utterance_id": "Ses02F_impro05_M002",
+    "transcript_ground_truth": "Uh, well some-some of the bags were--were lost on the way over here. uh-"
+  }
+}

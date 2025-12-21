@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro05b_M025",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T04:00:30.670178",
+  "duration_seconds": 2.91,
+  "transcript": "This is the worst customer shifts I've ever gotten before.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.8,
+      "text": "This is the worst customer shifts I've ever gotten before.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.978,
+      "sentiment_score": -0.9453,
+      "pitch_mean": 338.57
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9453,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 206.19,
+    "avg_pitch": 338.7
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro05b",
+    "utterance_id": "Ses03M_impro05b_M025",
+    "transcript_ground_truth": "This is the worst customer service I've ever gotten before."
+  }
+}

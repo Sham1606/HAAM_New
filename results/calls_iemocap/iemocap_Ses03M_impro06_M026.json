@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses03M_impro06_M026",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:29:04.882469",
+  "duration_seconds": 9.47,
+  "transcript": "He wanted to help people in poor countries as it's goal. He didn't care about the money. He just wanted to go and help people.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.72,
+      "text": "He wanted to help people in poor countries as it's goal.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.378,
+      "sentiment_score": 0.134,
+      "pitch_mean": 313.66
+    },
+    {
+      "start_time": 5.72,
+      "end_time": 7.04,
+      "text": "He didn't care about the money.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.604,
+      "sentiment_score": -0.5636,
+      "pitch_mean": 328.76
+    },
+    {
+      "start_time": 7.04,
+      "end_time": 8.88,
+      "text": "He just wanted to go and help people.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.398,
+      "sentiment_score": 0.7002,
+      "pitch_mean": 318.91
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0902,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 158.44,
+    "avg_pitch": 316.6
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro06",
+    "utterance_id": "Ses03M_impro06_M026",
+    "transcript_ground_truth": "I mean he was...he wanted to help people in poor countries, that is his goal.  He didn't care about the money.  He just wanted to go and help people."
+  }
+}

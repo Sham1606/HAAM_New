@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script03_2_F028",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:46:05.885616",
+  "duration_seconds": 2.47,
+  "transcript": "Shut up!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Shut up!",
+      "emotion": "anger",
+      "emotion_confidence": 0.975,
+      "sentiment_score": -0.1788,
+      "pitch_mean": 383.58
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1788,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 48.58,
+    "avg_pitch": 370.62
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script03_2",
+    "utterance_id": "Ses01F_script03_2_F028",
+    "transcript_ground_truth": "Shut up."
+  }
+}

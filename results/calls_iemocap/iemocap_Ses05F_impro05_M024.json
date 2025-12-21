@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro05_M024",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:03:32.653470",
+  "duration_seconds": 4.2,
+  "transcript": "Well, if I knew that, well then I'd know where it was, wouldn't I?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Well, if I knew that, well then I'd know where it was, wouldn't I?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.606,
+      "sentiment_score": 0.0167,
+      "pitch_mean": 333.6
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0167,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 200.0,
+    "avg_pitch": 334.46
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro05",
+    "utterance_id": "Ses05F_impro05_M024",
+    "transcript_ground_truth": "Well, if I knew that, then I'd know where it was, wouldn't I?"
+  }
+}

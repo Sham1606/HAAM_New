@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro05_M028",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:56:47.578402",
+  "duration_seconds": 5.32,
+  "transcript": "I don't you guys do when you're not working your union people you just sit around your ass",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.76,
+      "text": "I don't you guys do when you're not working your union people you just sit around your ass",
+      "emotion": "anger",
+      "emotion_confidence": 0.521,
+      "sentiment_score": -0.8661,
+      "pitch_mean": 340.59
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8661,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 202.82,
+    "avg_pitch": 337.05
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro05",
+    "utterance_id": "Ses01M_impro05_M028",
+    "transcript_ground_truth": "I know what you guys do when you're not working you're union people; you just sit around on your ass."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro03_F008",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:51:48.544394",
+  "duration_seconds": 2.66,
+  "transcript": "She called you Barry?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "She called you Barry?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.858,
+      "sentiment_score": -0.0441,
+      "pitch_mean": 339.05
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0441,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 90.32,
+    "avg_pitch": 327.15
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro03",
+    "utterance_id": "Ses03M_impro03_F008",
+    "transcript_ground_truth": "She calls you Barry?"
+  }
+}

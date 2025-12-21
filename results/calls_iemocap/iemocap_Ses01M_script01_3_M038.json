@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01M_script01_3_M038",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:07:14.691271",
+  "duration_seconds": 13.47,
+  "transcript": "because you can take those things out of a war. But you have to realize that those things came out of the love that a man can have for another man.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 9.0,
+      "text": "because you can take those things out of a war. But you have to realize that those things",
+      "emotion": "neutral",
+      "emotion_confidence": 0.894,
+      "sentiment_score": -0.2181,
+      "pitch_mean": 331.24
+    },
+    {
+      "start_time": 9.0,
+      "end_time": 13.0,
+      "text": "came out of the love that a man can have for another man.",
+      "emotion": "anger",
+      "emotion_confidence": 0.55,
+      "sentiment_score": 0.4253,
+      "pitch_mean": 337.03
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1036,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 138.09,
+    "avg_pitch": 333.21
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 2.5,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_3",
+    "utterance_id": "Ses01M_script01_3_M038",
+    "transcript_ground_truth": "'Cause you can take those things out of a war.  But you have to realize that those things came out of the love that a man can have for another man..."
+  }
+}

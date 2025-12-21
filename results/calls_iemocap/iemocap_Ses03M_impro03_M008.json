@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro03_M008",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:53:19.409401",
+  "duration_seconds": 5.39,
+  "transcript": "Barry what's this and I go I don't know",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Barry what's this and I go I don't know",
+      "emotion": "disgust",
+      "emotion_confidence": 0.457,
+      "sentiment_score": -0.5668,
+      "pitch_mean": 323.65
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5668,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 100.1,
+    "avg_pitch": 322.6
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro03",
+    "utterance_id": "Ses03M_impro03_M008",
+    "transcript_ground_truth": "Barry what's this?  And I go, I don't know.  She goes--"
+  }
+}

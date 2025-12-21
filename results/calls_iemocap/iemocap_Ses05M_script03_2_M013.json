@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script03_2_M013",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:15:00.532206",
+  "duration_seconds": 9.34,
+  "transcript": "You can hardly say, you can hardly call three the cooler glasses of brandy an entire evening going on and on.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 9.0,
+      "text": "You can hardly say, you can hardly call three the cooler glasses of brandy an entire evening going on and on.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.473,
+      "sentiment_score": -0.2652,
+      "pitch_mean": 309.87
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2652,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 134.9,
+    "avg_pitch": 309.38
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script03_2",
+    "utterance_id": "Ses05M_script03_2_M013",
+    "transcript_ground_truth": "You can hardly say- You can hardly call three little liquor glasses of brandy for the entire evening going on and on."
+  }
+}

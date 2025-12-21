@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro06_M013",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:24:38.437454",
+  "duration_seconds": 2.78,
+  "transcript": "I need more people I can.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I need more people I can.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.622,
+      "sentiment_score": 0.3934,
+      "pitch_mean": 320.25
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3934,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 129.44,
+    "avg_pitch": 322.9
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro06",
+    "utterance_id": "Ses03F_impro06_M013",
+    "transcript_ground_truth": "We need more people like him."
+  }
+}

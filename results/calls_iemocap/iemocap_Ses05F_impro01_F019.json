@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro01_F019",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:46:12.614966",
+  "duration_seconds": 4.59,
+  "transcript": "Except they're gonna tell you are you gonna tell me the right line to stand in this time at least I told you",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.56,
+      "text": "Except they're gonna tell you are you gonna tell me the right line to stand in this time at least I told you",
+      "emotion": "neutral",
+      "emotion_confidence": 0.95,
+      "sentiment_score": -0.2332,
+      "pitch_mean": 365.35
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2332,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 300.66,
+    "avg_pitch": 365.51
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro01",
+    "utterance_id": "Ses05F_impro01_F019",
+    "transcript_ground_truth": "Except they're going tell, are you going to tell me the right line to stand in this time at least?"
+  }
+}

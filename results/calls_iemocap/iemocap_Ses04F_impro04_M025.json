@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro04_M025",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:08:34.794765",
+  "duration_seconds": 5.76,
+  "transcript": "Look, if I could give you a job, if I could give you a job I would, but I mean I'm not in that position.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Look, if I could give you a job, if I could give you a job I would, but I mean I'm not in that position.",
+      "emotion": "anger",
+      "emotion_confidence": 0.346,
+      "sentiment_score": -0.2532,
+      "pitch_mean": 344.48
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2532,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 260.42,
+    "avg_pitch": 344.53
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro04",
+    "utterance_id": "Ses04F_impro04_M025",
+    "transcript_ground_truth": "Look if I could give you a job,if I could give you a job I would but I mean I'm not in that position. I'm-"
+  }
+}

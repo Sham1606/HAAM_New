@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05F_impro05_M036",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:04:00.811832",
+  "duration_seconds": 6.75,
+  "transcript": "I'm sorry, ma'am. There's nothing else I can do. My hands are really tight here. I really wish there was something else I could do for you.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.36,
+      "text": "I'm sorry, ma'am. There's nothing else I can do.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.867,
+      "sentiment_score": -0.7816,
+      "pitch_mean": 329.44
+    },
+    {
+      "start_time": 2.36,
+      "end_time": 6.6,
+      "text": "My hands are really tight here. I really wish there was something else I could do for you.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.774,
+      "sentiment_score": -0.6941,
+      "pitch_mean": 323.35
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7378,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 240.0,
+    "avg_pitch": 325.12
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro05",
+    "utterance_id": "Ses05F_impro05_M036",
+    "transcript_ground_truth": "I'm sorry, ma'am, there's nothing else I can do.  My hands are really tied here.  I really wish there was something else I could do for you."
+  }
+}

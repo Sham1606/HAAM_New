@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses02F_script02_2_M030",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:41:43.946294",
+  "duration_seconds": 11.55,
+  "transcript": "No. You think I knew that there'd be times when you'd look at me like a used Kleenex or that I'd look at you and think, holy hell, when's the next flight to Alaska?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "No.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.83,
+      "sentiment_score": 0.122,
+      "pitch_mean": 329.67
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 7.68,
+      "text": "You think I knew that there'd be times when you'd look at me like a used Kleenex or that I'd",
+      "emotion": "neutral",
+      "emotion_confidence": 0.642,
+      "sentiment_score": -0.3331,
+      "pitch_mean": 322.65
+    },
+    {
+      "start_time": 7.68,
+      "end_time": 10.64,
+      "text": "look at you and think, holy hell, when's the next flight to Alaska?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.777,
+      "sentiment_score": -0.1523,
+      "pitch_mean": 342.5
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1211,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 176.62,
+    "avg_pitch": 331.87
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script02_2",
+    "utterance_id": "Ses02F_script02_2_M030",
+    "transcript_ground_truth": "No.  You think I knew that there'd be times when you'd look at me like a used Kleenex?  Or that I'd look at you and think, holy hell, when's the next flight to Alaska?"
+  }
+}

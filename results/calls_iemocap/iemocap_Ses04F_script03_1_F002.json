@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script03_1_F002",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:39:45.862735",
+  "duration_seconds": 2.14,
+  "transcript": "Well, what are we going to do?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Well, what are we going to do?",
+      "emotion": "anger",
+      "emotion_confidence": 0.458,
+      "sentiment_score": -0.2799,
+      "pitch_mean": 342.47
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2799,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 196.71,
+    "avg_pitch": 342.64
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script03_1",
+    "utterance_id": "Ses04F_script03_1_F002",
+    "transcript_ground_truth": "Well what are we going to do?"
+  }
+}

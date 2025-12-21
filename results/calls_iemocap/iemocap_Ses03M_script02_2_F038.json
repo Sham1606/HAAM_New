@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script02_2_F038",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:49:13.289257",
+  "duration_seconds": 5.99,
+  "transcript": "Oggie, whatever I'm doing I'm not gonna be doing with you!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Oggie, whatever I'm doing I'm not gonna be doing with you!",
+      "emotion": "anger",
+      "emotion_confidence": 0.759,
+      "sentiment_score": -0.8298,
+      "pitch_mean": 331.89
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8298,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 110.16,
+    "avg_pitch": 331.08
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.3333,
+    "arousal": 3.6667,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_2",
+    "utterance_id": "Ses03M_script02_2_F038",
+    "transcript_ground_truth": "Augie, whatever I'm doing I'd rather be doing with you."
+  }
+}

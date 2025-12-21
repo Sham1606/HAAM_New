@@ -1,0 +1,82 @@
+{
+  "call_id": "iemocap_Ses05M_script01_1_F029",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:53:41.936968",
+  "duration_seconds": 18.25,
+  "transcript": "No, I don't want to... Look, your father thinks he's coming back, Chris. You marry that girl and you're pronouncing him dead. Now, what's gonna happen to your father, do you know? Because I don't...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "No, I don't want to...",
+      "emotion": "disgust",
+      "emotion_confidence": 0.503,
+      "sentiment_score": -0.6733,
+      "pitch_mean": 326.94
+    },
+    {
+      "start_time": 2.66,
+      "end_time": 5.0,
+      "text": "Look, your father thinks he's coming back, Chris.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.364,
+      "sentiment_score": 0.0018,
+      "pitch_mean": 331.25
+    },
+    {
+      "start_time": 6.62,
+      "end_time": 9.28,
+      "text": "You marry that girl and you're pronouncing him dead.",
+      "emotion": "anger",
+      "emotion_confidence": 0.482,
+      "sentiment_score": -0.684,
+      "pitch_mean": 328.51
+    },
+    {
+      "start_time": 12.54,
+      "end_time": 15.0,
+      "text": "Now, what's gonna happen to your father, do you know?",
+      "emotion": "sadness",
+      "emotion_confidence": 0.63,
+      "sentiment_score": -0.2067,
+      "pitch_mean": 312.61
+    },
+    {
+      "start_time": 16.46,
+      "end_time": 18.46,
+      "text": "Because I don't...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.2036,
+      "pitch_mean": 314.27
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3532,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.4,
+      "anger": 0.2,
+      "sadness": 0.2,
+      "neutral": 0.2
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 115.07,
+    "avg_pitch": 314.27
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_1",
+    "utterance_id": "Ses05M_script01_1_F029",
+    "transcript_ground_truth": "No.  I don't want a -- look, your father thinks he's coming back, Chris.  You marry that girl and you're pronouncing him dead.  Now, what's going to happen to your father; do you know?  Because, I don't."
+  }
+}

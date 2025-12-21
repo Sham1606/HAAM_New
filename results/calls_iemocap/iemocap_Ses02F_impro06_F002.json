@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro06_F002",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:26:22.907566",
+  "duration_seconds": 6.74,
+  "transcript": "It seemed like he had a little bit longer like just last week here so it's so well",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.76,
+      "text": "It seemed like he had a little bit longer like just last week here so it's so well",
+      "emotion": "neutral",
+      "emotion_confidence": 0.887,
+      "sentiment_score": 0.6211,
+      "pitch_mean": 336.8
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.6211,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 160.24,
+    "avg_pitch": 336.93
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.6667,
+    "arousal": 3.0,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro06",
+    "utterance_id": "Ses02F_impro06_F002",
+    "transcript_ground_truth": "It seemed like he had a little bit longer.  Like just last week, he was doing was so well."
+  }
+}

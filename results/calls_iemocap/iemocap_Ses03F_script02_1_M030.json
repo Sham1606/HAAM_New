@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script02_1_M030",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:38:12.778398",
+  "duration_seconds": 2.27,
+  "transcript": "For real?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "For real?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.938,
+      "sentiment_score": -0.0456,
+      "pitch_mean": 335.84
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0456,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 52.93,
+    "avg_pitch": 335.05
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "sur",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_1",
+    "utterance_id": "Ses03F_script02_1_M030",
+    "transcript_ground_truth": "For real?"
+  }
+}

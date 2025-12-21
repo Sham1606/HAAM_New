@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01M_script02_2_M033",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:12:38.440166",
+  "duration_seconds": 6.76,
+  "transcript": "A new carpet, a poodle, a suicide pack, ice cream, a background, what? What? What the hell do you want?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "A new carpet, a poodle, a suicide pack, ice cream, a background, what?",
+      "emotion": "anger",
+      "emotion_confidence": 0.49,
+      "sentiment_score": -0.1865,
+      "pitch_mean": 347.36
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 7.0,
+      "text": "What? What the hell do you want?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.8608,
+      "pitch_mean": 355.2
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5237,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 177.52,
+    "avg_pitch": 355.2
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script02_2",
+    "utterance_id": "Ses01M_script02_2_M033",
+    "transcript_ground_truth": "A new carpet, a poodle, a suicide pact, ice cream, a back rub, what?  What?  What the hell do you want?"
+  }
+}

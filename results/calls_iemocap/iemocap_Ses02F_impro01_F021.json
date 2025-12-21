@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses02F_impro01_F021",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:19:30.908279",
+  "duration_seconds": 10.21,
+  "transcript": "something for them. You always use your driver's license. I mean you're not coming to the DMV if you're not on over 16 and that's when you get your driver's license so you're never gonna need it anyway.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.04,
+      "text": "something for them. You always use your driver's license. I mean you're not",
+      "emotion": "neutral",
+      "emotion_confidence": 0.687,
+      "sentiment_score": -0.1775,
+      "pitch_mean": 362.41
+    },
+    {
+      "start_time": 4.04,
+      "end_time": 8.08,
+      "text": "coming to the DMV if you're not on over 16 and that's when you get your driver's",
+      "emotion": "neutral",
+      "emotion_confidence": 0.871,
+      "sentiment_score": 0.0616,
+      "pitch_mean": 358.51
+    },
+    {
+      "start_time": 8.08,
+      "end_time": 12.0,
+      "text": "license so you're never gonna need it anyway.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.784,
+      "sentiment_score": -0.4712,
+      "pitch_mean": 363.7
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1957,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 223.24,
+    "avg_pitch": 363.7
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro01",
+    "utterance_id": "Ses02F_impro01_F021",
+    "transcript_ground_truth": "Who--you always use your driver's license.  I mean, you're not coming to the D.M.V. if you're not over sixteen and that's when you get your driver's license so you're never gonna need it anyway."
+  }
+}

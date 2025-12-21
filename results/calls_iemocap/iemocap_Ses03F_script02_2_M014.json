@@ -1,0 +1,90 @@
+{
+  "call_id": "iemocap_Ses03F_script02_2_M014",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:41:07.698019",
+  "duration_seconds": 14.76,
+  "transcript": "He were fine during the phone call from Marge. Dinner was okay, doing the dishes was no problem. Let's see, I took a shower. You're watching the news, you said. Augie, I think the grunt you're not running. I said, great, let's go, I feel lucky tonight.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "He were fine during the phone call from Marge.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.768,
+      "sentiment_score": 0.5147,
+      "pitch_mean": 334.39
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 6.0,
+      "text": "Dinner was okay, doing the dishes was no problem.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.69,
+      "sentiment_score": 0.82,
+      "pitch_mean": 338.28
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 8.0,
+      "text": "Let's see, I took a shower.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.454,
+      "sentiment_score": 0.1833,
+      "pitch_mean": 328.41
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 10.0,
+      "text": "You're watching the news, you said.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.668,
+      "sentiment_score": 0.0206,
+      "pitch_mean": 330.79
+    },
+    {
+      "start_time": 10.0,
+      "end_time": 12.0,
+      "text": "Augie, I think the grunt you're not running.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.831,
+      "sentiment_score": -0.4515,
+      "pitch_mean": 332.62
+    },
+    {
+      "start_time": 12.0,
+      "end_time": 14.0,
+      "text": "I said, great, let's go, I feel lucky tonight.",
+      "emotion": "joy",
+      "emotion_confidence": 0.968,
+      "sentiment_score": 0.9708,
+      "pitch_mean": 350.86
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.343,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "disgust": 0.167,
+      "joy": 0.167
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 191.04,
+    "avg_pitch": 335.81
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 3.0,
+    "arousal": 3.3333,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_2",
+    "utterance_id": "Ses03F_script02_2_M014",
+    "transcript_ground_truth": "You were fine during the phone call from Marge. Dinner was okay. Doing the dishes was no problem. Let's see. I took a shower. You were watching the news. You said Augie, I think the grunion are running. I said great, let's go. I feel lucky tonight."
+  }
+}

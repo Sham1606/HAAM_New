@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_impro02_F022",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:35:14.332124",
+  "duration_seconds": 4.28,
+  "transcript": "Can I send you like videos and stuff? What about when they start walking?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Can I send you like videos and stuff?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.856,
+      "sentiment_score": 0.0605,
+      "pitch_mean": 330.58
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "What about when they start walking?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.478,
+      "sentiment_score": -0.003,
+      "pitch_mean": 356.32
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0287,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 196.26,
+    "avg_pitch": 340.01
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.6667,
+    "arousal": 2.6667,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro02",
+    "utterance_id": "Ses05M_impro02_F022",
+    "transcript_ground_truth": "Can I send you, like videos and stuff? What about when they start walking."
+  }
+}

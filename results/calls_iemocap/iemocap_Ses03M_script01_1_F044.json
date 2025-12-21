@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script01_1_F044",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:38:39.669366",
+  "duration_seconds": 4.71,
+  "transcript": "You don't talk like that. You're here. You don't...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "You don't talk like that. You're here. You don't...",
+      "emotion": "anger",
+      "emotion_confidence": 0.586,
+      "sentiment_score": -0.1815,
+      "pitch_mean": 332.45
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1815,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 114.63,
+    "avg_pitch": 329.85
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_1",
+    "utterance_id": "Ses03M_script01_1_F044",
+    "transcript_ground_truth": "Alright but you don't talk like that you hear?  You don't."
+  }
+}

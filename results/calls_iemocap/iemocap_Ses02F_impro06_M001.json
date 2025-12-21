@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro06_M001",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:26:49.146600",
+  "duration_seconds": 4.88,
+  "transcript": "Wow, that's horrible.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Wow, that's horrible.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.577,
+      "sentiment_score": -0.9044,
+      "pitch_mean": 323.99
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9044,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 36.91,
+    "avg_pitch": 324.93
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 1.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro06",
+    "utterance_id": "Ses02F_impro06_M001",
+    "transcript_ground_truth": "Wow, that's horrible."
+  }
+}

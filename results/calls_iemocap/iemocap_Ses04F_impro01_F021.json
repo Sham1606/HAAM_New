@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro01_F021",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T11:58:21.582941",
+  "duration_seconds": 3.6,
+  "transcript": "I don't need to be, I need to go and do other things with my time, okay?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.56,
+      "text": "I don't need to be, I need to go and do other things with my time, okay?",
+      "emotion": "joy",
+      "emotion_confidence": 0.431,
+      "sentiment_score": -0.1025,
+      "pitch_mean": 400.56
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1025,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 283.33,
+    "avg_pitch": 397.43
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro01",
+    "utterance_id": "Ses04F_impro01_F021",
+    "transcript_ground_truth": "I don't need to be.  I need to go and do other things with my time.  Okay."
+  }
+}

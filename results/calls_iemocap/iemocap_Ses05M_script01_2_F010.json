@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_script01_2_F010",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:59:51.711685",
+  "duration_seconds": 9.6,
+  "transcript": "I want you to pretend like he's coming back Both of you don't think I haven't noticed you in chris since she's gotten here. I don't want any nonsense",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I want you to pretend like he's coming back",
+      "emotion": "neutral",
+      "emotion_confidence": 0.799,
+      "sentiment_score": 0.1971,
+      "pitch_mean": 366.44
+    },
+    {
+      "start_time": 4.04,
+      "end_time": 9.02,
+      "text": "Both of you don't think I haven't noticed you in chris since she's gotten here. I don't want any nonsense",
+      "emotion": "disgust",
+      "emotion_confidence": 0.466,
+      "sentiment_score": -0.5109,
+      "pitch_mean": 348.18
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1569,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 181.25,
+    "avg_pitch": 340.86
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_2",
+    "utterance_id": "Ses05M_script01_2_F010",
+    "transcript_ground_truth": "I want you to pretend like he's coming back.  Both of you, don't think I haven't noticed you and Chris since she's gotten here.  I don't want any nonsense."
+  }
+}

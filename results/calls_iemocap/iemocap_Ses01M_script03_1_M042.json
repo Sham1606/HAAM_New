@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script03_1_M042",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:16:05.317101",
+  "duration_seconds": 6.65,
+  "transcript": "However, I do believe the real cause of that roul was Peter Burton.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "However, I do believe the real cause of that roul was Peter Burton.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.918,
+      "sentiment_score": 0.016,
+      "pitch_mean": 339.72
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.016,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 117.3,
+    "avg_pitch": 338.23
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script03_1",
+    "utterance_id": "Ses01M_script03_1_M042",
+    "transcript_ground_truth": "However, I do believe the real cause of that row was Peter Burden."
+  }
+}

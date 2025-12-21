@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro08_M023",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:52:16.779648",
+  "duration_seconds": 2.99,
+  "transcript": "Absolutely, and I just don't want that to happen to you anymore.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.8,
+      "text": "Absolutely, and I just don't want that to happen to you anymore.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.538,
+      "sentiment_score": -0.9274,
+      "pitch_mean": 330.11
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9274,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 240.8,
+    "avg_pitch": 329.27
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro08",
+    "utterance_id": "Ses05M_impro08_M023",
+    "transcript_ground_truth": "Absolutely. And I just don't want that to happen to you anymore."
+  }
+}

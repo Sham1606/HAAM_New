@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro04_F012",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:51:32.344452",
+  "duration_seconds": 3.59,
+  "transcript": "So you should take that in consideration rather than give yourself to the right time.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.5,
+      "text": "So you should take that in consideration rather than give yourself to the right time.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.96,
+      "sentiment_score": -0.3569,
+      "pitch_mean": 333.84
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3569,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 250.6,
+    "avg_pitch": 333.18
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 1.6667,
+    "dominance": 3.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro04",
+    "utterance_id": "Ses02M_impro04_F012",
+    "transcript_ground_truth": "So you should take that in consideration rather than giving yourself such a hard time."
+  }
+}

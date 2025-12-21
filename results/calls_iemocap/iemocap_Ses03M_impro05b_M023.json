@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro05b_M023",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T04:00:27.011375",
+  "duration_seconds": 4.3,
+  "transcript": "Wow, this has never happened before I've not lost",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.1,
+      "text": "Wow, this has never happened before I've not lost",
+      "emotion": "neutral",
+      "emotion_confidence": 0.982,
+      "sentiment_score": 0.7526,
+      "pitch_mean": 337.46
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.7526,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 125.58,
+    "avg_pitch": 336.13
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 2.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro05b",
+    "utterance_id": "Ses03M_impro05b_M023",
+    "transcript_ground_truth": "Wow.  This has never happened before.  I've not lost,"
+  }
+}

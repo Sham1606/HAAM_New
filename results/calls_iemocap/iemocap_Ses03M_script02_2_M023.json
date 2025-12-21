@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script02_2_M023",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:50:27.996550",
+  "duration_seconds": 6.08,
+  "transcript": "Okay, right, I got it. Sure, of course. Listen. Do you want to dance?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "Okay, right, I got it. Sure, of course. Listen. Do you want to dance?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.456,
+      "sentiment_score": 0.6068,
+      "pitch_mean": 316.28
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.6068,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 138.1,
+    "avg_pitch": 316.36
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.3333,
+    "arousal": 3.0,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_2",
+    "utterance_id": "Ses03M_script02_2_M023",
+    "transcript_ground_truth": "Okay, right.  I got it.  Sure.  Of course.  Listen, do you want to dance?"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script01_1_F018",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:01:52.052597",
+  "duration_seconds": 4.77,
+  "transcript": "Well, I've got an idea of what's the story.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Well, I've got an idea of what's the story.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.943,
+      "sentiment_score": 0.1916,
+      "pitch_mean": 327.4
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1916,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 113.24,
+    "avg_pitch": 326.64
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.3333,
+    "arousal": 2.6667,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_1",
+    "utterance_id": "Ses01M_script01_1_F018",
+    "transcript_ground_truth": "Well, I've got an idea but what's the story?"
+  }
+}

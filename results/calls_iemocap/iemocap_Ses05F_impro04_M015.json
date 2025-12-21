@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05F_impro04_M015",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:59:07.209811",
+  "duration_seconds": 7.22,
+  "transcript": "I mean if it's rent or something like that, I can help you out a little bit. If that will help you, you know, stick with it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.92,
+      "text": "I mean if it's rent or something like that, I can help you out a little bit.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.808,
+      "sentiment_score": 0.1181,
+      "pitch_mean": 330.88
+    },
+    {
+      "start_time": 3.92,
+      "end_time": 6.2,
+      "text": "If that will help you, you know, stick with it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.924,
+      "sentiment_score": 0.6902,
+      "pitch_mean": 318.92
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4041,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 224.38,
+    "avg_pitch": 323.75
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro04",
+    "utterance_id": "Ses05F_impro04_M015",
+    "transcript_ground_truth": "If it's rent or something like that, I mean I can help you out a little bit, if- if that will help you you know stick with it."
+  }
+}

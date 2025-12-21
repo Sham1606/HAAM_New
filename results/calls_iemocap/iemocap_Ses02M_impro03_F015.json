@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro03_F015",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:49:44.627998",
+  "duration_seconds": 3.79,
+  "transcript": "Right, exactly. Yeah, because you can't see no one for like thousands of people.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.76,
+      "text": "Right, exactly. Yeah, because you can't see no one for like thousands of people.",
+      "emotion": "joy",
+      "emotion_confidence": 0.516,
+      "sentiment_score": -0.5615,
+      "pitch_mean": 375.44
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5615,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 221.67,
+    "avg_pitch": 375.9
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro03",
+    "utterance_id": "Ses02M_impro03_F015",
+    "transcript_ground_truth": "Right exactly because you can't say no in front of thousands of people. [LAUGHTER]"
+  }
+}

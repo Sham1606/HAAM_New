@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script01_3_F018",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:05:34.063374",
+  "duration_seconds": 2.28,
+  "transcript": "Christmas matter",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.5,
+      "text": "Christmas matter",
+      "emotion": "neutral",
+      "emotion_confidence": 0.54,
+      "sentiment_score": 0.1714,
+      "pitch_mean": 317.97
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1714,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 52.58,
+    "avg_pitch": 317.97
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 1.5,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_3",
+    "utterance_id": "Ses01M_script01_3_F018",
+    "transcript_ground_truth": "Chris, what's the matter?"
+  }
+}

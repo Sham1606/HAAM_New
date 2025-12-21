@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script01_2_M013",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:34:50.548085",
+  "duration_seconds": 1.94,
+  "transcript": "Calm yourself.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Calm yourself.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.524,
+      "sentiment_score": 0.1672,
+      "pitch_mean": 374.27
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1672,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 61.86,
+    "avg_pitch": 374.27
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_2",
+    "utterance_id": "Ses01F_script01_2_M013",
+    "transcript_ground_truth": "Calm yourself."
+  }
+}

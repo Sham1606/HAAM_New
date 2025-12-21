@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses01F_script03_2_F036",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:46:19.599191",
+  "duration_seconds": 8.83,
+  "transcript": "I won't let go, let go of me! Listen, listen, listen! I'm sick and tired of listening to you. You're a sadistic bully!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I won't let go, let go of me!",
+      "emotion": "anger",
+      "emotion_confidence": 0.716,
+      "sentiment_score": 0.4334,
+      "pitch_mean": 383.11
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "Listen, listen, listen!",
+      "emotion": "anger",
+      "emotion_confidence": 0.663,
+      "sentiment_score": 0.4296,
+      "pitch_mean": 363.95
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 8.0,
+      "text": "I'm sick and tired of listening to you. You're a sadistic bully!",
+      "emotion": "anger",
+      "emotion_confidence": 0.909,
+      "sentiment_score": -0.951,
+      "pitch_mean": 351.7
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0293,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 156.29,
+    "avg_pitch": 366.11
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.0,
+    "arousal": 4.0,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script03_2",
+    "utterance_id": "Ses01F_script03_2_F036",
+    "transcript_ground_truth": "I won't.  Let go, let go of me. Listen, listen?  I'm sick and tired of listening to you, you sadistic bully."
+  }
+}

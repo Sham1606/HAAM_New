@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script02_1_M008",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:06:30.008899",
+  "duration_seconds": 1.35,
+  "transcript": "\u89aa\u3001 \u5bcc\u58eb \u99ac\u9e7f",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.76,
+      "text": "\u89aa\u3001 \u5bcc\u58eb \u99ac\u9e7f",
+      "emotion": "neutral",
+      "emotion_confidence": 0.825,
+      "sentiment_score": 0.0446,
+      "pitch_mean": 318.59
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0446,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 133.34,
+    "avg_pitch": 318.59
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script02_1",
+    "utterance_id": "Ses02M_script02_1_M008",
+    "transcript_ground_truth": "Who's is it?"
+  }
+}

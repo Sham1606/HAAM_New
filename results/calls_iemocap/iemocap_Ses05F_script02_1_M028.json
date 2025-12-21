@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script02_1_M028",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:23:06.548366",
+  "duration_seconds": 5.46,
+  "transcript": "We just weren't in a good spot. This is a much better spot. I've got a great instinct for these things",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.76,
+      "text": "We just weren't in a good spot. This is a much better spot. I've got a great instinct for these things",
+      "emotion": "neutral",
+      "emotion_confidence": 0.915,
+      "sentiment_score": 0.2859,
+      "pitch_mean": 328.37
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2859,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 230.77,
+    "avg_pitch": 327.65
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script02_1",
+    "utterance_id": "Ses05F_script02_1_M028",
+    "transcript_ground_truth": "We just weren't in a good spot.  This is a much better spot.  I got a great instinct for these things."
+  }
+}

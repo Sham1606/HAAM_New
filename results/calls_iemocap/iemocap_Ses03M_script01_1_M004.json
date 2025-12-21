@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script01_1_M004",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:38:56.935335",
+  "duration_seconds": 5.55,
+  "transcript": "No, I figured the best thing to do is to leave him alone.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "No, I figured the best thing to do is to leave him alone.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.739,
+      "sentiment_score": -0.2335,
+      "pitch_mean": 319.88
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2335,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 140.43,
+    "avg_pitch": 319.98
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_1",
+    "utterance_id": "Ses03M_script01_1_M004",
+    "transcript_ground_truth": "No.  I figured the best thing to do was leave him alone."
+  }
+}

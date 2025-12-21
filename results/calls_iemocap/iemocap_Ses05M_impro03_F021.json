@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro03_F021",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:37:26.363904",
+  "duration_seconds": 4.23,
+  "transcript": "Oh my gosh. You told your parents already and everything.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Oh my gosh. You told your parents already and everything.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.891,
+      "sentiment_score": -0.0944,
+      "pitch_mean": 325.71
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0944,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 141.97,
+    "avg_pitch": 326.72
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 3.6667,
+    "arousal": 3.0,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro03",
+    "utterance_id": "Ses05M_impro03_F021",
+    "transcript_ground_truth": "Oh, my gosh.  You told your parents already? and everything"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro02_M039",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:50:08.569452",
+  "duration_seconds": 4.0,
+  "transcript": "Three weeks.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Three weeks.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.641,
+      "sentiment_score": 0.0963,
+      "pitch_mean": 317.93
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0963,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 30.0,
+    "avg_pitch": 320.2
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "sur",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 1.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro02",
+    "utterance_id": "Ses05F_impro02_M039",
+    "transcript_ground_truth": "Three weeks?"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro01_F011",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:32:57.231730",
+  "duration_seconds": 2.33,
+  "transcript": "Can we use this much time as you want?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Can we use this much time as you want?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.888,
+      "sentiment_score": 0.078,
+      "pitch_mean": 349.32
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.078,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 231.76,
+    "avg_pitch": 352.1
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro01",
+    "utterance_id": "Ses05M_impro01_F011",
+    "transcript_ground_truth": "You can waist as much as you want"
+  }
+}

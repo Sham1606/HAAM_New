@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_script01_3_F007",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:42:32.235935",
+  "duration_seconds": 7.68,
+  "transcript": "You saw the way that she acted and then well. When you, you were acting kind of it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "You saw the way that she acted and then well.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.403,
+      "sentiment_score": -0.1368,
+      "pitch_mean": 330.21
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 7.0,
+      "text": "When you, you were acting kind of it.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.345,
+      "sentiment_score": 0.0171,
+      "pitch_mean": 333.96
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0598,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 140.71,
+    "avg_pitch": 328.73
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_3",
+    "utterance_id": "Ses03M_script01_3_F007",
+    "transcript_ground_truth": "you saw the way that she acted and then well, I mean, you, you were acting kind of..."
+  }
+}

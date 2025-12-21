@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro02_F022",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:49:05.111962",
+  "duration_seconds": 3.56,
+  "transcript": "Well, it doesn't seem like you're that bothered by it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Well, it doesn't seem like you're that bothered by it.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.43,
+      "sentiment_score": -0.4026,
+      "pitch_mean": 335.0
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4026,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 168.54,
+    "avg_pitch": 332.89
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro02",
+    "utterance_id": "Ses04M_impro02_F022",
+    "transcript_ground_truth": "Well it doesn't seem like you're that bothered by it."
+  }
+}

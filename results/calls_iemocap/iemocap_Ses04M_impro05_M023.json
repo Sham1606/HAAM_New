@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04M_impro05_M023",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:58:00.568220",
+  "duration_seconds": 10.13,
+  "transcript": "No, it's not gonna be, but it's not gonna be 50. It's gonna be 100. You're going to write three I understand three of the forms. You're gonna write three of them out and then give it to me",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.4,
+      "text": "No, it's not gonna be, but it's not gonna be 50. It's gonna be 100. You're going to write three",
+      "emotion": "anger",
+      "emotion_confidence": 0.492,
+      "sentiment_score": -0.19,
+      "pitch_mean": 337.13
+    },
+    {
+      "start_time": 4.72,
+      "end_time": 9.12,
+      "text": "I understand three of the forms. You're gonna write three of them out and then give it to me",
+      "emotion": "neutral",
+      "emotion_confidence": 0.794,
+      "sentiment_score": 0.2493,
+      "pitch_mean": 334.78
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0297,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 231.0,
+    "avg_pitch": 332.51
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro05",
+    "utterance_id": "Ses04M_impro05_M023",
+    "transcript_ground_truth": "No, it's not going to be -- but it's not going to be fifty, it's going to be a hundred and fifty.  You're going to write three, you understand, three of- of the forms.  You're going to write three of them out and then give it to me."
+  }
+}

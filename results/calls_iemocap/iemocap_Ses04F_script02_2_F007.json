@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script02_2_F007",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:35:47.986914",
+  "duration_seconds": 3.82,
+  "transcript": "For heaven's sake, this is not about fish!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "For heaven's sake, this is not about fish!",
+      "emotion": "anger",
+      "emotion_confidence": 0.602,
+      "sentiment_score": -0.8332,
+      "pitch_mean": 350.74
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8332,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 125.66,
+    "avg_pitch": 340.83
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script02_2",
+    "utterance_id": "Ses04F_script02_2_F007",
+    "transcript_ground_truth": "For heaven's sake, this is not about fish."
+  }
+}

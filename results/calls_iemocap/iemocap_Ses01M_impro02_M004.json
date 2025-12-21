@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01M_impro02_M004",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:50:21.977494",
+  "duration_seconds": 2.72,
+  "transcript": "I don't understand. How can they do that?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I don't understand.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.487,
+      "sentiment_score": -0.6266,
+      "pitch_mean": 331.09
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "How can they do that?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.572,
+      "sentiment_score": -0.7156,
+      "pitch_mean": 342.72
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6711,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 176.47,
+    "avg_pitch": 342.72
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro02",
+    "utterance_id": "Ses01M_impro02_M004",
+    "transcript_ground_truth": "I don't understand, I don't underst--"
+  }
+}

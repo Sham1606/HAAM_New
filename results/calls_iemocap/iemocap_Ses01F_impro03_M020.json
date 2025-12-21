@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro03_M020",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:20:26.531284",
+  "duration_seconds": 4.62,
+  "transcript": "But the pennies always get you because they don't have spending like you know 50 bucks",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.08,
+      "text": "But the pennies always get you because they don't have spending like you know 50 bucks",
+      "emotion": "anger",
+      "emotion_confidence": 0.404,
+      "sentiment_score": -0.4687,
+      "pitch_mean": 333.74
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4687,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 207.79,
+    "avg_pitch": 331.54
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.3333,
+    "arousal": 3.0,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro03",
+    "utterance_id": "Ses01F_impro03_M020",
+    "transcript_ground_truth": "But the pennies always get you because you end up spending like, you know, fifty bucks."
+  }
+}

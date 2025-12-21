@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05M_script01_2_F012",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:59:57.085710",
+  "duration_seconds": 6.92,
+  "transcript": "But why did that happen the very night she came back she goes to sleep in his bed and his memorial breaks and pieces? Look at it",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.64,
+      "text": "But why did that happen the very night she came back she goes to sleep in his bed and his memorial breaks and pieces?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.703,
+      "sentiment_score": -0.6706,
+      "pitch_mean": 359.53
+    },
+    {
+      "start_time": 5.64,
+      "end_time": 7.64,
+      "text": "Look at it",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.1168,
+      "pitch_mean": 350.66
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2769,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 234.1,
+    "avg_pitch": 350.66
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.6667,
+    "arousal": 4.3333,
+    "dominance": 4.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_2",
+    "utterance_id": "Ses05M_script01_2_F012",
+    "transcript_ground_truth": "But why did that happen the very night she came back?  She goes to sleep in his bed and his memorial breaks in pieces.  Look at it."
+  }
+}

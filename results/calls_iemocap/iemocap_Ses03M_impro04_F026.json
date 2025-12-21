@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses03M_impro04_F026",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:55:08.498081",
+  "duration_seconds": 5.96,
+  "transcript": "What? Get what? Now come on, stop it. Why are you talking like that?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "What?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.922,
+      "sentiment_score": 0.083,
+      "pitch_mean": 341.94
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 2.0,
+      "text": "Get what?",
+      "emotion": "joy",
+      "emotion_confidence": 0.334,
+      "sentiment_score": 0.0056,
+      "pitch_mean": 353.61
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "Now come on, stop it.",
+      "emotion": "anger",
+      "emotion_confidence": 0.964,
+      "sentiment_score": -0.7019,
+      "pitch_mean": 335.91
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 7.0,
+      "text": "Why are you talking like that?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.584,
+      "sentiment_score": -0.6733,
+      "pitch_mean": 335.09
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3217,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "joy": 0.25,
+      "anger": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 140.94,
+    "avg_pitch": 335.09
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "sur",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro04",
+    "utterance_id": "Ses03M_impro04_F026",
+    "transcript_ground_truth": "What?  You can't...what?  Now come on.  Stop it.  Don't be talking like that."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script03_2_F038",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:54:55.920903",
+  "duration_seconds": 6.16,
+  "transcript": "Very well. If you insist on being a Borish and idiotic...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "Very well. If you insist on being a Borish and idiotic...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.633,
+      "sentiment_score": -0.725,
+      "pitch_mean": 338.71
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.725,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 107.15,
+    "avg_pitch": 339.13
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script03_2",
+    "utterance_id": "Ses03M_script03_2_F038",
+    "transcript_ground_truth": "Very well.  If you insist on being a boorish and idiotic."
+  }
+}

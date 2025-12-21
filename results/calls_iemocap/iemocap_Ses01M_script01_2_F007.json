@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses01M_script01_2_F007",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:04:09.188579",
+  "duration_seconds": 12.76,
+  "transcript": "Because she knows what I know, that's why. She's faithful as a rock. In my darkest moments, I think of her waiting. And I know that I'm right.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Because she knows what I know, that's why.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.794,
+      "sentiment_score": 0.4174,
+      "pitch_mean": 329.28
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "She's faithful as a rock.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.888,
+      "sentiment_score": 0.9249,
+      "pitch_mean": 346.66
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 10.0,
+      "text": "In my darkest moments, I think of her waiting.",
+      "emotion": "anger",
+      "emotion_confidence": 0.439,
+      "sentiment_score": 0.0592,
+      "pitch_mean": 327.12
+    },
+    {
+      "start_time": 10.0,
+      "end_time": 12.0,
+      "text": "And I know that I'm right.",
+      "emotion": "anger",
+      "emotion_confidence": 0.557,
+      "sentiment_score": 0.609,
+      "pitch_mean": 335.03
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5026,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 131.66,
+    "avg_pitch": 331.07
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_2",
+    "utterance_id": "Ses01M_script01_2_F007",
+    "transcript_ground_truth": "Because she knows what I know that's why.  She's faithful as a rock. in my darkest moments I think of her waiting and I know that I'm right."
+  }
+}

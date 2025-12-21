@@ -1,0 +1,81 @@
+{
+  "call_id": "iemocap_Ses01M_script01_3_F029",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:05:56.873111",
+  "duration_seconds": 14.02,
+  "transcript": "And your money? There's nothing wrong in your money. Your father put hundreds of planes into the air. You should be proud of that. A man should be paid for that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "And your money?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.514,
+      "sentiment_score": -0.0657,
+      "pitch_mean": 317.04
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "There's nothing wrong in your money.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.538,
+      "sentiment_score": -0.1573,
+      "pitch_mean": 314.29
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 8.0,
+      "text": "Your father put hundreds of planes into the air.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.538,
+      "sentiment_score": -0.6307,
+      "pitch_mean": 317.93
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 10.0,
+      "text": "You should be proud of that.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.849,
+      "sentiment_score": 0.8094,
+      "pitch_mean": 333.77
+    },
+    {
+      "start_time": 10.0,
+      "end_time": 13.0,
+      "text": "A man should be paid for that.",
+      "emotion": "anger",
+      "emotion_confidence": 0.67,
+      "sentiment_score": -0.3733,
+      "pitch_mean": 322.87
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0835,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.6,
+      "disgust": 0.2,
+      "anger": 0.2
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 132.67,
+    "avg_pitch": 320.53
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_3",
+    "utterance_id": "Ses01M_script01_3_F029",
+    "transcript_ground_truth": "And your money there's nothing wrong in your money.  Your father put hundreds of planes into the air.  You should be proud of that a man should be paid for that."
+  }
+}

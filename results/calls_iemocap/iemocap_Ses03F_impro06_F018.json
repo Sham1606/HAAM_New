@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro06_F018",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:23:42.861441",
+  "duration_seconds": 2.99,
+  "transcript": "It's just we person you know.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "It's just we person you know.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.94,
+      "sentiment_score": 0.051,
+      "pitch_mean": 323.26
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.051,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 120.45,
+    "avg_pitch": 323.26
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro06",
+    "utterance_id": "Ses03F_impro06_F018",
+    "transcript_ground_truth": "Such a sweet person, you know?"
+  }
+}

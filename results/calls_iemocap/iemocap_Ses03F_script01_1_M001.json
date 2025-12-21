@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script01_1_M001",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:30:55.863228",
+  "duration_seconds": 2.19,
+  "transcript": "He was out there when it happened.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "He was out there when it happened.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.396,
+      "sentiment_score": -0.0494,
+      "pitch_mean": 331.26
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0494,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 191.82,
+    "avg_pitch": 331.4
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_1",
+    "utterance_id": "Ses03F_script01_1_M001",
+    "transcript_ground_truth": "He was out there when it happened."
+  }
+}

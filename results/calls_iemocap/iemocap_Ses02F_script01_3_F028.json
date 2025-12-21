@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02F_script01_3_F028",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:36:00.079045",
+  "duration_seconds": 8.62,
+  "transcript": "I mean, and your money, there's nothing wrong with your money. I mean, your father put hundreds of planes in the air, a man should be paid for that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.5,
+      "text": "I mean, and your money, there's nothing wrong with your money.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.47,
+      "sentiment_score": -0.1187,
+      "pitch_mean": 359.14
+    },
+    {
+      "start_time": 3.5,
+      "end_time": 8.5,
+      "text": "I mean, your father put hundreds of planes in the air, a man should be paid for that.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.508,
+      "sentiment_score": -0.5119,
+      "pitch_mean": 330.64
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3153,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 201.86,
+    "avg_pitch": 339.02
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_3",
+    "utterance_id": "Ses02F_script01_3_F028",
+    "transcript_ground_truth": "I mean, and your money, there's nothing wrong with your money.  I mean, your father put hundreds of planes in the air.  A man should be paid for that."
+  }
+}

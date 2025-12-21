@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05F_script01_3_M009",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:19:02.421788",
+  "duration_seconds": 15.55,
+  "transcript": "I have no imagination that's all I know let's say I'm embarrassing you. I didn't want to tell you here I wanted to be someplace different, someplace where we could be new to each other you know.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 8.0,
+      "text": "I have no imagination that's all I know let's say I'm embarrassing you.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.435,
+      "sentiment_score": -0.843,
+      "pitch_mean": 323.04
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 15.0,
+      "text": "I didn't want to tell you here I wanted to be someplace different, someplace where we could be new to each other you know.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.933,
+      "sentiment_score": -0.0211,
+      "pitch_mean": 326.96
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4321,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 142.8,
+    "avg_pitch": 324.08
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_3",
+    "utterance_id": "Ses05F_script01_3_M009",
+    "transcript_ground_truth": "I- I -I have no imagination, that's all I know what to say, I-I'm embarrassing you. I I didn't want to tell you here.  I wanted it to be some place different, some place where we could be new to each other you know."
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses04M_impro08_M025",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:04:13.838371",
+  "duration_seconds": 9.99,
+  "transcript": "I don't know, I just thought, you know, maybe I'm gonna get some c- I mean, I'm actually- wait, where do you live? Oh, you're in Los Angeles, I see. Oh, that sucks, cause I'm in actually in Alabama.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I don't know, I just thought, you know, maybe I'm gonna get some c-",
+      "emotion": "disgust",
+      "emotion_confidence": 0.379,
+      "sentiment_score": -0.0514,
+      "pitch_mean": 337.33
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 5.0,
+      "text": "I mean, I'm actually- wait, where do you live?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.399,
+      "sentiment_score": 0.0619,
+      "pitch_mean": 330.71
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 7.0,
+      "text": "Oh, you're in Los Angeles, I see.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.651,
+      "sentiment_score": 0.0838,
+      "pitch_mean": 334.43
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 10.0,
+      "text": "Oh, that sucks, cause I'm in actually in Alabama.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.802,
+      "sentiment_score": -0.8827,
+      "pitch_mean": 334.12
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1971,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.75,
+      "neutral": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 234.23,
+    "avg_pitch": 334.12
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.5,
+    "arousal": 4.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro08",
+    "utterance_id": "Ses04M_impro08_M025",
+    "transcript_ground_truth": "Oh, I don't know.  I mean, I don't know.  I just thought, you know, maybe you want to get some co--I mean, I'm actually -- wait, where do you live?  Oh, you're in Los Angeles, I see.  Oh, no, that sucks 'cause I'm in, actually in Alabama."
+  }
+}

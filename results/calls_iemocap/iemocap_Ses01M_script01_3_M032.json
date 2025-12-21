@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses01M_script01_3_M032",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:07:02.586949",
+  "duration_seconds": 23.86,
+  "transcript": "And I had this idea as I was watching them go down. Like everything was being destroyed, you know? But I felt like this one new thing was being made. You know, it was kind of like this monument.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 10.84,
+      "text": "And I had this idea as I was watching them go down.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.61,
+      "sentiment_score": -0.2426,
+      "pitch_mean": 328.9
+    },
+    {
+      "start_time": 10.84,
+      "end_time": 16.12,
+      "text": "Like everything was being destroyed, you know?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.461,
+      "sentiment_score": -0.8608,
+      "pitch_mean": 327.08
+    },
+    {
+      "start_time": 16.12,
+      "end_time": 18.76,
+      "text": "But I felt like this one new thing was being made.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.657,
+      "sentiment_score": 0.2797,
+      "pitch_mean": 325.35
+    },
+    {
+      "start_time": 18.76,
+      "end_time": 23.16,
+      "text": "You know, it was kind of like this monument.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.778,
+      "sentiment_score": 0.0395,
+      "pitch_mean": 326.58
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.196,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.75,
+      "disgust": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 98.08,
+    "avg_pitch": 327.69
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 2.0,
+    "dominance": 1.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_3",
+    "utterance_id": "Ses01M_script01_3_M032",
+    "transcript_ground_truth": "And I had this idea as I was watching them go down like everything was being destroyed, you know.  But I felt like this one new thing was being made, you know it's kind of like this.  This monument..."
+  }
+}

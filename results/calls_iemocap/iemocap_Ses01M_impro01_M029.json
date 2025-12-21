@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses01M_impro01_M029",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:49:25.458928",
+  "duration_seconds": 7.99,
+  "transcript": "People like me, what is that supposed to mean? Yeah, this is ridiculous. Is there like a manager here? Is there someone else that I can talk to?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "People like me, what is that supposed to mean?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.451,
+      "sentiment_score": 0.2596,
+      "pitch_mean": 336.8
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 5.0,
+      "text": "Yeah, this is ridiculous.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.731,
+      "sentiment_score": -0.8994,
+      "pitch_mean": 332.67
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 6.0,
+      "text": "Is there like a manager here?",
+      "emotion": "anger",
+      "emotion_confidence": 0.473,
+      "sentiment_score": -0.002,
+      "pitch_mean": 377.17
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 8.0,
+      "text": "Is there someone else that I can talk to?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.809,
+      "sentiment_score": -0.0454,
+      "pitch_mean": 343.87
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1718,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "anger": 0.25,
+      "neutral": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 210.26,
+    "avg_pitch": 343.87
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro01",
+    "utterance_id": "Ses01M_impro01_M029",
+    "transcript_ground_truth": "People like me, what is that supposed to mean?  You know, this is ridiculous.  Is there like a manager here, is there someone else that I can talk to?"
+  }
+}

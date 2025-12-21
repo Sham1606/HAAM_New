@@ -1,0 +1,90 @@
+{
+  "call_id": "iemocap_Ses02M_impro07_M026",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:57:22.890220",
+  "duration_seconds": 9.35,
+  "transcript": "I'm looking forward to getting there. I mean, God, the campus is cool. It's like, all just very confined. I mean, it's a college campus. Yeah. It's like...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I'm looking forward to getting there.",
+      "emotion": "joy",
+      "emotion_confidence": 0.97,
+      "sentiment_score": 0.9702,
+      "pitch_mean": 340.6
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "I mean, God, the campus is cool.",
+      "emotion": "joy",
+      "emotion_confidence": 0.868,
+      "sentiment_score": 0.9177,
+      "pitch_mean": 331.86
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "It's like, all just very confined.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.859,
+      "sentiment_score": -0.6509,
+      "pitch_mean": 323.79
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 8.0,
+      "text": "I mean, it's a college campus.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.439,
+      "sentiment_score": -0.0096,
+      "pitch_mean": 327.89
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 9.0,
+      "text": "Yeah.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.814,
+      "sentiment_score": 0.2224,
+      "pitch_mean": 338.08
+    },
+    {
+      "start_time": 9.0,
+      "end_time": 10.0,
+      "text": "It's like...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.899,
+      "sentiment_score": -0.007,
+      "pitch_mean": 331.16
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2405,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "joy": 0.333,
+      "neutral": 0.5,
+      "disgust": 0.167
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 179.68,
+    "avg_pitch": 331.16
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro07",
+    "utterance_id": "Ses02M_impro07_M026",
+    "transcript_ground_truth": "I'm looking forward to getting there. I mean, God, the campus is cool, you know it's like all just very confined I mean just you know it's a college campus you know it's like"
+  }
+}

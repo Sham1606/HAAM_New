@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script01_2_F014",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:34:28.350599",
+  "duration_seconds": 2.71,
+  "transcript": "I can't help it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I can't help it.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.496,
+      "sentiment_score": -0.3429,
+      "pitch_mean": 337.58
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3429,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 88.56,
+    "avg_pitch": 335.72
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_2",
+    "utterance_id": "Ses01F_script01_2_F014",
+    "transcript_ground_truth": "I can't help it."
+  }
+}

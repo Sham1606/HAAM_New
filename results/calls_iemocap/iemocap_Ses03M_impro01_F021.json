@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro01_F021",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:47:57.299869",
+  "duration_seconds": 7.46,
+  "transcript": "She's not actually in the building. She's only on the phone. Oh, okay, no sir. Please leave this line immediately",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.8,
+      "text": "She's not actually in the building. She's only on the phone. Oh, okay, no sir. Please leave this line immediately",
+      "emotion": "disgust",
+      "emotion_confidence": 0.387,
+      "sentiment_score": -0.69,
+      "pitch_mean": 354.4
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.69,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 160.86,
+    "avg_pitch": 351.48
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro01",
+    "utterance_id": "Ses03M_impro01_F021",
+    "transcript_ground_truth": "She's not actually in the building.  She's only on the phone. Sir, please leave this line immediately."
+  }
+}

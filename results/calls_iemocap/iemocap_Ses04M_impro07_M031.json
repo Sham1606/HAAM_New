@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro07_M031",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:02:00.005216",
+  "duration_seconds": 3.12,
+  "transcript": "I didn't have any golf matches, I don't even know.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I didn't have any golf matches, I don't even know.",
+      "emotion": "joy",
+      "emotion_confidence": 0.384,
+      "sentiment_score": -0.4327,
+      "pitch_mean": 347.99
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4327,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 192.31,
+    "avg_pitch": 349.91
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro07",
+    "utterance_id": "Ses04M_impro07_M031",
+    "transcript_ground_truth": "Do they even have any golf matches? I don't even know."
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses02M_impro05_F007",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:52:45.449400",
+  "duration_seconds": 13.22,
+  "transcript": "Well, sometimes there's difficulties with loading under the plane. There can be a theft or some sort of, you know, mishap with a cart or something.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.08,
+      "text": "Well, sometimes there's difficulties with loading under the plane.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.453,
+      "sentiment_score": -0.5801,
+      "pitch_mean": 350.07
+    },
+    {
+      "start_time": 4.08,
+      "end_time": 9.04,
+      "text": "There can be a theft or some sort of, you know,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.695,
+      "sentiment_score": -0.4897,
+      "pitch_mean": 344.01
+    },
+    {
+      "start_time": 9.04,
+      "end_time": 13.04,
+      "text": "mishap with a cart or something.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.82,
+      "sentiment_score": -0.0199,
+      "pitch_mean": 338.7
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3632,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "disgust": 0.333,
+      "neutral": 0.667
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 117.98,
+    "avg_pitch": 343.13
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro05",
+    "utterance_id": "Ses02M_impro05_F007",
+    "transcript_ground_truth": "Um, well, sometimes there is just difficulties with loading on to the plane. Uh- There can be a theft or uh- some sort of you know mishap with a cart or something."
+  }
+}

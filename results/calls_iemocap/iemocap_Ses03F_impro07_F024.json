@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro07_F024",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:25:29.787456",
+  "duration_seconds": 4.57,
+  "transcript": "There's so much culture here, you know? It's just like a great restaurant and...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "There's so much culture here, you know? It's just like a great restaurant and...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.693,
+      "sentiment_score": 0.9462,
+      "pitch_mean": 333.07
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9462,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 184.0,
+    "avg_pitch": 331.49
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro07",
+    "utterance_id": "Ses03F_impro07_F024",
+    "transcript_ground_truth": "There's so much culture here, you know? It's just like-- --all great restaurants and-"
+  }
+}

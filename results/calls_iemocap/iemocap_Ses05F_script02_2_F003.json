@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses05F_script02_2_F003",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:23:39.837976",
+  "duration_seconds": 11.4,
+  "transcript": "Yeah, they're all told the same thing. They're all told that, you know, it gets them excited and they can't wait and that if they just get in on the right spot, then, you know, maybe life will start.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Yeah, they're all told the same thing.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.908,
+      "sentiment_score": -0.3096,
+      "pitch_mean": 345.85
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 6.8,
+      "text": "They're all told that, you know, it gets them excited and they can't wait and that if",
+      "emotion": "joy",
+      "emotion_confidence": 0.713,
+      "sentiment_score": 0.9524,
+      "pitch_mean": 355.21
+    },
+    {
+      "start_time": 6.8,
+      "end_time": 10.56,
+      "text": "they just get in on the right spot, then, you know, maybe life will start.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.937,
+      "sentiment_score": 0.8104,
+      "pitch_mean": 345.93
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4844,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "joy": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 205.26,
+    "avg_pitch": 349.85
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script02_2",
+    "utterance_id": "Ses05F_script02_2_F003",
+    "transcript_ground_truth": "Yeah, they are all told the same thing.  They are all told that you know.  Gets them excited and they can't wait and that if they just get in on the right spot, than you than maybe life will start"
+  }
+}

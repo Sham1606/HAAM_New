@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_script01_3_F018",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:08:29.869969",
+  "duration_seconds": 4.28,
+  "transcript": "Then what's wrong? Even in your letters there was something ashamed.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Then what's wrong? Even in your letters there was something ashamed.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.826,
+      "sentiment_score": -0.8738,
+      "pitch_mean": 331.97
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8738,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 154.18,
+    "avg_pitch": 332.55
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script01_3",
+    "utterance_id": "Ses04M_script01_3_F018",
+    "transcript_ground_truth": "Then what's wrong.  Even in your letters, there was something ashamed."
+  }
+}

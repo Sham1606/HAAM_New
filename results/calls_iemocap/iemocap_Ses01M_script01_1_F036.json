@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01M_script01_1_F036",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:02:24.693873",
+  "duration_seconds": 5.78,
+  "transcript": "You have a business here. I said, what the hell is this?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "You have a business here.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.817,
+      "sentiment_score": 0.1082,
+      "pitch_mean": 350.22
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 6.0,
+      "text": "I said, what the hell is this?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.8586,
+      "pitch_mean": 351.01
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3752,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 124.68,
+    "avg_pitch": 351.01
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.3333,
+    "arousal": 4.3333,
+    "dominance": 4.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_1",
+    "utterance_id": "Ses01M_script01_1_F036",
+    "transcript_ground_truth": "You have a business here.  I said what the hell is this?"
+  }
+}

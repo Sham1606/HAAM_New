@@ -1,0 +1,181 @@
+{
+  "call_id": "iemocap_Ses03M_script02_2_M027",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:50:39.365386",
+  "duration_seconds": 15.96,
+  "transcript": "Do you want to get married? What? What? Do you want to divorce? No! What? A vacation? What? A carpet? A poodle? A basket of fruits? What? A... A... A... A...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Do you want to get married?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.429,
+      "sentiment_score": 0.0475,
+      "pitch_mean": 322.56
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "What?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.922,
+      "sentiment_score": 0.083,
+      "pitch_mean": 372.76
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 4.0,
+      "text": "What?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.922,
+      "sentiment_score": 0.083,
+      "pitch_mean": 352.95
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 5.0,
+      "text": "Do you want to divorce?",
+      "emotion": "joy",
+      "emotion_confidence": 0.385,
+      "sentiment_score": -0.2752,
+      "pitch_mean": 366.12
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 6.0,
+      "text": "No!",
+      "emotion": "anger",
+      "emotion_confidence": 0.569,
+      "sentiment_score": 0.3251,
+      "pitch_mean": 369.68
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 7.0,
+      "text": "What?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.922,
+      "sentiment_score": 0.083,
+      "pitch_mean": 359.26
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 8.0,
+      "text": "A vacation?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.933,
+      "sentiment_score": 0.0714,
+      "pitch_mean": 365.76
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 9.0,
+      "text": "What?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.922,
+      "sentiment_score": 0.083,
+      "pitch_mean": 345.71
+    },
+    {
+      "start_time": 9.0,
+      "end_time": 10.0,
+      "text": "A carpet?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.87,
+      "sentiment_score": -0.0828,
+      "pitch_mean": 330.14
+    },
+    {
+      "start_time": 10.0,
+      "end_time": 11.0,
+      "text": "A poodle?",
+      "emotion": "joy",
+      "emotion_confidence": 0.468,
+      "sentiment_score": 0.028,
+      "pitch_mean": 345.4
+    },
+    {
+      "start_time": 11.0,
+      "end_time": 12.0,
+      "text": "A basket of fruits?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.843,
+      "sentiment_score": -0.021,
+      "pitch_mean": 363.28
+    },
+    {
+      "start_time": 12.0,
+      "end_time": 13.0,
+      "text": "What?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.922,
+      "sentiment_score": 0.083,
+      "pitch_mean": 332.44
+    },
+    {
+      "start_time": 13.0,
+      "end_time": 14.0,
+      "text": "A...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.853,
+      "sentiment_score": 0.1168,
+      "pitch_mean": 383.1
+    },
+    {
+      "start_time": 14.0,
+      "end_time": 15.0,
+      "text": "A...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.853,
+      "sentiment_score": 0.1168,
+      "pitch_mean": 370.5
+    },
+    {
+      "start_time": 15.0,
+      "end_time": 16.0,
+      "text": "A...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.853,
+      "sentiment_score": 0.1168,
+      "pitch_mean": 349.67
+    },
+    {
+      "start_time": 16.0,
+      "end_time": 17.0,
+      "text": "A...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.853,
+      "sentiment_score": 0.1168,
+      "pitch_mean": 349.67
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0609,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "disgust": 0.062,
+      "neutral": 0.75,
+      "joy": 0.125,
+      "anger": 0.062
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 116.56,
+    "avg_pitch": 349.67
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.6667,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_2",
+    "utterance_id": "Ses03M_script02_2_M027",
+    "transcript_ground_truth": "Do you want to get married again? What? What?  Do you want a divorce? A vacation? What?  A carpet?  A poodle?  A basket of fruit?  What?  A suicide pact?  What the hell do you want Carla?"
+  }
+}

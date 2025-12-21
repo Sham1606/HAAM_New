@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02M_script03_2_M029",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:14:43.548877",
+  "duration_seconds": 9.77,
+  "transcript": "I imagine, as I may have already mentioned, I've had three minute lecure glasses of brandy, the whole evening long, a child of two couldn't get drunk on that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.64,
+      "text": "I imagine, as I may have already mentioned, I've had three minute lecure glasses of brandy,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.899,
+      "sentiment_score": 0.2292,
+      "pitch_mean": 325.51
+    },
+    {
+      "start_time": 6.64,
+      "end_time": 9.64,
+      "text": "the whole evening long, a child of two couldn't get drunk on that.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.886,
+      "sentiment_score": -0.4447,
+      "pitch_mean": 337.4
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1078,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 178.12,
+    "avg_pitch": 327.98
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script03_2",
+    "utterance_id": "Ses02M_script03_2_M029",
+    "transcript_ground_truth": "I imagine, as I may have already mentioned, I've had three minute liquor glasses of Brandy the whole evening long a child of two couldn't get drunk on that."
+  }
+}

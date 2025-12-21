@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script01_1_M013",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:01:21.728974",
+  "duration_seconds": 5.17,
+  "transcript": "For God's sake, it's been three years. Nobody comes back after three years. It's insane.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.64,
+      "text": "For God's sake, it's been three years. Nobody comes back after three years. It's insane.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.483,
+      "sentiment_score": -0.8791,
+      "pitch_mean": 322.6
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8791,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 174.08,
+    "avg_pitch": 322.15
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script01_1",
+    "utterance_id": "Ses02M_script01_1_M013",
+    "transcript_ground_truth": "For God sakes it's been three years, nobody comes back after three years, that's insane."
+  }
+}

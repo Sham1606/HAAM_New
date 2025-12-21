@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script02_1_F020",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:37:07.056776",
+  "duration_seconds": 1.64,
+  "transcript": "About what?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "About what?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.815,
+      "sentiment_score": -0.0553,
+      "pitch_mean": 324.14
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0553,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 72.95,
+    "avg_pitch": 324.14
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_1",
+    "utterance_id": "Ses03F_script02_1_F020",
+    "transcript_ground_truth": "About what?"
+  }
+}

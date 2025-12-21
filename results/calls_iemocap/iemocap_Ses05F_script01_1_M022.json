@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05F_script01_1_M022",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:15:22.158774",
+  "duration_seconds": 8.59,
+  "transcript": "Isn't it your business too if I tell dad and he gets throws a fit about it? I think you have such a talent for ignoring things.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Isn't it your business too if I tell dad and he gets throws a fit about it?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.427,
+      "sentiment_score": -0.5865,
+      "pitch_mean": 334.73
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 8.0,
+      "text": "I think you have such a talent for ignoring things.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.724,
+      "sentiment_score": -0.7766,
+      "pitch_mean": 327.37
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6816,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 188.59,
+    "avg_pitch": 333.35
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_1",
+    "utterance_id": "Ses05F_script01_1_M022",
+    "transcript_ground_truth": "You know that?  Isn't it your business too, if I tell dad, and he gets, throws a fit about it?   you have such a talent for ignoring things!"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses01F_impro05_M024",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:26:12.797751",
+  "duration_seconds": 6.31,
+  "transcript": "We're actually not even allowed, you know, like we don't have to give you this $50. We're not going back. It's a gift.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "We're actually not even allowed, you know, like we don't have to give you this $50.",
+      "emotion": "anger",
+      "emotion_confidence": 0.564,
+      "sentiment_score": -0.7421,
+      "pitch_mean": 334.55
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 6.0,
+      "text": "We're not going back.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.671,
+      "sentiment_score": -0.263,
+      "pitch_mean": 366.81
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 7.0,
+      "text": "It's a gift.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.8328,
+      "pitch_mean": 341.11
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0575,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "anger": 0.333,
+      "neutral": 0.667
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 218.7,
+    "avg_pitch": 341.11
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro05",
+    "utterance_id": "Ses01F_impro05_M024",
+    "transcript_ground_truth": "We are actually not even allowed--  you know, like we don't have to give you this fifty dollars.  We don't have to do that."
+  }
+}

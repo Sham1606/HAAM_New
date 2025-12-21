@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro02_F022",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:49:47.784573",
+  "duration_seconds": 6.29,
+  "transcript": "Watch our child grow. See her take her first steps, her first words.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "Watch our child grow. See her take her first steps, her first words.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.674,
+      "sentiment_score": 0.6842,
+      "pitch_mean": 339.22
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.6842,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 124.03,
+    "avg_pitch": 337.96
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro02",
+    "utterance_id": "Ses03M_impro02_F022",
+    "transcript_ground_truth": "and watch our child grow, see her take her first steps, her first words."
+  }
+}

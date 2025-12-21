@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro05_F013",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:52:55.800891",
+  "duration_seconds": 6.17,
+  "transcript": "They get shipped to somewhere else and then it sucks somewhere and we have no way of tracking that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "They get shipped to somewhere else and then it sucks somewhere and we have no way of tracking that.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.499,
+      "sentiment_score": -0.9077,
+      "pitch_mean": 343.78
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9077,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 184.7,
+    "avg_pitch": 343.79
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro05",
+    "utterance_id": "Ses02M_impro05_F013",
+    "transcript_ground_truth": "they - they, it gets shipped to somewhere else and then it's stuck somewhere and then we have no way of tracking that."
+  }
+}

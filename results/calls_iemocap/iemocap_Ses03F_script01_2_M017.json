@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script01_2_M017",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:33:43.121731",
+  "duration_seconds": 2.13,
+  "transcript": "What do I got to hide?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "What do I got to hide?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.495,
+      "sentiment_score": -0.3954,
+      "pitch_mean": 344.28
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3954,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 169.02,
+    "avg_pitch": 342.39
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_2",
+    "utterance_id": "Ses03F_script01_2_M017",
+    "transcript_ground_truth": "What have I got to hide?"
+  }
+}

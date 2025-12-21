@@ -1,0 +1,89 @@
+{
+  "call_id": "iemocap_Ses03M_script02_1_M015",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:46:35.919413",
+  "duration_seconds": 12.02,
+  "transcript": "I'm so stupid I should have brought a six pack. God I'm like a little kid. It's amazing I get out of the house with my flies zipped up. Oh! Ha ha! Uh...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.8,
+      "text": "I'm so stupid I should have brought a six pack.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.47,
+      "sentiment_score": -0.8809,
+      "pitch_mean": 322.5
+    },
+    {
+      "start_time": 2.8,
+      "end_time": 4.32,
+      "text": "God I'm like a little kid.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.444,
+      "sentiment_score": -0.5743,
+      "pitch_mean": 326.54
+    },
+    {
+      "start_time": 4.32,
+      "end_time": 7.72,
+      "text": "It's amazing I get out of the house with my flies zipped up.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.871,
+      "sentiment_score": 0.9295,
+      "pitch_mean": 335.78
+    },
+    {
+      "start_time": 7.72,
+      "end_time": 8.72,
+      "text": "Oh!",
+      "emotion": "neutral",
+      "emotion_confidence": 0.899,
+      "sentiment_score": 0.5968,
+      "pitch_mean": 329.23
+    },
+    {
+      "start_time": 8.72,
+      "end_time": 9.72,
+      "text": "Ha ha!",
+      "emotion": "disgust",
+      "emotion_confidence": 0.408,
+      "sentiment_score": 0.4654,
+      "pitch_mean": 332.05
+    },
+    {
+      "start_time": 9.72,
+      "end_time": 11.72,
+      "text": "Uh...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.791,
+      "sentiment_score": -0.0007,
+      "pitch_mean": 337.87
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0893,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 164.7,
+    "avg_pitch": 330.87
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_1",
+    "utterance_id": "Ses03M_script02_1_M015",
+    "transcript_ground_truth": "I'm so stupid, I should've brought a six-pack.  God, I'm like a little kid.  It's amazing I get out of the house with my fly zipped up. Oh- [LAUGHTER]"
+  }
+}

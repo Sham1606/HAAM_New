@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01F_script01_1_M019",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:33:12.243856",
+  "duration_seconds": 10.25,
+  "transcript": "You know sometimes you inferior at me, you know that isn't in your business if I tell father and he throws a fit about it God you have such a talent for ignoring things",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.68,
+      "text": "You know sometimes you inferior at me, you know that isn't in your business if I tell father and he throws a fit about it",
+      "emotion": "anger",
+      "emotion_confidence": 0.629,
+      "sentiment_score": -0.6886,
+      "pitch_mean": 330.66
+    },
+    {
+      "start_time": 7.56,
+      "end_time": 9.56,
+      "text": "God you have such a talent for ignoring things",
+      "emotion": "neutral",
+      "emotion_confidence": 0.691,
+      "sentiment_score": -0.7291,
+      "pitch_mean": 343.65
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7089,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 199.02,
+    "avg_pitch": 333.9
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 4.3333,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_1",
+    "utterance_id": "Ses01F_script01_1_M019",
+    "transcript_ground_truth": "You know sometimes you infuriate me.  you know that?  Isn't it your business if I tell father and he throws a fit about it?  God, you have such a talent for ignoring things."
+  }
+}

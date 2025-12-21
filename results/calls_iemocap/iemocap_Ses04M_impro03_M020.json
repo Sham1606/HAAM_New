@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04M_impro03_M020",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:53:41.260548",
+  "duration_seconds": 11.67,
+  "transcript": "Yeah, I don't know. But yeah, so anyway, I wanted to tell you that you know because you're one like good friends and your case",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Yeah, I don't know.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.37,
+      "sentiment_score": -0.2806,
+      "pitch_mean": 333.21
+    },
+    {
+      "start_time": 4.48,
+      "end_time": 9.76,
+      "text": "But yeah, so anyway, I wanted to tell you that you know because you're one like good friends and your case",
+      "emotion": "neutral",
+      "emotion_confidence": 0.689,
+      "sentiment_score": 0.8539,
+      "pitch_mean": 326.14
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2867,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 128.56,
+    "avg_pitch": 331.38
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro03",
+    "utterance_id": "Ses04M_impro03_M020",
+    "transcript_ground_truth": "Yeah, I don't know. [LAUGHTER] But, yeah, so anyway -- well I wanted to tell you that, you know, 'cause you're one of my good friends and you're Kate's- one of her best friends and-"
+  }
+}

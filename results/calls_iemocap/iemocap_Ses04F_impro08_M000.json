@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro08_M000",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:20:43.768148",
+  "duration_seconds": 10.15,
+  "transcript": "Yeah, I have been trying to reach somebody who will refund my money",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 9.64,
+      "text": "Yeah, I have been trying to reach somebody who will refund my money",
+      "emotion": "disgust",
+      "emotion_confidence": 0.428,
+      "sentiment_score": -0.1243,
+      "pitch_mean": 324.27
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1243,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 76.85,
+    "avg_pitch": 322.83
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro08",
+    "utterance_id": "Ses04F_impro08_M000",
+    "transcript_ground_truth": "Yeah, um.  I have been trying to reach somebody who will refund, uh, my money."
+  }
+}

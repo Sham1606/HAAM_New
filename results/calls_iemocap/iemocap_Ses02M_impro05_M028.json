@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro05_M028",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:54:19.171874",
+  "duration_seconds": 4.79,
+  "transcript": "I'm sick of this all right I'm sick of you and keep your fifty dollars",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.24,
+      "text": "I'm sick of this all right I'm sick of you and keep your fifty dollars",
+      "emotion": "sadness",
+      "emotion_confidence": 0.628,
+      "sentiment_score": -0.9437,
+      "pitch_mean": 332.38
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9437,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 187.7,
+    "avg_pitch": 331.39
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro05",
+    "utterance_id": "Ses02M_impro05_M028",
+    "transcript_ground_truth": "All right. I'm sick- I'm sick of this all right. I'm sick of you and keep your fifty dollar."
+  }
+}

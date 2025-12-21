@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script02_2_M027",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:41:35.865570",
+  "duration_seconds": 1.33,
+  "transcript": "of occasion.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "of occasion.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.773,
+      "sentiment_score": 0.1093,
+      "pitch_mean": 326.07
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1093,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 90.23,
+    "avg_pitch": 335.53
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script02_2",
+    "utterance_id": "Ses02F_script02_2_M027",
+    "transcript_ground_truth": "A vacation?"
+  }
+}

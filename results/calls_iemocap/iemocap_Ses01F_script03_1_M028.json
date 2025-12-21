@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script03_1_M028",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:44:59.662733",
+  "duration_seconds": 4.8,
+  "transcript": "The one where you put that tiny painted wooden snake in my bed",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.36,
+      "text": "The one where you put that tiny painted wooden snake in my bed",
+      "emotion": "disgust",
+      "emotion_confidence": 0.581,
+      "sentiment_score": -0.5305,
+      "pitch_mean": 322.9
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5305,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 162.5,
+    "avg_pitch": 329.14
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script03_1",
+    "utterance_id": "Ses01F_script03_1_M028",
+    "transcript_ground_truth": "The one where you put that tiny painted wooden snake in my bed."
+  }
+}

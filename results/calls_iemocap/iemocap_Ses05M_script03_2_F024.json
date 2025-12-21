@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script03_2_F024",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:13:42.359112",
+  "duration_seconds": 2.61,
+  "transcript": "not mind your own business.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "not mind your own business.",
+      "emotion": "anger",
+      "emotion_confidence": 0.804,
+      "sentiment_score": -0.4332,
+      "pitch_mean": 324.92
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4332,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 114.94,
+    "avg_pitch": 322.59
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script03_2",
+    "utterance_id": "Ses05M_script03_2_F024",
+    "transcript_ground_truth": "[LAUGHTER] Mind your own business."
+  }
+}

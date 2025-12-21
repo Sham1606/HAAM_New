@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01F_script01_1_M007",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:32:50.274564",
+  "duration_seconds": 8.8,
+  "transcript": "You know Larry is not coming back, and I know it. Why do we allow him to go on thinking that we believe with him?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "You know Larry is not coming back, and I know it.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.389,
+      "sentiment_score": -0.6211,
+      "pitch_mean": 319.81
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 8.0,
+      "text": "Why do we allow him to go on thinking that we believe with him?",
+      "emotion": "anger",
+      "emotion_confidence": 0.531,
+      "sentiment_score": -0.6336,
+      "pitch_mean": 330.43
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6273,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 170.54,
+    "avg_pitch": 323.37
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.6667,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_1",
+    "utterance_id": "Ses01F_script01_1_M007",
+    "transcript_ground_truth": "You know Larry is not coming back and I know it.  Why do we allow him to go on thinking that we believe with him?"
+  }
+}

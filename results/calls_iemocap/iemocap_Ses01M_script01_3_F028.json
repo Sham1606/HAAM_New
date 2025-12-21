@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01M_script01_3_F028",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:05:53.977041",
+  "duration_seconds": 6.63,
+  "transcript": "Everything, Chris, do you understand that? To me too.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Everything, Chris, do you understand that?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.39,
+      "sentiment_score": 0.0402,
+      "pitch_mean": 335.68
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "To me too.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.458,
+      "sentiment_score": 0.1591,
+      "pitch_mean": 328.68
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0997,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 81.48,
+    "avg_pitch": 333.11
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_3",
+    "utterance_id": "Ses01M_script01_3_F028",
+    "transcript_ground_truth": "Everything Chris do you understand that?  To me too..."
+  }
+}

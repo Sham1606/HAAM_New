@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script03_2_F000",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:44:12.804033",
+  "duration_seconds": 2.77,
+  "transcript": "You knew there was nothing in that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "You knew there was nothing in that.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.445,
+      "sentiment_score": -0.3256,
+      "pitch_mean": 313.68
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3256,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 151.56,
+    "avg_pitch": 316.85
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script03_2",
+    "utterance_id": "Ses03F_script03_2_F000",
+    "transcript_ground_truth": "You knew there was nothing in that."
+  }
+}

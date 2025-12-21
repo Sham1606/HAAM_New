@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script02_2_F002",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:35:31.890238",
+  "duration_seconds": 7.33,
+  "transcript": "It's PR. Somebody sold you a bill of goods that this wonderful event is going to take place on the beach.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "It's PR. Somebody sold you a bill of goods that this wonderful event is going to take place on the beach.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.579,
+      "sentiment_score": 0.0364,
+      "pitch_mean": 348.05
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0364,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 171.9,
+    "avg_pitch": 337.77
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script02_2",
+    "utterance_id": "Ses04F_script02_2_F002",
+    "transcript_ground_truth": "It's PR.  Somebody sold you a bill of goods that this wonderful event is going to take place on the beach."
+  }
+}

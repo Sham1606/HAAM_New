@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script02_2_M013",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:41:56.349749",
+  "duration_seconds": 2.2,
+  "transcript": "No, of course not.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "No, of course not.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.711,
+      "sentiment_score": -0.2698,
+      "pitch_mean": 336.56
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2698,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 108.87,
+    "avg_pitch": 335.21
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_2",
+    "utterance_id": "Ses01F_script02_2_M013",
+    "transcript_ground_truth": "No. Of course not."
+  }
+}

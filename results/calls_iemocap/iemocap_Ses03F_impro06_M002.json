@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro06_M002",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:24:16.551966",
+  "duration_seconds": 6.81,
+  "transcript": "I didn't know him, Trisha, but I heard Benny was a great man.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "I didn't know him, Trisha, but I heard Benny was a great man.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.573,
+      "sentiment_score": 0.7019,
+      "pitch_mean": 323.45
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.7019,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 114.56,
+    "avg_pitch": 323.45
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 1.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro06",
+    "utterance_id": "Ses03F_impro06_M002",
+    "transcript_ground_truth": "I didn't know him, Tricia, but uh- I heard that he was a great man."
+  }
+}

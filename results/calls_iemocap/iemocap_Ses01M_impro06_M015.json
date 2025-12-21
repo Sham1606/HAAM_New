@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro06_M015",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:58:28.836475",
+  "duration_seconds": 5.02,
+  "transcript": "It's just really weird because he was really young, you know, and kind of like...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "It's just really weird because he was really young, you know, and kind of like...",
+      "emotion": "disgust",
+      "emotion_confidence": 0.884,
+      "sentiment_score": -0.6749,
+      "pitch_mean": 329.06
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6749,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 179.29,
+    "avg_pitch": 329.17
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro06",
+    "utterance_id": "Ses01M_impro06_M015",
+    "transcript_ground_truth": "It's just really weird because he was really young you know and it kind of like..."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro07_F032",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:00:48.446423",
+  "duration_seconds": 3.25,
+  "transcript": "Maybe one of those mega phones, pom pom.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.2,
+      "text": "Maybe one of those mega phones, pom pom.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.897,
+      "sentiment_score": 0.2287,
+      "pitch_mean": 335.88
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2287,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 147.69,
+    "avg_pitch": 334.73
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro07",
+    "utterance_id": "Ses04M_impro07_F032",
+    "transcript_ground_truth": "Maybe one of those megaphones. Pompom."
+  }
+}

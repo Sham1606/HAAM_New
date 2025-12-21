@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro03_M006",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:53:15.684781",
+  "duration_seconds": 3.31,
+  "transcript": "American pie? No, she's like swells.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.04,
+      "text": "American pie? No, she's like swells.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.541,
+      "sentiment_score": -0.548,
+      "pitch_mean": 339.13
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.548,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 108.7,
+    "avg_pitch": 340.28
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro03",
+    "utterance_id": "Ses03M_impro03_M006",
+    "transcript_ground_truth": "American Pie? Ah."
+  }
+}

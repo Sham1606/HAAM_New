@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_impro08b_F009",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:34:53.499367",
+  "duration_seconds": 5.52,
+  "transcript": "Yes, the phone turns on. No, I mean using a non-turning on phone of course it turns on.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Yes, the phone turns on.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.819,
+      "sentiment_score": 0.2432,
+      "pitch_mean": 337.77
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 5.0,
+      "text": "No, I mean using a non-turning on phone of course it turns on.",
+      "emotion": "joy",
+      "emotion_confidence": 0.423,
+      "sentiment_score": 0.1136,
+      "pitch_mean": 364.14
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1784,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "joy": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 195.65,
+    "avg_pitch": 348.35
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro08b",
+    "utterance_id": "Ses03M_impro08b_F009",
+    "transcript_ground_truth": "Yes the phone turns on.  No I mean I'm using it not turning on the phone.  Of course it turns on."
+  }
+}

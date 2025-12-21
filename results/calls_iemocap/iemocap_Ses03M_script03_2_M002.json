@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_script03_2_M002",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:55:47.219530",
+  "duration_seconds": 7.02,
+  "transcript": "Mmm-hmm. I remember it well Bristling with diamonds in the worst possible taste",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.32,
+      "text": "Mmm-hmm. I remember it well",
+      "emotion": "neutral",
+      "emotion_confidence": 0.789,
+      "sentiment_score": 0.5768,
+      "pitch_mean": 307.12
+    },
+    {
+      "start_time": 3.02,
+      "end_time": 6.02,
+      "text": "Bristling with diamonds in the worst possible taste",
+      "emotion": "disgust",
+      "emotion_confidence": 0.984,
+      "sentiment_score": -0.9107,
+      "pitch_mean": 321.42
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1669,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 111.14,
+    "avg_pitch": 319.13
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script03_2",
+    "utterance_id": "Ses03M_script03_2_M002",
+    "transcript_ground_truth": "Mmm Hmm.  I remember it well.  Bristling with diamonds in the worst possible taste."
+  }
+}

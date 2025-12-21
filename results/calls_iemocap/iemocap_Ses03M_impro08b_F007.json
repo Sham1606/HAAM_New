@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_impro08b_F007",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:34:47.787323",
+  "duration_seconds": 6.44,
+  "transcript": "Okay, and it's in and it's in my business is failing because my phone is working I don't have a landline. I mean I really can't handle this right now",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.84,
+      "text": "Okay, and it's in and it's in my business is failing because my phone is working",
+      "emotion": "sadness",
+      "emotion_confidence": 0.691,
+      "sentiment_score": -0.3484,
+      "pitch_mean": 366.92
+    },
+    {
+      "start_time": 3.84,
+      "end_time": 6.04,
+      "text": "I don't have a landline. I mean I really can't handle this right now",
+      "emotion": "joy",
+      "emotion_confidence": 0.419,
+      "sentiment_score": -0.8931,
+      "pitch_mean": 374.51
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6207,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 0.5,
+      "joy": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 279.51,
+    "avg_pitch": 366.14
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro08b",
+    "utterance_id": "Ses03M_impro08b_F007",
+    "transcript_ground_truth": "Okay?  And it [GARBAGE]. My business is failing because my phone isn't working and I don't have a land line and I really can't handle this right now."
+  }
+}

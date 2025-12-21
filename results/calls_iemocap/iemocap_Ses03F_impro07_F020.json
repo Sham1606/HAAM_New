@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses03F_impro07_F020",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:25:22.955185",
+  "duration_seconds": 5.12,
+  "transcript": "and after fans. So what are you gonna do? Are you gonna, you're being here. You're gonna stay here, right?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.5,
+      "text": "and after fans.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.843,
+      "sentiment_score": -0.0091,
+      "pitch_mean": 332.3
+    },
+    {
+      "start_time": 1.5,
+      "end_time": 2.6,
+      "text": "So what are you gonna do?",
+      "emotion": "anger",
+      "emotion_confidence": 0.378,
+      "sentiment_score": -0.1252,
+      "pitch_mean": 410.79
+    },
+    {
+      "start_time": 2.6,
+      "end_time": 3.86,
+      "text": "Are you gonna, you're being here.",
+      "emotion": "anger",
+      "emotion_confidence": 0.599,
+      "sentiment_score": 0.0072,
+      "pitch_mean": 392.36
+    },
+    {
+      "start_time": 3.86,
+      "end_time": 5.1,
+      "text": "You're gonna stay here, right?",
+      "emotion": "joy",
+      "emotion_confidence": 0.357,
+      "sentiment_score": 0.1003,
+      "pitch_mean": 371.3
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0067,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "neutral": 0.25,
+      "anger": 0.5,
+      "joy": 0.25
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 234.21,
+    "avg_pitch": 365.22
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro07",
+    "utterance_id": "Ses03F_impro07_F020",
+    "transcript_ground_truth": "Acting Pants? So what are you going to do? Are you--you're be--you're going to stay here, right?"
+  }
+}

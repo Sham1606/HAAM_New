@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script01_2_F011",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:27:04.857368",
+  "duration_seconds": 5.2,
+  "transcript": "In my worst moments I think of her waiting and I know again that I'm right.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.6,
+      "text": "In my worst moments I think of her waiting and I know again that I'm right.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.954,
+      "sentiment_score": 0.233,
+      "pitch_mean": 343.45
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.233,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 184.64,
+    "avg_pitch": 339.55
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script01_2",
+    "utterance_id": "Ses04F_script01_2_F011",
+    "transcript_ground_truth": "In my worst moments, I think of her waiting and I know again that I'm right."
+  }
+}

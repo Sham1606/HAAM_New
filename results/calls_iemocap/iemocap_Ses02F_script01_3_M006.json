@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02F_script01_3_M006",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:36:13.563243",
+  "duration_seconds": 7.56,
+  "transcript": "Now, would you want to? I guess you know this is why I asked you to come.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Now, would you want to?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.365,
+      "sentiment_score": 0.0133,
+      "pitch_mean": 326.41
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 7.0,
+      "text": "I guess you know this is why I asked you to come.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.768,
+      "sentiment_score": 0.1923,
+      "pitch_mean": 324.06
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1028,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 134.86,
+    "avg_pitch": 326.56
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_3",
+    "utterance_id": "Ses02F_script01_3_M006",
+    "transcript_ground_truth": "Oh.  Would you want to?  I guess you know, this is why I asked you to come."
+  }
+}

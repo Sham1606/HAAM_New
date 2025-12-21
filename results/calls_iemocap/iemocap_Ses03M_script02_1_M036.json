@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_script02_1_M036",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:47:31.726957",
+  "duration_seconds": 5.92,
+  "transcript": "I mean, think about this. I know you're not interested, but just think about this for me.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I mean, think about this.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.729,
+      "sentiment_score": -0.3104,
+      "pitch_mean": 322.48
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 6.0,
+      "text": "I know you're not interested, but just think about this for me.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.879,
+      "sentiment_score": -0.5045,
+      "pitch_mean": 318.8
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4074,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 172.3,
+    "avg_pitch": 318.8
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_1",
+    "utterance_id": "Ses03M_script02_1_M036",
+    "transcript_ground_truth": "I mean, think about this, I know you're not interested but just think about this for a minute."
+  }
+}

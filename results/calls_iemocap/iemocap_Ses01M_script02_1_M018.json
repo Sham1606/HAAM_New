@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script02_1_M018",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:09:10.308986",
+  "duration_seconds": 2.81,
+  "transcript": "I wonder if they could hear me talking, you know?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I wonder if they could hear me talking, you know?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.958,
+      "sentiment_score": -0.0024,
+      "pitch_mean": 329.97
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0024,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 213.52,
+    "avg_pitch": 329.97
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script02_1",
+    "utterance_id": "Ses01M_script02_1_M018",
+    "transcript_ground_truth": "I wonder if they can hear me talking, you know."
+  }
+}

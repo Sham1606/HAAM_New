@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script02_1_M019",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:38:54.706920",
+  "duration_seconds": 6.04,
+  "transcript": "What? We just got here. What's the point of coming over here if we just turn around and go home?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.6,
+      "text": "What? We just got here. What's the point of coming over here if we just turn around and go home?",
+      "emotion": "anger",
+      "emotion_confidence": 0.561,
+      "sentiment_score": -0.6041,
+      "pitch_mean": 337.09
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6041,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 198.54,
+    "avg_pitch": 334.85
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_1",
+    "utterance_id": "Ses01F_script02_1_M019",
+    "transcript_ground_truth": "What?  We just got here.  What's the point of coming all the way down here if we just turn around and go home?"
+  }
+}

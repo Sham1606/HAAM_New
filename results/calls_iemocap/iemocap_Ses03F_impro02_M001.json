@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03F_impro02_M001",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:18:01.758484",
+  "duration_seconds": 7.44,
+  "transcript": "She's doing fine. She just took her first steps today. Actually I videotaped it for you. So you can watch it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.52,
+      "text": "She's doing fine. She just took her first steps today. Actually I videotaped it for you.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.939,
+      "sentiment_score": 0.7179,
+      "pitch_mean": 327.9
+    },
+    {
+      "start_time": 5.52,
+      "end_time": 7.36,
+      "text": "So you can watch it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.928,
+      "sentiment_score": 0.1166,
+      "pitch_mean": 327.5
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4172,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 169.36,
+    "avg_pitch": 327.99
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro02",
+    "utterance_id": "Ses03F_impro02_M001",
+    "transcript_ground_truth": "She's doing fine. She just took her first steps today actually. I videotaped it for you so you can watch it."
+  }
+}

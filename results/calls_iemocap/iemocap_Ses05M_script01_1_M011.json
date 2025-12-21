@@ -1,0 +1,63 @@
+{
+  "call_id": "iemocap_Ses05M_script01_1_M011",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:54:31.128036",
+  "duration_seconds": 11.06,
+  "transcript": "Why shouldn't he dream about him, walk around looking for him at night? Do we contradict him? Do we say straight out that we don't have any hope anymore that we have any hope for years now?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.88,
+      "text": "Why shouldn't he dream about him, walk around looking for him at night?",
+      "emotion": "fear",
+      "emotion_confidence": 0.825,
+      "sentiment_score": -0.1774,
+      "pitch_mean": 329.67
+    },
+    {
+      "start_time": 4.88,
+      "end_time": 6.28,
+      "text": "Do we contradict him?",
+      "emotion": "anger",
+      "emotion_confidence": 0.551,
+      "sentiment_score": -0.2209,
+      "pitch_mean": 318.91
+    },
+    {
+      "start_time": 6.28,
+      "end_time": 10.8,
+      "text": "Do we say straight out that we don't have any hope anymore that we have any hope for years now?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.708,
+      "sentiment_score": -0.3558,
+      "pitch_mean": 340.93
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2514,
+    "dominant_emotion": "fear",
+    "emotion_distribution": {
+      "fear": 0.333,
+      "anger": 0.333,
+      "neutral": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 200.72,
+    "avg_pitch": 330.48
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_1",
+    "utterance_id": "Ses05M_script01_1_M011",
+    "transcript_ground_truth": "Why should he dream about him, walking around looking for him at night?  Do we contradict him?  Do we say straight out that we don't have any hope anymore, that we haven't had any hope for years now?"
+  }
+}

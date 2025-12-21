@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01M_impro03_M021",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:52:41.144708",
+  "duration_seconds": 8.69,
+  "transcript": "And then we can honeymoon. I want to go tropical though. I'm like Bahamas or like the city or something It's one of like beach and like drink",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.66,
+      "text": "And then we can honeymoon. I want to go tropical though. I'm like Bahamas or like the city or something",
+      "emotion": "neutral",
+      "emotion_confidence": 0.642,
+      "sentiment_score": 0.6636,
+      "pitch_mean": 340.6
+    },
+    {
+      "start_time": 5.66,
+      "end_time": 7.66,
+      "text": "It's one of like beach and like drink",
+      "emotion": "disgust",
+      "emotion_confidence": 0.488,
+      "sentiment_score": 0.3573,
+      "pitch_mean": 328.02
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5105,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 193.38,
+    "avg_pitch": 339.22
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro03",
+    "utterance_id": "Ses01M_impro03_M021",
+    "transcript_ground_truth": "And then we can honeymoon.  I want to go tropical though like Bahamas- --or like Tahiti or something. I just want to like beach and like drink."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro05_M014",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:53:52.868257",
+  "duration_seconds": 2.68,
+  "transcript": "See where it came from originally, I mean, it seems like...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.56,
+      "text": "See where it came from originally, I mean, it seems like...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.845,
+      "sentiment_score": -0.0378,
+      "pitch_mean": 347.08
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0378,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 246.27,
+    "avg_pitch": 345.5
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro05",
+    "utterance_id": "Ses02M_impro05_M014",
+    "transcript_ground_truth": "see where it came from originally. I mean it seems like-"
+  }
+}

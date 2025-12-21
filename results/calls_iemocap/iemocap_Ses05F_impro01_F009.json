@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro01_F009",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:45:51.409211",
+  "duration_seconds": 2.62,
+  "transcript": "and how long is that gonna take?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "and how long is that gonna take?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.419,
+      "sentiment_score": -0.4003,
+      "pitch_mean": 338.28
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4003,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 160.31,
+    "avg_pitch": 339.13
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro01",
+    "utterance_id": "Ses05F_impro01_F009",
+    "transcript_ground_truth": "And how long is that going to take?"
+  }
+}

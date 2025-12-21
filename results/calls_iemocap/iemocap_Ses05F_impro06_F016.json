@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro06_F016",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:05:12.427395",
+  "duration_seconds": 4.79,
+  "transcript": "I can't imagine what his parents are going through.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I can't imagine what his parents are going through.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.922,
+      "sentiment_score": -0.8959,
+      "pitch_mean": 342.46
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8959,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 112.73,
+    "avg_pitch": 339.55
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 2.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro06",
+    "utterance_id": "Ses05F_impro06_F016",
+    "transcript_ground_truth": "I can't imagine what his- what his parents are going through."
+  }
+}

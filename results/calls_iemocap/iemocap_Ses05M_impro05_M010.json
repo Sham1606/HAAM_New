@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_impro05_M010",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:44:25.329720",
+  "duration_seconds": 4.42,
+  "transcript": "I mean, it's not big or anything like that. I mean, it's not worth a lot of money or anything.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I mean, it's not big or anything like that.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.768,
+      "sentiment_score": -0.0697,
+      "pitch_mean": 320.94
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "I mean, it's not worth a lot of money or anything.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.561,
+      "sentiment_score": -0.7959,
+      "pitch_mean": 325.02
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4328,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 271.5,
+    "avg_pitch": 319.6
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.6667,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro05",
+    "utterance_id": "Ses05M_impro05_M010",
+    "transcript_ground_truth": "I mean, it's not big or anything like that.  I mean, it's not worth a lot of money or anything."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro06_F009",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:54:40.406119",
+  "duration_seconds": 3.02,
+  "transcript": "She really cared about you, you know?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "She really cared about you, you know?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.451,
+      "sentiment_score": 0.4211,
+      "pitch_mean": 324.51
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4211,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 139.19,
+    "avg_pitch": 324.8
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro06",
+    "utterance_id": "Ses02M_impro06_F009",
+    "transcript_ground_truth": "She really cared about you, you know."
+  }
+}

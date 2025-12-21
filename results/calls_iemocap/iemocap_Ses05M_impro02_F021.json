@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro02_F021",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:35:11.929296",
+  "duration_seconds": 4.31,
+  "transcript": "You have to write me every day.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "You have to write me every day.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.837,
+      "sentiment_score": 0.0734,
+      "pitch_mean": 338.13
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0734,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 97.45,
+    "avg_pitch": 338.54
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro02",
+    "utterance_id": "Ses05M_impro02_F021",
+    "transcript_ground_truth": "[GARBAGE] You have to write me everyday."
+  }
+}

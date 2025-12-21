@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro08_F004",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:27:31.496956",
+  "duration_seconds": 3.65,
+  "transcript": "Okay, and this is for Verizon, the provider.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.5,
+      "text": "Okay, and this is for Verizon, the provider.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.928,
+      "sentiment_score": 0.0586,
+      "pitch_mean": 334.02
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0586,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 131.51,
+    "avg_pitch": 333.69
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro08",
+    "utterance_id": "Ses03F_impro08_F004",
+    "transcript_ground_truth": "Okay, and this is for Verizon? Your provider?"
+  }
+}

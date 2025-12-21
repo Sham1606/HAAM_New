@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script02_1_M042",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:07:42.964769",
+  "duration_seconds": 3.47,
+  "transcript": "Look at me. I'm giving myself goose bumps all my hairs are popping up",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.02,
+      "text": "Look at me. I'm giving myself goose bumps all my hairs are popping up",
+      "emotion": "anger",
+      "emotion_confidence": 0.489,
+      "sentiment_score": -0.4153,
+      "pitch_mean": 332.39
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4153,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 242.08,
+    "avg_pitch": 328.2
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script02_1",
+    "utterance_id": "Ses02M_script02_1_M042",
+    "transcript_ground_truth": "Look at me; I'm giving myself goose bumps all my hairs are popping up."
+  }
+}

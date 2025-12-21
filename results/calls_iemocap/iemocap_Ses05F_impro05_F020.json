@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro05_F020",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:01:14.068245",
+  "duration_seconds": 8.63,
+  "transcript": "Well, I just I paid so much money for this ticket. I feel like you guys should be able to get to offer me more than $50 voucher.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 8.0,
+      "text": "Well, I just I paid so much money for this ticket. I feel like you guys should be able to get to offer me more than $50 voucher.",
+      "emotion": "joy",
+      "emotion_confidence": 0.748,
+      "sentiment_score": -0.3225,
+      "pitch_mean": 349.2
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3225,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 194.67,
+    "avg_pitch": 345.75
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro05",
+    "utterance_id": "Ses05F_impro05_F020",
+    "transcript_ground_truth": "Well, I just-I paid so much money for this ticket.  I feel like you guys should be able to get-to offer me more than a fifty dollar voucher."
+  }
+}

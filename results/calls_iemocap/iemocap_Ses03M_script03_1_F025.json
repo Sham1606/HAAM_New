@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_script03_1_F025",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:52:08.050603",
+  "duration_seconds": 6.87,
+  "transcript": "Yeah, I know you did you threw it out the window and into the grand canal. I don't think I'll ever forgive you for that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Yeah, I know you did you threw it out the window and into the grand canal.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.355,
+      "sentiment_score": -0.6183,
+      "pitch_mean": 332.73
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 7.0,
+      "text": "I don't think I'll ever forgive you for that.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.9215,
+      "pitch_mean": 329.2
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7699,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 218.42,
+    "avg_pitch": 329.2
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script03_1",
+    "utterance_id": "Ses03M_script03_1_F025",
+    "transcript_ground_truth": "Yeah.  I know you did.  You threw it out the window and into the Grand Canal.  I don't think I'll ever forgive you for that."
+  }
+}

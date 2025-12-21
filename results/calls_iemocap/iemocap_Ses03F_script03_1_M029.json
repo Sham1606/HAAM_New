@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03F_script03_1_M029",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:44:07.789920",
+  "duration_seconds": 4.81,
+  "transcript": "Oh, I will never forget his face. Uuuh!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Oh, I will never forget his face.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.418,
+      "sentiment_score": 0.8866,
+      "pitch_mean": 348.23
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "Uuuh!",
+      "emotion": "joy",
+      "emotion_confidence": 0.394,
+      "sentiment_score": 0.4568,
+      "pitch_mean": 358.54
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.6717,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "joy": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 99.79,
+    "avg_pitch": 351.77
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.5,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script03_1",
+    "utterance_id": "Ses03F_script03_1_M029",
+    "transcript_ground_truth": "Oh, I will never forget his face. Ooh-rah [LAUGHTER]."
+  }
+}

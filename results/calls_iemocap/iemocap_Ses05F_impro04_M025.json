@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05F_impro04_M025",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:59:37.388585",
+  "duration_seconds": 12.77,
+  "transcript": "You can always stay with me if you have to stay with me for a while and keep yourself up back on your feet again You know I'm not gonna just you know throw you to the wolves or something like that if I this anyway can help you I will",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.88,
+      "text": "You can always stay with me if you have to stay with me for a while and keep yourself up back on your feet again",
+      "emotion": "neutral",
+      "emotion_confidence": 0.957,
+      "sentiment_score": 0.6244,
+      "pitch_mean": 326.68
+    },
+    {
+      "start_time": 6.36,
+      "end_time": 11.8,
+      "text": "You know I'm not gonna just you know throw you to the wolves or something like that if I this anyway can help you I will",
+      "emotion": "neutral",
+      "emotion_confidence": 0.697,
+      "sentiment_score": -0.268,
+      "pitch_mean": 330.12
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1782,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 239.63,
+    "avg_pitch": 325.07
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro04",
+    "utterance_id": "Ses05F_impro04_M025",
+    "transcript_ground_truth": "You can always stay with me if you- if you have to stay with me for a while and get yourself back up on your feet again.  You know I'm not just going to you know just throw you to the wolves or something like that.  If there's any way I can help you, I will."
+  }
+}

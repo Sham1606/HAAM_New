@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro08_F003",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:50:17.080067",
+  "duration_seconds": 10.7,
+  "transcript": "And I'll reset the IP address and I will do direct connect the modem to my computer and then reset everything and then put the router back in and",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 10.28,
+      "text": "And I'll reset the IP address and I will do direct connect the modem to my computer and then reset everything and then put the router back in and",
+      "emotion": "neutral",
+      "emotion_confidence": 0.927,
+      "sentiment_score": 0.0656,
+      "pitch_mean": 339.98
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0656,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 162.62,
+    "avg_pitch": 338.1
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro08",
+    "utterance_id": "Ses05M_impro08_F003",
+    "transcript_ground_truth": "And I'll reset the IP address.  I will do like, you know, direct connect the modem to my computer, and then reset everything, and then put the router back in. And-"
+  }
+}

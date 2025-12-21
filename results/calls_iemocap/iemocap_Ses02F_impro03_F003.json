@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses02F_impro03_F003",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:21:18.180157",
+  "duration_seconds": 5.37,
+  "transcript": "He wrote poems. He wrote poems. And I said yes, we're going to.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "He wrote poems.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.644,
+      "sentiment_score": 0.1521,
+      "pitch_mean": 347.61
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "He wrote poems.",
+      "emotion": "joy",
+      "emotion_confidence": 0.444,
+      "sentiment_score": 0.1521,
+      "pitch_mean": 369.6
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 5.0,
+      "text": "And I said yes, we're going to.",
+      "emotion": "joy",
+      "emotion_confidence": 0.471,
+      "sentiment_score": 0.6854,
+      "pitch_mean": 356.86
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3299,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "neutral": 0.333,
+      "joy": 0.667
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 145.2,
+    "avg_pitch": 361.38
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 5.0,
+    "arousal": 4.5,
+    "dominance": 2.75
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro03",
+    "utterance_id": "Ses02F_impro03_F003",
+    "transcript_ground_truth": "He proposed.  He proposed.  Well, and I said yes, of course. [LAUGHTER]"
+  }
+}

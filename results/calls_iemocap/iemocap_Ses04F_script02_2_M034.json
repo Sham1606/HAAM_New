@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04F_script02_2_M034",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:39:09.636322",
+  "duration_seconds": 9.47,
+  "transcript": "Sand in our toes and wind in our hair and the fish will always come and the bills will always pay themselves and Ha ha ha baby the jokes on us because you know what you get",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.32,
+      "text": "Sand in our toes and wind in our hair and the fish will always come and the bills will always pay themselves and",
+      "emotion": "neutral",
+      "emotion_confidence": 0.63,
+      "sentiment_score": 0.0051,
+      "pitch_mean": 341.3
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 9.12,
+      "text": "Ha ha ha baby the jokes on us because you know what you get",
+      "emotion": "joy",
+      "emotion_confidence": 0.787,
+      "sentiment_score": -0.4478,
+      "pitch_mean": 346.03
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2214,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "joy": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 234.35,
+    "avg_pitch": 339.18
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script02_2",
+    "utterance_id": "Ses04F_script02_2_M034",
+    "transcript_ground_truth": "Sand in our toes and wind in our hair and the fish will always come and the bills will always pay themselves and ha, ha baby the jokes on us.  Because you know what you get,"
+  }
+}

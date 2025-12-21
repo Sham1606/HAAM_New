@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script01_1b_M003",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:57:39.295698",
+  "duration_seconds": 6.5,
+  "transcript": "I don't know, but after he saw it, he ran back into the house and started crying in the kitchen.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "I don't know, but after he saw it, he ran back into the house and started crying in the kitchen.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.491,
+      "sentiment_score": -0.444,
+      "pitch_mean": 322.32
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.444,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 184.62,
+    "avg_pitch": 323.11
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_1b",
+    "utterance_id": "Ses05M_script01_1b_M003",
+    "transcript_ground_truth": "I don't know.  But after he saw it, he ran back into the house and started crying in the kitchen."
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses03M_script01_3_M040",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:45:02.648206",
+  "duration_seconds": 12.39,
+  "transcript": "Because you can take those things out for war. But you gotta know, when you drive that car that I came out of the love that a man can have for a man, and you gotta be a little bit better because of that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.64,
+      "text": "Because you can take those things out for war.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.812,
+      "sentiment_score": -0.6258,
+      "pitch_mean": 313.06
+    },
+    {
+      "start_time": 4.64,
+      "end_time": 8.76,
+      "text": "But you gotta know, when you drive that car that I came out of the love that a man can",
+      "emotion": "neutral",
+      "emotion_confidence": 0.808,
+      "sentiment_score": 0.3765,
+      "pitch_mean": 324.56
+    },
+    {
+      "start_time": 8.76,
+      "end_time": 11.96,
+      "text": "have for a man, and you gotta be a little bit better because of that.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.746,
+      "sentiment_score": 0.648,
+      "pitch_mean": 319.89
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1329,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 213.13,
+    "avg_pitch": 316.59
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_3",
+    "utterance_id": "Ses03M_script01_3_M040",
+    "transcript_ground_truth": "cause you can take those things out of the war.  But you got to know, when you drive that car that it came out of the love that a man can have for a man and you got to be a little bit better because of that."
+  }
+}

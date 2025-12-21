@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01M_script02_1_M044",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:10:04.230176",
+  "duration_seconds": 7.65,
+  "transcript": "and fall in the line and started swimming. Swimming that will bring them to this point here.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.68,
+      "text": "and fall in the line and started swimming.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.444,
+      "sentiment_score": 0.0938,
+      "pitch_mean": 330.36
+    },
+    {
+      "start_time": 3.68,
+      "end_time": 7.0,
+      "text": "Swimming that will bring them to this point here.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.864,
+      "sentiment_score": -0.0541,
+      "pitch_mean": 323.75
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0199,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 133.29,
+    "avg_pitch": 328.69
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script02_1",
+    "utterance_id": "Ses01M_script02_1_M044",
+    "transcript_ground_truth": "And form the line and started swimming, swimming that would bring them to this point here..."
+  }
+}

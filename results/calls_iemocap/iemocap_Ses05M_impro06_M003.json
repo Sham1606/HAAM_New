@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses05M_impro06_M003",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:45:37.358122",
+  "duration_seconds": 10.74,
+  "transcript": "Yeah. Just... I never thought it would actually happen. You know what I mean? He's such a fighter and he's always so positive about everything.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "Yeah.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.771,
+      "sentiment_score": 0.2224,
+      "pitch_mean": 295.73
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 5.0,
+      "text": "Just...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.878,
+      "sentiment_score": -0.1097,
+      "pitch_mean": 303.64
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 7.0,
+      "text": "I never thought it would actually happen. You know what I mean?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.94,
+      "sentiment_score": -0.5989,
+      "pitch_mean": 331.77
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 10.0,
+      "text": "He's such a fighter and he's always so positive about everything.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.67,
+      "sentiment_score": 0.9498,
+      "pitch_mean": 319.22
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1159,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "sadness": 0.25,
+      "neutral": 0.75
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 139.66,
+    "avg_pitch": 314.2
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 2.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro06",
+    "utterance_id": "Ses05M_impro06_M003",
+    "transcript_ground_truth": "Yeah.  It's just, I never thought it would actually happen, you know? I mean- He's such a fighter and he's always so positive about everything."
+  }
+}

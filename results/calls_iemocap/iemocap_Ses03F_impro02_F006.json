@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03F_impro02_F006",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:16:46.872930",
+  "duration_seconds": 11.66,
+  "transcript": "I really want to see that. Well, so I know at the center department they called me in and I talked to.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I really want to see that.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.446,
+      "sentiment_score": 0.7216,
+      "pitch_mean": 325.94
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 12.0,
+      "text": "Well, so I know at the center department they called me in and I talked to.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.828,
+      "sentiment_score": 0.0988,
+      "pitch_mean": 324.55
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4102,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 113.18,
+    "avg_pitch": 324.55
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro02",
+    "utterance_id": "Ses03F_impro02_F006",
+    "transcript_ground_truth": "I really want to say that. Well I, so, you know, at the center department they called me in and I talked to-"
+  }
+}

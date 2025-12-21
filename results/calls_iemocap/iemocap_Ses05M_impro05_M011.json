@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro05_M011",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:44:27.383538",
+  "duration_seconds": 3.63,
+  "transcript": "No, I mean, don't you get insurance when you buy your ticket or something?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "No, I mean, don't you get insurance when you buy your ticket or something?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.402,
+      "sentiment_score": -0.1174,
+      "pitch_mean": 314.92
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1174,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 231.41,
+    "avg_pitch": 309.03
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.3333,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro05",
+    "utterance_id": "Ses05M_impro05_M011",
+    "transcript_ground_truth": "No.  I mean, don't you get insurance when you buy your ticket or something?"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "call_id": "iemocap_Ses03F_script01_1_F043",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:30:36.091196",
+  "duration_seconds": 5.99,
+  "transcript": "You're gonna leave the business? You can't do that. What the hell is this? Business.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "You're gonna leave the business?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.415,
+      "sentiment_score": -0.2185,
+      "pitch_mean": 344.72
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 5.0,
+      "text": "You can't do that. What the hell is this?",
+      "emotion": "anger",
+      "emotion_confidence": 0.753,
+      "sentiment_score": -0.9298,
+      "pitch_mean": 365.51
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 6.0,
+      "text": "Business.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.653,
+      "sentiment_score": 0.1517,
+      "pitch_mean": 346.29
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3322,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.333,
+      "anger": 0.333,
+      "neutral": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 150.15,
+    "avg_pitch": 346.29
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.3333,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_1",
+    "utterance_id": "Ses03F_script01_1_F043",
+    "transcript_ground_truth": "You're what-you're going to leave the business? But you can't do that. What the hell is this?"
+  }
+}

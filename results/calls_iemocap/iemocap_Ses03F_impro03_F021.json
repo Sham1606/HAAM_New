@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro03_F021",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:19:37.712762",
+  "duration_seconds": 5.84,
+  "transcript": "Like I think I want to get married. I want to have two weddings one here and then one in here.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.5,
+      "text": "Like I think I want to get married. I want to have two weddings one here and then one in here.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.466,
+      "sentiment_score": 0.4126,
+      "pitch_mean": 322.7
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4126,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 215.6,
+    "avg_pitch": 322.65
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro03",
+    "utterance_id": "Ses03F_impro03_F021",
+    "transcript_ground_truth": "like I think I want to get married--I want to have two weddings. One here, then one in Europe."
+  }
+}

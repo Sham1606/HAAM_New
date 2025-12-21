@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02M_script01_3_M028",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:05:09.982906",
+  "duration_seconds": 15.19,
+  "transcript": "For instance, this one time I've been raining several days and this kid came up to me, gave me his last pair of dry socks. I put him in my pocket. That's only a little thing, but those are the kind of guys I had.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 8.0,
+      "text": "For instance, this one time I've been raining several days and this kid came up to me, gave me his last pair of dry socks.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.414,
+      "sentiment_score": 0.0203,
+      "pitch_mean": 316.75
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 15.0,
+      "text": "I put him in my pocket. That's only a little thing, but those are the kind of guys I had.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.9,
+      "sentiment_score": 0.208,
+      "pitch_mean": 320.1
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1141,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 177.72,
+    "avg_pitch": 318.41
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script01_3",
+    "utterance_id": "Ses02M_script01_3_M028",
+    "transcript_ground_truth": "For instance, this one time, it had been raining several days and this kid came to me and gave me his last pair of dry socks.  I put them in pocket.  It's only a little thing, but those are the kind of guys I had."
+  }
+}

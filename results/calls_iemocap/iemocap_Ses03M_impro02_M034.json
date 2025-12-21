@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro02_M034",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:51:21.881434",
+  "duration_seconds": 5.05,
+  "transcript": "So I have that you want me to choose between you guys or my career.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "So I have that you want me to choose between you guys or my career.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.915,
+      "sentiment_score": -0.2102,
+      "pitch_mean": 309.41
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2102,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 178.09,
+    "avg_pitch": 309.73
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro02",
+    "utterance_id": "Ses03M_impro02_M034",
+    "transcript_ground_truth": "So I have--you want me to choose between you guys or my career?"
+  }
+}

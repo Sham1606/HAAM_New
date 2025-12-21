@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro08a_F027",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:32:30.296805",
+  "duration_seconds": 6.7,
+  "transcript": "Yeah, yeah, woman going out and then South Central on the payphone at night. Oh, that's real safe.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.76,
+      "text": "Yeah, yeah, woman going out and then South Central on the payphone at night. Oh, that's real safe.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.873,
+      "sentiment_score": 0.4761,
+      "pitch_mean": 360.51
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4761,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 161.09,
+    "avg_pitch": 353.69
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro08a",
+    "utterance_id": "Ses03M_impro08a_F027",
+    "transcript_ground_truth": "Yeah yeah, woman going out in South Central on the payphone at night.  Oh that's real safe."
+  }
+}

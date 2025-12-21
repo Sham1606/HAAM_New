@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script02_2_M010",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:09:35.568572",
+  "duration_seconds": 2.2,
+  "transcript": "We'll see them this year.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "We'll see them this year.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.885,
+      "sentiment_score": 0.373,
+      "pitch_mean": 302.84
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.373,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 136.36,
+    "avg_pitch": 309.57
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script02_2",
+    "utterance_id": "Ses02M_script02_2_M010",
+    "transcript_ground_truth": "Well, we'll see them this year."
+  }
+}

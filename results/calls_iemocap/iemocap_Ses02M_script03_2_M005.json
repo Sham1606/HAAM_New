@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script03_2_M005",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:14:03.621796",
+  "duration_seconds": 2.66,
+  "transcript": "You let him kiss you, you said you did.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "You let him kiss you, you said you did.",
+      "emotion": "anger",
+      "emotion_confidence": 0.351,
+      "sentiment_score": 0.0371,
+      "pitch_mean": 303.98
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0371,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 203.06,
+    "avg_pitch": 310.83
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script03_2",
+    "utterance_id": "Ses02M_script03_2_M005",
+    "transcript_ground_truth": "You let him kiss you; you said you did."
+  }
+}

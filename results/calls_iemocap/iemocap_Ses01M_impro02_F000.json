@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro02_F000",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:49:34.239963",
+  "duration_seconds": 3.4,
+  "transcript": "What's happening?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "What's happening?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.81,
+      "sentiment_score": -0.0119,
+      "pitch_mean": 330.05
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0119,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 35.33,
+    "avg_pitch": 326.23
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro02",
+    "utterance_id": "Ses01M_impro02_F000",
+    "transcript_ground_truth": "What's happening?"
+  }
+}

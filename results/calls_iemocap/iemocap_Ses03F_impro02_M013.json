@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro02_M013",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:18:25.309326",
+  "duration_seconds": 6.08,
+  "transcript": "You remember last time we went you know how hard it was for me now we have a kid",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.1,
+      "text": "You remember last time we went you know how hard it was for me now we have a kid",
+      "emotion": "disgust",
+      "emotion_confidence": 0.322,
+      "sentiment_score": -0.2643,
+      "pitch_mean": 336.99
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2643,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 187.5,
+    "avg_pitch": 333.49
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro02",
+    "utterance_id": "Ses03F_impro02_M013",
+    "transcript_ground_truth": "You remember the last time you went? You know how hard it was for me? Now we have a kid."
+  }
+}

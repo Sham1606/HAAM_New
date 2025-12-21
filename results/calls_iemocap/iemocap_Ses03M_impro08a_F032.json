@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_impro08a_F032",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:32:43.441087",
+  "duration_seconds": 3.29,
+  "transcript": "In fact, give me your name, sir. What's your name again?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.52,
+      "text": "In fact, give me your name, sir.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.87,
+      "sentiment_score": 0.2226,
+      "pitch_mean": 344.64
+    },
+    {
+      "start_time": 1.52,
+      "end_time": 3.36,
+      "text": "What's your name again?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.799,
+      "sentiment_score": -0.0303,
+      "pitch_mean": 339.87
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0962,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 200.43,
+    "avg_pitch": 339.87
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro08a",
+    "utterance_id": "Ses03M_impro08a_F032",
+    "transcript_ground_truth": "In fact, give me your name sir, what's your name again?"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02M_impro02_M008",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:48:55.631776",
+  "duration_seconds": 6.25,
+  "transcript": "I hope so because I'm not gonna be able to survive without him. I don't know what I'm gonna do.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I hope so because I'm not gonna be able to survive without him.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.453,
+      "sentiment_score": -0.3348,
+      "pitch_mean": 324.79
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "I don't know what I'm gonna do.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.469,
+      "sentiment_score": -0.7927,
+      "pitch_mean": 316.77
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5637,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 192.12,
+    "avg_pitch": 321.21
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro02",
+    "utterance_id": "Ses02M_impro02_M008",
+    "transcript_ground_truth": "I hope so, because I'm not going to be able to survive without all that. I don't know what I'm going to do."
+  }
+}

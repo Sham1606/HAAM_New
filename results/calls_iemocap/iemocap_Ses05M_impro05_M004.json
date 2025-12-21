@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro05_M004",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:44:12.796687",
+  "duration_seconds": 4.17,
+  "transcript": "I was coming from the Midwest like Iowa.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I was coming from the Midwest like Iowa.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.754,
+      "sentiment_score": 0.0423,
+      "pitch_mean": 306.19
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0423,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 115.11,
+    "avg_pitch": 304.85
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro05",
+    "utterance_id": "Ses05M_impro05_M004",
+    "transcript_ground_truth": "I was coming from um the Midwest, like Iowa."
+  }
+}

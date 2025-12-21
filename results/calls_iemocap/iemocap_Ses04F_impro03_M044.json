@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04F_impro03_M044",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:05:41.546269",
+  "duration_seconds": 12.09,
+  "transcript": "You know that I've never, I have a long run of bad relationships, but you know, I mean, you gotta work through it, it's fine.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 9.32,
+      "text": "You know that I've never, I have a long run of bad relationships, but you know, I mean,",
+      "emotion": "disgust",
+      "emotion_confidence": 0.601,
+      "sentiment_score": -0.4333,
+      "pitch_mean": 334.44
+    },
+    {
+      "start_time": 9.32,
+      "end_time": 11.32,
+      "text": "you gotta work through it, it's fine.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.708,
+      "sentiment_score": 0.1309,
+      "pitch_mean": 346.01
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1512,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 124.08,
+    "avg_pitch": 335.6
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro03",
+    "utterance_id": "Ses04F_impro03_M044",
+    "transcript_ground_truth": "You know that I've never-I- I have a long run of bad relationships but, you know, I mean, you got to work through it.  It's fine."
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "call_id": "iemocap_Ses01F_script01_2_F013",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:34:26.854382",
+  "duration_seconds": 10.21,
+  "transcript": "Just believe with me, Joe? Only last week a man came back into Detroit missing longer than Larry. Believe with me, you above all have got to believe. Just believe! Be your football ball.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Just believe with me, Joe?",
+      "emotion": "anger",
+      "emotion_confidence": 0.864,
+      "sentiment_score": 0.1791,
+      "pitch_mean": 367.72
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 5.76,
+      "text": "Only last week a man came back into Detroit missing longer than Larry.",
+      "emotion": "anger",
+      "emotion_confidence": 0.513,
+      "sentiment_score": -0.5268,
+      "pitch_mean": 354.13
+    },
+    {
+      "start_time": 5.76,
+      "end_time": 8.64,
+      "text": "Believe with me, you above all have got to believe.",
+      "emotion": "anger",
+      "emotion_confidence": 0.646,
+      "sentiment_score": 0.8344,
+      "pitch_mean": 370.63
+    },
+    {
+      "start_time": 8.64,
+      "end_time": 9.64,
+      "text": "Just believe!",
+      "emotion": "anger",
+      "emotion_confidence": 0.779,
+      "sentiment_score": 0.8318,
+      "pitch_mean": 376.26
+    },
+    {
+      "start_time": 9.64,
+      "end_time": 10.14,
+      "text": "Be your football ball.",
+      "emotion": "joy",
+      "emotion_confidence": 0.526,
+      "sentiment_score": 0.3809,
+      "pitch_mean": 370.98
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3399,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.8,
+      "joy": 0.2
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 199.81,
+    "avg_pitch": 365.69
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.0,
+    "arousal": 4.5,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_2",
+    "utterance_id": "Ses01F_script01_2_F013",
+    "transcript_ground_truth": "Just believe with me, Joe. Only last week a man came back in Detroit missing longer than Larry.  Believe with me. You, above all, have got to believe. Just believe."
+  }
+}

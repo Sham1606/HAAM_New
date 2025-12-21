@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script01_3_F026",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:43:10.486374",
+  "duration_seconds": 2.73,
+  "transcript": "You gotta tell me.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "You gotta tell me.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.426,
+      "sentiment_score": -0.04,
+      "pitch_mean": 327.46
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.04,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 88.04,
+    "avg_pitch": 325.27
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_3",
+    "utterance_id": "Ses03M_script01_3_F026",
+    "transcript_ground_truth": "You got to tell me."
+  }
+}

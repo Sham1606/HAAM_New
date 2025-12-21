@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05M_impro06_M012",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:46:06.010971",
+  "duration_seconds": 6.96,
+  "transcript": "Do you think that things get easier? You know as you get older and you...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Do you think that things get easier?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.761,
+      "sentiment_score": 0.1077,
+      "pitch_mean": 307.53
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 6.0,
+      "text": "You know as you get older and you...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.645,
+      "sentiment_score": 0.0565,
+      "pitch_mean": 311.22
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0821,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 129.31,
+    "avg_pitch": 310.85
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro06",
+    "utterance_id": "Ses05M_impro06_M012",
+    "transcript_ground_truth": "You think that things get easier, you know, as you as you get older and you -"
+  }
+}

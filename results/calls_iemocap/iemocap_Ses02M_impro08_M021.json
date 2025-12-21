@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02M_impro08_M021",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:59:10.097236",
+  "duration_seconds": 7.12,
+  "transcript": "So it is a little harder in that situation. If you want, you can issue another credit card.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.92,
+      "text": "So it is a little harder in that situation.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.842,
+      "sentiment_score": -0.666,
+      "pitch_mean": 325.49
+    },
+    {
+      "start_time": 2.92,
+      "end_time": 6.92,
+      "text": "If you want, you can issue another credit card.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.967,
+      "sentiment_score": -0.0766,
+      "pitch_mean": 320.52
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3713,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 151.77,
+    "avg_pitch": 321.95
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.3333,
+    "arousal": 2.6667,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro08",
+    "utterance_id": "Ses02M_impro08_M021",
+    "transcript_ground_truth": "so it is a little a little hard in that situation if you want -- you know you can -um- we can- we can issue another credit card."
+  }
+}

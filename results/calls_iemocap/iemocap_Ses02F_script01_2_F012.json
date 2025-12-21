@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02F_script01_2_F012",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:34:22.999716",
+  "duration_seconds": 5.24,
+  "transcript": "Because if he's not coming back, I'll kill myself. I mean, laugh, laugh at me, but...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.44,
+      "text": "Because if he's not coming back, I'll kill myself.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.457,
+      "sentiment_score": -0.8365,
+      "pitch_mean": 337.96
+    },
+    {
+      "start_time": 3.44,
+      "end_time": 5.12,
+      "text": "I mean, laugh, laugh at me, but...",
+      "emotion": "joy",
+      "emotion_confidence": 0.74,
+      "sentiment_score": -0.1871,
+      "pitch_mean": 369.48
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5118,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "joy": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 183.21,
+    "avg_pitch": 346.98
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.6667,
+    "arousal": 3.6667,
+    "dominance": 3.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_2",
+    "utterance_id": "Ses02F_script01_2_F012",
+    "transcript_ground_truth": "Because if he's not coming back, I'll kill myself.  I mean, laugh--laugh at me, but..."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro08_M018",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:21:36.458156",
+  "duration_seconds": 2.88,
+  "transcript": "You're gonna fill out a form on your desk.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.92,
+      "text": "You're gonna fill out a form on your desk.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.0243,
+      "pitch_mean": 342.35
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0243,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 187.5,
+    "avg_pitch": 342.35
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro08",
+    "utterance_id": "Ses04F_impro08_M018",
+    "transcript_ground_truth": "You're going to fill out a form on your desk"
+  }
+}

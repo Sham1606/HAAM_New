@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script02_2_M037",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:51:01.019707",
+  "duration_seconds": 4.83,
+  "transcript": "I know, but I know I don't make you happy.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I know, but I know I don't make you happy.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.63,
+      "sentiment_score": -0.7365,
+      "pitch_mean": 323.0
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7365,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 124.23,
+    "avg_pitch": 320.89
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.3333,
+    "arousal": 2.6667,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_2",
+    "utterance_id": "Ses03M_script02_2_M037",
+    "transcript_ground_truth": "I know.  But I know I don't make you happy."
+  }
+}

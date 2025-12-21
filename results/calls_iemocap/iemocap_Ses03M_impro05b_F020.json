@@ -1,0 +1,63 @@
+{
+  "call_id": "iemocap_Ses03M_impro05b_F020",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:59:21.031395",
+  "duration_seconds": 6.46,
+  "transcript": "I mean, our airlines fault. So I don't know what happened misplaced, something happened, but we will get your luggage.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.24,
+      "text": "I mean, our airlines fault.",
+      "emotion": "anger",
+      "emotion_confidence": 0.538,
+      "sentiment_score": -0.8118,
+      "pitch_mean": 352.99
+    },
+    {
+      "start_time": 2.24,
+      "end_time": 5.0,
+      "text": "So I don't know what happened misplaced, something happened,",
+      "emotion": "disgust",
+      "emotion_confidence": 0.361,
+      "sentiment_score": -0.4096,
+      "pitch_mean": 349.34
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 6.48,
+      "text": "but we will get your luggage.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.1117,
+      "pitch_mean": 350.52
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3699,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.333,
+      "disgust": 0.333,
+      "neutral": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 185.61,
+    "avg_pitch": 350.52
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro05b",
+    "utterance_id": "Ses03M_impro05b_F020",
+    "transcript_ground_truth": "I mean, our airline's fault.  I don't know what happened, misplaced, something happened but we will get you--"
+  }
+}

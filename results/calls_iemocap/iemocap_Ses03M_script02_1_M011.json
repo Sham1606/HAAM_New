@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_script02_1_M011",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:46:25.428378",
+  "duration_seconds": 6.34,
+  "transcript": "Was it a full moon last year when they were running? I can't remember. Do you remember?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Was it a full moon last year when they were running?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.592,
+      "sentiment_score": 0.0564,
+      "pitch_mean": 320.7
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 6.0,
+      "text": "I can't remember. Do you remember?",
+      "emotion": "sadness",
+      "emotion_confidence": 0.742,
+      "sentiment_score": -0.338,
+      "pitch_mean": 307.75
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1408,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "sadness": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 160.95,
+    "avg_pitch": 312.68
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_1",
+    "utterance_id": "Ses03M_script02_1_M011",
+    "transcript_ground_truth": "Was it a full moon last year when they were running?  I can't remember.  Do you remember?"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script01_1_M017",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:33:08.308505",
+  "duration_seconds": 2.94,
+  "transcript": "So alright then I'll just go ahead with it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "So alright then I'll just go ahead with it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.723,
+      "sentiment_score": 0.2702,
+      "pitch_mean": 333.92
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2702,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 183.88,
+    "avg_pitch": 333.92
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.6667,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_1",
+    "utterance_id": "Ses01F_script01_1_M017",
+    "transcript_ground_truth": "So all right then, I'll just go ahead with it?"
+  }
+}

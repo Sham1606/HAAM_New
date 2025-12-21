@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro03_F000",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:49:19.102155",
+  "duration_seconds": 3.81,
+  "transcript": "What? What? You look really happy what's going on?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "What? What? You look really happy what's going on?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.905,
+      "sentiment_score": 0.955,
+      "pitch_mean": 382.98
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.955,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 141.68,
+    "avg_pitch": 357.57
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro03",
+    "utterance_id": "Ses02M_impro03_F000",
+    "transcript_ground_truth": "What? What? You look really happy what's going on?"
+  }
+}

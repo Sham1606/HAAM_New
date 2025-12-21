@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03F_impro02_F016",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:17:08.483520",
+  "duration_seconds": 6.87,
+  "transcript": "I know, I have to take this. I mean, if I don't, I mean, I can get fired.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.72,
+      "text": "I know, I have to take this.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.671,
+      "sentiment_score": 0.1163,
+      "pitch_mean": 322.13
+    },
+    {
+      "start_time": 3.72,
+      "end_time": 6.72,
+      "text": "I mean, if I don't, I mean, I can get fired.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.434,
+      "sentiment_score": -0.6399,
+      "pitch_mean": 331.49
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2618,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 157.15,
+    "avg_pitch": 325.35
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro02",
+    "utterance_id": "Ses03F_impro02_F016",
+    "transcript_ground_truth": "I know, but look, I have to take this. I mean, if I don't, I mean, I could get fired."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04M_impro01_M015",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:47:32.793955",
+  "duration_seconds": 6.58,
+  "transcript": "Well, I just I can't do that right. Can you please just grab the form all you have to do is grab the form I'm not gonna ask anything else of you",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.94,
+      "text": "Well, I just I can't do that right. Can you please just grab the form all you have to do is grab the form",
+      "emotion": "anger",
+      "emotion_confidence": 0.443,
+      "sentiment_score": -0.725,
+      "pitch_mean": 334.11
+    },
+    {
+      "start_time": 4.94,
+      "end_time": 6.94,
+      "text": "I'm not gonna ask anything else of you",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.3554,
+      "pitch_mean": 335.28
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5402,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 291.8,
+    "avg_pitch": 335.28
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro01",
+    "utterance_id": "Ses04M_impro01_M015",
+    "transcript_ground_truth": "Well I just -- I can't do that right -- can you please just grab the form? All you have to do is grab the form.  I'm not gonna ask anything else of you."
+  }
+}

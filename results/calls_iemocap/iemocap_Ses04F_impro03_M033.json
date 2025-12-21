@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses04F_impro03_M033",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:05:15.702059",
+  "duration_seconds": 10.64,
+  "transcript": "Well, I mean, you know, you're gonna have at least like 250 people come. So, we're gonna need, you know, just a huge buffet.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "Well, I mean, you know, you're gonna have at least like 250 people come.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.861,
+      "sentiment_score": 0.1633,
+      "pitch_mean": 324.43
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 10.0,
+      "text": "So, we're gonna need, you know, just a huge buffet.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.723,
+      "sentiment_score": 0.0803,
+      "pitch_mean": 322.08
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1218,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 135.34,
+    "avg_pitch": 322.94
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro03",
+    "utterance_id": "Ses04F_impro03_M033",
+    "transcript_ground_truth": "I mean, you know, you're going to have at least, like, two hundred and fifty people come.  So we're going to need, you know, just a huge buffet."
+  }
+}

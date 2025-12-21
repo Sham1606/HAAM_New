@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script01_3_M009",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:04:35.347603",
+  "duration_seconds": 4.18,
+  "transcript": "I have no imagination, that's all I know to tell you.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I have no imagination, that's all I know to tell you.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.54,
+      "sentiment_score": -0.6147,
+      "pitch_mean": 325.9
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6147,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 157.83,
+    "avg_pitch": 325.41
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script01_3",
+    "utterance_id": "Ses02M_script01_3_M009",
+    "transcript_ground_truth": "I have no imagination.  That's all I know to tell you."
+  }
+}

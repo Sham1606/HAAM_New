@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04F_impro08_F018",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:20:22.058627",
+  "duration_seconds": 3.51,
+  "transcript": "Sir, sir, I'm going to transfer you to the address. Get into me on the other ear.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Sir, sir, I'm going to transfer you to the address.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.837,
+      "sentiment_score": 0.1485,
+      "pitch_mean": 360.59
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.5,
+      "text": "Get into me on the other ear.",
+      "emotion": "joy",
+      "emotion_confidence": 0.554,
+      "sentiment_score": 0.2277,
+      "pitch_mean": 364.18
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1881,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "joy": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 290.6,
+    "avg_pitch": 362.67
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro08",
+    "utterance_id": "Ses04F_impro08_F018",
+    "transcript_ground_truth": "Alright, sir. Sir.  I'm going to transfer you to the address."
+  }
+}

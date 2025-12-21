@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script01_1_M036",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:02:01.896440",
+  "duration_seconds": 5.01,
+  "transcript": "Get out, get married and go live someplace else, maybe New York.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Get out, get married and go live someplace else, maybe New York.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.794,
+      "sentiment_score": -0.414,
+      "pitch_mean": 328.97
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.414,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 143.71,
+    "avg_pitch": 329.07
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script01_1",
+    "utterance_id": "Ses02M_script01_1_M036",
+    "transcript_ground_truth": "I'll get out. I'll get married and go live some place else, maybe New York."
+  }
+}

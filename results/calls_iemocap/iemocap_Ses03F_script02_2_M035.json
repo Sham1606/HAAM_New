@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script02_2_M035",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:41:50.293960",
+  "duration_seconds": 3.95,
+  "transcript": "Yeah, maybe if you are with someone else too.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Yeah, maybe if you are with someone else too.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.89,
+      "sentiment_score": 0.0183,
+      "pitch_mean": 330.69
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0183,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 136.68,
+    "avg_pitch": 330.69
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_2",
+    "utterance_id": "Ses03F_script02_2_M035",
+    "transcript_ground_truth": "Yeah, maybe if you were with someone else too."
+  }
+}

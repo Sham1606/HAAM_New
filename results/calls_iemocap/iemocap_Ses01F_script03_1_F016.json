@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script03_1_F016",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:43:30.815449",
+  "duration_seconds": 2.87,
+  "transcript": "Oh dear, should we like that?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Oh dear, should we like that?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.32,
+      "sentiment_score": -0.4654,
+      "pitch_mean": 344.52
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4654,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 125.54,
+    "avg_pitch": 344.41
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script03_1",
+    "utterance_id": "Ses01F_script03_1_F016",
+    "transcript_ground_truth": "Oh dear, should we like that?"
+  }
+}

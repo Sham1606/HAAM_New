@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_script03_2_F038",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:16:56.880936",
+  "duration_seconds": 2.72,
+  "transcript": "They're away in Tunis.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "They're away in Tunis.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.917,
+      "sentiment_score": -0.1964,
+      "pitch_mean": 337.8
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1964,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 88.24,
+    "avg_pitch": 325.73
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script03_2",
+    "utterance_id": "Ses04M_script03_2_F038",
+    "transcript_ground_truth": "They're away in Tunis."
+  }
+}

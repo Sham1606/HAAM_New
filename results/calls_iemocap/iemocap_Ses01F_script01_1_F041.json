@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses01F_script01_1_F041",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:32:27.513736",
+  "duration_seconds": 9.78,
+  "transcript": "Alright, but you don't want to think like that. Because what the hell are we working for, Chris? It's all for you! This whole shoot matches for you!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Alright, but you don't want to think like that.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.557,
+      "sentiment_score": -0.5109,
+      "pitch_mean": 337.8
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.52,
+      "text": "Because what the hell are we working for, Chris?",
+      "emotion": "anger",
+      "emotion_confidence": 0.725,
+      "sentiment_score": -0.8882,
+      "pitch_mean": 364.56
+    },
+    {
+      "start_time": 6.52,
+      "end_time": 7.52,
+      "text": "It's all for you!",
+      "emotion": "anger",
+      "emotion_confidence": 0.519,
+      "sentiment_score": 0.9541,
+      "pitch_mean": 375.54
+    },
+    {
+      "start_time": 7.52,
+      "end_time": 9.52,
+      "text": "This whole shoot matches for you!",
+      "emotion": "anger",
+      "emotion_confidence": 0.486,
+      "sentiment_score": 0.6621,
+      "pitch_mean": 392.81
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0543,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "disgust": 0.25,
+      "anger": 0.75
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 171.78,
+    "avg_pitch": 353.19
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.6667,
+    "arousal": 4.6667,
+    "dominance": 4.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_1",
+    "utterance_id": "Ses01F_script01_1_F041",
+    "transcript_ground_truth": "All right.  But you don't want to think like that because what the hell are we working for, Chris?  It's all for you.  This whole shooting match is for you."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02M_impro02_M015",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:49:08.881683",
+  "duration_seconds": 6.51,
+  "transcript": "Yeah, of course. I'll know if we'll have computers or anything like that, you know, so probably my only option.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.12,
+      "text": "Yeah, of course. I'll know if we'll have computers or anything like that, you know, so probably",
+      "emotion": "neutral",
+      "emotion_confidence": 0.951,
+      "sentiment_score": 0.2139,
+      "pitch_mean": 324.37
+    },
+    {
+      "start_time": 5.12,
+      "end_time": 6.12,
+      "text": "my only option.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.828,
+      "sentiment_score": -0.0023,
+      "pitch_mean": 326.65
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1058,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "sadness": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 184.27,
+    "avg_pitch": 324.19
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro02",
+    "utterance_id": "Ses02M_impro02_M015",
+    "transcript_ground_truth": "Yeah, of course. I don't know if we'll have computers or anything like that you know, so probably my only option then."
+  }
+}

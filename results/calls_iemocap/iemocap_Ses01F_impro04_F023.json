@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro04_F023",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:21:56.626622",
+  "duration_seconds": 4.3,
+  "transcript": "Do you think that you're better than me because I don't have a car?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.44,
+      "text": "Do you think that you're better than me because I don't have a car?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.398,
+      "sentiment_score": -0.2626,
+      "pitch_mean": 337.26
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2626,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 195.35,
+    "avg_pitch": 335.99
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro04",
+    "utterance_id": "Ses01F_impro04_F023",
+    "transcript_ground_truth": "you think that you're better than me because I don't have a car?"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_script02_1_M040",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:47:44.496377",
+  "duration_seconds": 6.76,
+  "transcript": "We just start swimming to this place right here where we stand for a massive celebration of sex and death.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.2,
+      "text": "We just start swimming to this place right here where we stand for a massive celebration",
+      "emotion": "disgust",
+      "emotion_confidence": 0.431,
+      "sentiment_score": 0.9178,
+      "pitch_mean": 312.98
+    },
+    {
+      "start_time": 5.2,
+      "end_time": 6.48,
+      "text": "of sex and death.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.362,
+      "sentiment_score": -0.643,
+      "pitch_mean": 320.69
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1374,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 177.39,
+    "avg_pitch": 314.16
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_1",
+    "utterance_id": "Ses03M_script02_1_M040",
+    "transcript_ground_truth": "They just start swimming to this place right here where we stand for massive celebration of sex and death."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05M_script03_1_M024",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:12:18.527074",
+  "duration_seconds": 12.58,
+  "transcript": "I don't care what you do see you could paint your body bright green and run Dakin through the palace venom and run off with every man in the world and I shouldn't say a word as long as I know that you love me best",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.52,
+      "text": "I don't care what you do see you could paint your body bright green and run",
+      "emotion": "anger",
+      "emotion_confidence": 0.586,
+      "sentiment_score": -0.4279,
+      "pitch_mean": 319.68
+    },
+    {
+      "start_time": 5.28,
+      "end_time": 12.04,
+      "text": "Dakin through the palace venom and run off with every man in the world and I shouldn't say a word as long as I know that you love me best",
+      "emotion": "anger",
+      "emotion_confidence": 0.752,
+      "sentiment_score": 0.4887,
+      "pitch_mean": 341.48
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0304,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 219.4,
+    "avg_pitch": 327.7
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 4.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script03_1",
+    "utterance_id": "Ses05M_script03_1_M024",
+    "transcript_ground_truth": "I don't care what you do.  See, you could paint your body bright green and and run naked through the Place Vendome and run with every man in the world and I shan't say a word.  As long as I know that you love me best."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script01_3_F013",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:18:04.406457",
+  "duration_seconds": 1.53,
+  "transcript": "for back every day since.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "for back every day since.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.898,
+      "sentiment_score": 0.1421,
+      "pitch_mean": 327.6
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1421,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 196.34,
+    "avg_pitch": 327.6
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_3",
+    "utterance_id": "Ses05F_script01_3_F013",
+    "transcript_ground_truth": "Every day since."
+  }
+}

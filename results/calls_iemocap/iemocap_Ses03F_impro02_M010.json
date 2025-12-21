@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro02_M010",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:18:20.678746",
+  "duration_seconds": 4.57,
+  "transcript": "You know what happened to my cousin she went and she never came back with...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "You know what happened to my cousin she went and she never came back with...",
+      "emotion": "sadness",
+      "emotion_confidence": 0.343,
+      "sentiment_score": -0.7199,
+      "pitch_mean": 330.19
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7199,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 196.83,
+    "avg_pitch": 331.08
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro02",
+    "utterance_id": "Ses03F_impro02_M010",
+    "transcript_ground_truth": "You know what happened to my cousin. She went and she never came back."
+  }
+}

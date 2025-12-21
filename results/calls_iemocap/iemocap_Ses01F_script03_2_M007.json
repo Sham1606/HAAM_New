@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script03_2_M007",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:46:41.681735",
+  "duration_seconds": 2.6,
+  "transcript": "What about me?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "What about me?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.426,
+      "sentiment_score": 0.008,
+      "pitch_mean": 325.67
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.008,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 69.25,
+    "avg_pitch": 323.15
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script03_2",
+    "utterance_id": "Ses01F_script03_2_M007",
+    "transcript_ground_truth": "What about me?"
+  }
+}

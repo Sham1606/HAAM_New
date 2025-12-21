@@ -1,0 +1,99 @@
+{
+  "call_id": "iemocap_Ses05M_script02_1_M030",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:06:29.944982",
+  "duration_seconds": 34.14,
+  "transcript": "Somewhere out there is a giant mass of silverfish all swimming in this direction They don't know why they're doing it. We don't know why they're doing it. They didn't There wasn't a decision no one took a vote nobody sent them an invitation or a map or anything like that It was just some internal Time release firecracker that went off and all those one they turned around and formed this giant line as long as like California coastline and they just started swimming they're swimming right now at this very moment and and",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.52,
+      "text": "Somewhere out there is a giant mass of silverfish all swimming in this direction",
+      "emotion": "joy",
+      "emotion_confidence": 0.285,
+      "sentiment_score": -0.1799,
+      "pitch_mean": 320.76
+    },
+    {
+      "start_time": 6.2,
+      "end_time": 9.56,
+      "text": "They don't know why they're doing it. We don't know why they're doing it. They didn't",
+      "emotion": "anger",
+      "emotion_confidence": 0.503,
+      "sentiment_score": -0.6926,
+      "pitch_mean": 340.14
+    },
+    {
+      "start_time": 11.32,
+      "end_time": 16.68,
+      "text": "There wasn't a decision no one took a vote nobody sent them an invitation or a map or anything like that",
+      "emotion": "neutral",
+      "emotion_confidence": 0.913,
+      "sentiment_score": -0.5033,
+      "pitch_mean": 330.92
+    },
+    {
+      "start_time": 16.68,
+      "end_time": 18.68,
+      "text": "It was just some",
+      "emotion": "neutral",
+      "emotion_confidence": 0.953,
+      "sentiment_score": -0.029,
+      "pitch_mean": 317.31
+    },
+    {
+      "start_time": 18.68,
+      "end_time": 19.48,
+      "text": "internal",
+      "emotion": "neutral",
+      "emotion_confidence": 0.809,
+      "sentiment_score": -0.0016,
+      "pitch_mean": 342.56
+    },
+    {
+      "start_time": 19.48,
+      "end_time": 25.84,
+      "text": "Time release firecracker that went off and all those one they turned around and formed this giant line as long as like",
+      "emotion": "neutral",
+      "emotion_confidence": 0.921,
+      "sentiment_score": 0.0229,
+      "pitch_mean": 338.45
+    },
+    {
+      "start_time": 25.84,
+      "end_time": 33.44,
+      "text": "California coastline and they just started swimming they're swimming right now at this very moment and and",
+      "emotion": "neutral",
+      "emotion_confidence": 0.542,
+      "sentiment_score": 0.2788,
+      "pitch_mean": 330.23
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1578,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "joy": 0.143,
+      "anger": 0.143,
+      "neutral": 0.714
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 166.97,
+    "avg_pitch": 328.23
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 5.0,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script02_1",
+    "utterance_id": "Ses05M_script02_1_M030",
+    "transcript_ground_truth": "somewhere out there is a giant mass of silver fish all swimming in this direction.  They don't know why they're doing it.  We don't know why they're doing it.  They didn't- It wasn't a decision.  No one took a vote.  Nobody sent them an invitation or a map or anything like that.  It was just some internal time release fire cracker that went off. And all as one they turned around and formed this giant line as long as the California coastline and they just started swimming.  They are swimming right now at this very moment.   And And-"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro08_F001",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:27:25.878213",
+  "duration_seconds": 1.19,
+  "transcript": "Thank you.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "Thank you.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.666,
+      "sentiment_score": 0.8156,
+      "pitch_mean": 332.24
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.8156,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 100.85,
+    "avg_pitch": 332.95
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro08",
+    "utterance_id": "Ses03F_impro08_F001",
+    "transcript_ground_truth": "I [GARBAGE]"
+  }
+}

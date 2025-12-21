@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_impro02_M012",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:35:48.787287",
+  "duration_seconds": 8.67,
+  "transcript": "Tell him about me and show him pictures of me and everything like that because they're not gonna see me for such a long time And such an important time and I just don't want to miss it",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.38,
+      "text": "Tell him about me and show him pictures of me and everything like that because they're not gonna see me for such a long time",
+      "emotion": "disgust",
+      "emotion_confidence": 0.514,
+      "sentiment_score": -0.1622,
+      "pitch_mean": 330.88
+    },
+    {
+      "start_time": 4.38,
+      "end_time": 6.62,
+      "text": "And such an important time and I just don't want to miss it",
+      "emotion": "sadness",
+      "emotion_confidence": 0.848,
+      "sentiment_score": 0.6352,
+      "pitch_mean": 347.67
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2365,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "sadness": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 262.98,
+    "avg_pitch": 336.04
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.3333,
+    "arousal": 4.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro02",
+    "utterance_id": "Ses05M_impro02_M012",
+    "transcript_ground_truth": "tell them about me and show them pictures of me and everything like that, because they are not going to see me for such a long time.  And it's such an important time and I just don't want to miss it."
+  }
+}

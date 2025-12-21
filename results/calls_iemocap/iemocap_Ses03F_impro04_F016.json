@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03F_impro04_F016",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:21:09.112003",
+  "duration_seconds": 9.39,
+  "transcript": "I could go to the last school but it's not passionate about it, you know? Like I'm not, it doesn't drive me, it doesn't motivate me.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.44,
+      "text": "I could go to the last school but it's not passionate about it, you know?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.459,
+      "sentiment_score": -0.7001,
+      "pitch_mean": 330.23
+    },
+    {
+      "start_time": 5.44,
+      "end_time": 9.12,
+      "text": "Like I'm not, it doesn't drive me, it doesn't motivate me.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.434,
+      "sentiment_score": -0.8006,
+      "pitch_mean": 317.41
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7504,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 166.16,
+    "avg_pitch": 325.4
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro04",
+    "utterance_id": "Ses03F_impro04_F016",
+    "transcript_ground_truth": "I mean, I could go to law school, but I'm just not passionate about it, you know? Like I'm not--it doesn't drive me, it doesn't motivate me. I--"
+  }
+}

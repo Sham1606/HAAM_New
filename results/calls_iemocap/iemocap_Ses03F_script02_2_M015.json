@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script02_2_M015",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:41:09.701375",
+  "duration_seconds": 7.83,
+  "transcript": "So I'm getting the animals put in the animals out in the yard. I'm putting on my jacket getting the car out of the garage",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.56,
+      "text": "So I'm getting the animals put in the animals out in the yard. I'm putting on my jacket getting the car out of the garage",
+      "emotion": "neutral",
+      "emotion_confidence": 0.733,
+      "sentiment_score": 0.0624,
+      "pitch_mean": 339.47
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0624,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 191.59,
+    "avg_pitch": 340.11
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.6667,
+    "arousal": 3.3333,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_2",
+    "utterance_id": "Ses03F_script02_2_M015",
+    "transcript_ground_truth": "And so I'm getting the animals, putting the animals out in the yard. I'm putting on my jacket, getting the car out of the garage-"
+  }
+}

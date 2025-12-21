@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro06_M020",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:58:44.960384",
+  "duration_seconds": 1.39,
+  "transcript": "Good.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.7,
+      "text": "Good.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.739,
+      "pitch_mean": 325.39
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.739,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 43.17,
+    "avg_pitch": 325.39
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro06",
+    "utterance_id": "Ses01M_impro06_M020",
+    "transcript_ground_truth": "What?"
+  }
+}

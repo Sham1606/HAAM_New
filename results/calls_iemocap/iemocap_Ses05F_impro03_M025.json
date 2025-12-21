@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro03_M025",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:53:53.596403",
+  "duration_seconds": 1.78,
+  "transcript": "Where's he from again?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Where's he from again?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.526,
+      "sentiment_score": -0.0089,
+      "pitch_mean": 316.02
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0089,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 134.84,
+    "avg_pitch": 316.02
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro03",
+    "utterance_id": "Ses05F_impro03_M025",
+    "transcript_ground_truth": "Yeah, where's he from again?"
+  }
+}

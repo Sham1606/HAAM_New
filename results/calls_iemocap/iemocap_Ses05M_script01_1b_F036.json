@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_script01_1b_F036",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:57:16.227404",
+  "duration_seconds": 2.33,
+  "transcript": "Don't think like that, you hear me? I...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Don't think like that, you hear me?",
+      "emotion": "sadness",
+      "emotion_confidence": 0.547,
+      "sentiment_score": -0.476,
+      "pitch_mean": 319.85
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "I...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.7,
+      "sentiment_score": 0.0646,
+      "pitch_mean": 329.14
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2057,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 206.01,
+    "avg_pitch": 329.14
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_1b",
+    "utterance_id": "Ses05M_script01_1b_F036",
+    "transcript_ground_truth": "Don't think like that, do you hear me?"
+  }
+}

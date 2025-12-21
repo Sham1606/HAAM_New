@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05M_impro04_M030",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:42:28.576952",
+  "duration_seconds": 1.61,
+  "transcript": "I've tried. Like pranks?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "I've tried.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.662,
+      "sentiment_score": 0.069,
+      "pitch_mean": 322.89
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 2.0,
+      "text": "Like pranks?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.827,
+      "sentiment_score": -0.3428,
+      "pitch_mean": 322.04
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1369,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 149.07,
+    "avg_pitch": 322.04
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro04",
+    "utterance_id": "Ses05M_impro04_M030",
+    "transcript_ground_truth": "I've tried."
+  }
+}

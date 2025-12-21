@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses05M_script01_3_M031",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:03:19.498011",
+  "duration_seconds": 16.59,
+  "transcript": "Everything was being destroyed, see. But I felt like something new was being created at the same time, like a kind of responsibility. You know, man to man, you understand what I'm saying?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Everything was being destroyed, see.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.66,
+      "sentiment_score": -0.8458,
+      "pitch_mean": 320.67
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 14.0,
+      "text": "But I felt like something new was being created at the same time, like a kind of responsibility.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.493,
+      "sentiment_score": 0.3803,
+      "pitch_mean": 319.85
+    },
+    {
+      "start_time": 14.0,
+      "end_time": 16.0,
+      "text": "You know, man to man, you understand what I'm saying?",
+      "emotion": "anger",
+      "emotion_confidence": 0.395,
+      "sentiment_score": 0.1508,
+      "pitch_mean": 327.42
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1049,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.667,
+      "anger": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 119.35,
+    "avg_pitch": 319.93
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_3",
+    "utterance_id": "Ses05M_script01_3_M031",
+    "transcript_ground_truth": "Everything was being destroyed see, but I felt like something new was being created at the same time.  Like it kind of -- responsibility.  You know, man to man.  Do you understand what I'm saying?"
+  }
+}

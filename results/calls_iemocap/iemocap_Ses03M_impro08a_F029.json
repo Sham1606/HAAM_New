@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_impro08a_F029",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:32:35.696767",
+  "duration_seconds": 7.55,
+  "transcript": "We can't call out, we can't make out mine. I don't work, I work at another office.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.6,
+      "text": "We can't call out, we can't make out mine.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.428,
+      "sentiment_score": -0.5768,
+      "pitch_mean": 337.95
+    },
+    {
+      "start_time": 4.6,
+      "end_time": 7.6,
+      "text": "I don't work, I work at another office.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.0528,
+      "pitch_mean": 341.41
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3148,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 135.06,
+    "avg_pitch": 341.41
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro08a",
+    "utterance_id": "Ses03M_impro08a_F029",
+    "transcript_ground_truth": "We can't call out.  We can't make out-- line.  I don't work, I work at another office."
+  }
+}

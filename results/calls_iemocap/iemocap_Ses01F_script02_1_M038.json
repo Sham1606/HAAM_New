@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses01F_script02_1_M038",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:39:33.593265",
+  "duration_seconds": 14.62,
+  "transcript": "just all at once they turned and they formed this line as long as the California coast and some instinctual little firecracker went off in their bodies and they just turned as one and started swimming.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.16,
+      "text": "just all at once they turned and they formed this line as long as the",
+      "emotion": "neutral",
+      "emotion_confidence": 0.901,
+      "sentiment_score": 0.0742,
+      "pitch_mean": 329.3
+    },
+    {
+      "start_time": 5.16,
+      "end_time": 10.38,
+      "text": "California coast and some instinctual little firecracker went off in their",
+      "emotion": "disgust",
+      "emotion_confidence": 0.522,
+      "sentiment_score": -0.1859,
+      "pitch_mean": 332.53
+    },
+    {
+      "start_time": 10.38,
+      "end_time": 14.88,
+      "text": "bodies and they just turned as one and started swimming.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.846,
+      "sentiment_score": 0.0816,
+      "pitch_mean": 330.62
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.01,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "disgust": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 147.72,
+    "avg_pitch": 330.62
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_1",
+    "utterance_id": "Ses01F_script02_1_M038",
+    "transcript_ground_truth": "Just all at once, they turned and they formed this line as long as the California coast.  And some instinctual little firecracker went off in their bodies and they all just turned as one and started swimming."
+  }
+}

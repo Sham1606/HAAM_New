@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script02_2_F041",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:09:08.354185",
+  "duration_seconds": 3.05,
+  "transcript": "I'll give you refreshments.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I'll give you refreshments.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.867,
+      "sentiment_score": 0.5214,
+      "pitch_mean": 339.61
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5214,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 78.69,
+    "avg_pitch": 337.98
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script02_2",
+    "utterance_id": "Ses02M_script02_2_F041",
+    "transcript_ground_truth": "Augie, you brought refreshments."
+  }
+}

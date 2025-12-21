@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01M_script02_1_M013",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:09:01.076688",
+  "duration_seconds": 7.22,
+  "transcript": "Are you alright? Are you okay? You cool? Join my jacket? Join my jacket?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Are you alright? Are you okay? You cool?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.468,
+      "sentiment_score": 0.3713,
+      "pitch_mean": 341.33
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 5.0,
+      "text": "Join my jacket? Join my jacket?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.733,
+      "sentiment_score": 0.0952,
+      "pitch_mean": 346.04
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2332,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 116.38,
+    "avg_pitch": 338.6
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script02_1",
+    "utterance_id": "Ses01M_script02_1_M013",
+    "transcript_ground_truth": "Are you all right?  Are you okay?  You cold?  Do you want to my jacket? My jacket? No?"
+  }
+}

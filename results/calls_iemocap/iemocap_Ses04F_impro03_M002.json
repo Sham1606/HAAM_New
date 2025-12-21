@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro03_M002",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:04:04.946363",
+  "duration_seconds": 2.59,
+  "transcript": "Are you serious? You're getting married?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Are you serious? You're getting married?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.638,
+      "sentiment_score": -0.1152,
+      "pitch_mean": 327.74
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1152,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 139.0,
+    "avg_pitch": 341.65
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "sur",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro03",
+    "utterance_id": "Ses04F_impro03_M002",
+    "transcript_ground_truth": "Are you serious?  You're getting married."
+  }
+}

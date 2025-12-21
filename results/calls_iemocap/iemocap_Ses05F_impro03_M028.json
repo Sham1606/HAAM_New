@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro03_M028",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:53:59.801496",
+  "duration_seconds": 4.26,
+  "transcript": "Exactly! Yeah! Can't believe you met him in Africa.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Exactly! Yeah! Can't believe you met him in Africa.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.928,
+      "sentiment_score": 0.6608,
+      "pitch_mean": 338.41
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.6608,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 126.76,
+    "avg_pitch": 337.64
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.5,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro03",
+    "utterance_id": "Ses05F_impro03_M028",
+    "transcript_ground_truth": "Exactly, yeah.  I can't believe you met him in Africa."
+  }
+}

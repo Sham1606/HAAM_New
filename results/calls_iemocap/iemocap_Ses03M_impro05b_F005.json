@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro05b_F005",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:58:53.814327",
+  "duration_seconds": 6.57,
+  "transcript": "What I can do for you is we can report lost property.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.5,
+      "text": "What I can do for you is we can report lost property.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.903,
+      "sentiment_score": 0.0092,
+      "pitch_mean": 335.49
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0092,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 109.51,
+    "avg_pitch": 335.21
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro05b",
+    "utterance_id": "Ses03M_impro05b_F005",
+    "transcript_ground_truth": "What I can do for you is uh we can uh report lost, lost property."
+  }
+}

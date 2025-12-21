@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro05_M015",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:57:45.225456",
+  "duration_seconds": 6.4,
+  "transcript": "Do you understand that the contents of my bag cost $150?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "Do you understand that the contents of my bag cost $150?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.662,
+      "sentiment_score": -0.6766,
+      "pitch_mean": 330.63
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6766,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 103.12,
+    "avg_pitch": 328.03
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro05",
+    "utterance_id": "Ses04M_impro05_M015",
+    "transcript_ground_truth": "You understand that the contents of my bag- The contents of my bag cost a hundred and fifty dollars."
+  }
+}

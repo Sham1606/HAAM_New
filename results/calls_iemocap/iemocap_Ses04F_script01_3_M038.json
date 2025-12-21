@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04F_script01_3_M038",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:31:36.051485",
+  "duration_seconds": 7.57,
+  "transcript": "The whole thing to them was a sort of bus accident. Then I went to work with father and that whole rat race again.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "The whole thing to them was a sort of bus accident.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.502,
+      "sentiment_score": -0.7265,
+      "pitch_mean": 329.31
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 7.0,
+      "text": "Then I went to work with father and that whole rat race again.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.494,
+      "sentiment_score": -0.8103,
+      "pitch_mean": 333.38
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7684,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 190.31,
+    "avg_pitch": 329.45
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script01_3",
+    "utterance_id": "Ses04F_script01_3_M038",
+    "transcript_ground_truth": "The whole thing to them was sort of a bus accident. Then I went to work with father and that whole rat race again."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script01_2_F018",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:33:03.284407",
+  "duration_seconds": 1.68,
+  "transcript": "No, you gotta believe.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "No, you gotta believe.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.0654,
+      "pitch_mean": 323.01
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0654,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 142.86,
+    "avg_pitch": 323.01
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_2",
+    "utterance_id": "Ses03F_script01_2_F018",
+    "transcript_ground_truth": "No, you've got to believe."
+  }
+}

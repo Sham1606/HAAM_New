@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses04F_impro08_M013",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:21:19.075357",
+  "duration_seconds": 8.64,
+  "transcript": "Look, I don't want to be transferred over to another all I want to do is just give you my name and address So you can send me a check",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.12,
+      "text": "Look, I don't want to be transferred over to another all I want to do is just give you my name and address",
+      "emotion": "neutral",
+      "emotion_confidence": 0.738,
+      "sentiment_score": -0.0697,
+      "pitch_mean": 340.76
+    },
+    {
+      "start_time": 7.12,
+      "end_time": 9.12,
+      "text": "So you can send me a check",
+      "emotion": "neutral",
+      "emotion_confidence": 0.887,
+      "sentiment_score": 0.1318,
+      "pitch_mean": 340.89
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0311,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 208.33,
+    "avg_pitch": 340.89
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro08",
+    "utterance_id": "Ses04F_impro08_M013",
+    "transcript_ground_truth": "Look, I don't want to be transferred over to another- All I want to do is just give you my name and address so you can send me a check."
+  }
+}

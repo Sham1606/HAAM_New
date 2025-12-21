@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro08a_M008",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:33:25.165432",
+  "duration_seconds": 4.57,
+  "transcript": "No way, okay, we're not charging you for any of this month. We're gonna give you three months free",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.86,
+      "text": "No way, okay, we're not charging you for any of this month. We're gonna give you three months free",
+      "emotion": "disgust",
+      "emotion_confidence": 0.415,
+      "sentiment_score": -0.3399,
+      "pitch_mean": 327.17
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3399,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 249.2,
+    "avg_pitch": 327.39
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro08a",
+    "utterance_id": "Ses03M_impro08a_M008",
+    "transcript_ground_truth": "No.  Okay.  We're not charging you for any of these months.  We're going to give you three months free."
+  }
+}

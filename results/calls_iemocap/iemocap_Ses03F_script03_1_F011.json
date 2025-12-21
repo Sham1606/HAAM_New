@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03F_script03_1_F011",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:42:37.912454",
+  "duration_seconds": 3.71,
+  "transcript": "Well if I laugh at everything I'm gonna have to laugh at us too. Oh, certain.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Well if I laugh at everything I'm gonna have to laugh at us too.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.524,
+      "sentiment_score": 0.2057,
+      "pitch_mean": 325.7
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 4.0,
+      "text": "Oh, certain.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.543,
+      "sentiment_score": 0.1339,
+      "pitch_mean": 327.1
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1698,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 258.76,
+    "avg_pitch": 327.1
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script03_1",
+    "utterance_id": "Ses03F_script03_1_F011",
+    "transcript_ground_truth": "Well, if I laugh at everything I'm going to have to laugh at us too."
+  }
+}

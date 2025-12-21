@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro07_F006",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:59:16.285673",
+  "duration_seconds": 4.7,
+  "transcript": "Your housing books everything is incredible",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.9,
+      "text": "Your housing books everything is incredible",
+      "emotion": "neutral",
+      "emotion_confidence": 0.743,
+      "sentiment_score": 0.9486,
+      "pitch_mean": 357.35
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9486,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 76.56,
+    "avg_pitch": 347.24
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro07",
+    "utterance_id": "Ses01M_impro07_F006",
+    "transcript_ground_truth": "Your housing, books, everything? That is incredible."
+  }
+}

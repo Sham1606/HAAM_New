@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses04F_impro04_M008",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:07:44.296489",
+  "duration_seconds": 4.71,
+  "transcript": "You know, you need to just, you need to, it takes time to get a good job. I mean...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "You know, you need to just, you need to, it takes time to get a good job.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.964,
+      "sentiment_score": 0.1976,
+      "pitch_mean": 331.16
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 5.0,
+      "text": "I mean...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.0309,
+      "pitch_mean": 331.4
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1142,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 242.04,
+    "avg_pitch": 331.4
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro04",
+    "utterance_id": "Ses04F_impro04_M008",
+    "transcript_ground_truth": "You know- You need to just- you need, I mean it takes time to get a good job.  I mean-"
+  }
+}

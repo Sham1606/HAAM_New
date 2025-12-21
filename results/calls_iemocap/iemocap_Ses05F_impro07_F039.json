@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro07_F039",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:08:31.813248",
+  "duration_seconds": 1.16,
+  "transcript": "Thank you.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "Thank you.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.666,
+      "sentiment_score": 0.8156,
+      "pitch_mean": 325.12
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.8156,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 103.45,
+    "avg_pitch": 322.96
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro07",
+    "utterance_id": "Ses05F_impro07_F039",
+    "transcript_ground_truth": "exciting."
+  }
+}

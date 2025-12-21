@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02M_impro06_M002",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:55:00.725557",
+  "duration_seconds": 15.03,
+  "transcript": "I guess yeah, we saw it coming in and she lasted a lot longer than they expected but you know, I mean when it actually happens it's just a little harder.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 8.7,
+      "text": "I guess yeah, we saw it coming in and she lasted a lot longer than they expected but you",
+      "emotion": "neutral",
+      "emotion_confidence": 0.672,
+      "sentiment_score": -0.0217,
+      "pitch_mean": 319.14
+    },
+    {
+      "start_time": 8.7,
+      "end_time": 14.88,
+      "text": "know, I mean when it actually happens it's just a little harder.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.627,
+      "sentiment_score": -0.3171,
+      "pitch_mean": 317.44
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1694,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 123.72,
+    "avg_pitch": 318.09
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro06",
+    "utterance_id": "Ses02M_impro06_M002",
+    "transcript_ground_truth": "I guess we saw it coming and she lasted a lot - a lot longer than, uh, they expected but you know, I mean when it actually happens it's just a lot harder."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro02_M017",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:01:16.730361",
+  "duration_seconds": 3.22,
+  "transcript": "Look, I'm just telling you that you don't have to go.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Look, I'm just telling you that you don't have to go.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.4,
+      "sentiment_score": -0.0588,
+      "pitch_mean": 319.58
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0588,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 204.97,
+    "avg_pitch": 318.95
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro02",
+    "utterance_id": "Ses04F_impro02_M017",
+    "transcript_ground_truth": "Look I'm just telling you that you don't have to go."
+  }
+}

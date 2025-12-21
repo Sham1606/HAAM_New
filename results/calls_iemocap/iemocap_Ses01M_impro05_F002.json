@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01M_impro05_F002",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:54:56.491087",
+  "duration_seconds": 3.53,
+  "transcript": "What figure for four hours? What flight did you come in on?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.64,
+      "text": "What figure for four hours?",
+      "emotion": "anger",
+      "emotion_confidence": 0.504,
+      "sentiment_score": 0.006,
+      "pitch_mean": 360.39
+    },
+    {
+      "start_time": 1.64,
+      "end_time": 3.0,
+      "text": "What flight did you come in on?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.774,
+      "sentiment_score": 0.021,
+      "pitch_mean": 327.95
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0135,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 204.11,
+    "avg_pitch": 342.43
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro05",
+    "utterance_id": "Ses01M_impro05_F002",
+    "transcript_ground_truth": "What- What flight did you come in on?"
+  }
+}

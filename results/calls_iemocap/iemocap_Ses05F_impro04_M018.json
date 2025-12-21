@@ -1,0 +1,119 @@
+{
+  "call_id": "iemocap_Ses05F_impro04_M018",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:59:20.429576",
+  "duration_seconds": 25.24,
+  "transcript": "Of course you're worried, we're all worried, I'm worried for you. Everyone's always worried, you know, I don't... Maybe I have a job and yeah, it's a good job, whatever, and I'm happy, but it doesn't mean I'm gonna have it tomorrow or the next day. You never know what's gonna happen, something crazy can happen tomorrow. Something crazy can happen for you tomorrow and you'll get a job. You never know, you can walk up on somebody on the street and it'll be something great. You just gotta be positive. You're so negative all the time.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.04,
+      "text": "Of course you're worried, we're all worried, I'm worried for you.",
+      "emotion": "fear",
+      "emotion_confidence": 0.905,
+      "sentiment_score": -0.7268,
+      "pitch_mean": 315.13
+    },
+    {
+      "start_time": 3.04,
+      "end_time": 5.4,
+      "text": "Everyone's always worried, you know, I don't...",
+      "emotion": "sadness",
+      "emotion_confidence": 0.47,
+      "sentiment_score": -0.455,
+      "pitch_mean": 328.74
+    },
+    {
+      "start_time": 5.4,
+      "end_time": 8.64,
+      "text": "Maybe I have a job and yeah, it's a good job, whatever, and I'm happy,",
+      "emotion": "joy",
+      "emotion_confidence": 0.99,
+      "sentiment_score": 0.9604,
+      "pitch_mean": 333.87
+    },
+    {
+      "start_time": 8.64,
+      "end_time": 11.04,
+      "text": "but it doesn't mean I'm gonna have it tomorrow or the next day.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.844,
+      "sentiment_score": -0.2598,
+      "pitch_mean": 338.08
+    },
+    {
+      "start_time": 11.04,
+      "end_time": 14.52,
+      "text": "You never know what's gonna happen, something crazy can happen tomorrow.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.485,
+      "sentiment_score": -0.2659,
+      "pitch_mean": 324.29
+    },
+    {
+      "start_time": 14.52,
+      "end_time": 17.04,
+      "text": "Something crazy can happen for you tomorrow and you'll get a job.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.331,
+      "sentiment_score": -0.1514,
+      "pitch_mean": 340.41
+    },
+    {
+      "start_time": 17.04,
+      "end_time": 20.44,
+      "text": "You never know, you can walk up on somebody on the street and it'll be something great.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.564,
+      "sentiment_score": 0.8985,
+      "pitch_mean": 336.82
+    },
+    {
+      "start_time": 20.44,
+      "end_time": 23.12,
+      "text": "You just gotta be positive.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.879,
+      "sentiment_score": 0.7394,
+      "pitch_mean": 319.32
+    },
+    {
+      "start_time": 23.12,
+      "end_time": 24.92,
+      "text": "You're so negative all the time.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.7,
+      "sentiment_score": -0.9054,
+      "pitch_mean": 330.45
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0184,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "fear": 0.111,
+      "sadness": 0.111,
+      "joy": 0.111,
+      "neutral": 0.333,
+      "disgust": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 230.59,
+    "avg_pitch": 327.64
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro04",
+    "utterance_id": "Ses05F_impro04_M018",
+    "transcript_ground_truth": "Of course, you're worried.  We're all worried.  I'm worried for you.  Everyone's always worried.  You know, I don't-maybe I have a job and yeah, it's a good job whatever and I'm happy, but it doesn't mean I'm going to have it tomorrow or the next day.  You never know what's going to happen.  Something crazy could happen tomorrow.\tSomething crazy can happen for you tomorrow and you'll get a job.  You never know.  You can walk up to somebody on the street and it'll be something great.  You've just got to be positive.  You're so negative all the time."
+  }
+}

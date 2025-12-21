@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro02_M006",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:48:51.765471",
+  "duration_seconds": 1.35,
+  "transcript": "in your head...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.44,
+      "text": "in your head...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.608,
+      "sentiment_score": -0.0587,
+      "pitch_mean": 319.13
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0587,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 132.92,
+    "avg_pitch": 319.13
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro02",
+    "utterance_id": "Ses02M_impro02_M006",
+    "transcript_ground_truth": "You gotta"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses01M_impro07_F015",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:59:39.897110",
+  "duration_seconds": 4.0,
+  "transcript": "I don't know. Community from Malibu? That'd be ridiculous.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "I don't know.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.627,
+      "sentiment_score": -0.125,
+      "pitch_mean": 350.46
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 2.0,
+      "text": "Community from Malibu?",
+      "emotion": "anger",
+      "emotion_confidence": 0.43,
+      "sentiment_score": 0.0256,
+      "pitch_mean": 346.07
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "That'd be ridiculous.",
+      "emotion": "anger",
+      "emotion_confidence": 0.538,
+      "sentiment_score": -0.8107,
+      "pitch_mean": 338.26
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3034,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "neutral": 0.333,
+      "anger": 0.667
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 135.08,
+    "avg_pitch": 347.06
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro07",
+    "utterance_id": "Ses01M_impro07_F015",
+    "transcript_ground_truth": "I don't know. Commuting from what Malibu that would be ridiculous."
+  }
+}

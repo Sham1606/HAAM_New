@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script03_2_M044",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:16:10.259768",
+  "duration_seconds": 4.47,
+  "transcript": "Mary you again, I wouldn't marry you if you came crawling to me on bend it neat",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Mary you again, I wouldn't marry you if you came crawling to me on bend it neat",
+      "emotion": "anger",
+      "emotion_confidence": 0.518,
+      "sentiment_score": -0.6726,
+      "pitch_mean": 379.77
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6726,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 228.19,
+    "avg_pitch": 378.73
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.0,
+    "arousal": 5.0,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script03_2",
+    "utterance_id": "Ses05M_script03_2_M044",
+    "transcript_ground_truth": "oh! Marry you again? I wouldn't marry you again if you came crawling to me on bended knee."
+  }
+}

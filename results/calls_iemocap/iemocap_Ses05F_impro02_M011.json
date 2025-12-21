@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses05F_impro02_M011",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:49:07.328710",
+  "duration_seconds": 4.5,
+  "transcript": "What are you gonna do there? What is it gonna be dangerous? What are you gonna... Infinity.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.66,
+      "text": "What are you gonna do there?",
+      "emotion": "sadness",
+      "emotion_confidence": 0.329,
+      "sentiment_score": -0.0347,
+      "pitch_mean": 313.99
+    },
+    {
+      "start_time": 1.66,
+      "end_time": 3.2,
+      "text": "What is it gonna be dangerous?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.459,
+      "sentiment_score": -0.7263,
+      "pitch_mean": 330.52
+    },
+    {
+      "start_time": 3.2,
+      "end_time": 4.2,
+      "text": "What are you gonna...",
+      "emotion": "disgust",
+      "emotion_confidence": 0.455,
+      "sentiment_score": -0.1215,
+      "pitch_mean": 375.27
+    },
+    {
+      "start_time": 4.2,
+      "end_time": 5.2,
+      "text": "Infinity.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.787,
+      "sentiment_score": 0.3235,
+      "pitch_mean": 332.92
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1398,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "sadness": 0.25,
+      "disgust": 0.5,
+      "neutral": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 226.67,
+    "avg_pitch": 332.92
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro02",
+    "utterance_id": "Ses05F_impro02_M011",
+    "transcript_ground_truth": "What are you going to do there?  Is it going to be dangerous?  What are you-?"
+  }
+}

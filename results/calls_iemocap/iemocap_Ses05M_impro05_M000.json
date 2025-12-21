@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro05_M000",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:44:04.344701",
+  "duration_seconds": 5.56,
+  "transcript": "Hi, um, my luggage didn't come out of the conveyor thingy.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "Hi, um, my luggage didn't come out of the conveyor thingy.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.553,
+      "sentiment_score": -0.6411,
+      "pitch_mean": 318.07
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6411,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 118.71,
+    "avg_pitch": 318.07
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.3333,
+    "arousal": 3.0,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro05",
+    "utterance_id": "Ses05M_impro05_M000",
+    "transcript_ground_truth": "Hi. Um-  My luggage didn't come out of the conveyor thingy."
+  }
+}

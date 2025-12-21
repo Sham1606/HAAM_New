@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro05_F002",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:22:07.418346",
+  "duration_seconds": 3.46,
+  "transcript": "We're the most found what do you mean lost and found",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.18,
+      "text": "We're the most found what do you mean lost and found",
+      "emotion": "disgust",
+      "emotion_confidence": 0.343,
+      "sentiment_score": 0.4478,
+      "pitch_mean": 347.43
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4478,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 190.48,
+    "avg_pitch": 345.01
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 5.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro05",
+    "utterance_id": "Ses03F_impro05_F002",
+    "transcript_ground_truth": "Where? I don't know. The lost and found. What do you mean, lost and found?"
+  }
+}

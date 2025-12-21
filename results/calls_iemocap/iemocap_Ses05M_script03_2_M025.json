@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script03_2_M025",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:15:26.331882",
+  "duration_seconds": 4.32,
+  "transcript": "You must have let him kiss you quite a good deal more than huh?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.68,
+      "text": "You must have let him kiss you quite a good deal more than huh?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.589,
+      "sentiment_score": 0.3553,
+      "pitch_mean": 309.89
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3553,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 194.45,
+    "avg_pitch": 304.96
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script03_2",
+    "utterance_id": "Ses05M_script03_2_M025",
+    "transcript_ground_truth": "You must have let him kiss you quite a good deal more then, huh?"
+  }
+}

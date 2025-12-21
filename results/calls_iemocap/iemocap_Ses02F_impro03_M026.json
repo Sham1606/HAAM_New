@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro03_M026",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:23:15.748288",
+  "duration_seconds": 2.75,
+  "transcript": "That'll be good. That's great.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.5,
+      "text": "That'll be good. That's great.",
+      "emotion": "joy",
+      "emotion_confidence": 0.916,
+      "sentiment_score": 0.9754,
+      "pitch_mean": 332.26
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9754,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 109.04,
+    "avg_pitch": 332.39
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 2.75,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro03",
+    "utterance_id": "Ses02F_impro03_M026",
+    "transcript_ground_truth": "It'll be good.  Wow, that's great."
+  }
+}

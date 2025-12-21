@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01F_impro04_M033",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:24:03.873676",
+  "duration_seconds": 1.34,
+  "transcript": "And we're doing it. It's caramel.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "And we're doing it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.647,
+      "sentiment_score": 0.1537,
+      "pitch_mean": 347.54
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 2.0,
+      "text": "It's caramel.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.949,
+      "sentiment_score": 0.1857,
+      "pitch_mean": 348.52
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1697,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 268.17,
+    "avg_pitch": 348.52
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro04",
+    "utterance_id": "Ses01F_impro04_M033",
+    "transcript_ground_truth": "What?  No."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro04_M031",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:08:46.118241",
+  "duration_seconds": 2.26,
+  "transcript": "I'm trying to be helpful here.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I'm trying to be helpful here.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.365,
+      "sentiment_score": 0.5816,
+      "pitch_mean": 326.48
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5816,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 159.3,
+    "avg_pitch": 326.62
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro04",
+    "utterance_id": "Ses04F_impro04_M031",
+    "transcript_ground_truth": "I'm trying to be helpful."
+  }
+}

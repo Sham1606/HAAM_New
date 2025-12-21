@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro01_F004",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:45:40.124393",
+  "duration_seconds": 2.7,
+  "transcript": "Can you just can I can I just get the right",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.16,
+      "text": "Can you just can I can I just get the right",
+      "emotion": "neutral",
+      "emotion_confidence": 0.925,
+      "sentiment_score": 0.6605,
+      "pitch_mean": 338.93
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.6605,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 244.45,
+    "avg_pitch": 347.8
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro01",
+    "utterance_id": "Ses05F_impro01_F004",
+    "transcript_ground_truth": "Can you just-can I just get the right-"
+  }
+}

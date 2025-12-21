@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro06_M004",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:26:53.945524",
+  "duration_seconds": 7.19,
+  "transcript": "I mean, you know, at least he's not any more pain now, right?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "I mean, you know, at least he's not any more pain now, right?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.546,
+      "sentiment_score": -0.0548,
+      "pitch_mean": 330.03
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0548,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 108.48,
+    "avg_pitch": 328.66
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.3333,
+    "arousal": 2.3333,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro06",
+    "utterance_id": "Ses02F_impro06_M004",
+    "transcript_ground_truth": "I mean, you know, at least he's not in anymore pain now, right?"
+  }
+}

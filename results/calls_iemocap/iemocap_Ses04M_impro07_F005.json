@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro07_F005",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:00:05.319496",
+  "duration_seconds": 1.95,
+  "transcript": "Wow.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Wow.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.971,
+      "sentiment_score": 0.6057,
+      "pitch_mean": 342.7
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.6057,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 30.77,
+    "avg_pitch": 342.7
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro07",
+    "utterance_id": "Ses04M_impro07_F005",
+    "transcript_ground_truth": "Wow."
+  }
+}

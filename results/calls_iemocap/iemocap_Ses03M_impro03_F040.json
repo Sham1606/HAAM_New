@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro03_F040",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:52:59.982074",
+  "duration_seconds": 5.93,
+  "transcript": "Wow, they're promising. Yeah, they're promising future. What are you doing?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Wow, they're promising. Yeah, they're promising future. What are you doing?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.968,
+      "sentiment_score": 0.9706,
+      "pitch_mean": 347.01
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9706,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 111.28,
+    "avg_pitch": 341.88
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro03",
+    "utterance_id": "Ses03M_impro03_F040",
+    "transcript_ground_truth": "Wow. Very promising.  Yeah.  Very promising future and what are you doing?"
+  }
+}

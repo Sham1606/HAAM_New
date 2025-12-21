@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01M_script01_1_F012",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:01:40.609792",
+  "duration_seconds": 2.95,
+  "transcript": "What do you want to do? Argue with him?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "What do you want to do?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.822,
+      "sentiment_score": 0.0777,
+      "pitch_mean": 314.32
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "Argue with him?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.0741,
+      "pitch_mean": 321.7
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0018,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 183.09,
+    "avg_pitch": 321.7
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.3333,
+    "arousal": 2.3333,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_1",
+    "utterance_id": "Ses01M_script01_1_F012",
+    "transcript_ground_truth": "What do you want to do, argue with him?"
+  }
+}

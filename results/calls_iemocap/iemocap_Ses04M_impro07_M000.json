@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04M_impro07_M000",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:01:01.976177",
+  "duration_seconds": 11.68,
+  "transcript": "So you're not gonna believe this, but I went home today, I looked in the mail, and I got an acceptance letter from USC.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 9.94,
+      "text": "So you're not gonna believe this, but I went home today, I looked in the mail, and I got",
+      "emotion": "neutral",
+      "emotion_confidence": 0.892,
+      "sentiment_score": 0.1662,
+      "pitch_mean": 320.73
+    },
+    {
+      "start_time": 9.94,
+      "end_time": 11.64,
+      "text": "an acceptance letter from USC.",
+      "emotion": "joy",
+      "emotion_confidence": 0.846,
+      "sentiment_score": 0.1966,
+      "pitch_mean": 325.91
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1814,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "joy": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 123.29,
+    "avg_pitch": 321.38
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro07",
+    "utterance_id": "Ses04M_impro07_M000",
+    "transcript_ground_truth": "Alright, so you're not going to believe this.  But I went home today. I looked through the mail.  And I got an acceptance letter from U.S.C.."
+  }
+}

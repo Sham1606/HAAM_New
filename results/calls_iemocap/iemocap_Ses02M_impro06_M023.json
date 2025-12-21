@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro06_M023",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:55:41.801701",
+  "duration_seconds": 2.92,
+  "transcript": "Thank you.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Thank you.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.6,
+      "sentiment_score": 0.8156,
+      "pitch_mean": 322.48
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.8156,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 41.12,
+    "avg_pitch": 322.37
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro06",
+    "utterance_id": "Ses02M_impro06_M023",
+    "transcript_ground_truth": "Thank you."
+  }
+}

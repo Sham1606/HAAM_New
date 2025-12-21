@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script03_1_F018",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:14:03.223005",
+  "duration_seconds": 6.2,
+  "transcript": "How long will it last? This ludicrous overbearing love of ours.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "How long will it last? This ludicrous overbearing love of ours.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.8775,
+      "pitch_mean": 337.28
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8775,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 106.44,
+    "avg_pitch": 337.28
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script03_1",
+    "utterance_id": "Ses01M_script03_1_F018",
+    "transcript_ground_truth": "How long will it last, this ludicrous, overbearing love of ours?"
+  }
+}

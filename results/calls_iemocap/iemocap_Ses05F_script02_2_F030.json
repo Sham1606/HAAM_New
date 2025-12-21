@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05F_script02_2_F030",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:24:46.529164",
+  "duration_seconds": 7.55,
+  "transcript": "For heaven's sake, Oggy. Wherever I am, I always want it to be with you.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "For heaven's sake, Oggy.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.434,
+      "sentiment_score": -0.5943,
+      "pitch_mean": 332.57
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 7.0,
+      "text": "Wherever I am, I always want it to be with you.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.668,
+      "sentiment_score": 0.8628,
+      "pitch_mean": 333.04
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1342,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 119.17,
+    "avg_pitch": 332.77
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script02_2",
+    "utterance_id": "Ses05F_script02_2_F030",
+    "transcript_ground_truth": "For heaven's sake Augie, wherever I am I always wanted to be with you."
+  }
+}

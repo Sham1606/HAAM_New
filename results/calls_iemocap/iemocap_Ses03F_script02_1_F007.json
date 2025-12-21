@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script02_1_F007",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:36:39.508541",
+  "duration_seconds": 2.49,
+  "transcript": "There is no point in coming down here.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "There is no point in coming down here.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.453,
+      "sentiment_score": -0.6928,
+      "pitch_mean": 339.15
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6928,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 192.78,
+    "avg_pitch": 336.17
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_1",
+    "utterance_id": "Ses03F_script02_1_F007",
+    "transcript_ground_truth": "There is no point in coming down here."
+  }
+}

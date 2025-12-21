@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro05_F021",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:25:31.793567",
+  "duration_seconds": 1.17,
+  "transcript": "Thank you all for having boarded",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.6,
+      "text": "Thank you all for having boarded",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.9546,
+      "pitch_mean": 315.8
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9546,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 307.69,
+    "avg_pitch": 315.8
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro05",
+    "utterance_id": "Ses02F_impro05_F021",
+    "transcript_ground_truth": "Thank you."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01F_script01_1_F013",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:31:41.135924",
+  "duration_seconds": 7.94,
+  "transcript": "It's a trouble is those goddamn newspapers every month some new boy comes back and so the next one's gonna be Larry They just",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.8,
+      "text": "It's a trouble is those goddamn newspapers every month some new boy comes back and so the next one's gonna be Larry",
+      "emotion": "joy",
+      "emotion_confidence": 0.487,
+      "sentiment_score": -0.809,
+      "pitch_mean": 357.12
+    },
+    {
+      "start_time": 6.8,
+      "end_time": 8.8,
+      "text": "They just",
+      "emotion": "neutral",
+      "emotion_confidence": 0.958,
+      "sentiment_score": -0.2352,
+      "pitch_mean": 359.11
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5221,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 181.36,
+    "avg_pitch": 359.11
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.3333,
+    "arousal": 4.3333,
+    "dominance": 3.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_1",
+    "utterance_id": "Ses01F_script01_1_F013",
+    "transcript_ground_truth": "It's that the trouble is those God damn newspapers.  Every month some new boy comes back and so the next one is going to be Larry, they just--"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03F_impro04_F000",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:20:37.718944",
+  "duration_seconds": 5.68,
+  "transcript": "I don't know Brian I think. It's been three years.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I don't know Brian I think.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.44,
+      "sentiment_score": -0.1639,
+      "pitch_mean": 324.7
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 5.0,
+      "text": "It's been three years.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.735,
+      "sentiment_score": 0.0303,
+      "pitch_mean": 319.88
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0668,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 105.71,
+    "avg_pitch": 324.37
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro04",
+    "utterance_id": "Ses03F_impro04_F000",
+    "transcript_ground_truth": "I don't know, Brian, if they uh--it's been three years."
+  }
+}

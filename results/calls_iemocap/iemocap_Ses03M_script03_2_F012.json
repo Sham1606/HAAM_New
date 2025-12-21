@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script03_2_F012",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:54:08.551313",
+  "duration_seconds": 3.09,
+  "transcript": "Speak up and have a good one with you.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Speak up and have a good one with you.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.921,
+      "sentiment_score": 0.6384,
+      "pitch_mean": 331.56
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.6384,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 174.52,
+    "avg_pitch": 330.79
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script03_2",
+    "utterance_id": "Ses03M_script03_2_F012",
+    "transcript_ground_truth": "It's become a habit with you."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script03_1_F030",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:43:03.912025",
+  "duration_seconds": 2.67,
+  "transcript": "And very much soo clear.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "And very much soo clear.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.879,
+      "sentiment_score": 0.7432,
+      "pitch_mean": 325.13
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.7432,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 112.36,
+    "avg_pitch": 322.72
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 2.3333,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script03_1",
+    "utterance_id": "Ses02F_script03_1_F030",
+    "transcript_ground_truth": "And very much sillier."
+  }
+}

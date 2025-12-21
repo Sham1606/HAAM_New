@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03F_script01_1_M021",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:31:31.987130",
+  "duration_seconds": 4.19,
+  "transcript": "See, then it's not just my business. God, you have...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "See, then it's not just my business.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.785,
+      "sentiment_score": -0.1154,
+      "pitch_mean": 352.15
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "God, you have...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.906,
+      "sentiment_score": 0.5107,
+      "pitch_mean": 365.66
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1977,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 143.28,
+    "avg_pitch": 355.14
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.6667,
+    "arousal": 4.0,
+    "dominance": 3.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_1",
+    "utterance_id": "Ses03F_script01_1_M021",
+    "transcript_ground_truth": "See, then it's not just my business. God, you have"
+  }
+}

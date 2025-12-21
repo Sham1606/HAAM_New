@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro05_F019",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:25:24.821759",
+  "duration_seconds": 6.06,
+  "transcript": "It sounds like it's such a blue like no big deal whatever it's a big deal to me",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.44,
+      "text": "It sounds like it's such a blue like no big deal whatever it's a big deal to me",
+      "emotion": "neutral",
+      "emotion_confidence": 0.852,
+      "sentiment_score": -0.2341,
+      "pitch_mean": 371.93
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2341,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 178.22,
+    "avg_pitch": 363.92
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro05",
+    "utterance_id": "Ses02F_impro05_F019",
+    "transcript_ground_truth": "It sounds like it's such a little like oh well no big deal whatever.  It's a big deal to me."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro08a_F001",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:31:24.929217",
+  "duration_seconds": 7.12,
+  "transcript": "Look mate, my phone isn't working. I don't understand what's going on. I tried to call out. I'm not receiving any calls.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "Look mate, my phone isn't working. I don't understand what's going on. I tried to call out. I'm not receiving any calls.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.373,
+      "sentiment_score": -0.9086,
+      "pitch_mean": 347.2
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9086,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 185.49,
+    "avg_pitch": 346.75
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro08a",
+    "utterance_id": "Ses03M_impro08a_F001",
+    "transcript_ground_truth": "Look my, my phone isn't working.  I don't understand what's going on.  I am trying to call out.  I'm not receiving any calls"
+  }
+}

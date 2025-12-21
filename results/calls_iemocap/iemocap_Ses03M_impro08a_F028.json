@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro08a_F028",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:32:33.169611",
+  "duration_seconds": 5.47,
+  "transcript": "No, no, no, no, no, no, I don't choose the loser. I work there. Okay, yeah. Work, work, work.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "No, no, no, no, no, no, I don't choose the loser. I work there. Okay, yeah. Work, work, work.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.348,
+      "sentiment_score": -0.4221,
+      "pitch_mean": 345.87
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4221,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 208.28,
+    "avg_pitch": 344.8
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro08a",
+    "utterance_id": "Ses03M_impro08a_F028",
+    "transcript_ground_truth": "No, no, no.  I didn't choose to live here.  I work there.  Okay?  Yeah. work work work"
+  }
+}

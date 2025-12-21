@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script03_2_M025",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:14:36.256961",
+  "duration_seconds": 3.87,
+  "transcript": "Imagine you let him kiss you a good deal more than mine.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.7,
+      "text": "Imagine you let him kiss you a good deal more than mine.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.757,
+      "sentiment_score": 0.3823,
+      "pitch_mean": 316.86
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3823,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 185.98,
+    "avg_pitch": 319.58
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script03_2",
+    "utterance_id": "Ses02M_script03_2_M025",
+    "transcript_ground_truth": "I imagine you let him kiss you good deal more then."
+  }
+}

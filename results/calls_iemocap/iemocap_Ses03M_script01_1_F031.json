@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script01_1_F031",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:38:07.636824",
+  "duration_seconds": 3.92,
+  "transcript": "Well, I just don't see why it has to be Annie.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Well, I just don't see why it has to be Annie.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.825,
+      "sentiment_score": -0.7322,
+      "pitch_mean": 337.63
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7322,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 168.38,
+    "avg_pitch": 329.95
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_1",
+    "utterance_id": "Ses03M_script01_1_F031",
+    "transcript_ground_truth": "Well I just don't see why it has to be Annie."
+  }
+}

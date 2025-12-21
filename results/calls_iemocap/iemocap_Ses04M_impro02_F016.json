@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04M_impro02_F016",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:48:48.473943",
+  "duration_seconds": 10.59,
+  "transcript": "It has to be something. I mean, we can't just live with this. It's not... It just won't work this way.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "It has to be something. I mean, we can't just live with this. It's not...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.638,
+      "sentiment_score": -0.8359,
+      "pitch_mean": 329.65
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 10.0,
+      "text": "It just won't work this way.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.436,
+      "sentiment_score": -0.813,
+      "pitch_mean": 339.42
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8245,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 118.98,
+    "avg_pitch": 331.76
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro02",
+    "utterance_id": "Ses04M_impro02_F016",
+    "transcript_ground_truth": "There has to be something.  I mean, we can't just live with this.  It's not -- it just won't work this way."
+  }
+}

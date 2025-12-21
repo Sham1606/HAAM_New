@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_script01_3_M037",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:44:54.684540",
+  "duration_seconds": 11.89,
+  "transcript": "And I went to work with Dad and that rat race again and I felt what you said ashamed somehow Because nobody was changed at all",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.2,
+      "text": "And I went to work with Dad and that rat race again and I felt what you said ashamed somehow",
+      "emotion": "disgust",
+      "emotion_confidence": 0.409,
+      "sentiment_score": -0.7205,
+      "pitch_mean": 322.47
+    },
+    {
+      "start_time": 8.6,
+      "end_time": 11.1,
+      "text": "Because nobody was changed at all",
+      "emotion": "neutral",
+      "emotion_confidence": 0.761,
+      "sentiment_score": -0.1825,
+      "pitch_mean": 324.43
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4515,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 131.23,
+    "avg_pitch": 320.23
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_3",
+    "utterance_id": "Ses03M_script01_3_M037",
+    "transcript_ground_truth": "And I went to work with dad and that rat race again and I felt what you said, ashamed.  Somehow because nobody was changed at all."
+  }
+}

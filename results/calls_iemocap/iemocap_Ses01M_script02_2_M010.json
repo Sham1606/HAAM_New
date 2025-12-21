@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01M_script02_2_M010",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:11:56.582782",
+  "duration_seconds": 6.64,
+  "transcript": "It's not supposed to look like anything we come down here. We look at the fish they arrive we go oh Fish",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.48,
+      "text": "It's not supposed to look like anything we come down here. We look at the fish they arrive we go oh",
+      "emotion": "neutral",
+      "emotion_confidence": 0.634,
+      "sentiment_score": -0.0521,
+      "pitch_mean": 347.92
+    },
+    {
+      "start_time": 5.88,
+      "end_time": 7.88,
+      "text": "Fish",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.1534,
+      "pitch_mean": 349.42
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0507,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 198.8,
+    "avg_pitch": 349.42
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script02_2",
+    "utterance_id": "Ses01M_script02_2_M010",
+    "transcript_ground_truth": "Is not supposed to like anything.  We come down here, we look at the fish, they arrive, we go woo-ah fish."
+  }
+}

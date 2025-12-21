@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro07_M001",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:00:17.830608",
+  "duration_seconds": 6.53,
+  "transcript": "Well, it's totally random. I got this full-ride scholarship to get a USC next year to play softball",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.12,
+      "text": "Well, it's totally random. I got this full-ride scholarship to get a USC next year to play softball",
+      "emotion": "neutral",
+      "emotion_confidence": 0.735,
+      "sentiment_score": -0.0403,
+      "pitch_mean": 338.0
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0403,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 165.39,
+    "avg_pitch": 338.19
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro07",
+    "utterance_id": "Ses01M_impro07_M001",
+    "transcript_ground_truth": "Well, this is totally random, I got this full ride scholarship to go to U.S.C next year to play softball."
+  }
+}

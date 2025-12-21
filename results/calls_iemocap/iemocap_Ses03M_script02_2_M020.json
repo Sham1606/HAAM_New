@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_script02_2_M020",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:50:21.575603",
+  "duration_seconds": 6.11,
+  "transcript": "It was in the car, right? Kevin passed in the Cobocker liquor locker and you said...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It was in the car, right?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.65,
+      "sentiment_score": 0.0068,
+      "pitch_mean": 320.36
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 6.0,
+      "text": "Kevin passed in the Cobocker liquor locker and you said...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.563,
+      "sentiment_score": -0.0324,
+      "pitch_mean": 324.7
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0128,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 157.24,
+    "avg_pitch": 321.96
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_2",
+    "utterance_id": "Ses03M_script02_2_M020",
+    "transcript_ground_truth": "It was in the car right?  Driving past the Knickerbocker Liquor Locker..."
+  }
+}

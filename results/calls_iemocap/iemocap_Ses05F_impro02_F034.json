@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro02_F034",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:48:29.203977",
+  "duration_seconds": 2.67,
+  "transcript": "Yeah, as much as I can.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Yeah, as much as I can.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.826,
+      "sentiment_score": 0.4674,
+      "pitch_mean": 330.6
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4674,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 134.83,
+    "avg_pitch": 328.27
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 2.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro02",
+    "utterance_id": "Ses05F_impro02_F034",
+    "transcript_ground_truth": "Yeah, as much as I can."
+  }
+}

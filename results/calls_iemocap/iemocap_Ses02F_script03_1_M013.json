@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script03_1_M013",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:43:27.231432",
+  "duration_seconds": 7.22,
+  "transcript": "All those futile moralists that try to make life unbearable, laugh at them, be flippant, laugh at everything, all their sacred shivilets.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "All those futile moralists that try to make life unbearable, laugh at them, be flippant, laugh at everything, all their sacred shivilets.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.436,
+      "sentiment_score": -0.8358,
+      "pitch_mean": 341.89
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8358,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 182.83,
+    "avg_pitch": 341.58
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.3333,
+    "arousal": 3.6667,
+    "dominance": 3.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script03_1",
+    "utterance_id": "Ses02F_script03_1_M013",
+    "transcript_ground_truth": "All those futile moralists that try to make life unbearable.  Laugh at them.  Be flippant.  Laugh at everything.  All their sacred shibboleths."
+  }
+}

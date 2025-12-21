@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro05_M001",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:25:36.611414",
+  "duration_seconds": 8.58,
+  "transcript": "Okay, well, unfortunately, there was some problems with...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "Okay, well, unfortunately, there was some problems with...",
+      "emotion": "disgust",
+      "emotion_confidence": 0.455,
+      "sentiment_score": -0.8585,
+      "pitch_mean": 326.53
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8585,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 55.94,
+    "avg_pitch": 326.15
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro05",
+    "utterance_id": "Ses02F_impro05_M001",
+    "transcript_ground_truth": "Okay.  Um, well, unfortunately yeah there was a some- some problems with the--"
+  }
+}

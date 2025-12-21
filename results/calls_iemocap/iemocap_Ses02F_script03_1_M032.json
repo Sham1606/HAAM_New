@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script03_1_M032",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:44:00.866186",
+  "duration_seconds": 2.62,
+  "transcript": "Oh, never forget his face.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Oh, never forget his face.",
+      "emotion": "joy",
+      "emotion_confidence": 0.429,
+      "sentiment_score": 0.8825,
+      "pitch_mean": 349.08
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.8825,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 114.5,
+    "avg_pitch": 346.28
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 3.3333,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script03_1",
+    "utterance_id": "Ses02F_script03_1_M032",
+    "transcript_ground_truth": "Oh, I'll never forget his face."
+  }
+}

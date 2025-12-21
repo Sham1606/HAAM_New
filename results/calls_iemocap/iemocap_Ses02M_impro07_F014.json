@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro07_F014",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:56:08.755694",
+  "duration_seconds": 3.49,
+  "transcript": "Yeah, but that's an awesome score. That's so cool.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.28,
+      "text": "Yeah, but that's an awesome score. That's so cool.",
+      "emotion": "joy",
+      "emotion_confidence": 0.944,
+      "sentiment_score": 0.9783,
+      "pitch_mean": 359.79
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9783,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 154.78,
+    "avg_pitch": 358.31
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 4.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro07",
+    "utterance_id": "Ses02M_impro07_F014",
+    "transcript_ground_truth": "No but that's an awesome school. That's so cool."
+  }
+}

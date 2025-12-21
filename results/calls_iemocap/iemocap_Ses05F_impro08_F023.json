@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05F_impro08_F023",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:11:21.219761",
+  "duration_seconds": 19.07,
+  "transcript": "Right, right. And since, yeah, since it was just a computer glitch, then that should be cleared up as well. So I'm going to go ahead and try to put that into the computer. And if for some reason you notice on your statement in a few days that you've been charged and overdue fee, then you should just call back and we'll have that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.72,
+      "text": "Right, right. And since, yeah, since it was just a computer glitch, then that should be cleared up as well.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.957,
+      "sentiment_score": 0.1403,
+      "pitch_mean": 346.22
+    },
+    {
+      "start_time": 6.72,
+      "end_time": 18.56,
+      "text": "So I'm going to go ahead and try to put that into the computer. And if for some reason you notice on your statement in a few days that you've been charged and overdue fee, then you should just call back and we'll have that.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.92,
+      "sentiment_score": -0.0446,
+      "pitch_mean": 349.17
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0479,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 204.51,
+    "avg_pitch": 347.51
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro08",
+    "utterance_id": "Ses05F_impro08_F023",
+    "transcript_ground_truth": "Right, right, and since--yeah, since it was just a computer glitch, then that's that should be cleared up as well.  So I'm going to go ahead and try and put that into the computer.  And if for some reason you notice on your statement in a few days that you've been charged and an overdue fee, then you should just call back and we'll have that."
+  }
+}

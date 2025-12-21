@@ -1,0 +1,81 @@
+{
+  "call_id": "iemocap_Ses05M_script03_2_M026",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:15:29.778874",
+  "duration_seconds": 7.43,
+  "transcript": "I'm sure you had a riotous time. No restrained at all. Very enjoyable. You never had much anyway. That's a good boy.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I'm sure you had a riotous time.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.351,
+      "sentiment_score": -0.3205,
+      "pitch_mean": 308.06
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 5.0,
+      "text": "No restrained at all.",
+      "emotion": "anger",
+      "emotion_confidence": 0.456,
+      "sentiment_score": -0.215,
+      "pitch_mean": 345.56
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 6.0,
+      "text": "Very enjoyable.",
+      "emotion": "joy",
+      "emotion_confidence": 0.963,
+      "sentiment_score": 0.9571,
+      "pitch_mean": 333.37
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 7.0,
+      "text": "You never had much anyway.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.866,
+      "sentiment_score": -0.4995,
+      "pitch_mean": 374.41
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 8.0,
+      "text": "That's a good boy.",
+      "emotion": "joy",
+      "emotion_confidence": 0.79,
+      "sentiment_score": 0.9315,
+      "pitch_mean": 327.49
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1707,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.4,
+      "anger": 0.2,
+      "joy": 0.4
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 177.66,
+    "avg_pitch": 327.49
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script03_2",
+    "utterance_id": "Ses05M_script03_2_M026",
+    "transcript_ground_truth": "I'm sure you had a riotous time, no restrain at all, very enjoyable.  You never had much anyway."
+  }
+}

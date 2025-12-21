@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04M_script01_1_M038",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:06:40.297197",
+  "duration_seconds": 7.69,
+  "transcript": "Yes, I like it an hour a day. If I have to grub for money all day long at least at evening, I want it beautiful.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Yes, I like it an hour a day.",
+      "emotion": "joy",
+      "emotion_confidence": 0.898,
+      "sentiment_score": 0.809,
+      "pitch_mean": 346.26
+    },
+    {
+      "start_time": 3.5,
+      "end_time": 6.92,
+      "text": "If I have to grub for money all day long at least at evening, I want it beautiful.",
+      "emotion": "anger",
+      "emotion_confidence": 0.548,
+      "sentiment_score": 0.0177,
+      "pitch_mean": 338.61
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4133,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 202.86,
+    "avg_pitch": 332.77
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script01_1",
+    "utterance_id": "Ses04M_script01_1_M038",
+    "transcript_ground_truth": "Yes.  I like getting an hour a day.  If I have to grub for money all day long, at least at evening, I want it beautiful."
+  }
+}

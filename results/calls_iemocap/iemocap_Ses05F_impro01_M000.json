@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses05F_impro01_M000",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:46:23.258261",
+  "duration_seconds": 9.0,
+  "transcript": "Yeah, this is the wrong line. I'm sorry. You need to go back over to line 2b. That's where you should have started from.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.76,
+      "text": "Yeah, this is the wrong line.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.712,
+      "sentiment_score": -0.874,
+      "pitch_mean": 327.92
+    },
+    {
+      "start_time": 3.76,
+      "end_time": 4.76,
+      "text": "I'm sorry.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.911,
+      "sentiment_score": -0.5695,
+      "pitch_mean": 318.83
+    },
+    {
+      "start_time": 4.76,
+      "end_time": 7.4,
+      "text": "You need to go back over to line 2b.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.966,
+      "sentiment_score": -0.0372,
+      "pitch_mean": 317.51
+    },
+    {
+      "start_time": 7.4,
+      "end_time": 8.28,
+      "text": "That's where you should have started from.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.954,
+      "sentiment_score": -0.1595,
+      "pitch_mean": 328.98
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4101,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "disgust": 0.25,
+      "sadness": 0.25,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 160.0,
+    "avg_pitch": 321.26
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro01",
+    "utterance_id": "Ses05F_impro01_M000",
+    "transcript_ground_truth": "ahh Yeah, this is the wrong line.  I'm sorry.  You need to go back over to line two B.  That's where you should have started from."
+  }
+}

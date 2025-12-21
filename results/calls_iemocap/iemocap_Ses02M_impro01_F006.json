@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro01_F006",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:46:56.114179",
+  "duration_seconds": 5.22,
+  "transcript": "that you would need to go home and get another form of idea and come back.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "that you would need to go home and get another form of idea and come back.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.893,
+      "sentiment_score": -0.1397,
+      "pitch_mean": 341.72
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1397,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 184.06,
+    "avg_pitch": 342.23
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro01",
+    "utterance_id": "Ses02M_impro01_F006",
+    "transcript_ground_truth": "Um, that you would need to go home and get another form of ID and come back."
+  }
+}

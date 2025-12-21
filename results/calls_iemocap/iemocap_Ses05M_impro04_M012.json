@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05M_impro04_M012",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:41:41.709089",
+  "duration_seconds": 7.76,
+  "transcript": "I go in for these interviews and they're all cool and everything, you know, they're nice and I'm nice to them and you know, give and take and back and forth and whatever.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.2,
+      "text": "I go in for these interviews and they're all cool and everything, you know, they're nice",
+      "emotion": "neutral",
+      "emotion_confidence": 0.474,
+      "sentiment_score": 0.9351,
+      "pitch_mean": 333.84
+    },
+    {
+      "start_time": 3.2,
+      "end_time": 7.6,
+      "text": "and I'm nice to them and you know, give and take and back and forth and whatever.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.41,
+      "sentiment_score": 0.6591,
+      "pitch_mean": 305.38
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.7971,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 255.16,
+    "avg_pitch": 317.07
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro04",
+    "utterance_id": "Ses05M_impro04_M012",
+    "transcript_ground_truth": "I go in for these interviews, and they're all cool and everything, you know.  Their nice and I'm nice to them, you know, give and take, back and forth, and whatever."
+  }
+}

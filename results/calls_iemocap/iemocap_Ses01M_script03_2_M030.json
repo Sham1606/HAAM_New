@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses01M_script03_2_M030",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:18:24.941207",
+  "duration_seconds": 12.46,
+  "transcript": "Oh, very very interesting Amanda. How about a child of four? Six, or maybe nine. You know we could work up a splendid little debate about it, you know? Intemperate tots",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.6,
+      "text": "Oh, very very interesting Amanda. How about a child of four?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.721,
+      "sentiment_score": 0.9491,
+      "pitch_mean": 349.11
+    },
+    {
+      "start_time": 5.56,
+      "end_time": 10.56,
+      "text": "Six, or maybe nine. You know we could work up a splendid little debate about it, you know?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.872,
+      "sentiment_score": 0.3029,
+      "pitch_mean": 344.78
+    },
+    {
+      "start_time": 11.28,
+      "end_time": 13.28,
+      "text": "Intemperate tots",
+      "emotion": "anger",
+      "emotion_confidence": 0.849,
+      "sentiment_score": -0.3973,
+      "pitch_mean": 347.0
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2849,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "anger": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 149.25,
+    "avg_pitch": 347.0
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script03_2",
+    "utterance_id": "Ses01M_script03_2_M030",
+    "transcript_ground_truth": "Oh very, very interesting Amanda.  How about the child of uh... four, six or maybe nine---you know, we could work up a splendid little debate about it, you know?  Intemperate tots."
+  }
+}

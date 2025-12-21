@@ -1,0 +1,80 @@
+{
+  "call_id": "iemocap_Ses05M_script02_1_M023",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:06:07.762429",
+  "duration_seconds": 18.15,
+  "transcript": "Oh, you're all right, but they're fish to do something that no other fish do. Like the swallows were turning to capastrono, or the limings jumping off the cliffs, you know, like that. I mean, there's magic here and mystery and a little bit of the unexplainable. You know, I can't see how you could not be interested.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.48,
+      "text": "Oh, you're all right, but they're fish to do something that no other fish do.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.486,
+      "sentiment_score": -0.0271,
+      "pitch_mean": 318.25
+    },
+    {
+      "start_time": 4.48,
+      "end_time": 9.08,
+      "text": "Like the swallows were turning to capastrono, or the limings jumping off the cliffs, you",
+      "emotion": "neutral",
+      "emotion_confidence": 0.887,
+      "sentiment_score": -0.0472,
+      "pitch_mean": 338.95
+    },
+    {
+      "start_time": 9.08,
+      "end_time": 10.08,
+      "text": "know, like that.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.833,
+      "sentiment_score": 0.0322,
+      "pitch_mean": 336.99
+    },
+    {
+      "start_time": 10.08,
+      "end_time": 14.76,
+      "text": "I mean, there's magic here and mystery and a little bit of the unexplainable.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.867,
+      "sentiment_score": 0.595,
+      "pitch_mean": 318.96
+    },
+    {
+      "start_time": 14.76,
+      "end_time": 17.64,
+      "text": "You know, I can't see how you could not be interested.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.827,
+      "sentiment_score": -0.0101,
+      "pitch_mean": 322.31
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1085,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "disgust": 0.2,
+      "neutral": 0.8
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 191.74,
+    "avg_pitch": 323.47
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script02_1",
+    "utterance_id": "Ses05M_script02_1_M023",
+    "transcript_ground_truth": "All right.  But they are fish that do something no other fish do.  Like the swallows were turning into Capistrano or Lemmings jumping off the cliffs, you know like that. There's- There's magic here and mystery.  And a little bit of the unexplainable.  You know, I can't see how you could not be interested."
+  }
+}

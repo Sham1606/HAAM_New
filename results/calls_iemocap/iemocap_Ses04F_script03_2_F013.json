@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script03_2_F013",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:42:32.762907",
+  "duration_seconds": 1.84,
+  "transcript": "Oh, don't be so stupid.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Oh, don't be so stupid.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.7948,
+      "pitch_mean": 342.79
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7948,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 163.05,
+    "avg_pitch": 342.79
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script03_2",
+    "utterance_id": "Ses04F_script03_2_F013",
+    "transcript_ground_truth": "Oh, don't be so stupid."
+  }
+}

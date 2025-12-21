@@ -1,0 +1,81 @@
+{
+  "call_id": "iemocap_Ses01F_script02_2_F012",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:40:13.698594",
+  "duration_seconds": 12.8,
+  "transcript": "I feel like my whole life is gonna be spent, standing on this beach with my eyes wide open and my hands clasped expectantly, waiting for fish to show up. And the fish never show up.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.58,
+      "text": "I feel like my whole life is gonna be spent,",
+      "emotion": "sadness",
+      "emotion_confidence": 0.959,
+      "sentiment_score": -0.7307,
+      "pitch_mean": 362.41
+    },
+    {
+      "start_time": 2.58,
+      "end_time": 6.0,
+      "text": "standing on this beach with my eyes wide open",
+      "emotion": "joy",
+      "emotion_confidence": 0.529,
+      "sentiment_score": 0.5472,
+      "pitch_mean": 350.18
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 8.04,
+      "text": "and my hands clasped expectantly,",
+      "emotion": "joy",
+      "emotion_confidence": 0.759,
+      "sentiment_score": 0.1233,
+      "pitch_mean": 336.3
+    },
+    {
+      "start_time": 8.04,
+      "end_time": 10.0,
+      "text": "waiting for fish to show up.",
+      "emotion": "anger",
+      "emotion_confidence": 0.621,
+      "sentiment_score": 0.0823,
+      "pitch_mean": 357.53
+    },
+    {
+      "start_time": 10.0,
+      "end_time": 12.0,
+      "text": "And the fish never show up.",
+      "emotion": "anger",
+      "emotion_confidence": 0.818,
+      "sentiment_score": -0.7657,
+      "pitch_mean": 366.41
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1487,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "sadness": 0.2,
+      "joy": 0.4,
+      "anger": 0.4
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 168.68,
+    "avg_pitch": 349.24
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_2",
+    "utterance_id": "Ses01F_script02_2_F012",
+    "transcript_ground_truth": "I feel like my whole life is going to be spent standing on this beach with my eyes wide open and my hands clasped expectantly waiting for fish to show up.  And the fish never show up."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script03_1_F031",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:52:21.519406",
+  "duration_seconds": 2.33,
+  "transcript": "Much sillier too.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Much sillier too.",
+      "emotion": "joy",
+      "emotion_confidence": 0.959,
+      "sentiment_score": -0.2487,
+      "pitch_mean": 324.34
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2487,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 77.09,
+    "avg_pitch": 322.5
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script03_1",
+    "utterance_id": "Ses03M_script03_1_F031",
+    "transcript_ground_truth": "And much sillier too."
+  }
+}

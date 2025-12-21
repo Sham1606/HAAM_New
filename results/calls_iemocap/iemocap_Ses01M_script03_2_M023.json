@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script03_2_M023",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:18:11.347260",
+  "duration_seconds": 5.15,
+  "transcript": "You know what? You're snapped, you snap, you snap, you're like a little adder.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "You know what? You're snapped, you snap, you snap, you're like a little adder.",
+      "emotion": "anger",
+      "emotion_confidence": 0.959,
+      "sentiment_score": -0.5471,
+      "pitch_mean": 337.25
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5471,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 163.16,
+    "avg_pitch": 337.62
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script03_2",
+    "utterance_id": "Ses01M_script03_2_M023",
+    "transcript_ground_truth": "You know what?  You snap, you snap, you snap you're like a little adder."
+  }
+}

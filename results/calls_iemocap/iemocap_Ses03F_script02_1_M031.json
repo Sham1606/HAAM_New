@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03F_script02_1_M031",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:38:14.914634",
+  "duration_seconds": 6.97,
+  "transcript": "I don't get it. The last time, the first time that we came to see it, you said it was the best night of your life.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.76,
+      "text": "I don't get it.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.362,
+      "sentiment_score": -0.6962,
+      "pitch_mean": 328.4
+    },
+    {
+      "start_time": 2.76,
+      "end_time": 7.0,
+      "text": "The last time, the first time that we came to see it, you said it was the best night of your life.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.9499,
+      "pitch_mean": 333.28
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1268,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 223.8,
+    "avg_pitch": 333.28
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_1",
+    "utterance_id": "Ses03F_script02_1_M031",
+    "transcript_ground_truth": "I don't get it. The last time-the first time that we came to see it you said it was the best night of your life."
+  }
+}

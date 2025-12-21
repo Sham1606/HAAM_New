@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro03_F000",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:51:28.312565",
+  "duration_seconds": 2.29,
+  "transcript": "Hey!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Hey!",
+      "emotion": "joy",
+      "emotion_confidence": 0.705,
+      "sentiment_score": 0.6964,
+      "pitch_mean": 328.97
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.6964,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 26.26,
+    "avg_pitch": 329.54
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro03",
+    "utterance_id": "Ses03M_impro03_F000",
+    "transcript_ground_truth": "Hey."
+  }
+}

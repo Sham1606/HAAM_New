@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04F_script02_2_F008",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:35:57.429496",
+  "duration_seconds": 4.2,
+  "transcript": "Yeah left totally stepped. Yeah, my ripping out.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.76,
+      "text": "Yeah left totally stepped.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.623,
+      "sentiment_score": 0.0707,
+      "pitch_mean": 323.31
+    },
+    {
+      "start_time": 1.76,
+      "end_time": 2.32,
+      "text": "Yeah, my ripping out.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.57,
+      "sentiment_score": 0.0062,
+      "pitch_mean": 334.36
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0385,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "sadness": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 114.32,
+    "avg_pitch": 327.92
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 2.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script02_2",
+    "utterance_id": "Ses04F_script02_2_F008",
+    "transcript_ground_truth": "We totally skipped. Right."
+  }
+}

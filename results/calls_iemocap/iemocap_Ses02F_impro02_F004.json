@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro02_F004",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:20:27.288742",
+  "duration_seconds": 12.18,
+  "transcript": "Well, we could do the best we can and with wireless internet these days, I think that we could probably talk every once in a while.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 12.0,
+      "text": "Well, we could do the best we can and with wireless internet these days, I think that we could probably talk every once in a while.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.97,
+      "sentiment_score": 0.4872,
+      "pitch_mean": 326.37
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4872,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 128.13,
+    "avg_pitch": 326.01
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro02",
+    "utterance_id": "Ses02F_impro02_F004",
+    "transcript_ground_truth": "Well, we can do the best we can and-and, with um, you know like wireless internet these days--I think that we could-- Talk every once in awhile."
+  }
+}

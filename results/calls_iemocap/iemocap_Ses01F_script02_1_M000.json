@@ -1,0 +1,70 @@
+{
+  "call_id": "iemocap_Ses01F_script02_1_M000",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:38:16.831250",
+  "duration_seconds": 7.22,
+  "transcript": "How a time is it? They're supposed to run around midnight, right? God, this is great, isn't it, Maya? Look at this night we got here, huh?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "How a time is it?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.691,
+      "sentiment_score": 0.0348,
+      "pitch_mean": 332.42
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "They're supposed to run around midnight, right?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.8,
+      "sentiment_score": 0.0126,
+      "pitch_mean": 333.13
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "God, this is great, isn't it, Maya?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.888,
+      "sentiment_score": 0.9785,
+      "pitch_mean": 340.31
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 8.0,
+      "text": "Look at this night we got here, huh?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.0021,
+      "pitch_mean": 339.76
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.257,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 224.38,
+    "avg_pitch": 339.76
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.5,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_1",
+    "utterance_id": "Ses01F_script02_1_M000",
+    "transcript_ground_truth": "What time is it?  I think it's supposed to run around midnight, right?  God, this is great, isn't it, Carla?  Look at this night we got here, huh."
+  }
+}

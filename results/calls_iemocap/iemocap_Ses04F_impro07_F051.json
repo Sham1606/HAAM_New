@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro07_F051",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:14:36.118245",
+  "duration_seconds": 3.64,
+  "transcript": "Yeah, it worked out. Maybe I can work your red lobster",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.16,
+      "text": "Yeah, it worked out. Maybe I can work your red lobster",
+      "emotion": "neutral",
+      "emotion_confidence": 0.946,
+      "sentiment_score": 0.8427,
+      "pitch_mean": 344.34
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.8427,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 181.32,
+    "avg_pitch": 341.63
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro07",
+    "utterance_id": "Ses04F_impro07_F051",
+    "transcript_ground_truth": "Yeah.  It will work out.  Maybe I could work at Red Lobster."
+  }
+}

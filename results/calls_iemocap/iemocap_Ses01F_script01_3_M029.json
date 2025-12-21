@@ -1,0 +1,89 @@
+{
+  "call_id": "iemocap_Ses01F_script01_3_M029",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:37:06.379416",
+  "duration_seconds": 20.85,
+  "transcript": "Like for instance, there was just one time I'd been raining for several days, and this kid he just came out to me and he... He gave me his last pair of dry socks. Just put him in my pocket. That's a little thing, you know, but... That's what kind of guys I had.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.24,
+      "text": "Like for instance, there was just one time I'd been raining for several days, and this kid",
+      "emotion": "neutral",
+      "emotion_confidence": 0.753,
+      "sentiment_score": -0.439,
+      "pitch_mean": 309.18
+    },
+    {
+      "start_time": 7.24,
+      "end_time": 9.48,
+      "text": "he just came out to me and he...",
+      "emotion": "disgust",
+      "emotion_confidence": 0.382,
+      "sentiment_score": 0.1069,
+      "pitch_mean": 320.3
+    },
+    {
+      "start_time": 9.48,
+      "end_time": 11.48,
+      "text": "He gave me his last pair of dry socks.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.656,
+      "sentiment_score": -0.0091,
+      "pitch_mean": 321.24
+    },
+    {
+      "start_time": 11.48,
+      "end_time": 14.68,
+      "text": "Just put him in my pocket.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.699,
+      "sentiment_score": 0.1423,
+      "pitch_mean": 319.64
+    },
+    {
+      "start_time": 14.68,
+      "end_time": 18.36,
+      "text": "That's a little thing, you know, but...",
+      "emotion": "disgust",
+      "emotion_confidence": 0.473,
+      "sentiment_score": -0.0504,
+      "pitch_mean": 321.34
+    },
+    {
+      "start_time": 18.36,
+      "end_time": 20.84,
+      "text": "That's what kind of guys I had.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.879,
+      "sentiment_score": -0.0346,
+      "pitch_mean": 330.38
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0473,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "disgust": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 155.4,
+    "avg_pitch": 318.6
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.3333,
+    "arousal": 2.3333,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_3",
+    "utterance_id": "Ses01F_script01_3_M029",
+    "transcript_ground_truth": "Like for instance, there was this one time it had been raining for several days and this kid he just came up to me and he gave me his last pair of dry socks.  He just put them in my pocket.  That's a little thing, you know, but that's what kind of guys I had."
+  }
+}

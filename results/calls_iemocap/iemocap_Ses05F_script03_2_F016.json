@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script03_2_F016",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:29:52.636674",
+  "duration_seconds": 1.82,
+  "transcript": "No, what's not?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "No, what's not?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.1436,
+      "pitch_mean": 343.87
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1436,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 98.9,
+    "avg_pitch": 343.87
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script03_2",
+    "utterance_id": "Ses05F_script03_2_F016",
+    "transcript_ground_truth": "No, it's not."
+  }
+}

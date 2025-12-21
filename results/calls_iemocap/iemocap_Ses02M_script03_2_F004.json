@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script03_2_F004",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:12:49.592554",
+  "duration_seconds": 3.58,
+  "transcript": "Just a little per hand, nothing serious.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Just a little per hand, nothing serious.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.716,
+      "sentiment_score": -0.0736,
+      "pitch_mean": 355.05
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0736,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 117.26,
+    "avg_pitch": 350.11
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script03_2",
+    "utterance_id": "Ses02M_script03_2_F004",
+    "transcript_ground_truth": "Just a little perhaps, nothing serious."
+  }
+}

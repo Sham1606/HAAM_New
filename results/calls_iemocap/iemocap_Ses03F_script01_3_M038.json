@@ -1,0 +1,63 @@
+{
+  "call_id": "iemocap_Ses03F_script01_3_M038",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:36:09.290422",
+  "duration_seconds": 11.14,
+  "transcript": "And I came back here and it was incredible. There was no meaning in that here. The whole thing to them was a bus accident.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.28,
+      "text": "And I came back here and it was incredible.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.903,
+      "sentiment_score": 0.9743,
+      "pitch_mean": 336.09
+    },
+    {
+      "start_time": 3.28,
+      "end_time": 5.88,
+      "text": "There was no meaning in that here.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.598,
+      "sentiment_score": -0.7275,
+      "pitch_mean": 326.16
+    },
+    {
+      "start_time": 5.88,
+      "end_time": 10.64,
+      "text": "The whole thing to them was a bus accident.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.393,
+      "sentiment_score": -0.7974,
+      "pitch_mean": 323.83
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1835,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.333,
+      "sadness": 0.333,
+      "disgust": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 134.6,
+    "avg_pitch": 327.39
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_3",
+    "utterance_id": "Ses03F_script01_3_M038",
+    "transcript_ground_truth": "And I came back here and it was incredible. There was no meaning in that here. The whole thing to them was a bus accident."
+  }
+}

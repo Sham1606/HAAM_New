@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses05M_script02_2_F027",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:07:52.675974",
+  "duration_seconds": 10.08,
+  "transcript": "And this is just this. I mean, it's a lot and everything, but it's not... You know, something else. Am I making any sense?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "And this is just this. I mean, it's a lot and everything, but it's not...",
+      "emotion": "disgust",
+      "emotion_confidence": 0.436,
+      "sentiment_score": -0.7525,
+      "pitch_mean": 323.22
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 8.0,
+      "text": "You know, something else.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.423,
+      "sentiment_score": 0.0295,
+      "pitch_mean": 305.83
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 10.0,
+      "text": "Am I making any sense?",
+      "emotion": "sadness",
+      "emotion_confidence": 0.577,
+      "sentiment_score": -0.1084,
+      "pitch_mean": 302.86
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2772,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "disgust": 0.333,
+      "sadness": 0.667
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 142.86,
+    "avg_pitch": 314.28
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.6667,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script02_2",
+    "utterance_id": "Ses05M_script02_2_F027",
+    "transcript_ground_truth": "This is just this.  I mean, it's a lot and everything.  But it's not, you know, something else.  Am I making any sense?"
+  }
+}

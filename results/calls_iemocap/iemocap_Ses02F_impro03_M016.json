@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro03_M016",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:22:58.255367",
+  "duration_seconds": 2.8,
+  "transcript": "Uh-huh. Oh yeah, spring. That's a little bit...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.8,
+      "text": "Uh-huh. Oh yeah, spring. That's a little bit...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.696,
+      "sentiment_score": 0.4506,
+      "pitch_mean": 352.69
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4506,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 171.49,
+    "avg_pitch": 352.69
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro03",
+    "utterance_id": "Ses02F_impro03_M016",
+    "transcript_ground_truth": "Uh, huh. I mean, you know, it's spring--It'll be--"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_impro01_M019",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:34:14.854901",
+  "duration_seconds": 6.55,
+  "transcript": "Well then you're just gonna look stupid because I'm just waiting for an ID and you're gonna make security Take me out because I want my ID",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.28,
+      "text": "Well then you're just gonna look stupid because I'm just waiting for an ID and you're gonna make security",
+      "emotion": "anger",
+      "emotion_confidence": 0.69,
+      "sentiment_score": -0.8731,
+      "pitch_mean": 347.53
+    },
+    {
+      "start_time": 4.28,
+      "end_time": 6.28,
+      "text": "Take me out because I want my ID",
+      "emotion": "joy",
+      "emotion_confidence": 0.547,
+      "sentiment_score": 0.0884,
+      "pitch_mean": 353.74
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3923,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "joy": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 247.33,
+    "avg_pitch": 346.42
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro01",
+    "utterance_id": "Ses05M_impro01_M019",
+    "transcript_ground_truth": "Well, then you're just gonna look stupid because I'm just waiting for an I.D. and you're gonna make security take me out because I want my I.D."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script01_1b_F001",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:55:45.792921",
+  "duration_seconds": 3.17,
+  "transcript": "What do you mean I was the first one up you still in bed?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "What do you mean I was the first one up you still in bed?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.925,
+      "sentiment_score": -0.0601,
+      "pitch_mean": 314.25
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0601,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 264.98,
+    "avg_pitch": 313.5
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "sur",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_1b",
+    "utterance_id": "Ses05M_script01_1b_F001",
+    "transcript_ground_truth": "What do you mean?  I was the first one up, he was still in bed."
+  }
+}

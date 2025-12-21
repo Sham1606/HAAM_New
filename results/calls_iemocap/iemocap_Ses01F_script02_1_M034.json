@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script02_1_M034",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:39:24.452030",
+  "duration_seconds": 5.54,
+  "transcript": "We just wanted a good spot. I'm telling you this is a much better spot. I got instincts for these things",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.2,
+      "text": "We just wanted a good spot. I'm telling you this is a much better spot. I got instincts for these things",
+      "emotion": "neutral",
+      "emotion_confidence": 0.953,
+      "sentiment_score": 0.8038,
+      "pitch_mean": 335.14
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.8038,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 227.44,
+    "avg_pitch": 334.62
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_1",
+    "utterance_id": "Ses01F_script02_1_M034",
+    "transcript_ground_truth": "We just weren't in a good spot.  I'm telling you, this is a much better spot.  I have instincts for these things."
+  }
+}

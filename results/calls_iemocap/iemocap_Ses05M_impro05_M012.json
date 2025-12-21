@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses05M_impro05_M012",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:44:30.123057",
+  "duration_seconds": 6.95,
+  "transcript": "Well no one even told me about that. Like why would I think to buy insurance? I was like it's a three hour flight.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Well no one even told me about that.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.484,
+      "sentiment_score": -0.7174,
+      "pitch_mean": 326.42
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.84,
+      "text": "Like why would I think to buy insurance?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.322,
+      "sentiment_score": -0.708,
+      "pitch_mean": 312.89
+    },
+    {
+      "start_time": 4.84,
+      "end_time": 6.68,
+      "text": "I was like it's a three hour flight.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.759,
+      "sentiment_score": -0.1866,
+      "pitch_mean": 332.09
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5373,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.667,
+      "neutral": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 207.2,
+    "avg_pitch": 319.97
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 3.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro05",
+    "utterance_id": "Ses05M_impro05_M012",
+    "transcript_ground_truth": "Well, no one even told me about that.  Like, why would I think to buy insurance?  I was- It's like a three hour flight."
+  }
+}

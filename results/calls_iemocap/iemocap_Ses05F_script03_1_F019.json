@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script03_1_F019",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:27:28.136412",
+  "duration_seconds": 3.46,
+  "transcript": "Well, what if one of us dies? Does the other laugh then?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Well, what if one of us dies? Does the other laugh then?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.378,
+      "sentiment_score": -0.5691,
+      "pitch_mean": 339.77
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5691,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 208.09,
+    "avg_pitch": 335.91
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script03_1",
+    "utterance_id": "Ses05F_script03_1_F019",
+    "transcript_ground_truth": "Well, what if one of us dies, does the other laugh then?"
+  }
+}

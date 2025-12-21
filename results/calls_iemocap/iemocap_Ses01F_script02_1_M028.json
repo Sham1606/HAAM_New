@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01F_script02_1_M028",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:39:12.873194",
+  "duration_seconds": 10.84,
+  "transcript": "Okay, whatever, but it's a fish who do something no other fish do. It's like those swallows are turning the capestron I like those lemmings that throw themselves off the cliffs",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.14,
+      "text": "Okay, whatever, but it's a fish who do something no other fish do. It's like those swallows are turning the capestron",
+      "emotion": "neutral",
+      "emotion_confidence": 0.836,
+      "sentiment_score": -0.2953,
+      "pitch_mean": 336.71
+    },
+    {
+      "start_time": 7.14,
+      "end_time": 10.18,
+      "text": "I like those lemmings that throw themselves off the cliffs",
+      "emotion": "joy",
+      "emotion_confidence": 0.89,
+      "sentiment_score": -0.4196,
+      "pitch_mean": 341.57
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3574,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "joy": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 171.59,
+    "avg_pitch": 336.13
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_1",
+    "utterance_id": "Ses01F_script02_1_M028",
+    "transcript_ground_truth": "okay... well, Whatever.  But it's a fish who do something no other fish do.  It's like those swallows returning to Capistrano or like those lemmings that throw themselves off the cliffs."
+  }
+}

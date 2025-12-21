@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro03_F008",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:21:30.276802",
+  "duration_seconds": 8.03,
+  "transcript": "We walked down there and there's, and there's this huge like 10 foot heart in candles on the beach.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 8.0,
+      "text": "We walked down there and there's, and there's this huge like 10 foot heart in candles on the beach.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.729,
+      "sentiment_score": 0.2581,
+      "pitch_mean": 353.09
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2581,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 141.97,
+    "avg_pitch": 353.11
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.75,
+    "arousal": 4.0,
+    "dominance": 2.75
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro03",
+    "utterance_id": "Ses02F_impro03_F008",
+    "transcript_ground_truth": "So we walked down there and there's-[LAUGHTER]-And there's- this huge like ten foot heart in candles on the beach--"
+  }
+}

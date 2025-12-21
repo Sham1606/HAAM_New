@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro05b_F014",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:59:09.594958",
+  "duration_seconds": 2.11,
+  "transcript": "Sir, I understand that but this is real.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Sir, I understand that but this is real.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.898,
+      "sentiment_score": -0.1233,
+      "pitch_mean": 344.22
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1233,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 227.49,
+    "avg_pitch": 344.56
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro05b",
+    "utterance_id": "Ses03M_impro05b_F014",
+    "transcript_ground_truth": "Sir I understand that but just--"
+  }
+}

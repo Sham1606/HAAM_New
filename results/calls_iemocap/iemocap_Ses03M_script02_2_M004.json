@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script02_2_M004",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:49:47.896439",
+  "duration_seconds": 3.49,
+  "transcript": "Are we talking about the same thing?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Are we talking about the same thing?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.372,
+      "sentiment_score": -0.0632,
+      "pitch_mean": 319.21
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0632,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 120.5,
+    "avg_pitch": 319.53
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 1.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_2",
+    "utterance_id": "Ses03M_script02_2_M004",
+    "transcript_ground_truth": "Are we talking about the same thing?"
+  }
+}

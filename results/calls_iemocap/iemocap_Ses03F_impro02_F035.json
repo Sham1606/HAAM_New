@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro02_F035",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:17:44.104914",
+  "duration_seconds": 3.5,
+  "transcript": "And then I'll stop working and I'll stay home with him.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.48,
+      "text": "And then I'll stop working and I'll stay home with him.",
+      "emotion": "anger",
+      "emotion_confidence": 0.662,
+      "sentiment_score": 0.0819,
+      "pitch_mean": 357.88
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0819,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 188.31,
+    "avg_pitch": 357.47
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro02",
+    "utterance_id": "Ses03F_impro02_F035",
+    "transcript_ground_truth": "And- And then I'll stop working and- I'll stay home with the baby."
+  }
+}

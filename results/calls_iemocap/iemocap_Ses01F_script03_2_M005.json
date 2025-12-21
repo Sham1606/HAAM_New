@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script03_2_M005",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:46:38.780677",
+  "duration_seconds": 4.87,
+  "transcript": "Well you let him kiss you huh you said you did",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.32,
+      "text": "Well you let him kiss you huh you said you did",
+      "emotion": "neutral",
+      "emotion_confidence": 0.83,
+      "sentiment_score": -0.0379,
+      "pitch_mean": 335.28
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0379,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 135.52,
+    "avg_pitch": 335.39
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script03_2",
+    "utterance_id": "Ses01F_script03_2_M005",
+    "transcript_ground_truth": "Well, you let him kiss you, huh?  You said you did."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02M_impro03_M013",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:50:34.891171",
+  "duration_seconds": 6.24,
+  "transcript": "So I got the band to do something towards the end of the song. I got to go up on stage.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.4,
+      "text": "So I got the band to do something towards the end of the song.",
+      "emotion": "anger",
+      "emotion_confidence": 0.55,
+      "sentiment_score": 0.0958,
+      "pitch_mean": 336.29
+    },
+    {
+      "start_time": 4.4,
+      "end_time": 6.0,
+      "text": "I got to go up on stage.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.471,
+      "sentiment_score": 0.6572,
+      "pitch_mean": 321.12
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3765,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 201.89,
+    "avg_pitch": 331.99
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro03",
+    "utterance_id": "Ses02M_impro03_M013",
+    "transcript_ground_truth": "So I got the band to do something, you know, like towards the end of the song I got to go up on stage and, uh"
+  }
+}

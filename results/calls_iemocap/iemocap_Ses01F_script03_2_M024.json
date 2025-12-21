@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses01F_script03_2_M024",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:47:10.423563",
+  "duration_seconds": 12.75,
+  "transcript": "I suppose you let him kiss you a good deal more than two. Oh, yes, I suppose you guys had a riotous time, huh? All out, no restraint at all. Well, you never really had much anyhow.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.7,
+      "text": "I suppose you let him kiss you a good deal more than two.",
+      "emotion": "anger",
+      "emotion_confidence": 0.714,
+      "sentiment_score": 0.1179,
+      "pitch_mean": 338.58
+    },
+    {
+      "start_time": 3.7,
+      "end_time": 8.38,
+      "text": "Oh, yes, I suppose you guys had a riotous time, huh?",
+      "emotion": "joy",
+      "emotion_confidence": 0.505,
+      "sentiment_score": -0.5462,
+      "pitch_mean": 349.82
+    },
+    {
+      "start_time": 8.38,
+      "end_time": 10.64,
+      "text": "All out, no restraint at all.",
+      "emotion": "anger",
+      "emotion_confidence": 0.71,
+      "sentiment_score": -0.5478,
+      "pitch_mean": 344.59
+    },
+    {
+      "start_time": 10.64,
+      "end_time": 12.64,
+      "text": "Well, you never really had much anyhow.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.851,
+      "sentiment_score": -0.757,
+      "pitch_mean": 357.44
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4333,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "joy": 0.25,
+      "neutral": 0.25
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 174.12,
+    "avg_pitch": 346.85
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.0,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script03_2",
+    "utterance_id": "Ses01F_script03_2_M024",
+    "transcript_ground_truth": "And I suppose you let him kiss you a good deal more than, too. Yes.  I suppose you guys had a riotous time, huh?  All out, no restraint at all.  Well, you never really had much anyhow."
+  }
+}

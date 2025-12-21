@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script01_1_F038",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:02:27.768137",
+  "duration_seconds": 5.77,
+  "transcript": "You mean to tell me you would leave the business for this?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "You mean to tell me you would leave the business for this?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.6831,
+      "pitch_mean": 323.04
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6831,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 124.88,
+    "avg_pitch": 323.04
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.3333,
+    "arousal": 2.6667,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_1",
+    "utterance_id": "Ses01M_script01_1_F038",
+    "transcript_ground_truth": "You mean to tell me you would leave the business for this."
+  }
+}

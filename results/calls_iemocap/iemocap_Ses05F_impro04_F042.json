@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses05F_impro04_F042",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:58:07.882589",
+  "duration_seconds": 8.42,
+  "transcript": "Would you be willing to make some more calls? Am I behalf? I won't make you look bad.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Would you be willing to make some more calls?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.869,
+      "sentiment_score": 0.0937,
+      "pitch_mean": 333.78
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 6.0,
+      "text": "Am I behalf?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.734,
+      "sentiment_score": -0.0577,
+      "pitch_mean": 327.7
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 8.0,
+      "text": "I won't make you look bad.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.375,
+      "sentiment_score": -0.3364,
+      "pitch_mean": 322.5
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1001,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "disgust": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 128.27,
+    "avg_pitch": 327.46
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro04",
+    "utterance_id": "Ses05F_impro04_F042",
+    "transcript_ground_truth": "Would you be willing to make some more calls on my behalf? I won't--I won't make you look bad."
+  }
+}

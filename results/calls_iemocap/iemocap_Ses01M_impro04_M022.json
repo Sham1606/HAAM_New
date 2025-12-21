@@ -1,0 +1,31 @@
+{
+  "call_id": "iemocap_Ses01M_impro04_M022",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:54:43.008373",
+  "duration_seconds": 1.79,
+  "transcript": "",
+  "segments": [],
+  "overall_metrics": {
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {},
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 0.0,
+    "avg_pitch": 334.3
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro04",
+    "utterance_id": "Ses01M_impro04_M022",
+    "transcript_ground_truth": "[BREATHING]"
+  }
+}

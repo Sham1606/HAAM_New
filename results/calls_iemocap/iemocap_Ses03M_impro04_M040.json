@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro04_M040",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:56:42.177150",
+  "duration_seconds": 5.09,
+  "transcript": "What I'm doing yeah, I got so good that was over 2100 now what I'm doing",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.6,
+      "text": "What I'm doing yeah, I got so good that was over 2100 now what I'm doing",
+      "emotion": "disgust",
+      "emotion_confidence": 0.477,
+      "sentiment_score": 0.8971,
+      "pitch_mean": 326.83
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.8971,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 188.61,
+    "avg_pitch": 326.15
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro04",
+    "utterance_id": "Ses03M_impro04_M040",
+    "transcript_ground_truth": "But I'm doomed.  Yeah I got so good I was over twenty one hundred.  Now what am I doing?"
+  }
+}

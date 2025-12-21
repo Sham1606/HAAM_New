@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05F_impro04_M013",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:58:58.476627",
+  "duration_seconds": 3.79,
+  "transcript": "Have you? This gotta be something else.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Have you?",
+      "emotion": "sadness",
+      "emotion_confidence": 0.548,
+      "sentiment_score": 0.1274,
+      "pitch_mean": 316.01
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "This gotta be something else.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.783,
+      "sentiment_score": -0.6134,
+      "pitch_mean": 326.99
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.243,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 110.82,
+    "avg_pitch": 326.99
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro04",
+    "utterance_id": "Ses05F_impro04_M013",
+    "transcript_ground_truth": "Have you?  There's got to be something else."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script03_2_F013",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:44:35.371157",
+  "duration_seconds": 2.14,
+  "transcript": "Speak on the habit with you.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Speak on the habit with you.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.824,
+      "sentiment_score": 0.084,
+      "pitch_mean": 330.9
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.084,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 168.03,
+    "avg_pitch": 328.99
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script03_2",
+    "utterance_id": "Ses03F_script03_2_F013",
+    "transcript_ground_truth": "It's become a habit with you."
+  }
+}

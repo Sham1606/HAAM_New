@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_impro02_M003",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:50:25.782763",
+  "duration_seconds": 4.64,
+  "transcript": "\u6570\u30d7\u30ec\u30a4\u30e4\u30f3\u30b0\u3001\u9060\u304f\u3057\u307e\u305b\u3093\u3002\u3068\u3044\u3046\u8a00\u3044\u65b9\u3001",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.26,
+      "text": "\u6570\u30d7\u30ec\u30a4\u30e4\u30f3\u30b0\u3001\u9060\u304f\u3057\u307e\u305b\u3093\u3002",
+      "emotion": "neutral",
+      "emotion_confidence": 0.731,
+      "sentiment_score": 0.0466,
+      "pitch_mean": 323.35
+    },
+    {
+      "start_time": 3.26,
+      "end_time": 22.72,
+      "text": "\u3068\u3044\u3046\u8a00\u3044\u65b9\u3001",
+      "emotion": "neutral",
+      "emotion_confidence": 0.736,
+      "sentiment_score": 0.0462,
+      "pitch_mean": 322.88
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0464,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 12.92,
+    "avg_pitch": 322.88
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro02",
+    "utterance_id": "Ses03M_impro02_M003",
+    "transcript_ground_truth": "they need me out there sooner than I thought"
+  }
+}

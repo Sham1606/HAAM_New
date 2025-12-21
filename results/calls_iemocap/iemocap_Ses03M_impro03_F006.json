@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_impro03_F006",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:51:41.320907",
+  "duration_seconds": 5.77,
+  "transcript": "Oh, I don't remember. Everybody says I love you. With your ju-beam and I haven't seen it. Okay, do it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.8,
+      "text": "Oh, I don't remember. Everybody says I love you.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.446,
+      "sentiment_score": 0.2774,
+      "pitch_mean": 351.92
+    },
+    {
+      "start_time": 2.8,
+      "end_time": 5.6,
+      "text": "With your ju-beam and I haven't seen it. Okay, do it.",
+      "emotion": "anger",
+      "emotion_confidence": 0.574,
+      "sentiment_score": -0.1897,
+      "pitch_mean": 334.5
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0438,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 207.85,
+    "avg_pitch": 339.18
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.5,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro03",
+    "utterance_id": "Ses03M_impro03_F006",
+    "transcript_ground_truth": "oh, I don't remember.  Everybody Says I Love You with Drew Barrymore...no you haven't seen it?  Okay."
+  }
+}

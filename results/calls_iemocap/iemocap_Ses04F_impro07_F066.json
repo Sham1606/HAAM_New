@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses04F_impro07_F066",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:15:16.037302",
+  "duration_seconds": 9.65,
+  "transcript": "No. But I'm thinking I might, you know, like, audition for a player or something. I don't really want to do this sorority thing. I'm not really feeling that vibe with this.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "No.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.609,
+      "sentiment_score": 0.122,
+      "pitch_mean": 330.12
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 4.8,
+      "text": "But I'm thinking I might, you know, like, audition for a player or something.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.732,
+      "sentiment_score": 0.1211,
+      "pitch_mean": 345.32
+    },
+    {
+      "start_time": 4.8,
+      "end_time": 6.32,
+      "text": "I don't really want to do this sorority thing.",
+      "emotion": "joy",
+      "emotion_confidence": 0.482,
+      "sentiment_score": -0.8735,
+      "pitch_mean": 342.61
+    },
+    {
+      "start_time": 6.32,
+      "end_time": 9.32,
+      "text": "I'm not really feeling that vibe with this.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.768,
+      "sentiment_score": -0.8317,
+      "pitch_mean": 334.77
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3655,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "sadness": 0.25,
+      "neutral": 0.5,
+      "joy": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 198.97,
+    "avg_pitch": 338.39
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro07",
+    "utterance_id": "Ses04F_impro07_F066",
+    "transcript_ground_truth": "No.  But I'm thinking I might, you know, like audition for a play or something.  I don't really want to do the sorority thing.  I'm not really feeling that vibe with the"
+  }
+}

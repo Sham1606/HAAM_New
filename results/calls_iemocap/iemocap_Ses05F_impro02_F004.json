@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro02_F004",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:47:25.547155",
+  "duration_seconds": 2.3,
+  "transcript": "I got a call today.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I got a call today.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.456,
+      "sentiment_score": 0.1568,
+      "pitch_mean": 338.59
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1568,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 130.36,
+    "avg_pitch": 337.17
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 2.0,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro02",
+    "utterance_id": "Ses05F_impro02_F004",
+    "transcript_ground_truth": "I got a call today,"
+  }
+}

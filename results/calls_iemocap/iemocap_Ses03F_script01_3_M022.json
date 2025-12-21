@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script01_3_M022",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:35:36.075355",
+  "duration_seconds": 13.42,
+  "transcript": "God, I kissed Annie. I kissed Annie. How long have I been waiting to kiss you?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 13.36,
+      "text": "God, I kissed Annie. I kissed Annie. How long have I been waiting to kiss you?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.785,
+      "sentiment_score": 0.8146,
+      "pitch_mean": 323.51
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.8146,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 71.54,
+    "avg_pitch": 323.61
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 5.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_3",
+    "utterance_id": "Ses03F_script01_3_M022",
+    "transcript_ground_truth": "[LAUGHTER]. God, I kissed Annie. I kissed Annie. How long, how long I've been waiting to kiss you."
+  }
+}

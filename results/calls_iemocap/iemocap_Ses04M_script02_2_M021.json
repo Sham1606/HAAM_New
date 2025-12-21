@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses04M_script02_2_M021",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:13:31.689300",
+  "duration_seconds": 13.0,
+  "transcript": "It was in the car right driving past the Nicarabakh or Likarlakar you said let's get some champagne And I said times a waste in or something like that right that's it right you want this to be like the other time That's it of course",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.28,
+      "text": "It was in the car right driving past the Nicarabakh or Likarlakar you said let's get some champagne",
+      "emotion": "neutral",
+      "emotion_confidence": 0.908,
+      "sentiment_score": 0.0837,
+      "pitch_mean": 331.09
+    },
+    {
+      "start_time": 5.28,
+      "end_time": 10.74,
+      "text": "And I said times a waste in or something like that right that's it right you want this to be like the other time",
+      "emotion": "neutral",
+      "emotion_confidence": 0.88,
+      "sentiment_score": -0.515,
+      "pitch_mean": 336.53
+    },
+    {
+      "start_time": 10.74,
+      "end_time": 12.74,
+      "text": "That's it of course",
+      "emotion": "neutral",
+      "emotion_confidence": 0.942,
+      "sentiment_score": 0.0508,
+      "pitch_mean": 332.82
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1268,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 212.31,
+    "avg_pitch": 333.68
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script02_2",
+    "utterance_id": "Ses04M_script02_2_M021",
+    "transcript_ground_truth": "It was in the car, right?  Driving past the Knickerbocker Liquor Locker?  You said let's get some champagne and I said times a wasting or something like that.  Right?  That's it, right?  You want this to be like the other time.  That's it.  Of course."
+  }
+}

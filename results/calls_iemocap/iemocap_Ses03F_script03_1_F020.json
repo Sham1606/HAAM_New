@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script03_1_F020",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:42:54.505140",
+  "duration_seconds": 2.9,
+  "transcript": "this. Which particular one?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "this. Which particular one?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.387,
+      "sentiment_score": -0.0078,
+      "pitch_mean": 315.39
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0078,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 82.62,
+    "avg_pitch": 317.54
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script03_1",
+    "utterance_id": "Ses03F_script03_1_F020",
+    "transcript_ground_truth": "Which particular one?"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "call_id": "iemocap_Ses02M_script02_1_M006",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:06:23.285725",
+  "duration_seconds": 8.86,
+  "transcript": "How you doing? You know what I forgot? I forgot to bring my flashlight. How can I forget to bring my flashlight? I'm gonna be so stupid.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "How you doing?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.83,
+      "sentiment_score": 0.1942,
+      "pitch_mean": 312.79
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "You know what I forgot?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.774,
+      "sentiment_score": -0.2637,
+      "pitch_mean": 318.22
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "I forgot to bring my flashlight.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.43,
+      "sentiment_score": -0.7379,
+      "pitch_mean": 323.52
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 8.0,
+      "text": "How can I forget to bring my flashlight?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.441,
+      "sentiment_score": -0.5979,
+      "pitch_mean": 324.31
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 10.0,
+      "text": "I'm gonna be so stupid.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.8553,
+      "pitch_mean": 319.46
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4521,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.6,
+      "disgust": 0.4
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 182.84,
+    "avg_pitch": 319.46
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script02_1",
+    "utterance_id": "Ses02M_script02_1_M006",
+    "transcript_ground_truth": "How you doing? You know what I forgot? I forgot to bring my flashlight. How - how could I forget to bring my flashlight? How could I be so stupid?"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro02_F030",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:49:27.088518",
+  "duration_seconds": 4.02,
+  "transcript": "I'm not going to stay here and wait.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I'm not going to stay here and wait.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.39,
+      "sentiment_score": -0.7535,
+      "pitch_mean": 317.17
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7535,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 119.34,
+    "avg_pitch": 317.02
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro02",
+    "utterance_id": "Ses04M_impro02_F030",
+    "transcript_ground_truth": "I'm not going to stay here and wait."
+  }
+}

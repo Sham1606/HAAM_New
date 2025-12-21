@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro01_M014",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:48:36.309706",
+  "duration_seconds": 2.17,
+  "transcript": "Hey, no, give me that back.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Hey, no, give me that back.",
+      "emotion": "joy",
+      "emotion_confidence": 0.317,
+      "sentiment_score": -0.2436,
+      "pitch_mean": 332.22
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2436,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 165.62,
+    "avg_pitch": 329.31
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro01",
+    "utterance_id": "Ses03M_impro01_M014",
+    "transcript_ground_truth": "Hey, no, give me that back."
+  }
+}

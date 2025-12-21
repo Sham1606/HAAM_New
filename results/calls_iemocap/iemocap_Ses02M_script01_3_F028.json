@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script01_3_F028",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:04:17.395083",
+  "duration_seconds": 3.36,
+  "transcript": "What do I do with abortion?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "What do I do with abortion?",
+      "emotion": "fear",
+      "emotion_confidence": 0.75,
+      "sentiment_score": -0.4183,
+      "pitch_mean": 345.78
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4183,
+    "dominant_emotion": "fear",
+    "emotion_distribution": {
+      "fear": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 107.1,
+    "avg_pitch": 335.36
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script01_3",
+    "utterance_id": "Ses02M_script01_3_F028",
+    "transcript_ground_truth": "What'll I do with a fortune?"
+  }
+}

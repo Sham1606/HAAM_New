@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01F_script01_1_M005",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:32:46.362472",
+  "duration_seconds": 8.12,
+  "transcript": "I don't know the meaning of it, but I know one thing, Mom. We've made a terrible mistake with Father.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "I don't know the meaning of it, but I know one thing, Mom.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.833,
+      "sentiment_score": 0.1478,
+      "pitch_mean": 329.89
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 8.0,
+      "text": "We've made a terrible mistake with Father.",
+      "emotion": "fear",
+      "emotion_confidence": 0.773,
+      "sentiment_score": -0.8583,
+      "pitch_mean": 323.13
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3552,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "fear": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 147.78,
+    "avg_pitch": 326.32
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.6667,
+    "arousal": 2.6667,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_1",
+    "utterance_id": "Ses01F_script01_1_M005",
+    "transcript_ground_truth": "I don't know the meaning of it.  But I know one thing, Mom, you've made a terrible mistake with father."
+  }
+}

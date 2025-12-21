@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_script03_2_M042",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T14:45:01.432095",
+  "duration_seconds": 4.07,
+  "transcript": "It's late and the people upstairs will get annoyed.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "It's late and the people upstairs will get annoyed.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.421,
+      "sentiment_score": -0.8412,
+      "pitch_mean": 324.1
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8412,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 132.74,
+    "avg_pitch": 324.19
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script03_2",
+    "utterance_id": "Ses04M_script03_2_M042",
+    "transcript_ground_truth": "It's late and the people upstairs will get annoyed."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script02_2_M027",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:42:22.512521",
+  "duration_seconds": 5.03,
+  "transcript": "But, but you're divorced.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "But, but you're divorced.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.462,
+      "sentiment_score": -0.519,
+      "pitch_mean": 320.1
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.519,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 47.7,
+    "avg_pitch": 319.82
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "oth",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_2",
+    "utterance_id": "Ses01F_script02_2_M027",
+    "transcript_ground_truth": "What?  What?  Do you want a divorce?"
+  }
+}

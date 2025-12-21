@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro02_M007",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:48:59.686999",
+  "duration_seconds": 5.39,
+  "transcript": "I can't do this by myself. I don't know how to do this. You don't how to do this.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I can't do this by myself. I don't know how to do this. You don't how to do this.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.479,
+      "sentiment_score": -0.8453,
+      "pitch_mean": 318.73
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8453,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 211.51,
+    "avg_pitch": 321.63
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro02",
+    "utterance_id": "Ses05F_impro02_M007",
+    "transcript_ground_truth": "I can't do this by myself. I I don't know how to do this.  You know how to do this."
+  }
+}

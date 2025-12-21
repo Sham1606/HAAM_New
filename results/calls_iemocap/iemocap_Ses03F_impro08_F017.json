@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro08_F017",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:27:56.828620",
+  "duration_seconds": 4.95,
+  "transcript": "No, no, we're not taking anything from you, sir. This is unbeknownst to us a problem that just happened",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.72,
+      "text": "No, no, we're not taking anything from you, sir. This is unbeknownst to us a problem that just happened",
+      "emotion": "neutral",
+      "emotion_confidence": 0.675,
+      "sentiment_score": -0.5543,
+      "pitch_mean": 340.95
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5543,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 230.31,
+    "avg_pitch": 340.17
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro08",
+    "utterance_id": "Ses03F_impro08_F017",
+    "transcript_ground_truth": "No no, we're not taking anything from you sir.  This is- This is unbeknownst to us.  The problem had just happened."
+  }
+}

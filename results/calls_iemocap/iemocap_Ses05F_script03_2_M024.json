@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script03_2_M024",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:31:48.353990",
+  "duration_seconds": 3.12,
+  "transcript": "Did you see much of Peter Burton after the divorce?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Did you see much of Peter Burton after the divorce?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.553,
+      "sentiment_score": 0.0345,
+      "pitch_mean": 312.11
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0345,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 192.31,
+    "avg_pitch": 314.44
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script03_2",
+    "utterance_id": "Ses05F_script03_2_M024",
+    "transcript_ground_truth": "Did you see much of Peter Burden after the divorce?"
+  }
+}

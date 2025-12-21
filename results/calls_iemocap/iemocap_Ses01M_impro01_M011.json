@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro01_M011",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:48:53.819867",
+  "duration_seconds": 4.49,
+  "transcript": "I don't know where it is though. I don't have it with me. Can I get it from somewhere?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.56,
+      "text": "I don't know where it is though. I don't have it with me. Can I get it from somewhere?",
+      "emotion": "anger",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.5939,
+      "pitch_mean": 349.39
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5939,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 253.9,
+    "avg_pitch": 350.58
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro01",
+    "utterance_id": "Ses01M_impro01_M011",
+    "transcript_ground_truth": "I don't where it is though, I don't have with me.  Can I get it from somewhere?  I mean..."
+  }
+}

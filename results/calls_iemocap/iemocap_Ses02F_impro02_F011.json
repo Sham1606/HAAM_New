@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro02_F011",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:20:40.761029",
+  "duration_seconds": 8.23,
+  "transcript": "I mean, it's just as hard for me, but I know that we can do it, you know?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 8.0,
+      "text": "I mean, it's just as hard for me, but I know that we can do it, you know?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.34,
+      "sentiment_score": 0.0369,
+      "pitch_mean": 317.62
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0369,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 131.24,
+    "avg_pitch": 318.34
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 2.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro02",
+    "utterance_id": "Ses02F_impro02_F011",
+    "transcript_ground_truth": "I mean, it's just as hard for me, but--I know that we can do it, you know"
+  }
+}

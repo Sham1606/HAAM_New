@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_impro08a_F007",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:31:38.296472",
+  "duration_seconds": 7.57,
+  "transcript": "I don't know what the problem is. That's what I want you guys to wise my surface not turned on. Did I beat my bills on time? I don't understand.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.08,
+      "text": "I don't know what the problem is. That's what I want you guys to wise my surface not turned on.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.645,
+      "sentiment_score": -0.3827,
+      "pitch_mean": 377.48
+    },
+    {
+      "start_time": 4.08,
+      "end_time": 7.28,
+      "text": "Did I beat my bills on time? I don't understand.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.814,
+      "sentiment_score": -0.8054,
+      "pitch_mean": 346.48
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5941,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 237.72,
+    "avg_pitch": 355.17
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.0,
+    "arousal": 4.5,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro08a",
+    "utterance_id": "Ses03M_impro08a_F007",
+    "transcript_ground_truth": "I don't, I don't know what the problem is.  That's what I want you guys to...why is my service not turned on?  And I paid my bills on time.  I don't understand."
+  }
+}

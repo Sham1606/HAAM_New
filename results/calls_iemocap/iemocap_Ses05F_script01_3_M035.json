@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses05F_script01_3_M035",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:20:27.263648",
+  "duration_seconds": 11.72,
+  "transcript": "It was all like it. Like some kind of plus accident to them. And went back to work with my dad and that will rat race again.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "It was all like it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.944,
+      "sentiment_score": 0.096,
+      "pitch_mean": 316.22
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 7.0,
+      "text": "Like some kind of plus accident to them.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.399,
+      "sentiment_score": -0.6111,
+      "pitch_mean": 311.93
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 11.0,
+      "text": "And went back to work with my dad and that will rat race again.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.753,
+      "sentiment_score": -0.4583,
+      "pitch_mean": 330.15
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3245,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "disgust": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 138.24,
+    "avg_pitch": 317.53
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_3",
+    "utterance_id": "Ses05F_script01_3_M035",
+    "transcript_ground_truth": "It was all like some kind of bus accident to them.  I went back to work with my dad, in that whole rat race again."
+  }
+}

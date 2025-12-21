@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro02_F007",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:16:37.941480",
+  "duration_seconds": 6.18,
+  "transcript": "I'm not okay with it. It's not like I have a choice. I don't see what crying about it's gonna fix.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.68,
+      "text": "I'm not okay with it. It's not like I have a choice. I don't see what crying about it's gonna fix.",
+      "emotion": "anger",
+      "emotion_confidence": 0.482,
+      "sentiment_score": -0.9217,
+      "pitch_mean": 354.21
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9217,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 203.88,
+    "avg_pitch": 346.9
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro02",
+    "utterance_id": "Ses01F_impro02_F007",
+    "transcript_ground_truth": "I'm not okay with it, but I don't-- it's not like I have a choice.  I don't see what crying about it is going to fix."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro02_M019",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:50:53.216357",
+  "duration_seconds": 2.4,
+  "transcript": "You know I can't say no.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "You know I can't say no.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.363,
+      "sentiment_score": 0.0207,
+      "pitch_mean": 317.51
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0207,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 150.18,
+    "avg_pitch": 319.51
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro02",
+    "utterance_id": "Ses03M_impro02_M019",
+    "transcript_ground_truth": "You know I can't say no."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05F_impro08_F020",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:11:12.720949",
+  "duration_seconds": 5.03,
+  "transcript": "You do the direct, the direct is taken right out of your bank account. Exactly.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.4,
+      "text": "You do the direct, the direct is taken right out of your bank account.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.953,
+      "sentiment_score": 0.0499,
+      "pitch_mean": 350.79
+    },
+    {
+      "start_time": 4.4,
+      "end_time": 5.0,
+      "text": "Exactly.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.925,
+      "sentiment_score": -0.0218,
+      "pitch_mean": 344.21
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0141,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 178.93,
+    "avg_pitch": 349.28
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro08",
+    "utterance_id": "Ses05F_impro08_F020",
+    "transcript_ground_truth": "You do the direct the direct it um- it's taking right out of your bank account, correct?"
+  }
+}

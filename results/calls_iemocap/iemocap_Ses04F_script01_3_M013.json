@@ -1,0 +1,63 @@
+{
+  "call_id": "iemocap_Ses04F_script01_3_M013",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:30:26.582321",
+  "duration_seconds": 9.42,
+  "transcript": "You think this is wrong, this chair, this yard. I want you to be ready for me. I don't want to bring you away from anything.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "You think this is wrong, this chair, this yard.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.462,
+      "sentiment_score": -0.7573,
+      "pitch_mean": 315.22
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 7.0,
+      "text": "I want you to be ready for me.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.832,
+      "sentiment_score": 0.6094,
+      "pitch_mean": 322.83
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 9.0,
+      "text": "I don't want to bring you away from anything.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.573,
+      "sentiment_score": -0.3974,
+      "pitch_mean": 331.74
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1818,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.333,
+      "neutral": 0.333,
+      "sadness": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 165.61,
+    "avg_pitch": 321.98
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script01_3",
+    "utterance_id": "Ses04F_script01_3_M013",
+    "transcript_ground_truth": "You think this is wrong, this chair, this yard.  I want you to be ready for me.  I don't want to win you away from anything."
+  }
+}

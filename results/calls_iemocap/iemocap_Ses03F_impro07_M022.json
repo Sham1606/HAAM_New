@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro07_M022",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:26:47.506210",
+  "duration_seconds": 3.71,
+  "transcript": "So I'm gonna be yeah, I mean make films are gonna be in them",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.04,
+      "text": "So I'm gonna be yeah, I mean make films are gonna be in them",
+      "emotion": "disgust",
+      "emotion_confidence": 0.459,
+      "sentiment_score": 0.2823,
+      "pitch_mean": 336.58
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2823,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 226.33,
+    "avg_pitch": 332.24
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro07",
+    "utterance_id": "Ses03F_impro07_M022",
+    "transcript_ground_truth": "So I'm going to be--yeah. I'm going to make films; you're going to be in them."
+  }
+}

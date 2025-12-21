@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02M_impro04_M014",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:52:14.924683",
+  "duration_seconds": 5.51,
+  "transcript": "I don't know, it's just not... I don't know what to do really, you know, and just thinking...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I don't know, it's just not...",
+      "emotion": "disgust",
+      "emotion_confidence": 0.473,
+      "sentiment_score": -0.6937,
+      "pitch_mean": 335.95
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 6.0,
+      "text": "I don't know what to do really, you know, and just thinking...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.6916,
+      "pitch_mean": 329.64
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6927,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 196.07,
+    "avg_pitch": 329.64
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.3333,
+    "arousal": 2.3333,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro04",
+    "utterance_id": "Ses02M_impro04_M014",
+    "transcript_ground_truth": "I don't know, it's just not, I don't know - I don't know what to do really, you know, I'm just thinking"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script03_2_F007",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:53:59.356478",
+  "duration_seconds": 5.28,
+  "transcript": "Well, if you hadn't been so suspicious and no Z, you would have never known anything.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Well, if you hadn't been so suspicious and no Z, you would have never known anything.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.359,
+      "sentiment_score": -0.6156,
+      "pitch_mean": 334.73
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6156,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 181.93,
+    "avg_pitch": 333.31
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script03_2",
+    "utterance_id": "Ses03M_script03_2_F007",
+    "transcript_ground_truth": "Well, if you hadn't been so suspicious and nosey you would've never known anything."
+  }
+}

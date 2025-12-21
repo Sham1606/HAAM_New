@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro01_M010",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:46:43.545289",
+  "duration_seconds": 2.0,
+  "transcript": "There's nothing I can do for you, man.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "There's nothing I can do for you, man.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.379,
+      "sentiment_score": -0.5064,
+      "pitch_mean": 346.84
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5064,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 240.0,
+    "avg_pitch": 346.84
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro01",
+    "utterance_id": "Ses05F_impro01_M010",
+    "transcript_ground_truth": "There's nothing I can do for you, ma'am."
+  }
+}

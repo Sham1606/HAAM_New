@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro06_M001",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:28:22.848819",
+  "duration_seconds": 6.42,
+  "transcript": "During the day I can get you to take care of anything for you or...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "During the day I can get you to take care of anything for you or...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.681,
+      "sentiment_score": 0.1019,
+      "pitch_mean": 319.07
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1019,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 140.19,
+    "avg_pitch": 319.07
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro06",
+    "utterance_id": "Ses01F_impro06_M001",
+    "transcript_ground_truth": "Is there anything I can get you?  Do you want me to take care of anything for you or...?"
+  }
+}

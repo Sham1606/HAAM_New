@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script03_2_M030",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:46:32.156806",
+  "duration_seconds": 7.06,
+  "transcript": "Okay, as I mentioned before I said I had three very minute liquor glasses. That's hardly enough to get a child of two drunk",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.6,
+      "text": "Okay, as I mentioned before I said I had three very minute liquor glasses. That's hardly enough to get a child of two drunk",
+      "emotion": "neutral",
+      "emotion_confidence": 0.798,
+      "sentiment_score": -0.3629,
+      "pitch_mean": 352.59
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3629,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 203.97,
+    "avg_pitch": 348.92
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script03_2",
+    "utterance_id": "Ses03F_script03_2_M030",
+    "transcript_ground_truth": "Okay. As I mentioned before, I said I had three very minute liquor glasses. That's hardly enough to get a child of two drunk."
+  }
+}

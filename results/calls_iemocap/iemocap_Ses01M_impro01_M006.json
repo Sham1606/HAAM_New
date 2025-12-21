@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01M_impro01_M006",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:48:45.521455",
+  "duration_seconds": 8.76,
+  "transcript": "Yes, I suppose I have three forms of ID for this it's a long story as what's have three forms of ID for this other job I don't really know when I get into a",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.04,
+      "text": "Yes, I suppose I have three forms of ID for this it's a long story as what's",
+      "emotion": "neutral",
+      "emotion_confidence": 0.956,
+      "sentiment_score": 0.1096,
+      "pitch_mean": 334.81
+    },
+    {
+      "start_time": 5.04,
+      "end_time": 7.4,
+      "text": "have three forms of ID for this other job I don't really know when I get into a",
+      "emotion": "anger",
+      "emotion_confidence": 0.54,
+      "sentiment_score": -0.1265,
+      "pitch_mean": 338.81
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0084,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 239.73,
+    "avg_pitch": 338.04
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro01",
+    "utterance_id": "Ses01M_impro01_M006",
+    "transcript_ground_truth": "Yes.  I'm supposed to have three forms of ID for this.  It's a long story, I'm supposed to have three forms of ID for this other job I really don't get into but I need another..."
+  }
+}

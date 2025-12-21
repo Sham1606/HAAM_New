@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro04_M036",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:42:42.895228",
+  "duration_seconds": 2.43,
+  "transcript": "Yeah, life sucks.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Yeah, life sucks.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.728,
+      "sentiment_score": -0.8712,
+      "pitch_mean": 300.76
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8712,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 74.07,
+    "avg_pitch": 299.69
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro04",
+    "utterance_id": "Ses05M_impro04_M036",
+    "transcript_ground_truth": "Yeah, life sucks."
+  }
+}

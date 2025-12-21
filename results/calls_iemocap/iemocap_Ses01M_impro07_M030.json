@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro07_M030",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:01:15.624712",
+  "duration_seconds": 2.03,
+  "transcript": "but you know, I like that word.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "but you know, I like that word.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.501,
+      "sentiment_score": 0.785,
+      "pitch_mean": 332.55
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.785,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 206.9,
+    "avg_pitch": 332.55
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro07",
+    "utterance_id": "Ses01M_impro07_M030",
+    "transcript_ground_truth": "But you know I'm like [GARBAGE]."
+  }
+}

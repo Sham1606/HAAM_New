@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro02_M001",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:48:48.402617",
+  "duration_seconds": 2.68,
+  "transcript": "You can see it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "You can see it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.856,
+      "sentiment_score": 0.0138,
+      "pitch_mean": 306.04
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0138,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 89.55,
+    "avg_pitch": 311.57
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro02",
+    "utterance_id": "Ses05F_impro02_M001",
+    "transcript_ground_truth": "You can say it."
+  }
+}

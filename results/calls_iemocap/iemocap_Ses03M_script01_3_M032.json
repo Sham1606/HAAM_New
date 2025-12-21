@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses03M_script01_3_M032",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:44:41.386511",
+  "duration_seconds": 10.11,
+  "transcript": "That's just a little thing, but that's the kind of guys I had. They didn't just die. They killed themselves for each other, and I mean that exactly.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "That's just a little thing, but that's the kind of guys I had.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.944,
+      "sentiment_score": 0.1011,
+      "pitch_mean": 318.51
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "They didn't just die.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.705,
+      "sentiment_score": -0.621,
+      "pitch_mean": 322.7
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 10.0,
+      "text": "They killed themselves for each other, and I mean that exactly.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.427,
+      "sentiment_score": -0.9158,
+      "pitch_mean": 315.71
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4786,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "disgust": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 166.21,
+    "avg_pitch": 319.53
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_3",
+    "utterance_id": "Ses03M_script01_3_M032",
+    "transcript_ground_truth": "That's just a little thing but that's the kind of guys I had.  They didn't just die, they killed themselves for each other and I mean that exactly."
+  }
+}

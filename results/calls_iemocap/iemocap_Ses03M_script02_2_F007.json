@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script02_2_F007",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:48:08.030039",
+  "duration_seconds": 3.93,
+  "transcript": "We're having a safe grow up. We're not gonna see the crunions",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.44,
+      "text": "We're having a safe grow up. We're not gonna see the crunions",
+      "emotion": "neutral",
+      "emotion_confidence": 0.739,
+      "sentiment_score": 0.1226,
+      "pitch_mean": 346.69
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1226,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 183.33,
+    "avg_pitch": 343.79
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.6667,
+    "dominance": 3.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_2",
+    "utterance_id": "Ses03M_script02_2_F007",
+    "transcript_ground_truth": "For heavens sake, grow up.  We're not going to see the Grunions."
+  }
+}

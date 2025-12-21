@@ -1,0 +1,63 @@
+{
+  "call_id": "iemocap_Ses02M_script01_1_M028",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:01:47.737729",
+  "duration_seconds": 7.3,
+  "transcript": "I don't know, I'll find out. And then we'll thrash it out with Dad, right? Mom, don't avoid me.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I don't know, I'll find out.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.494,
+      "sentiment_score": -0.0447,
+      "pitch_mean": 308.52
+    },
+    {
+      "start_time": 2.6,
+      "end_time": 4.6,
+      "text": "And then we'll thrash it out with Dad, right?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.888,
+      "sentiment_score": 0.2081,
+      "pitch_mean": 330.93
+    },
+    {
+      "start_time": 5.32,
+      "end_time": 7.32,
+      "text": "Mom, don't avoid me.",
+      "emotion": "fear",
+      "emotion_confidence": 0.775,
+      "sentiment_score": -0.2957,
+      "pitch_mean": 310.02
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0441,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 0.333,
+      "neutral": 0.333,
+      "fear": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 156.16,
+    "avg_pitch": 310.02
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script01_1",
+    "utterance_id": "Ses02M_script01_1_M028",
+    "transcript_ground_truth": "I don't know, I'll find out. Then we'll trash it out with dad, right? Mom, don't avoid me."
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses03M_impro08b_M017",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:36:26.769359",
+  "duration_seconds": 5.87,
+  "transcript": "D-Top Lands, Cam\u591c Karl's Phone, Game Boy anything you want? And Simplex! Or FreeAir\u9060fall Violet!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.38,
+      "text": "D-Top Lands, Cam\u591c Karl's Phone, Game Boy anything you want?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.906,
+      "sentiment_score": 0.0865,
+      "pitch_mean": 346.49
+    },
+    {
+      "start_time": 3.38,
+      "end_time": 4.74,
+      "text": "And Simplex!",
+      "emotion": "joy",
+      "emotion_confidence": 0.367,
+      "sentiment_score": 0.6505,
+      "pitch_mean": 358.0
+    },
+    {
+      "start_time": 4.74,
+      "end_time": 5.96,
+      "text": "Or FreeAir\u9060fall Violet!",
+      "emotion": "neutral",
+      "emotion_confidence": 0.651,
+      "sentiment_score": 0.185,
+      "pitch_mean": 350.31
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3073,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "joy": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 153.32,
+    "avg_pitch": 350.31
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro08b",
+    "utterance_id": "Ses03M_impro08b_M017",
+    "transcript_ground_truth": "the top of the line camera phone, game boy, anything you want. For free. And palm pilot."
+  }
+}

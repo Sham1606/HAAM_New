@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_script02_2_F033",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:49:02.414571",
+  "duration_seconds": 5.72,
+  "transcript": "Because everything... Is it anything like I thought it would be?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Because everything...",
+      "emotion": "disgust",
+      "emotion_confidence": 0.379,
+      "sentiment_score": -0.255,
+      "pitch_mean": 328.43
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 5.0,
+      "text": "Is it anything like I thought it would be?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.407,
+      "sentiment_score": -0.143,
+      "pitch_mean": 344.18
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.199,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 115.42,
+    "avg_pitch": 334.15
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 3.6667,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_2",
+    "utterance_id": "Ses03M_script02_2_F033",
+    "transcript_ground_truth": "Cause everything isn't anything like I thought it would be."
+  }
+}

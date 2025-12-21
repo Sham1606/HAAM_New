@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses01F_script01_3_M010",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:36:25.338987",
+  "duration_seconds": 11.26,
+  "transcript": "Am I embarrassing you? I didn't want to do it here. This yard, on this porch, I wanted to be somewhere new, some place fresh for both of us.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Am I embarrassing you?",
+      "emotion": "anger",
+      "emotion_confidence": 0.329,
+      "sentiment_score": -0.6866,
+      "pitch_mean": 334.68
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "I didn't want to do it here.",
+      "emotion": "anger",
+      "emotion_confidence": 0.498,
+      "sentiment_score": -0.6925,
+      "pitch_mean": 344.54
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 8.0,
+      "text": "This yard, on this porch, I wanted to be somewhere new,",
+      "emotion": "joy",
+      "emotion_confidence": 0.373,
+      "sentiment_score": 0.3382,
+      "pitch_mean": 326.33
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 10.0,
+      "text": "some place fresh for both of us.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.452,
+      "sentiment_score": 0.6775,
+      "pitch_mean": 330.23
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0908,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "joy": 0.25,
+      "disgust": 0.25
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 154.57,
+    "avg_pitch": 329.99
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.3333,
+    "arousal": 4.0,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_3",
+    "utterance_id": "Ses01F_script01_3_M010",
+    "transcript_ground_truth": "Am I embarrassing you? Are you - See, I didn't want to do it here with this yard, on this porch.  I wanted it to be somewhere new, some place fresh for both of us."
+  }
+}

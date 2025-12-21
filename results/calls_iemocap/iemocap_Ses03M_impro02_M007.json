@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro02_M007",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:50:32.767353",
+  "duration_seconds": 3.18,
+  "transcript": "I told him that but then...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I told him that but then...",
+      "emotion": "disgust",
+      "emotion_confidence": 0.365,
+      "sentiment_score": -0.1443,
+      "pitch_mean": 322.77
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1443,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 113.03,
+    "avg_pitch": 316.66
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 2.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro02",
+    "utterance_id": "Ses03M_impro02_M007",
+    "transcript_ground_truth": "I told them that but they--"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro07_M001",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:56:36.814933",
+  "duration_seconds": 3.66,
+  "transcript": "Yeah, and guess who accepted me.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.5,
+      "text": "Yeah, and guess who accepted me.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.402,
+      "sentiment_score": 0.6209,
+      "pitch_mean": 322.14
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.6209,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 98.36,
+    "avg_pitch": 322.22
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro07",
+    "utterance_id": "Ses02M_impro07_M001",
+    "transcript_ground_truth": "Yeah. And guess who accepted me?"
+  }
+}

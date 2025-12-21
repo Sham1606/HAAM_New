@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script03_2_F033",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:17:06.508573",
+  "duration_seconds": 2.53,
+  "transcript": "Bear away into it east.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Bear away into it east.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.835,
+      "sentiment_score": -0.0711,
+      "pitch_mean": 357.45
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0711,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 118.58,
+    "avg_pitch": 347.22
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 3.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script03_2",
+    "utterance_id": "Ses01M_script03_2_F033",
+    "transcript_ground_truth": "They are away in Tunis."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script03_2_M015",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:56:10.774511",
+  "duration_seconds": 1.89,
+  "transcript": "Really Amanda!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Really Amanda!",
+      "emotion": "neutral",
+      "emotion_confidence": 0.954,
+      "sentiment_score": 0.7271,
+      "pitch_mean": 340.89
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.7271,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 63.6,
+    "avg_pitch": 340.89
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script03_2",
+    "utterance_id": "Ses03M_script03_2_M015",
+    "transcript_ground_truth": "Really Amanda."
+  }
+}

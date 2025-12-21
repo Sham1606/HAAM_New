@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro01_F014",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:47:10.372239",
+  "duration_seconds": 4.0,
+  "transcript": "This happens to people all the time I'm sorry sir but I can't make an exception for you.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "This happens to people all the time I'm sorry sir but I can't make an exception for you.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.783,
+      "sentiment_score": -0.8378,
+      "pitch_mean": 358.35
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8378,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 270.3,
+    "avg_pitch": 358.35
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro01",
+    "utterance_id": "Ses02M_impro01_F014",
+    "transcript_ground_truth": "It just happens to people all the time, I'm sorry sir, but I can't make an exception for you."
+  }
+}

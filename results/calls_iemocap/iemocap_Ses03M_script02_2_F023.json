@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script02_2_F023",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:48:42.246387",
+  "duration_seconds": 3.58,
+  "transcript": "I'd rather not remember some things.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I'd rather not remember some things.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.686,
+      "sentiment_score": -0.619,
+      "pitch_mean": 331.1
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.619,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 100.65,
+    "avg_pitch": 328.18
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.6667,
+    "arousal": 2.6667,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_2",
+    "utterance_id": "Ses03M_script02_2_F023",
+    "transcript_ground_truth": "I'd rather not remember something..."
+  }
+}

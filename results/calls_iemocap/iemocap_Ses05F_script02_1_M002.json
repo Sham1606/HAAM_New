@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses05F_script02_1_M002",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:21:42.358537",
+  "duration_seconds": 14.24,
+  "transcript": "Is that no That phone I can't even tell Although if I if I can't tell it probably isn't it right it'll probably be unmistakable don't you think how you doing",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Is that no",
+      "emotion": "sadness",
+      "emotion_confidence": 0.731,
+      "sentiment_score": -0.0958,
+      "pitch_mean": 304.63
+    },
+    {
+      "start_time": 3.92,
+      "end_time": 6.6,
+      "text": "That phone I can't even tell",
+      "emotion": "disgust",
+      "emotion_confidence": 0.391,
+      "sentiment_score": -0.3756,
+      "pitch_mean": 323.16
+    },
+    {
+      "start_time": 7.12,
+      "end_time": 13.6,
+      "text": "Although if I if I can't tell it probably isn't it right it'll probably be unmistakable don't you think how you doing",
+      "emotion": "disgust",
+      "emotion_confidence": 0.558,
+      "sentiment_score": -0.3196,
+      "pitch_mean": 329.64
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2636,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "sadness": 0.333,
+      "disgust": 0.667
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 130.63,
+    "avg_pitch": 323.43
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script02_1",
+    "utterance_id": "Ses05F_script02_1_M002",
+    "transcript_ground_truth": "Is that--no, no no is that foam?  I can't even tell, although if I- if I can't tell, it probably isn't it?  Right It'll probably be unmistakable, but don't you think?  How you doing?"
+  }
+}

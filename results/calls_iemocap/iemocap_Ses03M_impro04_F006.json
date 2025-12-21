@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_impro04_F006",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:54:32.161612",
+  "duration_seconds": 10.57,
+  "transcript": "Yeah, well it seems to me you know you just gotta keep going out there you know pushing through you got a heart for a degree I mean you can get a job anywhere",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.52,
+      "text": "Yeah, well it seems to me you know you just gotta keep going out there you know",
+      "emotion": "neutral",
+      "emotion_confidence": 0.845,
+      "sentiment_score": 0.5981,
+      "pitch_mean": 337.51
+    },
+    {
+      "start_time": 5.52,
+      "end_time": 9.56,
+      "text": "pushing through you got a heart for a degree I mean you can get a job anywhere",
+      "emotion": "neutral",
+      "emotion_confidence": 0.675,
+      "sentiment_score": 0.1526,
+      "pitch_mean": 355.89
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3753,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 193.0,
+    "avg_pitch": 342.9
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro04",
+    "utterance_id": "Ses03M_impro04_F006",
+    "transcript_ground_truth": "Yeah.  Well it seems to me, you know, you just got to keep going out there, you know, pushing through.  You got a Harvard degree.  I mean, you can get a job anywhere."
+  }
+}

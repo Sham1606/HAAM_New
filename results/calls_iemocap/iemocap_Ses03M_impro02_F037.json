@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro02_F037",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:50:14.294482",
+  "duration_seconds": 4.78,
+  "transcript": "Finish your masters that you were started never finished.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Finish your masters that you were started never finished.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.865,
+      "sentiment_score": -0.2822,
+      "pitch_mean": 337.43
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2822,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 113.02,
+    "avg_pitch": 335.01
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro02",
+    "utterance_id": "Ses03M_impro02_F037",
+    "transcript_ground_truth": "finish your Master's that you were started never finished."
+  }
+}

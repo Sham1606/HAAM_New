@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses05F_impro02_F029",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:48:20.487490",
+  "duration_seconds": 10.48,
+  "transcript": "We'll figure something out. We just have to... We just have to think about this. Could any of your family help us?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "We'll figure something out. We just have to...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.89,
+      "sentiment_score": 0.4672,
+      "pitch_mean": 343.79
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 6.0,
+      "text": "We just have to think about this.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.919,
+      "sentiment_score": 0.0023,
+      "pitch_mean": 337.94
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 10.0,
+      "text": "Could any of your family help us?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.393,
+      "sentiment_score": 0.0695,
+      "pitch_mean": 349.8
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1796,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "disgust": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 125.95,
+    "avg_pitch": 339.11
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro02",
+    "utterance_id": "Ses05F_impro02_F029",
+    "transcript_ground_truth": "We'll figure something out.  We just have to ... we just have to think about this.  Could any of your family help us?"
+  }
+}

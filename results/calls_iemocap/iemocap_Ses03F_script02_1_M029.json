@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03F_script02_1_M029",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:38:11.264611",
+  "duration_seconds": 9.7,
+  "transcript": "There's magic here in mystery in a little bit of not explainable. I mean, I don't see how you cannot be interested.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "There's magic here in mystery in a little bit of not explainable.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.609,
+      "sentiment_score": 0.6571,
+      "pitch_mean": 335.3
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 9.0,
+      "text": "I mean, I don't see how you cannot be interested.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.429,
+      "sentiment_score": -0.0853,
+      "pitch_mean": 330.64
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2859,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 136.13,
+    "avg_pitch": 334.07
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_1",
+    "utterance_id": "Ses03F_script02_1_M029",
+    "transcript_ground_truth": "There's magic here and mystery and a little bit of the unexplainable. I mean, I don't see how you cannot be interested."
+  }
+}

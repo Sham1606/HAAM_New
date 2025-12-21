@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script01_3_F009",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:05:15.104055",
+  "duration_seconds": 5.48,
+  "transcript": "like I guess that's why I came",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.64,
+      "text": "like I guess that's why I came",
+      "emotion": "disgust",
+      "emotion_confidence": 0.352,
+      "sentiment_score": 0.2404,
+      "pitch_mean": 323.89
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2404,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 76.64,
+    "avg_pitch": 323.62
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 2.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_3",
+    "utterance_id": "Ses01M_script01_3_F009",
+    "transcript_ground_truth": "Well I guess that's why I came."
+  }
+}

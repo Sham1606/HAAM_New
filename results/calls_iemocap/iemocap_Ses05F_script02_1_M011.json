@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05F_script02_1_M011",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:22:05.255356",
+  "duration_seconds": 8.65,
+  "transcript": "What? I wonder if they can hear me talk or if they can feel our vibrations in the sand or moving around.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "What?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.922,
+      "sentiment_score": 0.083,
+      "pitch_mean": 326.17
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 8.0,
+      "text": "I wonder if they can hear me talk or if they can feel our vibrations in the sand or moving around.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.887,
+      "sentiment_score": -0.0587,
+      "pitch_mean": 326.1
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0121,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 152.67,
+    "avg_pitch": 325.19
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script02_1",
+    "utterance_id": "Ses05F_script02_1_M011",
+    "transcript_ground_truth": "[LAUGHTER] I wonder if they can hear me talk or if they can feel the vibration in the sand when we are moving around"
+  }
+}

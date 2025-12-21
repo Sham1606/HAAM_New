@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04M_script02_1_M003",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:10:37.946393",
+  "duration_seconds": 8.46,
+  "transcript": "How you doing? Oh, no, you know what I did forgot to bring my flashlight. How can I be so stupid? I should have brought my flashlight",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "How you doing?",
+      "emotion": "sadness",
+      "emotion_confidence": 0.616,
+      "sentiment_score": 0.1942,
+      "pitch_mean": 322.62
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 8.12,
+      "text": "Oh, no, you know what I did forgot to bring my flashlight. How can I be so stupid? I should have brought my flashlight",
+      "emotion": "disgust",
+      "emotion_confidence": 0.52,
+      "sentiment_score": -0.9017,
+      "pitch_mean": 329.2
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3537,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 191.49,
+    "avg_pitch": 324.98
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script02_1",
+    "utterance_id": "Ses04M_script02_1_M003",
+    "transcript_ground_truth": "How you doing?  Oh, no, you know what I did?  I forgot to bring my flashlight.  How could I be so stupid?  I should have brought my flashlight."
+  }
+}

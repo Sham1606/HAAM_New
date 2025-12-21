@@ -1,0 +1,63 @@
+{
+  "call_id": "iemocap_Ses01F_impro05_F015",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:24:35.803048",
+  "duration_seconds": 15.49,
+  "transcript": "Do you have any idea? $50? That's supposed to re-replace everything that I have. Do you understand how much I have packed in there? Not only does it have sentimental value, it can't be replaced like that. It was incredibly expensive.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Do you have any idea? $50? That's supposed to re-replace everything that I have.",
+      "emotion": "anger",
+      "emotion_confidence": 0.495,
+      "sentiment_score": -0.6755,
+      "pitch_mean": 377.76
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 9.0,
+      "text": "Do you understand how much I have packed in there?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.815,
+      "sentiment_score": 0.0842,
+      "pitch_mean": 347.46
+    },
+    {
+      "start_time": 9.0,
+      "end_time": 15.0,
+      "text": "Not only does it have sentimental value, it can't be replaced like that. It was incredibly expensive.",
+      "emotion": "joy",
+      "emotion_confidence": 0.343,
+      "sentiment_score": -0.7876,
+      "pitch_mean": 363.26
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4597,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.333,
+      "neutral": 0.333,
+      "joy": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 158.76,
+    "avg_pitch": 363.15
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro05",
+    "utterance_id": "Ses01F_impro05_F015",
+    "transcript_ground_truth": "Do you have any idea-- fifty dollars?  That's supposed to replace everything that I have?  Do you understand how much I have packed in there? Not only does it have sentimental value; it can't be replaced like that.  It was incredibly expensive."
+  }
+}

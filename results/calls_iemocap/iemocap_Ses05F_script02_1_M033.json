@@ -1,0 +1,117 @@
+{
+  "call_id": "iemocap_Ses05F_script02_1_M033",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:23:26.660367",
+  "duration_seconds": 29.05,
+  "transcript": "They're swimming right now as if it's the only thing that mattered. It's single-mindedness with no mind, urgency that's pure urge. They don't know what drives them. They don't give it a name or ask it a question. They just turn as one and start to swim to the very point where we're standing right now for a massive celebration of sex and death. God, it's giving me goose bumps. I'm like, all the hairs on my arm are messed up. Pop it up.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.08,
+      "text": "They're swimming right now as if it's the only thing that mattered.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.911,
+      "sentiment_score": 0.3513,
+      "pitch_mean": 335.94
+    },
+    {
+      "start_time": 4.08,
+      "end_time": 9.0,
+      "text": "It's single-mindedness with no mind, urgency that's pure urge.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.847,
+      "sentiment_score": -0.5926,
+      "pitch_mean": 326.95
+    },
+    {
+      "start_time": 9.0,
+      "end_time": 13.0,
+      "text": "They don't know what drives them.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.426,
+      "sentiment_score": -0.6337,
+      "pitch_mean": 320.76
+    },
+    {
+      "start_time": 13.0,
+      "end_time": 16.0,
+      "text": "They don't give it a name or ask it a question.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.821,
+      "sentiment_score": -0.6802,
+      "pitch_mean": 344.33
+    },
+    {
+      "start_time": 16.0,
+      "end_time": 21.0,
+      "text": "They just turn as one and start to swim to the very point where we're standing right now",
+      "emotion": "neutral",
+      "emotion_confidence": 0.909,
+      "sentiment_score": 0.1401,
+      "pitch_mean": 340.9
+    },
+    {
+      "start_time": 21.0,
+      "end_time": 24.0,
+      "text": "for a massive celebration of sex and death.",
+      "emotion": "joy",
+      "emotion_confidence": 0.638,
+      "sentiment_score": -0.5477,
+      "pitch_mean": 336.49
+    },
+    {
+      "start_time": 24.0,
+      "end_time": 26.0,
+      "text": "God, it's giving me goose bumps.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.446,
+      "sentiment_score": 0.001,
+      "pitch_mean": 329.76
+    },
+    {
+      "start_time": 26.0,
+      "end_time": 28.0,
+      "text": "I'm like, all the hairs on my arm are messed up.",
+      "emotion": "joy",
+      "emotion_confidence": 0.352,
+      "sentiment_score": -0.8723,
+      "pitch_mean": 352.17
+    },
+    {
+      "start_time": 28.0,
+      "end_time": 29.0,
+      "text": "Pop it up.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.953,
+      "sentiment_score": 0.1459,
+      "pitch_mean": 340.09
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2987,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.556,
+      "disgust": 0.222,
+      "joy": 0.222
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 173.51,
+    "avg_pitch": 334.27
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 4.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script02_1",
+    "utterance_id": "Ses05F_script02_1_M033",
+    "transcript_ground_truth": "They are swimming right now as if it's the only thing that matters.  It's- It's single mindedness with no mind, urgency that's pure urge. It's- They don't know what drives them.  They- They don't give any name or ask any question. They just turn as one and started to swim to the very point we are standing right now for a massive celebration of sex and death.  God, it's giving me goose bumps all over my hairs on my arm. popping up."
+  }
+}

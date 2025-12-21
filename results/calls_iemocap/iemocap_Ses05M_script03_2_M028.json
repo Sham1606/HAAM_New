@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_script03_2_M028",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:15:35.108206",
+  "duration_seconds": 7.94,
+  "transcript": "I do believe I've said already that I've had three minute liqueur glasses of brandy in the entire evening. A child of two couldn't get drunk on bed.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.84,
+      "text": "I do believe I've said already that I've had three minute liqueur glasses of brandy in the entire evening.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.803,
+      "sentiment_score": 0.2723,
+      "pitch_mean": 341.94
+    },
+    {
+      "start_time": 5.84,
+      "end_time": 7.84,
+      "text": "A child of two couldn't get drunk on bed.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.933,
+      "sentiment_score": -0.4923,
+      "pitch_mean": 340.39
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.11,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 211.59,
+    "avg_pitch": 341.6
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script03_2",
+    "utterance_id": "Ses05M_script03_2_M028",
+    "transcript_ground_truth": "I do believe that I have said already that I had three minuet liquor glasses of brandy in the entire evening.  A child of two couldn't get drunk of that."
+  }
+}

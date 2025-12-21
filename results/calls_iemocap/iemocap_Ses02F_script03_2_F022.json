@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script03_2_F022",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:44:48.808437",
+  "duration_seconds": 5.86,
+  "transcript": "I don't care to understand I don't care. I don't care if they bark or roll about my hoops",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.24,
+      "text": "I don't care to understand I don't care. I don't care if they bark or roll about my hoops",
+      "emotion": "anger",
+      "emotion_confidence": 0.647,
+      "sentiment_score": -0.5948,
+      "pitch_mean": 349.85
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5948,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 194.54,
+    "avg_pitch": 344.74
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script03_2",
+    "utterance_id": "Ses02F_script03_2_F022",
+    "transcript_ground_truth": "I don't care, do you understand?  I don't care.  I don't care if they bark or roll about like hoops."
+  }
+}

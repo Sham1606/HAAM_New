@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script02_2_F029",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:07:57.933913",
+  "duration_seconds": 4.69,
+  "transcript": "I just couldn't help thinking about being somewhere else.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I just couldn't help thinking about being somewhere else.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.746,
+      "sentiment_score": -0.669,
+      "pitch_mean": 315.41
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.669,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 115.14,
+    "avg_pitch": 311.99
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.3333,
+    "arousal": 1.6667,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script02_2",
+    "utterance_id": "Ses05M_script02_2_F029",
+    "transcript_ground_truth": "But I just couldn't help thinking about being somewhere else."
+  }
+}

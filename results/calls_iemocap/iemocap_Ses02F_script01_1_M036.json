@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script01_1_M036",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:33:45.398978",
+  "duration_seconds": 3.27,
+  "transcript": "I've been a good son too long, a good sucker. I'm through with it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.28,
+      "text": "I've been a good son too long, a good sucker. I'm through with it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.8567,
+      "pitch_mean": 330.85
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8567,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 256.88,
+    "avg_pitch": 330.85
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_1",
+    "utterance_id": "Ses02F_script01_1_M036",
+    "transcript_ground_truth": "I've been a good son too long.  A good sucker.  I'm through with it."
+  }
+}

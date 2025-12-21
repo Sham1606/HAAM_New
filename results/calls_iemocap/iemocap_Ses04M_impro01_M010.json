@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04M_impro01_M010",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:47:19.229622",
+  "duration_seconds": 7.28,
+  "transcript": "Look, it's been two hours. Can you please just make this easier on me and just go and get the form? It's not it's really not",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.44,
+      "text": "Look, it's been two hours. Can you please just make this easier on me and just go and get the form?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.361,
+      "sentiment_score": -0.6148,
+      "pitch_mean": 322.99
+    },
+    {
+      "start_time": 5.44,
+      "end_time": 7.44,
+      "text": "It's not it's really not",
+      "emotion": "neutral",
+      "emotion_confidence": 0.802,
+      "sentiment_score": -0.5604,
+      "pitch_mean": 325.07
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5876,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 214.29,
+    "avg_pitch": 325.07
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro01",
+    "utterance_id": "Ses04M_impro01_M010",
+    "transcript_ground_truth": "look-- It's  been- it's been two hours.  Can you please just make this easier on me and just go and get the form?  It's not- it's really not"
+  }
+}

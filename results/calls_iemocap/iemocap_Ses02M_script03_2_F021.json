@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script03_2_F021",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:13:16.230940",
+  "duration_seconds": 2.35,
+  "transcript": "Outters and snappers sting!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Outters and snappers sting!",
+      "emotion": "anger",
+      "emotion_confidence": 0.853,
+      "sentiment_score": -0.7565,
+      "pitch_mean": 352.67
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7565,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 102.05,
+    "avg_pitch": 353.25
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script03_2",
+    "utterance_id": "Ses02M_script03_2_F021",
+    "transcript_ground_truth": "Adders don't snap they sting."
+  }
+}

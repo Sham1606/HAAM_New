@@ -1,0 +1,63 @@
+{
+  "call_id": "iemocap_Ses01F_script01_1_M021",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:33:16.235819",
+  "duration_seconds": 11.35,
+  "transcript": "I don't know why it is but every time I reach out for something I have to pull back because I'm afraid of the people who suffer. My whole bloody life time after time.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.64,
+      "text": "I don't know why it is but every time I reach out for something I have to pull back",
+      "emotion": "neutral",
+      "emotion_confidence": 0.687,
+      "sentiment_score": -0.8,
+      "pitch_mean": 334.98
+    },
+    {
+      "start_time": 4.64,
+      "end_time": 7.44,
+      "text": "because I'm afraid of the people who suffer.",
+      "emotion": "fear",
+      "emotion_confidence": 0.988,
+      "sentiment_score": -0.8834,
+      "pitch_mean": 339.34
+    },
+    {
+      "start_time": 7.44,
+      "end_time": 11.08,
+      "text": "My whole bloody life time after time.",
+      "emotion": "anger",
+      "emotion_confidence": 0.939,
+      "sentiment_score": -0.8779,
+      "pitch_mean": 337.2
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8538,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.333,
+      "fear": 0.333,
+      "anger": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 179.74,
+    "avg_pitch": 335.75
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_1",
+    "utterance_id": "Ses01F_script01_1_M021",
+    "transcript_ground_truth": "I don't know why it is, but every time I reach out for something I have to pull back because I am afraid other people will suffer. My whole bloody life, time after time."
+  }
+}

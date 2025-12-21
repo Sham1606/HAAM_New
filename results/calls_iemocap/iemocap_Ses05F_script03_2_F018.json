@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05F_script03_2_F018",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:29:56.802730",
+  "duration_seconds": 3.14,
+  "transcript": "Hmm, it doesn't seem to have worked such wonders with you. Oh, sirs.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.84,
+      "text": "Hmm, it doesn't seem to have worked such wonders with you.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.618,
+      "sentiment_score": -0.6281,
+      "pitch_mean": 363.13
+    },
+    {
+      "start_time": 2.84,
+      "end_time": 3.84,
+      "text": "Oh, sirs.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.763,
+      "sentiment_score": 0.1593,
+      "pitch_mean": 361.72
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2344,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 248.41,
+    "avg_pitch": 361.72
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script03_2",
+    "utterance_id": "Ses05F_script03_2_F018",
+    "transcript_ground_truth": "Um, It doesn't seem to have worked such wonders with you."
+  }
+}

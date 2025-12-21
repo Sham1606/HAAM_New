@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro04_F036",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:57:54.028474",
+  "duration_seconds": 7.37,
+  "transcript": "not tall enough, not pretty enough, not what I mean, you know how this place is.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "not tall enough, not pretty enough, not what I mean, you know how this place is.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.43,
+      "sentiment_score": -0.8151,
+      "pitch_mean": 336.06
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8151,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 130.26,
+    "avg_pitch": 335.59
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro04",
+    "utterance_id": "Ses05F_impro04_F036",
+    "transcript_ground_truth": "not tall enough, not pretty enough, not--you know how this place is."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro07_F015",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:00:20.626083",
+  "duration_seconds": 3.38,
+  "transcript": "Everything in LA is 20 minutes away.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Everything in LA is 20 minutes away.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.906,
+      "sentiment_score": -0.1984,
+      "pitch_mean": 351.71
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1984,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 124.23,
+    "avg_pitch": 345.11
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro07",
+    "utterance_id": "Ses04M_impro07_F015",
+    "transcript_ground_truth": "Everything in LA is twenty minutes away."
+  }
+}

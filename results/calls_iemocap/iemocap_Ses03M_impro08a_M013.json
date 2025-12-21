@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro08a_M013",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:33:39.051818",
+  "duration_seconds": 6.21,
+  "transcript": "so you could speak with me some more, we could call back later on maybe",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "so you could speak with me some more, we could call back later on maybe",
+      "emotion": "neutral",
+      "emotion_confidence": 0.959,
+      "sentiment_score": 0.1953,
+      "pitch_mean": 324.12
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1953,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 144.9,
+    "avg_pitch": 324.12
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro08a",
+    "utterance_id": "Ses03M_impro08a_M013",
+    "transcript_ground_truth": "So you could----speak with me some more, you could call back later on maybe."
+  }
+}

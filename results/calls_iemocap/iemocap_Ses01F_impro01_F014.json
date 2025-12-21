@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01F_impro01_F014",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:15:37.095727",
+  "duration_seconds": 5.07,
+  "transcript": "Clearly. Do you have like a supervisor or something? Yeah.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.48,
+      "text": "Clearly. Do you have like a supervisor or something?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.849,
+      "sentiment_score": -0.0023,
+      "pitch_mean": 345.49
+    },
+    {
+      "start_time": 4.48,
+      "end_time": 4.98,
+      "text": "Yeah.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.814,
+      "sentiment_score": 0.2224,
+      "pitch_mean": 334.91
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1101,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 118.34,
+    "avg_pitch": 344.5
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro01",
+    "utterance_id": "Ses01F_impro01_F014",
+    "transcript_ground_truth": "Clearly.  You know, do you have like a supervisor or something?"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses02M_impro05_M025",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:54:13.801000",
+  "duration_seconds": 4.89,
+  "transcript": "What? They're talking about a corb- They can't afford it?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "What?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.922,
+      "sentiment_score": 0.083,
+      "pitch_mean": 381.58
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 3.0,
+      "text": "They're talking about a corb-",
+      "emotion": "joy",
+      "emotion_confidence": 0.479,
+      "sentiment_score": -0.0932,
+      "pitch_mean": 353.54
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 5.0,
+      "text": "They can't afford it?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.695,
+      "sentiment_score": -0.5513,
+      "pitch_mean": 358.6
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1872,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "joy": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 122.79,
+    "avg_pitch": 358.6
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro05",
+    "utterance_id": "Ses02M_impro05_M025",
+    "transcript_ground_truth": "The a- what? Talking about a core they can't afford it? I mean-"
+  }
+}

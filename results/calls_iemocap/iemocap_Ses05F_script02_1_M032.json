@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05F_script02_1_M032",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:23:19.675149",
+  "duration_seconds": 10.72,
+  "transcript": "Just some little instinctual time release firecracker that went off inside them and all is one They turned around and formed a line as long as the California coast and just started swimming",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.12,
+      "text": "Just some little instinctual time release firecracker that went off inside them and all is one",
+      "emotion": "neutral",
+      "emotion_confidence": 0.89,
+      "sentiment_score": -0.0202,
+      "pitch_mean": 331.25
+    },
+    {
+      "start_time": 5.12,
+      "end_time": 10.04,
+      "text": "They turned around and formed a line as long as the California coast and just started swimming",
+      "emotion": "neutral",
+      "emotion_confidence": 0.791,
+      "sentiment_score": 0.026,
+      "pitch_mean": 339.86
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0029,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 184.66,
+    "avg_pitch": 334.84
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script02_1",
+    "utterance_id": "Ses05F_script02_1_M032",
+    "transcript_ground_truth": "It's just some little instinctual time-release firecracker that went off inside them and all this one they turn around and form a line as long as the California coast and just started swimming."
+  }
+}

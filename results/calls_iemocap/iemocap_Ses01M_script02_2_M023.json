@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses01M_script02_2_M023",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:12:21.972248",
+  "duration_seconds": 13.87,
+  "transcript": "It was when we were driving past that, you know, that nicker-bocker-licker-locker, and you would say, no, you said, let's get some champagne. And I said, no, times of wasting or something like that. That's what it is, right?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.76,
+      "text": "It was when we were driving past that, you know, that nicker-bocker-licker-locker, and you would say,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.707,
+      "sentiment_score": -0.0156,
+      "pitch_mean": 332.25
+    },
+    {
+      "start_time": 5.76,
+      "end_time": 11.2,
+      "text": "no, you said, let's get some champagne. And I said, no, times of wasting or something like that.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.344,
+      "sentiment_score": 0.0637,
+      "pitch_mean": 334.22
+    },
+    {
+      "start_time": 12.24,
+      "end_time": 14.24,
+      "text": "That's what it is, right?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.752,
+      "sentiment_score": -0.1173,
+      "pitch_mean": 333.73
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0231,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "disgust": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 168.77,
+    "avg_pitch": 333.73
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script02_2",
+    "utterance_id": "Ses01M_script02_2_M023",
+    "transcript_ground_truth": "It was when we were driving passed that knickerbocker liquor locker and you would said, no you said \"let's get some champagne\" and I said \"no time to wasting\" or something like that.  That's what it is, right?"
+  }
+}

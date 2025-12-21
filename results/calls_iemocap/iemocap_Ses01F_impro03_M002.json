@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01F_impro03_M002",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:19:33.286342",
+  "duration_seconds": 3.31,
+  "transcript": "Not in Vegas? Yeah.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.72,
+      "text": "Not in Vegas?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.741,
+      "sentiment_score": -0.0255,
+      "pitch_mean": 340.74
+    },
+    {
+      "start_time": 2.72,
+      "end_time": 3.22,
+      "text": "Yeah.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.814,
+      "sentiment_score": 0.2224,
+      "pitch_mean": 333.19
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0984,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 72.51,
+    "avg_pitch": 338.43
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "sur",
+    "valence": 4.3333,
+    "arousal": 3.3333,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro03",
+    "utterance_id": "Ses01F_impro03_M002",
+    "transcript_ground_truth": "Shut up.  No- in Vegas?"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro02_F012",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:49:30.750634",
+  "duration_seconds": 5.39,
+  "transcript": "I leave it next week so you won't even be here for an honest birth.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "I leave it next week so you won't even be here for an honest birth.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.92,
+      "sentiment_score": -0.6188,
+      "pitch_mean": 338.02
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6188,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 166.91,
+    "avg_pitch": 338.02
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro02",
+    "utterance_id": "Ses03M_impro02_F012",
+    "transcript_ground_truth": "And you're leaving next week so you won't even be here for Anna's birth?"
+  }
+}

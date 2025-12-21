@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_script02_2_M038",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:09:59.617034",
+  "duration_seconds": 4.67,
+  "transcript": "Are you still cold? Still want to go home?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Are you still cold?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.402,
+      "sentiment_score": -0.0575,
+      "pitch_mean": 299.38
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "Still want to go home?",
+      "emotion": "sadness",
+      "emotion_confidence": 0.509,
+      "sentiment_score": -0.0047,
+      "pitch_mean": 298.99
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0311,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "sadness": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 115.63,
+    "avg_pitch": 297.56
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.3333,
+    "arousal": 2.6667,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script02_2",
+    "utterance_id": "Ses05M_script02_2_M038",
+    "transcript_ground_truth": "Are you still cold?  Still want to go home?"
+  }
+}

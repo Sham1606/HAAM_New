@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script03_1_M003",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:52:32.381427",
+  "duration_seconds": 3.49,
+  "transcript": "We're fine, right? Aren't we? Whatever happens, darling?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "We're fine, right? Aren't we? Whatever happens, darling?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.508,
+      "sentiment_score": 0.7441,
+      "pitch_mean": 325.34
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.7441,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 137.54,
+    "avg_pitch": 326.48
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script03_1",
+    "utterance_id": "Ses03M_script03_1_M003",
+    "transcript_ground_truth": "We're fine right?  Aren't we?  Whatever happens darling."
+  }
+}

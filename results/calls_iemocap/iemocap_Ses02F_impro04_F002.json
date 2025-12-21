@@ -1,0 +1,70 @@
+{
+  "call_id": "iemocap_Ses02F_impro04_F002",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:23:22.420840",
+  "duration_seconds": 5.91,
+  "transcript": "Oh, we're not hiring at this time. Or thank you. We already have your information on file. We'll call you when we're ready.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.92,
+      "text": "Oh, we're not hiring at this time.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.656,
+      "sentiment_score": -0.4273,
+      "pitch_mean": 333.35
+    },
+    {
+      "start_time": 1.92,
+      "end_time": 2.68,
+      "text": "Or thank you.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.849,
+      "sentiment_score": 0.1508,
+      "pitch_mean": 333.82
+    },
+    {
+      "start_time": 2.68,
+      "end_time": 4.36,
+      "text": "We already have your information on file.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.963,
+      "sentiment_score": 0.0883,
+      "pitch_mean": 327.96
+    },
+    {
+      "start_time": 4.36,
+      "end_time": 5.88,
+      "text": "We'll call you when we're ready.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.954,
+      "sentiment_score": 0.1746,
+      "pitch_mean": 314.06
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0034,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 233.65,
+    "avg_pitch": 325.08
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro04",
+    "utterance_id": "Ses02F_impro04_F002",
+    "transcript_ground_truth": "Oh, we're not hiring at this time or thank you, we already have your information on file--We'll call you when we're ready."
+  }
+}

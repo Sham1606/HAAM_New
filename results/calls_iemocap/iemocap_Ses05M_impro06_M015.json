@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_impro06_M015",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:46:14.188606",
+  "duration_seconds": 9.42,
+  "transcript": "And I don't know why people don't just tell you right off the bat that you're just gonna suck anyway You know like what's the point?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.3,
+      "text": "And I don't know why people don't just tell you right off the bat that you're just gonna suck anyway",
+      "emotion": "disgust",
+      "emotion_confidence": 0.85,
+      "sentiment_score": -0.8956,
+      "pitch_mean": 324.62
+    },
+    {
+      "start_time": 6.32,
+      "end_time": 8.82,
+      "text": "You know like what's the point?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.586,
+      "sentiment_score": -0.6781,
+      "pitch_mean": 323.21
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7869,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 165.52,
+    "avg_pitch": 323.49
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro06",
+    "utterance_id": "Ses05M_impro06_M015",
+    "transcript_ground_truth": "And I don't know why people don't just tell you off the bat that it's just gonna suck anyway.  You know, like, what's the point?"
+  }
+}

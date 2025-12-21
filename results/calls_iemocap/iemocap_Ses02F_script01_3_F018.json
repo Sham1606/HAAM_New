@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02F_script01_3_F018",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:35:36.187920",
+  "duration_seconds": 6.59,
+  "transcript": "Like Larry's brother do it like you Chris What is it?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Like Larry's brother do it like you Chris",
+      "emotion": "neutral",
+      "emotion_confidence": 0.893,
+      "sentiment_score": 0.0805,
+      "pitch_mean": 340.27
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "What is it?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.422,
+      "sentiment_score": 0.0627,
+      "pitch_mean": 318.15
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0716,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 100.15,
+    "avg_pitch": 321.3
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_3",
+    "utterance_id": "Ses02F_script01_3_F018",
+    "transcript_ground_truth": "Like Larry's brother.  Do it like you, Chris.  What is it?"
+  }
+}

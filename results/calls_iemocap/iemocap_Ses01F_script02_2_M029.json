@@ -1,0 +1,63 @@
+{
+  "call_id": "iemocap_Ses01F_script02_2_M029",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:42:29.795057",
+  "duration_seconds": 8.74,
+  "transcript": "I can new carpet, a poodle, a backer, a vice-cream, a suicide pact. What do you want? What the hell do you want?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.68,
+      "text": "I can new carpet, a poodle, a backer, a vice-cream, a suicide pact.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.403,
+      "sentiment_score": -0.3894,
+      "pitch_mean": 333.09
+    },
+    {
+      "start_time": 6.68,
+      "end_time": 7.68,
+      "text": "What do you want?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.461,
+      "sentiment_score": 0.0752,
+      "pitch_mean": 341.25
+    },
+    {
+      "start_time": 7.68,
+      "end_time": 8.68,
+      "text": "What the hell do you want?",
+      "emotion": "anger",
+      "emotion_confidence": 0.722,
+      "sentiment_score": -0.8555,
+      "pitch_mean": 322.03
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3899,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.333,
+      "neutral": 0.333,
+      "anger": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 157.91,
+    "avg_pitch": 332.43
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_2",
+    "utterance_id": "Ses01F_script02_2_M029",
+    "transcript_ground_truth": "Like a new carpet?  A poodle?  A back rub?  Ice cream?  A suicide pact?  What do you want?  What the hell do you want?"
+  }
+}

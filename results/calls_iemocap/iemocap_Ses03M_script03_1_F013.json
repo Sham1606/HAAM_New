@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script03_1_F013",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:51:44.019078",
+  "duration_seconds": 4.58,
+  "transcript": "So if I'm to laugh at everything then I must laugh at us too.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.5,
+      "text": "So if I'm to laugh at everything then I must laugh at us too.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.409,
+      "sentiment_score": 0.5415,
+      "pitch_mean": 336.86
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5415,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 183.21,
+    "avg_pitch": 336.18
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script03_1",
+    "utterance_id": "Ses03M_script03_1_F013",
+    "transcript_ground_truth": "So if I'm to laugh at everything then I must laugh at us too."
+  }
+}

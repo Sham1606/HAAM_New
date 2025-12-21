@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro05b_F019",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:59:18.627967",
+  "duration_seconds": 7.33,
+  "transcript": "Okay, sir, I'm sorry to tell you this but this does happen. This is not really",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "Okay, sir, I'm sorry to tell you this but this does happen. This is not really",
+      "emotion": "disgust",
+      "emotion_confidence": 0.348,
+      "sentiment_score": -0.8426,
+      "pitch_mean": 338.34
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8426,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 130.97,
+    "avg_pitch": 338.21
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro05b",
+    "utterance_id": "Ses03M_impro05b_F019",
+    "transcript_ground_truth": "Okay.  Sir?  I am sorry to tell you this but this does happen. Uh- This is not uh- really,"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script02_2_F011",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:48:16.546298",
+  "duration_seconds": 6.26,
+  "transcript": "Oh, he got it. Damn it. Don't ask me that. You always ask me that. I hate it when you ask me that. It's insulting.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "Oh, he got it. Damn it. Don't ask me that. You always ask me that. I hate it when you ask me that. It's insulting.",
+      "emotion": "anger",
+      "emotion_confidence": 0.655,
+      "sentiment_score": -0.9299,
+      "pitch_mean": 369.45
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9299,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 239.43,
+    "avg_pitch": 364.44
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.6667,
+    "arousal": 4.3333,
+    "dominance": 4.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_2",
+    "utterance_id": "Ses03M_script02_2_F011",
+    "transcript_ground_truth": "Augie, god dammit, don't ask me that.  You always ask me that.  I hate it when you ask me that.  It's insulting."
+  }
+}

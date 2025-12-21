@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses03F_impro04_F001",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:20:40.173237",
+  "duration_seconds": 6.54,
+  "transcript": "No, I don't know why. Maybe this isn't for me, you know? Maybe this isn't for my business for me. No.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "No, I don't know why.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.738,
+      "sentiment_score": -0.4633,
+      "pitch_mean": 330.52
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "Maybe this isn't for me, you know?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.407,
+      "sentiment_score": -0.7646,
+      "pitch_mean": 312.64
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "Maybe this isn't for my business for me.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.756,
+      "sentiment_score": -0.5638,
+      "pitch_mean": 310.36
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 6.5,
+      "text": "No.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.83,
+      "sentiment_score": 0.122,
+      "pitch_mean": 328.37
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4174,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.75,
+      "disgust": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 192.73,
+    "avg_pitch": 318.74
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro04",
+    "utterance_id": "Ses03F_impro04_F001",
+    "transcript_ground_truth": "No, I don't know, I--maybe this isn't for me. You know, maybe this isn't the right business for me."
+  }
+}

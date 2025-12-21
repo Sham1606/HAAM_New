@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro01_F002",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:32:36.458247",
+  "duration_seconds": 3.92,
+  "transcript": "Right, but this is the wrong form. Somebody gave you the wrong form.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.48,
+      "text": "Right, but this is the wrong form. Somebody gave you the wrong form.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.407,
+      "sentiment_score": -0.8346,
+      "pitch_mean": 342.59
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8346,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 198.98,
+    "avg_pitch": 339.38
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro01",
+    "utterance_id": "Ses05M_impro01_F002",
+    "transcript_ground_truth": "Right, but this is the wrong form.  Somebody gave you the wrong form."
+  }
+}

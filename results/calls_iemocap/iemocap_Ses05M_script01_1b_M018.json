@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_script01_1b_M018",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:58:17.312513",
+  "duration_seconds": 6.37,
+  "transcript": "So it isn't just my business You infuriate me sometimes you know that",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "So it isn't just my business",
+      "emotion": "neutral",
+      "emotion_confidence": 0.931,
+      "sentiment_score": -0.1229,
+      "pitch_mean": 329.77
+    },
+    {
+      "start_time": 3.6,
+      "end_time": 5.6,
+      "text": "You infuriate me sometimes you know that",
+      "emotion": "anger",
+      "emotion_confidence": 0.836,
+      "sentiment_score": -0.7683,
+      "pitch_mean": 337.56
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4456,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 122.45,
+    "avg_pitch": 330.05
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_1b",
+    "utterance_id": "Ses05M_script01_1b_M018",
+    "transcript_ground_truth": "So it isn't just my business?  You infuriate me sometime, you know that."
+  }
+}

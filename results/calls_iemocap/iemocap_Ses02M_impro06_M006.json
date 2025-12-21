@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02M_impro06_M006",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:55:09.443263",
+  "duration_seconds": 12.94,
+  "transcript": "God, it's, you know, we spent so much time with them. It's just really surreal, really weird that we're not gonna be able to see or anymore and go...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "God, it's, you know, we spent so much time with them.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.742,
+      "sentiment_score": 0.8593,
+      "pitch_mean": 323.86
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 13.0,
+      "text": "It's just really surreal, really weird that we're not gonna be able to see or anymore and go...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.601,
+      "sentiment_score": -0.7311,
+      "pitch_mean": 319.81
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0641,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 134.43,
+    "avg_pitch": 319.81
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 2.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro06",
+    "utterance_id": "Ses02M_impro06_M006",
+    "transcript_ground_truth": "God, it's you know, we've spent so much time with them it's just really surreal, really weird that we're not going to be able to see her anymore and go"
+  }
+}

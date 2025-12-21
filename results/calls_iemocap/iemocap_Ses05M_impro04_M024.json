@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses05M_impro04_M024",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:42:15.390338",
+  "duration_seconds": 8.91,
+  "transcript": "Do you have any idea how it can make money? I mean, like, what can I do to make some quick money? Something, anything that's relatively within the, you know, law.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Do you have any idea how it can make money?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.474,
+      "sentiment_score": 0.0215,
+      "pitch_mean": 322.56
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "I mean, like, what can I do to make some quick money?",
+      "emotion": "anger",
+      "emotion_confidence": 0.334,
+      "sentiment_score": -0.0428,
+      "pitch_mean": 333.86
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 9.0,
+      "text": "Something, anything that's relatively within the, you know, law.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.867,
+      "sentiment_score": 0.0706,
+      "pitch_mean": 316.94
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0164,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "anger": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 208.75,
+    "avg_pitch": 316.94
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro04",
+    "utterance_id": "Ses05M_impro04_M024",
+    "transcript_ground_truth": "Do you have any idea how I can make money?  I mean, what can I do to make some quick money, something?  Anything, that's relatively within the you know law."
+  }
+}

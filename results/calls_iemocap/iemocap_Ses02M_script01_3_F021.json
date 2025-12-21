@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script01_3_F021",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:04:01.705268",
+  "duration_seconds": 3.81,
+  "transcript": "It wouldn't work this way.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It wouldn't work this way.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.345,
+      "sentiment_score": -0.6531,
+      "pitch_mean": 329.42
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6531,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 78.71,
+    "avg_pitch": 325.59
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script01_3",
+    "utterance_id": "Ses02M_script01_3_F021",
+    "transcript_ground_truth": "It wouldn't work this way."
+  }
+}

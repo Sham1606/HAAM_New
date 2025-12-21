@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script02_2_F021",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:36:33.104309",
+  "duration_seconds": 5.71,
+  "transcript": "right into my ear so that I could hear them as much as so that I could feel them as much as hear them.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "right into my ear so that I could hear them as much as so that I could feel them as much as hear them.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.601,
+      "sentiment_score": 0.1268,
+      "pitch_mean": 338.71
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1268,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 252.03,
+    "avg_pitch": 335.34
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script02_2",
+    "utterance_id": "Ses04F_script02_2_F021",
+    "transcript_ground_truth": "right into my ear so that I could hear them as much as- so that I could feel them as much as hear them."
+  }
+}

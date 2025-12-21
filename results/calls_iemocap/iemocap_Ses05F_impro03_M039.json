@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05F_impro03_M039",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:54:42.921953",
+  "duration_seconds": 11.14,
+  "transcript": "Of course, of course you will. Of course you will. Yeah, don't go and disappear like everyone else after they get married And I never see them again. That'll that'll make me mad. You don't want to make me mad. You know how I get when I get mad",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.04,
+      "text": "Of course, of course you will. Of course you will. Yeah, don't go and disappear like everyone else after they get married",
+      "emotion": "neutral",
+      "emotion_confidence": 0.905,
+      "sentiment_score": 0.1051,
+      "pitch_mean": 327.33
+    },
+    {
+      "start_time": 6.04,
+      "end_time": 10.44,
+      "text": "And I never see them again. That'll that'll make me mad. You don't want to make me mad. You know how I get when I get mad",
+      "emotion": "anger",
+      "emotion_confidence": 0.809,
+      "sentiment_score": -0.8933,
+      "pitch_mean": 329.28
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3941,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 263.91,
+    "avg_pitch": 328.5
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro03",
+    "utterance_id": "Ses05F_impro03_M039",
+    "transcript_ground_truth": "Of course, of course she will ... of course she will.  Yeah, don't go and disappear like everyone else after they get married and I never see them again.  That'll make me mad.  You don't want to make me mad.  You know how I get when I get mad."
+  }
+}

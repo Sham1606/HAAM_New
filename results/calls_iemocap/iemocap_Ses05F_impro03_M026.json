@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro03_M026",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:53:55.504613",
+  "duration_seconds": 1.27,
+  "transcript": "Oh, he is okay.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.2,
+      "text": "Oh, he is okay.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.489,
+      "sentiment_score": 0.628,
+      "pitch_mean": 327.75
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.628,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 188.98,
+    "avg_pitch": 326.48
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro03",
+    "utterance_id": "Ses05F_impro03_M026",
+    "transcript_ground_truth": "Oh he is, okay."
+  }
+}

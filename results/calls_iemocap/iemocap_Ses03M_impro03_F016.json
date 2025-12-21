@@ -1,0 +1,109 @@
+{
+  "call_id": "iemocap_Ses03M_impro03_F016",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:52:09.737285",
+  "duration_seconds": 9.48,
+  "transcript": "Oh god. You're so damn cheap. She's cheap. Anyways, moving on. I love your poor. I mean your dad makes... Still okay. Okay.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "Oh god.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.9,
+      "sentiment_score": -0.3143,
+      "pitch_mean": 331.67
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 2.0,
+      "text": "You're so damn cheap.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.597,
+      "sentiment_score": -0.8881,
+      "pitch_mean": 348.26
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "She's cheap.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.758,
+      "sentiment_score": -0.6619,
+      "pitch_mean": 351.23
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 4.0,
+      "text": "Anyways, moving on.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.848,
+      "sentiment_score": 0.0502,
+      "pitch_mean": 367.57
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 5.0,
+      "text": "I love your poor.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.801,
+      "sentiment_score": 0.6742,
+      "pitch_mean": 361.97
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 7.0,
+      "text": "I mean your dad makes...",
+      "emotion": "joy",
+      "emotion_confidence": 0.371,
+      "sentiment_score": 0.0422,
+      "pitch_mean": 385.45
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 8.0,
+      "text": "Still okay.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.786,
+      "sentiment_score": 0.5561,
+      "pitch_mean": 330.26
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 9.0,
+      "text": "Okay.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.535,
+      "sentiment_score": 0.2809,
+      "pitch_mean": 335.01
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0326,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.625,
+      "disgust": 0.125,
+      "sadness": 0.125,
+      "joy": 0.125
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 145.54,
+    "avg_pitch": 349.07
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 2.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro03",
+    "utterance_id": "Ses03M_impro03_F016",
+    "transcript_ground_truth": "Oh god! You are damn cheap, cheap, cheap. Anyways, moving on. It's not like you're poor.  I mean your dad makes... okey"
+  }
+}

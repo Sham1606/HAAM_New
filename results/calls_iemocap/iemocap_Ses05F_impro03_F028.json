@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05F_impro03_F028",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:51:14.085831",
+  "duration_seconds": 1.26,
+  "transcript": "I'm not sure. I'm not sure.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "I'm not sure.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.766,
+      "sentiment_score": -0.1628,
+      "pitch_mean": 331.25
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 2.0,
+      "text": "I'm not sure.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.766,
+      "sentiment_score": -0.1628,
+      "pitch_mean": 334.03
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1628,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 285.73,
+    "avg_pitch": 334.03
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.5,
+    "arousal": 4.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro03",
+    "utterance_id": "Ses05F_impro03_F028",
+    "transcript_ground_truth": "I know"
+  }
+}

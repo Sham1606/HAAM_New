@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01M_script01_3_F016",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:05:27.251593",
+  "duration_seconds": 6.7,
+  "transcript": "I'll never forgive you for waiting so long. I'll do it with Sinaround, wonderful, it's crazy for thinking about you.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I'll never forgive you for waiting so long.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.645,
+      "sentiment_score": -0.9174,
+      "pitch_mean": 357.15
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 6.0,
+      "text": "I'll do it with Sinaround, wonderful, it's crazy for thinking about you.",
+      "emotion": "anger",
+      "emotion_confidence": 0.6,
+      "sentiment_score": 0.9337,
+      "pitch_mean": 337.74
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0081,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 178.97,
+    "avg_pitch": 342.23
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_3",
+    "utterance_id": "Ses01M_script01_3_F016",
+    "transcript_ground_truth": "I'll never forgive you for waiting so long.  All I did was sit around and wonder if I was crazy for thinking about you."
+  }
+}

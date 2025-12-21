@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro04_M015",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:54:22.916436",
+  "duration_seconds": 5.71,
+  "transcript": "Okay, you're my friend you can tell me stuff you can tell me honestly stuff. Okay, please",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.96,
+      "text": "Okay, you're my friend you can tell me stuff you can tell me honestly stuff. Okay, please",
+      "emotion": "neutral",
+      "emotion_confidence": 0.659,
+      "sentiment_score": 0.6501,
+      "pitch_mean": 339.42
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.6501,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 178.64,
+    "avg_pitch": 338.26
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro04",
+    "utterance_id": "Ses01M_impro04_M015",
+    "transcript_ground_truth": "Okay.  You're my friend you can tell me stuff.  You can tell me honestly stuff, okay?  Please."
+  }
+}

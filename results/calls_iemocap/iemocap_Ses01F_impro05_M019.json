@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro05_M019",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:26:03.578147",
+  "duration_seconds": 1.53,
+  "transcript": "in there. Not only did this.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.48,
+      "text": "in there. Not only did this.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.669,
+      "sentiment_score": -0.1868,
+      "pitch_mean": 345.02
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1868,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 235.3,
+    "avg_pitch": 344.69
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 2.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro05",
+    "utterance_id": "Ses01F_impro05_M019",
+    "transcript_ground_truth": "Yes."
+  }
+}

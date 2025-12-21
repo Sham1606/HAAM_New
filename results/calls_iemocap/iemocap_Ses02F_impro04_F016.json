@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro04_F016",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:23:56.121297",
+  "duration_seconds": 7.87,
+  "transcript": "I just want to crawl in a hole, you know, like it just makes you not want to even open your eyes in the morning.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "I just want to crawl in a hole, you know, like it just makes you not want to even open your eyes in the morning.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.593,
+      "sentiment_score": -0.9023,
+      "pitch_mean": 313.95
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9023,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 190.6,
+    "avg_pitch": 314.11
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 2.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro04",
+    "utterance_id": "Ses02F_impro04_F016",
+    "transcript_ground_truth": "I just wanna crawl in a hole, you know.  Like it just makes you not wanna even open your eyes in the morning."
+  }
+}

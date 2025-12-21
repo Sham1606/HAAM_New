@@ -1,0 +1,89 @@
+{
+  "call_id": "iemocap_Ses02F_impro05_F005",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:24:55.915091",
+  "duration_seconds": 15.72,
+  "transcript": "$50 for my suitcase. I mean, the suitcase itself was like $150 just for the suitcase, but all the things inside, all my clothes, all my personal belongings, the sentimental value, not to mention, which is more than all of that together.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.96,
+      "text": "$50 for my suitcase.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.549,
+      "sentiment_score": -0.0862,
+      "pitch_mean": 335.27
+    },
+    {
+      "start_time": 2.96,
+      "end_time": 6.76,
+      "text": "I mean, the suitcase itself was like $150 just for the suitcase,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.816,
+      "sentiment_score": -0.1425,
+      "pitch_mean": 358.05
+    },
+    {
+      "start_time": 6.76,
+      "end_time": 8.96,
+      "text": "but all the things inside, all my clothes,",
+      "emotion": "joy",
+      "emotion_confidence": 0.366,
+      "sentiment_score": -0.0607,
+      "pitch_mean": 355.52
+    },
+    {
+      "start_time": 8.96,
+      "end_time": 10.56,
+      "text": "all my personal belongings,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.556,
+      "sentiment_score": -0.0551,
+      "pitch_mean": 342.64
+    },
+    {
+      "start_time": 10.56,
+      "end_time": 12.36,
+      "text": "the sentimental value, not to mention,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.892,
+      "sentiment_score": -0.4618,
+      "pitch_mean": 373.54
+    },
+    {
+      "start_time": 12.36,
+      "end_time": 15.68,
+      "text": "which is more than all of that together.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.69,
+      "sentiment_score": -0.0398,
+      "pitch_mean": 331.97
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.141,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.833,
+      "joy": 0.167
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 160.31,
+    "avg_pitch": 347.67
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "sur",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro05",
+    "utterance_id": "Ses02F_impro05_F005",
+    "transcript_ground_truth": "Fifty dollars?  For my suitcase?  I mean, the suitcase itself was like a hundred and fifty dollar just for the suitcase, but all the things inside, all my clothes, all my personal belongings, the sentimental value, not to mention, which is more-more than all of that together."
+  }
+}

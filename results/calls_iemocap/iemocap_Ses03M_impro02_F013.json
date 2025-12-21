@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro02_F013",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:49:32.396023",
+  "duration_seconds": 2.63,
+  "transcript": "to this whole thing by myself.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "to this whole thing by myself.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.33,
+      "sentiment_score": -0.6473,
+      "pitch_mean": 339.6
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6473,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 137.07,
+    "avg_pitch": 340.68
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro02",
+    "utterance_id": "Ses03M_impro02_F013",
+    "transcript_ground_truth": "Do this whole thing by myself?"
+  }
+}

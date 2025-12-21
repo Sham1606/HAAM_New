@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05F_impro01_M001",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:46:25.840436",
+  "duration_seconds": 6.52,
+  "transcript": "I'm sorry, I'm in there's really nothing I can do for you in this line. This is not the line for new ideas This is line for registration",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.44,
+      "text": "I'm sorry, I'm in there's really nothing I can do for you in this line. This is not the line for new ideas",
+      "emotion": "sadness",
+      "emotion_confidence": 0.732,
+      "sentiment_score": -0.8595,
+      "pitch_mean": 332.82
+    },
+    {
+      "start_time": 4.44,
+      "end_time": 6.44,
+      "text": "This is line for registration",
+      "emotion": "neutral",
+      "emotion_confidence": 0.938,
+      "sentiment_score": 0.0218,
+      "pitch_mean": 319.86
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4188,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 257.67,
+    "avg_pitch": 329.53
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro01",
+    "utterance_id": "Ses05F_impro01_M001",
+    "transcript_ground_truth": "I mean, there's really nothing I can do for you in this line.  This is not the line for new I.D.  This is the line for registration."
+  }
+}

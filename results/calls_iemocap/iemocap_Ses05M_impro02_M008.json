@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro02_M008",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:35:39.363113",
+  "duration_seconds": 8.42,
+  "transcript": "I tried everything. I've called everyone I know I've tried everything. No one can do anything for me or they won't do anything for me.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "I tried everything. I've called everyone I know I've tried everything. No one can do anything for me or they won't do anything for me.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.375,
+      "sentiment_score": -0.5713,
+      "pitch_mean": 330.86
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5713,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 178.15,
+    "avg_pitch": 328.0
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.6667,
+    "arousal": 3.6667,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro02",
+    "utterance_id": "Ses05M_impro02_M008",
+    "transcript_ground_truth": "I've tried everything.  I've called everyone I know.  I've tried everything. No one can do anything for me or they won't do anything for me."
+  }
+}

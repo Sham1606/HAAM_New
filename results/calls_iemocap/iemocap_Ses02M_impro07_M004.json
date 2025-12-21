@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02M_impro07_M004",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:56:41.784417",
+  "duration_seconds": 4.48,
+  "transcript": "God, I just got this big packet, you know, in the mail. And it's like,",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.72,
+      "text": "God, I just got this big packet, you know, in the mail.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.814,
+      "sentiment_score": 0.475,
+      "pitch_mean": 336.64
+    },
+    {
+      "start_time": 3.72,
+      "end_time": 4.56,
+      "text": "And it's like,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.807,
+      "sentiment_score": 0.0139,
+      "pitch_mean": 335.69
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2444,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 200.87,
+    "avg_pitch": 335.69
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro07",
+    "utterance_id": "Ses02M_impro07_M004",
+    "transcript_ground_truth": "God, I-I got this big packet you know, in the mail and it's like-"
+  }
+}

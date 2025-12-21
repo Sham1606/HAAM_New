@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro03_M011",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:53:09.051906",
+  "duration_seconds": 3.37,
+  "transcript": "Okay, well, here you go.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Okay, well, here you go.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.773,
+      "sentiment_score": -0.1725,
+      "pitch_mean": 358.35
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1725,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 89.02,
+    "avg_pitch": 342.37
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro03",
+    "utterance_id": "Ses04M_impro03_M011",
+    "transcript_ground_truth": "Okay. Well there you go."
+  }
+}

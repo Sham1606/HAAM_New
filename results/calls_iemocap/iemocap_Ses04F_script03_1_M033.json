@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script03_1_M033",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:42:02.746362",
+  "duration_seconds": 2.75,
+  "transcript": "You didn't hit me, I didn't hit you very hard.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.5,
+      "text": "You didn't hit me, I didn't hit you very hard.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.374,
+      "sentiment_score": -0.3446,
+      "pitch_mean": 349.26
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3446,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 218.18,
+    "avg_pitch": 348.67
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 4.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script03_1",
+    "utterance_id": "Ses04F_script03_1_M033",
+    "transcript_ground_truth": "You didn't hit me- I didn't hit you very hard."
+  }
+}

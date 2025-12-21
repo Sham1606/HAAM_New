@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro02_F020",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:17:18.151172",
+  "duration_seconds": 4.53,
+  "transcript": "I know what lots and lots and lots of pictures.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I know what lots and lots and lots of pictures.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.41,
+      "sentiment_score": 0.2683,
+      "pitch_mean": 327.12
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2683,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 132.45,
+    "avg_pitch": 326.78
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 4.0,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro02",
+    "utterance_id": "Ses01F_impro02_F020",
+    "transcript_ground_truth": "And I want lots and lots and lots of pictures."
+  }
+}

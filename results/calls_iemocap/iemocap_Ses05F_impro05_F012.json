@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro05_F012",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:00:55.550905",
+  "duration_seconds": 3.81,
+  "transcript": "I mean we've gone through all of us. I've been to like five people already who who well",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.72,
+      "text": "I mean we've gone through all of us. I've been to like five people already who who well",
+      "emotion": "neutral",
+      "emotion_confidence": 0.802,
+      "sentiment_score": 0.0971,
+      "pitch_mean": 347.29
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0971,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 283.46,
+    "avg_pitch": 347.25
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro05",
+    "utterance_id": "Ses05F_impro05_F012",
+    "transcript_ground_truth": "I mean we've gone through all of this.  I've been to five people already who--"
+  }
+}

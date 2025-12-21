@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01M_impro03_M005",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:52:10.449486",
+  "duration_seconds": 4.19,
+  "transcript": "It's like $25,000 a year for me. That's the awesome.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It's like $25,000 a year for me.",
+      "emotion": "joy",
+      "emotion_confidence": 0.394,
+      "sentiment_score": 0.0957,
+      "pitch_mean": 364.58
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "That's the awesome.",
+      "emotion": "joy",
+      "emotion_confidence": 0.857,
+      "sentiment_score": 0.9655,
+      "pitch_mean": 396.12
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5306,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 143.2,
+    "avg_pitch": 374.98
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 4.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro03",
+    "utterance_id": "Ses01M_impro03_M005",
+    "transcript_ground_truth": "That's like twenty five thousand dollar a year for doing nothing. Isn't that awesome?"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses04M_impro02_M018",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:50:40.483471",
+  "duration_seconds": 10.58,
+  "transcript": "What else can we do? We don't have a choice in this, do you understand? You can't come with me and I can't stay here. That's all there is to it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "What else can we do?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.373,
+      "sentiment_score": -0.1194,
+      "pitch_mean": 330.45
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 5.0,
+      "text": "We don't have a choice in this, do you understand?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.449,
+      "sentiment_score": -0.6574,
+      "pitch_mean": 327.25
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 8.0,
+      "text": "You can't come with me and I can't stay here.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.372,
+      "sentiment_score": -0.7016,
+      "pitch_mean": 324.81
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 10.0,
+      "text": "That's all there is to it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.955,
+      "sentiment_score": -0.3933,
+      "pitch_mean": 321.68
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4679,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.75,
+      "neutral": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 175.8,
+    "avg_pitch": 326.01
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro02",
+    "utterance_id": "Ses04M_impro02_M018",
+    "transcript_ground_truth": "What else can we do?  I -- we don't have a choice in this.  Do you understand?  You can't come with me and I can't stay here.  That's all there is to it."
+  }
+}

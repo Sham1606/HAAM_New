@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro08_F032",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:11:40.175807",
+  "duration_seconds": 1.5,
+  "transcript": "Okay, have a good day.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Okay, have a good day.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.541,
+      "sentiment_score": 0.9321,
+      "pitch_mean": 318.6
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9321,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 200.0,
+    "avg_pitch": 318.6
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 4.0,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro08",
+    "utterance_id": "Ses05F_impro08_F032",
+    "transcript_ground_truth": "Have a good day."
+  }
+}

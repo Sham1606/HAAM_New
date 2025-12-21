@@ -1,0 +1,28 @@
+HAAM FRAMEWORK: HYBRID VALIDATION REPORT
+========================================
+
+1. DATASET COMPARISON
+   CREMA-D Samples: 2232
+   IEMOCAP Samples: 10039
+   CREMA-D Accuracy: 69.98%
+   IEMOCAP Accuracy: 35.37%
+
+2. STATISTICAL SIGNIFICANCE TESTS
+   A. Accuracy Difference (T-Test)
+      T-Statistic: 31.1605
+      P-Value:     3.2161e-205
+      Effect Size: 0.7292 (Cohen's d)
+      Result:      SIGNIFICANT
+
+   B. Emotion Distribution (Chi-Square)
+      Chi2 Stat:   3595.0139
+      P-Value:     0.0000e+00
+      Result:      SIGNIFICANT
+
+3. CONFIDENCE ANALYSIS
+   Avg Confidence CREMA-D: 0.483
+   Avg Confidence IEMOCAP: 0.671
+
+4. CONCLUSION
+   CREMA-D performance is significantly higher than IEMOCAP.
+   This suggests the model performs better on short, single utterances than conversations.

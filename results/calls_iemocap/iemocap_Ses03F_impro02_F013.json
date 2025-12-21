@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro02_F013",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:17:03.284233",
+  "duration_seconds": 4.81,
+  "transcript": "well I'm leaving in three weeks but yeah",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "well I'm leaving in three weeks but yeah",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.1911,
+      "pitch_mean": 318.56
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1911,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 99.74,
+    "avg_pitch": 318.56
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro02",
+    "utterance_id": "Ses03F_impro02_F013",
+    "transcript_ground_truth": "Well, I'm leaving in three weeks, but-- Yeah."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_script01_1_F007",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:37:07.455881",
+  "duration_seconds": 4.24,
+  "transcript": "He's starting to dream about him again. He's walking around at night again.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "He's starting to dream about him again.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.888,
+      "sentiment_score": 0.2432,
+      "pitch_mean": 333.99
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "He's walking around at night again.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.4,
+      "sentiment_score": 0.0456,
+      "pitch_mean": 342.22
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1444,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 184.13,
+    "avg_pitch": 337.19
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_1",
+    "utterance_id": "Ses03M_script01_1_F007",
+    "transcript_ground_truth": "Starting to dream about him again.  He's walking around at night again."
+  }
+}

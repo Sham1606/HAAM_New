@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_impro04_M023",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:56:08.822013",
+  "duration_seconds": 7.43,
+  "transcript": "60 words 60 words minute hey how you doing mr. Smith oh you know it's just like god I just want to shoot you mr. Smith",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.5,
+      "text": "60 words 60 words minute hey how you doing mr. Smith oh you know it's just like",
+      "emotion": "disgust",
+      "emotion_confidence": 0.398,
+      "sentiment_score": 0.2359,
+      "pitch_mean": 326.37
+    },
+    {
+      "start_time": 5.5,
+      "end_time": 7.0,
+      "text": "god I just want to shoot you mr. Smith",
+      "emotion": "neutral",
+      "emotion_confidence": 0.814,
+      "sentiment_score": -0.9057,
+      "pitch_mean": 312.39
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3349,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 209.96,
+    "avg_pitch": 324.49
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro04",
+    "utterance_id": "Ses03M_impro04_M023",
+    "transcript_ground_truth": "Sixty words.  Sixty words a minute.  Hey how are you doing Mr. Smith?  Oh, you know, it's just like God, I just want to shoot you Mr. Smith."
+  }
+}

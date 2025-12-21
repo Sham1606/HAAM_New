@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses03F_script02_2_M007",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:40:53.710449",
+  "duration_seconds": 12.51,
+  "transcript": "There's nothing to it. Alright, we come down here, the Grunnen arrive, they do their little fish business, we go, oh, look at the fish, and then they go home and we go home.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "There's nothing to it.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.421,
+      "sentiment_score": -0.4053,
+      "pitch_mean": 329.87
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 8.0,
+      "text": "Alright, we come down here, the Grunnen arrive, they do their little fish business, we go,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.848,
+      "sentiment_score": 0.2548,
+      "pitch_mean": 335.45
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 12.0,
+      "text": "oh, look at the fish, and then they go home and we go home.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.452,
+      "sentiment_score": 0.2484,
+      "pitch_mean": 344.68
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0327,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.667,
+      "neutral": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 163.1,
+    "avg_pitch": 336.11
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.6667,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_2",
+    "utterance_id": "Ses03F_script02_2_M007",
+    "transcript_ground_truth": "There's nothing to it, alright? We come down here, the grunion arrive, they do their little fish business, we go ooh, ah, look at the fish, and then they go home and we go home."
+  }
+}

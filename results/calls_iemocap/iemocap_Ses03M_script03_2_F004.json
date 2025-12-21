@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script03_2_F004",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:53:53.646811",
+  "duration_seconds": 3.26,
+  "transcript": "Just a little, perhaps, but nothing serious.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Just a little, perhaps, but nothing serious.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.353,
+      "sentiment_score": -0.0633,
+      "pitch_mean": 339.84
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0633,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 128.83,
+    "avg_pitch": 337.74
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script03_2",
+    "utterance_id": "Ses03M_script03_2_F004",
+    "transcript_ground_truth": "Just a little perhaps but nothing serious."
+  }
+}

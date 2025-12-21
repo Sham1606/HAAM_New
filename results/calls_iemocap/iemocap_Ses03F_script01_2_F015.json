@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script01_2_F015",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:32:57.994889",
+  "duration_seconds": 2.55,
+  "transcript": "Don't laugh at me, don't laugh at me!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.32,
+      "text": "Don't laugh at me, don't laugh at me!",
+      "emotion": "anger",
+      "emotion_confidence": 0.776,
+      "sentiment_score": -0.5587,
+      "pitch_mean": 418.69
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5587,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 188.24,
+    "avg_pitch": 394.16
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.0,
+    "arousal": 5.0,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_2",
+    "utterance_id": "Ses03F_script01_2_F015",
+    "transcript_ground_truth": "Don't, don't laugh at me, don't laugh at me."
+  }
+}

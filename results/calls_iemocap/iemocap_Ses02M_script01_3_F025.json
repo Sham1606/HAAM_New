@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script01_3_F025",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:04:11.060331",
+  "duration_seconds": 3.52,
+  "transcript": "Do you still feel that way?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Do you still feel that way?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.736,
+      "sentiment_score": -0.2463,
+      "pitch_mean": 334.73
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2463,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 102.27,
+    "avg_pitch": 329.84
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script01_3",
+    "utterance_id": "Ses02M_script01_3_F025",
+    "transcript_ground_truth": "Do you still feel that way?"
+  }
+}

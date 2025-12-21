@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_script01_1_F015",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:37:26.972286",
+  "duration_seconds": 7.98,
+  "transcript": "He still thinks he's alive still. I mean you could talk yourself blue in the face and there's no body and there's no grave So where are you?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.1,
+      "text": "He still thinks he's alive still. I mean you could talk yourself blue in the face and there's no body and there's no grave",
+      "emotion": "disgust",
+      "emotion_confidence": 0.405,
+      "sentiment_score": -0.3474,
+      "pitch_mean": 364.85
+    },
+    {
+      "start_time": 6.1,
+      "end_time": 8.1,
+      "text": "So where are you?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.599,
+      "sentiment_score": -0.036,
+      "pitch_mean": 354.64
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1917,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 210.52,
+    "avg_pitch": 354.64
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_1",
+    "utterance_id": "Ses03M_script01_1_F015",
+    "transcript_ground_truth": "he still thinks he's alive still.  I mean you could talk yourself blue in the face and there's no body and there's no grave so where are you?"
+  }
+}

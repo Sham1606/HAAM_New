@@ -1,0 +1,31 @@
+{
+  "call_id": "iemocap_Ses05M_impro02_F023",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:35:15.994788",
+  "duration_seconds": 1.26,
+  "transcript": "",
+  "segments": [],
+  "overall_metrics": {
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {},
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 0.0,
+    "avg_pitch": 326.06
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.6667,
+    "arousal": 3.3333,
+    "dominance": 1.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro02",
+    "utterance_id": "Ses05M_impro02_F023",
+    "transcript_ground_truth": "okay."
+  }
+}

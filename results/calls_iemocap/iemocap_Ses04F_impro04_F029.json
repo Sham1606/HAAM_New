@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses04F_impro04_F029",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:07:05.622490",
+  "duration_seconds": 6.37,
+  "transcript": "I did start somewhere. It worked my way up. Am I gonna start at the bottom again?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I did start somewhere.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.869,
+      "sentiment_score": 0.2967,
+      "pitch_mean": 364.05
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "It worked my way up.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.835,
+      "sentiment_score": 0.5892,
+      "pitch_mean": 336.84
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "Am I gonna start at the bottom again?",
+      "emotion": "joy",
+      "emotion_confidence": 0.403,
+      "sentiment_score": -0.1264,
+      "pitch_mean": 342.65
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2532,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "joy": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 160.13,
+    "avg_pitch": 341.15
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro04",
+    "utterance_id": "Ses04F_impro04_F029",
+    "transcript_ground_truth": "I did start somewhere.  I worked my way up.  I'm not going to start at the bottom again."
+  }
+}

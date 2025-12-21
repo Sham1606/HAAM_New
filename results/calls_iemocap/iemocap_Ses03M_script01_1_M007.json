@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script01_1_M007",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:39:03.758114",
+  "duration_seconds": 6.33,
+  "transcript": "I don't know, but I know one thing, Ma. We made a terrible mistake with Dad.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "I don't know, but I know one thing, Ma. We made a terrible mistake with Dad.",
+      "emotion": "fear",
+      "emotion_confidence": 0.833,
+      "sentiment_score": -0.8031,
+      "pitch_mean": 320.43
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8031,
+    "dominant_emotion": "fear",
+    "emotion_distribution": {
+      "fear": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 151.71,
+    "avg_pitch": 320.73
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_1",
+    "utterance_id": "Ses03M_script01_1_M007",
+    "transcript_ground_truth": "I don't know.  But I know one thing mom, we made a terrible mistake with dad."
+  }
+}

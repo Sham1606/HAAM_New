@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02M_impro02_M018",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:49:17.430126",
+  "duration_seconds": 12.59,
+  "transcript": "I want you to, you know, take lots of video pictures and I can see when I get back, I'll walk in there. I want to miss you.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.8,
+      "text": "I want you to, you know, take lots of video pictures and I can see when I get back, I'll",
+      "emotion": "neutral",
+      "emotion_confidence": 0.93,
+      "sentiment_score": 0.4804,
+      "pitch_mean": 318.98
+    },
+    {
+      "start_time": 7.8,
+      "end_time": 12.1,
+      "text": "walk in there. I want to miss you.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.964,
+      "sentiment_score": -0.1775,
+      "pitch_mean": 316.19
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1515,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "sadness": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 133.45,
+    "avg_pitch": 317.12
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro02",
+    "utterance_id": "Ses02M_impro02_M018",
+    "transcript_ground_truth": "I want you to, you know, take lots of video; pictures and I can see you when I get back or while I'm there. I'm going to miss you."
+  }
+}

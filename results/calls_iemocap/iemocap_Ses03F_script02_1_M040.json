@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03F_script02_1_M040",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:38:36.060483",
+  "duration_seconds": 7.99,
+  "transcript": "And it's single-mindedness with one mind. Urgency that's pure urge, you know, they don't give it a name.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.44,
+      "text": "And it's single-mindedness with one mind.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.942,
+      "sentiment_score": -0.3916,
+      "pitch_mean": 334.18
+    },
+    {
+      "start_time": 3.44,
+      "end_time": 7.84,
+      "text": "Urgency that's pure urge, you know, they don't give it a name.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.784,
+      "sentiment_score": -0.1793,
+      "pitch_mean": 326.22
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2855,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 135.22,
+    "avg_pitch": 328.8
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_1",
+    "utterance_id": "Ses03F_script02_1_M040",
+    "transcript_ground_truth": "its single-mindedness with one mind. Urgency that's pure urge. You know, they don't give it a name."
+  }
+}

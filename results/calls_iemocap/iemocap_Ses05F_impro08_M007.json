@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro08_M007",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:12:03.902501",
+  "duration_seconds": 3.22,
+  "transcript": "Like, I know I paid last month and it says it didn't pay and it charged me a late fee.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Like, I know I paid last month and it says it didn't pay and it charged me a late fee.",
+      "emotion": "anger",
+      "emotion_confidence": 0.364,
+      "sentiment_score": -0.7472,
+      "pitch_mean": 356.42
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7472,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 372.68,
+    "avg_pitch": 353.69
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro08",
+    "utterance_id": "Ses05F_impro08_M007",
+    "transcript_ground_truth": "Like I know I paid last month, but it hasn't been paid and you charged me a late fee."
+  }
+}

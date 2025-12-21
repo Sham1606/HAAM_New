@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_script01_3_M007",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:08:57.206385",
+  "duration_seconds": 3.37,
+  "transcript": "I guess you know this is why I see it come.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.8,
+      "text": "I guess you know this is why I see it come.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.769,
+      "sentiment_score": 0.2482,
+      "pitch_mean": 325.3
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2482,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 195.85,
+    "avg_pitch": 324.25
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script01_3",
+    "utterance_id": "Ses04M_script01_3_M007",
+    "transcript_ground_truth": "I guess you know this is why I asked you to come."
+  }
+}

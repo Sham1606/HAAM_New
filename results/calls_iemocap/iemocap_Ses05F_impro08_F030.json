@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro08_F030",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:11:36.632875",
+  "duration_seconds": 2.2,
+  "transcript": "I'm sorry that it was an inconvenience",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I'm sorry that it was an inconvenience",
+      "emotion": "sadness",
+      "emotion_confidence": 0.96,
+      "sentiment_score": -0.7727,
+      "pitch_mean": 340.01
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7727,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 190.91,
+    "avg_pitch": 339.83
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro08",
+    "utterance_id": "Ses05F_impro08_F030",
+    "transcript_ground_truth": "I'm sorry that it was an inconvenience."
+  }
+}

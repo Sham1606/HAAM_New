@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01M_script02_1_M045",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:10:06.285088",
+  "duration_seconds": 7.69,
+  "transcript": "It's like urgency that's pure urge, you know? It's single-mindedness with no mind.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "It's like urgency that's pure urge, you know?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.815,
+      "sentiment_score": 0.1118,
+      "pitch_mean": 333.15
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 7.0,
+      "text": "It's single-mindedness with no mind.",
+      "emotion": "anger",
+      "emotion_confidence": 0.385,
+      "sentiment_score": -0.8263,
+      "pitch_mean": 333.78
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3573,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 101.43,
+    "avg_pitch": 333.63
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script02_1",
+    "utterance_id": "Ses01M_script02_1_M045",
+    "transcript_ground_truth": "It's like urgency that's pure urge you know.  It's single-mindedness with no mind."
+  }
+}

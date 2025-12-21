@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro04_M004",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:51:51.753883",
+  "duration_seconds": 5.27,
+  "transcript": "I go at all the places I can, every place that'll give me an interview, you know?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "I go at all the places I can, every place that'll give me an interview, you know?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.749,
+      "sentiment_score": 0.1972,
+      "pitch_mean": 332.06
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1972,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 193.59,
+    "avg_pitch": 331.7
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.3333,
+    "arousal": 3.3333,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro04",
+    "utterance_id": "Ses02M_impro04_M004",
+    "transcript_ground_truth": "I go out all the places I can, every place that'll give an interview you know."
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses04M_script02_2_M030",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:13:48.684034",
+  "duration_seconds": 8.63,
+  "transcript": "No, I'm just like you. I thought it was gonna be all peaches and roses and wind in our hair and sand in our toes and the fish will always come and the bills will always pay themselves.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.6,
+      "text": "No, I'm just like you.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.885,
+      "sentiment_score": -0.1023,
+      "pitch_mean": 333.45
+    },
+    {
+      "start_time": 1.6,
+      "end_time": 3.36,
+      "text": "I thought it was gonna be all peaches and roses",
+      "emotion": "neutral",
+      "emotion_confidence": 0.687,
+      "sentiment_score": -0.0587,
+      "pitch_mean": 347.77
+    },
+    {
+      "start_time": 3.36,
+      "end_time": 5.76,
+      "text": "and wind in our hair and sand in our toes",
+      "emotion": "anger",
+      "emotion_confidence": 0.532,
+      "sentiment_score": -0.3026,
+      "pitch_mean": 338.87
+    },
+    {
+      "start_time": 5.76,
+      "end_time": 8.56,
+      "text": "and the fish will always come and the bills will always pay themselves.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.84,
+      "sentiment_score": 0.3237,
+      "pitch_mean": 335.97
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.035,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.75,
+      "anger": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 264.2,
+    "avg_pitch": 337.6
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script02_2",
+    "utterance_id": "Ses04M_script02_2_M030",
+    "transcript_ground_truth": "No, I'm just like you.  I thought it was going to be all peaches and roses and wind in our hair and sand in our toes and the fish will always come and the bills will always pay themselves."
+  }
+}

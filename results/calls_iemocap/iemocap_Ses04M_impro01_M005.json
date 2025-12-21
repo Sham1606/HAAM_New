@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro01_M005",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:47:04.463218",
+  "duration_seconds": 1.63,
+  "transcript": "Don't you you don't have eat?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Don't you you don't have eat?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.4207,
+      "pitch_mean": 339.27
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4207,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 220.87,
+    "avg_pitch": 339.27
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro01",
+    "utterance_id": "Ses04M_impro01_M005",
+    "transcript_ground_truth": "Don't you -- you don't have-"
+  }
+}

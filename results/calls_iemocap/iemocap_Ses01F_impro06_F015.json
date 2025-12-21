@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01F_impro06_F015",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:27:27.944508",
+  "duration_seconds": 2.98,
+  "transcript": "cover our video",
+  "segments": [
+    {
+      "start_time": 0.88,
+      "end_time": 3.98,
+      "text": "cover our",
+      "emotion": "neutral",
+      "emotion_confidence": 0.674,
+      "sentiment_score": 0.0594,
+      "pitch_mean": 333.76
+    },
+    {
+      "start_time": 9.18,
+      "end_time": 15.18,
+      "text": "video",
+      "emotion": "neutral",
+      "emotion_confidence": 0.891,
+      "sentiment_score": 0.2965,
+      "pitch_mean": 333.76
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1779,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 60.37,
+    "avg_pitch": 333.76
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro06",
+    "utterance_id": "Ses01F_impro06_F015",
+    "transcript_ground_truth": "couple hours."
+  }
+}

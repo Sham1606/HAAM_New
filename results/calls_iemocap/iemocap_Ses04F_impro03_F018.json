@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro03_F018",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:02:22.798422",
+  "duration_seconds": 6.82,
+  "transcript": "Okay, it's gonna be in like six months, so we don't have a really long time.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "Okay, it's gonna be in like six months, so we don't have a really long time.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.948,
+      "sentiment_score": 0.1556,
+      "pitch_mean": 340.23
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1556,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 140.76,
+    "avg_pitch": 336.67
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro03",
+    "utterance_id": "Ses04F_impro03_F018",
+    "transcript_ground_truth": "Okay.  It's going to be in, like, six months.  So we don't have a really long time."
+  }
+}

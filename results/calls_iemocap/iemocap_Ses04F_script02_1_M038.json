@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04F_script02_1_M038",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:35:14.019888",
+  "duration_seconds": 10.11,
+  "transcript": "They don't know what drives them, they don't give it a name or ask a question. They just turn as one and start the swim that brings them here to this place.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.36,
+      "text": "They don't know what drives them, they don't give it a name or ask a question.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.507,
+      "sentiment_score": -0.6667,
+      "pitch_mean": 324.53
+    },
+    {
+      "start_time": 5.36,
+      "end_time": 9.68,
+      "text": "They just turn as one and start the swim that brings them here to this place.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.954,
+      "sentiment_score": 0.1438,
+      "pitch_mean": 320.67
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2615,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 189.98,
+    "avg_pitch": 322.1
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script02_1",
+    "utterance_id": "Ses04F_script02_1_M038",
+    "transcript_ground_truth": "They don't know what drives them.  They don't give it a name or ask question.  They just turn as one and start the swim that brings them here to this place"
+  }
+}

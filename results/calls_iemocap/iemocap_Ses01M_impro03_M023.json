@@ -1,0 +1,73 @@
+{
+  "call_id": "iemocap_Ses01M_impro03_M023",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:52:56.463428",
+  "duration_seconds": 4.54,
+  "transcript": "I'm going to marry a blue blood. Can you like it? Can I get like a red? Let's be fun.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I'm going to marry a blue blood.",
+      "emotion": "joy",
+      "emotion_confidence": 0.953,
+      "sentiment_score": 0.175,
+      "pitch_mean": 324.52
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "Can you like it?",
+      "emotion": "anger",
+      "emotion_confidence": 0.567,
+      "sentiment_score": 0.0587,
+      "pitch_mean": 340.27
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 4.0,
+      "text": "Can I get like a red?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.421,
+      "sentiment_score": 0.0456,
+      "pitch_mean": 353.12
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 5.0,
+      "text": "Let's be fun.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.9189,
+      "pitch_mean": 335.81
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2995,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 0.25,
+      "anger": 0.25,
+      "disgust": 0.25,
+      "neutral": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 264.32,
+    "avg_pitch": 335.81
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro03",
+    "utterance_id": "Ses01M_impro03_M023",
+    "transcript_ground_truth": "I'm going to marry a blue blood. [LAUGHTER]"
+  }
+}

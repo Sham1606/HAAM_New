@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro08_F021",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:58:15.581158",
+  "duration_seconds": 7.07,
+  "transcript": "Oh, that would be great, because I could just get a new number that would that be okay, because that way I don't have to worry about it happening again.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "Oh, that would be great, because I could just get a new number that would that be okay, because that way I don't have to worry about it happening again.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.489,
+      "sentiment_score": 0.7315,
+      "pitch_mean": 352.57
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.7315,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 254.47,
+    "avg_pitch": 352.45
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro08",
+    "utterance_id": "Ses02M_impro08_F021",
+    "transcript_ground_truth": "Oh that'll be great 'cause I could just get a new number, would that be okay because that way I don't have to worry about it happening again?"
+  }
+}

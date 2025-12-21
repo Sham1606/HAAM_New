@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro06_M001",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:58:00.055172",
+  "duration_seconds": 3.71,
+  "transcript": "Det ska nog n\u00e5 drygt n\u00e5.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.08,
+      "text": "Det ska nog n\u00e5 drygt n\u00e5.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.739,
+      "sentiment_score": -0.0368,
+      "pitch_mean": 323.96
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0368,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 97.06,
+    "avg_pitch": 322.55
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro06",
+    "utterance_id": "Ses01M_impro06_M001",
+    "transcript_ground_truth": "Just kind of feel numb, you know."
+  }
+}

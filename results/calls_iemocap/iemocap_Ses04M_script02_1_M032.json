@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses04M_script02_1_M032",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:11:39.070139",
+  "duration_seconds": 18.12,
+  "transcript": "You don't know what drives them. They don't give a name or ask question They just turn as one and start the swim that brings them here To this place where we stand for a massive celebration of sex and death Oh, man, I'm giving myself a goof bumps. Oh my hairs are popping up",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.36,
+      "text": "You don't know what drives them. They don't give a name or ask question",
+      "emotion": "neutral",
+      "emotion_confidence": 0.662,
+      "sentiment_score": -0.7153,
+      "pitch_mean": 326.98
+    },
+    {
+      "start_time": 3.96,
+      "end_time": 8.08,
+      "text": "They just turn as one and start the swim that brings them here",
+      "emotion": "neutral",
+      "emotion_confidence": 0.952,
+      "sentiment_score": 0.1293,
+      "pitch_mean": 318.32
+    },
+    {
+      "start_time": 8.76,
+      "end_time": 12.94,
+      "text": "To this place where we stand for a massive celebration of sex and death",
+      "emotion": "disgust",
+      "emotion_confidence": 0.368,
+      "sentiment_score": -0.7143,
+      "pitch_mean": 322.48
+    },
+    {
+      "start_time": 13.84,
+      "end_time": 17.44,
+      "text": "Oh, man, I'm giving myself a goof bumps. Oh my hairs are popping up",
+      "emotion": "disgust",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.2553,
+      "pitch_mean": 327.26
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3889,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 182.11,
+    "avg_pitch": 322.18
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.5,
+    "arousal": 4.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script02_1",
+    "utterance_id": "Ses04M_script02_1_M032",
+    "transcript_ground_truth": "They don't know what drives them.  They don't give it a name or ask a question.  They just turn, as one, and start the swim that brings them here; to this place, where we stand, for a massive celebration of sex and death.  Oh, man, I'm giving myself goose bumps.  All my hairs are popping up."
+  }
+}

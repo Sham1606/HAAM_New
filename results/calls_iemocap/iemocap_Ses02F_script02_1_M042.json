@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script02_1_M042",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:39:12.482801",
+  "duration_seconds": 4.43,
+  "transcript": "Oh god, I don't give myself goose bumps. Look, all my hairs are popped up.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Oh god, I don't give myself goose bumps. Look, all my hairs are popped up.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.468,
+      "sentiment_score": -0.5491,
+      "pitch_mean": 328.61
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5491,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 203.16,
+    "avg_pitch": 327.45
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script02_1",
+    "utterance_id": "Ses02F_script02_1_M042",
+    "transcript_ground_truth": "Ah, God, I'm giving myself goose bumps.  Look, all my hairs are popped up."
+  }
+}

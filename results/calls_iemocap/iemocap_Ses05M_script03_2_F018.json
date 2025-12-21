@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script03_2_F018",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:13:22.205149",
+  "duration_seconds": 2.85,
+  "transcript": "No, it is not. Be quiet.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "No, it is not. Be quiet.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.571,
+      "sentiment_score": -0.5306,
+      "pitch_mean": 364.34
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5306,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 126.32,
+    "avg_pitch": 350.14
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script03_2",
+    "utterance_id": "Ses05M_script03_2_F018",
+    "transcript_ground_truth": "No, it it is not, be quiet."
+  }
+}

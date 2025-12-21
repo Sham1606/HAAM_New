@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_impro08b_F011",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:34:58.387355",
+  "duration_seconds": 10.4,
+  "transcript": "Okay, sir this is the deal. My phone isn't working and I don't care what the problem is but it needs to work That's why I'm paying you guys to fix it. Okay",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.88,
+      "text": "Okay, sir this is the deal. My phone isn't working and I don't care what the problem is but it needs to work",
+      "emotion": "joy",
+      "emotion_confidence": 0.373,
+      "sentiment_score": -0.6972,
+      "pitch_mean": 352.8
+    },
+    {
+      "start_time": 6.88,
+      "end_time": 10.16,
+      "text": "That's why I'm paying you guys to fix it. Okay",
+      "emotion": "neutral",
+      "emotion_confidence": 0.642,
+      "sentiment_score": 0.1565,
+      "pitch_mean": 351.81
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2704,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 190.38,
+    "avg_pitch": 351.92
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro08b",
+    "utterance_id": "Ses03M_impro08b_F011",
+    "transcript_ground_truth": "Okay no.  Sir, this is the deal.  My phone isn't working and I don't care what the problem is but it needs to work.  That's why I'm paying you guys to fix it."
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "call_id": "iemocap_Ses01M_script01_2_M005",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:04:39.050840",
+  "duration_seconds": 3.7,
+  "transcript": "okay now listen KITCHEN?! WAS \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f des \u0434\u0432\u0443\u0445 \u0445\u043e\u043e\u0431 parachutes",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.8,
+      "text": "okay now listen",
+      "emotion": "disgust",
+      "emotion_confidence": 0.465,
+      "sentiment_score": 0.0888,
+      "pitch_mean": 330.53
+    },
+    {
+      "start_time": 2.8,
+      "end_time": 3.6,
+      "text": "KITCHEN?!",
+      "emotion": "anger",
+      "emotion_confidence": 0.78,
+      "sentiment_score": -0.0438,
+      "pitch_mean": 339.77
+    },
+    {
+      "start_time": 3.96,
+      "end_time": 15.9,
+      "text": "WAS \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f des \u0434\u0432\u0443\u0445",
+      "emotion": "neutral",
+      "emotion_confidence": 0.776,
+      "sentiment_score": 0.0026,
+      "pitch_mean": 332.72
+    },
+    {
+      "start_time": 16.9,
+      "end_time": 17.84,
+      "text": "\u0445\u043e\u043e\u0431",
+      "emotion": "neutral",
+      "emotion_confidence": 0.871,
+      "sentiment_score": 0.0276,
+      "pitch_mean": 332.72
+    },
+    {
+      "start_time": 18.84,
+      "end_time": 25.94,
+      "text": "parachutes",
+      "emotion": "neutral",
+      "emotion_confidence": 0.698,
+      "sentiment_score": 0.1044,
+      "pitch_mean": 332.72
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0359,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "disgust": 0.2,
+      "anger": 0.2,
+      "neutral": 0.6
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 162.16,
+    "avg_pitch": 332.72
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_2",
+    "utterance_id": "Ses01M_script01_2_M005",
+    "transcript_ground_truth": "Okay, now listen, kids..."
+  }
+}

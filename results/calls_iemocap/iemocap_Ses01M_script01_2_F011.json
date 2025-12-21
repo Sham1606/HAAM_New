@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01M_script01_2_F011",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:04:18.198794",
+  "duration_seconds": 10.32,
+  "transcript": "Yo laugh at me laugh all you like but why does this happen the very night she comes back She goes to sleep in his room and his memorial breaks in pieces look at it. Joe look",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.52,
+      "text": "Yo laugh at me laugh all you like but why does this happen the very night she comes back",
+      "emotion": "anger",
+      "emotion_confidence": 0.387,
+      "sentiment_score": -0.6382,
+      "pitch_mean": 347.62
+    },
+    {
+      "start_time": 4.72,
+      "end_time": 9.86,
+      "text": "She goes to sleep in his room and his memorial breaks in pieces look at it. Joe look",
+      "emotion": "anger",
+      "emotion_confidence": 0.724,
+      "sentiment_score": -0.5592,
+      "pitch_mean": 352.59
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5987,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 215.13,
+    "avg_pitch": 350.91
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_2",
+    "utterance_id": "Ses01M_script01_2_F011",
+    "transcript_ground_truth": "Oh, laugh at me, laugh all you like but why does this happen to very night she comes back?  She goes to sleep in his room and his memorial breaks in pieces.  Look at it, Joe look."
+  }
+}

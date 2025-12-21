@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses01M_impro03_M007",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:52:15.092471",
+  "duration_seconds": 8.08,
+  "transcript": "$15,000! $15,000! Oh, it's just hour, I just... We'll see the friend of a friend but like...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "$15,000!",
+      "emotion": "anger",
+      "emotion_confidence": 0.703,
+      "sentiment_score": 0.2678,
+      "pitch_mean": 372.84
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "$15,000!",
+      "emotion": "anger",
+      "emotion_confidence": 0.503,
+      "sentiment_score": 0.2678,
+      "pitch_mean": 397.73
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "Oh, it's just hour, I just...",
+      "emotion": "anger",
+      "emotion_confidence": 0.652,
+      "sentiment_score": 0.1387,
+      "pitch_mean": 344.07
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 8.0,
+      "text": "We'll see the friend of a friend but like...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.868,
+      "sentiment_score": 0.0375,
+      "pitch_mean": 361.65
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.178,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.75,
+      "neutral": 0.25
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 126.2,
+    "avg_pitch": 366.27
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 5.0,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro03",
+    "utterance_id": "Ses01M_impro03_M007",
+    "transcript_ground_truth": "Fifty thousand dollars. Fifty thousand dollars. I was just out... I just... she's - well, she's a friend of friend but like..."
+  }
+}

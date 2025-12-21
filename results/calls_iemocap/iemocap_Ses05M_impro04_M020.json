@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro04_M020",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:42:03.670955",
+  "duration_seconds": 6.84,
+  "transcript": "I mean, no, that's fine. I think I have an abrasive vibe. Whatever. I mean you're entitled to your opinion of course. Maybe that's why I don't have a job",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.6,
+      "text": "I mean, no, that's fine. I think I have an abrasive vibe. Whatever. I mean you're entitled to your opinion of course. Maybe that's why I don't have a job",
+      "emotion": "joy",
+      "emotion_confidence": 0.328,
+      "sentiment_score": -0.5048,
+      "pitch_mean": 326.47
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5048,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 263.16,
+    "avg_pitch": 326.37
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro04",
+    "utterance_id": "Ses05M_impro04_M020",
+    "transcript_ground_truth": "Let me know that's -- that's fine.  You think I have an abrasive vibe, whatever.  You're entitled to your opinion, of course.  Maybe that's why I don't have a job."
+  }
+}

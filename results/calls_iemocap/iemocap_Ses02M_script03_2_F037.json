@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script03_2_F037",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:13:43.314332",
+  "duration_seconds": 5.88,
+  "transcript": "Listen indeed, I'm sick and tired of listening to you dance a distic bully.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.58,
+      "text": "Listen indeed, I'm sick and tired of listening to you dance a distic bully.",
+      "emotion": "anger",
+      "emotion_confidence": 0.507,
+      "sentiment_score": -0.9314,
+      "pitch_mean": 371.78
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9314,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 142.87,
+    "avg_pitch": 369.37
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.0,
+    "arousal": 5.0,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script03_2",
+    "utterance_id": "Ses02M_script03_2_F037",
+    "transcript_ground_truth": "Listen indeed. I'm sick and tired of listening to you, damn sadistic bully."
+  }
+}

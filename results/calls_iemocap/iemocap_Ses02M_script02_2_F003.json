@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02M_script02_2_F003",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:07:53.309009",
+  "duration_seconds": 12.26,
+  "transcript": "Yeah sure everyone is sold the same story. I mean kids is all excited, kids is coming back for more. Keeps us thinking that life is gonna start any second now if we can just get in on the action and find the right spot.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.7,
+      "text": "Yeah sure everyone is sold the same story. I mean kids is all excited, kids is coming back for more.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.698,
+      "sentiment_score": 0.5952,
+      "pitch_mean": 360.29
+    },
+    {
+      "start_time": 5.7,
+      "end_time": 11.3,
+      "text": "Keeps us thinking that life is gonna start any second now if we can just get in on the action and find the right spot.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.914,
+      "sentiment_score": 0.5015,
+      "pitch_mean": 362.01
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5483,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 220.23,
+    "avg_pitch": 357.11
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script02_2",
+    "utterance_id": "Ses02M_script02_2_F003",
+    "transcript_ground_truth": "Yea, sure everyone was sold the same story. I mean it keeps us all excited, keeps us coming back for more, keeps us thinking that life is going to start any second now if we can just get in on the action and find the right spot."
+  }
+}

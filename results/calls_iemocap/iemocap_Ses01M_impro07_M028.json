@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro07_M028",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:01:11.334914",
+  "duration_seconds": 5.41,
+  "transcript": "Like you know like police officers like kind of have you say guys most ashes. Yeah, so kind of",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.92,
+      "text": "Like you know like police officers like kind of have you say guys most ashes. Yeah, so kind of",
+      "emotion": "neutral",
+      "emotion_confidence": 0.854,
+      "sentiment_score": -0.0067,
+      "pitch_mean": 343.68
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0067,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 210.82,
+    "avg_pitch": 341.86
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro07",
+    "utterance_id": "Ses01M_impro07_M028",
+    "transcript_ground_truth": "Like, you know like police officers, like--kind of heavyset guys. Mustaches, yeah. It's that kind of-"
+  }
+}

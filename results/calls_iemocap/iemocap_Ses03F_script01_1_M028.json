@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script01_1_M028",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:31:44.110201",
+  "duration_seconds": 4.08,
+  "transcript": "I didn't ask any yet.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I didn't ask any yet.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.857,
+      "sentiment_score": -0.0726,
+      "pitch_mean": 328.65
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0726,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 73.56,
+    "avg_pitch": 329.84
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_1",
+    "utterance_id": "Ses03F_script01_1_M028",
+    "transcript_ground_truth": "I didn't ask Annie yet."
+  }
+}

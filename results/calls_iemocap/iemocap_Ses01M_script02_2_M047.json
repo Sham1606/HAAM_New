@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01M_script02_2_M047",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:13:03.991022",
+  "duration_seconds": 6.34,
+  "transcript": "Oh no. Just seemed like you could spot me.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.2,
+      "text": "Oh no.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.424,
+      "sentiment_score": -0.574,
+      "pitch_mean": 336.55
+    },
+    {
+      "start_time": 3.2,
+      "end_time": 6.2,
+      "text": "Just seemed like you could spot me.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.428,
+      "sentiment_score": 0.1722,
+      "pitch_mean": 328.94
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2009,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 85.24,
+    "avg_pitch": 333.18
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script02_2",
+    "utterance_id": "Ses01M_script02_2_M047",
+    "transcript_ground_truth": "I don't know, just seemed like such a good spot to me."
+  }
+}

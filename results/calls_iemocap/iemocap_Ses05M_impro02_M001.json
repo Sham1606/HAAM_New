@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses05M_impro02_M001",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:35:23.498560",
+  "duration_seconds": 5.7,
+  "transcript": "I know it's... with the crappy timing but... I don't have a choice. I don't know you can...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I know it's...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.737,
+      "sentiment_score": 0.0667,
+      "pitch_mean": 324.89
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "with the crappy timing but...",
+      "emotion": "sadness",
+      "emotion_confidence": 0.861,
+      "sentiment_score": -0.8624,
+      "pitch_mean": 331.69
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 5.0,
+      "text": "I don't have a choice.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.425,
+      "sentiment_score": -0.3475,
+      "pitch_mean": 334.34
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 6.0,
+      "text": "I don't know you can...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.817,
+      "sentiment_score": -0.3568,
+      "pitch_mean": 329.04
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.375,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "sadness": 0.25,
+      "disgust": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 189.48,
+    "avg_pitch": 329.04
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.3333,
+    "arousal": 3.0,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro02",
+    "utterance_id": "Ses05M_impro02_M001",
+    "transcript_ground_truth": "I know it's really crappy timing, but I don't have a choice."
+  }
+}

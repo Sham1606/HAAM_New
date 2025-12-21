@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro01_M003",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:46:29.978723",
+  "duration_seconds": 6.77,
+  "transcript": "Well, I have no camera here. I can't help you at all here, ma'am. I have forms for something completely different. You need to go to a different place",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.04,
+      "text": "Well, I have no camera here. I can't help you at all here, ma'am. I have forms for something completely different. You need to go to a different place",
+      "emotion": "neutral",
+      "emotion_confidence": 0.738,
+      "sentiment_score": -0.8405,
+      "pitch_mean": 334.43
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8405,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 257.02,
+    "avg_pitch": 333.61
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro01",
+    "utterance_id": "Ses05F_impro01_M003",
+    "transcript_ground_truth": "Well, I have no camera here.  I can't help you at all here, ma'am.  I have forms for something completely different.  You need to go to a different place."
+  }
+}

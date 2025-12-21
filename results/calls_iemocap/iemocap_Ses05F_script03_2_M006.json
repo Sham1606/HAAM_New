@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script03_2_M006",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:31:08.625792",
+  "duration_seconds": 1.1,
+  "transcript": "What of it?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "What of it?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.62,
+      "sentiment_score": -0.0188,
+      "pitch_mean": 354.29
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0188,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 163.64,
+    "avg_pitch": 351.8
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script03_2",
+    "utterance_id": "Ses05F_script03_2_M006",
+    "transcript_ground_truth": "What of it?"
+  }
+}

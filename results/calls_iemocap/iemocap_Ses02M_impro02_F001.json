@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02M_impro02_F001",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:48:13.570054",
+  "duration_seconds": 7.81,
+  "transcript": "I'm gonna miss you too. I don't know what I'm gonna do here without you. It's gonna be so lonely and so hard.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.2,
+      "text": "I'm gonna miss you too. I don't know what I'm gonna do here without you.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.941,
+      "sentiment_score": -0.1962,
+      "pitch_mean": 350.32
+    },
+    {
+      "start_time": 4.4,
+      "end_time": 7.2,
+      "text": "It's gonna be so lonely and so hard.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.86,
+      "sentiment_score": -0.899,
+      "pitch_mean": 341.95
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5476,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 176.75,
+    "avg_pitch": 340.74
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 2.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro02",
+    "utterance_id": "Ses02M_impro02_F001",
+    "transcript_ground_truth": "I'm going to miss you too; I don't know what I'm going to do here without you. It's going to be so lonely, and so hard."
+  }
+}

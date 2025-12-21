@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05F_impro04_F024",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:57:17.748236",
+  "duration_seconds": 9.72,
+  "transcript": "Right, I don't think you have a concept of what I mean by by money. I don't mean money like oh I can't go get my hair and my nails did today I mean like I can't eat",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.5,
+      "text": "Right, I don't think you have a concept of what I mean by by money. I don't mean money like oh I can't go get my hair and my nails did today",
+      "emotion": "joy",
+      "emotion_confidence": 0.435,
+      "sentiment_score": -0.7254,
+      "pitch_mean": 353.2
+    },
+    {
+      "start_time": 7.5,
+      "end_time": 9.5,
+      "text": "I mean like I can't eat",
+      "emotion": "joy",
+      "emotion_confidence": 0.354,
+      "sentiment_score": -0.71,
+      "pitch_mean": 343.3
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7177,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 234.57,
+    "avg_pitch": 349.01
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro04",
+    "utterance_id": "Ses05F_impro04_F024",
+    "transcript_ground_truth": "Brian, I don't think you have a concept of what I mean by- by money.  I don't mean money like oh, I can't go get my hair and my nails done today, I mean like I can't eat."
+  }
+}

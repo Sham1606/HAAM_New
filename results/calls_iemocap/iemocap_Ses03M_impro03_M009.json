@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro03_M009",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:53:20.829275",
+  "duration_seconds": 1.78,
+  "transcript": "That's my name.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "That's my name.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.955,
+      "sentiment_score": 0.2508,
+      "pitch_mean": 314.44
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2508,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 100.98,
+    "avg_pitch": 314.44
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro03",
+    "utterance_id": "Ses03M_impro03_M009",
+    "transcript_ground_truth": "That's my name."
+  }
+}

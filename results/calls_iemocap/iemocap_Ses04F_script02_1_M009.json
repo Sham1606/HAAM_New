@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses04F_script02_1_M009",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:33:38.212456",
+  "duration_seconds": 8.41,
+  "transcript": "I hope the moon stays out. I wonder do they always run during a full moon? I can't remember if it was full last year. Remember?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.36,
+      "text": "I hope the moon stays out.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.9,
+      "sentiment_score": 0.3509,
+      "pitch_mean": 316.96
+    },
+    {
+      "start_time": 3.36,
+      "end_time": 5.44,
+      "text": "I wonder do they always run during a full moon?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.959,
+      "sentiment_score": 0.0088,
+      "pitch_mean": 333.98
+    },
+    {
+      "start_time": 5.44,
+      "end_time": 8.12,
+      "text": "I can't remember if it was full last year.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.39,
+      "sentiment_score": -0.129,
+      "pitch_mean": 323.64
+    },
+    {
+      "start_time": 8.12,
+      "end_time": 9.12,
+      "text": "Remember?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.573,
+      "sentiment_score": 0.1072,
+      "pitch_mean": 322.96
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0845,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.75,
+      "disgust": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 185.53,
+    "avg_pitch": 322.96
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script02_1",
+    "utterance_id": "Ses04F_script02_1_M009",
+    "transcript_ground_truth": "I hope the moon stays out.  I wonder do they always run during a full moon.  I can't remember if it was full last year.  Remember?"
+  }
+}

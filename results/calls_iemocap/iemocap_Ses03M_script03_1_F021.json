@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script03_1_F021",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:51:59.815152",
+  "duration_seconds": 4.5,
+  "transcript": "Thank you, dear. The same applies to you.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Thank you, dear. The same applies to you.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.357,
+      "sentiment_score": 0.9465,
+      "pitch_mean": 333.44
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9465,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 106.67,
+    "avg_pitch": 333.38
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script03_1",
+    "utterance_id": "Ses03M_script03_1_F021",
+    "transcript_ground_truth": "Thank you dear.  The same applies to you..."
+  }
+}

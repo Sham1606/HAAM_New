@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses04M_impro04_M023",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:55:59.853227",
+  "duration_seconds": 8.17,
+  "transcript": "I had no idea I'm sorry I'm still a screen this one This is still good stuff. I guess",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I had no idea",
+      "emotion": "neutral",
+      "emotion_confidence": 0.954,
+      "sentiment_score": -0.2004,
+      "pitch_mean": 331.92
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.8,
+      "text": "I'm sorry I'm still a screen this one",
+      "emotion": "sadness",
+      "emotion_confidence": 0.723,
+      "sentiment_score": -0.6407,
+      "pitch_mean": 328.91
+    },
+    {
+      "start_time": 6.2,
+      "end_time": 8.2,
+      "text": "This is still good stuff. I guess",
+      "emotion": "neutral",
+      "emotion_confidence": 0.718,
+      "sentiment_score": 0.9258,
+      "pitch_mean": 329.59
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0282,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "sadness": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 139.52,
+    "avg_pitch": 329.59
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "oth",
+    "valence": 4.6667,
+    "arousal": 2.6667,
+    "dominance": 1.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro04",
+    "utterance_id": "Ses04M_impro04_M023",
+    "transcript_ground_truth": "I had- No, I don't.  I'm sorry.  I just totally screwed this one up.  You can stop it I guess."
+  }
+}

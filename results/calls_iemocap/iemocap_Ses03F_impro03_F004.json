@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03F_impro03_F004",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:19:06.940171",
+  "duration_seconds": 5.21,
+  "transcript": "At the end of the performance, you know, like we're all clapping and stuff. Amazon Night Look Over, and...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "At the end of the performance, you know, like we're all clapping and stuff.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.789,
+      "sentiment_score": 0.4909,
+      "pitch_mean": 340.21
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 5.0,
+      "text": "Amazon Night Look Over, and...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.794,
+      "sentiment_score": 0.1113,
+      "pitch_mean": 353.5
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3011,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 218.77,
+    "avg_pitch": 341.18
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.5,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro03",
+    "utterance_id": "Ses03F_impro03_F004",
+    "transcript_ground_truth": "at the end of the performance, you know, like we're all clapping and stuff. And all of a sudden I look over and"
+  }
+}

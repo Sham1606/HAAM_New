@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02M_impro04_F017",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:51:43.346451",
+  "duration_seconds": 11.76,
+  "transcript": "Can I tell you something? I mean you need... you need a clear head because you seem like you're really frustrated about it and you need to like Be excited about what you're doing rather than you know, that's that",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.56,
+      "text": "Can I tell you something? I mean you need... you need a clear head because you seem like you're really frustrated about it and you need to like",
+      "emotion": "anger",
+      "emotion_confidence": 0.9,
+      "sentiment_score": -0.3233,
+      "pitch_mean": 331.75
+    },
+    {
+      "start_time": 7.4,
+      "end_time": 11.0,
+      "text": "Be excited about what you're doing rather than you know, that's that",
+      "emotion": "disgust",
+      "emotion_confidence": 0.415,
+      "sentiment_score": 0.8559,
+      "pitch_mean": 328.2
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2663,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 204.13,
+    "avg_pitch": 327.2
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.3333,
+    "arousal": 2.3333,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro04",
+    "utterance_id": "Ses02M_impro04_F017",
+    "transcript_ground_truth": "Get out of town or something, I mean you need - you need to clear your head 'cause you seem like you're really frustrated about it. I mean you need to like, be excited about you're doing, rather than, you know upset."
+  }
+}

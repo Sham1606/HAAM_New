@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script01_1_M008",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:01:00.292980",
+  "duration_seconds": 4.91,
+  "transcript": "Being dishonest with him. I mean that sort of thing always pays off and now it's paying off",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.5,
+      "text": "Being dishonest with him. I mean that sort of thing always pays off and now it's paying off",
+      "emotion": "disgust",
+      "emotion_confidence": 0.428,
+      "sentiment_score": -0.2939,
+      "pitch_mean": 322.45
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2939,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 219.96,
+    "avg_pitch": 321.58
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script01_1",
+    "utterance_id": "Ses02M_script01_1_M008",
+    "transcript_ground_truth": "Being dishonest with him. I mean that sort of thing always pays off and now it's paying off."
+  }
+}

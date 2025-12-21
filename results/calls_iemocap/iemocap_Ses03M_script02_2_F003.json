@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses03M_script02_2_F003",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:48:00.418207",
+  "duration_seconds": 11.5,
+  "transcript": "Yeah, everyone else was so the same thing. I mean, look, I keep just excited, keep just coming back for more, you know, keep just thinking life's gonna start any minute now.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.72,
+      "text": "Yeah, everyone else was so the same thing.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.896,
+      "sentiment_score": -0.2816,
+      "pitch_mean": 347.54
+    },
+    {
+      "start_time": 2.72,
+      "end_time": 8.04,
+      "text": "I mean, look, I keep just excited, keep just coming back for more, you know, keep just",
+      "emotion": "neutral",
+      "emotion_confidence": 0.634,
+      "sentiment_score": 0.9607,
+      "pitch_mean": 340.7
+    },
+    {
+      "start_time": 8.04,
+      "end_time": 10.32,
+      "text": "thinking life's gonna start any minute now.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.423,
+      "sentiment_score": 0.0766,
+      "pitch_mean": 369.03
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2519,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "disgust": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 166.89,
+    "avg_pitch": 346.18
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.6667,
+    "arousal": 3.6667,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_2",
+    "utterance_id": "Ses03M_script02_2_F003",
+    "transcript_ground_truth": "Yeah.  Everyone else was sold the same thing.  I mean, look, it keeps us excited, it keeps us coming back for more and you know, keeps us thinking life's going to start any minute now."
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses01M_impro03_M006",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:52:12.566059",
+  "duration_seconds": 7.46,
+  "transcript": "She's actually from England, I think. Well she spoke English but she had an accent. I don't even have.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "She's actually from England, I think.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.902,
+      "sentiment_score": 0.1148,
+      "pitch_mean": 334.63
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 7.0,
+      "text": "Well she spoke English but she had an accent.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.921,
+      "sentiment_score": 0.0178,
+      "pitch_mean": 371.4
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 8.0,
+      "text": "I don't even have.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.4578,
+      "pitch_mean": 348.15
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1084,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 152.76,
+    "avg_pitch": 348.15
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro03",
+    "utterance_id": "Ses01M_impro03_M006",
+    "transcript_ground_truth": "She's actually from England, I think.  Well she- she spoke English but she had an accent. I didn't even ask."
+  }
+}

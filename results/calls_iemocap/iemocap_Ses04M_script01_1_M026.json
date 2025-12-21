@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_script01_1_M026",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:06:18.410614",
+  "duration_seconds": 2.77,
+  "transcript": "wanted to get this settled first.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "wanted to get this settled first.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.0193,
+      "pitch_mean": 326.61
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0193,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 130.11,
+    "avg_pitch": 326.61
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script01_1",
+    "utterance_id": "Ses04M_script01_1_M026",
+    "transcript_ground_truth": "I wanted to get this settled first."
+  }
+}

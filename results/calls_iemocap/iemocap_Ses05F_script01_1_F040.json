@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script01_1_F040",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:14:24.687747",
+  "duration_seconds": 2.83,
+  "transcript": "I don't understand you do I?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I don't understand you do I?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.447,
+      "sentiment_score": -0.7561,
+      "pitch_mean": 329.21
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7561,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 127.21,
+    "avg_pitch": 326.36
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_1",
+    "utterance_id": "Ses05F_script01_1_F040",
+    "transcript_ground_truth": "I don't understand you, do I?"
+  }
+}

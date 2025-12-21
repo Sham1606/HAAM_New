@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro05_F006",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:55:02.753841",
+  "duration_seconds": 2.75,
+  "transcript": "I speak your language.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I speak your language.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.803,
+      "sentiment_score": 0.3257,
+      "pitch_mean": 314.27
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3257,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 87.35,
+    "avg_pitch": 322.7
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro05",
+    "utterance_id": "Ses01M_impro05_F006",
+    "transcript_ground_truth": "I speak your language."
+  }
+}

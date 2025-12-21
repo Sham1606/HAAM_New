@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script01_3_F013",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:05:21.201617",
+  "duration_seconds": 2.64,
+  "transcript": "You started to write me?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "You started to write me?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.785,
+      "sentiment_score": 0.0265,
+      "pitch_mean": 317.33
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0265,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 113.74,
+    "avg_pitch": 315.79
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.5,
+    "arousal": 1.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_3",
+    "utterance_id": "Ses01M_script01_3_F013",
+    "transcript_ground_truth": "You started to write me."
+  }
+}

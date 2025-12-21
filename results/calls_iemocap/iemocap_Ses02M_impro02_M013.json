@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02M_impro02_M013",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:49:04.713724",
+  "duration_seconds": 8.62,
+  "transcript": "There's people that thought it was the right thing to do. So now we have to do what we have to do for our country.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.44,
+      "text": "There's people that thought it was the right thing to do.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.812,
+      "sentiment_score": -0.5026,
+      "pitch_mean": 316.44
+    },
+    {
+      "start_time": 3.44,
+      "end_time": 7.2,
+      "text": "So now we have to do what we have to do for our country.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.788,
+      "sentiment_score": -0.0095,
+      "pitch_mean": 317.07
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2561,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 174.1,
+    "avg_pitch": 315.08
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro02",
+    "utterance_id": "Ses02M_impro02_M013",
+    "transcript_ground_truth": "there's people that thought it was the right thing to do so now we have to- we have to do what we have to do for our country"
+  }
+}

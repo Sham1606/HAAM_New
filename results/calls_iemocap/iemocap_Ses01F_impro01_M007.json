@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01F_impro01_M007",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:16:00.018477",
+  "duration_seconds": 6.24,
+  "transcript": "I don't know, but I need an ID to pass this form along. I can't just send it along without an ID.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I don't know, but I need an ID to pass this form along.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.927,
+      "sentiment_score": -0.1592,
+      "pitch_mean": 338.73
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "I can't just send it along without an ID.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.955,
+      "sentiment_score": -0.3936,
+      "pitch_mean": 348.3
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2764,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 211.54,
+    "avg_pitch": 342.89
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro01",
+    "utterance_id": "Ses01F_impro01_M007",
+    "transcript_ground_truth": "I don't know.  But I need an ID to pass this form along.  I can't just send it along without an ID."
+  }
+}

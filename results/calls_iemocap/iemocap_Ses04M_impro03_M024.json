@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses04M_impro03_M024",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:53:56.063710",
+  "duration_seconds": 17.22,
+  "transcript": "But, you know, it's like I really love her and I really just, I can't imagine spending my life with anybody else but her. So, you know, it's like I know that's the right thing. If you have to, you know, if you have to question that, you know, don't, don't do it. So, we're gonna do it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.68,
+      "text": "But, you know, it's like I really love her and I really just, I can't imagine spending my life with anybody else but her.",
+      "emotion": "joy",
+      "emotion_confidence": 0.842,
+      "sentiment_score": 0.9267,
+      "pitch_mean": 332.85
+    },
+    {
+      "start_time": 7.68,
+      "end_time": 15.2,
+      "text": "So, you know, it's like I know that's the right thing. If you have to, you know, if you have to question that, you know, don't, don't do it.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.481,
+      "sentiment_score": -0.1791,
+      "pitch_mean": 328.79
+    },
+    {
+      "start_time": 15.2,
+      "end_time": 17.2,
+      "text": "So, we're gonna do it.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.398,
+      "sentiment_score": 0.2989,
+      "pitch_mean": 321.14
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3488,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "joy": 0.333,
+      "disgust": 0.667
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 202.05,
+    "avg_pitch": 329.28
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.5,
+    "arousal": 4.0,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro03",
+    "utterance_id": "Ses04M_impro03_M024",
+    "transcript_ground_truth": "But, you know, it's like I really love her and I really just -- I can't imagine spending my life with anybody else but her.  So, you know, it's like I know that's the right thing.  And if you have to, you know, if you have to question that, you know, don't- don't do it.  So we're going to do it."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script02_2_M019",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:41:18.489382",
+  "duration_seconds": 6.76,
+  "transcript": "Okay, right I got it of course um listen do you want to dance?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.76,
+      "text": "Okay, right I got it of course um listen do you want to dance?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.668,
+      "sentiment_score": 0.4634,
+      "pitch_mean": 325.84
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4634,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 124.21,
+    "avg_pitch": 324.71
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.3333,
+    "arousal": 2.6667,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_2",
+    "utterance_id": "Ses03F_script02_2_M019",
+    "transcript_ground_truth": "Right. I got it. Of course. Listen, do you want to dance?"
+  }
+}

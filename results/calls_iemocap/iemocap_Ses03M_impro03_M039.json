@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro03_M039",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:54:17.447648",
+  "duration_seconds": 5.12,
+  "transcript": "Oh, it's okay. It's it. My mom said we can move in with her again if we don't add",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.58,
+      "text": "Oh, it's okay. It's it. My mom said we can move in with her again if we don't add",
+      "emotion": "neutral",
+      "emotion_confidence": 0.661,
+      "sentiment_score": 0.4368,
+      "pitch_mean": 322.09
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4368,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 222.58,
+    "avg_pitch": 321.59
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro03",
+    "utterance_id": "Ses03M_impro03_M039",
+    "transcript_ground_truth": "Oh that's great. My mom said we can move in with her again if we run out of money."
+  }
+}

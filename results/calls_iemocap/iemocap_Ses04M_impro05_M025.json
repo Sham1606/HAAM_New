@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04M_impro05_M025",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:58:04.569533",
+  "duration_seconds": 8.17,
+  "transcript": "Look can I just can I speak to your manager please cuz I really I don't I mean I just don't want to deal with it. I know that I mean I know this isn't your fault",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.72,
+      "text": "Look can I just can I speak to your manager please cuz I really I don't",
+      "emotion": "joy",
+      "emotion_confidence": 0.343,
+      "sentiment_score": -0.4695,
+      "pitch_mean": 336.51
+    },
+    {
+      "start_time": 3.72,
+      "end_time": 7.74,
+      "text": "I mean I just don't want to deal with it. I know that I mean I know this isn't your fault",
+      "emotion": "anger",
+      "emotion_confidence": 0.503,
+      "sentiment_score": -0.8765,
+      "pitch_mean": 335.35
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.673,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 271.73,
+    "avg_pitch": 335.83
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro05",
+    "utterance_id": "Ses04M_impro05_M025",
+    "transcript_ground_truth": "Look, can I just -- can I speak to your manager, please?  'Cause I- I really -- I don't, um -- I mean, I just don't want to deal with -- I know that -- I mean, I know this isn't your fault,"
+  }
+}

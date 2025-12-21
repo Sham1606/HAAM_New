@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script02_1_F019",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:38:04.022154",
+  "duration_seconds": 1.66,
+  "transcript": "\u571f",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 24.54,
+      "text": "\u571f",
+      "emotion": "neutral",
+      "emotion_confidence": 0.864,
+      "sentiment_score": 0.0607,
+      "pitch_mean": 326.98
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0607,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 36.14,
+    "avg_pitch": 326.98
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_1",
+    "utterance_id": "Ses01F_script02_1_F019",
+    "transcript_ground_truth": "Oh Augie"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro04_F013",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:06:25.169207",
+  "duration_seconds": 7.08,
+  "transcript": "I don't even, I mean, you have to have some kind of idea, something you could possibly throw out there that I could maybe use",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "I don't even, I mean, you have to have some kind of idea, something you could possibly throw out there that I could maybe use",
+      "emotion": "joy",
+      "emotion_confidence": 0.559,
+      "sentiment_score": -0.2162,
+      "pitch_mean": 371.41
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2162,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 211.87,
+    "avg_pitch": 369.78
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro04",
+    "utterance_id": "Ses04F_impro04_F013",
+    "transcript_ground_truth": "I don't even- I mean you have to have some kind of an idea.  Something you could possibly throw out there that I could maybe use."
+  }
+}

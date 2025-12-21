@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script03_1_F024",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:52:05.619346",
+  "duration_seconds": 5.71,
+  "transcript": "Charles that that was his name Charles. Oh God he was so we go so beautifully",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.84,
+      "text": "Charles that that was his name Charles. Oh God he was so we go so beautifully",
+      "emotion": "neutral",
+      "emotion_confidence": 0.918,
+      "sentiment_score": 0.9006,
+      "pitch_mean": 346.91
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9006,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 168.05,
+    "avg_pitch": 341.25
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script03_1",
+    "utterance_id": "Ses03M_script03_1_F024",
+    "transcript_ground_truth": "Charles, that was his name, Charles.  Oh, God he was so wiggled so beautifully."
+  }
+}

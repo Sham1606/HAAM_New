@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro03_M014",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:38:34.822069",
+  "duration_seconds": 6.63,
+  "transcript": "Yes, we did that in the beginning exactly so we had so we just had you know good times to risk that we get",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.32,
+      "text": "Yes, we did that in the beginning exactly so we had so we just had you know good times to risk that we get",
+      "emotion": "neutral",
+      "emotion_confidence": 0.772,
+      "sentiment_score": 0.4367,
+      "pitch_mean": 315.41
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4367,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 217.2,
+    "avg_pitch": 315.47
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 3.3333,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro03",
+    "utterance_id": "Ses05M_impro03_M014",
+    "transcript_ground_truth": "Yes.  We did that in the beginning, exactly.  So we had, so we just had, you know, good times the rest of the weekend, yeah."
+  }
+}

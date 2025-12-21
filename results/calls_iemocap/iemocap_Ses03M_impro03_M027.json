@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro03_M027",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:53:53.783591",
+  "duration_seconds": 4.43,
+  "transcript": "Because she was a little confused at first, but then she said yes.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Because she was a little confused at first, but then she said yes.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.373,
+      "sentiment_score": 0.028,
+      "pitch_mean": 335.21
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.028,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 176.12,
+    "avg_pitch": 331.62
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro03",
+    "utterance_id": "Ses03M_impro03_M027",
+    "transcript_ground_truth": "Cause she was a little confused at first but then she said yes."
+  }
+}

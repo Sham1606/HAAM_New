@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro01_M017",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:47:59.989039",
+  "duration_seconds": 3.27,
+  "transcript": "That doesn't make any sense why.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "That doesn't make any sense why.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.61,
+      "sentiment_score": -0.8448,
+      "pitch_mean": 339.52
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8448,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 109.92,
+    "avg_pitch": 338.78
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 4.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro01",
+    "utterance_id": "Ses02M_impro01_M017",
+    "transcript_ground_truth": "That doesn't make any sense. Why?"
+  }
+}

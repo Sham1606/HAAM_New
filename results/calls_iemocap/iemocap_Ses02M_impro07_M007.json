@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02M_impro07_M007",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:56:47.828998",
+  "duration_seconds": 4.89,
+  "transcript": "So it's like, you have a ripet open and there it is big. Oh yeah.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.24,
+      "text": "So it's like, you have a ripet open and there it is big.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.709,
+      "sentiment_score": 0.0812,
+      "pitch_mean": 348.92
+    },
+    {
+      "start_time": 3.24,
+      "end_time": 4.08,
+      "text": "Oh yeah.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.572,
+      "sentiment_score": 0.4844,
+      "pitch_mean": 347.27
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2828,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 184.16,
+    "avg_pitch": 349.35
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro07",
+    "utterance_id": "Ses02M_impro07_M007",
+    "transcript_ground_truth": "So it's like, yes, rip it open and there it is big - oh, yes."
+  }
+}

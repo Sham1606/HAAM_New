@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script01_3_M042",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:03:56.316397",
+  "duration_seconds": 2.75,
+  "transcript": "And I'm gonna make you a fortune.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "And I'm gonna make you a fortune.",
+      "emotion": "joy",
+      "emotion_confidence": 0.672,
+      "sentiment_score": 0.8381,
+      "pitch_mean": 335.37
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.8381,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 152.73,
+    "avg_pitch": 332.57
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_3",
+    "utterance_id": "Ses05M_script01_3_M042",
+    "transcript_ground_truth": "Annie I am going to make you a fortune."
+  }
+}

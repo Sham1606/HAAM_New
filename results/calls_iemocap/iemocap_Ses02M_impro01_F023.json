@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02M_impro01_F023",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:47:26.329077",
+  "duration_seconds": 5.27,
+  "transcript": "I'm sorry sir, but there's a lot of people waiting. If you won't move out of the way, then I'm gonna have to call security.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I'm sorry sir, but there's a lot of people waiting.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.842,
+      "sentiment_score": -0.6296,
+      "pitch_mean": 366.67
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 5.0,
+      "text": "If you won't move out of the way, then I'm gonna have to call security.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.517,
+      "sentiment_score": -0.8018,
+      "pitch_mean": 372.54
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7157,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 284.38,
+    "avg_pitch": 367.14
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro01",
+    "utterance_id": "Ses02M_impro01_F023",
+    "transcript_ground_truth": "I'm sorry sir but there's a lot of people waiting. So if you won't move out of the way, then I'm going to have to call security."
+  }
+}

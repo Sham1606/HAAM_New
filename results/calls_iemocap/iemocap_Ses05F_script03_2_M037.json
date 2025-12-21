@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script03_2_M037",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:32:16.281666",
+  "duration_seconds": 3.08,
+  "transcript": "Turn it off. It is driving me mad!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Turn it off. It is driving me mad!",
+      "emotion": "anger",
+      "emotion_confidence": 0.838,
+      "sentiment_score": -0.8554,
+      "pitch_mean": 341.0
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8554,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 155.85,
+    "avg_pitch": 339.65
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script03_2",
+    "utterance_id": "Ses05F_script03_2_M037",
+    "transcript_ground_truth": "Turn it off.  It is driving me mad."
+  }
+}

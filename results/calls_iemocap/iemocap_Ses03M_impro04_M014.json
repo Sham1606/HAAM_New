@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro04_M014",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:55:52.442078",
+  "duration_seconds": 1.92,
+  "transcript": "Yeah, we're time jobs you got.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Yeah, we're time jobs you got.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.884,
+      "sentiment_score": 0.104,
+      "pitch_mean": 332.91
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.104,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 187.5,
+    "avg_pitch": 332.91
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro04",
+    "utterance_id": "Ses03M_impro04_M014",
+    "transcript_ground_truth": "Oh yeah?  What kind of jobs they got?"
+  }
+}

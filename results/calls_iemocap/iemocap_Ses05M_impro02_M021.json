@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro02_M021",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:36:10.770322",
+  "duration_seconds": 3.57,
+  "transcript": "But it's one to be honest with you, and don't want to talk.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "But it's one to be honest with you, and don't want to talk.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.535,
+      "sentiment_score": -0.558,
+      "pitch_mean": 326.84
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.558,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 218.49,
+    "avg_pitch": 328.62
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro02",
+    "utterance_id": "Ses05M_impro02_M021",
+    "transcript_ground_truth": "I just want to be honest with you.  I don't want you to ."
+  }
+}

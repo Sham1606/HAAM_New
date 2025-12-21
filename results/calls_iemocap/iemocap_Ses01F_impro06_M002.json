@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro06_M002",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:28:39.608780",
+  "duration_seconds": 1.44,
+  "transcript": "Pick up the icon reminds bike,",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 24.1,
+      "text": "Pick up the icon reminds bike,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.946,
+      "sentiment_score": 0.1195,
+      "pitch_mean": 328.31
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1195,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 250.01,
+    "avg_pitch": 328.31
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 2.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro06",
+    "utterance_id": "Ses01F_impro06_M002",
+    "transcript_ground_truth": "...pick up anything?"
+  }
+}

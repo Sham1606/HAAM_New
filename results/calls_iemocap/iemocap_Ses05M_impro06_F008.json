@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro06_F008",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:45:13.955124",
+  "duration_seconds": 7.11,
+  "transcript": "Wow, Ryan, I know that you're hurting right now, but I don't think you always feel like that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "Wow, Ryan, I know that you're hurting right now, but I don't think you always feel like that.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.745,
+      "sentiment_score": -0.7698,
+      "pitch_mean": 306.91
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7698,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 151.88,
+    "avg_pitch": 306.94
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro06",
+    "utterance_id": "Ses05M_impro06_F008",
+    "transcript_ground_truth": "Wow, Ryan I know that you are hurting right now but I don't think you always feel like that."
+  }
+}

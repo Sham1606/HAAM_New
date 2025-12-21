@@ -1,0 +1,82 @@
+{
+  "call_id": "iemocap_Ses01F_impro07_F013",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:30:00.225481",
+  "duration_seconds": 7.2,
+  "transcript": "I'm a holy life. Josh! Do you use a Mrs. Dash? Which is the poppies? Oh, right, right, right.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I'm a holy life.",
+      "emotion": "joy",
+      "emotion_confidence": 0.753,
+      "sentiment_score": 0.8378,
+      "pitch_mean": 371.99
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "Josh!",
+      "emotion": "anger",
+      "emotion_confidence": 0.357,
+      "sentiment_score": 0.6353,
+      "pitch_mean": 341.28
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 4.0,
+      "text": "Do you use a Mrs. Dash?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.567,
+      "sentiment_score": 0.0209,
+      "pitch_mean": 323.84
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 5.0,
+      "text": "Which is the poppies?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.858,
+      "sentiment_score": 0.0484,
+      "pitch_mean": 326.96
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 7.0,
+      "text": "Oh, right, right, right.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.748,
+      "sentiment_score": 0.2771,
+      "pitch_mean": 353.33
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3639,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "joy": 0.2,
+      "anger": 0.2,
+      "disgust": 0.2,
+      "neutral": 0.4
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 158.33,
+    "avg_pitch": 346.25
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro07",
+    "utterance_id": "Ses01F_impro07_F013",
+    "transcript_ground_truth": "I would be like- Oh. Right, right, right."
+  }
+}

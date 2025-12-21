@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses04F_impro08_F022",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:20:32.998724",
+  "duration_seconds": 1.56,
+  "transcript": "Wait, you want to go to the... Go to the...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "Wait, you want to go to the...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.802,
+      "sentiment_score": 0.0417,
+      "pitch_mean": 381.23
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 2.0,
+      "text": "Go to the...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.819,
+      "sentiment_score": 0.0271,
+      "pitch_mean": 366.61
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0344,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 384.62,
+    "avg_pitch": 366.61
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro08",
+    "utterance_id": "Ses04F_impro08_F022",
+    "transcript_ground_truth": "Wait. But I-"
+  }
+}

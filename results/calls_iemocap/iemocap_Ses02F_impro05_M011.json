@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro05_M011",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:25:55.397654",
+  "duration_seconds": 7.66,
+  "transcript": "by checking in your bags, you agreed to, you know, at the will of the...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "by checking in your bags, you agreed to, you know, at the will of the...",
+      "emotion": "disgust",
+      "emotion_confidence": 0.479,
+      "sentiment_score": 0.0845,
+      "pitch_mean": 328.3
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0845,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 117.54,
+    "avg_pitch": 327.79
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro05",
+    "utterance_id": "Ses02F_impro05_M011",
+    "transcript_ground_truth": "Right, well, by checking in your bags, you agreed to, you know, at the will of the--"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script03_1_F020",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:42:45.605254",
+  "duration_seconds": 2.23,
+  "transcript": "Ellie, it worms don't pop.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Ellie, it worms don't pop.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.794,
+      "sentiment_score": -0.2585,
+      "pitch_mean": 344.51
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2585,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 134.53,
+    "avg_pitch": 340.64
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 3.3333,
+    "arousal": 2.6667,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script03_1",
+    "utterance_id": "Ses02F_script03_1_F020",
+    "transcript_ground_truth": "Elliott, worms don't pop."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04F_impro02_F003",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T11:59:36.855917",
+  "duration_seconds": 5.48,
+  "transcript": "I'm gonna come back. I need you to believe that. You know that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I'm gonna come back. I need you to believe that.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.456,
+      "sentiment_score": 0.8431,
+      "pitch_mean": 324.23
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "You know that.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.774,
+      "sentiment_score": -0.0243,
+      "pitch_mean": 326.26
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4094,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 142.34,
+    "avg_pitch": 326.26
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro02",
+    "utterance_id": "Ses04F_impro02_F003",
+    "transcript_ground_truth": "I'm going to come back.  I need you to believe that."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02F_impro08_F014",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:30:21.481428",
+  "duration_seconds": 1.4,
+  "transcript": "Hello. Yeah.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 0.84,
+      "text": "Hello.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.951,
+      "sentiment_score": 0.5302,
+      "pitch_mean": 340.41
+    },
+    {
+      "start_time": 0.84,
+      "end_time": 1.66,
+      "text": "Yeah.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.814,
+      "sentiment_score": 0.2224,
+      "pitch_mean": 339.19
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3763,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 85.71,
+    "avg_pitch": 339.19
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro08",
+    "utterance_id": "Ses02F_impro08_F014",
+    "transcript_ground_truth": "Yeah."
+  }
+}

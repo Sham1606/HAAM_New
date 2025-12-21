@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script01_1_M051",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:32:26.263465",
+  "duration_seconds": 4.27,
+  "transcript": "Yeah, I know I know just help me stay here, all right",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.08,
+      "text": "Yeah, I know I know just help me stay here, all right",
+      "emotion": "neutral",
+      "emotion_confidence": 0.786,
+      "sentiment_score": 0.611,
+      "pitch_mean": 363.21
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.611,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 168.63,
+    "avg_pitch": 350.06
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.3333,
+    "dominance": 3.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_1",
+    "utterance_id": "Ses03F_script01_1_M051",
+    "transcript_ground_truth": "Yeah, I know, I know, just help me stay here, all right?"
+  }
+}

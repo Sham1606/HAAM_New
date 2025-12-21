@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02M_impro08_M003",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:58:36.506075",
+  "duration_seconds": 10.47,
+  "transcript": "I'll give you a little hit next time if it asks if you're on a rotary phone, you know, just stay on the line instead of Instead of hitting one or two to save you're on like a touchstone",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.74,
+      "text": "I'll give you a little hit next time if it asks if you're on a rotary phone, you know, just stay on the line instead of",
+      "emotion": "neutral",
+      "emotion_confidence": 0.963,
+      "sentiment_score": -0.1435,
+      "pitch_mean": 333.4
+    },
+    {
+      "start_time": 7.74,
+      "end_time": 10.22,
+      "text": "Instead of hitting one or two to save you're on like a touchstone",
+      "emotion": "neutral",
+      "emotion_confidence": 0.921,
+      "sentiment_score": -0.5237,
+      "pitch_mean": 322.26
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3336,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 223.5,
+    "avg_pitch": 330.7
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.6667,
+    "arousal": 3.3333,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro08",
+    "utterance_id": "Ses02M_impro08_M003",
+    "transcript_ground_truth": "I- I'll give you a little hint, next time if it asks if you're on a rotary phone you know, just stay on the line instead of - instead of hitting one or two to say if you're like on a touch tone"
+  }
+}

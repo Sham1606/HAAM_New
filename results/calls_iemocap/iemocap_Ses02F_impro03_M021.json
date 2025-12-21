@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro03_M021",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:23:06.859777",
+  "duration_seconds": 6.02,
+  "transcript": "You guys are awesome together. Definitely a definitely a good couple like I can see it. I should have guessed",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.56,
+      "text": "You guys are awesome together. Definitely a definitely a good couple like I can see it. I should have guessed",
+      "emotion": "disgust",
+      "emotion_confidence": 0.467,
+      "sentiment_score": 0.9821,
+      "pitch_mean": 336.29
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9821,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 199.39,
+    "avg_pitch": 336.38
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.25,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro03",
+    "utterance_id": "Ses02F_impro03_M021",
+    "transcript_ground_truth": "You guys are awesome together.  It's definitely a--definitely a good couple.  I can see it. I should've guessed--"
+  }
+}

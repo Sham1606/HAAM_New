@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro02_M022",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:01:28.732524",
+  "duration_seconds": 5.27,
+  "transcript": "Yes, you don't have to go. What are they gonna do? Huh put a gun to your head",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.36,
+      "text": "Yes, you don't have to go. What are they gonna do? Huh put a gun to your head",
+      "emotion": "disgust",
+      "emotion_confidence": 0.378,
+      "sentiment_score": -0.7443,
+      "pitch_mean": 329.34
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7443,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 204.93,
+    "avg_pitch": 328.63
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro02",
+    "utterance_id": "Ses04F_impro02_M022",
+    "transcript_ground_truth": "Yes- You don't have to go.  What are they going to do?  Huh?  Put a gun to your head?"
+  }
+}

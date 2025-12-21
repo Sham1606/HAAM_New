@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01M_script02_2_F021",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:10:47.460561",
+  "duration_seconds": 12.44,
+  "transcript": "While we were dancing, you said the softest, most intimate things to me. Right into my ears, so I could feel them as much as you then.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "While we were dancing, you said the softest, most intimate things to me.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.846,
+      "sentiment_score": 0.8675,
+      "pitch_mean": 312.9
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 12.0,
+      "text": "Right into my ears, so I could feel them as much as you then.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.514,
+      "sentiment_score": 0.284,
+      "pitch_mean": 309.56
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5757,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 130.23,
+    "avg_pitch": 311.27
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script02_2",
+    "utterance_id": "Ses01M_script02_2_F021",
+    "transcript_ground_truth": "While we were dancing you said the softest most intimate things to me, right into my ears so I could feel them much as hear them."
+  }
+}

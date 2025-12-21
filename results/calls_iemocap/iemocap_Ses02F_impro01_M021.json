@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02F_impro01_M021",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:20:12.389830",
+  "duration_seconds": 6.38,
+  "transcript": "But without your drug, where, what about your identification without the drug result? I mean, you need, you needed something before then.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.4,
+      "text": "But without your drug, where, what about your identification without the drug",
+      "emotion": "neutral",
+      "emotion_confidence": 0.832,
+      "sentiment_score": -0.1566,
+      "pitch_mean": 354.76
+    },
+    {
+      "start_time": 3.4,
+      "end_time": 6.2,
+      "text": "result? I mean, you need, you needed something before then.",
+      "emotion": "anger",
+      "emotion_confidence": 0.536,
+      "sentiment_score": -0.1097,
+      "pitch_mean": 336.48
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1332,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 206.81,
+    "avg_pitch": 348.68
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro01",
+    "utterance_id": "Ses02F_impro01_M021",
+    "transcript_ground_truth": "But, without your drive--where-where- what about your identification without your driver's license?  I mean, you need--you needed something before then?"
+  }
+}

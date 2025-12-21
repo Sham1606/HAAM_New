@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script03_2_F024",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:42:53.464964",
+  "duration_seconds": 1.95,
+  "transcript": "Mind your own business.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Mind your own business.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.787,
+      "sentiment_score": -0.1297,
+      "pitch_mean": 329.54
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1297,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 123.17,
+    "avg_pitch": 329.54
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script03_2",
+    "utterance_id": "Ses04F_script03_2_F024",
+    "transcript_ground_truth": "Mind your own business."
+  }
+}

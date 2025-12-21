@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_impro05b_M011",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T04:00:03.782140",
+  "duration_seconds": 7.02,
+  "transcript": "I'm going to send the ego tomorrow to stay with my family. What do I need hotel lodging for? Hmm, can you tell me that?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.3,
+      "text": "I'm going to send the ego tomorrow to stay with my family. What do I need hotel lodging for?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.88,
+      "sentiment_score": 0.0276,
+      "pitch_mean": 325.99
+    },
+    {
+      "start_time": 5.3,
+      "end_time": 7.3,
+      "text": "Hmm, can you tell me that?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.772,
+      "sentiment_score": -0.0109,
+      "pitch_mean": 325.03
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0084,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 213.68,
+    "avg_pitch": 325.03
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 2.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro05b",
+    "utterance_id": "Ses03M_impro05b_M011",
+    "transcript_ground_truth": "I'm going to San Diego tomorrow to stay with my family.  What do I need hotel lodging for hmmm?  Can you tell me that?"
+  }
+}

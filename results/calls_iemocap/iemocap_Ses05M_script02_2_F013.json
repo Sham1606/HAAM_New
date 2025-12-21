@@ -1,0 +1,109 @@
+{
+  "call_id": "iemocap_Ses05M_script02_2_F013",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:07:18.545376",
+  "duration_seconds": 31.91,
+  "transcript": "Do you remember the first time that we came to see the Grenyon? It was about four years ago right after we got married. We thought I was pregnant. We had a bottle of champagne and no glasses. You asked me to dance. We took off our shoes. While we were dancing, you said the most intimate things to me. Right in my ear so that I could feel them as much as you're them.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Do you remember the first time that we came to see the Grenyon?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.425,
+      "sentiment_score": 0.0597,
+      "pitch_mean": 332.73
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 7.0,
+      "text": "It was about four years ago right after we got married.",
+      "emotion": "joy",
+      "emotion_confidence": 0.751,
+      "sentiment_score": 0.0721,
+      "pitch_mean": 336.6
+    },
+    {
+      "start_time": 9.0,
+      "end_time": 10.0,
+      "text": "We thought I was pregnant.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.341,
+      "sentiment_score": -0.0666,
+      "pitch_mean": 327.59
+    },
+    {
+      "start_time": 12.0,
+      "end_time": 15.0,
+      "text": "We had a bottle of champagne and no glasses.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.383,
+      "sentiment_score": 0.2396,
+      "pitch_mean": 325.08
+    },
+    {
+      "start_time": 16.0,
+      "end_time": 18.0,
+      "text": "You asked me to dance.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.604,
+      "sentiment_score": 0.1943,
+      "pitch_mean": 318.55
+    },
+    {
+      "start_time": 20.0,
+      "end_time": 21.0,
+      "text": "We took off our shoes.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.663,
+      "sentiment_score": 0.0766,
+      "pitch_mean": 316.37
+    },
+    {
+      "start_time": 23.0,
+      "end_time": 27.0,
+      "text": "While we were dancing, you said the most intimate things to me.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.945,
+      "sentiment_score": 0.7041,
+      "pitch_mean": 319.35
+    },
+    {
+      "start_time": 27.0,
+      "end_time": 31.0,
+      "text": "Right in my ear so that I could feel them as much as you're them.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.717,
+      "sentiment_score": 0.2426,
+      "pitch_mean": 322.32
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1903,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.625,
+      "joy": 0.125,
+      "sadness": 0.125,
+      "neutral": 0.125
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 141.02,
+    "avg_pitch": 321.65
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.3333,
+    "arousal": 2.3333,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script02_2",
+    "utterance_id": "Ses05M_script02_2_F013",
+    "transcript_ground_truth": "Do you remember the first time that we came to see the grunion?  It was about four years ago right after we got married.  We thought I was pregnant.  We had a bottle of champagne and no glasses.  You asked me to dance.  We took off our shoes.  And while we were dancing you said the most intimate things to me right in my ear so I could feel them as much as hear them."
+  }
+}

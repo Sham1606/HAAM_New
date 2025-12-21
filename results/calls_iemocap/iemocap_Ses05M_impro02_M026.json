@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro02_M026",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:36:25.097740",
+  "duration_seconds": 5.25,
+  "transcript": "And you know my mom's here? She'll come over and she'll be with you all the time whenever you need her.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "And you know my mom's here? She'll come over and she'll be with you all the time whenever you need her.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.638,
+      "sentiment_score": 0.6451,
+      "pitch_mean": 331.16
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.6451,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 240.0,
+    "avg_pitch": 330.24
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.3333,
+    "arousal": 3.3333,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro02",
+    "utterance_id": "Ses05M_impro02_M026",
+    "transcript_ground_truth": "And you know my mom's here.  She'll come over and she'll be with you all the time, whenever you need her."
+  }
+}

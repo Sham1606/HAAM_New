@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script01_2_F006",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:02:29.177911",
+  "duration_seconds": 3.58,
+  "transcript": "And she's not his girl, Joe. She knows she's not.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "And she's not his girl, Joe. She knows she's not.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.754,
+      "sentiment_score": -0.6722,
+      "pitch_mean": 372.71
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6722,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 167.6,
+    "avg_pitch": 360.42
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script01_2",
+    "utterance_id": "Ses02M_script01_2_F006",
+    "transcript_ground_truth": "-She's not his girl Joe; she knows she's not."
+  }
+}

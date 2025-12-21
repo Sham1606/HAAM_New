@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro01_F014",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:46:02.862352",
+  "duration_seconds": 4.47,
+  "transcript": "No, they did the lady over there told me to stand in this line. I've been here for an hour",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.8,
+      "text": "No, they did the lady over there told me to stand in this line. I've been here for an hour",
+      "emotion": "neutral",
+      "emotion_confidence": 0.832,
+      "sentiment_score": -0.3188,
+      "pitch_mean": 373.95
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3188,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 268.46,
+    "avg_pitch": 369.55
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro01",
+    "utterance_id": "Ses05F_impro01_F014",
+    "transcript_ground_truth": "No, they did.  The lady over there told me to stand in this line and I've been here for an hour."
+  }
+}

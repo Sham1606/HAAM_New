@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro02_F012",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:48:34.086898",
+  "duration_seconds": 3.25,
+  "transcript": "Then why do you have to go a year at all?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Then why do you have to go a year at all?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.686,
+      "sentiment_score": -0.5149,
+      "pitch_mean": 322.3
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5149,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 203.26,
+    "avg_pitch": 319.22
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro02",
+    "utterance_id": "Ses04M_impro02_F012",
+    "transcript_ground_truth": "Then why do you have to go a year at all?"
+  }
+}

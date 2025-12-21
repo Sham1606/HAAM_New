@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro01_M018",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:47:41.166980",
+  "duration_seconds": 1.78,
+  "transcript": "It's not rocket science.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It's not rocket science.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.929,
+      "sentiment_score": -0.1059,
+      "pitch_mean": 348.36
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1059,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 135.09,
+    "avg_pitch": 348.36
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro01",
+    "utterance_id": "Ses04M_impro01_M018",
+    "transcript_ground_truth": "It's not rocket science."
+  }
+}

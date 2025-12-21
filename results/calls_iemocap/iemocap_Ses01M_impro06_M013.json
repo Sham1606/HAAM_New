@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro06_M013",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:58:24.750838",
+  "duration_seconds": 5.13,
+  "transcript": "He was sick. He got sick, but it happened really really fast, you know.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.4,
+      "text": "He was sick. He got sick, but it happened really really fast, you know.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.385,
+      "sentiment_score": -0.6882,
+      "pitch_mean": 328.03
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6882,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 163.66,
+    "avg_pitch": 327.35
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro06",
+    "utterance_id": "Ses01M_impro06_M013",
+    "transcript_ground_truth": "He was sick. He got sick. He got sick but it happened really, really fast, you know."
+  }
+}

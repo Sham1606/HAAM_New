@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05M_script01_1_F025",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:53:29.214706",
+  "duration_seconds": 6.41,
+  "transcript": "Well, what if she feels like your father? How do you know she'll marry you?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Well, what if she feels like your father?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.597,
+      "sentiment_score": -0.1132,
+      "pitch_mean": 323.66
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "How do you know she'll marry you?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.353,
+      "sentiment_score": -0.1565,
+      "pitch_mean": 320.8
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1349,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 140.41,
+    "avg_pitch": 322.43
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_1",
+    "utterance_id": "Ses05M_script01_1_F025",
+    "transcript_ground_truth": "Well, what if she feels like your father?  And how do you know she will marry you?"
+  }
+}

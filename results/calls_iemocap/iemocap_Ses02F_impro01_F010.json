@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses02F_impro01_F010",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:19:08.682907",
+  "duration_seconds": 9.64,
+  "transcript": "But isn't there anything you can do? I mean, can you make an exception this one time? My picture is on both of those identifications. It's not like you don't know that it's me.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "But isn't there anything you can do?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.61,
+      "sentiment_score": -0.5063,
+      "pitch_mean": 341.93
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 5.0,
+      "text": "I mean, can you make an exception this one time?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.56,
+      "sentiment_score": -0.1048,
+      "pitch_mean": 356.68
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 7.0,
+      "text": "My picture is on both of those identifications.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.947,
+      "sentiment_score": 0.0729,
+      "pitch_mean": 353.62
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 9.0,
+      "text": "It's not like you don't know that it's me.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.357,
+      "sentiment_score": -0.09,
+      "pitch_mean": 352.53
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1571,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.75,
+      "disgust": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 211.69,
+    "avg_pitch": 347.5
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro01",
+    "utterance_id": "Ses02F_impro01_F010",
+    "transcript_ground_truth": "But, isn't there anything you can do.  Can't you make an exception this one time?  My picture is on both of those identifications.  It's not like you don't know that it's me."
+  }
+}

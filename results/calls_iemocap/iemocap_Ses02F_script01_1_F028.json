@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script01_1_F028",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:32:10.712894",
+  "duration_seconds": 2.91,
+  "transcript": "Trouble is you don't see enough women.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Trouble is you don't see enough women.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.4591,
+      "pitch_mean": 341.18
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4591,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 144.33,
+    "avg_pitch": 341.18
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_1",
+    "utterance_id": "Ses02F_script01_1_F028",
+    "transcript_ground_truth": "Trouble is, you don't see enough women."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro07_M020",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:29:24.936465",
+  "duration_seconds": 4.15,
+  "transcript": "So what are you gonna what are you gonna do there if you decided to thought about it?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.6,
+      "text": "So what are you gonna what are you gonna do there if you decided to thought about it?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.472,
+      "sentiment_score": -0.043,
+      "pitch_mean": 327.89
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.043,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 260.06,
+    "avg_pitch": 330.01
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro07",
+    "utterance_id": "Ses02F_impro07_M020",
+    "transcript_ground_truth": "So what're you--what're you gonna do there?  Have you decided?  Thought about it?"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses03M_script01_1_F043",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:38:37.419507",
+  "duration_seconds": 6.87,
+  "transcript": "What the hell have we worked for then? I mean, it's all for you, Chris. The whole shoot matches for you. No, just...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "What the hell have we worked for then?",
+      "emotion": "anger",
+      "emotion_confidence": 0.573,
+      "sentiment_score": -0.8477,
+      "pitch_mean": 351.97
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "I mean, it's all for you, Chris.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.8,
+      "sentiment_score": 0.5135,
+      "pitch_mean": 325.99
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "The whole shoot matches for you.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.38,
+      "sentiment_score": 0.1348,
+      "pitch_mean": 379.19
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 7.0,
+      "text": "No, just...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.836,
+      "sentiment_score": -0.1451,
+      "pitch_mean": 344.73
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0861,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "anger": 0.25,
+      "neutral": 0.5,
+      "disgust": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 200.88,
+    "avg_pitch": 344.73
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_1",
+    "utterance_id": "Ses03M_script01_1_F043",
+    "transcript_ground_truth": "I mean what the hell have we worked for then?  I mean, it's all for you Chris.  The whole shooting match is for you."
+  }
+}

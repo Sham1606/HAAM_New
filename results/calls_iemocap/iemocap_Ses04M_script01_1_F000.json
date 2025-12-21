@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_script01_1_F000",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:04:21.164976",
+  "duration_seconds": 5.06,
+  "transcript": "What's he going to say? Maybe we ought to tell him before he sees it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "What's he going to say? Maybe we ought to tell him before he sees it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.702,
+      "sentiment_score": -0.4783,
+      "pitch_mean": 324.47
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4783,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 177.87,
+    "avg_pitch": 323.94
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script01_1",
+    "utterance_id": "Ses04M_script01_1_F000",
+    "transcript_ground_truth": "What's he going to say?  Maybe we ought to tell him before he sees it."
+  }
+}

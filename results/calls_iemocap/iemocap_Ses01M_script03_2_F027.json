@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script03_2_F027",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:16:54.961710",
+  "duration_seconds": 2.45,
+  "transcript": "You always had a weak head.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "You always had a weak head.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.771,
+      "sentiment_score": -0.8292,
+      "pitch_mean": 348.97
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8292,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 146.94,
+    "avg_pitch": 344.74
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 2.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script03_2",
+    "utterance_id": "Ses01M_script03_2_F027",
+    "transcript_ground_truth": "You always had a weak head."
+  }
+}

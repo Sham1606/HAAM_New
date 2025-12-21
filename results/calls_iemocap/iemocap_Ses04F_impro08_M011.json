@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses04F_impro08_M011",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:21:13.114364",
+  "duration_seconds": 9.97,
+  "transcript": "Yeah, I did and they're like, you gotta take it up to corporate. And I'm like, well, fine. I'll have your ass by the end of the day. And so now I'm trying to do that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.48,
+      "text": "Yeah, I did and they're like, you gotta take it up to corporate.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.828,
+      "sentiment_score": -0.1521,
+      "pitch_mean": 328.78
+    },
+    {
+      "start_time": 3.48,
+      "end_time": 5.88,
+      "text": "And I'm like, well, fine.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.408,
+      "sentiment_score": 0.6462,
+      "pitch_mean": 335.71
+    },
+    {
+      "start_time": 5.88,
+      "end_time": 8.12,
+      "text": "I'll have your ass by the end of the day.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.396,
+      "sentiment_score": -0.5985,
+      "pitch_mean": 332.58
+    },
+    {
+      "start_time": 8.12,
+      "end_time": 9.92,
+      "text": "And so now I'm trying to do that.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.1592,
+      "pitch_mean": 331.63
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0137,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "neutral": 0.25,
+      "disgust": 0.75
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 216.65,
+    "avg_pitch": 331.11
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro08",
+    "utterance_id": "Ses04F_impro08_M011",
+    "transcript_ground_truth": "Yeah.  I did and they're like you've got to take it up with corporate, and I'm like well fine.  I'll have your ass by the end of the day and so now I'm trying to do that."
+  }
+}

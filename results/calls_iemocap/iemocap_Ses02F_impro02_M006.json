@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro02_M006",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:20:59.187658",
+  "duration_seconds": 6.35,
+  "transcript": "This is gonna be a, you know, crucial, yeah, she's growing up, she's gonna need you.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "This is gonna be a, you know, crucial, yeah, she's growing up, she's gonna need you.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.437,
+      "sentiment_score": 0.3618,
+      "pitch_mean": 322.78
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3618,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 151.28,
+    "avg_pitch": 322.57
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro02",
+    "utterance_id": "Ses02F_impro02_M006",
+    "transcript_ground_truth": "This is gonna be a--a crucial yet--she's--she's growing up.  She's gonna need you."
+  }
+}

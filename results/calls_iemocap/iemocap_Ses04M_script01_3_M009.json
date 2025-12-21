@@ -1,0 +1,63 @@
+{
+  "call_id": "iemocap_Ses04M_script01_3_M009",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:09:01.126133",
+  "duration_seconds": 8.8,
+  "transcript": "I have no imagination. That's all I know to tell you. I'm embarrassing you.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I have no imagination.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.444,
+      "sentiment_score": -0.5606,
+      "pitch_mean": 321.8
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 6.0,
+      "text": "That's all I know to tell you.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.883,
+      "sentiment_score": -0.1117,
+      "pitch_mean": 321.33
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 8.0,
+      "text": "I'm embarrassing you.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.414,
+      "sentiment_score": -0.8541,
+      "pitch_mean": 324.2
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5088,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.333,
+      "neutral": 0.333,
+      "sadness": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 95.41,
+    "avg_pitch": 322.87
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script01_3",
+    "utterance_id": "Ses04M_script01_3_M009",
+    "transcript_ground_truth": "I have no imagination.  That's all I know to tell you.  I'm embarrassing you."
+  }
+}

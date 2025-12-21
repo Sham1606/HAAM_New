@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script02_2_F039",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:40:35.918284",
+  "duration_seconds": 7.77,
+  "transcript": "Okay fine so we're in the wrong spot but we're with the right person.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "Okay fine so we're in the wrong spot but we're with the right person.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.76,
+      "sentiment_score": 0.1865,
+      "pitch_mean": 318.18
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1865,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 108.11,
+    "avg_pitch": 316.59
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script02_2",
+    "utterance_id": "Ses02F_script02_2_F039",
+    "transcript_ground_truth": "Okay.  Fine so.  We're in the wrong spot, but we're with the right person."
+  }
+}

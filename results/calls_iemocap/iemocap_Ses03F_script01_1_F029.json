@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03F_script01_1_F029",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:30:08.570560",
+  "duration_seconds": 2.49,
+  "transcript": "I don't know. What do you want from me?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 0.5,
+      "text": "I don't know.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.627,
+      "sentiment_score": -0.125,
+      "pitch_mean": 328.32
+    },
+    {
+      "start_time": 0.5,
+      "end_time": 2.0,
+      "text": "What do you want from me?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.423,
+      "sentiment_score": 0.0225,
+      "pitch_mean": 346.06
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0512,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 216.81,
+    "avg_pitch": 336.24
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.6667,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_1",
+    "utterance_id": "Ses03F_script01_1_F029",
+    "transcript_ground_truth": "What do you want from me?"
+  }
+}

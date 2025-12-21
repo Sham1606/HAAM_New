@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro06_F010",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:45:19.710597",
+  "duration_seconds": 3.13,
+  "transcript": "No, there's anything I can do to be there for you.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "No, there's anything I can do to be there for you.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.797,
+      "sentiment_score": 0.1755,
+      "pitch_mean": 310.08
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1755,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 210.87,
+    "avg_pitch": 307.95
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro06",
+    "utterance_id": "Ses05M_impro06_F010",
+    "transcript_ground_truth": "If there's anything I can do to be there for you."
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses04M_impro05_M036",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:58:28.590210",
+  "duration_seconds": 10.19,
+  "transcript": "Just please, please just work with me here. All I'm asking you to do is just work with me. I know that you get lots of people all day long who give you shit, give you crap, but...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.4,
+      "text": "Just please, please just work with me here.",
+      "emotion": "anger",
+      "emotion_confidence": 0.48,
+      "sentiment_score": 0.396,
+      "pitch_mean": 326.83
+    },
+    {
+      "start_time": 2.4,
+      "end_time": 4.2,
+      "text": "All I'm asking you to do is just work with me.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.851,
+      "sentiment_score": 0.2142,
+      "pitch_mean": 346.47
+    },
+    {
+      "start_time": 4.2,
+      "end_time": 6.88,
+      "text": "I know that you get lots of people all day long",
+      "emotion": "neutral",
+      "emotion_confidence": 0.848,
+      "sentiment_score": 0.2962,
+      "pitch_mean": 352.6
+    },
+    {
+      "start_time": 6.88,
+      "end_time": 10.12,
+      "text": "who give you shit, give you crap, but...",
+      "emotion": "anger",
+      "emotion_confidence": 0.71,
+      "sentiment_score": -0.8495,
+      "pitch_mean": 318.13
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0142,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 223.75,
+    "avg_pitch": 333.61
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro05",
+    "utterance_id": "Ses04M_impro05_M036",
+    "transcript_ground_truth": "Just please, will you please just work with me here? Just -- all I'm asking you to do is just work with me. I know -- I know that you get lots of people all day long who give you shit, give you crap, but"
+  }
+}

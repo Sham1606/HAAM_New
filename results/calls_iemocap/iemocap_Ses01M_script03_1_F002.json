@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01M_script03_1_F002",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:13:27.776862",
+  "duration_seconds": 3.36,
+  "transcript": "\ud558.. \ubd88 Also\u5df2\u7d93\u6210\uc9c0",
+  "segments": [
+    {
+      "start_time": 0.44,
+      "end_time": 0.94,
+      "text": "\ud558..",
+      "emotion": "neutral",
+      "emotion_confidence": 0.807,
+      "sentiment_score": 0.0634,
+      "pitch_mean": 323.72
+    },
+    {
+      "start_time": 1.38,
+      "end_time": 4.1,
+      "text": "\ubd88 Also\u5df2\u7d93\u6210\uc9c0",
+      "emotion": "neutral",
+      "emotion_confidence": 0.857,
+      "sentiment_score": 0.0005,
+      "pitch_mean": 326.99
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0319,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 53.57,
+    "avg_pitch": 326.99
+  },
+  "ground_truth": {
+    "emotion": "fear",
+    "raw_emotion": "fea",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 1.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script03_1",
+    "utterance_id": "Ses01M_script03_1_F002",
+    "transcript_ground_truth": "What we're going to do?"
+  }
+}

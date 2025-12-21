@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro02_F014",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:49:34.008456",
+  "duration_seconds": 3.46,
+  "transcript": "To carry your for nine months and then yes",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.32,
+      "text": "To carry your for nine months and then yes",
+      "emotion": "neutral",
+      "emotion_confidence": 0.903,
+      "sentiment_score": 0.1524,
+      "pitch_mean": 345.65
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1524,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 155.97,
+    "avg_pitch": 337.11
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro02",
+    "utterance_id": "Ses03M_impro02_F014",
+    "transcript_ground_truth": "Carry her for nine months and then yes."
+  }
+}

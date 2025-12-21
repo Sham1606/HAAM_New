@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script01_3_M000",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:36:03.416667",
+  "duration_seconds": 2.73,
+  "transcript": "and it went out of style, didn't it?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "and it went out of style, didn't it?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.792,
+      "sentiment_score": -0.7485,
+      "pitch_mean": 340.62
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7485,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 175.82,
+    "avg_pitch": 335.66
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_3",
+    "utterance_id": "Ses02F_script01_3_M000",
+    "transcript_ground_truth": "I know, it went out of style, didn't it?"
+  }
+}

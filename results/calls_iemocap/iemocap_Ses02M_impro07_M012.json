@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro07_M012",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:56:56.327517",
+  "duration_seconds": 7.55,
+  "transcript": "I know I know yeah, it'll be interesting, you know never I mean getting out of Aegis and everything but L.A.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.44,
+      "text": "I know I know yeah, it'll be interesting, you know never I mean getting out of Aegis and everything but L.A.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.692,
+      "sentiment_score": 0.8369,
+      "pitch_mean": 337.44
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.8369,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 166.89,
+    "avg_pitch": 337.38
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro07",
+    "utterance_id": "Ses02M_impro07_M012",
+    "transcript_ground_truth": "I know, I know, yea. It'll be interesting you know, I've never -- I mean getting out of Vegas and everything but LA"
+  }
+}

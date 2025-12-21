@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro02_F026",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:49:16.991970",
+  "duration_seconds": 7.11,
+  "transcript": "Difficult? You're leaving for a year. We have a newborn child and you're leaving. I'm don't think I'm being difficult.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "Difficult? You're leaving for a year. We have a newborn child and you're leaving. I'm don't think I'm being difficult.",
+      "emotion": "joy",
+      "emotion_confidence": 0.388,
+      "sentiment_score": -0.5627,
+      "pitch_mean": 359.51
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5627,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 168.78,
+    "avg_pitch": 358.85
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 4.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro02",
+    "utterance_id": "Ses04M_impro02_F026",
+    "transcript_ground_truth": "Difficult.  You're leaving for a year. We have a newborn child and you're leaving.  I don't think I'm being difficult."
+  }
+}

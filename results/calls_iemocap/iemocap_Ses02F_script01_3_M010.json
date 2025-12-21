@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02F_script01_3_M010",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:36:21.678702",
+  "duration_seconds": 9.53,
+  "transcript": "You feel it's wrong here, don't you? This yard, this chair. I want you to be ready for me. I don't want to have to win you away from anything.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.8,
+      "text": "You feel it's wrong here, don't you? This yard, this chair.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.626,
+      "sentiment_score": -0.8271,
+      "pitch_mean": 310.57
+    },
+    {
+      "start_time": 5.88,
+      "end_time": 9.08,
+      "text": "I want you to be ready for me. I don't want to have to win you away from anything.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.747,
+      "sentiment_score": 0.1222,
+      "pitch_mean": 334.13
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3524,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 188.88,
+    "avg_pitch": 317.08
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_3",
+    "utterance_id": "Ses02F_script01_3_M010",
+    "transcript_ground_truth": "You feel it's wrong here, don't you?  This yard, this chair.  I want you to be ready for me.  I don't want to have to win you away from anything."
+  }
+}

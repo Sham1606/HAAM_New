@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01F_impro05_M034",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:26:38.014405",
+  "duration_seconds": 6.51,
+  "transcript": "That's what you know if you if you want you can write a letter I can give you the address. No matter. Yeah, an angry person.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.28,
+      "text": "That's what you know if you if you want you can write a letter I can give you the address.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.954,
+      "sentiment_score": 0.0992,
+      "pitch_mean": 326.58
+    },
+    {
+      "start_time": 4.28,
+      "end_time": 6.44,
+      "text": "No matter. Yeah, an angry person.",
+      "emotion": "anger",
+      "emotion_confidence": 0.876,
+      "sentiment_score": -0.8269,
+      "pitch_mean": 345.88
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3639,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 239.63,
+    "avg_pitch": 334.63
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro05",
+    "utterance_id": "Ses01F_impro05_M034",
+    "transcript_ground_truth": "If you want, you can write a letter.  I can give you the address. Yes.  An angry--"
+  }
+}

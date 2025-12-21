@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script03_1_M027",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:41:51.825610",
+  "duration_seconds": 2.48,
+  "transcript": "Do you remember that awful scene in Venice?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Do you remember that awful scene in Venice?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.542,
+      "sentiment_score": -0.8707,
+      "pitch_mean": 322.59
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8707,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 193.43,
+    "avg_pitch": 320.13
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script03_1",
+    "utterance_id": "Ses04F_script03_1_M027",
+    "transcript_ground_truth": "Do you remember that awful scene in Venice?"
+  }
+}

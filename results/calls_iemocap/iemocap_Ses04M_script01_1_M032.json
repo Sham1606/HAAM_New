@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_script01_1_M032",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:06:28.533234",
+  "duration_seconds": 1.79,
+  "transcript": "Yeah, let's keep going.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Yeah, let's keep going.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.558,
+      "sentiment_score": 0.6827,
+      "pitch_mean": 312.76
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.6827,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 134.08,
+    "avg_pitch": 312.76
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script01_1",
+    "utterance_id": "Ses04M_script01_1_M032",
+    "transcript_ground_truth": "Yeah, let's keep going."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro05_F001",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:52:32.641598",
+  "duration_seconds": 3.96,
+  "transcript": "Oh, did you check? Did you make sure that as it went around a second time?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.4,
+      "text": "Oh, did you check? Did you make sure that as it went around a second time?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.403,
+      "sentiment_score": -0.0008,
+      "pitch_mean": 336.64
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0008,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 242.2,
+    "avg_pitch": 338.65
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro05",
+    "utterance_id": "Ses02M_impro05_F001",
+    "transcript_ground_truth": "Oh, did you check? Did you make sure as it went around the second time that it-"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script02_2_M046",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:42:58.393996",
+  "duration_seconds": 1.89,
+  "transcript": "Thanks.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "Thanks.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.734,
+      "sentiment_score": 0.708,
+      "pitch_mean": 309.4
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.708,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 31.74,
+    "avg_pitch": 316.06
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 2.5,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_2",
+    "utterance_id": "Ses01F_script02_2_M046",
+    "transcript_ground_truth": "[BREATHING]"
+  }
+}

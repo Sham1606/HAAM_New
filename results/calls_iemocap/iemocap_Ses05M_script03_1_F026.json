@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script03_1_F026",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:11:03.781972",
+  "duration_seconds": 4.93,
+  "transcript": "Oh, it burnt my comb and all the towels in the bathroom",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.16,
+      "text": "Oh, it burnt my comb and all the towels in the bathroom",
+      "emotion": "disgust",
+      "emotion_confidence": 0.319,
+      "sentiment_score": -0.791,
+      "pitch_mean": 362.24
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.791,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 146.04,
+    "avg_pitch": 357.46
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script03_1",
+    "utterance_id": "Ses05M_script03_1_F026",
+    "transcript_ground_truth": "Oh, It burnt my comb and all the towels in the bathroom."
+  }
+}

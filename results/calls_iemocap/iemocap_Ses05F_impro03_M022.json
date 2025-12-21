@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro03_M022",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:53:46.255387",
+  "duration_seconds": 1.14,
+  "transcript": "next fall",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "next fall",
+      "emotion": "neutral",
+      "emotion_confidence": 0.883,
+      "sentiment_score": 0.2349,
+      "pitch_mean": 329.2
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2349,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 105.26,
+    "avg_pitch": 329.2
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro03",
+    "utterance_id": "Ses05F_impro03_M022",
+    "transcript_ground_truth": "Next fall."
+  }
+}

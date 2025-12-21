@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script01_2_M010",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:34:51.488656",
+  "duration_seconds": 2.25,
+  "transcript": "Well, what do you want me to do about it?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Well, what do you want me to do about it?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.452,
+      "sentiment_score": -0.539,
+      "pitch_mean": 331.93
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.539,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 266.67,
+    "avg_pitch": 337.21
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.6667,
+    "arousal": 3.0,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_2",
+    "utterance_id": "Ses02F_script01_2_M010",
+    "transcript_ground_truth": "Well, what do you want me to do about it?"
+  }
+}

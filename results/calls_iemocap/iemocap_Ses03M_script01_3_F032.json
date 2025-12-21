@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses03M_script01_3_F032",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:43:26.305055",
+  "duration_seconds": 6.79,
+  "transcript": "because you mustn't feel that way again. You hear me? You can't. You deserve everything you have, Chris.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.7,
+      "text": "because you mustn't feel that way again.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.766,
+      "sentiment_score": -0.5593,
+      "pitch_mean": 324.31
+    },
+    {
+      "start_time": 2.7,
+      "end_time": 4.2,
+      "text": "You hear me? You can't.",
+      "emotion": "anger",
+      "emotion_confidence": 0.529,
+      "sentiment_score": -0.1486,
+      "pitch_mean": 335.07
+    },
+    {
+      "start_time": 4.2,
+      "end_time": 6.7,
+      "text": "You deserve everything you have, Chris.",
+      "emotion": "anger",
+      "emotion_confidence": 0.782,
+      "sentiment_score": 0.9521,
+      "pitch_mean": 345.83
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0814,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "sadness": 0.333,
+      "anger": 0.667
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 159.02,
+    "avg_pitch": 333.49
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_3",
+    "utterance_id": "Ses03M_script01_3_F032",
+    "transcript_ground_truth": "Cause you must not feel that way again.  You hear me?  You can't.  You deserve everything you have Chris."
+  }
+}

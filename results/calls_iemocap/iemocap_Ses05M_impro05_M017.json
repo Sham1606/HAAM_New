@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro05_M017",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:44:42.593930",
+  "duration_seconds": 6.02,
+  "transcript": "Yeah, I mean if you have a suggestion like it'd be great to help me out here",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.68,
+      "text": "Yeah, I mean if you have a suggestion like it'd be great to help me out here",
+      "emotion": "neutral",
+      "emotion_confidence": 0.649,
+      "sentiment_score": 0.8991,
+      "pitch_mean": 309.83
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.8991,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 169.44,
+    "avg_pitch": 309.97
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.3333,
+    "arousal": 4.0,
+    "dominance": 3.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro05",
+    "utterance_id": "Ses05M_impro05_M017",
+    "transcript_ground_truth": "Yeah.  I mean, if you have a suggestion, like, it would be great to help me out here."
+  }
+}

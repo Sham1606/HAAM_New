@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro04_M027",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:59:42.706556",
+  "duration_seconds": 4.02,
+  "transcript": "And you gotta think, well ask yourself why are they not hiring you?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "And you gotta think, well ask yourself why are they not hiring you?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.334,
+      "sentiment_score": -0.4556,
+      "pitch_mean": 335.79
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4556,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 194.03,
+    "avg_pitch": 335.92
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro04",
+    "utterance_id": "Ses05F_impro04_M027",
+    "transcript_ground_truth": "And you've got to think--well, ask yourself why are they not hiring you?"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script01_3_M014",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:36:27.861192",
+  "duration_seconds": 2.05,
+  "transcript": "Man why didn't you let me know?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Man why didn't you let me know?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.45,
+      "sentiment_score": -0.612,
+      "pitch_mean": 331.77
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.612,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 204.88,
+    "avg_pitch": 330.96
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_3",
+    "utterance_id": "Ses02F_script01_3_M014",
+    "transcript_ground_truth": "Anne, why didn't you let me know?"
+  }
+}

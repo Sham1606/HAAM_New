@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script03_1_M035",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:45:14.613302",
+  "duration_seconds": 2.96,
+  "transcript": "I did not hit you very hard.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I did not hit you very hard.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.687,
+      "sentiment_score": -0.5423,
+      "pitch_mean": 328.16
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5423,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 141.89,
+    "avg_pitch": 325.63
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script03_1",
+    "utterance_id": "Ses01F_script03_1_M035",
+    "transcript_ground_truth": "I did not hit you very hard."
+  }
+}

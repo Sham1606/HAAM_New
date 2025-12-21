@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script02_2_F020",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:48:35.828777",
+  "duration_seconds": 8.04,
+  "transcript": "under the moon. And you whispered so softly into my ear so I could feel your words.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "under the moon. And you whispered so softly into my ear so I could feel your words.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.424,
+      "sentiment_score": 0.585,
+      "pitch_mean": 329.9
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.585,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 126.84,
+    "avg_pitch": 327.41
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.3333,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_2",
+    "utterance_id": "Ses03M_script02_2_F020",
+    "transcript_ground_truth": "Under the moon and you whispered so softly into my ear so I could feel your words."
+  }
+}

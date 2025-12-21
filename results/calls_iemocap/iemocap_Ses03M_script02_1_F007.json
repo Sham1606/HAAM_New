@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script02_1_F007",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:45:27.957738",
+  "duration_seconds": 3.27,
+  "transcript": "It's a past eleven. Let's go.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "It's a past eleven. Let's go.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.751,
+      "sentiment_score": 0.3225,
+      "pitch_mean": 329.68
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3225,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 110.08,
+    "avg_pitch": 329.29
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_1",
+    "utterance_id": "Ses03M_script02_1_F007",
+    "transcript_ground_truth": "It's past eleven, let's go."
+  }
+}

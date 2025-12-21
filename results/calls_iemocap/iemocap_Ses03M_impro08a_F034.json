@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses03M_impro08a_F034",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:32:49.564992",
+  "duration_seconds": 12.97,
+  "transcript": "Sarah Brown. Sarah Brown, yeah I'm gonna get off the phone with you and then I'm gonna call the half and I'm gonna give you a supervisor your name because you're obviously incompetent to work here.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.14,
+      "text": "Sarah Brown. Sarah Brown, yeah I'm gonna get off the phone with you and then I'm",
+      "emotion": "neutral",
+      "emotion_confidence": 0.678,
+      "sentiment_score": 0.1301,
+      "pitch_mean": 346.31
+    },
+    {
+      "start_time": 6.14,
+      "end_time": 9.64,
+      "text": "gonna call the half and I'm gonna give you a supervisor your name because you're",
+      "emotion": "neutral",
+      "emotion_confidence": 0.694,
+      "sentiment_score": 0.0071,
+      "pitch_mean": 363.74
+    },
+    {
+      "start_time": 9.64,
+      "end_time": 12.92,
+      "text": "obviously incompetent to work here.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.465,
+      "sentiment_score": -0.8977,
+      "pitch_mean": 361.97
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2535,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "disgust": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 166.48,
+    "avg_pitch": 355.26
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro08a",
+    "utterance_id": "Ses03M_impro08a_F034",
+    "transcript_ground_truth": "Sara Brown.  Sara Brown, um- yeah, I'm going to get off the phone with you. And then I'm going to call back and I'm going to give your supervisor your name because you're obviously incompetent to work here."
+  }
+}

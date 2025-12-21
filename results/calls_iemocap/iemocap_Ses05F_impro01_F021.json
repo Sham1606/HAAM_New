@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro01_F021",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:46:16.406435",
+  "duration_seconds": 2.13,
+  "transcript": "Do you have a manager I can speak with?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Do you have a manager I can speak with?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.825,
+      "sentiment_score": 0.0354,
+      "pitch_mean": 338.51
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0354,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 253.53,
+    "avg_pitch": 341.07
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro01",
+    "utterance_id": "Ses05F_impro01_F021",
+    "transcript_ground_truth": "Do you have a manager I could speak with?"
+  }
+}

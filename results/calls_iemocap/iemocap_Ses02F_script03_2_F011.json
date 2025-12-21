@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script03_2_F011",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:44:25.806821",
+  "duration_seconds": 4.12,
+  "transcript": "But it just seems so silly to go on and on and on and such a thing.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "But it just seems so silly to go on and on and on and such a thing.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.787,
+      "sentiment_score": -0.859,
+      "pitch_mean": 338.53
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.859,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 247.58,
+    "avg_pitch": 336.62
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script03_2",
+    "utterance_id": "Ses02F_script03_2_F011",
+    "transcript_ground_truth": "Just seems so silly to go on and on and on with such a thing."
+  }
+}

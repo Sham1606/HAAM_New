@@ -1,0 +1,90 @@
+{
+  "call_id": "iemocap_Ses01F_script03_2_M027",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:47:17.322816",
+  "duration_seconds": 14.84,
+  "transcript": "It's very interesting, Amanda. How about a child of four? A child of six? A child of nine? We can get a good little conversation going on about this, you know, and temperate tots.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "It's very interesting, Amanda.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.493,
+      "sentiment_score": 0.9737,
+      "pitch_mean": 326.7
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "How about a child of four?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.828,
+      "sentiment_score": -0.0051,
+      "pitch_mean": 342.28
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 7.0,
+      "text": "A child of six?",
+      "emotion": "joy",
+      "emotion_confidence": 0.592,
+      "sentiment_score": -0.0116,
+      "pitch_mean": 358.35
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 9.0,
+      "text": "A child of nine?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.85,
+      "sentiment_score": -0.0181,
+      "pitch_mean": 384.39
+    },
+    {
+      "start_time": 9.0,
+      "end_time": 12.0,
+      "text": "We can get a good little conversation going on about this, you know,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.888,
+      "sentiment_score": 0.3443,
+      "pitch_mean": 354.28
+    },
+    {
+      "start_time": 12.0,
+      "end_time": 14.0,
+      "text": "and temperate tots.",
+      "emotion": "joy",
+      "emotion_confidence": 0.572,
+      "sentiment_score": 0.0127,
+      "pitch_mean": 354.34
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.216,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "disgust": 0.167,
+      "neutral": 0.5,
+      "joy": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 137.47,
+    "avg_pitch": 345.81
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 3.0,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script03_2",
+    "utterance_id": "Ses01F_script03_2_M027",
+    "transcript_ground_truth": "That's very interesting Amanda. How about a child of four?  Or a child of six?  Or a child of nine? We can get a good little conversation going on about this, you know, intemperate tots."
+  }
+}

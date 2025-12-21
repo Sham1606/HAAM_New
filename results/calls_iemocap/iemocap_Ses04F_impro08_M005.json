@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses04F_impro08_M005",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:20:57.252208",
+  "duration_seconds": 5.96,
+  "transcript": "If you could just give me that, then I will leave you alone. And just if I could also, what?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.36,
+      "text": "If you could just give me that, then I will leave you alone.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.528,
+      "sentiment_score": -0.1181,
+      "pitch_mean": 326.41
+    },
+    {
+      "start_time": 3.36,
+      "end_time": 5.76,
+      "text": "And just if I could also, what?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.417,
+      "sentiment_score": 0.1484,
+      "pitch_mean": 329.86
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0151,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 201.34,
+    "avg_pitch": 327.63
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro08",
+    "utterance_id": "Ses04F_impro08_M005",
+    "transcript_ground_truth": "If you could just give me that, then I will leave you alone. And just- if i could also- What?"
+  }
+}

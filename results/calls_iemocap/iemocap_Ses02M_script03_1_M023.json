@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02M_script03_1_M023",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:12:24.168268",
+  "duration_seconds": 12.07,
+  "transcript": "I don't care what you do, see you can paint yourself green and dance naked in the plaspin dome and rush off madly with all the men in the world and I shan't say a word as long as you love me best.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.16,
+      "text": "I don't care what you do, see you can paint yourself green and dance naked in the plaspin dome",
+      "emotion": "disgust",
+      "emotion_confidence": 0.675,
+      "sentiment_score": 0.1189,
+      "pitch_mean": 317.71
+    },
+    {
+      "start_time": 6.16,
+      "end_time": 11.44,
+      "text": "and rush off madly with all the men in the world and I shan't say a word as long as you love me best.",
+      "emotion": "anger",
+      "emotion_confidence": 0.723,
+      "sentiment_score": 0.7519,
+      "pitch_mean": 341.69
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4354,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 213.67,
+    "avg_pitch": 328.73
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.5,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script03_1",
+    "utterance_id": "Ses02M_script03_1_M023",
+    "transcript_ground_truth": "I don't care what you do see. You can paint yourself green and dance naked in the Place Vendome, and rush off madly with all the men in the world and I shan't say a word, as long as you love me best."
+  }
+}

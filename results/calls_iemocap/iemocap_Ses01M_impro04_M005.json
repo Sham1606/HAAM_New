@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses01M_impro04_M005",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:54:05.779086",
+  "duration_seconds": 13.75,
+  "transcript": "I mean, I'm sending out my resumes and doing everything I can do, but not a happening. You know, it's like I can't and I can't keep living on loans anymore like this. I mean, I eventually have to pay it back. I'm just kind of freaking out. I don't know.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.16,
+      "text": "I mean, I'm sending out my resumes and doing everything I can do, but not a",
+      "emotion": "neutral",
+      "emotion_confidence": 0.554,
+      "sentiment_score": 0.023,
+      "pitch_mean": 327.17
+    },
+    {
+      "start_time": 5.16,
+      "end_time": 8.76,
+      "text": "happening. You know, it's like I can't and I can't keep living on loans anymore",
+      "emotion": "anger",
+      "emotion_confidence": 0.492,
+      "sentiment_score": -0.7695,
+      "pitch_mean": 346.55
+    },
+    {
+      "start_time": 8.76,
+      "end_time": 13.24,
+      "text": "like this. I mean, I eventually have to pay it back. I'm just kind of freaking out. I don't know.",
+      "emotion": "anger",
+      "emotion_confidence": 0.36,
+      "sentiment_score": -0.8396,
+      "pitch_mean": 337.42
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5287,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "neutral": 0.333,
+      "anger": 0.667
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 222.55,
+    "avg_pitch": 336.84
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro04",
+    "utterance_id": "Ses01M_impro04_M005",
+    "transcript_ground_truth": "I mean I've been sending out my resumes and doing everything I can do but nothing is happening.  You know, it's like I can't and I can't keep living on loans anymore like this.  I'm going to--I mean eventually I'm going to have to pay it back. I'm just kind of freaking out, I don't know."
+  }
+}

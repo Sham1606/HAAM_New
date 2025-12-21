@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script03_2_F036",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:43:18.213488",
+  "duration_seconds": 3.21,
+  "transcript": "Go away, go away, I hate you.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Go away, go away, I hate you.",
+      "emotion": "anger",
+      "emotion_confidence": 0.865,
+      "sentiment_score": -0.9164,
+      "pitch_mean": 350.65
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9164,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 130.83,
+    "avg_pitch": 347.51
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script03_2",
+    "utterance_id": "Ses04F_script03_2_F036",
+    "transcript_ground_truth": "Go away, go away.  I hate you."
+  }
+}

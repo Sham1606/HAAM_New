@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses04F_impro07_F073",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:15:33.179118",
+  "duration_seconds": 5.79,
+  "transcript": "Well, yeah, I mean that's where you meet people, right? But everybody lives in the dorms, right? It's great to see you meet me.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.72,
+      "text": "Well, yeah, I mean that's where you meet people, right?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.703,
+      "sentiment_score": 0.1565,
+      "pitch_mean": 360.97
+    },
+    {
+      "start_time": 2.72,
+      "end_time": 4.72,
+      "text": "But everybody lives in the dorms, right?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.939,
+      "sentiment_score": -0.0557,
+      "pitch_mean": 373.0
+    },
+    {
+      "start_time": 4.72,
+      "end_time": 5.72,
+      "text": "It's great to see you meet me.",
+      "emotion": "joy",
+      "emotion_confidence": 0.988,
+      "sentiment_score": 0.9837,
+      "pitch_mean": 343.85
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3615,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "joy": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 248.7,
+    "avg_pitch": 361.17
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro07",
+    "utterance_id": "Ses04F_impro07_F073",
+    "transcript_ground_truth": "Well, yeah.  I mean that's where you meet people, right.  Everybody lives in the dorms, right."
+  }
+}

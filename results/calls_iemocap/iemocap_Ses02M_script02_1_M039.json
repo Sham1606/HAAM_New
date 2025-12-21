@@ -1,0 +1,81 @@
+{
+  "call_id": "iemocap_Ses02M_script02_1_M039",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:07:35.899083",
+  "duration_seconds": 18.83,
+  "transcript": "just All is one This little time-sensitive Firecracker instinctual firecracker in their body. It just went off and all is one They turned and formed a line as long as the California coast and started swimming and they're swimming right now as if that's the only thing that matters",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "just",
+      "emotion": "neutral",
+      "emotion_confidence": 0.874,
+      "sentiment_score": 0.0458,
+      "pitch_mean": 311.21
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "All is one",
+      "emotion": "sadness",
+      "emotion_confidence": 0.653,
+      "sentiment_score": 0.3365,
+      "pitch_mean": 306.18
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "This little time-sensitive",
+      "emotion": "neutral",
+      "emotion_confidence": 0.825,
+      "sentiment_score": 0.024,
+      "pitch_mean": 312.98
+    },
+    {
+      "start_time": 6.84,
+      "end_time": 10.76,
+      "text": "Firecracker instinctual firecracker in their body. It just went off and all is one",
+      "emotion": "disgust",
+      "emotion_confidence": 0.394,
+      "sentiment_score": -0.0086,
+      "pitch_mean": 340.25
+    },
+    {
+      "start_time": 10.96,
+      "end_time": 18.78,
+      "text": "They turned and formed a line as long as the California coast and started swimming and they're swimming right now as if that's the only thing that matters",
+      "emotion": "neutral",
+      "emotion_confidence": 0.916,
+      "sentiment_score": 0.3352,
+      "pitch_mean": 325.59
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1466,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.6,
+      "sadness": 0.2,
+      "disgust": 0.2
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 156.15,
+    "avg_pitch": 322.4
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script02_1",
+    "utterance_id": "Ses02M_script02_1_M039",
+    "transcript_ground_truth": "Just all as one. This little time sensitive firecracker, instinctual firecracker in their body just went off and all as one they turned and formed a line as long the California coast and started swimming. They're swimming right now as if that's the only thing that matters."
+  }
+}

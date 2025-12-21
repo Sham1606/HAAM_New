@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses02M_script03_2_M002",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:13:58.583207",
+  "duration_seconds": 6.44,
+  "transcript": "Mmm, yes, I remember it well. Bristling with diamonds. And the worst possible taste. No, it wasn't.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.58,
+      "text": "Mmm, yes, I remember it well.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.862,
+      "sentiment_score": 0.7948,
+      "pitch_mean": 328.96
+    },
+    {
+      "start_time": 2.58,
+      "end_time": 4.28,
+      "text": "Bristling with diamonds.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.715,
+      "sentiment_score": 0.4377,
+      "pitch_mean": 323.19
+    },
+    {
+      "start_time": 4.28,
+      "end_time": 5.78,
+      "text": "And the worst possible taste.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.985,
+      "sentiment_score": -0.9191,
+      "pitch_mean": 334.55
+    },
+    {
+      "start_time": 5.78,
+      "end_time": 6.5,
+      "text": "No, it wasn't.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.749,
+      "sentiment_score": -0.1356,
+      "pitch_mean": 331.35
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0445,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.75,
+      "disgust": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 158.38,
+    "avg_pitch": 331.35
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script03_2",
+    "utterance_id": "Ses02M_script03_2_M002",
+    "transcript_ground_truth": "Yes, I remember it well, bristling with diamonds in the worst possible taste."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05F_impro08_M006",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:12:01.540762",
+  "duration_seconds": 6.4,
+  "transcript": "Well, okay, well first so okay fine fine fine fine. Let's see first off Get my bills wrong",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.04,
+      "text": "Well, okay, well first so okay fine fine fine fine. Let's see first off",
+      "emotion": "disgust",
+      "emotion_confidence": 0.493,
+      "sentiment_score": 0.5,
+      "pitch_mean": 339.35
+    },
+    {
+      "start_time": 4.92,
+      "end_time": 6.92,
+      "text": "Get my bills wrong",
+      "emotion": "anger",
+      "emotion_confidence": 0.796,
+      "sentiment_score": -0.8231,
+      "pitch_mean": 340.06
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1616,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 168.75,
+    "avg_pitch": 340.06
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro08",
+    "utterance_id": "Ses05F_impro08_M006",
+    "transcript_ground_truth": "Well, okay ,well First off, fine, fine, fine.  Let's see, first off, um- yeah my bill's wrong."
+  }
+}

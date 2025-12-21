@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro02_F020",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:47:57.294781",
+  "duration_seconds": 1.8,
+  "transcript": "You can't what?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "You can't what?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.811,
+      "sentiment_score": -0.147,
+      "pitch_mean": 338.95
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.147,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 100.0,
+    "avg_pitch": 338.95
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 1.5,
+    "dominance": 1.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro02",
+    "utterance_id": "Ses05F_impro02_F020",
+    "transcript_ground_truth": "You can't what?"
+  }
+}

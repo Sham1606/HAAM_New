@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01F_script03_1_M034",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:45:12.920955",
+  "duration_seconds": 4.27,
+  "transcript": "Ooooooh! That was a rouse or was it a...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 0.5,
+      "text": "Ooooooh!",
+      "emotion": "neutral",
+      "emotion_confidence": 0.889,
+      "sentiment_score": 0.7602,
+      "pitch_mean": 303.41
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "That was a rouse or was it a...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.811,
+      "sentiment_score": -0.068,
+      "pitch_mean": 355.55
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3461,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 126.46,
+    "avg_pitch": 341.37
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script03_1",
+    "utterance_id": "Ses01F_script03_1_M034",
+    "transcript_ground_truth": "That was a rouser, wasn't it?"
+  }
+}

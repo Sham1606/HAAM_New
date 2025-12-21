@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02F_script01_3_M009",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:36:19.249255",
+  "duration_seconds": 8.58,
+  "transcript": "I'm embarrassing you night. I didn't want to tell it to you here. I wanted Some place we'd never been before place would be brand new to each other",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.5,
+      "text": "I'm embarrassing you night. I didn't want to tell it to you here. I wanted",
+      "emotion": "disgust",
+      "emotion_confidence": 0.576,
+      "sentiment_score": -0.8439,
+      "pitch_mean": 328.76
+    },
+    {
+      "start_time": 4.26,
+      "end_time": 7.58,
+      "text": "Some place we'd never been before place would be brand new to each other",
+      "emotion": "neutral",
+      "emotion_confidence": 0.631,
+      "sentiment_score": 0.6345,
+      "pitch_mean": 311.44
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1047,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 202.8,
+    "avg_pitch": 322.44
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_3",
+    "utterance_id": "Ses02F_script01_3_M009",
+    "transcript_ground_truth": "I'm embarrassing you and I didn't want to tell it to you here.  I wanted some place we'd never been before.  A place where we'd be brand new to each other."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro05_M013",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:57:41.865165",
+  "duration_seconds": 4.06,
+  "transcript": "But what I'm telling you is that that's what you're going to do.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "But what I'm telling you is that that's what you're going to do.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.824,
+      "sentiment_score": -0.0638,
+      "pitch_mean": 319.06
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0638,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 192.19,
+    "avg_pitch": 318.84
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro05",
+    "utterance_id": "Ses04M_impro05_M013",
+    "transcript_ground_truth": "But what I'm telling you is that's what you're going to do."
+  }
+}

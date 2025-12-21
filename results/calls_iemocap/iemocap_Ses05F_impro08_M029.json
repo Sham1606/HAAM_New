@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro08_M029",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:12:47.688778",
+  "duration_seconds": 0.92,
+  "transcript": "Oh.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "Oh.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.689,
+      "sentiment_score": 0.1028,
+      "pitch_mean": 310.93
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1028,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 65.22,
+    "avg_pitch": 310.93
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro08",
+    "utterance_id": "Ses05F_impro08_M029",
+    "transcript_ground_truth": "oh."
+  }
+}

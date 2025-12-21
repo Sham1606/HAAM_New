@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04F_impro02_F007",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T11:59:47.811435",
+  "duration_seconds": 7.29,
+  "transcript": "I have to do this. I don't want to leave. Do you think I want to miss seeing her grow up?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I have to do this.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.436,
+      "sentiment_score": 0.3377,
+      "pitch_mean": 329.62
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 7.0,
+      "text": "I don't want to leave. Do you think I want to miss seeing her grow up?",
+      "emotion": "sadness",
+      "emotion_confidence": 0.914,
+      "sentiment_score": -0.4694,
+      "pitch_mean": 346.29
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0659,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "sadness": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 172.83,
+    "avg_pitch": 338.8
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro02",
+    "utterance_id": "Ses04F_impro02_F007",
+    "transcript_ground_truth": "I have to do this.  I don't want to leave.  Do you think I want to miss seeing her grow up?"
+  }
+}

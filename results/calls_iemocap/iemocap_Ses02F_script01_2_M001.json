@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script01_2_M001",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:34:36.959475",
+  "duration_seconds": 3.13,
+  "transcript": "Well, maybe he just wanted to see her again.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Well, maybe he just wanted to see her again.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.884,
+      "sentiment_score": 0.2529,
+      "pitch_mean": 339.93
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2529,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 172.53,
+    "avg_pitch": 338.08
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.3333,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_2",
+    "utterance_id": "Ses02F_script01_2_M001",
+    "transcript_ground_truth": "Well, maybe he just wanted to see her again."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script03_2_F020",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:44:46.879192",
+  "duration_seconds": 3.61,
+  "transcript": "Well, it didn't seem to do such wonders with you, that didn't.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Well, it didn't seem to do such wonders with you, that didn't.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.472,
+      "sentiment_score": -0.6671,
+      "pitch_mean": 330.69
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6671,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 199.45,
+    "avg_pitch": 331.25
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script03_2",
+    "utterance_id": "Ses03F_script03_2_F020",
+    "transcript_ground_truth": "Well, it didn't seem to do such wonders with you, now did it?"
+  }
+}

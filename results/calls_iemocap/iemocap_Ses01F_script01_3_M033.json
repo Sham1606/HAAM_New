@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses01F_script01_3_M033",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:37:17.396962",
+  "duration_seconds": 18.1,
+  "transcript": "But then I came home and it was incredible, you know. The whole thing was just kind of this random bus accident. You know, I went back to the rat race again. I went to work.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 8.16,
+      "text": "But then I came home and it was incredible, you know.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.911,
+      "sentiment_score": 0.9568,
+      "pitch_mean": 324.69
+    },
+    {
+      "start_time": 8.16,
+      "end_time": 14.48,
+      "text": "The whole thing was just kind of this random bus accident.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.438,
+      "sentiment_score": -0.7319,
+      "pitch_mean": 323.24
+    },
+    {
+      "start_time": 14.48,
+      "end_time": 16.12,
+      "text": "You know, I went back to the rat race again.",
+      "emotion": "anger",
+      "emotion_confidence": 0.509,
+      "sentiment_score": -0.5241,
+      "pitch_mean": 349.57
+    },
+    {
+      "start_time": 16.12,
+      "end_time": 17.12,
+      "text": "I went to work.",
+      "emotion": "anger",
+      "emotion_confidence": 0.378,
+      "sentiment_score": 0.1062,
+      "pitch_mean": 337.22
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0483,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "neutral": 0.25,
+      "disgust": 0.25,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 119.35,
+    "avg_pitch": 326.55
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.6667,
+    "arousal": 3.3333,
+    "dominance": 3.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_3",
+    "utterance_id": "Ses01F_script01_3_M033",
+    "transcript_ground_truth": "But then I came home and it was incredible, you know?  The whole thing was just kind of this random bus accident.  You know, I went back to the rat race again, I went to work."
+  }
+}

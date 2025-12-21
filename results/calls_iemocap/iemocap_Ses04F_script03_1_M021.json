@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script03_1_M021",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:41:39.101897",
+  "duration_seconds": 5.5,
+  "transcript": "No, no it isn't. Death is very laughable, such a cunning little mystery, all done with mirrors.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "No, no it isn't. Death is very laughable, such a cunning little mystery, all done with mirrors.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.544,
+      "sentiment_score": -0.898,
+      "pitch_mean": 332.01
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.898,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 185.45,
+    "avg_pitch": 329.29
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script03_1",
+    "utterance_id": "Ses04F_script03_1_M021",
+    "transcript_ground_truth": "No, no it isn't.  Death is very laughable such a cunning little mystery.  All done with mirrors."
+  }
+}

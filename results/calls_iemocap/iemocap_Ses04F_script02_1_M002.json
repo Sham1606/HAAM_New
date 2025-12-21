@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses04F_script02_1_M002",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:33:18.192145",
+  "duration_seconds": 5.04,
+  "transcript": "Is that, is that, that's just foam isn't it? I can't even tell.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Is that, is that, that's just foam isn't it?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.375,
+      "sentiment_score": -0.2983,
+      "pitch_mean": 324.84
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 5.0,
+      "text": "I can't even tell.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.531,
+      "sentiment_score": -0.4694,
+      "pitch_mean": 341.87
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3839,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 154.76,
+    "avg_pitch": 328.6
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script02_1",
+    "utterance_id": "Ses04F_script02_1_M002",
+    "transcript_ground_truth": "Is that, is that-that's just foam isn't it?  I can't even tell"
+  }
+}

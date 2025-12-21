@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02F_script02_1_F013",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:37:34.816003",
+  "duration_seconds": 7.0,
+  "transcript": "Pass up what? These little fish swim onto the beach, they flop around and swim away. And then they die.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.52,
+      "text": "Pass up what? These little fish swim onto the beach, they flop around and swim away.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.785,
+      "sentiment_score": -0.6048,
+      "pitch_mean": 355.43
+    },
+    {
+      "start_time": 5.52,
+      "end_time": 7.02,
+      "text": "And then they die.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.704,
+      "sentiment_score": -0.7855,
+      "pitch_mean": 346.37
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6952,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 171.43,
+    "avg_pitch": 346.37
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script02_1",
+    "utterance_id": "Ses02F_script02_1_F013",
+    "transcript_ground_truth": "Pass up what?  These little fish swim onto the beach, they flop around, and swim away.  And then they die."
+  }
+}

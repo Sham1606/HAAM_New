@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro02_M009",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:35:41.486050",
+  "duration_seconds": 2.19,
+  "transcript": "at least a year.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "at least a year.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.915,
+      "sentiment_score": 0.1044,
+      "pitch_mean": 313.3
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1044,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 109.59,
+    "avg_pitch": 314.58
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.6667,
+    "arousal": 3.0,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro02",
+    "utterance_id": "Ses05M_impro02_M009",
+    "transcript_ground_truth": "At least a year."
+  }
+}

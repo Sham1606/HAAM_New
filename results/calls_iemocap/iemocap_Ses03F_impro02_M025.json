@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro02_M025",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:18:44.853205",
+  "duration_seconds": 2.3,
+  "transcript": "I don't want the money, I want you here.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I don't want the money, I want you here.",
+      "emotion": "anger",
+      "emotion_confidence": 0.784,
+      "sentiment_score": 0.1054,
+      "pitch_mean": 338.18
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1054,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 234.78,
+    "avg_pitch": 336.88
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro02",
+    "utterance_id": "Ses03F_impro02_M025",
+    "transcript_ground_truth": "I don't want the money. I want-you here"
+  }
+}

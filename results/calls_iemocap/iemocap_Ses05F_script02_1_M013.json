@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05F_script02_1_M013",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:22:09.476635",
+  "duration_seconds": 6.21,
+  "transcript": "Are you kidding? We've missed it! We just got here! What's the point of coming all the way out here for just gonna leave?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Are you kidding? We've missed it! We just got here!",
+      "emotion": "disgust",
+      "emotion_confidence": 0.426,
+      "sentiment_score": 0.1778,
+      "pitch_mean": 316.99
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 6.0,
+      "text": "What's the point of coming all the way out here for just gonna leave?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.418,
+      "sentiment_score": -0.6998,
+      "pitch_mean": 326.21
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.261,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 231.89,
+    "avg_pitch": 318.52
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script02_1",
+    "utterance_id": "Ses05F_script02_1_M013",
+    "transcript_ground_truth": "Are you kidding?  We'd miss it. We just got here, what's the point of coming out here if we are just going to leave."
+  }
+}

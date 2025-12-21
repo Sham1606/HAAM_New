@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro01_M003",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:33:32.610803",
+  "duration_seconds": 3.71,
+  "transcript": "What's wrong about this format says new ID on it?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.08,
+      "text": "What's wrong about this format says new ID on it?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.41,
+      "sentiment_score": -0.8644,
+      "pitch_mean": 333.78
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8644,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 161.73,
+    "avg_pitch": 330.47
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro01",
+    "utterance_id": "Ses05M_impro01_M003",
+    "transcript_ground_truth": "What's wrong about this form?  It says new I.D. on it."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro08_F009",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:27:41.047844",
+  "duration_seconds": 6.54,
+  "transcript": "Okay, well if you would like we will be turning on the systems in probably about 10 hours.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.28,
+      "text": "Okay, well if you would like we will be turning on the systems in probably about 10 hours.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.955,
+      "sentiment_score": 0.2767,
+      "pitch_mean": 341.35
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2767,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 165.14,
+    "avg_pitch": 341.62
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro08",
+    "utterance_id": "Ses03F_impro08_F009",
+    "transcript_ground_truth": "Okay, well, if you would like, um- we will be turning on the systems in probably about ten hours."
+  }
+}

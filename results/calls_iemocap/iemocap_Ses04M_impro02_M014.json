@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04M_impro02_M014",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:50:10.957918",
+  "duration_seconds": 6.22,
+  "transcript": "I'm not gonna stay more than a year. I've agreed to a year...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I'm not gonna stay more than a year.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.628,
+      "sentiment_score": -0.6205,
+      "pitch_mean": 314.91
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "I've agreed to a year...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.666,
+      "sentiment_score": 0.2584,
+      "pitch_mean": 305.52
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.181,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 125.4,
+    "avg_pitch": 313.16
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro02",
+    "utterance_id": "Ses04M_impro02_M014",
+    "transcript_ground_truth": "I'm not going to stay more than a year.  I've  agreed to a year"
+  }
+}

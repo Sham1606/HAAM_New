@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script02_1_F001",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:07:29.796973",
+  "duration_seconds": 1.73,
+  "transcript": "Ugh.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "Ugh.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.911,
+      "sentiment_score": -0.5118,
+      "pitch_mean": 325.98
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5118,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 34.68,
+    "avg_pitch": 320.16
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script02_1",
+    "utterance_id": "Ses01M_script02_1_F001",
+    "transcript_ground_truth": "Ugh..."
+  }
+}

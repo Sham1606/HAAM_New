@@ -1,0 +1,80 @@
+{
+  "call_id": "iemocap_Ses05M_script02_2_M025",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:09:31.908291",
+  "duration_seconds": 26.77,
+  "transcript": "Do you think that I thought that there would be times when you would look at me like I was used Kleenex or I would look at you and think, good God, what's the next flight to Alaska? No, no, I'm just like you. I thought it would all be peaches and roses and sand in our toes and wind in our hair and the fish would always come and the bills would magically pay themselves. And we'd have three fat, rosy kids. Well, haha, baby, the joke's on us.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.8,
+      "text": "Do you think that I thought that there would be times when you would look at me like I was used",
+      "emotion": "neutral",
+      "emotion_confidence": 0.691,
+      "sentiment_score": -0.4643,
+      "pitch_mean": 323.29
+    },
+    {
+      "start_time": 4.8,
+      "end_time": 8.72,
+      "text": "Kleenex or I would look at you and think, good God, what's the next flight to Alaska?",
+      "emotion": "anger",
+      "emotion_confidence": 0.408,
+      "sentiment_score": -0.4042,
+      "pitch_mean": 349.18
+    },
+    {
+      "start_time": 9.28,
+      "end_time": 16.64,
+      "text": "No, no, I'm just like you. I thought it would all be peaches and roses and sand in our toes",
+      "emotion": "neutral",
+      "emotion_confidence": 0.861,
+      "sentiment_score": -0.3114,
+      "pitch_mean": 328.84
+    },
+    {
+      "start_time": 16.64,
+      "end_time": 21.84,
+      "text": "and wind in our hair and the fish would always come and the bills would magically pay themselves.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.518,
+      "sentiment_score": 0.4464,
+      "pitch_mean": 350.28
+    },
+    {
+      "start_time": 21.84,
+      "end_time": 26.0,
+      "text": "And we'd have three fat, rosy kids. Well, haha, baby, the joke's on us.",
+      "emotion": "anger",
+      "emotion_confidence": 0.578,
+      "sentiment_score": -0.2092,
+      "pitch_mean": 364.75
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1885,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.6,
+      "anger": 0.4
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 201.7,
+    "avg_pitch": 337.55
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 4.3333,
+    "dominance": 3.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script02_2",
+    "utterance_id": "Ses05M_script02_2_M025",
+    "transcript_ground_truth": "Do you think that I thought there would be times when you would look at me like I was used Kleenex or I would look at you and think, good God, when's the next flight to Alaska?  No.  No, I'm just like you. I thought it would all be like peaches and roses, and sand in our toes, and wind in our hair, and the fish would always come.  And the bills would magically pay themselves.  And we'd have three fat rosy kids.  But, ha ha, baby, the jokes on us!"
+  }
+}

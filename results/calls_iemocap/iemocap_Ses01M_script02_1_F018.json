@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses01M_script02_1_F018",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:08:18.727400",
+  "duration_seconds": 10.66,
+  "transcript": "I don't know what you're so upset about. I mean this isn't a moon landing we're talking about. It's fish. It's a fish nobody even eats.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.8,
+      "text": "I don't know what you're so upset about.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.806,
+      "sentiment_score": -0.8122,
+      "pitch_mean": 330.88
+    },
+    {
+      "start_time": 3.8,
+      "end_time": 7.0,
+      "text": "I mean this isn't a moon landing we're talking about.",
+      "emotion": "anger",
+      "emotion_confidence": 0.512,
+      "sentiment_score": -0.3057,
+      "pitch_mean": 352.4
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 8.6,
+      "text": "It's fish.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.664,
+      "sentiment_score": 0.1033,
+      "pitch_mean": 338.42
+    },
+    {
+      "start_time": 8.6,
+      "end_time": 10.4,
+      "text": "It's a fish nobody even eats.",
+      "emotion": "anger",
+      "emotion_confidence": 0.619,
+      "sentiment_score": -0.7924,
+      "pitch_mean": 352.4
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4518,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 146.34,
+    "avg_pitch": 340.23
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script02_1",
+    "utterance_id": "Ses01M_script02_1_F018",
+    "transcript_ground_truth": "I don't know what you're so excited about.  This isn't a moon landing we're talking about, it's fish, it's a fish nobody even eats."
+  }
+}

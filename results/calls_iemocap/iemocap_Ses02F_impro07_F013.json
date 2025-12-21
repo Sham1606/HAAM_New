@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02F_impro07_F013",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:27:59.565737",
+  "duration_seconds": 3.3,
+  "transcript": "Like he has a certain prestige. So.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.12,
+      "text": "Like he has a certain prestige.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.896,
+      "sentiment_score": 0.1054,
+      "pitch_mean": 330.66
+    },
+    {
+      "start_time": 2.46,
+      "end_time": 2.94,
+      "text": "So.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.922,
+      "sentiment_score": 0.119,
+      "pitch_mean": 347.48
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1122,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 127.27,
+    "avg_pitch": 331.58
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro07",
+    "utterance_id": "Ses02F_impro07_F013",
+    "transcript_ground_truth": "Like it has some prestige. so"
+  }
+}

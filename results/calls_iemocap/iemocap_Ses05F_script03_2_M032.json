@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script03_2_M032",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:32:05.732877",
+  "duration_seconds": 2.07,
+  "transcript": "You better turn that off, I think.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "You better turn that off, I think.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.488,
+      "sentiment_score": -0.5689,
+      "pitch_mean": 330.25
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5689,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 202.9,
+    "avg_pitch": 329.19
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script03_2",
+    "utterance_id": "Ses05F_script03_2_M032",
+    "transcript_ground_truth": "You better turn that off I think."
+  }
+}

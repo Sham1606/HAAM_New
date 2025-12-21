@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro06_F005",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:23:20.410815",
+  "duration_seconds": 8.72,
+  "transcript": "I thought he would get better and he did and then it just things turned bad.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 8.0,
+      "text": "I thought he would get better and he did and then it just things turned bad.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.376,
+      "sentiment_score": -0.8532,
+      "pitch_mean": 313.9
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8532,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 110.06,
+    "avg_pitch": 313.5
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro06",
+    "utterance_id": "Ses03F_impro06_F005",
+    "transcript_ground_truth": "They thought he got--would get better and he did, and then it just- things turned bad."
+  }
+}

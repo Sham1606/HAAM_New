@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses03M_script03_2_M028",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:56:35.687169",
+  "duration_seconds": 8.8,
+  "transcript": "You must have had a rightist time. No restraint at all. Very enjoyable. You never had much how, anyhow.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.52,
+      "text": "You must have had a rightist time.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.949,
+      "sentiment_score": 0.0778,
+      "pitch_mean": 312.05
+    },
+    {
+      "start_time": 3.52,
+      "end_time": 5.0,
+      "text": "No restraint at all.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.462,
+      "sentiment_score": -0.7353,
+      "pitch_mean": 337.45
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 6.0,
+      "text": "Very enjoyable.",
+      "emotion": "joy",
+      "emotion_confidence": 0.963,
+      "sentiment_score": 0.9571,
+      "pitch_mean": 317.87
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 8.0,
+      "text": "You never had much how, anyhow.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.818,
+      "sentiment_score": -0.625,
+      "pitch_mean": 331.91
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0813,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.25,
+      "joy": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 129.55,
+    "avg_pitch": 321.95
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script03_2",
+    "utterance_id": "Ses03M_script03_2_M028",
+    "transcript_ground_truth": "Mmm, you must've had a riotous time.  No restraint at all, very enjoyable.  You never had much anyhow."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02M_impro03_F019",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:49:51.176949",
+  "duration_seconds": 2.43,
+  "transcript": "Yeah, totally. So when is it gonna happen?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.24,
+      "text": "Yeah, totally.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.403,
+      "sentiment_score": 0.2485,
+      "pitch_mean": 346.06
+    },
+    {
+      "start_time": 1.24,
+      "end_time": 2.44,
+      "text": "So when is it gonna happen?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.0234,
+      "pitch_mean": 355.5
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1125,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 197.81,
+    "avg_pitch": 355.5
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro03",
+    "utterance_id": "Ses02M_impro03_F019",
+    "transcript_ground_truth": "Yea, totally. So when is it going to happen?"
+  }
+}

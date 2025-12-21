@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script03_1_M009",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:11:35.693096",
+  "duration_seconds": 3.92,
+  "transcript": "Things that matter most dreadfully don't matter at all when one's happy, do they?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.6,
+      "text": "Things that matter most dreadfully don't matter at all when one's happy, do they?",
+      "emotion": "fear",
+      "emotion_confidence": 0.961,
+      "sentiment_score": -0.4213,
+      "pitch_mean": 344.31
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4213,
+    "dominant_emotion": "fear",
+    "emotion_distribution": {
+      "fear": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 214.29,
+    "avg_pitch": 343.31
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script03_1",
+    "utterance_id": "Ses05M_script03_1_M009",
+    "transcript_ground_truth": "things that ought to matter most dreadfully don't matter at all when one's happy, do they?"
+  }
+}

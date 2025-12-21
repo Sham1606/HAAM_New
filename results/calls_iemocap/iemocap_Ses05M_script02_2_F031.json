@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_script02_2_F031",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:08:02.573653",
+  "duration_seconds": 6.39,
+  "transcript": "For heaven's sake, Ogy! Whatever I'm doing out, rather it be with you.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "For heaven's sake, Ogy!",
+      "emotion": "disgust",
+      "emotion_confidence": 0.431,
+      "sentiment_score": -0.5893,
+      "pitch_mean": 315.43
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 6.0,
+      "text": "Whatever I'm doing out, rather it be with you.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.734,
+      "sentiment_score": 0.3785,
+      "pitch_mean": 310.43
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1054,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "sadness": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 122.07,
+    "avg_pitch": 310.08
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.6667,
+    "arousal": 2.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script02_2",
+    "utterance_id": "Ses05M_script02_2_F031",
+    "transcript_ground_truth": "For heavens sake, Augie, whatever I am doing, I'd rather it be with you."
+  }
+}

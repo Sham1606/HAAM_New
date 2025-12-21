@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02M_impro03_M006",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:50:22.028940",
+  "duration_seconds": 4.04,
+  "transcript": "I know I can't believe it. It's like, ah.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.2,
+      "text": "I know I can't believe it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.88,
+      "sentiment_score": -0.671,
+      "pitch_mean": 352.08
+    },
+    {
+      "start_time": 3.2,
+      "end_time": 4.04,
+      "text": "It's like, ah.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.735,
+      "sentiment_score": 0.043,
+      "pitch_mean": 323.26
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.314,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 133.54,
+    "avg_pitch": 344.25
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro03",
+    "utterance_id": "Ses02M_impro03_M006",
+    "transcript_ground_truth": "I know Uhm- I can't believe it.  It's like-"
+  }
+}

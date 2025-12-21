@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro04_M019",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:56:01.235149",
+  "duration_seconds": 4.74,
+  "transcript": "Yeah, I know you think I would be able to be CEO of a company, right?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.84,
+      "text": "Yeah, I know you think I would be able to be CEO of a company, right?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.623,
+      "sentiment_score": 0.0838,
+      "pitch_mean": 324.31
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0838,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 202.53,
+    "avg_pitch": 322.75
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro04",
+    "utterance_id": "Ses03M_impro04_M019",
+    "transcript_ground_truth": "Yeah.  I know.  You'd think I would be able to be C.E.O. of a company right?"
+  }
+}

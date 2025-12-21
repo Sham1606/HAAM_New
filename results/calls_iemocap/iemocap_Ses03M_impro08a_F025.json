@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro08a_F025",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:32:23.407764",
+  "duration_seconds": 4.15,
+  "transcript": "You need to fix my phone. I don't care what you have to do",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.44,
+      "text": "You need to fix my phone. I don't care what you have to do",
+      "emotion": "disgust",
+      "emotion_confidence": 0.413,
+      "sentiment_score": -0.8101,
+      "pitch_mean": 341.51
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8101,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 202.49,
+    "avg_pitch": 338.88
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro08a",
+    "utterance_id": "Ses03M_impro08a_F025",
+    "transcript_ground_truth": "you need to fix my phone.  I don't care what you have to do--"
+  }
+}

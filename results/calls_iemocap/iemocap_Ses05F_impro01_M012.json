@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses05F_impro01_M012",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:46:49.266053",
+  "duration_seconds": 10.08,
+  "transcript": "I am a very compassionate person and I'm offended that you imply that I'm not. Of course I'm compassionate. Look, I work in the DMV. What do you think I am? Go wait in line two way.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I am a very compassionate person and I'm offended that you imply that I'm not.",
+      "emotion": "anger",
+      "emotion_confidence": 0.733,
+      "sentiment_score": -0.737,
+      "pitch_mean": 341.9
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 8.0,
+      "text": "Of course I'm compassionate. Look, I work in the DMV. What do you think I am?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.739,
+      "sentiment_score": 0.1826,
+      "pitch_mean": 345.87
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 10.0,
+      "text": "Go wait in line two way.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.934,
+      "sentiment_score": -0.0272,
+      "pitch_mean": 338.72
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1938,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "anger": 0.333,
+      "neutral": 0.667
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 220.24,
+    "avg_pitch": 342.8
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro01",
+    "utterance_id": "Ses05F_impro01_M012",
+    "transcript_ground_truth": "I am a very compassionate person, and I'm offended that you imply that I'm not.  Of course, I'm compassionate.  Look, I work in the D.M.V..  What do you think I am?  Go wait in line two A."
+  }
+}

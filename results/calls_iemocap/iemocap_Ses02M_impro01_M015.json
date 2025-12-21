@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro01_M015",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:47:55.982229",
+  "duration_seconds": 4.71,
+  "transcript": "I cannot go back in that line. I've got stuff I need to do. I mean",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.52,
+      "text": "I cannot go back in that line. I've got stuff I need to do. I mean",
+      "emotion": "joy",
+      "emotion_confidence": 0.346,
+      "sentiment_score": -0.4507,
+      "pitch_mean": 336.21
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4507,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 203.79,
+    "avg_pitch": 336.82
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro01",
+    "utterance_id": "Ses02M_impro01_M015",
+    "transcript_ground_truth": "I cannot go back in that line. I've got stuff I need to do, I mean-"
+  }
+}

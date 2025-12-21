@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro05a_F002",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:56:49.417591",
+  "duration_seconds": 4.88,
+  "transcript": "Sir, yes, it's in Maryland. It's okay. Well, I'm just let me check here.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.68,
+      "text": "Sir, yes, it's in Maryland. It's okay. Well, I'm just let me check here.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.923,
+      "sentiment_score": 0.4733,
+      "pitch_mean": 346.71
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4733,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 172.13,
+    "avg_pitch": 346.77
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro05a",
+    "utterance_id": "Ses03M_impro05a_F002",
+    "transcript_ground_truth": "Sir, yes it's in Maryland.  It's okay...well, I'm...just let me check here."
+  }
+}

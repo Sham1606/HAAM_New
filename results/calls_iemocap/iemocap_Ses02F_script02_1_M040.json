@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02F_script02_1_M040",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:39:08.605293",
+  "duration_seconds": 9.96,
+  "transcript": "It's like single-mindedness with no mind. It's urgency. It's pure urge. They don't know what drives them They don't ask a question or give it a name",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.08,
+      "text": "It's like single-mindedness with no mind. It's urgency. It's pure urge. They don't know what drives them",
+      "emotion": "disgust",
+      "emotion_confidence": 0.515,
+      "sentiment_score": -0.8038,
+      "pitch_mean": 328.33
+    },
+    {
+      "start_time": 7.08,
+      "end_time": 9.68,
+      "text": "They don't ask a question or give it a name",
+      "emotion": "neutral",
+      "emotion_confidence": 0.781,
+      "sentiment_score": -0.6512,
+      "pitch_mean": 335.08
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7275,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 162.65,
+    "avg_pitch": 329.8
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script02_1",
+    "utterance_id": "Ses02F_script02_1_M040",
+    "transcript_ground_truth": "It's like single mindedness with no mind.  It's urgency that's pure urge.  They don't know what drives them.  They don't ask it a question or give it a name."
+  }
+}

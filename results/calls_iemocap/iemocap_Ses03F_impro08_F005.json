@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03F_impro08_F005",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:27:33.663001",
+  "duration_seconds": 6.71,
+  "transcript": "Well, we have a little problem with the system going on. One of our satellites is down and I...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Well, we have a little problem with the system going on.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.822,
+      "sentiment_score": -0.75,
+      "pitch_mean": 335.52
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 7.0,
+      "text": "One of our satellites is down and I...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.8626,
+      "pitch_mean": 340.11
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8063,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 169.83,
+    "avg_pitch": 340.11
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro08",
+    "utterance_id": "Ses03F_impro08_F005",
+    "transcript_ground_truth": "Well, um- we have a little problem with the system going on.  One of our satellites is down, and I-"
+  }
+}

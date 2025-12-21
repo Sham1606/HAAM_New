@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script03_2_F001",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:44:07.343386",
+  "duration_seconds": 2.85,
+  "transcript": "Prisons is a trivial little brooch.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.8,
+      "text": "Prisons is a trivial little brooch.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.411,
+      "sentiment_score": -0.7891,
+      "pitch_mean": 354.24
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7891,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 126.32,
+    "avg_pitch": 354.2
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script03_2",
+    "utterance_id": "Ses02F_script03_2_F001",
+    "transcript_ground_truth": "Presents?  Just a trivial little broach."
+  }
+}

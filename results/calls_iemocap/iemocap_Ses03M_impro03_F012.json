@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_impro03_F012",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:51:55.873290",
+  "duration_seconds": 5.43,
+  "transcript": "She actually asked if it was real. I would have probably asked the same thing considering you were in Chuck E. Cheese.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.56,
+      "text": "She actually asked if it was real. I would have probably asked the same thing considering",
+      "emotion": "neutral",
+      "emotion_confidence": 0.639,
+      "sentiment_score": -0.1257,
+      "pitch_mean": 351.67
+    },
+    {
+      "start_time": 3.56,
+      "end_time": 4.76,
+      "text": "you were in Chuck E. Cheese.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.756,
+      "sentiment_score": 0.2359,
+      "pitch_mean": 315.88
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0551,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 243.1,
+    "avg_pitch": 339.81
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro03",
+    "utterance_id": "Ses03M_impro03_F012",
+    "transcript_ground_truth": "She actually asked if it was real?  I would've probably asked the same thing considering you were in Chuck E. Cheese."
+  }
+}

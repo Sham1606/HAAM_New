@@ -1,0 +1,81 @@
+{
+  "call_id": "iemocap_Ses03F_impro08_F010",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:27:44.337795",
+  "duration_seconds": 10.84,
+  "transcript": "Sir, I'm very sorry, but this is the way it is and this we have no control. Oh, it's gonna take you. You have to be careful. Yes, you can use calling card. We will give you a free calling card to use.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.48,
+      "text": "Sir, I'm very sorry, but this is the way it is and this we have no control.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.835,
+      "sentiment_score": -0.9084,
+      "pitch_mean": 352.07
+    },
+    {
+      "start_time": 3.48,
+      "end_time": 4.68,
+      "text": "Oh, it's gonna take you.",
+      "emotion": "joy",
+      "emotion_confidence": 0.388,
+      "sentiment_score": 0.2005,
+      "pitch_mean": 385.46
+    },
+    {
+      "start_time": 4.68,
+      "end_time": 5.68,
+      "text": "You have to be careful.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.907,
+      "sentiment_score": 0.1368,
+      "pitch_mean": 383.84
+    },
+    {
+      "start_time": 5.68,
+      "end_time": 8.04,
+      "text": "Yes, you can use calling card.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.965,
+      "sentiment_score": 0.1375,
+      "pitch_mean": 343.59
+    },
+    {
+      "start_time": 8.04,
+      "end_time": 10.44,
+      "text": "We will give you a free calling card to use.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.808,
+      "sentiment_score": 0.379,
+      "pitch_mean": 359.3
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0109,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "sadness": 0.2,
+      "joy": 0.2,
+      "neutral": 0.6
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 238.01,
+    "avg_pitch": 354.5
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro08",
+    "utterance_id": "Ses03F_impro08_F010",
+    "transcript_ground_truth": "Sir, I'm very sorry, but this is the way it is.  This- We have no control over it.  It's going to take-  -but you have to be patient with us.  You can use a calling card.  We will give you a free calling card to use."
+  }
+}

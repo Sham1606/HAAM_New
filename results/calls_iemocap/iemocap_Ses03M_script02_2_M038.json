@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script02_2_M038",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:51:02.655044",
+  "duration_seconds": 2.46,
+  "transcript": "Yeah?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Yeah?",
+      "emotion": "sadness",
+      "emotion_confidence": 0.709,
+      "sentiment_score": 0.0487,
+      "pitch_mean": 310.9
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0487,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 24.39,
+    "avg_pitch": 310.35
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.6667,
+    "arousal": 3.0,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_2",
+    "utterance_id": "Ses03M_script02_2_M038",
+    "transcript_ground_truth": "Yeah?"
+  }
+}

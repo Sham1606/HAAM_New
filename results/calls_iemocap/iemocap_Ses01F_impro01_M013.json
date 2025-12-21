@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro01_M013",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:16:17.701236",
+  "duration_seconds": 6.03,
+  "transcript": "Yeah, you want to see my supervisor huh? Yeah, you want to see my supervisor fine. I'll be right back",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.96,
+      "text": "Yeah, you want to see my supervisor huh? Yeah, you want to see my supervisor fine. I'll be right back",
+      "emotion": "anger",
+      "emotion_confidence": 0.504,
+      "sentiment_score": 0.3377,
+      "pitch_mean": 367.55
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3377,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 199.01,
+    "avg_pitch": 357.65
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro01",
+    "utterance_id": "Ses01F_impro01_M013",
+    "transcript_ground_truth": "Yeah.  Do you want to see my supervisor?  Huh? Yeah.  Do you want to see my supervisor?  Fine.  I'll be right back."
+  }
+}

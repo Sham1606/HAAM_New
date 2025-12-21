@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro03_M017",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:20:18.994320",
+  "duration_seconds": 2.67,
+  "transcript": "Really? Penny slugs? Penny slugs?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Really? Penny slugs? Penny slugs?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.94,
+      "sentiment_score": -0.5677,
+      "pitch_mean": 342.09
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5677,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 112.46,
+    "avg_pitch": 336.18
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "sur",
+    "valence": 3.6667,
+    "arousal": 3.6667,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro03",
+    "utterance_id": "Ses01F_impro03_M017",
+    "transcript_ground_truth": "Really? Penny slots?"
+  }
+}

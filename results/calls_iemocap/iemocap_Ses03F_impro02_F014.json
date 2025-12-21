@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro02_F014",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:17:04.911922",
+  "duration_seconds": 2.69,
+  "transcript": "Baby, we can still do that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Baby, we can still do that.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.847,
+      "sentiment_score": 0.5993,
+      "pitch_mean": 327.23
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5993,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 133.58,
+    "avg_pitch": 331.07
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro02",
+    "utterance_id": "Ses03F_impro02_F014",
+    "transcript_ground_truth": "Maybe we can still do that"
+  }
+}

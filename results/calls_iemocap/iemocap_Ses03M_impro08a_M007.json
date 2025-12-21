@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses03M_impro08a_M007",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:33:22.696727",
+  "duration_seconds": 2.68,
+  "transcript": "Aber hier st\ud574\uc694, alles okay singen sondern alles corpo Bright ... Auto holen und leigne mal ... FLORY",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Aber hier st\ud574\uc694, alles okay singen sondern alles corpo Bright ...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.79,
+      "sentiment_score": 0.1438,
+      "pitch_mean": 350.96
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "Auto holen und leigne mal ...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.727,
+      "sentiment_score": 0.0127,
+      "pitch_mean": 358.65
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 29.5,
+      "text": "FLORY",
+      "emotion": "neutral",
+      "emotion_confidence": 0.74,
+      "sentiment_score": 0.0414,
+      "pitch_mean": 358.65
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0659,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 402.73,
+    "avg_pitch": 358.65
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro08a",
+    "utterance_id": "Ses03M_impro08a_M007",
+    "transcript_ground_truth": "I understand--we're not-"
+  }
+}

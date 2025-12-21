@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02M_impro04_M018",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:52:22.833104",
+  "duration_seconds": 10.2,
+  "transcript": "I don't know, but I mean if that's the you know, I'm either like the worst at this or just the most unlucky person on the planet. I mean this doesn't...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.24,
+      "text": "I don't know, but I mean if that's the you know, I'm either like the worst at this or just the most",
+      "emotion": "disgust",
+      "emotion_confidence": 0.973,
+      "sentiment_score": -0.8253,
+      "pitch_mean": 326.35
+    },
+    {
+      "start_time": 7.24,
+      "end_time": 10.24,
+      "text": "unlucky person on the planet. I mean this doesn't...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.8961,
+      "pitch_mean": 327.92
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8607,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 182.28,
+    "avg_pitch": 327.92
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.3333,
+    "arousal": 3.3333,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro04",
+    "utterance_id": "Ses02M_impro04_M018",
+    "transcript_ground_truth": "I know, but I mean- if that's the - you know, I'm either like the worst at this or just the most unlucky person on the planet I mean this doesn't"
+  }
+}

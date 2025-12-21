@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro05a_M011",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:58:11.385501",
+  "duration_seconds": 3.19,
+  "transcript": "8 and they're all gone",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "8 and they're all gone",
+      "emotion": "neutral",
+      "emotion_confidence": 0.555,
+      "sentiment_score": -0.6131,
+      "pitch_mean": 335.49
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6131,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 94.05,
+    "avg_pitch": 334.96
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.5,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro05a",
+    "utterance_id": "Ses03M_impro05a_M011",
+    "transcript_ground_truth": "Eight.  And they're all gone."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro05_F024",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:01:23.831945",
+  "duration_seconds": 5.86,
+  "transcript": "That's all you can offer me? I mean like the stuff in there is worse way more than $50.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "That's all you can offer me? I mean like the stuff in there is worse way more than $50.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.913,
+      "sentiment_score": -0.9357,
+      "pitch_mean": 356.88
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9357,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 194.48,
+    "avg_pitch": 356.88
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro05",
+    "utterance_id": "Ses05F_impro05_F024",
+    "transcript_ground_truth": "That's all you can offer me? I mean, my the stuff in there is worth way more than fifty dollar."
+  }
+}

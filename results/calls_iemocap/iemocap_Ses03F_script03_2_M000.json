@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script03_2_M000",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:45:37.077661",
+  "duration_seconds": 5.08,
+  "transcript": "As a matter of fact, the real cause of that Rouse Peter Berden.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "As a matter of fact, the real cause of that Rouse Peter Berden.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.612,
+      "sentiment_score": -0.2006,
+      "pitch_mean": 330.88
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2006,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 153.41,
+    "avg_pitch": 329.91
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script03_2",
+    "utterance_id": "Ses03F_script03_2_M000",
+    "transcript_ground_truth": "As a matter of fact, the real cause of that row was Peter Burden."
+  }
+}

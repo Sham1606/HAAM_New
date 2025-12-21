@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script03_2_F019",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:45:51.117689",
+  "duration_seconds": 4.07,
+  "transcript": "It's funny, it hasn't worked such wonders for you.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "It's funny, it hasn't worked such wonders for you.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.661,
+      "sentiment_score": -0.3912,
+      "pitch_mean": 349.96
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3912,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 132.78,
+    "avg_pitch": 350.07
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script03_2",
+    "utterance_id": "Ses01F_script03_2_F019",
+    "transcript_ground_truth": "It's funny it hasn't worked such wonders for you."
+  }
+}

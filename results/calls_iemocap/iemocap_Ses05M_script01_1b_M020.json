@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script01_1b_M020",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:58:25.675311",
+  "duration_seconds": 2.59,
+  "transcript": "Because she's not Larry's girl.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Because she's not Larry's girl.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.887,
+      "sentiment_score": -0.5272,
+      "pitch_mean": 338.64
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5272,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 115.83,
+    "avg_pitch": 338.64
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.0,
+    "arousal": 4.5,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_1b",
+    "utterance_id": "Ses05M_script01_1b_M020",
+    "transcript_ground_truth": "She's not Larry's girl."
+  }
+}

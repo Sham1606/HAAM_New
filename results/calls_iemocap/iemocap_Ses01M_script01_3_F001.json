@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01M_script01_3_F001",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:05:01.731270",
+  "duration_seconds": 5.46,
+  "transcript": "Oh, it's not bad thing. It's a good thing.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Oh, it's not bad thing.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.903,
+      "sentiment_score": 0.6367,
+      "pitch_mean": 326.03
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 5.0,
+      "text": "It's a good thing.",
+      "emotion": "joy",
+      "emotion_confidence": 0.974,
+      "sentiment_score": 0.8729,
+      "pitch_mean": 326.37
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.7548,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "joy": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 98.92,
+    "avg_pitch": 323.16
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 4.0,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_3",
+    "utterance_id": "Ses01M_script01_3_F001",
+    "transcript_ground_truth": "Oh it's not bad thing it's good thing."
+  }
+}

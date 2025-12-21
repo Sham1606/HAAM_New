@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script01_1_M010",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:32:56.380059",
+  "duration_seconds": 2.62,
+  "transcript": "We got to say it to him.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "We got to say it to him.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.421,
+      "sentiment_score": -0.1339,
+      "pitch_mean": 333.76
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1339,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 160.31,
+    "avg_pitch": 329.12
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.3333,
+    "dominance": 3.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_1",
+    "utterance_id": "Ses01F_script01_1_M010",
+    "transcript_ground_truth": "We've got to say it to him."
+  }
+}

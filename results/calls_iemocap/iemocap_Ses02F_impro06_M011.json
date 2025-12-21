@@ -1,0 +1,63 @@
+{
+  "call_id": "iemocap_Ses02F_impro06_M011",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:27:08.514394",
+  "duration_seconds": 8.6,
+  "transcript": "But look at the life he did get to me. I mean, for his age, you know, he done so much. And it was...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "But look at the life he did get to me.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.641,
+      "sentiment_score": -0.3103,
+      "pitch_mean": 320.12
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 8.0,
+      "text": "I mean, for his age, you know, he done so much.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.688,
+      "sentiment_score": 0.4491,
+      "pitch_mean": 328.77
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 10.0,
+      "text": "And it was...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.661,
+      "sentiment_score": 0.1691,
+      "pitch_mean": 324.17
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1026,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 0.333,
+      "disgust": 0.333,
+      "neutral": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 167.4,
+    "avg_pitch": 324.17
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.3333,
+    "arousal": 2.3333,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro06",
+    "utterance_id": "Ses02F_impro06_M011",
+    "transcript_ground_truth": "But look at the--he--look at the life he did get to lead.  I mean, for his age, he'd done so much and--"
+  }
+}

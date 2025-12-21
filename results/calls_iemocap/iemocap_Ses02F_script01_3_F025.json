@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script01_3_F025",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:35:53.748045",
+  "duration_seconds": 1.77,
+  "transcript": "\uadf8\ub807\uc9c0",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.24,
+      "text": "\uadf8\ub807\uc9c0",
+      "emotion": "neutral",
+      "emotion_confidence": 0.776,
+      "sentiment_score": -0.0051,
+      "pitch_mean": 304.89
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0051,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 33.82,
+    "avg_pitch": 304.18
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_3",
+    "utterance_id": "Ses02F_script01_3_F025",
+    "transcript_ground_truth": "Oh, gee."
+  }
+}

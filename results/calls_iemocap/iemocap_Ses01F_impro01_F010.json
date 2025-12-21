@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro01_F010",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:15:27.667251",
+  "duration_seconds": 2.92,
+  "transcript": "Who the hell has a birth certificate?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Who the hell has a birth certificate?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.799,
+      "sentiment_score": -0.8109,
+      "pitch_mean": 368.4
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8109,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 143.84,
+    "avg_pitch": 368.4
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro01",
+    "utterance_id": "Ses01F_impro01_F010",
+    "transcript_ground_truth": "Who the hell has a birth certificate?"
+  }
+}

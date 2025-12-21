@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro08_M028",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:59:21.993865",
+  "duration_seconds": 5.69,
+  "transcript": "if you're ever online or anything like that, I mean just make sure it's a secure site and",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.6,
+      "text": "if you're ever online or anything like that, I mean just make sure it's a secure site and",
+      "emotion": "neutral",
+      "emotion_confidence": 0.969,
+      "sentiment_score": 0.0569,
+      "pitch_mean": 325.52
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0569,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 189.86,
+    "avg_pitch": 325.86
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro08",
+    "utterance_id": "Ses02M_impro08_M028",
+    "transcript_ground_truth": "if you're ever online or anything like that I mean just make sure it's a secure site and"
+  }
+}

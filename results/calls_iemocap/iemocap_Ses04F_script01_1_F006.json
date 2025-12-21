@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses04F_script01_1_F006",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:22:36.980435",
+  "duration_seconds": 8.87,
+  "transcript": "What was he doing out here at that hour? He's dreaming about him again. He's walking around at night.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "What was he doing out here at that hour?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.741,
+      "sentiment_score": -0.3679,
+      "pitch_mean": 324.33
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 9.0,
+      "text": "He's dreaming about him again. He's walking around at night.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.0766,
+      "pitch_mean": 322.3
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1457,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 128.51,
+    "avg_pitch": 322.3
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 2.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script01_1",
+    "utterance_id": "Ses04F_script01_1_F006",
+    "transcript_ground_truth": "What was he doing out here at that hour?  He's dreaming about him again.  He's walking around at night."
+  }
+}

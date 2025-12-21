@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro05_M003",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:25:40.277471",
+  "duration_seconds": 7.35,
+  "transcript": "You know, I mean there's a lot of things that go on under the plane and sometimes you know that kind of things happen",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "You know, I mean there's a lot of things that go on under the plane and sometimes you know that kind of things happen",
+      "emotion": "disgust",
+      "emotion_confidence": 0.497,
+      "sentiment_score": -0.014,
+      "pitch_mean": 337.53
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.014,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 195.92,
+    "avg_pitch": 335.64
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro05",
+    "utterance_id": "Ses02F_impro05_M003",
+    "transcript_ground_truth": "You know, I mean, there's a lot of things that go on under the plane and sometimes, you know, that kind of things happen."
+  }
+}

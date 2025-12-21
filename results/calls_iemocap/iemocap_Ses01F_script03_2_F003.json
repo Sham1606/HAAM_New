@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script03_2_F003",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:45:25.911190",
+  "duration_seconds": 5.36,
+  "transcript": "It was not. I still haven't. I wear it often. It was very pretty.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "It was not. I still haven't. I wear it often. It was very pretty.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.874,
+      "sentiment_score": 0.4774,
+      "pitch_mean": 342.1
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4774,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 156.72,
+    "avg_pitch": 340.94
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script03_2",
+    "utterance_id": "Ses01F_script03_2_F003",
+    "transcript_ground_truth": "It was not.  I still have it, and I wear it often.  It is very pretty."
+  }
+}

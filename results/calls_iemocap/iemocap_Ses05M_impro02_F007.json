@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro02_F007",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:34:41.483349",
+  "duration_seconds": 2.57,
+  "transcript": "How long do you have to go for?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "How long do you have to go for?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.519,
+      "sentiment_score": 0.0113,
+      "pitch_mean": 320.0
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0113,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 186.77,
+    "avg_pitch": 310.12
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 2.6667,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro02",
+    "utterance_id": "Ses05M_impro02_F007",
+    "transcript_ground_truth": "How long do you have to go for?"
+  }
+}

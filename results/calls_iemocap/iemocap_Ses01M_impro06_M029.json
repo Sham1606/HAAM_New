@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro06_M029",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:58:59.213532",
+  "duration_seconds": 2.19,
+  "transcript": "So weird.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "So weird.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.939,
+      "sentiment_score": -0.7875,
+      "pitch_mean": 320.62
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7875,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 54.8,
+    "avg_pitch": 321.79
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro06",
+    "utterance_id": "Ses01M_impro06_M029",
+    "transcript_ground_truth": "So weird,"
+  }
+}

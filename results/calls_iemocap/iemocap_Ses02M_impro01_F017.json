@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses02M_impro01_F017",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:47:15.720598",
+  "duration_seconds": 4.21,
+  "transcript": "I know, but we have to have two forms. There's nothing I can do about it. I'm sorry.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I know, but we have to have two forms.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.935,
+      "sentiment_score": 0.0112,
+      "pitch_mean": 355.81
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.24,
+      "text": "There's nothing I can do about it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.691,
+      "sentiment_score": -0.7665,
+      "pitch_mean": 361.19
+    },
+    {
+      "start_time": 3.24,
+      "end_time": 4.24,
+      "text": "I'm sorry.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.911,
+      "sentiment_score": -0.5695,
+      "pitch_mean": 348.59
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4416,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "sadness": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 256.59,
+    "avg_pitch": 348.59
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro01",
+    "utterance_id": "Ses02M_impro01_F017",
+    "transcript_ground_truth": "I know sir, but we have to have two forms. There is nothing I can do about it, I'm sorry."
+  }
+}

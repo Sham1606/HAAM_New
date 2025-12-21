@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses02F_impro07_F033",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:28:38.249358",
+  "duration_seconds": 4.44,
+  "transcript": "But it'll be fine. I mean, I'm so excited. It's going to be so fun.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.16,
+      "text": "But it'll be fine.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.604,
+      "sentiment_score": 0.6282,
+      "pitch_mean": 347.85
+    },
+    {
+      "start_time": 1.16,
+      "end_time": 3.0,
+      "text": "I mean, I'm so excited.",
+      "emotion": "joy",
+      "emotion_confidence": 0.868,
+      "sentiment_score": 0.981,
+      "pitch_mean": 341.5
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 4.44,
+      "text": "It's going to be so fun.",
+      "emotion": "joy",
+      "emotion_confidence": 0.987,
+      "sentiment_score": 0.9801,
+      "pitch_mean": 342.33
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.8631,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "neutral": 0.333,
+      "joy": 0.667
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 202.82,
+    "avg_pitch": 342.33
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro07",
+    "utterance_id": "Ses02F_impro07_F033",
+    "transcript_ground_truth": "But, it'll be fine, I mean.  I'm so excited. It's going to be so fun."
+  }
+}

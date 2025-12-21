@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses04F_script02_1_M021",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:34:20.755168",
+  "duration_seconds": 7.6,
+  "transcript": "Think about the people in Kansas. They don't have to get plane tickets and hotel reservations to come see this. We're just 40 minutes away. It's too good to pass up.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Think about the people in Kansas. They don't have to get plane tickets and hotel reservations to come see this.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.921,
+      "sentiment_score": -0.6398,
+      "pitch_mean": 320.19
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 7.0,
+      "text": "We're just 40 minutes away. It's too good to pass up.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.905,
+      "sentiment_score": 0.9821,
+      "pitch_mean": 353.5
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1712,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 244.64,
+    "avg_pitch": 329.12
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script02_1",
+    "utterance_id": "Ses04F_script02_1_M021",
+    "transcript_ground_truth": "Think about the people in Kansas.  They'd have to get plane tickets and hotel reservations to come see this.  We're just forty minutes away.  It's too good to pass up."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "call_id": "iemocap_Ses05M_impro02_M025",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:36:21.856592",
+  "duration_seconds": 9.38,
+  "transcript": "I don't want you to I know I know that you can't worry about me You got to worry about the kids and you got to take care of the kids from me. Okay? Take care of the kids from here, all right?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.6,
+      "text": "I don't want you to I know I know that you can't worry about me",
+      "emotion": "fear",
+      "emotion_confidence": 0.96,
+      "sentiment_score": -0.557,
+      "pitch_mean": 333.32
+    },
+    {
+      "start_time": 3.6,
+      "end_time": 6.48,
+      "text": "You got to worry about the kids and you got to take care of the kids from me. Okay?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.396,
+      "sentiment_score": -0.1326,
+      "pitch_mean": 319.96
+    },
+    {
+      "start_time": 6.96,
+      "end_time": 8.96,
+      "text": "Take care of the kids from here, all right?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.707,
+      "sentiment_score": 0.0531,
+      "pitch_mean": 336.46
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2122,
+    "dominant_emotion": "fear",
+    "emotion_distribution": {
+      "fear": 0.333,
+      "disgust": 0.333,
+      "neutral": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 275.06,
+    "avg_pitch": 326.98
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.3333,
+    "arousal": 3.0,
+    "dominance": 3.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro02",
+    "utterance_id": "Ses05M_impro02_M025",
+    "transcript_ground_truth": "I don't want you to -- I know.  I know. You can't worry about me.  You've got to worry about the kids.  And you've got to take care of the kids for me.  Okay?  Take care of the kids for me; all right?"
+  }
+}

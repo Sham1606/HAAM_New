@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03F_script02_2_F008",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:39:09.095819",
+  "duration_seconds": 5.09,
+  "transcript": "Look, Ogi, we've never seen them. They're never gonna come.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.6,
+      "text": "Look, Ogi, we've never seen them.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.579,
+      "sentiment_score": -0.0636,
+      "pitch_mean": 317.26
+    },
+    {
+      "start_time": 2.6,
+      "end_time": 4.6,
+      "text": "They're never gonna come.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.378,
+      "sentiment_score": -0.7262,
+      "pitch_mean": 326.22
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3949,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 117.87,
+    "avg_pitch": 322.01
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_2",
+    "utterance_id": "Ses03F_script02_2_F008",
+    "transcript_ground_truth": "Look, Augie, we've never seen them. They're never going to come."
+  }
+}

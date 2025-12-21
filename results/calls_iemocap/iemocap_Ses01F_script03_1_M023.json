@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script03_1_M023",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:44:48.384248",
+  "duration_seconds": 2.91,
+  "transcript": "So was everyone in the long run.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "So was everyone in the long run.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.956,
+      "sentiment_score": -0.0428,
+      "pitch_mean": 332.39
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0428,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 144.21,
+    "avg_pitch": 318.17
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script03_1",
+    "utterance_id": "Ses01F_script03_1_M023",
+    "transcript_ground_truth": "Oh.  So is everyone, in the long run."
+  }
+}

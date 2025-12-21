@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01M_impro06_M011",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:58:20.943337",
+  "duration_seconds": 6.59,
+  "transcript": "No, I mean it just came on really quick, you know, let me know what was it. It wasn't sickness, but it just kind of...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "No, I mean it just came on really quick, you know, let me know what was it.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.393,
+      "sentiment_score": -0.0126,
+      "pitch_mean": 337.12
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 7.0,
+      "text": "It wasn't sickness, but it just kind of...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.5296,
+      "pitch_mean": 329.32
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2711,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 227.45,
+    "avg_pitch": 329.32
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro06",
+    "utterance_id": "Ses01M_impro06_M011",
+    "transcript_ground_truth": "No, I mean it just came on really quick, you know I mean it was a [GARBAGE] it was a sickness but it just --"
+  }
+}

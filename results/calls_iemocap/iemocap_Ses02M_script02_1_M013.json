@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses02M_script02_1_M013",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:06:39.794718",
+  "duration_seconds": 7.46,
+  "transcript": "You cold? No my jacket? We should have brought the blanket. Our blanket? How can we forget to bring the blanket?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "You cold? No my jacket?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.662,
+      "sentiment_score": -0.5525,
+      "pitch_mean": 329.68
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "We should have brought the blanket.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.374,
+      "sentiment_score": -0.0397,
+      "pitch_mean": 323.87
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 7.0,
+      "text": "Our blanket? How can we forget to bring the blanket?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.49,
+      "sentiment_score": -0.1576,
+      "pitch_mean": 327.13
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.25,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "neutral": 0.333,
+      "disgust": 0.667
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 168.89,
+    "avg_pitch": 325.65
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script02_1",
+    "utterance_id": "Ses02M_script02_1_M013",
+    "transcript_ground_truth": "You cold, you want my jacket? We should've - we should've brought our blanket, our blanket, how could we forget to bring the blanket?"
+  }
+}

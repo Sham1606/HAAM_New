@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01F_impro04_F033",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:22:17.191152",
+  "duration_seconds": 5.84,
+  "transcript": "I cannot, you are not here by choice. Nobody would write this bus by choice.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I cannot, you are not here by choice.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.865,
+      "sentiment_score": -0.8057,
+      "pitch_mean": 340.59
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 6.0,
+      "text": "Nobody would write this bus by choice.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.817,
+      "sentiment_score": -0.8192,
+      "pitch_mean": 339.44
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8124,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 153.98,
+    "avg_pitch": 339.44
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro04",
+    "utterance_id": "Ses01F_impro04_F033",
+    "transcript_ground_truth": "I can not-- you are not here by choice.  Nobody would ride this bus by choice."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script03_1_M014",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:15:16.201673",
+  "duration_seconds": 2.31,
+  "transcript": "Darling, don't say that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Darling, don't say that.",
+      "emotion": "anger",
+      "emotion_confidence": 0.64,
+      "sentiment_score": -0.7215,
+      "pitch_mean": 331.94
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7215,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 103.9,
+    "avg_pitch": 332.58
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 2.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script03_1",
+    "utterance_id": "Ses01M_script03_1_M014",
+    "transcript_ground_truth": "Darling, don't say that."
+  }
+}

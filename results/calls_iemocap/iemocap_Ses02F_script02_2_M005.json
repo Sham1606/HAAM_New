@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses02F_script02_2_M005",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:40:56.116784",
+  "duration_seconds": 6.83,
+  "transcript": "Call it, can I ask you something? Don't take this wrong. But are you having your period?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Call it, can I ask you something?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.75,
+      "sentiment_score": 0.0165,
+      "pitch_mean": 330.48
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "Don't take this wrong.",
+      "emotion": "anger",
+      "emotion_confidence": 0.632,
+      "sentiment_score": -0.6016,
+      "pitch_mean": 324.97
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 7.0,
+      "text": "But are you having your period?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.587,
+      "sentiment_score": -0.0247,
+      "pitch_mean": 326.69
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2033,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "anger": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 149.34,
+    "avg_pitch": 326.69
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script02_2",
+    "utterance_id": "Ses02F_script02_2_M005",
+    "transcript_ground_truth": "Carla, can I ask you something?  Don't take this wrong, but are you having your period?"
+  }
+}

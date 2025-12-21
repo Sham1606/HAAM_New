@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro07_F000",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:29:23.280501",
+  "duration_seconds": 6.64,
+  "transcript": "Yeah, there's a big envelope it says you're it",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.76,
+      "text": "Yeah, there's a big envelope it says you're it",
+      "emotion": "neutral",
+      "emotion_confidence": 0.839,
+      "sentiment_score": 0.143,
+      "pitch_mean": 350.56
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.143,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 81.33,
+    "avg_pitch": 353.5
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 5.0,
+    "arousal": 5.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro07",
+    "utterance_id": "Ses01F_impro07_F000",
+    "transcript_ground_truth": "Yes.  There's a big envelope it says, you're in. I know."
+  }
+}

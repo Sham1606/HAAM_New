@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses03F_impro07_F026",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:25:33.887486",
+  "duration_seconds": 8.16,
+  "transcript": "And I sit down and you have the sponge bread and eat the beer, drink the beer. Oh, I love that stuff. I'm so excited.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.16,
+      "text": "And I sit down and you have the sponge bread and eat the beer, drink the beer.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.621,
+      "sentiment_score": 0.2672,
+      "pitch_mean": 356.36
+    },
+    {
+      "start_time": 5.16,
+      "end_time": 6.76,
+      "text": "Oh, I love that stuff.",
+      "emotion": "joy",
+      "emotion_confidence": 0.783,
+      "sentiment_score": 0.9588,
+      "pitch_mean": 341.64
+    },
+    {
+      "start_time": 6.76,
+      "end_time": 7.96,
+      "text": "I'm so excited.",
+      "emotion": "joy",
+      "emotion_confidence": 0.949,
+      "sentiment_score": 0.983,
+      "pitch_mean": 334.05
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.7364,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "disgust": 0.333,
+      "joy": 0.667
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 183.9,
+    "avg_pitch": 347.25
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro07",
+    "utterance_id": "Ses03F_impro07_F026",
+    "transcript_ground_truth": "Oh, and you sit down and you have the sponge bread-- --and eat the--drink the beer. Ugh, I love that stuff. I'm so excited."
+  }
+}

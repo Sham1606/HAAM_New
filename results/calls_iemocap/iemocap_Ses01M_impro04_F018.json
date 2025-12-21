@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01M_impro04_F018",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:53:35.384836",
+  "duration_seconds": 7.84,
+  "transcript": "We're trying to have a conversation and you seem extremely hostile. You keep cutting me off.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "We're trying to have a conversation and you seem extremely hostile.",
+      "emotion": "anger",
+      "emotion_confidence": 0.371,
+      "sentiment_score": -0.8456,
+      "pitch_mean": 335.03
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 7.0,
+      "text": "You keep cutting me off.",
+      "emotion": "anger",
+      "emotion_confidence": 0.781,
+      "sentiment_score": -0.7734,
+      "pitch_mean": 345.58
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8095,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 122.45,
+    "avg_pitch": 336.17
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro04",
+    "utterance_id": "Ses01M_impro04_F018",
+    "transcript_ground_truth": "We're trying to have a conversation and you seem extremely hostile. You keep cutting me off."
+  }
+}

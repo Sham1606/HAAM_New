@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script02_1_M024",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:06:09.463558",
+  "duration_seconds": 1.63,
+  "transcript": "for real.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "for real.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.0678,
+      "pitch_mean": 297.3
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0678,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 73.62,
+    "avg_pitch": 297.3
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script02_1",
+    "utterance_id": "Ses05M_script02_1_M024",
+    "transcript_ground_truth": "For real?"
+  }
+}

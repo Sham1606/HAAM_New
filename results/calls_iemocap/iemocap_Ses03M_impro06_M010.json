@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_impro06_M010",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:28:20.984306",
+  "duration_seconds": 5.99,
+  "transcript": "You know, a stupid case of drunk driving. It's just...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "You know, a stupid case of drunk driving.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.514,
+      "sentiment_score": -0.8667,
+      "pitch_mean": 322.94
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "It's just...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.886,
+      "sentiment_score": -0.2604,
+      "pitch_mean": 324.12
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5636,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 100.22,
+    "avg_pitch": 324.12
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro06",
+    "utterance_id": "Ses03M_impro06_M010",
+    "transcript_ground_truth": "You know a stupid case of drunk driving it's just..."
+  }
+}

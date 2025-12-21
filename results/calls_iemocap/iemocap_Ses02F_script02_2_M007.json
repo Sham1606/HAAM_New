@@ -1,0 +1,80 @@
+{
+  "call_id": "iemocap_Ses02F_script02_2_M007",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:41:00.510020",
+  "duration_seconds": 10.17,
+  "transcript": "There's nothing to it. We come here, the Grungen arrive. They do their little fish business. We go, ooh, ah, look at the fish. They go home, we go home.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "There's nothing to it.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.547,
+      "sentiment_score": -0.4053,
+      "pitch_mean": 329.34
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "We come here, the Grungen arrive.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.87,
+      "sentiment_score": 0.1773,
+      "pitch_mean": 336.81
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "They do their little fish business.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.725,
+      "sentiment_score": 0.0258,
+      "pitch_mean": 336.83
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 8.0,
+      "text": "We go, ooh, ah, look at the fish.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.53,
+      "sentiment_score": 0.4028,
+      "pitch_mean": 335.49
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 10.0,
+      "text": "They go home, we go home.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.529,
+      "sentiment_score": 0.0891,
+      "pitch_mean": 342.71
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0579,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "disgust": 0.4,
+      "neutral": 0.6
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 176.99,
+    "avg_pitch": 335.06
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script02_2",
+    "utterance_id": "Ses02F_script02_2_M007",
+    "transcript_ground_truth": "There's nothing to it.  We come here, the grunion arrive, they do their little fish business, we go ooh, ah, look at the fish.  They go home. We go home."
+  }
+}

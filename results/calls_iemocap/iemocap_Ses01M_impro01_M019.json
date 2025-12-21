@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro01_M019",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:49:06.299278",
+  "duration_seconds": 2.91,
+  "transcript": "No, I don't have a driver's license.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "No, I don't have a driver's license.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.869,
+      "sentiment_score": -0.2367,
+      "pitch_mean": 348.15
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2367,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 144.33,
+    "avg_pitch": 348.15
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro01",
+    "utterance_id": "Ses01M_impro01_M019",
+    "transcript_ground_truth": "No, I don't have driver's license."
+  }
+}

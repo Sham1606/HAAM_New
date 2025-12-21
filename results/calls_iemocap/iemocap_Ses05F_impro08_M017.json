@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro08_M017",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:12:24.993083",
+  "duration_seconds": 1.12,
+  "transcript": "Absolutely.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "Absolutely.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.875,
+      "sentiment_score": 0.227,
+      "pitch_mean": 322.78
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.227,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 53.57,
+    "avg_pitch": 321.47
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro08",
+    "utterance_id": "Ses05F_impro08_M017",
+    "transcript_ground_truth": "Absolutely."
+  }
+}

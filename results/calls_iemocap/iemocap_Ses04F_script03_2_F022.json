@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script03_2_F022",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:42:49.815871",
+  "duration_seconds": 6.46,
+  "transcript": "I don't care. Okay, do you understand? I don't care. I don't mind if they bark and roll about like hoops",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.56,
+      "text": "I don't care. Okay, do you understand? I don't care. I don't mind if they bark and roll about like hoops",
+      "emotion": "joy",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.5533,
+      "pitch_mean": 365.83
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5533,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 195.05,
+    "avg_pitch": 355.48
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script03_2",
+    "utterance_id": "Ses04F_script03_2_F022",
+    "transcript_ground_truth": "I don't care, okay.  Do you understand?  I don't care.  I don't mind if they bark and roll about like hoops."
+  }
+}

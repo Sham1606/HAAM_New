@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script01_1_F024",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:31:59.107125",
+  "duration_seconds": 3.81,
+  "transcript": "Just don't see what have you asked Annie yet?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Just don't see what have you asked Annie yet?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.421,
+      "sentiment_score": -0.4247,
+      "pitch_mean": 335.99
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4247,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 141.6,
+    "avg_pitch": 334.86
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.6667,
+    "arousal": 2.6667,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_1",
+    "utterance_id": "Ses01F_script01_1_F024",
+    "transcript_ground_truth": "I just don't see why.  Have you asked Annie yet?"
+  }
+}

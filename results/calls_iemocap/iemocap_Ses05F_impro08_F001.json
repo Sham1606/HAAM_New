@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro08_F001",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:10:12.914847",
+  "duration_seconds": 1.15,
+  "transcript": "Okay.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "Okay.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.493,
+      "sentiment_score": 0.2809,
+      "pitch_mean": 342.42
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2809,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 52.17,
+    "avg_pitch": 349.03
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro08",
+    "utterance_id": "Ses05F_impro08_F001",
+    "transcript_ground_truth": "Okay."
+  }
+}

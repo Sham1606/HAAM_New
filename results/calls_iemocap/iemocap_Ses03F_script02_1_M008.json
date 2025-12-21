@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses03F_script02_1_M008",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:37:27.876997",
+  "duration_seconds": 9.43,
+  "transcript": "No, of course yours and mine are flashlight yours and mine You flashlight is too flashlight Naturally",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "No, of course yours and mine are flashlight yours and mine",
+      "emotion": "neutral",
+      "emotion_confidence": 0.87,
+      "sentiment_score": 0.1783,
+      "pitch_mean": 331.85
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 7.5,
+      "text": "You flashlight is too flashlight",
+      "emotion": "neutral",
+      "emotion_confidence": 0.813,
+      "sentiment_score": -0.2107,
+      "pitch_mean": 337.05
+    },
+    {
+      "start_time": 7.5,
+      "end_time": 9.0,
+      "text": "Naturally",
+      "emotion": "neutral",
+      "emotion_confidence": 0.754,
+      "sentiment_score": 0.1548,
+      "pitch_mean": 342.75
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0408,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 108.19,
+    "avg_pitch": 335.37
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_1",
+    "utterance_id": "Ses03F_script02_1_M008",
+    "transcript_ground_truth": "No, of course. Yours and mine. Our flashlight. Yours and mine. Mi flashlight is su flashlight. Naturally."
+  }
+}

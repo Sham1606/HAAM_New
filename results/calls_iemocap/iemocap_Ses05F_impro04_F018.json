@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro04_F018",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:57:03.092591",
+  "duration_seconds": 3.17,
+  "transcript": "But that doesn't help me when I'm hungry now.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "But that doesn't help me when I'm hungry now.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.363,
+      "sentiment_score": -0.8206,
+      "pitch_mean": 325.0
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8206,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 170.35,
+    "avg_pitch": 324.12
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro04",
+    "utterance_id": "Ses05F_impro04_F018",
+    "transcript_ground_truth": "But that doesn't help me when I'm hungry now."
+  }
+}

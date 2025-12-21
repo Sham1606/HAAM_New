@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script03_1_M035",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:15:52.571980",
+  "duration_seconds": 2.62,
+  "transcript": "There was a horrible thing I hated it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "There was a horrible thing I hated it.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.838,
+      "sentiment_score": -0.9277,
+      "pitch_mean": 353.96
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9277,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 183.21,
+    "avg_pitch": 352.98
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script03_1",
+    "utterance_id": "Ses01M_script03_1_M035",
+    "transcript_ground_truth": "It was a horrible thing I hated it."
+  }
+}

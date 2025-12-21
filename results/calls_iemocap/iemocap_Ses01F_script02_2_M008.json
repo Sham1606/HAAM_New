@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01F_script02_2_M008",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:41:49.088041",
+  "duration_seconds": 9.54,
+  "transcript": "There's nothing to it become down here the fish arrive they flop around they do their fish thing we go Oh, look at the fish. Let me go home",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.34,
+      "text": "There's nothing to it become down here the fish arrive they flop around they do their fish thing we go",
+      "emotion": "neutral",
+      "emotion_confidence": 0.895,
+      "sentiment_score": -0.0666,
+      "pitch_mean": 337.42
+    },
+    {
+      "start_time": 6.34,
+      "end_time": 8.5,
+      "text": "Oh, look at the fish. Let me go home",
+      "emotion": "anger",
+      "emotion_confidence": 0.449,
+      "sentiment_score": 0.1874,
+      "pitch_mean": 348.46
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0604,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 182.39,
+    "avg_pitch": 338.04
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_2",
+    "utterance_id": "Ses01F_script02_2_M008",
+    "transcript_ground_truth": "There is nothing to it; we come down here, the fish arrive, they flop around, they do their fish thing.  We go ooh, ah, look at the fish and we go home."
+  }
+}

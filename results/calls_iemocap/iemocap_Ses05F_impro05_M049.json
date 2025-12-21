@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro05_M049",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:04:28.149549",
+  "duration_seconds": 7.16,
+  "transcript": "I understand that man, but things get lost. There's nothing I can do about that. Things happen accidents happen",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.56,
+      "text": "I understand that man, but things get lost. There's nothing I can do about that. Things happen accidents happen",
+      "emotion": "disgust",
+      "emotion_confidence": 0.417,
+      "sentiment_score": -0.8543,
+      "pitch_mean": 328.31
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8543,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 159.22,
+    "avg_pitch": 327.34
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro05",
+    "utterance_id": "Ses05F_impro05_M049",
+    "transcript_ground_truth": "I understand that, ma'am, but things get lost.  There's nothing I can do about that.  Things happen.  Accidents happen."
+  }
+}

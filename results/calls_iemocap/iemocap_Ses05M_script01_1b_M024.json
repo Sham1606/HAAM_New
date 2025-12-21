@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_script01_1b_M024",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:58:37.644766",
+  "duration_seconds": 7.81,
+  "transcript": "Well, if she does, then that's the end of it. But from the letters, it seems like she's forgotten him.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.44,
+      "text": "Well, if she does, then that's the end of it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.528,
+      "sentiment_score": -0.6723,
+      "pitch_mean": 321.52
+    },
+    {
+      "start_time": 3.44,
+      "end_time": 7.0,
+      "text": "But from the letters, it seems like she's forgotten him.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.409,
+      "sentiment_score": -0.3327,
+      "pitch_mean": 323.74
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5025,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 153.65,
+    "avg_pitch": 322.41
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_1b",
+    "utterance_id": "Ses05M_script01_1b_M024",
+    "transcript_ground_truth": "Well, if she does then that's the end of it.  But from her letters it seems like she's forgotten him."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro04_F020",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:40:26.372613",
+  "duration_seconds": 2.34,
+  "transcript": "Yeah, it's stressful, but I recognize that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Yeah, it's stressful, but I recognize that.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.456,
+      "sentiment_score": -0.7076,
+      "pitch_mean": 328.79
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7076,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 179.49,
+    "avg_pitch": 323.98
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 2.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro04",
+    "utterance_id": "Ses05M_impro04_F020",
+    "transcript_ground_truth": "Yeah, it's stressful.  I recognize that."
+  }
+}

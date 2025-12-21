@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro04_M015",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:21:52.420247",
+  "duration_seconds": 4.35,
+  "transcript": "How's the job? Still waiting tables at Denny's?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.08,
+      "text": "How's the job? Still waiting tables at Denny's?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.648,
+      "sentiment_score": -0.0588,
+      "pitch_mean": 331.06
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0588,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 110.39,
+    "avg_pitch": 325.61
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro04",
+    "utterance_id": "Ses03F_impro04_M015",
+    "transcript_ground_truth": "How's the job? Still waiting tables at Denny's?"
+  }
+}

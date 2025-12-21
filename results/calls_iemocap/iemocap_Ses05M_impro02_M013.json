@@ -1,0 +1,63 @@
+{
+  "call_id": "iemocap_Ses05M_impro02_M013",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:35:52.001309",
+  "duration_seconds": 8.87,
+  "transcript": "I don't have... I know. What are we gonna... what are we gonna just run away? What can I do? Where can I go?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I don't have... I know.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.451,
+      "sentiment_score": -0.0912,
+      "pitch_mean": 324.93
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 7.0,
+      "text": "What are we gonna... what are we gonna just run away?",
+      "emotion": "anger",
+      "emotion_confidence": 0.405,
+      "sentiment_score": -0.468,
+      "pitch_mean": 341.02
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 9.0,
+      "text": "What can I do? Where can I go?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.0128,
+      "pitch_mean": 332.66
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1907,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 0.333,
+      "anger": 0.333,
+      "neutral": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 162.34,
+    "avg_pitch": 332.66
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.6667,
+    "arousal": 3.6667,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro02",
+    "utterance_id": "Ses05M_impro02_M013",
+    "transcript_ground_truth": "I don't have -- I know.  What are we gonna- What are we- just run away?  What can I do?  Where can we go?"
+  }
+}

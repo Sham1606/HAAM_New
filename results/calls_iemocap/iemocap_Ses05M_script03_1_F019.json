@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_script03_1_F019",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:10:47.322019",
+  "duration_seconds": 3.04,
+  "transcript": "Darling, I do believe you're talking nonsense. No, so...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Darling, I do believe you're talking nonsense.",
+      "emotion": "anger",
+      "emotion_confidence": 0.67,
+      "sentiment_score": -0.8526,
+      "pitch_mean": 327.32
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "No, so...",
+      "emotion": "disgust",
+      "emotion_confidence": 0.492,
+      "sentiment_score": -0.0874,
+      "pitch_mean": 331.69
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.47,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 177.64,
+    "avg_pitch": 331.4
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script03_1",
+    "utterance_id": "Ses05M_script03_1_F019",
+    "transcript_ground_truth": "Darling, I do believe you're talking nonsense."
+  }
+}

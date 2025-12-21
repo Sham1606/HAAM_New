@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses02M_impro04_M006",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:51:55.986831",
+  "duration_seconds": 3.57,
+  "transcript": "I don't know. I mean, why? You're doing right? Ugh.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 0.5,
+      "text": "I don't know.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.627,
+      "sentiment_score": -0.125,
+      "pitch_mean": 346.12
+    },
+    {
+      "start_time": 0.5,
+      "end_time": 1.5,
+      "text": "I mean, why?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.826,
+      "sentiment_score": -0.3545,
+      "pitch_mean": 342.08
+    },
+    {
+      "start_time": 1.5,
+      "end_time": 3.0,
+      "text": "You're doing right?",
+      "emotion": "anger",
+      "emotion_confidence": 0.591,
+      "sentiment_score": 0.1214,
+      "pitch_mean": 315.8
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 4.0,
+      "text": "Ugh.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.911,
+      "sentiment_score": -0.5118,
+      "pitch_mean": 328.06
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2175,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "anger": 0.25,
+      "disgust": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 168.06,
+    "avg_pitch": 328.06
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro04",
+    "utterance_id": "Ses02M_impro04_M006",
+    "transcript_ground_truth": "I don't know, I mean why - why"
+  }
+}

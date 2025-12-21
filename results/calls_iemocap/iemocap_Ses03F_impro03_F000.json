@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses03F_impro03_F000",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:18:57.941534",
+  "duration_seconds": 11.2,
+  "transcript": "I do not know. It's probably you. I don't even know how to like wear it. I like my hands like going down. It's like really low. I can believe it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I do not know. It's probably you.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.658,
+      "sentiment_score": -0.2946,
+      "pitch_mean": 354.49
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 10.0,
+      "text": "I don't even know how to like wear it. I like my hands like going down. It's like really low.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.61,
+      "sentiment_score": -0.6375,
+      "pitch_mean": 348.98
+    },
+    {
+      "start_time": 10.0,
+      "end_time": 12.0,
+      "text": "I can believe it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.939,
+      "sentiment_score": 0.6563,
+      "pitch_mean": 347.75
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0919,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 166.06,
+    "avg_pitch": 347.75
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.5,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro03",
+    "utterance_id": "Ses03F_impro03_F000",
+    "transcript_ground_truth": "I know. [LAUGHTER]. Dude, I don't know. It's- Probably. It's huge. I don't even know how to like wear it. My hand is like going down like really low. I can't believe it."
+  }
+}

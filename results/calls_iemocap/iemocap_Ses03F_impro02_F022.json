@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses03F_impro02_F022",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:17:20.857327",
+  "duration_seconds": 6.38,
+  "transcript": "But you're so good with her. You know, she knows you better than she knows me because I'm at work every day.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "But you're so good with her.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.369,
+      "sentiment_score": 0.9386,
+      "pitch_mean": 324.39
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "You know, she knows you better than she knows me",
+      "emotion": "disgust",
+      "emotion_confidence": 0.44,
+      "sentiment_score": 0.7124,
+      "pitch_mean": 331.44
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "because I'm at work every day.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.406,
+      "sentiment_score": -0.1392,
+      "pitch_mean": 359.76
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5039,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 206.98,
+    "avg_pitch": 335.96
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro02",
+    "utterance_id": "Ses03F_impro02_F022",
+    "transcript_ground_truth": "But you're so good with her. You know, she knows you better than she knows me 'cause I'm at work every day."
+  }
+}

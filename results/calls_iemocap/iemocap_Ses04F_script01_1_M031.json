@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04F_script01_1_M031",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:25:56.046422",
+  "duration_seconds": 7.39,
+  "transcript": "I can't help it. I know her best. It was brought up next door to her.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I can't help it. I know her best.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.443,
+      "sentiment_score": 0.7132,
+      "pitch_mean": 324.65
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 7.0,
+      "text": "It was brought up next door to her.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.366,
+      "sentiment_score": 0.0125,
+      "pitch_mean": 323.03
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3629,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 129.91,
+    "avg_pitch": 323.25
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script01_1",
+    "utterance_id": "Ses04F_script01_1_M031",
+    "transcript_ground_truth": "I can't help it.  I know her best.  I was brought up next door to her."
+  }
+}

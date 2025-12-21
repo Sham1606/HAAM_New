@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro05_F027",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:55:39.582303",
+  "duration_seconds": 1.47,
+  "transcript": "What was that?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "What was that?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.896,
+      "sentiment_score": -0.0756,
+      "pitch_mean": 334.95
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0756,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 122.45,
+    "avg_pitch": 334.86
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro05",
+    "utterance_id": "Ses01M_impro05_F027",
+    "transcript_ground_truth": "What was that?"
+  }
+}

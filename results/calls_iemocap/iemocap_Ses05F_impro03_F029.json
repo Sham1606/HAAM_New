@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05F_impro03_F029",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:51:16.201647",
+  "duration_seconds": 6.11,
+  "transcript": "right being like oh where are you from the US? we're in the US Chicago, where in Chicago?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.12,
+      "text": "right being like oh where are you from the US?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.846,
+      "sentiment_score": -0.0185,
+      "pitch_mean": 378.29
+    },
+    {
+      "start_time": 3.12,
+      "end_time": 6.0,
+      "text": "we're in the US Chicago, where in Chicago?",
+      "emotion": "joy",
+      "emotion_confidence": 0.519,
+      "sentiment_score": 0.0385,
+      "pitch_mean": 369.02
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.01,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "joy": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 176.76,
+    "avg_pitch": 373.37
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro03",
+    "utterance_id": "Ses05F_impro03_F029",
+    "transcript_ground_truth": "Right, being like oh, where are you from?  The U.S.  Where in the U.S.?  Chicago.  Where in Chicago?"
+  }
+}

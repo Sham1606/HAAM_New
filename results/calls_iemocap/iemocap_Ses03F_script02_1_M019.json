@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script02_1_M019",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:37:49.206261",
+  "duration_seconds": 1.8,
+  "transcript": "Right.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "Right.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.827,
+      "sentiment_score": 0.145,
+      "pitch_mean": 330.68
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.145,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 33.3,
+    "avg_pitch": 329.7
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_1",
+    "utterance_id": "Ses03F_script02_1_M019",
+    "transcript_ground_truth": "Right."
+  }
+}

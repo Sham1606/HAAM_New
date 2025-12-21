@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02M_impro04_M011",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:52:08.625296",
+  "duration_seconds": 10.92,
+  "transcript": "I can't be persistent forever, you know. You can't not have a job forever, you know. I gotta do something like, you gotta make money and get food on the table.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.3,
+      "text": "I can't be persistent forever, you know. You can't not have a job forever, you know. I gotta do something like,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.668,
+      "sentiment_score": -0.2711,
+      "pitch_mean": 338.78
+    },
+    {
+      "start_time": 6.3,
+      "end_time": 10.8,
+      "text": "you gotta make money and get food on the table.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.283,
+      "sentiment_score": 0.056,
+      "pitch_mean": 329.22
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1075,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 170.26,
+    "avg_pitch": 334.61
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro04",
+    "utterance_id": "Ses02M_impro04_M011",
+    "transcript_ground_truth": "I mean, I can't- I can't be persistent forever, you know, you can't not have a job forever, you know, I've got- I've got to do something, I've got to make money and get food on the table."
+  }
+}

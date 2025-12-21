@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro04_M024",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:59:34.159860",
+  "duration_seconds": 4.13,
+  "transcript": "You know I would never let that happen. I wouldn't let that happen.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "You know I would never let that happen. I wouldn't let that happen.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.453,
+      "sentiment_score": -0.6501,
+      "pitch_mean": 317.52
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6501,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 188.86,
+    "avg_pitch": 315.41
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro04",
+    "utterance_id": "Ses05F_impro04_M024",
+    "transcript_ground_truth": "You know I would never let that happen.  I wouldn't let that happen."
+  }
+}

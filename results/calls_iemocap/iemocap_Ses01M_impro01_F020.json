@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro01_F020",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:48:13.801349",
+  "duration_seconds": 3.33,
+  "transcript": "Don't talk to me like I'm a child.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Don't talk to me like I'm a child.",
+      "emotion": "anger",
+      "emotion_confidence": 0.924,
+      "sentiment_score": -0.7656,
+      "pitch_mean": 343.52
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7656,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 144.14,
+    "avg_pitch": 329.99
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.0,
+    "arousal": 4.0,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro01",
+    "utterance_id": "Ses01M_impro01_F020",
+    "transcript_ground_truth": "Don't talk to me like I'm a child."
+  }
+}

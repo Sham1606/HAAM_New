@@ -1,0 +1,81 @@
+{
+  "call_id": "iemocap_Ses05M_impro08_M011",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:51:46.832111",
+  "duration_seconds": 9.28,
+  "transcript": "Yeah, well, absolutely. Well, let's just go ahead and just do a basic diagnostic of your system first off. Okay. Can you go down to your start button?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Yeah, well, absolutely.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.539,
+      "sentiment_score": 0.2211,
+      "pitch_mean": 333.13
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 5.0,
+      "text": "Well, let's just go ahead and just do a basic diagnostic",
+      "emotion": "neutral",
+      "emotion_confidence": 0.921,
+      "sentiment_score": -0.0875,
+      "pitch_mean": 326.61
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 6.0,
+      "text": "of your system first off.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.446,
+      "sentiment_score": -0.2788,
+      "pitch_mean": 323.68
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 7.0,
+      "text": "Okay.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.404,
+      "sentiment_score": 0.2809,
+      "pitch_mean": 316.92
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 9.0,
+      "text": "Can you go down to your start button?",
+      "emotion": "joy",
+      "emotion_confidence": 0.459,
+      "sentiment_score": 0.045,
+      "pitch_mean": 350.78
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0361,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.4,
+      "disgust": 0.4,
+      "joy": 0.2
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 181.03,
+    "avg_pitch": 329.69
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro08",
+    "utterance_id": "Ses05M_impro08_M011",
+    "transcript_ground_truth": "Yeah, well, absolutely.  What we can -- let's just go ahead and just do a basic diagnostic of your system first off, okay.  Can you go down to your start button?"
+  }
+}

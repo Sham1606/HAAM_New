@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses02M_impro03_M024",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:50:56.366912",
+  "duration_seconds": 6.67,
+  "transcript": "Yeah, yeah. Not too sure where yet, I guess, you know. I kind of got to figure some stuff out here first.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.76,
+      "text": "Yeah, yeah.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.597,
+      "sentiment_score": 0.3124,
+      "pitch_mean": 336.1
+    },
+    {
+      "start_time": 1.76,
+      "end_time": 3.76,
+      "text": "Not too sure where yet, I guess, you know.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.935,
+      "sentiment_score": -0.0125,
+      "pitch_mean": 333.52
+    },
+    {
+      "start_time": 3.76,
+      "end_time": 6.64,
+      "text": "I kind of got to figure some stuff out here first.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.86,
+      "sentiment_score": -0.0848,
+      "pitch_mean": 338.04
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0717,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 197.87,
+    "avg_pitch": 335.41
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro03",
+    "utterance_id": "Ses02M_impro03_M024",
+    "transcript_ground_truth": "Yea, yea, I'm not too sure where yet I guess you know, I kind of got to figure some stuff out here first"
+  }
+}

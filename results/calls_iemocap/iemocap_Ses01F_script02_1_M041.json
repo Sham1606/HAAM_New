@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01F_script02_1_M041",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:39:39.583561",
+  "duration_seconds": 10.11,
+  "transcript": "And they're swimming right now. To this very point, where we stand, for this huge celebration of like sex and death.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.24,
+      "text": "And they're swimming right now.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.919,
+      "sentiment_score": 0.4481,
+      "pitch_mean": 331.52
+    },
+    {
+      "start_time": 3.24,
+      "end_time": 10.0,
+      "text": "To this very point, where we stand, for this huge celebration of like sex and death.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.736,
+      "sentiment_score": -0.482,
+      "pitch_mean": 328.05
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0169,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 124.69,
+    "avg_pitch": 328.8
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_1",
+    "utterance_id": "Ses01F_script02_1_M041",
+    "transcript_ground_truth": "And they are swimming right now to this very point where we stand for this huge celebration of sex and death."
+  }
+}

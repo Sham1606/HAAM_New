@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01F_script01_3_M007",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:36:18.366913",
+  "duration_seconds": 9.17,
+  "transcript": "So, would you want to? I mean, I guess you have to know it's kind of why I asked you to come.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "So, would you want to?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.428,
+      "sentiment_score": 0.0082,
+      "pitch_mean": 325.08
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 8.0,
+      "text": "I mean, I guess you have to know it's kind of why I asked you to come.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.875,
+      "sentiment_score": 0.1563,
+      "pitch_mean": 334.22
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0822,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 143.95,
+    "avg_pitch": 327.48
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_3",
+    "utterance_id": "Ses01F_script01_3_M007",
+    "transcript_ground_truth": "So would you want to?  I mean, I guess you have to know that's kind of why I asked you to come?"
+  }
+}

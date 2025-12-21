@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro07_F034",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:25:50.927996",
+  "duration_seconds": 2.44,
+  "transcript": "I know you'd get in through it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I know you'd get in through it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.85,
+      "sentiment_score": 0.832,
+      "pitch_mean": 359.29
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.832,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 172.03,
+    "avg_pitch": 358.24
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro07",
+    "utterance_id": "Ses03F_impro07_F034",
+    "transcript_ground_truth": "[LAUGHTER]. No, you'd get used to it."
+  }
+}

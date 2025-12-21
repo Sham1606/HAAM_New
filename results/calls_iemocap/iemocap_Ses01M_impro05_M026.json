@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01M_impro05_M026",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:56:43.802824",
+  "duration_seconds": 6.72,
+  "transcript": "There'll be a lot more than what you're doing sitting here and just give me lip service I'd like to go back to at least do some aggressive searching for my stuff",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.48,
+      "text": "There'll be a lot more than what you're doing sitting here and just give me lip service",
+      "emotion": "neutral",
+      "emotion_confidence": 0.918,
+      "sentiment_score": -0.6138,
+      "pitch_mean": 342.12
+    },
+    {
+      "start_time": 3.48,
+      "end_time": 6.2,
+      "text": "I'd like to go back to at least do some aggressive searching for my stuff",
+      "emotion": "anger",
+      "emotion_confidence": 0.515,
+      "sentiment_score": 0.0842,
+      "pitch_mean": 358.42
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2648,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 285.71,
+    "avg_pitch": 351.87
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 5.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro05",
+    "utterance_id": "Ses01M_impro05_M026",
+    "transcript_ground_truth": "It'll be a lot more than what you're doing sitting here and just give me lip service.  I'd like to go back at least do some aggressive searching for my stuff."
+  }
+}

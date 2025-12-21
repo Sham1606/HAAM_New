@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro03_M003",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:53:10.501745",
+  "duration_seconds": 7.62,
+  "transcript": "this guy yeah he will leave it she said yes to yeah she said yes",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.6,
+      "text": "this guy yeah he will leave it she said yes to yeah she said yes",
+      "emotion": "neutral",
+      "emotion_confidence": 0.901,
+      "sentiment_score": 0.1382,
+      "pitch_mean": 350.13
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1382,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 118.03,
+    "avg_pitch": 347.84
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 5.0,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro03",
+    "utterance_id": "Ses03M_impro03_M003",
+    "transcript_ground_truth": "This guy. Yeah.  Can you believe it? She said yes too. Yeah.  She said yes."
+  }
+}

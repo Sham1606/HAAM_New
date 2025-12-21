@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro02_M017",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:50:36.032736",
+  "duration_seconds": 6.36,
+  "transcript": "It is. It is. It is. It is. It is. It is. It is. I'm going to write you every day.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.76,
+      "text": "It is. It is. It is. It is. It is. It is. It is. I'm going to write you every day.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.902,
+      "sentiment_score": 0.5299,
+      "pitch_mean": 333.71
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5299,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 198.11,
+    "avg_pitch": 331.45
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro02",
+    "utterance_id": "Ses04M_impro02_M017",
+    "transcript_ground_truth": "It is. It is. It is. It is. I'm going to write you every day."
+  }
+}

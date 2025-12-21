@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script02_1_M031",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:38:49.068966",
+  "duration_seconds": 4.5,
+  "transcript": "I don't get it. The first time we came here you said it was the past night of your life",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.12,
+      "text": "I don't get it. The first time we came here you said it was the past night of your life",
+      "emotion": "neutral",
+      "emotion_confidence": 0.729,
+      "sentiment_score": -0.5851,
+      "pitch_mean": 334.47
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5851,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 266.67,
+    "avg_pitch": 334.16
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script02_1",
+    "utterance_id": "Ses02F_script02_1_M031",
+    "transcript_ground_truth": "I don't get it.  The first time we came here, you said it was the best night of your life."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro08b_M006",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:35:53.954411",
+  "duration_seconds": 2.52,
+  "transcript": "I cut this as a bone turned on.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I cut this as a bone turned on.",
+      "emotion": "joy",
+      "emotion_confidence": 0.464,
+      "sentiment_score": -0.1681,
+      "pitch_mean": 375.09
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1681,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 190.48,
+    "avg_pitch": 363.56
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro08b",
+    "utterance_id": "Ses03M_impro08b_M006",
+    "transcript_ground_truth": "Is the phone turned on?"
+  }
+}

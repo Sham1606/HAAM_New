@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_script01_2_M009",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:41:55.287343",
+  "duration_seconds": 5.19,
+  "transcript": "Look at how nice the day is. What are we arguing for?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Look at how nice the day is.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.41,
+      "sentiment_score": 0.9767,
+      "pitch_mean": 323.41
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 5.0,
+      "text": "What are we arguing for?",
+      "emotion": "sadness",
+      "emotion_confidence": 0.663,
+      "sentiment_score": -0.1869,
+      "pitch_mean": 313.79
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3949,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "sadness": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 138.61,
+    "avg_pitch": 319.22
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_2",
+    "utterance_id": "Ses03M_script01_2_M009",
+    "transcript_ground_truth": "Look at how nice the day is.  What are we arguing for?"
+  }
+}

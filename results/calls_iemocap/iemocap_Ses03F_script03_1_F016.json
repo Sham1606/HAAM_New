@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script03_1_F016",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:42:46.795828",
+  "duration_seconds": 2.44,
+  "transcript": "Oh, well that's serious enough.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Oh, well that's serious enough.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.55,
+      "sentiment_score": -0.2557,
+      "pitch_mean": 322.42
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2557,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 122.95,
+    "avg_pitch": 322.96
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script03_1",
+    "utterance_id": "Ses03F_script03_1_F016",
+    "transcript_ground_truth": "Well, that's serious enough."
+  }
+}

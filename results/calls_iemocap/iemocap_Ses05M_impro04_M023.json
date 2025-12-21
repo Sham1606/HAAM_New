@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_impro04_M023",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:42:12.149149",
+  "duration_seconds": 6.85,
+  "transcript": "I want to make some money. I need to make some money. I got to pay bills. I owe people money. A lot of people money. I need to make some money.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.72,
+      "text": "I want to make some money. I need to make some money. I got to pay bills. I owe people money.",
+      "emotion": "anger",
+      "emotion_confidence": 0.395,
+      "sentiment_score": 0.1178,
+      "pitch_mean": 334.78
+    },
+    {
+      "start_time": 3.72,
+      "end_time": 6.4,
+      "text": "A lot of people money. I need to make some money.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.348,
+      "sentiment_score": 0.1307,
+      "pitch_mean": 329.03
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1243,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 280.29,
+    "avg_pitch": 330.04
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro04",
+    "utterance_id": "Ses05M_impro04_M023",
+    "transcript_ground_truth": "I want to make some money.  I need to make some money.  I've got to pay some bills, I owe people money.  I owe lots of people money.  I need to make some money."
+  }
+}

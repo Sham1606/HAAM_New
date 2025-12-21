@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script01_1_M006",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:00:56.458248",
+  "duration_seconds": 1.85,
+  "transcript": "I guess he is.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I guess he is.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.954,
+      "sentiment_score": 0.0179,
+      "pitch_mean": 311.37
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0179,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 129.73,
+    "avg_pitch": 311.37
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script01_1",
+    "utterance_id": "Ses02M_script01_1_M006",
+    "transcript_ground_truth": "I guess he is."
+  }
+}

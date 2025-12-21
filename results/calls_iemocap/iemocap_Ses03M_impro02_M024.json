@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_impro02_M024",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:51:01.738633",
+  "duration_seconds": 3.3,
+  "transcript": "Honey, after a year I can be back. You see.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Honey, after a year I can be back.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.66,
+      "sentiment_score": 0.7453,
+      "pitch_mean": 317.39
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "You see.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.755,
+      "sentiment_score": 0.1332,
+      "pitch_mean": 302.05
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4393,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 181.65,
+    "avg_pitch": 312.72
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro02",
+    "utterance_id": "Ses03M_impro02_M024",
+    "transcript_ground_truth": "Honey after a year I can be back."
+  }
+}

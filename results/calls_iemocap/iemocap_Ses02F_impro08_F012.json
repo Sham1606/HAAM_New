@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses02F_impro08_F012",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:30:17.850631",
+  "duration_seconds": 12.88,
+  "transcript": "Yes, I completely understand. Actually our airline only uses five star hotels and above except we charge at a three star hotel rate because as a corporation we're able to get a deal from the hotels themselves.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Yes, I completely understand.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.814,
+      "sentiment_score": 0.562,
+      "pitch_mean": 341.09
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 7.86,
+      "text": "Actually our airline only uses five star hotels and above except we charge at a three",
+      "emotion": "neutral",
+      "emotion_confidence": 0.899,
+      "sentiment_score": 0.1039,
+      "pitch_mean": 345.82
+    },
+    {
+      "start_time": 7.86,
+      "end_time": 12.8,
+      "text": "star hotel rate because as a corporation we're able to get a deal from the hotels themselves.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.455,
+      "sentiment_score": 0.1883,
+      "pitch_mean": 344.91
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2847,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "disgust": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 172.38,
+    "avg_pitch": 347.37
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro08",
+    "utterance_id": "Ses02F_impro08_F012",
+    "transcript_ground_truth": "Yes, I completely understand.  Actually, our-our airline only uses five star hotel and above.  Except we charge at a three star hotel rate because, as a corporation, we are able to get a deal from the hotels themselves."
+  }
+}

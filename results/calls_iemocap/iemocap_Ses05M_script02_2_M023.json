@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script02_2_M023",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:09:22.382120",
+  "duration_seconds": 5.72,
+  "transcript": "Kapoodle, a back rub, a spa, suicide pack, what? What, Carla, what the hell do you want?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.2,
+      "text": "Kapoodle, a back rub, a spa, suicide pack, what? What, Carla, what the hell do you want?",
+      "emotion": "joy",
+      "emotion_confidence": 0.494,
+      "sentiment_score": -0.8738,
+      "pitch_mean": 352.78
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8738,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 178.32,
+    "avg_pitch": 348.73
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.6667,
+    "arousal": 4.0,
+    "dominance": 3.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script02_2",
+    "utterance_id": "Ses05M_script02_2_M023",
+    "transcript_ground_truth": "A poodle, a backrub, a spa, a suicide pack?  What, Carla, what the hell do you want?"
+  }
+}

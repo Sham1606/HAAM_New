@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script03_2_F000",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:12:44.302636",
+  "duration_seconds": 2.15,
+  "transcript": "Oh, you knew there was nothing in that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Oh, you knew there was nothing in that.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.742,
+      "sentiment_score": -0.2415,
+      "pitch_mean": 341.24
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2415,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 223.26,
+    "avg_pitch": 344.76
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script03_2",
+    "utterance_id": "Ses05M_script03_2_F000",
+    "transcript_ground_truth": "Oh You knew there was nothing in that."
+  }
+}

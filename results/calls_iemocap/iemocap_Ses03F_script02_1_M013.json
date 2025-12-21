@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03F_script02_1_M013",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:37:37.346982",
+  "duration_seconds": 5.24,
+  "transcript": "We should have brought the blanket. Why didn't we bring the blanket, our blanket?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "We should have brought the blanket.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.436,
+      "sentiment_score": -0.0397,
+      "pitch_mean": 336.96
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 5.0,
+      "text": "Why didn't we bring the blanket, our blanket?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.33,
+      "sentiment_score": -0.4666,
+      "pitch_mean": 341.94
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2532,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 160.17,
+    "avg_pitch": 339.6
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_1",
+    "utterance_id": "Ses03F_script02_1_M013",
+    "transcript_ground_truth": "We should have brought the blanket. Oh, why didn't we bring the blanket? Our blanket."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script01_1_M005",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:14:43.543985",
+  "duration_seconds": 3.22,
+  "transcript": "I could hear him right through the floor in my room.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I could hear him right through the floor in my room.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.716,
+      "sentiment_score": -0.3393,
+      "pitch_mean": 312.38
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3393,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 204.97,
+    "avg_pitch": 311.55
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_1",
+    "utterance_id": "Ses05F_script01_1_M005",
+    "transcript_ground_truth": "I could hear him right through the floor of my room."
+  }
+}

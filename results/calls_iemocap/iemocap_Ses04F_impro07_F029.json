@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro07_F029",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:13:33.415177",
+  "duration_seconds": 2.62,
+  "transcript": "And I got accepted to USC party.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "And I got accepted to USC party.",
+      "emotion": "joy",
+      "emotion_confidence": 0.968,
+      "sentiment_score": 0.7909,
+      "pitch_mean": 353.91
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.7909,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 160.31,
+    "avg_pitch": 340.1
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro07",
+    "utterance_id": "Ses04F_impro07_F029",
+    "transcript_ground_truth": "An I got accepted to U.S.C. party."
+  }
+}

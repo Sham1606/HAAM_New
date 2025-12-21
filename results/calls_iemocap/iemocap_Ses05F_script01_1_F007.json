@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script01_1_F007",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:13:10.719192",
+  "duration_seconds": 5.13,
+  "transcript": "He's getting just like after Larry died. He's having dreams. He's walking around at night.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "He's getting just like after Larry died. He's having dreams. He's walking around at night.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.372,
+      "sentiment_score": -0.074,
+      "pitch_mean": 328.63
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.074,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 175.44,
+    "avg_pitch": 328.6
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_1",
+    "utterance_id": "Ses05F_script01_1_F007",
+    "transcript_ground_truth": "It's getting just like after Larry died, he's having dreams, he's walking around at night."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script02_2_M027",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:41:33.382093",
+  "duration_seconds": 3.1,
+  "transcript": "Jesus welcome to the human race.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.8,
+      "text": "Jesus welcome to the human race.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.647,
+      "sentiment_score": 0.8157,
+      "pitch_mean": 330.19
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.8157,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 116.03,
+    "avg_pitch": 332.67
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_2",
+    "utterance_id": "Ses03F_script02_2_M027",
+    "transcript_ground_truth": "Jesus, welcome to the human race."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro01_F003",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:15:05.855258",
+  "duration_seconds": 1.5,
+  "transcript": "You did.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "You did.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.731,
+      "sentiment_score": 0.1917,
+      "pitch_mean": 335.41
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1917,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 80.13,
+    "avg_pitch": 335.41
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro01",
+    "utterance_id": "Ses01F_impro01_F003",
+    "transcript_ground_truth": "You did."
+  }
+}

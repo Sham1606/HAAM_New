@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses04M_impro01_M022",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:47:50.936302",
+  "duration_seconds": 3.93,
+  "transcript": "I love you. Please, will you please please just grab a form. Would you like?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 0.84,
+      "text": "I love you.",
+      "emotion": "joy",
+      "emotion_confidence": 0.957,
+      "sentiment_score": 0.9198,
+      "pitch_mean": 355.35
+    },
+    {
+      "start_time": 0.84,
+      "end_time": 3.68,
+      "text": "Please, will you please please just grab a form.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.807,
+      "sentiment_score": -0.064,
+      "pitch_mean": 325.26
+    },
+    {
+      "start_time": 3.68,
+      "end_time": 4.52,
+      "text": "Would you like?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.775,
+      "sentiment_score": 0.1473,
+      "pitch_mean": 327.92
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3344,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "joy": 0.333,
+      "neutral": 0.667
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 229.01,
+    "avg_pitch": 327.92
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro01",
+    "utterance_id": "Ses04M_impro01_M022",
+    "transcript_ground_truth": "Please, will you please -- will you please just grab the form?"
+  }
+}

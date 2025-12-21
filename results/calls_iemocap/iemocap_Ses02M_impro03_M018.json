@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro03_M018",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:50:42.904915",
+  "duration_seconds": 1.65,
+  "transcript": "Now, but it was good.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Now, but it was good.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.7893,
+      "pitch_mean": 341.54
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.7893,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 182.09,
+    "avg_pitch": 341.54
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro03",
+    "utterance_id": "Ses02M_impro03_M018",
+    "transcript_ground_truth": "No, but it was good."
+  }
+}

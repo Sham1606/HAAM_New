@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script02_2_M035",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:50:57.403619",
+  "duration_seconds": 2.85,
+  "transcript": "Time to try and just do the best I can.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Time to try and just do the best I can.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.926,
+      "sentiment_score": 0.5331,
+      "pitch_mean": 320.86
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5331,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 210.9,
+    "avg_pitch": 322.45
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.3333,
+    "arousal": 2.3333,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_2",
+    "utterance_id": "Ses03M_script02_2_M035",
+    "transcript_ground_truth": "I'm trying to do the best I can."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_script01_3_F004",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:42:25.135411",
+  "duration_seconds": 6.17,
+  "transcript": "No, I'm not sorry. But I'm not gonna stay.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "No, I'm not sorry.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.67,
+      "sentiment_score": -0.6437,
+      "pitch_mean": 326.68
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "But I'm not gonna stay.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.634,
+      "sentiment_score": -0.5284,
+      "pitch_mean": 328.56
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.586,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 87.5,
+    "avg_pitch": 326.67
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_3",
+    "utterance_id": "Ses03M_script01_3_F004",
+    "transcript_ground_truth": "No.  I'm not sorry.  But I'm not going to stay."
+  }
+}

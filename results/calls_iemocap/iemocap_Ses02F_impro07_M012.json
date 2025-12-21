@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro07_M012",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:29:12.243365",
+  "duration_seconds": 3.15,
+  "transcript": "Yeah, yeah, yeah, that's a prestigious school.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Yeah, yeah, yeah, that's a prestigious school.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.665,
+      "sentiment_score": 0.7622,
+      "pitch_mean": 339.38
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.7622,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 133.33,
+    "avg_pitch": 339.07
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro07",
+    "utterance_id": "Ses02F_impro07_M012",
+    "transcript_ground_truth": "Yeah. Hey. Prestigious school."
+  }
+}

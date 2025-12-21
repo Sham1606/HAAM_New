@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro01_M024",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:47:56.671052",
+  "duration_seconds": 4.02,
+  "transcript": "Okay fine, I'll go over there. Thanks a lot. You've been really helpful.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Okay fine, I'll go over there. Thanks a lot. You've been really helpful.",
+      "emotion": "anger",
+      "emotion_confidence": 0.408,
+      "sentiment_score": 0.9555,
+      "pitch_mean": 332.58
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9555,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 194.03,
+    "avg_pitch": 330.94
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro01",
+    "utterance_id": "Ses04M_impro01_M024",
+    "transcript_ground_truth": "Okay, fine.  I'll go over there.  Thanks, a lot.  You've been really helpful."
+  }
+}

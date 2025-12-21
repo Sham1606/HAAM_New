@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro03_M015",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:20:21.669506",
+  "duration_seconds": 4.88,
+  "transcript": "No, you deserve to cry. I mean, tears of happiness.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "No, you deserve to cry. I mean, tears of happiness.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.627,
+      "pitch_mean": 329.86
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.627,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 122.97,
+    "avg_pitch": 329.86
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro03",
+    "utterance_id": "Ses03F_impro03_M015",
+    "transcript_ground_truth": "No, you deserve to cry. I mean, tears of happiness."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_impro03_M026",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:39:06.123703",
+  "duration_seconds": 3.14,
+  "transcript": "She wants grandkids. So we'll be working on that right away.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "She wants grandkids.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.459,
+      "sentiment_score": 0.0893,
+      "pitch_mean": 318.74
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 3.0,
+      "text": "So we'll be working on that right away.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.959,
+      "sentiment_score": 0.4092,
+      "pitch_mean": 331.44
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2493,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 210.19,
+    "avg_pitch": 326.98
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 3.6667,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro03",
+    "utterance_id": "Ses05M_impro03_M026",
+    "transcript_ground_truth": "She wants grandkids. So we'll be working on that right away."
+  }
+}

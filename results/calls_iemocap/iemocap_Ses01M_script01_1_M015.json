@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01M_script01_1_M015",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:03:06.419289",
+  "duration_seconds": 10.68,
+  "transcript": "Yeah, okay, all right, all right. Listen. Um... You know why I asked Annie here, right?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Yeah, okay, all right, all right. Listen. Um...",
+      "emotion": "disgust",
+      "emotion_confidence": 0.325,
+      "sentiment_score": 0.4545,
+      "pitch_mean": 335.88
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 10.0,
+      "text": "You know why I asked Annie here, right?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.453,
+      "sentiment_score": 0.0211,
+      "pitch_mean": 333.3
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2378,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 89.89,
+    "avg_pitch": 334.76
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 3.0,
+    "arousal": 2.6667,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_1",
+    "utterance_id": "Ses01M_script01_1_M015",
+    "transcript_ground_truth": "Yeah, okay all right, all right.  Listen, um, you know why I asked Annie here, right?"
+  }
+}

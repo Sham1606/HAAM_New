@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro04_M022",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:59:30.463458",
+  "duration_seconds": 3.94,
+  "transcript": "Well, exactly. Money's not everything.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Well, exactly. Money's not everything.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.884,
+      "sentiment_score": -0.3989,
+      "pitch_mean": 318.92
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3989,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 76.14,
+    "avg_pitch": 318.92
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro04",
+    "utterance_id": "Ses05F_impro04_M022",
+    "transcript_ground_truth": "Well, exactly.  Money is not everything."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script01_3_F030",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:43:21.591671",
+  "duration_seconds": 2.31,
+  "transcript": "Going on a sit.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.34,
+      "text": "Going on a sit.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.816,
+      "sentiment_score": 0.0616,
+      "pitch_mean": 329.58
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0616,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 103.83,
+    "avg_pitch": 329.58
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 2.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_3",
+    "utterance_id": "Ses03M_script01_3_F030",
+    "transcript_ground_truth": "Geez."
+  }
+}

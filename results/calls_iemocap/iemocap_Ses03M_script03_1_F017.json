@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_script03_1_F017",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:51:52.596468",
+  "duration_seconds": 4.78,
+  "transcript": "What happens if one of us dies? I mean, does the other one still laugh?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "What happens if one of us dies?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.459,
+      "sentiment_score": -0.5665,
+      "pitch_mean": 327.0
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "I mean, does the other one still laugh?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.337,
+      "sentiment_score": 0.0187,
+      "pitch_mean": 349.95
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2739,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 188.19,
+    "avg_pitch": 339.52
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script03_1",
+    "utterance_id": "Ses03M_script03_1_F017",
+    "transcript_ground_truth": "What happens if one of us dies?  I mean, does the other one still laugh?"
+  }
+}

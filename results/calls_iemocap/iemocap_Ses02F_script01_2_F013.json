@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses02F_script01_2_F013",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:34:25.585533",
+  "duration_seconds": 7.22,
+  "transcript": "But why did that happen the very night she came here? She sleeps in his room and his memorial breaks to pieces. Just look, look at it!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.22,
+      "text": "But why did that happen the very night she came here?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.819,
+      "sentiment_score": -0.458,
+      "pitch_mean": 378.42
+    },
+    {
+      "start_time": 2.22,
+      "end_time": 5.28,
+      "text": "She sleeps in his room and his memorial breaks to pieces.",
+      "emotion": "anger",
+      "emotion_confidence": 0.508,
+      "sentiment_score": -0.8204,
+      "pitch_mean": 361.94
+    },
+    {
+      "start_time": 5.28,
+      "end_time": 6.6,
+      "text": "Just look, look at it!",
+      "emotion": "anger",
+      "emotion_confidence": 0.604,
+      "sentiment_score": 0.4979,
+      "pitch_mean": 373.19
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2602,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "neutral": 0.333,
+      "anger": 0.667
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 224.38,
+    "avg_pitch": 366.89
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.6667,
+    "arousal": 4.0,
+    "dominance": 3.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_2",
+    "utterance_id": "Ses02F_script01_2_F013",
+    "transcript_ground_truth": "But why did that happen the very night she came here?  She sleeps in his room and his memorial breaks to pieces.  Just look.  Look at it."
+  }
+}

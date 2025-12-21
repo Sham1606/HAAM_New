@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro07_M011",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:00:38.279155",
+  "duration_seconds": 3.14,
+  "transcript": "Professional staff bar player.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Professional staff bar player.",
+      "emotion": "joy",
+      "emotion_confidence": 0.563,
+      "sentiment_score": 0.4451,
+      "pitch_mean": 354.0
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4451,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 76.49,
+    "avg_pitch": 353.7
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro07",
+    "utterance_id": "Ses01M_impro07_M011",
+    "transcript_ground_truth": "Professional softball player Malibu. [LAUGHTER]"
+  }
+}

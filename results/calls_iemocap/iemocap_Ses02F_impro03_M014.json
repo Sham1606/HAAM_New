@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro03_M014",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:22:54.885440",
+  "duration_seconds": 1.44,
+  "transcript": "That's great, yeah.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "That's great, yeah.",
+      "emotion": "joy",
+      "emotion_confidence": 0.919,
+      "sentiment_score": 0.979,
+      "pitch_mean": 337.67
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.979,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 125.01,
+    "avg_pitch": 337.67
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 4.0,
+    "arousal": 2.5,
+    "dominance": 2.25
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro03",
+    "utterance_id": "Ses02F_impro03_M014",
+    "transcript_ground_truth": "That's great.  Yeah."
+  }
+}

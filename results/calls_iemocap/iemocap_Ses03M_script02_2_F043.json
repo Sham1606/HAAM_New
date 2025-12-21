@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script02_2_F043",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:49:23.534178",
+  "duration_seconds": 3.9,
+  "transcript": "I'm big old white moon.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I'm big old white moon.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.551,
+      "sentiment_score": 0.4067,
+      "pitch_mean": 324.77
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4067,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 77.01,
+    "avg_pitch": 327.44
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 2.3333,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_2",
+    "utterance_id": "Ses03M_script02_2_F043",
+    "transcript_ground_truth": "Big old white moon."
+  }
+}

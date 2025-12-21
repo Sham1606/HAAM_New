@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script03_2_M042",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:46:56.100245",
+  "duration_seconds": 5.34,
+  "transcript": "No, you're not going out like this no, you're not",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.76,
+      "text": "No, you're not going out like this no, you're not",
+      "emotion": "disgust",
+      "emotion_confidence": 0.404,
+      "sentiment_score": -0.7516,
+      "pitch_mean": 309.54
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7516,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 112.31,
+    "avg_pitch": 319.34
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script03_2",
+    "utterance_id": "Ses03F_script03_2_M042",
+    "transcript_ground_truth": "No, you're not going out like this. No you're not."
+  }
+}

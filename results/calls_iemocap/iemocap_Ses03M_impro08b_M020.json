@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro08b_M020",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:36:38.814871",
+  "duration_seconds": 2.21,
+  "transcript": "and valley through with us.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "and valley through with us.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.364,
+      "sentiment_score": 0.2264,
+      "pitch_mean": 340.33
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2264,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 135.75,
+    "avg_pitch": 340.08
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro08b",
+    "utterance_id": "Ses03M_impro08b_M020",
+    "transcript_ground_truth": "and battling through with us."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro01_F021",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:33:18.765885",
+  "duration_seconds": 4.49,
+  "transcript": "I'm gonna bring security over and have them escort you out",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.08,
+      "text": "I'm gonna bring security over and have them escort you out",
+      "emotion": "disgust",
+      "emotion_confidence": 0.34,
+      "sentiment_score": -0.158,
+      "pitch_mean": 380.99
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.158,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 146.99,
+    "avg_pitch": 374.74
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro01",
+    "utterance_id": "Ses05M_impro01_F021",
+    "transcript_ground_truth": "I'm gonna- I'm gonna bring security over and have them escort you out."
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses02F_script01_1_F032",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:32:18.410403",
+  "duration_seconds": 8.4,
+  "transcript": "I don't want to diagram. He thinks he's coming back Chris. You marry that girl and you're pronouncing him dead.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I don't want to diagram.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.753,
+      "sentiment_score": -0.5691,
+      "pitch_mean": 340.25
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 5.0,
+      "text": "He thinks he's coming back Chris.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.801,
+      "sentiment_score": 0.1062,
+      "pitch_mean": 328.3
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 8.0,
+      "text": "You marry that girl and you're pronouncing him dead.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.517,
+      "sentiment_score": -0.684,
+      "pitch_mean": 357.42
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3823,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.667,
+      "neutral": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 142.86,
+    "avg_pitch": 339.82
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_1",
+    "utterance_id": "Ses02F_script01_1_F032",
+    "transcript_ground_truth": "I don't want a diagram.  Umm-- He thinks he's coming back, Chris.  You marry that girl and you're pronouncing him dead."
+  }
+}

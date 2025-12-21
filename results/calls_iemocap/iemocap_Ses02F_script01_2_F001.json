@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script01_2_F001",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:34:02.789329",
+  "duration_seconds": 4.21,
+  "transcript": "She's been in New York for three and a half years while the sudden",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.72,
+      "text": "She's been in New York for three and a half years while the sudden",
+      "emotion": "neutral",
+      "emotion_confidence": 0.92,
+      "sentiment_score": -0.009,
+      "pitch_mean": 340.46
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.009,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 199.53,
+    "avg_pitch": 338.64
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.3333,
+    "arousal": 3.6667,
+    "dominance": 3.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_2",
+    "utterance_id": "Ses02F_script01_2_F001",
+    "transcript_ground_truth": "She's been in New York for three and half years.  Why all of a sudden?"
+  }
+}

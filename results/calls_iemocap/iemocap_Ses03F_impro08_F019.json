@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses03F_impro08_F019",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:28:00.703965",
+  "duration_seconds": 6.33,
+  "transcript": "No, three days, so it's not three days. It's only been about a day now. It's not exaggerating.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.6,
+      "text": "No, three days, so it's not three days.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.941,
+      "sentiment_score": -0.1855,
+      "pitch_mean": 324.57
+    },
+    {
+      "start_time": 2.6,
+      "end_time": 4.48,
+      "text": "It's only been about a day now.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.875,
+      "sentiment_score": 0.045,
+      "pitch_mean": 324.1
+    },
+    {
+      "start_time": 4.48,
+      "end_time": 5.96,
+      "text": "It's not exaggerating.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.82,
+      "sentiment_score": -0.2671,
+      "pitch_mean": 336.0
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1359,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 170.62,
+    "avg_pitch": 325.6
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro08",
+    "utterance_id": "Ses03F_impro08_F019",
+    "transcript_ground_truth": "No, three days, sir.  It's not three days. It's- It's only been about a day now. Let's not exaggerate."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script01_1b_M033",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:59:02.202740",
+  "duration_seconds": 5.82,
+  "transcript": "I'll get out of it. I'll go get married someplace else. I'll live someplace else. I don't know maybe New York.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.6,
+      "text": "I'll get out of it. I'll go get married someplace else. I'll live someplace else. I don't know maybe New York.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.858,
+      "sentiment_score": -0.0911,
+      "pitch_mean": 335.64
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0911,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 216.5,
+    "avg_pitch": 336.97
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 4.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_1b",
+    "utterance_id": "Ses05M_script01_1b_M033",
+    "transcript_ground_truth": "I'll get out.  I'll go get married someplace else, I- I'll live someplace else, maybe New York."
+  }
+}

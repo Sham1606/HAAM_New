@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04F_impro01_M006",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T11:58:41.369215",
+  "duration_seconds": 3.83,
+  "transcript": "and I gotta work here all day long, okay? I gotta deal with you people all day.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.4,
+      "text": "and I gotta work here all day long, okay?",
+      "emotion": "anger",
+      "emotion_confidence": 0.396,
+      "sentiment_score": -0.5219,
+      "pitch_mean": 360.83
+    },
+    {
+      "start_time": 2.4,
+      "end_time": 4.08,
+      "text": "I gotta deal with you people all day.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.8052,
+      "pitch_mean": 353.34
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6636,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 266.19,
+    "avg_pitch": 353.34
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro01",
+    "utterance_id": "Ses04F_impro01_M006",
+    "transcript_ground_truth": "and I got to - i got to work here all day long.  Okay.  I've got to deal with you people all day."
+  }
+}

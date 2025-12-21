@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01M_script01_1_M034",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:03:40.458921",
+  "duration_seconds": 4.3,
+  "transcript": "The business, the business doesn't inspire me. Oh.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "The business, the business doesn't inspire me.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.801,
+      "sentiment_score": -0.8548,
+      "pitch_mean": 332.03
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 5.0,
+      "text": "Oh.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.689,
+      "sentiment_score": 0.1028,
+      "pitch_mean": 334.14
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.376,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 111.63,
+    "avg_pitch": 334.14
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.6667,
+    "arousal": 2.6667,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_1",
+    "utterance_id": "Ses01M_script01_1_M034",
+    "transcript_ground_truth": "Business?  The business doesn't inspire me."
+  }
+}

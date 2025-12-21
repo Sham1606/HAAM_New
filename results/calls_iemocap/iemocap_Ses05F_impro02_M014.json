@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05F_impro02_M014",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:49:12.981310",
+  "duration_seconds": 4.21,
+  "transcript": "I don't understand why it would just do this something like this. No, I know.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.5,
+      "text": "I don't understand why it would just do this something like this.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.886,
+      "sentiment_score": -0.8896,
+      "pitch_mean": 327.88
+    },
+    {
+      "start_time": 3.5,
+      "end_time": 4.5,
+      "text": "No, I know.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.0394,
+      "pitch_mean": 334.02
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4251,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 213.59,
+    "avg_pitch": 334.02
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro02",
+    "utterance_id": "Ses05F_impro02_M014",
+    "transcript_ground_truth": "I don't understand why they would just do something like this?"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro06_F005",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:27:03.099258",
+  "duration_seconds": 6.69,
+  "transcript": "I went to see her headstone a week or two ago.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "I went to see her headstone a week or two ago.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.445,
+      "sentiment_score": 0.0523,
+      "pitch_mean": 326.51
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0523,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 98.69,
+    "avg_pitch": 327.54
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro06",
+    "utterance_id": "Ses01F_impro06_F005",
+    "transcript_ground_truth": "I went to see her headstone a week or two ago."
+  }
+}

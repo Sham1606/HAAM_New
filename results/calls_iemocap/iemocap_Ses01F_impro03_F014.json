@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro03_F014",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:18:59.146706",
+  "duration_seconds": 5.74,
+  "transcript": "I have an internet boyfriend. I guess I'll have to jump a little too. Is it cheating? I don't know.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.68,
+      "text": "I have an internet boyfriend. I guess I'll have to jump a little too. Is it cheating? I don't know.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.757,
+      "sentiment_score": -0.1557,
+      "pitch_mean": 353.99
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1557,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 209.06,
+    "avg_pitch": 347.61
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.3333,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro03",
+    "utterance_id": "Ses01F_impro03_F014",
+    "transcript_ground_truth": "I have an internet boyfriend.  I guess I'll have to juggle the two.  Is that cheating?  I don't know. Hmm."
+  }
+}

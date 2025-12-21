@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_impro01_M010",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:33:49.836836",
+  "duration_seconds": 7.83,
+  "transcript": "This is ridiculous. I've been here for 45 minutes just standing in this one line. I took 15 minutes to fill out that form.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.68,
+      "text": "This is ridiculous. I've been here for 45 minutes just standing in this one line.",
+      "emotion": "joy",
+      "emotion_confidence": 0.37,
+      "sentiment_score": -0.9102,
+      "pitch_mean": 337.0
+    },
+    {
+      "start_time": 4.68,
+      "end_time": 7.0,
+      "text": "I took 15 minutes to fill out that form.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.931,
+      "sentiment_score": -0.458,
+      "pitch_mean": 333.49
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6841,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 183.91,
+    "avg_pitch": 336.86
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro01",
+    "utterance_id": "Ses05M_impro01_M010",
+    "transcript_ground_truth": "This is ridiculous.  I've been here for forty five minutes. Just standing in this one line. I took fifteen minutes to fill out that form."
+  }
+}

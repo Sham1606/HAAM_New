@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01M_script02_1_M028",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:09:27.945103",
+  "duration_seconds": 9.8,
+  "transcript": "People in Kansas would have to get plane tickets and make hotel reservations to see this. It's only 40 minutes away. It's too good to pass up.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "People in Kansas would have to get plane tickets and make hotel reservations to see this.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.954,
+      "sentiment_score": -0.6118,
+      "pitch_mean": 337.57
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 10.0,
+      "text": "It's only 40 minutes away. It's too good to pass up.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.881,
+      "sentiment_score": 0.9794,
+      "pitch_mean": 338.1
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1838,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 165.27,
+    "avg_pitch": 338.1
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.5,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script02_1",
+    "utterance_id": "Ses01M_script02_1_M028",
+    "transcript_ground_truth": "People in Kansas would have to get plane tickets and make hotel reservations to see this.  It's only forty minutes away; it's just too good to pass up."
+  }
+}

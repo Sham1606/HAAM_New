@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro04_M014",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:55:42.430682",
+  "duration_seconds": 2.16,
+  "transcript": "You know what this is your fault",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "You know what this is your fault",
+      "emotion": "anger",
+      "emotion_confidence": 0.626,
+      "sentiment_score": -0.8644,
+      "pitch_mean": 316.7
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8644,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 194.45,
+    "avg_pitch": 316.82
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.3333,
+    "arousal": 3.0,
+    "dominance": 3.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro04",
+    "utterance_id": "Ses04M_impro04_M014",
+    "transcript_ground_truth": "You know what, this is your fault."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro08_F008",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:30:09.256744",
+  "duration_seconds": 4.91,
+  "transcript": "I can do that right now for you. No, absolutely. I can take care of you all the way through to the end",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.66,
+      "text": "I can do that right now for you. No, absolutely. I can take care of you all the way through to the end",
+      "emotion": "neutral",
+      "emotion_confidence": 0.882,
+      "sentiment_score": 0.8806,
+      "pitch_mean": 363.95
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.8806,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 281.2,
+    "avg_pitch": 362.37
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro08",
+    "utterance_id": "Ses02F_impro08_F008",
+    "transcript_ground_truth": "I can do that right now for you. No, absolutely.  I can take care of you all the way through to the end."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro04_M025",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:42:17.725504",
+  "duration_seconds": 3.41,
+  "transcript": "Well, right probably not selling car. I don't want to go to jail",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.86,
+      "text": "Well, right probably not selling car. I don't want to go to jail",
+      "emotion": "anger",
+      "emotion_confidence": 0.39,
+      "sentiment_score": -0.7466,
+      "pitch_mean": 336.01
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7466,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 228.74,
+    "avg_pitch": 330.75
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro04",
+    "utterance_id": "Ses05M_impro04_M025",
+    "transcript_ground_truth": "Right, probably not selling pot. I don't want to go to jail."
+  }
+}

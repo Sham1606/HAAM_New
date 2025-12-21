@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_script01_1_M002",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:38:51.473727",
+  "duration_seconds": 9.25,
+  "transcript": "About four in the morning, I heard a crack and I looked out and he was standing right there when it happened.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 8.12,
+      "text": "About four in the morning, I heard a crack and I looked out and he was standing right there",
+      "emotion": "disgust",
+      "emotion_confidence": 0.514,
+      "sentiment_score": 0.0382,
+      "pitch_mean": 323.96
+    },
+    {
+      "start_time": 8.12,
+      "end_time": 8.76,
+      "text": "when it happened.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.675,
+      "sentiment_score": -0.1372,
+      "pitch_mean": 306.07
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0495,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "sadness": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 142.7,
+    "avg_pitch": 322.79
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_1",
+    "utterance_id": "Ses03M_script01_1_M002",
+    "transcript_ground_truth": "About four in the morning.  I heard a crack and I looked out and he was standing right there when it happened."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script02_2_M018",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:50:17.386937",
+  "duration_seconds": 6.54,
+  "transcript": "put in the animals out in the yard and put in the car out of the garage put in my jacket on",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.96,
+      "text": "put in the animals out in the yard and put in the car out of the garage put in my jacket on",
+      "emotion": "neutral",
+      "emotion_confidence": 0.775,
+      "sentiment_score": 0.0388,
+      "pitch_mean": 328.43
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0388,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 201.89,
+    "avg_pitch": 322.78
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_2",
+    "utterance_id": "Ses03M_script02_2_M018",
+    "transcript_ground_truth": "And then I'm putting the animals out in the yard, I'm pulling the car out of the garage, putting my jacket on."
+  }
+}

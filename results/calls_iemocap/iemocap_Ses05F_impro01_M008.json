@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro01_M008",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:46:38.447099",
+  "duration_seconds": 4.99,
+  "transcript": "I don't have those forms, man. I can't help you. That's why you need to go to line 2A.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I don't have those forms, man. I can't help you. That's why you need to go to line 2A.",
+      "emotion": "anger",
+      "emotion_confidence": 0.404,
+      "sentiment_score": -0.8576,
+      "pitch_mean": 343.85
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8576,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 228.46,
+    "avg_pitch": 339.24
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro01",
+    "utterance_id": "Ses05F_impro01_M008",
+    "transcript_ground_truth": "I don't have those forms, ma'am.  I can't help you.  That's why you need to go to line two A."
+  }
+}

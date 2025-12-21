@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_impro05b_M009",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:59:59.658440",
+  "duration_seconds": 3.48,
+  "transcript": "Wow, this isn't in the competent airline, isn't it? Are you...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.68,
+      "text": "Wow, this isn't in the competent airline, isn't it?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.972,
+      "sentiment_score": -0.8536,
+      "pitch_mean": 333.12
+    },
+    {
+      "start_time": 2.68,
+      "end_time": 3.68,
+      "text": "Are you...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.521,
+      "sentiment_score": 0.0637,
+      "pitch_mean": 333.41
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.395,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 189.66,
+    "avg_pitch": 333.41
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro05b",
+    "utterance_id": "Ses03M_impro05b_M009",
+    "transcript_ground_truth": "Wow.  This is an incompetent airline isn't it?  Are you--?"
+  }
+}

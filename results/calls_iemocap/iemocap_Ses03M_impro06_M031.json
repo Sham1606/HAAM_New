@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro06_M031",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:29:14.945414",
+  "duration_seconds": 2.53,
+  "transcript": "I should have met him.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I should have met him.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.567,
+      "sentiment_score": -0.0335,
+      "pitch_mean": 332.08
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0335,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 118.53,
+    "avg_pitch": 332.36
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro06",
+    "utterance_id": "Ses03M_impro06_M031",
+    "transcript_ground_truth": "You should've met him."
+  }
+}

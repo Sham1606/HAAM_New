@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_script03_1_M018",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:15:26.423989",
+  "duration_seconds": 2.65,
+  "transcript": "Yes, yes, with all his might.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.5,
+      "text": "Yes, yes, with all his might.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.443,
+      "sentiment_score": 0.7138,
+      "pitch_mean": 325.71
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.7138,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 135.85,
+    "avg_pitch": 326.15
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script03_1",
+    "utterance_id": "Ses04M_script03_1_M018",
+    "transcript_ground_truth": "Yes.  Yes, with all his might."
+  }
+}

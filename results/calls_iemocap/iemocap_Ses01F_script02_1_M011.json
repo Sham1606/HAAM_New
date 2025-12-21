@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script02_1_M011",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:38:39.444688",
+  "duration_seconds": 6.72,
+  "transcript": "Of course, our flashlight, George's mind, me flashlight, it's too flashlight.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "Of course, our flashlight, George's mind, me flashlight, it's too flashlight.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.851,
+      "sentiment_score": 0.2186,
+      "pitch_mean": 337.78
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2186,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 98.19,
+    "avg_pitch": 336.45
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 2.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_1",
+    "utterance_id": "Ses01F_script02_1_M011",
+    "transcript_ground_truth": "Of course, our flashlight.  What's yours is mine.  Me flashlight es su flashlight."
+  }
+}

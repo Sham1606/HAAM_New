@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses03M_script02_1_F018",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:45:50.590377",
+  "duration_seconds": 9.67,
+  "transcript": "You also could remember that I got sand in my panties. We got an argument over nothing. You got a sore throat and we didn't even get to see the gregions.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.4,
+      "text": "You also could remember that I got sand in my panties.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.907,
+      "sentiment_score": -0.4383,
+      "pitch_mean": 338.99
+    },
+    {
+      "start_time": 4.4,
+      "end_time": 6.72,
+      "text": "We got an argument over nothing.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.413,
+      "sentiment_score": -0.7794,
+      "pitch_mean": 348.81
+    },
+    {
+      "start_time": 6.72,
+      "end_time": 9.2,
+      "text": "You got a sore throat and we didn't even get to see the gregions.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.652,
+      "sentiment_score": -0.8941,
+      "pitch_mean": 358.88
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.704,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 192.31,
+    "avg_pitch": 342.17
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_1",
+    "utterance_id": "Ses03M_script02_1_F018",
+    "transcript_ground_truth": "You also could remember that I got sand in my panties, we got in an argument over nothing, you got a sore throat and we didn't even get to see the Grunions."
+  }
+}

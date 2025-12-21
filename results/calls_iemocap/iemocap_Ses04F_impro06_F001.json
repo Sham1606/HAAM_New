@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses04F_impro06_F001",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:11:32.757043",
+  "duration_seconds": 12.0,
+  "transcript": "You know, it's just... You know, I mean it just happened, I just... It's like I just keep expecting him to walk in, you know?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "You know, it's just...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.808,
+      "sentiment_score": -0.1107,
+      "pitch_mean": 330.26
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 7.0,
+      "text": "You know, I mean it just happened, I just...",
+      "emotion": "disgust",
+      "emotion_confidence": 0.404,
+      "sentiment_score": -0.0285,
+      "pitch_mean": 321.46
+    },
+    {
+      "start_time": 9.0,
+      "end_time": 12.0,
+      "text": "It's like I just keep expecting him to walk in, you know?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.844,
+      "sentiment_score": -0.0541,
+      "pitch_mean": 333.93
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0644,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "disgust": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 125.0,
+    "avg_pitch": 328.16
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro06",
+    "utterance_id": "Ses04F_impro06_F001",
+    "transcript_ground_truth": "You know it's just, I just, you know, I mean it just happened.  I just, like- I just keep expecting him to walk in, you know."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro05a_F016",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:57:22.186049",
+  "duration_seconds": 6.07,
+  "transcript": "Okay, we will find your luggage apparently because it's somehow what what a flight you were taking you are in delta",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.24,
+      "text": "Okay, we will find your luggage apparently because it's somehow what what a flight you were taking you are in delta",
+      "emotion": "neutral",
+      "emotion_confidence": 0.956,
+      "sentiment_score": 0.2264,
+      "pitch_mean": 372.92
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2264,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 207.58,
+    "avg_pitch": 364.82
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro05a",
+    "utterance_id": "Ses03M_impro05a_F016",
+    "transcript_ground_truth": "Okay.  We will find your luggage.  Apparently because it somehow...what flight you were taking, you were on Delta?"
+  }
+}

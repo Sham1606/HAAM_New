@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses04F_impro02_M026",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:01:39.279044",
+  "duration_seconds": 9.73,
+  "transcript": "Well, I can't be okay with it in the same way that you can't not go. It doesn't work that way.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 8.32,
+      "text": "Well, I can't be okay with it in the same way that you can't not go.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.586,
+      "sentiment_score": -0.728,
+      "pitch_mean": 316.11
+    },
+    {
+      "start_time": 8.32,
+      "end_time": 10.32,
+      "text": "It doesn't work that way.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.6022,
+      "pitch_mean": 317.43
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6651,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 129.5,
+    "avg_pitch": 317.43
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro02",
+    "utterance_id": "Ses04F_impro02_M026",
+    "transcript_ground_truth": "Well I can't be okay with it the same way you can't not go.  It just doesn't work that way."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro01_F008",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:46:07.935600",
+  "duration_seconds": 4.36,
+  "transcript": "I'm sorry you have to do things the way you have to do things here we have rules",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.86,
+      "text": "I'm sorry you have to do things the way you have to do things here we have rules",
+      "emotion": "sadness",
+      "emotion_confidence": 0.827,
+      "sentiment_score": -0.6317,
+      "pitch_mean": 335.1
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6317,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 247.71,
+    "avg_pitch": 332.71
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro01",
+    "utterance_id": "Ses04M_impro01_F008",
+    "transcript_ground_truth": "I'm sorry.  You have to do things the way you have to do things here.  We have rules."
+  }
+}

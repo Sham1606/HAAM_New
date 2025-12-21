@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script03_2_F032",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:46:12.507228",
+  "duration_seconds": 2.57,
+  "transcript": "They're laying to niece.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "They're laying to niece.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.716,
+      "sentiment_score": 0.0043,
+      "pitch_mean": 336.38
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0043,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 93.5,
+    "avg_pitch": 334.9
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script03_2",
+    "utterance_id": "Ses01F_script03_2_F032",
+    "transcript_ground_truth": "They are away in Tunis."
+  }
+}

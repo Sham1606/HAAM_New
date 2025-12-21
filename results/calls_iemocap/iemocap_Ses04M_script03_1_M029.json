@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_script03_1_M029",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:15:50.732570",
+  "duration_seconds": 2.1,
+  "transcript": "How long that was a rouse or wasn't it?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "How long that was a rouse or wasn't it?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.855,
+      "sentiment_score": -0.0732,
+      "pitch_mean": 348.34
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0732,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 257.14,
+    "avg_pitch": 349.31
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script03_1",
+    "utterance_id": "Ses04M_script03_1_M029",
+    "transcript_ground_truth": "How -- that was a rouser wasn't it?"
+  }
+}

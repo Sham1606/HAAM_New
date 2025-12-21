@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05F_impro04_F010",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:56:43.769316",
+  "duration_seconds": 7.73,
+  "transcript": "Oh come on that's not what I envisioned for myself On would you settle for being a manager at McDonald's?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.02,
+      "text": "Oh come on that's not what I envisioned for myself",
+      "emotion": "anger",
+      "emotion_confidence": 0.396,
+      "sentiment_score": -0.8239,
+      "pitch_mean": 341.11
+    },
+    {
+      "start_time": 3.02,
+      "end_time": 6.86,
+      "text": "On would you settle for being a manager at McDonald's?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.767,
+      "sentiment_score": 0.0333,
+      "pitch_mean": 349.29
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3953,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 155.24,
+    "avg_pitch": 343.21
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro04",
+    "utterance_id": "Ses05F_impro04_F010",
+    "transcript_ground_truth": "Oh come on, that's not what I envisioned for myself. Honestly, would you settle for being a manager at McDonalds?"
+  }
+}

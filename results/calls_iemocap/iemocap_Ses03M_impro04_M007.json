@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_impro04_M007",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:55:39.282472",
+  "duration_seconds": 6.39,
+  "transcript": "Be a receptionist. Oh, I spent $40,000 a year from my college degree and I'm a receptionist.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Be a receptionist.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.587,
+      "sentiment_score": -0.0316,
+      "pitch_mean": 314.31
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 6.0,
+      "text": "Oh, I spent $40,000 a year from my college degree and I'm a receptionist.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.45,
+      "sentiment_score": -0.3688,
+      "pitch_mean": 330.87
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2002,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 159.63,
+    "avg_pitch": 324.07
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro04",
+    "utterance_id": "Ses03M_impro04_M007",
+    "transcript_ground_truth": "To be a receptionist?  Oh I spent forty thousand dollar a year for my college degree and I'm a receptionist.  God."
+  }
+}

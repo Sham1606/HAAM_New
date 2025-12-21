@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses02F_impro04_M015",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:24:35.590602",
+  "duration_seconds": 12.77,
+  "transcript": "That obviously that's not true though. I mean you you've done this before you've done all the work like this before you know and and You've gotten people saying oh you're so good and like oh you know like all",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.2,
+      "text": "That obviously that's not true though. I mean you you've done this before you've done all the work like this before you know",
+      "emotion": "neutral",
+      "emotion_confidence": 0.783,
+      "sentiment_score": -0.3928,
+      "pitch_mean": 325.7
+    },
+    {
+      "start_time": 7.2,
+      "end_time": 8.7,
+      "text": "and and",
+      "emotion": "neutral",
+      "emotion_confidence": 0.75,
+      "sentiment_score": 0.1643,
+      "pitch_mean": 328.29
+    },
+    {
+      "start_time": 8.7,
+      "end_time": 12.3,
+      "text": "You've gotten people saying oh you're so good and like oh you know like all",
+      "emotion": "disgust",
+      "emotion_confidence": 0.474,
+      "sentiment_score": 0.8883,
+      "pitch_mean": 326.47
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2199,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "disgust": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 187.94,
+    "avg_pitch": 325.89
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro04",
+    "utterance_id": "Ses02F_impro04_M015",
+    "transcript_ground_truth": "That obviously that's not true though.  I mean, you've done this before.  You've done all the work like this before, you know, and and you've gotten people saying oh, you're so good and like you know--"
+  }
+}

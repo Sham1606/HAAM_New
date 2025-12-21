@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04M_impro02_F009",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:48:25.503321",
+  "duration_seconds": 6.59,
+  "transcript": "You won't even know your child when you come back. This... isn't there someone you could talk to?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.6,
+      "text": "You won't even know your child when you come back.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.494,
+      "sentiment_score": -0.4473,
+      "pitch_mean": 342.85
+    },
+    {
+      "start_time": 3.6,
+      "end_time": 6.6,
+      "text": "This... isn't there someone you could talk to?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.714,
+      "sentiment_score": -0.5895,
+      "pitch_mean": 336.67
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5184,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 163.89,
+    "avg_pitch": 336.67
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro02",
+    "utterance_id": "Ses04M_impro02_F009",
+    "transcript_ground_truth": "You won't even know your child when you come back.  This -- isn't there someone you could talk to?"
+  }
+}

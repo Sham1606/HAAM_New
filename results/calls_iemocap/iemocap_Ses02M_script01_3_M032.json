@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses02M_script01_3_M032",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:05:20.438638",
+  "duration_seconds": 20.51,
+  "transcript": "And then I came back and it was incredible. There was no meaning in it here. I mean, the whole thing to them seems to be some sort of bus accident. I went to work with Dad and that rat race again.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.48,
+      "text": "And then I came back and it was incredible.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.912,
+      "sentiment_score": 0.9727,
+      "pitch_mean": 323.88
+    },
+    {
+      "start_time": 5.48,
+      "end_time": 7.84,
+      "text": "There was no meaning in it here.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.701,
+      "sentiment_score": -0.7625,
+      "pitch_mean": 298.24
+    },
+    {
+      "start_time": 7.84,
+      "end_time": 17.12,
+      "text": "I mean, the whole thing to them seems to be some sort of bus accident.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.477,
+      "sentiment_score": -0.7696,
+      "pitch_mean": 312.36
+    },
+    {
+      "start_time": 17.12,
+      "end_time": 20.12,
+      "text": "I went to work with Dad and that rat race again.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.31,
+      "sentiment_score": -0.6494,
+      "pitch_mean": 314.47
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3022,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "neutral": 0.25,
+      "disgust": 0.75
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 122.85,
+    "avg_pitch": 314.75
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script01_3",
+    "utterance_id": "Ses02M_script01_3_M032",
+    "transcript_ground_truth": "Then I came back and it was incredible.  There was no meaning in it here. I mean, the whole thing to them seemed like it's sort of a bus accident.  I went to work with Dad and that rat race again."
+  }
+}

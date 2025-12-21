@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses03M_impro02_F028",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:49:59.557258",
+  "duration_seconds": 12.34,
+  "transcript": "Joe, I'm serious. I don't want to have to have a little girl to tell, ask me every day, where's daddy, where's daddy, and have to tell her that he's away.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Joe, I'm serious.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.416,
+      "sentiment_score": 0.3007,
+      "pitch_mean": 334.4
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 8.0,
+      "text": "I don't want to have to have a little girl to tell, ask me every day, where's daddy,",
+      "emotion": "disgust",
+      "emotion_confidence": 0.431,
+      "sentiment_score": -0.6301,
+      "pitch_mean": 339.92
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 12.0,
+      "text": "where's daddy, and have to tell her that he's away.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.424,
+      "sentiment_score": -0.4947,
+      "pitch_mean": 336.66
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2747,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 150.71,
+    "avg_pitch": 336.53
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro02",
+    "utterance_id": "Ses03M_impro02_F028",
+    "transcript_ground_truth": "Joe I'm serious I don't want to have to have a little girl to tell...asking every day where's daddy, where's daddy and have to tell her that he's away--"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_impro06_M013",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:46:08.642827",
+  "duration_seconds": 10.08,
+  "transcript": "and just gets worse, it just gets worse, everything's bad. All the time, people die, your friends die, family dies, your best friends die.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.34,
+      "text": "and just gets worse, it just gets worse, everything's bad.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.906,
+      "sentiment_score": -0.9411,
+      "pitch_mean": 318.96
+    },
+    {
+      "start_time": 3.34,
+      "end_time": 7.66,
+      "text": "All the time, people die, your friends die, family dies, your best friends die.",
+      "emotion": "joy",
+      "emotion_confidence": 0.4,
+      "sentiment_score": -0.8964,
+      "pitch_mean": 341.01
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9188,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "joy": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 142.86,
+    "avg_pitch": 324.45
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.0,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro06",
+    "utterance_id": "Ses05M_impro06_M013",
+    "transcript_ground_truth": "and it just gets worse.  It just gets worse, everything is bad all the time; people die, your friends die, family dies, your best friends die. it's-"
+  }
+}

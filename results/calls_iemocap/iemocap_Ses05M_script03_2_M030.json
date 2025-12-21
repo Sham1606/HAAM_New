@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05M_script03_2_M030",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:15:39.992418",
+  "duration_seconds": 5.6,
+  "transcript": "You know we could get a really good debate going on about this you know, Intimbrate Tots.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.36,
+      "text": "You know we could get a really good debate going on about this you know,",
+      "emotion": "anger",
+      "emotion_confidence": 0.607,
+      "sentiment_score": 0.4886,
+      "pitch_mean": 332.72
+    },
+    {
+      "start_time": 3.36,
+      "end_time": 5.36,
+      "text": "Intimbrate Tots.",
+      "emotion": "anger",
+      "emotion_confidence": 0.603,
+      "sentiment_score": 0.0974,
+      "pitch_mean": 320.55
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.293,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 182.14,
+    "avg_pitch": 326.45
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 5.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script03_2",
+    "utterance_id": "Ses05M_script03_2_M030",
+    "transcript_ground_truth": "You know, we could get a really good debate going on about this.  You know intemperate tots."
+  }
+}

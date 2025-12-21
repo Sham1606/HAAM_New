@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02M_script01_2_F009",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:02:36.015214",
+  "duration_seconds": 7.55,
+  "transcript": "Nobody in this house dares take her faith away Joe. Strangers might, but not his father, not his brother.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.16,
+      "text": "Nobody in this house dares take her faith away Joe.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.372,
+      "sentiment_score": -0.6268,
+      "pitch_mean": 347.63
+    },
+    {
+      "start_time": 3.16,
+      "end_time": 7.0,
+      "text": "Strangers might, but not his father, not his brother.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.841,
+      "sentiment_score": -0.2262,
+      "pitch_mean": 364.25
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4265,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 150.99,
+    "avg_pitch": 354.56
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.3333,
+    "dominance": 3.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script01_2",
+    "utterance_id": "Ses02M_script01_2_F009",
+    "transcript_ground_truth": "Nobody in this house dares take her faith away Joe. Strangers might, but not his father, not his brother."
+  }
+}

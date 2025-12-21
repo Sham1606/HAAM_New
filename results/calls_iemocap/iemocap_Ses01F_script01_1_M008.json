@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script01_1_M008",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:32:51.985149",
+  "duration_seconds": 8.02,
+  "transcript": "I don't want to argue but it's time he realized that nobody believes Larry is alive.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "I don't want to argue but it's time he realized that nobody believes Larry is alive.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.762,
+      "sentiment_score": -0.5275,
+      "pitch_mean": 326.23
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5275,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 119.64,
+    "avg_pitch": 327.12
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.3333,
+    "arousal": 2.6667,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_1",
+    "utterance_id": "Ses01F_script01_1_M008",
+    "transcript_ground_truth": "I don't want to argue but it's time he realized that nobody believes Larry is alive."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script02_2_M015",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:41:59.685430",
+  "duration_seconds": 5.52,
+  "transcript": "I'm trying to work this backwards and pinpoint the exact moment or we took a turn for the worst here.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "I'm trying to work this backwards and pinpoint the exact moment or we took a turn for the worst here.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.923,
+      "sentiment_score": -0.5579,
+      "pitch_mean": 331.62
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5579,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 217.2,
+    "avg_pitch": 330.73
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_2",
+    "utterance_id": "Ses01F_script02_2_M015",
+    "transcript_ground_truth": "Okay.  I'm trying to work this backwards and pinpoint the exact moment where we took a turn for the worst here."
+  }
+}

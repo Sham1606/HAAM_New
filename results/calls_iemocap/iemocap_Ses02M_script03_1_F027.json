@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script03_1_F027",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:11:37.601111",
+  "duration_seconds": 7.87,
+  "transcript": "The manager came in and found his rolling around on the floor biting and scratching like panther",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "The manager came in and found his rolling around on the floor biting and scratching like panther",
+      "emotion": "disgust",
+      "emotion_confidence": 0.805,
+      "sentiment_score": -0.3043,
+      "pitch_mean": 352.01
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3043,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 129.61,
+    "avg_pitch": 353.34
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script03_1",
+    "utterance_id": "Ses02M_script03_1_F027",
+    "transcript_ground_truth": "The manager came in and found us rolling around on the floor biting and scratching like panthers."
+  }
+}

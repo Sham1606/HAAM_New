@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_script01_1_M008",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:05:47.273984",
+  "duration_seconds": 5.48,
+  "transcript": "being dishonest with him, the kind of thing always pays off and now it's paying off.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "being dishonest with him, the kind of thing always pays off and now it's paying off.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.631,
+      "sentiment_score": -0.6151,
+      "pitch_mean": 324.67
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6151,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 175.18,
+    "avg_pitch": 323.47
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script01_1",
+    "utterance_id": "Ses04M_script01_1_M008",
+    "transcript_ground_truth": "Being dishonest with him.  That kind of thing always pays off and now it's paying off."
+  }
+}

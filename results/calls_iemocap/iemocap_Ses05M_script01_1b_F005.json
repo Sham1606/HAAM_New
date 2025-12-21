@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses05M_script01_1b_F005",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:55:58.413495",
+  "duration_seconds": 9.77,
+  "transcript": "He's dreaming about him again. He's getting just like after Larry died. What's the meaning of that? It's his.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "He's dreaming about him again.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.751,
+      "sentiment_score": 0.1689,
+      "pitch_mean": 306.1
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 5.0,
+      "text": "He's getting just like after Larry died.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.711,
+      "sentiment_score": -0.5776,
+      "pitch_mean": 316.32
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 8.0,
+      "text": "What's the meaning of that?",
+      "emotion": "sadness",
+      "emotion_confidence": 0.711,
+      "sentiment_score": -0.2973,
+      "pitch_mean": 310.16
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 9.0,
+      "text": "It's his.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.909,
+      "sentiment_score": 0.0736,
+      "pitch_mean": 310.15
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1581,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.75,
+      "sadness": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 116.68,
+    "avg_pitch": 311.15
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_1b",
+    "utterance_id": "Ses05M_script01_1b_F005",
+    "transcript_ground_truth": "He's dreaming about him again.  He's getting just like after Larry died. What's the meaning of that?"
+  }
+}

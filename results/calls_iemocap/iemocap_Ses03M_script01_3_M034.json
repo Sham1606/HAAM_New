@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses03M_script01_3_M034",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:44:46.757628",
+  "duration_seconds": 7.78,
+  "transcript": "It was it. It kind of responsibility. Man for man, you understand me?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It was it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.891,
+      "sentiment_score": 0.2636,
+      "pitch_mean": 310.71
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 5.0,
+      "text": "It kind of responsibility.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.461,
+      "sentiment_score": -0.1162,
+      "pitch_mean": 316.64
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 8.0,
+      "text": "Man for man, you understand me?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.1886,
+      "pitch_mean": 314.72
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.112,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "disgust": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 100.26,
+    "avg_pitch": 314.72
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_3",
+    "utterance_id": "Ses03M_script01_3_M034",
+    "transcript_ground_truth": "It was a kind of responsibility, man for man.  You understand me?"
+  }
+}

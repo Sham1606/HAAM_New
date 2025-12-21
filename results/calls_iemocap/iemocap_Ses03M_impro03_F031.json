@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro03_F031",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:52:41.639075",
+  "duration_seconds": 5.8,
+  "transcript": "You don't get buried into in a half weeks. It doesn't work that way. You don't even have sex into in a half weeks.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "You don't get buried into in a half weeks. It doesn't work that way. You don't even have sex into in a half weeks.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.823,
+      "sentiment_score": -0.5387,
+      "pitch_mean": 357.66
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5387,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 248.46,
+    "avg_pitch": 352.47
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro03",
+    "utterance_id": "Ses03M_impro03_F031",
+    "transcript_ground_truth": "No, no, no.  You don't get married in two and a half weeks.  It doesn't work that way.  You don't even have sex----in two and a half weeks."
+  }
+}

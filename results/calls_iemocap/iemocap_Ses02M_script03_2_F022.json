@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script03_2_F022",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:13:17.712505",
+  "duration_seconds": 1.34,
+  "transcript": "They sting.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "They sting.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.358,
+      "sentiment_score": -0.8306,
+      "pitch_mean": 347.25
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8306,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 89.64,
+    "avg_pitch": 345.41
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script03_2",
+    "utterance_id": "Ses02M_script03_2_F022",
+    "transcript_ground_truth": "They sting."
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses02M_script01_2_F010",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:02:38.474458",
+  "duration_seconds": 8.22,
+  "transcript": "I want you to act like he's coming back, both of you. Don't you think I have a notice since he invited her? I won't stand for any nonsense.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.6,
+      "text": "I want you to act like he's coming back, both of you.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.815,
+      "sentiment_score": 0.3946,
+      "pitch_mean": 361.21
+    },
+    {
+      "start_time": 3.6,
+      "end_time": 6.0,
+      "text": "Don't you think I have a notice since he invited her?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.744,
+      "sentiment_score": 0.0115,
+      "pitch_mean": 365.79
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 8.0,
+      "text": "I won't stand for any nonsense.",
+      "emotion": "anger",
+      "emotion_confidence": 0.9,
+      "sentiment_score": -0.7948,
+      "pitch_mean": 355.11
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1296,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "anger": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 211.68,
+    "avg_pitch": 358.95
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.6667,
+    "arousal": 4.0,
+    "dominance": 3.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script01_2",
+    "utterance_id": "Ses02M_script01_2_F010",
+    "transcript_ground_truth": "I want you to act like he's coming back, both of you. Don't you think I haven't noticed since he invited her, I won't stand for any nonsense"
+  }
+}

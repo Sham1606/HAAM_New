@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script01_3_M011",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:06:22.411437",
+  "duration_seconds": 4.35,
+  "transcript": "I'm sorry, I don't really have much of an imagination.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I'm sorry, I don't really have much of an imagination.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.452,
+      "sentiment_score": -0.7988,
+      "pitch_mean": 323.86
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7988,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 137.93,
+    "avg_pitch": 322.05
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 2.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_3",
+    "utterance_id": "Ses01M_script01_3_M011",
+    "transcript_ground_truth": "I'm sorry I don't really have much of an imagination."
+  }
+}

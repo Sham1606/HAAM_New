@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro05b_F008",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:58:58.907280",
+  "duration_seconds": 2.73,
+  "transcript": "the luggage was left in both tomorrow. Therefore,",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.48,
+      "text": "the luggage was left in both tomorrow. Therefore,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.784,
+      "sentiment_score": 0.0212,
+      "pitch_mean": 339.42
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0212,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 176.15,
+    "avg_pitch": 339.51
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro05b",
+    "utterance_id": "Ses03M_impro05b_F008",
+    "transcript_ground_truth": "the luggage was left in Baltimore.  Therefore--"
+  }
+}

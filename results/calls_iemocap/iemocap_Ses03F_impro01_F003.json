@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses03F_impro01_F003",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:15:32.060299",
+  "duration_seconds": 5.22,
+  "transcript": "No, no, no, no, no, no, no. The lady over there, she told me to fill out the front. She said, no, wait in the slime.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.48,
+      "text": "No, no, no, no, no, no, no.",
+      "emotion": "joy",
+      "emotion_confidence": 0.346,
+      "sentiment_score": -0.6023,
+      "pitch_mean": 364.26
+    },
+    {
+      "start_time": 1.48,
+      "end_time": 3.8,
+      "text": "The lady over there, she told me to fill out the front.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.525,
+      "sentiment_score": 0.0306,
+      "pitch_mean": 388.52
+    },
+    {
+      "start_time": 3.8,
+      "end_time": 5.12,
+      "text": "She said, no, wait in the slime.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.829,
+      "sentiment_score": -0.2364,
+      "pitch_mean": 351.13
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2694,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "joy": 0.333,
+      "disgust": 0.667
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 298.57,
+    "avg_pitch": 368.31
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.3333,
+    "arousal": 3.6667,
+    "dominance": 3.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro01",
+    "utterance_id": "Ses03F_impro01_F003",
+    "transcript_ground_truth": "No, no, no, no, no, no. The lady over there, she told me to fill out the front and she said to wait in this line."
+  }
+}

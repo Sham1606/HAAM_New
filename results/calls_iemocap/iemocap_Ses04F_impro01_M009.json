@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro01_M009",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T11:58:49.192562",
+  "duration_seconds": 3.25,
+  "transcript": "What I need you to do is go to the back of the line",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "What I need you to do is go to the back of the line",
+      "emotion": "neutral",
+      "emotion_confidence": 0.944,
+      "sentiment_score": -0.0414,
+      "pitch_mean": 346.5
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0414,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 258.46,
+    "avg_pitch": 343.57
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro01",
+    "utterance_id": "Ses04F_impro01_M009",
+    "transcript_ground_truth": "What I need you to do is go to the back of the line,"
+  }
+}

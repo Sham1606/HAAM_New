@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses05F_script03_1_M023",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:28:55.069100",
+  "duration_seconds": 11.55,
+  "transcript": "I don't mind what you do, see. You can paint your body green all over and dance naked through the palace venom and run out with every man in the world. And I shouldn't say a word as long as I know that you love me best.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.32,
+      "text": "I don't mind what you do, see.",
+      "emotion": "anger",
+      "emotion_confidence": 0.67,
+      "sentiment_score": 0.2316,
+      "pitch_mean": 308.3
+    },
+    {
+      "start_time": 2.32,
+      "end_time": 6.36,
+      "text": "You can paint your body green all over and dance naked through the palace venom and",
+      "emotion": "anger",
+      "emotion_confidence": 0.693,
+      "sentiment_score": 0.1292,
+      "pitch_mean": 336.28
+    },
+    {
+      "start_time": 6.36,
+      "end_time": 8.28,
+      "text": "run out with every man in the world.",
+      "emotion": "anger",
+      "emotion_confidence": 0.455,
+      "sentiment_score": -0.2631,
+      "pitch_mean": 365.95
+    },
+    {
+      "start_time": 8.28,
+      "end_time": 11.28,
+      "text": "And I shouldn't say a word as long as I know that you love me best.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.339,
+      "sentiment_score": 0.7694,
+      "pitch_mean": 348.31
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2168,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.75,
+      "disgust": 0.25
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 244.16,
+    "avg_pitch": 333.5
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script03_1",
+    "utterance_id": "Ses05F_script03_1_M023",
+    "transcript_ground_truth": "I don't mind what you do, see, you could paint your body green all over and dance naked through the Place Vendome and run off with every man in the world.  And I shan't say a word as long as I know that you love me best."
+  }
+}

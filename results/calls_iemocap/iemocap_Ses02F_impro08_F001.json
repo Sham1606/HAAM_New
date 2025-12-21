@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02F_impro08_F001",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:29:56.660628",
+  "duration_seconds": 1.71,
+  "transcript": "Alright sir. I know.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "Alright sir.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.871,
+      "sentiment_score": 0.295,
+      "pitch_mean": 345.16
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 2.0,
+      "text": "I know.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.1268,
+      "pitch_mean": 343.33
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2109,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 140.01,
+    "avg_pitch": 343.33
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 4.0,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro08",
+    "utterance_id": "Ses02F_impro08_F001",
+    "transcript_ground_truth": "All right, sir."
+  }
+}

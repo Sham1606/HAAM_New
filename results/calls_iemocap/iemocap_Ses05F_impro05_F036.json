@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05F_impro05_F036",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:01:52.894553",
+  "duration_seconds": 7.69,
+  "transcript": "So I'm just supposed to oh well oops my luggage is gone and be fine with that and take your stinking $50 voucher",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.6,
+      "text": "So I'm just supposed to oh well oops my luggage is gone and be fine with that and take your",
+      "emotion": "neutral",
+      "emotion_confidence": 0.642,
+      "sentiment_score": -0.5948,
+      "pitch_mean": 349.88
+    },
+    {
+      "start_time": 5.6,
+      "end_time": 7.6,
+      "text": "stinking $50 voucher",
+      "emotion": "joy",
+      "emotion_confidence": 0.358,
+      "sentiment_score": -0.1097,
+      "pitch_mean": 345.96
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3523,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "joy": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 179.46,
+    "avg_pitch": 348.41
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro05",
+    "utterance_id": "Ses05F_impro05_F036",
+    "transcript_ground_truth": "So I'm just supposed to oh, well, oops, my luggage is gone and be fine with that and take your stinking fifty dollar voucher?"
+  }
+}

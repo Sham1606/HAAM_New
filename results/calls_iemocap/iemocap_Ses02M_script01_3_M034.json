@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses02M_script01_3_M034",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:05:26.141926",
+  "duration_seconds": 13.23,
+  "transcript": "I mean, you can take those things out of a war, but when you drive the car, you've got to realize that it came out of the love a man can have for a man. You've got to be a little better because of it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.64,
+      "text": "I mean, you can take those things out of a war, but when you drive the car, you've got",
+      "emotion": "neutral",
+      "emotion_confidence": 0.828,
+      "sentiment_score": -0.074,
+      "pitch_mean": 323.51
+    },
+    {
+      "start_time": 5.64,
+      "end_time": 9.6,
+      "text": "to realize that it came out of the love a man can have for a man.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.777,
+      "sentiment_score": 0.5238,
+      "pitch_mean": 327.29
+    },
+    {
+      "start_time": 9.6,
+      "end_time": 12.08,
+      "text": "You've got to be a little better because of it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.901,
+      "sentiment_score": 0.5686,
+      "pitch_mean": 321.32
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3395,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 204.02,
+    "avg_pitch": 324.97
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script01_3",
+    "utterance_id": "Ses02M_script01_3_M034",
+    "transcript_ground_truth": "I mean, you can take those things out of a war, but when you drive that car, you've gotta realize that it came out of the love a man can have for a man.  You've gotta be a little better because of it."
+  }
+}

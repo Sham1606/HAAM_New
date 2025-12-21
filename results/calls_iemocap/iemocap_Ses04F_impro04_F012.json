@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro04_F012",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:06:22.769485",
+  "duration_seconds": 5.34,
+  "transcript": "Well, don't you understand?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Well, don't you understand?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.376,
+      "sentiment_score": -0.4789,
+      "pitch_mean": 329.39
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4789,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 44.95,
+    "avg_pitch": 328.11
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro04",
+    "utterance_id": "Ses04F_impro04_F012",
+    "transcript_ground_truth": "Well don't you understand that this is-"
+  }
+}

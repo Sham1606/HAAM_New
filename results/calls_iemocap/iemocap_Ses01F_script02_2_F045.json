@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script02_2_F045",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:41:28.755160",
+  "duration_seconds": 4.59,
+  "transcript": "I'm beginning to think this might be the right spot after all.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I'm beginning to think this might be the right spot after all.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.537,
+      "sentiment_score": 0.6723,
+      "pitch_mean": 330.69
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.6723,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 156.76,
+    "avg_pitch": 331.63
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 3.5,
+    "arousal": 1.5,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_2",
+    "utterance_id": "Ses01F_script02_2_F045",
+    "transcript_ground_truth": "I'm beginning to think this might be the right spot after all."
+  }
+}

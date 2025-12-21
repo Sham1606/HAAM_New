@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses04F_script03_2_F044",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:43:49.649320",
+  "duration_seconds": 5.71,
+  "transcript": "I'd rather die in torment. Beat. Brute. Cat swine.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I'd rather die in torment.",
+      "emotion": "anger",
+      "emotion_confidence": 0.495,
+      "sentiment_score": -0.8617,
+      "pitch_mean": 372.91
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "Beat.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.913,
+      "sentiment_score": 0.162,
+      "pitch_mean": 362.32
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 4.0,
+      "text": "Brute.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.827,
+      "sentiment_score": 0.6337,
+      "pitch_mean": 369.14
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 5.0,
+      "text": "Cat swine.",
+      "emotion": "anger",
+      "emotion_confidence": 0.871,
+      "sentiment_score": -0.6278,
+      "pitch_mean": 368.05
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1735,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "neutral": 0.25,
+      "disgust": 0.25
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 94.57,
+    "avg_pitch": 367.84
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.0,
+    "arousal": 5.0,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script03_2",
+    "utterance_id": "Ses04F_script03_2_F044",
+    "transcript_ground_truth": "I'd rather die in torment. Beast.  Brute.  Calf swine."
+  }
+}

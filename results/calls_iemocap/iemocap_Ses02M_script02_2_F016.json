@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02M_script02_2_F016",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:08:23.597855",
+  "duration_seconds": 8.9,
+  "transcript": "We thought I was pregnant and we had a bottle of champagne, but no glasses. You asked me to dance. We kicked off our shoes and you popped the cork.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "We thought I was pregnant and we had a bottle of champagne, but no glasses.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.322,
+      "sentiment_score": -0.076,
+      "pitch_mean": 352.1
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 8.0,
+      "text": "You asked me to dance. We kicked off our shoes and you popped the cork.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.378,
+      "sentiment_score": 0.2018,
+      "pitch_mean": 334.77
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0629,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 202.25,
+    "avg_pitch": 342.53
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script02_2",
+    "utterance_id": "Ses02M_script02_2_F016",
+    "transcript_ground_truth": "We thought I was pregnant and we opened a bottle of champagne but no glasses, you asked me to dance, we kicked off our shoes and you popped the cork."
+  }
+}

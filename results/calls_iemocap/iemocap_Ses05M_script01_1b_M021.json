@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_script01_1b_M021",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:58:30.302972",
+  "duration_seconds": 9.43,
+  "transcript": "I don't know why it is, but every time I reach out for something that I want, I have to pull back because it might hurt somebody else. My whole bloody life time, after time, after time.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "I don't know why it is, but every time I reach out for something that I want, I have to pull back because it might hurt somebody else.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.417,
+      "sentiment_score": -0.8522,
+      "pitch_mean": 330.95
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 10.0,
+      "text": "My whole bloody life time, after time, after time.",
+      "emotion": "anger",
+      "emotion_confidence": 0.931,
+      "sentiment_score": -0.8253,
+      "pitch_mean": 333.74
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8387,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 235.42,
+    "avg_pitch": 333.74
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_1b",
+    "utterance_id": "Ses05M_script01_1b_M021",
+    "transcript_ground_truth": "I don't know why it is but every time I reach out for something that I want, I have to pull back because it might hurt somebody else, my whole bloody life, time after time, after time."
+  }
+}

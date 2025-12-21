@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro06_F019",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:05:24.683415",
+  "duration_seconds": 5.1,
+  "transcript": "Yeah, I don't know. They're gonna do some sort of memorial service or something.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Yeah, I don't know. They're gonna do some sort of memorial service or something.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.413,
+      "sentiment_score": -0.1584,
+      "pitch_mean": 337.36
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1584,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 164.71,
+    "avg_pitch": 331.65
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro06",
+    "utterance_id": "Ses05F_impro06_F019",
+    "transcript_ground_truth": "Yeah, they're going to do some sort of memorial service or something."
+  }
+}

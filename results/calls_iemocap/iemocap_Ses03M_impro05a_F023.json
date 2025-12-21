@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro05a_F023",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:57:38.735528",
+  "duration_seconds": 4.44,
+  "transcript": "Okay, we can get it here in about seven to ten business days.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.24,
+      "text": "Okay, we can get it here in about seven to ten business days.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.951,
+      "sentiment_score": 0.3623,
+      "pitch_mean": 356.23
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3623,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 175.68,
+    "avg_pitch": 357.52
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro05a",
+    "utterance_id": "Ses03M_impro05a_F023",
+    "transcript_ground_truth": "Okay.  We can get it here in about seven to ten business days."
+  }
+}

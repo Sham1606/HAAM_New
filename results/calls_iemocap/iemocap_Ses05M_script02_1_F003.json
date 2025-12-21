@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_script02_1_F003",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:04:04.625420",
+  "duration_seconds": 6.71,
+  "transcript": "I mean, you kept saying my flashlight and the flashlight, like it was only somehow yours. I mean, how is that supposed to make me feel?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "I mean, you kept saying my flashlight and the flashlight, like it was only somehow yours.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.442,
+      "sentiment_score": -0.12,
+      "pitch_mean": 324.73
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 7.0,
+      "text": "I mean, how is that supposed to make me feel?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.4295,
+      "pitch_mean": 328.13
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2747,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 232.49,
+    "avg_pitch": 328.13
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script02_1",
+    "utterance_id": "Ses05M_script02_1_F003",
+    "transcript_ground_truth": "I mean, you kept saying my flashlight, the flashlight like it was only somehow yours.  How is that supposed to make me feel?"
+  }
+}

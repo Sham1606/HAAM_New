@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02F_impro06_M019",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:27:25.347043",
+  "duration_seconds": 4.98,
+  "transcript": "It's hard to lose someone that way, but he's better. He's better off now.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "It's hard to lose someone that way, but he's better.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.601,
+      "sentiment_score": -0.0627,
+      "pitch_mean": 327.49
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 5.0,
+      "text": "He's better off now.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.839,
+      "sentiment_score": 0.6366,
+      "pitch_mean": 328.26
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2869,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 168.62,
+    "avg_pitch": 328.26
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.3333,
+    "arousal": 2.3333,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro06",
+    "utterance_id": "Ses02F_impro06_M019",
+    "transcript_ground_truth": "It's hard to lose someone that way, but he's he's better--he's better off now."
+  }
+}

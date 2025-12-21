@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04F_impro05_F019",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:10:27.530440",
+  "duration_seconds": 9.24,
+  "transcript": "Okay, well I want to call whoever you report to, whoever your boss is because I have had enough with this airline And I am finished waiting for my $50 gift certificate",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.52,
+      "text": "Okay, well I want to call whoever you report to, whoever your boss is because I have had enough with this airline",
+      "emotion": "neutral",
+      "emotion_confidence": 0.781,
+      "sentiment_score": -0.8677,
+      "pitch_mean": 360.98
+    },
+    {
+      "start_time": 5.52,
+      "end_time": 8.52,
+      "text": "And I am finished waiting for my $50 gift certificate",
+      "emotion": "anger",
+      "emotion_confidence": 0.623,
+      "sentiment_score": 0.2189,
+      "pitch_mean": 370.39
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3244,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 207.79,
+    "avg_pitch": 361.61
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro05",
+    "utterance_id": "Ses04F_impro05_F019",
+    "transcript_ground_truth": "Okay.  Well I want to call whoever you report to, whoever your boss is because I have had enough with this airline and I am finished waiting for my fifty dollar gift certificate."
+  }
+}

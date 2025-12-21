@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro04_F014",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:21:34.581245",
+  "duration_seconds": 1.49,
+  "transcript": "Here it was.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.44,
+      "text": "Here it was.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.875,
+      "sentiment_score": 0.0906,
+      "pitch_mean": 350.13
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0906,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 120.81,
+    "avg_pitch": 349.67
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro04",
+    "utterance_id": "Ses01F_impro04_F014",
+    "transcript_ground_truth": "Yeah."
+  }
+}

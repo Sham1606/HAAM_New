@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro05_F024",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:25:06.004746",
+  "duration_seconds": 1.38,
+  "transcript": "Really? Yeah.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "Really? Yeah.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.959,
+      "sentiment_score": 0.2064,
+      "pitch_mean": 345.44
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2064,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 86.96,
+    "avg_pitch": 339.5
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro05",
+    "utterance_id": "Ses01F_impro05_F024",
+    "transcript_ground_truth": "Yeah."
+  }
+}

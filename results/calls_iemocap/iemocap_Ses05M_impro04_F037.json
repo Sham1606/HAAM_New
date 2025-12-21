@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05M_impro04_F037",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:41:04.531972",
+  "duration_seconds": 3.27,
+  "transcript": "I can't see where the issue would be. So.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I can't see where the issue would be.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.64,
+      "sentiment_score": -0.4121,
+      "pitch_mean": 335.66
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "So.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.922,
+      "sentiment_score": 0.119,
+      "pitch_mean": 314.94
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1465,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 165.14,
+    "avg_pitch": 325.3
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro04",
+    "utterance_id": "Ses05M_impro04_F037",
+    "transcript_ground_truth": "I can't see where the issue would be. so"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses03M_script01_1_M034",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:40:11.632136",
+  "duration_seconds": 12.27,
+  "transcript": "It's just... that's just the way it is. That's how I feel. You know, these years when I think of someone I want to marry, I think of Annie. What do you want to diagram?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "It's just... that's just the way it is. That's how I feel.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.735,
+      "sentiment_score": -0.2612,
+      "pitch_mean": 323.32
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 10.0,
+      "text": "You know, these years when I think of someone I want to marry, I think of Annie.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.788,
+      "sentiment_score": 0.0898,
+      "pitch_mean": 323.78
+    },
+    {
+      "start_time": 10.0,
+      "end_time": 12.0,
+      "text": "What do you want to diagram?",
+      "emotion": "sadness",
+      "emotion_confidence": 0.67,
+      "sentiment_score": 0.0666,
+      "pitch_mean": 315.02
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0349,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "sadness": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 171.19,
+    "avg_pitch": 321.55
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_1",
+    "utterance_id": "Ses03M_script01_1_M034",
+    "transcript_ground_truth": "It's just...that's just the way it is.  That's how I feel.  You know these years when I think of someone I want to marry I think of Annie.  What do you want a diagram?"
+  }
+}

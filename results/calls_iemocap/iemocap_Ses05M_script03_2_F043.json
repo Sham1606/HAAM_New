@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script03_2_F043",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:14:30.009100",
+  "duration_seconds": 1.01,
+  "transcript": "We're out!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "We're out!",
+      "emotion": "anger",
+      "emotion_confidence": 0.336,
+      "sentiment_score": 0.1892,
+      "pitch_mean": 388.92
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1892,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 118.82,
+    "avg_pitch": 389.03
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script03_2",
+    "utterance_id": "Ses05M_script03_2_F043",
+    "transcript_ground_truth": "Brute"
+  }
+}

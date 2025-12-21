@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_impro03_M034",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:54:08.489576",
+  "duration_seconds": 7.11,
+  "transcript": "Well that's why I'm dating someone who's just 18 years old Jesus. I think she's ready to have kids already.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Well that's why I'm dating someone who's just 18 years old Jesus.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.921,
+      "sentiment_score": -0.1684,
+      "pitch_mean": 327.12
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 7.0,
+      "text": "I think she's ready to have kids already.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.741,
+      "sentiment_score": 0.1507,
+      "pitch_mean": 329.69
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0089,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 168.89,
+    "avg_pitch": 328.34
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro03",
+    "utterance_id": "Ses03M_impro03_M034",
+    "transcript_ground_truth": "Well that's why I'm dating someone who's just eighteen years old. Jesus. I think she's ready to have kids already."
+  }
+}

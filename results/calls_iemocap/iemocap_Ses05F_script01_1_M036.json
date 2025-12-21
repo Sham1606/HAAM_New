@@ -1,0 +1,99 @@
+{
+  "call_id": "iemocap_Ses05F_script01_1_M036",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:15:58.534055",
+  "duration_seconds": 20.08,
+  "transcript": "Yes, I'd like it an hour a day. If I have to grab for money all day long, I'd like to come home to something beautiful. I want a family. I want kids. I want to build something that I can give myself to. And Annie is in the center of fact. And no, where do I find it?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Yes, I'd like it an hour a day.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.892,
+      "sentiment_score": 0.3473,
+      "pitch_mean": 346.85
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 6.0,
+      "text": "If I have to grab for money all day long,",
+      "emotion": "anger",
+      "emotion_confidence": 0.477,
+      "sentiment_score": -0.474,
+      "pitch_mean": 346.01
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 8.0,
+      "text": "I'd like to come home to something beautiful.",
+      "emotion": "joy",
+      "emotion_confidence": 0.912,
+      "sentiment_score": 0.9649,
+      "pitch_mean": 335.64
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 10.0,
+      "text": "I want a family. I want kids.",
+      "emotion": "anger",
+      "emotion_confidence": 0.512,
+      "sentiment_score": 0.3819,
+      "pitch_mean": 365.53
+    },
+    {
+      "start_time": 10.0,
+      "end_time": 13.0,
+      "text": "I want to build something that I can give myself to.",
+      "emotion": "joy",
+      "emotion_confidence": 0.731,
+      "sentiment_score": 0.6627,
+      "pitch_mean": 324.97
+    },
+    {
+      "start_time": 13.0,
+      "end_time": 16.0,
+      "text": "And Annie is in the center of fact.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.796,
+      "sentiment_score": 0.2731,
+      "pitch_mean": 327.64
+    },
+    {
+      "start_time": 16.0,
+      "end_time": 19.0,
+      "text": "And no, where do I find it?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.621,
+      "sentiment_score": -0.8009,
+      "pitch_mean": 316.41
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1936,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.429,
+      "anger": 0.286,
+      "joy": 0.286
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 176.3,
+    "avg_pitch": 332.87
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 5.0,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_1",
+    "utterance_id": "Ses05F_script01_1_M036",
+    "transcript_ground_truth": "Yes!  I like it an hour a day.  If I had to grub for money all day long, I like to come home to something beautiful.  I want a family.  I want- I want kids.  I want to build something I can give myself to. and Annie is in the center of that, and now where do I find it?"
+  }
+}

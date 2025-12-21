@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script02_1_F007",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:07:56.487389",
+  "duration_seconds": 1.28,
+  "transcript": "On 41h kuli\u53e5",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.04,
+      "text": "On 41h kuli\u53e5",
+      "emotion": "neutral",
+      "emotion_confidence": 0.868,
+      "sentiment_score": 0.0551,
+      "pitch_mean": 327.69
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0551,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 140.62,
+    "avg_pitch": 327.69
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script02_1",
+    "utterance_id": "Ses01M_script02_1_F007",
+    "transcript_ground_truth": "No."
+  }
+}

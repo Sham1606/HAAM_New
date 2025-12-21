@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script01_3_F023",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:35:47.566909",
+  "duration_seconds": 1.42,
+  "transcript": "\u8df3 a Representatives",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "\u8df3 a Representatives",
+      "emotion": "neutral",
+      "emotion_confidence": 0.842,
+      "sentiment_score": 0.043,
+      "pitch_mean": 308.88
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.043,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 126.77,
+    "avg_pitch": 308.88
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 3.5,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_3",
+    "utterance_id": "Ses02F_script01_3_F023",
+    "transcript_ground_truth": "Yeah, sure."
+  }
+}

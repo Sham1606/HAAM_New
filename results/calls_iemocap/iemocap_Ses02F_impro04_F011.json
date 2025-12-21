@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses02F_impro04_F011",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:23:44.332973",
+  "duration_seconds": 19.57,
+  "transcript": "That's just really hard. I feel like they're starting to get like a personal prejudice against you You know what I mean? Like it's like suddenly it's just like it's just you that they're saying no to it It's not that they're not taking applications and it's not that they're not hiring people It's just that you particularly they have some particular reason for just hating you, you know?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.26,
+      "text": "That's just really hard. I feel like they're starting to get like a personal prejudice against you",
+      "emotion": "disgust",
+      "emotion_confidence": 0.658,
+      "sentiment_score": -0.8963,
+      "pitch_mean": 311.24
+    },
+    {
+      "start_time": 6.26,
+      "end_time": 10.98,
+      "text": "You know what I mean? Like it's like suddenly it's just like it's just you that they're saying no to it",
+      "emotion": "disgust",
+      "emotion_confidence": 0.462,
+      "sentiment_score": -0.2036,
+      "pitch_mean": 331.81
+    },
+    {
+      "start_time": 10.98,
+      "end_time": 14.68,
+      "text": "It's not that they're not taking applications and it's not that they're not hiring people",
+      "emotion": "neutral",
+      "emotion_confidence": 0.826,
+      "sentiment_score": -0.6527,
+      "pitch_mean": 327.29
+    },
+    {
+      "start_time": 14.68,
+      "end_time": 19.22,
+      "text": "It's just that you particularly they have some particular reason for just hating you, you know?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.544,
+      "sentiment_score": -0.6841,
+      "pitch_mean": 331.34
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6092,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.75,
+      "neutral": 0.25
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 211.55,
+    "avg_pitch": 321.79
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro04",
+    "utterance_id": "Ses02F_impro04_F011",
+    "transcript_ground_truth": "It's just really hard.  I feel like their starting to get like a personal prejudice against me.  You know what I mean?  Like it's like suddenly it starts to feel like it's just you that they say no to and it's not that they're not taking applications and it's not that they're not hiring people, it's just you particularly they have some particular reason for just hating you.  You know?"
+  }
+}

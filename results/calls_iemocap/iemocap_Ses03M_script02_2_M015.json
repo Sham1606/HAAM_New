@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_script02_2_M015",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:50:09.787179",
+  "duration_seconds": 9.98,
+  "transcript": "I've been trying to figure out the point where we went wrong and I can't see the pinpoint that moment.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 8.88,
+      "text": "I've been trying to figure out the point where we went wrong and I can't see the pinpoint",
+      "emotion": "disgust",
+      "emotion_confidence": 0.479,
+      "sentiment_score": -0.7877,
+      "pitch_mean": 330.44
+    },
+    {
+      "start_time": 8.88,
+      "end_time": 9.48,
+      "text": "that moment.",
+      "emotion": "fear",
+      "emotion_confidence": 0.52,
+      "sentiment_score": 0.1002,
+      "pitch_mean": 315.25
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3437,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "fear": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 120.26,
+    "avg_pitch": 329.45
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_2",
+    "utterance_id": "Ses03M_script02_2_M015",
+    "transcript_ground_truth": "What...I've been trying to, I've been trying to figure out the point where we went wrong and I can't seem to pinpoint that moment."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script03_1_F017",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:27:24.305146",
+  "duration_seconds": 2.8,
+  "transcript": "Well, shall we always want to pick her and fight?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Well, shall we always want to pick her and fight?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.673,
+      "sentiment_score": -0.4629,
+      "pitch_mean": 336.37
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4629,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 214.29,
+    "avg_pitch": 336.37
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script03_1",
+    "utterance_id": "Ses05F_script03_1_F017",
+    "transcript_ground_truth": "Well, shall we always want to bicker and fight?"
+  }
+}

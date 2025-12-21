@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script02_1_M046",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:10:08.271374",
+  "duration_seconds": 8.2,
+  "transcript": "It's crazy. Look at this, don't give it my self-gosepons. The hair is just standing up for my heart.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "It's crazy. Look at this, don't give it my self-gosepons. The hair is just standing up for my heart.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.578,
+      "sentiment_score": -0.4714,
+      "pitch_mean": 335.56
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4714,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 139.07,
+    "avg_pitch": 335.71
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 4.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script02_1",
+    "utterance_id": "Ses01M_script02_1_M046",
+    "transcript_ground_truth": "It's crazy.  Look at this, I'm giving myself goose bumps, the hairs are standing up on my arm."
+  }
+}

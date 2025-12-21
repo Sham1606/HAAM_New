@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script02_2_F018",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:10:40.867986",
+  "duration_seconds": 10.4,
+  "transcript": "I did want to see it. I still do. I always do. I keep thinking that this time will be the time it just never is.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 10.0,
+      "text": "I did want to see it. I still do. I always do. I keep thinking that this time will be the time it just never is.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.912,
+      "sentiment_score": -0.0284,
+      "pitch_mean": 348.08
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0284,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 150.0,
+    "avg_pitch": 346.43
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script02_2",
+    "utterance_id": "Ses01M_script02_2_F018",
+    "transcript_ground_truth": "I did want to see it I still do, I always do.  I keep thinking that this time will be the time but it just never is."
+  }
+}

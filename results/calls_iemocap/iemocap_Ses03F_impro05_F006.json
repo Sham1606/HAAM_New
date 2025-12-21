@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses03F_impro05_F006",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:22:17.474593",
+  "duration_seconds": 10.67,
+  "transcript": "Okay, all I know is that I have supposed to have my luggage here right now, right now, and it's not there. And you're supposed to help me because you work at the airport, so give me my luggage or tell me where the hell it is.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.96,
+      "text": "Okay, all I know is that I have supposed to have my luggage here right now, right now,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.784,
+      "sentiment_score": -0.0358,
+      "pitch_mean": 345.62
+    },
+    {
+      "start_time": 4.96,
+      "end_time": 5.96,
+      "text": "and it's not there.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.392,
+      "sentiment_score": -0.4492,
+      "pitch_mean": 333.31
+    },
+    {
+      "start_time": 5.96,
+      "end_time": 8.92,
+      "text": "And you're supposed to help me because you work at the airport, so give me my luggage",
+      "emotion": "disgust",
+      "emotion_confidence": 0.383,
+      "sentiment_score": -0.1372,
+      "pitch_mean": 358.45
+    },
+    {
+      "start_time": 8.92,
+      "end_time": 9.92,
+      "text": "or tell me where the hell it is.",
+      "emotion": "anger",
+      "emotion_confidence": 0.845,
+      "sentiment_score": -0.8558,
+      "pitch_mean": 371.23
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3695,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "neutral": 0.25,
+      "disgust": 0.5,
+      "anger": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 264.38,
+    "avg_pitch": 347.48
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro05",
+    "utterance_id": "Ses03F_impro05_F006",
+    "transcript_ground_truth": "Okay. All I know is that I am supposed to have my language here right now. Right now. And it's not there. And you're supposed to help me because you work at the airport. So give me my luggage or tell me where the hell it is."
+  }
+}

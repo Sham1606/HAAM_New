@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script02_2_M006",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:37:59.991073",
+  "duration_seconds": 3.15,
+  "transcript": "Or then what's bugging you?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Or then what's bugging you?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.39,
+      "sentiment_score": -0.4641,
+      "pitch_mean": 326.45
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4641,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 95.28,
+    "avg_pitch": 324.81
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script02_2",
+    "utterance_id": "Ses04F_script02_2_M006",
+    "transcript_ground_truth": "Well then what's bugging you?"
+  }
+}

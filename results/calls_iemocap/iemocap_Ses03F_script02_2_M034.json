@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script02_2_M034",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:41:48.547083",
+  "duration_seconds": 3.49,
+  "transcript": "I'm doing the best I can.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I'm doing the best I can.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.355,
+      "sentiment_score": 0.7269,
+      "pitch_mean": 334.5
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.7269,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 103.14,
+    "avg_pitch": 329.78
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.3333,
+    "arousal": 2.6667,
+    "dominance": 1.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_2",
+    "utterance_id": "Ses03F_script02_2_M034",
+    "transcript_ground_truth": "Well, I'm doing the best I can."
+  }
+}

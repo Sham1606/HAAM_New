@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses03F_script01_1_M037",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:32:00.932369",
+  "duration_seconds": 11.0,
+  "transcript": "I grew up with her. Okay, all these years, when I think of someone I want to be my wife, I think of Annie. What do you want, a diagram?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I grew up with her.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.635,
+      "sentiment_score": 0.3472,
+      "pitch_mean": 332.49
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 8.0,
+      "text": "Okay, all these years, when I think of someone I want to be my wife, I think of Annie.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.813,
+      "sentiment_score": -0.0725,
+      "pitch_mean": 340.9
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 10.0,
+      "text": "What do you want, a diagram?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.446,
+      "sentiment_score": -0.0182,
+      "pitch_mean": 333.68
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0855,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "disgust": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 163.6,
+    "avg_pitch": 335.22
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.6667,
+    "arousal": 3.3333,
+    "dominance": 3.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_1",
+    "utterance_id": "Ses03F_script01_1_M037",
+    "transcript_ground_truth": "I grew up with her. Okay. All these years, when I think of someone I want to be my wife I think of Annie. What do you want, a diagram?"
+  }
+}

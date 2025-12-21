@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro02_F033",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:17:40.441135",
+  "duration_seconds": 4.67,
+  "transcript": "I can do it. I'm gonna do it and I'll be back safe and sound.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I can do it. I'm gonna do it and I'll be back safe and sound.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.466,
+      "sentiment_score": 0.9098,
+      "pitch_mean": 331.62
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9098,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 192.82,
+    "avg_pitch": 329.09
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro02",
+    "utterance_id": "Ses03F_impro02_F033",
+    "transcript_ground_truth": "I can do it. I'm going to do it. And I'll be back safe and sound and-"
+  }
+}

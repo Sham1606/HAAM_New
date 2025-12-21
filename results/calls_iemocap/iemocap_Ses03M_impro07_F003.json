@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro07_F003",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:29:25.319404",
+  "duration_seconds": 6.06,
+  "transcript": "No way are you serious? Oh my god congratulations are so excited",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.54,
+      "text": "No way are you serious? Oh my god congratulations are so excited",
+      "emotion": "neutral",
+      "emotion_confidence": 0.956,
+      "sentiment_score": 0.9505,
+      "pitch_mean": 385.16
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9505,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 118.72,
+    "avg_pitch": 375.62
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "sur",
+    "valence": 4.5,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro07",
+    "utterance_id": "Ses03M_impro07_F003",
+    "transcript_ground_truth": "No way. Are you serious? Oh my God.  Congratulations. I'm so excited."
+  }
+}

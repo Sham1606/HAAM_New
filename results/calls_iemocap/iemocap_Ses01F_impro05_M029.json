@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01F_impro05_M029",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:26:23.083371",
+  "duration_seconds": 6.48,
+  "transcript": "Well then maybe you can just call him and he can give you more money. But right now all I can do is...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Well then maybe you can just call him and he can give you more money.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.955,
+      "sentiment_score": 0.094,
+      "pitch_mean": 322.13
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "But right now all I can do is...",
+      "emotion": "anger",
+      "emotion_confidence": 0.429,
+      "sentiment_score": -0.4154,
+      "pitch_mean": 348.88
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1607,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 212.97,
+    "avg_pitch": 333.14
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro05",
+    "utterance_id": "Ses01F_impro05_M029",
+    "transcript_ground_truth": "Well then maybe you can just call him and he can give you more money.  But right now all I can do--"
+  }
+}

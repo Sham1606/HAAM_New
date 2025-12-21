@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02F_script03_1_F017",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:42:40.739893",
+  "duration_seconds": 6.22,
+  "transcript": "Well, what happens if one of us dies? I mean, just the one that's left, so left.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Well, what happens if one of us dies?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.408,
+      "sentiment_score": -0.6649,
+      "pitch_mean": 333.08
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 6.0,
+      "text": "I mean, just the one that's left, so left.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.953,
+      "sentiment_score": 0.0182,
+      "pitch_mean": 342.9
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3233,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 163.99,
+    "avg_pitch": 336.36
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.6667,
+    "arousal": 3.0,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script03_1",
+    "utterance_id": "Ses02F_script03_1_F017",
+    "transcript_ground_truth": "Well, what happens if one of us dies?  I mean, does the one that's left still laugh?"
+  }
+}

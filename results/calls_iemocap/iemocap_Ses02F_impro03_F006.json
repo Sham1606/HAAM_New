@@ -1,0 +1,82 @@
+{
+  "call_id": "iemocap_Ses02F_impro03_F006",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:21:25.569176",
+  "duration_seconds": 13.91,
+  "transcript": "So after we sort of went to dinner and I was already tired, I wasn't all that excited. And so he's like, let's go to the beach and I was like, no, I don't want to go to the beach. Like, I'm tired. And he's like, no, no, we have to go. And I was like, okay, that's a little weird.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.56,
+      "text": "So after we sort of went to dinner and I was already tired, I wasn't all that excited.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.722,
+      "sentiment_score": -0.6744,
+      "pitch_mean": 377.13
+    },
+    {
+      "start_time": 4.56,
+      "end_time": 8.56,
+      "text": "And so he's like, let's go to the beach and I was like, no, I don't want to go to the beach.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.367,
+      "sentiment_score": -0.5134,
+      "pitch_mean": 359.88
+    },
+    {
+      "start_time": 8.56,
+      "end_time": 9.56,
+      "text": "Like, I'm tired.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.602,
+      "sentiment_score": -0.6912,
+      "pitch_mean": 342.38
+    },
+    {
+      "start_time": 9.56,
+      "end_time": 11.32,
+      "text": "And he's like, no, no, we have to go.",
+      "emotion": "joy",
+      "emotion_confidence": 0.425,
+      "sentiment_score": -0.5357,
+      "pitch_mean": 362.31
+    },
+    {
+      "start_time": 11.32,
+      "end_time": 13.76,
+      "text": "And I was like, okay, that's a little weird.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.903,
+      "sentiment_score": -0.6404,
+      "pitch_mean": 364.31
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.611,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "neutral": 0.2,
+      "disgust": 0.4,
+      "sadness": 0.2,
+      "joy": 0.2
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 263.08,
+    "avg_pitch": 361.37
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.75,
+    "arousal": 3.75,
+    "dominance": 2.75
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro03",
+    "utterance_id": "Ses02F_impro03_F006",
+    "transcript_ground_truth": "So after we sort of went out dinner and I was already like tired.  I wasn't all that excited and and so he's like let's go down to the beach and I was like no I don't want to the beach, like I'm tired. And he's like no, no we have to go.  And I was like okay, like that's a little weird."
+  }
+}

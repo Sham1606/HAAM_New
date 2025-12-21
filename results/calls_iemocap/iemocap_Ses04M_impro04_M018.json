@@ -1,0 +1,63 @@
+{
+  "call_id": "iemocap_Ses04M_impro04_M018",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:55:50.126154",
+  "duration_seconds": 9.38,
+  "transcript": "This because you always tell me to do the wrong thing and I thought this time it was going to be right by going with the opposite thing. So it's your fault because...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.12,
+      "text": "This because you always tell me to do the wrong thing and I thought this time it was going",
+      "emotion": "disgust",
+      "emotion_confidence": 0.419,
+      "sentiment_score": -0.8778,
+      "pitch_mean": 327.75
+    },
+    {
+      "start_time": 5.12,
+      "end_time": 6.88,
+      "text": "to be right by going with the opposite thing.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.659,
+      "sentiment_score": -0.2582,
+      "pitch_mean": 333.91
+    },
+    {
+      "start_time": 6.88,
+      "end_time": 8.88,
+      "text": "So it's your fault because...",
+      "emotion": "anger",
+      "emotion_confidence": 0.603,
+      "sentiment_score": -0.7189,
+      "pitch_mean": 329.64
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6183,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.333,
+      "neutral": 0.333,
+      "anger": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 211.09,
+    "avg_pitch": 329.69
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro04",
+    "utterance_id": "Ses04M_impro04_M018",
+    "transcript_ground_truth": "That's 'cause you always tell me to do the wrong thing.  And I thought this time it was -- I was gonna be right by going with the opposite thing. So it's your fault because"
+  }
+}

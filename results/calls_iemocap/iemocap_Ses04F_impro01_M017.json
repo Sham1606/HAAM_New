@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro01_M017",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T11:59:07.056567",
+  "duration_seconds": 4.12,
+  "transcript": "and throw it away. I need you to fill out a new form.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "and throw it away. I need you to fill out a new form.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.723,
+      "sentiment_score": -0.7096,
+      "pitch_mean": 342.7
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7096,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 189.32,
+    "avg_pitch": 343.08
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro01",
+    "utterance_id": "Ses04F_impro01_M017",
+    "transcript_ground_truth": "and, uh, throw it away. I need you to fill out a new form."
+  }
+}

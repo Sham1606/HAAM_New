@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01M_impro01_M025",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:49:17.108431",
+  "duration_seconds": 3.34,
+  "transcript": "I am not getting back in that line. You can buy num-",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.6,
+      "text": "I am not getting back in that line.",
+      "emotion": "anger",
+      "emotion_confidence": 0.701,
+      "sentiment_score": -0.7294,
+      "pitch_mean": 360.72
+    },
+    {
+      "start_time": 2.6,
+      "end_time": 3.6,
+      "text": "You can buy num-",
+      "emotion": "neutral",
+      "emotion_confidence": 0.936,
+      "sentiment_score": 0.0299,
+      "pitch_mean": 362.42
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3497,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 215.25,
+    "avg_pitch": 362.42
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro01",
+    "utterance_id": "Ses01M_impro01_M025",
+    "transcript_ground_truth": "I am not...I'm not getting to back that line."
+  }
+}

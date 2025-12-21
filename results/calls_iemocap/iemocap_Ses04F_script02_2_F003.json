@@ -1,0 +1,89 @@
+{
+  "call_id": "iemocap_Ses04F_script02_2_F003",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:35:36.789558",
+  "duration_seconds": 12.66,
+  "transcript": "Well sure everybody's told the same story. It keeps us all coming back for more. It keeps us all excited. It keeps us thinking that life is going to start any minute now if we can just find the right spot. Get in on the action.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.36,
+      "text": "Well sure everybody's told the same story.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.925,
+      "sentiment_score": -0.2,
+      "pitch_mean": 340.11
+    },
+    {
+      "start_time": 3.36,
+      "end_time": 5.04,
+      "text": "It keeps us all coming back for more.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.732,
+      "sentiment_score": 0.8559,
+      "pitch_mean": 358.71
+    },
+    {
+      "start_time": 5.04,
+      "end_time": 6.04,
+      "text": "It keeps us all excited.",
+      "emotion": "joy",
+      "emotion_confidence": 0.833,
+      "sentiment_score": 0.9816,
+      "pitch_mean": 357.26
+    },
+    {
+      "start_time": 6.04,
+      "end_time": 9.92,
+      "text": "It keeps us thinking that life is going to start any minute now if we can just find the",
+      "emotion": "neutral",
+      "emotion_confidence": 0.82,
+      "sentiment_score": 0.3857,
+      "pitch_mean": 362.12
+    },
+    {
+      "start_time": 9.92,
+      "end_time": 10.92,
+      "text": "right spot.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.933,
+      "sentiment_score": 0.3153,
+      "pitch_mean": 365.58
+    },
+    {
+      "start_time": 10.92,
+      "end_time": 11.72,
+      "text": "Get in on the action.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.901,
+      "sentiment_score": 0.2628,
+      "pitch_mean": 357.33
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4335,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.833,
+      "joy": 0.167
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 218.02,
+    "avg_pitch": 351.44
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 4.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script02_2",
+    "utterance_id": "Ses04F_script02_2_F003",
+    "transcript_ground_truth": "Well sure everybody's told the same story.  It keeps us all coming back for more.  It keeps us all excited, keeps us thinking that life is going to start any minute now if we can just find the right spot and get in on the action."
+  }
+}

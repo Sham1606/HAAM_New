@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05M_impro05_M002",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:44:08.879993",
+  "duration_seconds": 6.75,
+  "transcript": "like an hour and a half ago. I talked to somebody who was standing out there and they said wait sometimes like random but pieces come out late.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.28,
+      "text": "like an hour and a half ago. I talked to somebody who was standing out there and they said wait",
+      "emotion": "disgust",
+      "emotion_confidence": 0.373,
+      "sentiment_score": -0.0185,
+      "pitch_mean": 323.77
+    },
+    {
+      "start_time": 4.28,
+      "end_time": 6.28,
+      "text": "sometimes like random but pieces come out late.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.426,
+      "sentiment_score": -0.3878,
+      "pitch_mean": 328.61
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2032,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 248.89,
+    "avg_pitch": 325.38
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro05",
+    "utterance_id": "Ses05M_impro05_M002",
+    "transcript_ground_truth": "Uh- Like, an hour and a half ago.  I talked to somebody who was standing out there and they said wait.  Sometimes like random butt- pieces come out late."
+  }
+}

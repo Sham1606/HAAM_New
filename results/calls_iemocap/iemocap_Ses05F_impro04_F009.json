@@ -1,0 +1,63 @@
+{
+  "call_id": "iemocap_Ses05F_impro04_F009",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:56:41.092845",
+  "duration_seconds": 12.19,
+  "transcript": "I mean, I can do the McDonald's thing for a while is humiliating as that is, but what, I mean, then what? I mean, you can't exactly move up in that kind of industry.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.86,
+      "text": "I mean, I can do the McDonald's thing for a while is humiliating as that is, but what,",
+      "emotion": "disgust",
+      "emotion_confidence": 0.883,
+      "sentiment_score": -0.5718,
+      "pitch_mean": 350.44
+    },
+    {
+      "start_time": 5.86,
+      "end_time": 8.52,
+      "text": "I mean, then what?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.699,
+      "sentiment_score": -0.1679,
+      "pitch_mean": 338.99
+    },
+    {
+      "start_time": 8.52,
+      "end_time": 11.48,
+      "text": "I mean, you can't exactly move up in that kind of industry.",
+      "emotion": "joy",
+      "emotion_confidence": 0.355,
+      "sentiment_score": -0.3639,
+      "pitch_mean": 354.91
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3679,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.333,
+      "neutral": 0.333,
+      "joy": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 167.35,
+    "avg_pitch": 345.12
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro04",
+    "utterance_id": "Ses05F_impro04_F009",
+    "transcript_ground_truth": "I mean I can do the McDonald's thing for a while as humiliating as that is, but I mean then what?  I mean You can't exactly move up in that kind of industry."
+  }
+}

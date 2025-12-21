@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses02F_impro05_M019",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:26:12.730083",
+  "duration_seconds": 14.5,
+  "transcript": "Okay, well that could be something that you put on the claim on the on the complaint form if you want and You provide us with your information while you're here and then maybe if it turns up then Then we'll send it right over",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.78,
+      "text": "Okay, well that could be something that you put on the claim on the on the complaint form if you want and",
+      "emotion": "neutral",
+      "emotion_confidence": 0.932,
+      "sentiment_score": 0.0391,
+      "pitch_mean": 334.41
+    },
+    {
+      "start_time": 6.54,
+      "end_time": 11.36,
+      "text": "You provide us with your information while you're here and then maybe if it turns up then",
+      "emotion": "neutral",
+      "emotion_confidence": 0.958,
+      "sentiment_score": 0.0694,
+      "pitch_mean": 338.04
+    },
+    {
+      "start_time": 12.28,
+      "end_time": 14.28,
+      "text": "Then we'll send it right over",
+      "emotion": "neutral",
+      "emotion_confidence": 0.97,
+      "sentiment_score": 0.2745,
+      "pitch_mean": 335.74
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1277,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 186.21,
+    "avg_pitch": 336.66
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro05",
+    "utterance_id": "Ses02F_impro05_M019",
+    "transcript_ground_truth": "Okay.  Well that that could be something that you put on on the claim--on on the complaint form if you want.  And provide us with your information while you're here and then, maybe, if it turns up, then we'll send it right over."
+  }
+}

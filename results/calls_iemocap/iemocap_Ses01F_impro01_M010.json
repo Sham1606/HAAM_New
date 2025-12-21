@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro01_M010",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:16:08.861282",
+  "duration_seconds": 4.44,
+  "transcript": "Yeah, we keep it on fire, but we need an ID to access that file.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.16,
+      "text": "Yeah, we keep it on fire, but we need an ID to access that file.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.779,
+      "sentiment_score": -0.221,
+      "pitch_mean": 339.36
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.221,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 202.71,
+    "avg_pitch": 341.71
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro01",
+    "utterance_id": "Ses01F_impro01_M010",
+    "transcript_ground_truth": "Yeah.  We keep it on file, but we need an ID to access that file."
+  }
+}

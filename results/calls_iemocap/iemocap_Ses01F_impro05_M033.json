@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses01F_impro05_M033",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:26:35.770060",
+  "duration_seconds": 6.67,
+  "transcript": "Why, have you done something wrong? Have I given you bad service? I feel like I've done the best I could. I have been done already.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.6,
+      "text": "Why, have you done something wrong?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.489,
+      "sentiment_score": -0.8426,
+      "pitch_mean": 342.8
+    },
+    {
+      "start_time": 2.6,
+      "end_time": 4.16,
+      "text": "Have I given you bad service?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.396,
+      "sentiment_score": -0.7949,
+      "pitch_mean": 326.9
+    },
+    {
+      "start_time": 4.16,
+      "end_time": 5.96,
+      "text": "I feel like I've done the best I could.",
+      "emotion": "joy",
+      "emotion_confidence": 0.842,
+      "sentiment_score": 0.728,
+      "pitch_mean": 350.17
+    },
+    {
+      "start_time": 5.96,
+      "end_time": 6.96,
+      "text": "I have been done already.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.955,
+      "sentiment_score": 0.0501,
+      "pitch_mean": 341.06
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2148,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.25,
+      "joy": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 233.89,
+    "avg_pitch": 341.06
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "sur",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro05",
+    "utterance_id": "Ses01F_impro05_M033",
+    "transcript_ground_truth": "Why?  Have I done something wrong?  Have I given you bad service?  I feel like I have done the best I could."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro01_M018",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:49:04.771267",
+  "duration_seconds": 5.67,
+  "transcript": "Okay, on top of these other two forms of ID which I already have",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.92,
+      "text": "Okay, on top of these other two forms of ID which I already have",
+      "emotion": "neutral",
+      "emotion_confidence": 0.956,
+      "sentiment_score": 0.1041,
+      "pitch_mean": 351.94
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1041,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 148.15,
+    "avg_pitch": 349.56
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro01",
+    "utterance_id": "Ses01M_impro01_M018",
+    "transcript_ground_truth": "On top of these other two forms of ID which I already have."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script01_1_F003",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:52:38.890735",
+  "duration_seconds": 3.29,
+  "transcript": "What was he doing out here for in the morning?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "What was he doing out here for in the morning?",
+      "emotion": "sadness",
+      "emotion_confidence": 0.763,
+      "sentiment_score": -0.1563,
+      "pitch_mean": 304.65
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1563,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 182.37,
+    "avg_pitch": 307.33
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_1",
+    "utterance_id": "Ses05M_script01_1_F003",
+    "transcript_ground_truth": "What was he doing out here at four in the morning?"
+  }
+}

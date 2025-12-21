@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script03_1_F035",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:14:33.792729",
+  "duration_seconds": 4.32,
+  "transcript": "Oh, it put my comb to and all those tiles in the bathroom",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.72,
+      "text": "Oh, it put my comb to and all those tiles in the bathroom",
+      "emotion": "neutral",
+      "emotion_confidence": 0.583,
+      "sentiment_score": -0.3024,
+      "pitch_mean": 364.91
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3024,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 180.56,
+    "avg_pitch": 360.32
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script03_1",
+    "utterance_id": "Ses01M_script03_1_F035",
+    "transcript_ground_truth": "Oh it burnt my comb too and all those towels in the bathroom."
+  }
+}

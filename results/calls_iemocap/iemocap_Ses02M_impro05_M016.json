@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro05_M016",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:53:56.433579",
+  "duration_seconds": 6.82,
+  "transcript": "theft like you don't you know like all these people at our work you keep like an eye on it like how can they get away with?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.44,
+      "text": "theft like you don't you know like all these people at our work you keep like an eye on it like how can they get away with?",
+      "emotion": "anger",
+      "emotion_confidence": 0.515,
+      "sentiment_score": -0.8387,
+      "pitch_mean": 345.83
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8387,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 237.61,
+    "avg_pitch": 341.54
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro05",
+    "utterance_id": "Ses02M_impro05_M016",
+    "transcript_ground_truth": "Theft? Don't you know like all these people that are work - you keep like an eye on them, how can they get away with-"
+  }
+}

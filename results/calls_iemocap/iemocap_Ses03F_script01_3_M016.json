@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03F_script01_3_M016",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:35:26.062801",
+  "duration_seconds": 5.27,
+  "transcript": "Then he's gone forever. You sure?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.68,
+      "text": "Then he's gone forever.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.769,
+      "sentiment_score": -0.4741,
+      "pitch_mean": 326.3
+    },
+    {
+      "start_time": 3.68,
+      "end_time": 4.68,
+      "text": "You sure?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.866,
+      "sentiment_score": 0.0509,
+      "pitch_mean": 321.58
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2116,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 68.36,
+    "avg_pitch": 325.69
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_3",
+    "utterance_id": "Ses03F_script01_3_M016",
+    "transcript_ground_truth": "Then he's gone forever. You're sure?"
+  }
+}

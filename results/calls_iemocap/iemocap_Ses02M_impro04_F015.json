@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro04_F015",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:51:38.856747",
+  "duration_seconds": 7.44,
+  "transcript": "But like just because you're considering why it's been so difficult doesn't mean you just stop",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.44,
+      "text": "But like just because you're considering why it's been so difficult doesn't mean you just stop",
+      "emotion": "neutral",
+      "emotion_confidence": 0.941,
+      "sentiment_score": -0.5506,
+      "pitch_mean": 332.13
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5506,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 128.95,
+    "avg_pitch": 327.62
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.3333,
+    "dominance": 3.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro04",
+    "utterance_id": "Ses02M_impro04_F015",
+    "transcript_ground_truth": "But like, just because you're considering why it's been so difficult doesn't mean you should just stop."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro05_F027",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:53:21.173202",
+  "duration_seconds": 1.66,
+  "transcript": "I'm sorry I had to eye the back.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I'm sorry I had to eye the back.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.913,
+      "sentiment_score": -0.5767,
+      "pitch_mean": 344.71
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5767,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 289.24,
+    "avg_pitch": 344.71
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro05",
+    "utterance_id": "Ses02M_impro05_F027",
+    "transcript_ground_truth": "I'm sorry. I don't- I-"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02F_script02_2_F013",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:39:41.499489",
+  "duration_seconds": 6.97,
+  "transcript": "I did want to see it, I always do. I keep thinking that this is going to be the time and it never is.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I did want to see it, I always do.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.792,
+      "sentiment_score": 0.5156,
+      "pitch_mean": 352.77
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 7.0,
+      "text": "I keep thinking that this is going to be the time and it never is.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.84,
+      "sentiment_score": -0.782,
+      "pitch_mean": 350.88
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1332,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 206.6,
+    "avg_pitch": 350.88
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script02_2",
+    "utterance_id": "Ses02F_script02_2_F013",
+    "transcript_ground_truth": "I did want to see it.  I always do.  I keep thinking that this is gonna be the time and it never is."
+  }
+}

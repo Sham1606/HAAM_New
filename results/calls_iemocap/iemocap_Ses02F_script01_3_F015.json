@@ -1,0 +1,70 @@
+{
+  "call_id": "iemocap_Ses02F_script01_3_F015",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:35:30.823845",
+  "duration_seconds": 9.08,
+  "transcript": "Well, I was waiting for you. Till then you never wrote and when you did, I mean, what did you say? You could sure be ambiguous sometimes.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.5,
+      "text": "Well, I was waiting for you.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.86,
+      "sentiment_score": 0.5725,
+      "pitch_mean": 346.72
+    },
+    {
+      "start_time": 2.5,
+      "end_time": 5.0,
+      "text": "Till then you never wrote and when you did,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.859,
+      "sentiment_score": -0.3213,
+      "pitch_mean": 375.49
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 6.5,
+      "text": "I mean, what did you say?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.792,
+      "sentiment_score": -0.103,
+      "pitch_mean": 345.91
+    },
+    {
+      "start_time": 6.5,
+      "end_time": 9.0,
+      "text": "You could sure be ambiguous sometimes.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.865,
+      "sentiment_score": -0.4778,
+      "pitch_mean": 343.57
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0824,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 178.42,
+    "avg_pitch": 353.8
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_3",
+    "utterance_id": "Ses02F_script01_3_F015",
+    "transcript_ground_truth": "Well, I was waiting for you.  I mean, till then you never wrote and when you did, I mean, what did you say?  You can sure be ambiguous sometimes."
+  }
+}

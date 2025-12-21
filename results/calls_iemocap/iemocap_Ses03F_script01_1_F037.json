@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03F_script01_1_F037",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:30:23.870461",
+  "duration_seconds": 5.36,
+  "transcript": "I mean you haven't seen her since the war. I mean it's been five years.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.54,
+      "text": "I mean you haven't seen her since the war.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.467,
+      "sentiment_score": -0.4801,
+      "pitch_mean": 326.97
+    },
+    {
+      "start_time": 2.54,
+      "end_time": 4.54,
+      "text": "I mean it's been five years.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.37,
+      "sentiment_score": -0.0432,
+      "pitch_mean": 338.34
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2617,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 167.77,
+    "avg_pitch": 331.41
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.6667,
+    "dominance": 3.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_1",
+    "utterance_id": "Ses03F_script01_1_F037",
+    "transcript_ground_truth": "I mean, you haven't seen her since the war. I mean, it's been five years."
+  }
+}

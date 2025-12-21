@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro07_M066",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:18:16.512965",
+  "duration_seconds": 1.6,
+  "transcript": "Fine, it's Turkey.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Fine, it's Turkey.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.0594,
+      "pitch_mean": 312.35
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0594,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 112.5,
+    "avg_pitch": 312.35
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 4.0,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro07",
+    "utterance_id": "Ses04F_impro07_M066",
+    "transcript_ground_truth": "Fine.  It's dorky."
+  }
+}

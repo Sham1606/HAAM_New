@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro05_F020",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:55:25.473431",
+  "duration_seconds": 6.26,
+  "transcript": "It's not. I can offer you $50 in reimbursement gift cards for our airline.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "It's not. I can offer you $50 in reimbursement gift cards for our airline.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.847,
+      "sentiment_score": -0.0108,
+      "pitch_mean": 338.78
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0108,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 134.19,
+    "avg_pitch": 338.54
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro05",
+    "utterance_id": "Ses01M_impro05_F020",
+    "transcript_ground_truth": "It's not.  I can offer you fifty dollars and a reimbursement gift cards for our airline..."
+  }
+}

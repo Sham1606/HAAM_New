@@ -1,0 +1,81 @@
+{
+  "call_id": "iemocap_Ses05M_script02_1_M007",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:05:25.252903",
+  "duration_seconds": 15.19,
+  "transcript": "Are you cold? You on my jacket? We should have brought the blanket. Our blanket. Oh, this is great. I didn't even think to bring a six pack. A six pack would be just the ticket right about now.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Are you cold? You on my jacket?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.647,
+      "sentiment_score": -0.1135,
+      "pitch_mean": 313.9
+    },
+    {
+      "start_time": 3.5,
+      "end_time": 6.0,
+      "text": "We should have brought the blanket. Our blanket.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.373,
+      "sentiment_score": 0.0014,
+      "pitch_mean": 317.62
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 9.0,
+      "text": "Oh, this is great.",
+      "emotion": "joy",
+      "emotion_confidence": 0.942,
+      "sentiment_score": 0.9744,
+      "pitch_mean": 324.88
+    },
+    {
+      "start_time": 10.0,
+      "end_time": 12.0,
+      "text": "I didn't even think to bring a six pack.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.785,
+      "sentiment_score": -0.219,
+      "pitch_mean": 314.79
+    },
+    {
+      "start_time": 12.0,
+      "end_time": 15.0,
+      "text": "A six pack would be just the ticket right about now.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.924,
+      "sentiment_score": 0.4698,
+      "pitch_mean": 322.76
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2226,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.6,
+      "disgust": 0.2,
+      "joy": 0.2
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 154.05,
+    "avg_pitch": 316.53
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script02_1",
+    "utterance_id": "Ses05M_script02_1_M007",
+    "transcript_ground_truth": "Are you cold?  Do you want my jacket?  We should have brought the blanket, our blanket.  Oh, this is great.  I didn't even think to bring a six pack.  Oh, a six pack would be just the ticket right about now."
+  }
+}

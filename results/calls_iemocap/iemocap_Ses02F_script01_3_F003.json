@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses02F_script01_3_F003",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:35:10.191416",
+  "duration_seconds": 5.72,
+  "transcript": "Oh, not sorry. I'm... But I'm... I'm not gonna say.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Oh, not sorry.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.635,
+      "sentiment_score": -0.4154,
+      "pitch_mean": 334.19
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "I'm...",
+      "emotion": "sadness",
+      "emotion_confidence": 0.815,
+      "sentiment_score": 0.0519,
+      "pitch_mean": 300.36
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 6.0,
+      "text": "But I'm... I'm not gonna say.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.4172,
+      "pitch_mean": 320.29
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2602,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 0.667,
+      "neutral": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 104.9,
+    "avg_pitch": 320.29
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_3",
+    "utterance_id": "Ses02F_script01_3_F003",
+    "transcript_ground_truth": "No, not sorry.  Um, but, I'm- I'm not gonna stay."
+  }
+}

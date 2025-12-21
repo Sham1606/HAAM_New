@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses05F_impro06_M022",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:06:47.148954",
+  "duration_seconds": 12.81,
+  "transcript": "But you know what? It's gonna pass eventually. I mean it'll never pass. I'll always be there And you'll always remember him and everything like that, but you know You'll get easier I guess",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "But you know what?",
+      "emotion": "sadness",
+      "emotion_confidence": 0.632,
+      "sentiment_score": -0.0223,
+      "pitch_mean": 314.9
+    },
+    {
+      "start_time": 2.46,
+      "end_time": 6.44,
+      "text": "It's gonna pass eventually. I mean it'll never pass. I'll always be there",
+      "emotion": "neutral",
+      "emotion_confidence": 0.761,
+      "sentiment_score": 0.5826,
+      "pitch_mean": 320.17
+    },
+    {
+      "start_time": 6.44,
+      "end_time": 9.48,
+      "text": "And you'll always remember him and everything like that, but you know",
+      "emotion": "neutral",
+      "emotion_confidence": 0.901,
+      "sentiment_score": 0.469,
+      "pitch_mean": 332.24
+    },
+    {
+      "start_time": 11.0,
+      "end_time": 13.0,
+      "text": "You'll get easier I guess",
+      "emotion": "neutral",
+      "emotion_confidence": 0.937,
+      "sentiment_score": 0.542,
+      "pitch_mean": 320.85
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3928,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "sadness": 0.25,
+      "neutral": 0.75
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 159.25,
+    "avg_pitch": 320.85
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro06",
+    "utterance_id": "Ses05F_impro06_M022",
+    "transcript_ground_truth": "Do you know what, it's going to pass,eventually, I mean it'll never pass, it'll always be there, and you'll always remember and everything like that, but you know.  It'll get easier I guess."
+  }
+}

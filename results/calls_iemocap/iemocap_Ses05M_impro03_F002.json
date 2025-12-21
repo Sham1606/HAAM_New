@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro03_F002",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:36:46.584365",
+  "duration_seconds": 1.02,
+  "transcript": "When?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "When?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.676,
+      "sentiment_score": 0.155,
+      "pitch_mean": 365.46
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.155,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 58.83,
+    "avg_pitch": 362.58
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.3333,
+    "arousal": 3.0,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro03",
+    "utterance_id": "Ses05M_impro03_F002",
+    "transcript_ground_truth": "When?"
+  }
+}

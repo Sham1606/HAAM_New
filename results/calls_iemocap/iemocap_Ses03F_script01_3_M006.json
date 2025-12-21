@@ -1,0 +1,116 @@
+{
+  "call_id": "iemocap_Ses03F_script01_3_M006",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:35:07.781515",
+  "duration_seconds": 14.54,
+  "transcript": "Afghanistan all of them've they\u306a\u3093 winds coming up I was when I have some sneak of on your over a week or so. pend puff of",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.48,
+      "text": "Afghanistan",
+      "emotion": "disgust",
+      "emotion_confidence": 0.402,
+      "sentiment_score": -0.0571,
+      "pitch_mean": 331.61
+    },
+    {
+      "start_time": 5.48,
+      "end_time": 7.44,
+      "text": "all of them've",
+      "emotion": "neutral",
+      "emotion_confidence": 0.833,
+      "sentiment_score": 0.0888,
+      "pitch_mean": 321.54
+    },
+    {
+      "start_time": 7.44,
+      "end_time": 12.44,
+      "text": "they\u306a\u3093",
+      "emotion": "disgust",
+      "emotion_confidence": 0.432,
+      "sentiment_score": -0.0321,
+      "pitch_mean": 323.42
+    },
+    {
+      "start_time": 12.44,
+      "end_time": 15.06,
+      "text": "winds coming up I was when I",
+      "emotion": "neutral",
+      "emotion_confidence": 0.502,
+      "sentiment_score": 0.0664,
+      "pitch_mean": 327.83
+    },
+    {
+      "start_time": 15.06,
+      "end_time": 16.46,
+      "text": "have",
+      "emotion": "neutral",
+      "emotion_confidence": 0.657,
+      "sentiment_score": 0.2483,
+      "pitch_mean": 327.83
+    },
+    {
+      "start_time": 16.46,
+      "end_time": 19.66,
+      "text": "some sneak of on your over a week or so.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.819,
+      "sentiment_score": 0.0413,
+      "pitch_mean": 327.83
+    },
+    {
+      "start_time": 19.66,
+      "end_time": 20.26,
+      "text": "pend",
+      "emotion": "neutral",
+      "emotion_confidence": 0.836,
+      "sentiment_score": 0.1997,
+      "pitch_mean": 327.83
+    },
+    {
+      "start_time": 20.26,
+      "end_time": 22.48,
+      "text": "puff",
+      "emotion": "neutral",
+      "emotion_confidence": 0.641,
+      "sentiment_score": 0.2969,
+      "pitch_mean": 327.83
+    },
+    {
+      "start_time": 22.48,
+      "end_time": 26.72,
+      "text": "of",
+      "emotion": "neutral",
+      "emotion_confidence": 0.538,
+      "sentiment_score": 0.136,
+      "pitch_mean": 327.83
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1098,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "disgust": 0.222,
+      "neutral": 0.778
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 107.32,
+    "avg_pitch": 327.83
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 2.5,
+    "arousal": 4.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_3",
+    "utterance_id": "Ses03F_script01_3_M006",
+    "transcript_ground_truth": "Oh look, um, well, the thing is, I was planning on, planning on sort of sneaking up on you over a week or so, and they-they take it for granted we're all set."
+  }
+}

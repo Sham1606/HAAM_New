@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses04M_script02_2_M028",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:13:43.163043",
+  "duration_seconds": 8.39,
+  "transcript": "A new carpet, a poodle, an ice cream, a backdrop, a suicide pact? What? What, Carla? What the hell do you want? I want-",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.24,
+      "text": "A new carpet, a poodle, an ice cream, a backdrop, a suicide pact?",
+      "emotion": "joy",
+      "emotion_confidence": 0.347,
+      "sentiment_score": -0.3935,
+      "pitch_mean": 335.12
+    },
+    {
+      "start_time": 5.24,
+      "end_time": 7.98,
+      "text": "What? What, Carla? What the hell do you want?",
+      "emotion": "joy",
+      "emotion_confidence": 0.546,
+      "sentiment_score": -0.9208,
+      "pitch_mean": 350.26
+    },
+    {
+      "start_time": 7.98,
+      "end_time": 8.48,
+      "text": "I want-",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.13,
+      "pitch_mean": 341.12
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3948,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 0.667,
+      "neutral": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 171.63,
+    "avg_pitch": 341.12
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script02_2",
+    "utterance_id": "Ses04M_script02_2_M028",
+    "transcript_ground_truth": "A new carpet?  A poodle?  An ice cream?  A back rub?  A suicide pact?  What?  What, Carla?  What the hell do you want?"
+  }
+}

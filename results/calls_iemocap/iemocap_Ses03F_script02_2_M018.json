@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03F_script02_2_M018",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:41:16.668036",
+  "duration_seconds": 5.04,
+  "transcript": "You want this to be like the other time, right? That's it, right?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.5,
+      "text": "You want this to be like the other time, right?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.698,
+      "sentiment_score": -0.3512,
+      "pitch_mean": 326.81
+    },
+    {
+      "start_time": 3.3,
+      "end_time": 4.8,
+      "text": "That's it, right?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.579,
+      "sentiment_score": -0.0523,
+      "pitch_mean": 335.96
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2017,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 154.71,
+    "avg_pitch": 329.86
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 2.3333,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_2",
+    "utterance_id": "Ses03F_script02_2_M018",
+    "transcript_ground_truth": "You want this to be like the other time, right? That's it. Right?"
+  }
+}

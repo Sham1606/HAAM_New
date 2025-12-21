@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script02_1_F006",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:04:14.896710",
+  "duration_seconds": 2.69,
+  "transcript": "It's after 11, let's just go home.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It's after 11, let's just go home.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.837,
+      "sentiment_score": -0.0157,
+      "pitch_mean": 326.14
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0157,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 156.14,
+    "avg_pitch": 317.76
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script02_1",
+    "utterance_id": "Ses05M_script02_1_F006",
+    "transcript_ground_truth": "It's after eleven.  Let's just go home."
+  }
+}

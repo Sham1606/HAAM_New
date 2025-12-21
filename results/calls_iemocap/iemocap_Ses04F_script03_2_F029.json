@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script03_2_F029",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:43:03.613928",
+  "duration_seconds": 3.88,
+  "transcript": "Not very funny dear, you'd better have some more brandy.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Not very funny dear, you'd better have some more brandy.",
+      "emotion": "anger",
+      "emotion_confidence": 0.41,
+      "sentiment_score": -0.9037,
+      "pitch_mean": 339.69
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9037,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 154.64,
+    "avg_pitch": 332.07
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script03_2",
+    "utterance_id": "Ses04F_script03_2_F029",
+    "transcript_ground_truth": "Not very funny, dear.  You'd better have some more brandy."
+  }
+}

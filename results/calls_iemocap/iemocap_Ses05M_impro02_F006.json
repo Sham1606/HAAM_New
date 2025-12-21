@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro02_F006",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:34:39.663026",
+  "duration_seconds": 4.16,
+  "transcript": "No, we have there's gotta be something we can do you can't go",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.56,
+      "text": "No, we have there's gotta be something we can do you can't go",
+      "emotion": "neutral",
+      "emotion_confidence": 0.764,
+      "sentiment_score": 0.1435,
+      "pitch_mean": 347.03
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1435,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 187.5,
+    "avg_pitch": 342.58
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.6667,
+    "dominance": 3.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro02",
+    "utterance_id": "Ses05M_impro02_F006",
+    "transcript_ground_truth": "No, we have- There's got to be something you can do.  You can't go."
+  }
+}

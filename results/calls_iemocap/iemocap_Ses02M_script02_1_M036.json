@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02M_script02_1_M036",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:07:28.770941",
+  "duration_seconds": 9.72,
+  "transcript": "This is great isn't it? I wouldn't miss this for anything Now listen to this I know you're not interested, but just listen",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.96,
+      "text": "This is great isn't it? I wouldn't miss this for anything",
+      "emotion": "disgust",
+      "emotion_confidence": 0.453,
+      "sentiment_score": 0.9751,
+      "pitch_mean": 325.08
+    },
+    {
+      "start_time": 4.68,
+      "end_time": 8.96,
+      "text": "Now listen to this I know you're not interested, but just listen",
+      "emotion": "neutral",
+      "emotion_confidence": 0.737,
+      "sentiment_score": -0.6009,
+      "pitch_mean": 318.42
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1871,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 141.98,
+    "avg_pitch": 322.1
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script02_1",
+    "utterance_id": "Ses02M_script02_1_M036",
+    "transcript_ground_truth": "This is, this is great, isn't it? I wouldn't miss this for anything. Now listen to this, I know you're not interested but just listen."
+  }
+}

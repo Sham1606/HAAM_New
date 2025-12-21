@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses03M_script01_3_F033",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:43:29.973100",
+  "duration_seconds": 12.82,
+  "transcript": "That includes me too. I mean the money you were right to that money your father put planes up in the air good planes And he deserves it. You should be proud of that And man should be paid for that",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.12,
+      "text": "That includes me too. I mean the money you were right to that money your father put planes up in the air good planes",
+      "emotion": "neutral",
+      "emotion_confidence": 0.743,
+      "sentiment_score": 0.3963,
+      "pitch_mean": 351.13
+    },
+    {
+      "start_time": 7.12,
+      "end_time": 9.54,
+      "text": "And he deserves it. You should be proud of that",
+      "emotion": "neutral",
+      "emotion_confidence": 0.774,
+      "sentiment_score": 0.9523,
+      "pitch_mean": 375.06
+    },
+    {
+      "start_time": 10.44,
+      "end_time": 12.44,
+      "text": "And man should be paid for that",
+      "emotion": "anger",
+      "emotion_confidence": 0.675,
+      "sentiment_score": -0.694,
+      "pitch_mean": 349.19
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2182,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "anger": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 191.87,
+    "avg_pitch": 349.34
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_3",
+    "utterance_id": "Ses03M_script01_3_F033",
+    "transcript_ground_truth": "that includes me too, I mean and the money, you have right to that money.  Your father put planes up in the air, good planes and he deserves it, you should be proud of that.  A man should be paid for that."
+  }
+}

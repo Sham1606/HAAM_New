@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script02_1_M023",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:34:26.792816",
+  "duration_seconds": 3.88,
+  "transcript": "This is the big night for these guys, Life's Last Orgy!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "This is the big night for these guys, Life's Last Orgy!",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.9389,
+      "pitch_mean": 319.05
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9389,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 170.11,
+    "avg_pitch": 319.05
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script02_1",
+    "utterance_id": "Ses04F_script02_1_M023",
+    "transcript_ground_truth": "This is the big night for these guys.  Life's last orgy."
+  }
+}

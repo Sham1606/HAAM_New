@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script03_2_M040",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:16:00.499303",
+  "duration_seconds": 3.37,
+  "transcript": "Tuck! Very funny.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Tuck! Very funny.",
+      "emotion": "joy",
+      "emotion_confidence": 0.579,
+      "sentiment_score": 0.9192,
+      "pitch_mean": 334.78
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9192,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 53.41,
+    "avg_pitch": 331.62
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script03_2",
+    "utterance_id": "Ses05M_script03_2_M040",
+    "transcript_ground_truth": "Ja! Very funny."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01M_script02_2_F035",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:11:15.490805",
+  "duration_seconds": 5.7,
+  "transcript": "I know that all you I really do. Esh.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I know that all you I really do.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.546,
+      "sentiment_score": 0.7011,
+      "pitch_mean": 317.24
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 5.0,
+      "text": "Esh.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.935,
+      "sentiment_score": 0.1177,
+      "pitch_mean": 324.14
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4094,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 94.69,
+    "avg_pitch": 321.26
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script02_2",
+    "utterance_id": "Ses01M_script02_2_F035",
+    "transcript_ground_truth": "I know that Augie, I really do."
+  }
+}

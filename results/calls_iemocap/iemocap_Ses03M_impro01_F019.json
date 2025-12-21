@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro01_F019",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:47:53.800346",
+  "duration_seconds": 3.13,
+  "transcript": "Who will proceed to call security if you do not remove yourself?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Who will proceed to call security if you do not remove yourself?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.625,
+      "sentiment_score": -0.4652,
+      "pitch_mean": 345.81
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4652,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 229.91,
+    "avg_pitch": 344.51
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro01",
+    "utterance_id": "Ses03M_impro01_F019",
+    "transcript_ground_truth": "who will proceed to call-- security if you can't remove yourself--"
+  }
+}

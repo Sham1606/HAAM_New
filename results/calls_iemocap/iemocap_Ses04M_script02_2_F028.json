@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_script02_2_F028",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:12:36.669117",
+  "duration_seconds": 4.37,
+  "transcript": "Oh right sure this is standing on the beach this is waiting this is fighting",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.76,
+      "text": "Oh right sure this is standing on the beach this is waiting this is fighting",
+      "emotion": "anger",
+      "emotion_confidence": 0.515,
+      "sentiment_score": 0.0476,
+      "pitch_mean": 366.9
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0476,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 205.95,
+    "avg_pitch": 367.18
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script02_2",
+    "utterance_id": "Ses04M_script02_2_F028",
+    "transcript_ground_truth": "Oh, right, sure.  This is standing on the beach.   This is waiting.  This is fighting."
+  }
+}

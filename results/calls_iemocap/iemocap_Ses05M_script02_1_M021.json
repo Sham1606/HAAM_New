@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script02_1_M021",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:06:00.913450",
+  "duration_seconds": 6.97,
+  "transcript": "I mean, this is a big night for these guys, you know, life's last RG!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.72,
+      "text": "I mean, this is a big night for these guys, you know, life's last RG!",
+      "emotion": "neutral",
+      "emotion_confidence": 0.521,
+      "sentiment_score": 0.8791,
+      "pitch_mean": 321.3
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.8791,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 129.22,
+    "avg_pitch": 321.33
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 5.0,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script02_1",
+    "utterance_id": "Ses05M_script02_1_M021",
+    "transcript_ground_truth": "I mean, this is a big night for these guys.  You know, life's last orgy."
+  }
+}

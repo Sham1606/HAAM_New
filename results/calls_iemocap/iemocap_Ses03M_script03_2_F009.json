@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script03_2_F009",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:54:02.746680",
+  "duration_seconds": 1.49,
+  "transcript": "No thanks.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "No thanks.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.37,
+      "sentiment_score": -0.3013,
+      "pitch_mean": 329.95
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3013,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 80.31,
+    "avg_pitch": 323.83
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script03_2",
+    "utterance_id": "Ses03M_script03_2_F009",
+    "transcript_ground_truth": "No thanks."
+  }
+}

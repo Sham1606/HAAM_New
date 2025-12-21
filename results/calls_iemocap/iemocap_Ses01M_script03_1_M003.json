@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script03_1_M003",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:14:59.480318",
+  "duration_seconds": 3.89,
+  "transcript": "We're okay, right? Darling, whatever happens, you're okay?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "We're okay, right? Darling, whatever happens, you're okay?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.4785,
+      "pitch_mean": 336.42
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4785,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 123.25,
+    "avg_pitch": 336.42
+  },
+  "ground_truth": {
+    "emotion": "fear",
+    "raw_emotion": "fea",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script03_1",
+    "utterance_id": "Ses01M_script03_1_M003",
+    "transcript_ground_truth": "We're okay, right darling?  Whatever happens, we're okay?"
+  }
+}

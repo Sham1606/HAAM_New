@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses01M_impro03_M022",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:52:43.479338",
+  "duration_seconds": 9.78,
+  "transcript": "How make her pay for that? I hear she's totally wealthy. She's like royalty or something like whatever. Like removes or something.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "How make her pay for that?",
+      "emotion": "anger",
+      "emotion_confidence": 0.494,
+      "sentiment_score": -0.579,
+      "pitch_mean": 351.63
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 7.44,
+      "text": "I hear she's totally wealthy. She's like royalty or something like whatever.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.685,
+      "sentiment_score": 0.6141,
+      "pitch_mean": 352.81
+    },
+    {
+      "start_time": 7.44,
+      "end_time": 9.44,
+      "text": "Like removes or something.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.919,
+      "sentiment_score": -0.0474,
+      "pitch_mean": 340.14
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0041,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "anger": 0.333,
+      "neutral": 0.667
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 134.97,
+    "avg_pitch": 349.47
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.5,
+    "arousal": 4.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro03",
+    "utterance_id": "Ses01M_impro03_M022",
+    "transcript_ground_truth": "I'll make her pay for that.  I hear she's like totally wealthy. She's like royalty- --or something like and- --whatever like removed or something but yeah."
+  }
+}

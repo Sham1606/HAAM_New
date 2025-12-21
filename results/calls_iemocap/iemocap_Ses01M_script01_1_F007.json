@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script01_1_F007",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:01:32.297400",
+  "duration_seconds": 3.59,
+  "transcript": "What is you doing out here at that hour?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "What is you doing out here at that hour?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.779,
+      "sentiment_score": -0.2274,
+      "pitch_mean": 327.37
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2274,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 150.37,
+    "avg_pitch": 328.47
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.3333,
+    "arousal": 3.0,
+    "dominance": 3.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_1",
+    "utterance_id": "Ses01M_script01_1_F007",
+    "transcript_ground_truth": "What is he doing out here at that hour?"
+  }
+}

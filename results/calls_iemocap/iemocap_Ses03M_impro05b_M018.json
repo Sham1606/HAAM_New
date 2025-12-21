@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses03M_impro05b_M018",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T04:00:18.758744",
+  "duration_seconds": 8.15,
+  "transcript": "If not, I'm gonna get your name. I'm gonna talk to your boss, whoever. I'm never gonna fly. My business is never gonna fly Delta again.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "If not, I'm gonna get your name.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.596,
+      "sentiment_score": -0.298,
+      "pitch_mean": 325.31
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "I'm gonna talk to your boss, whoever.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.442,
+      "sentiment_score": -0.0267,
+      "pitch_mean": 328.34
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 5.0,
+      "text": "I'm never gonna fly.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.475,
+      "sentiment_score": -0.7379,
+      "pitch_mean": 342.24
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 8.0,
+      "text": "My business is never gonna fly Delta again.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.404,
+      "sentiment_score": -0.8994,
+      "pitch_mean": 334.59
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4905,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "neutral": 0.25,
+      "disgust": 0.75
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 191.41,
+    "avg_pitch": 331.31
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro05b",
+    "utterance_id": "Ses03M_impro05b_M018",
+    "transcript_ground_truth": "If not, I'm going to get your name, I'm going to talk to your boss, whoever...I'm never going to fly...my business is never going to fly Delta again."
+  }
+}

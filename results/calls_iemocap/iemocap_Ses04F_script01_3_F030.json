@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script01_3_F030",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:29:50.091214",
+  "duration_seconds": 2.89,
+  "transcript": "What do I do with a fortune?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "What do I do with a fortune?",
+      "emotion": "joy",
+      "emotion_confidence": 0.358,
+      "sentiment_score": -0.1519,
+      "pitch_mean": 350.74
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1519,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 145.33,
+    "avg_pitch": 339.4
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script01_3",
+    "utterance_id": "Ses04F_script01_3_F030",
+    "transcript_ground_truth": "What'll I do with a fortune?"
+  }
+}

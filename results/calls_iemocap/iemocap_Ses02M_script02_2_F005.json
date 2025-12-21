@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses02M_script02_2_F005",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:08:02.431056",
+  "duration_seconds": 7.81,
+  "transcript": "God damn it, Argi, don't ask me that! I hate it when you ask me that! You always ask me that it's insulting. What?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.2,
+      "text": "God damn it, Argi, don't ask me that!",
+      "emotion": "anger",
+      "emotion_confidence": 0.879,
+      "sentiment_score": -0.921,
+      "pitch_mean": 366.83
+    },
+    {
+      "start_time": 3.2,
+      "end_time": 5.16,
+      "text": "I hate it when you ask me that!",
+      "emotion": "anger",
+      "emotion_confidence": 0.771,
+      "sentiment_score": -0.9297,
+      "pitch_mean": 379.71
+    },
+    {
+      "start_time": 5.16,
+      "end_time": 7.32,
+      "text": "You always ask me that it's insulting.",
+      "emotion": "joy",
+      "emotion_confidence": 0.457,
+      "sentiment_score": -0.7707,
+      "pitch_mean": 376.36
+    },
+    {
+      "start_time": 7.32,
+      "end_time": 7.82,
+      "text": "What?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.922,
+      "sentiment_score": 0.083,
+      "pitch_mean": 369.72
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6346,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "joy": 0.25,
+      "neutral": 0.25
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 184.38,
+    "avg_pitch": 369.72
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script02_2",
+    "utterance_id": "Ses02M_script02_2_F005",
+    "transcript_ground_truth": "Goddamn it Augie don't ask me that. I hate it when you ask me that. You always ask me that. It's insulting."
+  }
+}

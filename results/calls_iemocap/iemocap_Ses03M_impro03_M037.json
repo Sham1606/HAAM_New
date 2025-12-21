@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro03_M037",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:54:13.777126",
+  "duration_seconds": 2.85,
+  "transcript": "So wow",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "So wow",
+      "emotion": "neutral",
+      "emotion_confidence": 0.956,
+      "sentiment_score": 0.8115,
+      "pitch_mean": 322.61
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.8115,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 42.11,
+    "avg_pitch": 322.16
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro03",
+    "utterance_id": "Ses03M_impro03_M037",
+    "transcript_ground_truth": "-and so... yeah."
+  }
+}

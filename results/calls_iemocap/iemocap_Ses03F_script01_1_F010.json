@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03F_script01_1_F010",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:29:32.063242",
+  "duration_seconds": 2.97,
+  "transcript": "What do you mean? This honest.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "What do you mean?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.818,
+      "sentiment_score": -0.0358,
+      "pitch_mean": 333.07
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "This honest.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.813,
+      "sentiment_score": 0.1619,
+      "pitch_mean": 330.64
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.063,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 121.39,
+    "avg_pitch": 330.64
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.0,
+    "arousal": 3.6667,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_1",
+    "utterance_id": "Ses03F_script01_1_F010",
+    "transcript_ground_truth": "What do you mean, dishonest?"
+  }
+}

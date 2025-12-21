@@ -1,0 +1,99 @@
+{
+  "call_id": "iemocap_Ses05M_impro03_M011",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:38:27.711673",
+  "duration_seconds": 13.75,
+  "transcript": "And she's like, she feels it, you know, and she doesn't know what it is. And she, you know, helps to get out. And I won't let go of her hand. She's like, what are you doing? And it's like, and she said, you saved my life. No, will you make her even better? Oh my god.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.44,
+      "text": "And she's like, she feels it, you know, and she doesn't know what it is.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.569,
+      "sentiment_score": -0.3798,
+      "pitch_mean": 312.29
+    },
+    {
+      "start_time": 3.44,
+      "end_time": 6.08,
+      "text": "And she, you know, helps to get out.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.654,
+      "sentiment_score": 0.2888,
+      "pitch_mean": 320.46
+    },
+    {
+      "start_time": 6.08,
+      "end_time": 7.68,
+      "text": "And I won't let go of her hand.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.542,
+      "sentiment_score": 0.4904,
+      "pitch_mean": 323.31
+    },
+    {
+      "start_time": 7.68,
+      "end_time": 8.84,
+      "text": "She's like, what are you doing?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.576,
+      "sentiment_score": -0.0169,
+      "pitch_mean": 299.49
+    },
+    {
+      "start_time": 8.84,
+      "end_time": 11.68,
+      "text": "And it's like, and she said, you saved my life.",
+      "emotion": "joy",
+      "emotion_confidence": 0.769,
+      "sentiment_score": 0.8101,
+      "pitch_mean": 302.27
+    },
+    {
+      "start_time": 11.68,
+      "end_time": 12.92,
+      "text": "No, will you make her even better?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.741,
+      "sentiment_score": 0.3392,
+      "pitch_mean": 319.68
+    },
+    {
+      "start_time": 12.92,
+      "end_time": 13.92,
+      "text": "Oh my god.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.92,
+      "sentiment_score": -0.1589,
+      "pitch_mean": 314.75
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1961,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "disgust": 0.143,
+      "neutral": 0.714,
+      "joy": 0.143
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 248.67,
+    "avg_pitch": 314.75
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.3333,
+    "arousal": 3.6667,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro03",
+    "utterance_id": "Ses05M_impro03_M011",
+    "transcript_ground_truth": "And she's like- she feels it you know and she doesn't know what it is.  And she you know helps me get out and I won't let go of her hand.  And she's like, what are you doing?  I and said, You saved my life, now will you marry me?"
+  }
+}

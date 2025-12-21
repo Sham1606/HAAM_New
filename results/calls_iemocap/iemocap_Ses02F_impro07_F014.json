@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro07_F014",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:28:01.665644",
+  "duration_seconds": 6.26,
+  "transcript": "Yeah, I mean there's all the money stuff and my mom's helping with the financial aid and stuff, but it'll be fine",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "Yeah, I mean there's all the money stuff and my mom's helping with the financial aid and stuff, but it'll be fine",
+      "emotion": "neutral",
+      "emotion_confidence": 0.717,
+      "sentiment_score": 0.5078,
+      "pitch_mean": 349.76
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5078,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 210.86,
+    "avg_pitch": 350.66
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro07",
+    "utterance_id": "Ses02F_impro07_F014",
+    "transcript_ground_truth": "Yeah, I mean there's all the money stuff and my mom's helping me with the financial aid and stuff.  But, it'll be fine--"
+  }
+}

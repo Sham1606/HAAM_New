@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro07_M004",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:26:04.071981",
+  "duration_seconds": 2.15,
+  "transcript": "I know you've been trying to have a big deal.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I know you've been trying to have a big deal.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.712,
+      "sentiment_score": -0.203,
+      "pitch_mean": 334.26
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.203,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 279.61,
+    "avg_pitch": 333.8
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 4.0,
+    "arousal": 2.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro07",
+    "utterance_id": "Ses03F_impro07_M004",
+    "transcript_ground_truth": "I know you've been trying to have a baby, right?"
+  }
+}

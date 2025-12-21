@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script01_3_F006",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:01:10.827832",
+  "duration_seconds": 3.55,
+  "transcript": "I figured they would. Your mother at least.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I figured they would. Your mother at least.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.89,
+      "sentiment_score": -0.0573,
+      "pitch_mean": 321.39
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0573,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 135.21,
+    "avg_pitch": 320.7
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.5,
+    "arousal": 2.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_3",
+    "utterance_id": "Ses05M_script01_3_F006",
+    "transcript_ground_truth": "I figured they would, your mother at least."
+  }
+}

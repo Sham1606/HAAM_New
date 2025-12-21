@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script02_2_F006",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:10:19.031795",
+  "duration_seconds": 6.44,
+  "transcript": "Everybody believes that they keep some excited, you know, it keeps them coming back for more",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.78,
+      "text": "Everybody believes that they keep some excited, you know, it keeps them coming back for more",
+      "emotion": "joy",
+      "emotion_confidence": 0.515,
+      "sentiment_score": 0.7577,
+      "pitch_mean": 356.59
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.7577,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 149.14,
+    "avg_pitch": 352.14
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script02_2",
+    "utterance_id": "Ses01M_script02_2_F006",
+    "transcript_ground_truth": "Everybody is believes that it keeps them excited, you know it keeps them coming back for more."
+  }
+}

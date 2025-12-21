@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05F_script02_1_M029",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:23:10.090378",
+  "duration_seconds": 7.12,
+  "transcript": "Look there, what's that? Is it? Is that a... Oh, let's just see where you're going to get this.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Look there, what's that? Is it? Is that a...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.761,
+      "sentiment_score": 0.1118,
+      "pitch_mean": 320.09
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 7.0,
+      "text": "Oh, let's just see where you're going to get this.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.93,
+      "sentiment_score": -0.3935,
+      "pitch_mean": 300.52
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1408,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 160.19,
+    "avg_pitch": 312.06
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script02_1",
+    "utterance_id": "Ses05F_script02_1_M029",
+    "transcript_ground_truth": "Look there, what's that?  Is it?  Is that a--Ah, it's a seaweed isn't it?"
+  }
+}

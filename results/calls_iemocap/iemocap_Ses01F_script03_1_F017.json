@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script03_1_F017",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:43:32.452638",
+  "duration_seconds": 4.92,
+  "transcript": "What happens if one of us dies? Does the other one still laugh?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "What happens if one of us dies? Does the other one still laugh?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.516,
+      "sentiment_score": -0.4902,
+      "pitch_mean": 331.07
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4902,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 158.54,
+    "avg_pitch": 331.07
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script03_1",
+    "utterance_id": "Ses01F_script03_1_F017",
+    "transcript_ground_truth": "What happens if one of us dies?  Does the other one still laugh?"
+  }
+}

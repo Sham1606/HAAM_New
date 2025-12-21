@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05F_impro08_F008",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:10:38.659491",
+  "duration_seconds": 7.2,
+  "transcript": "I know I pay this one. So where did you locate your bill?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "I know I pay this one.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.756,
+      "sentiment_score": 0.1921,
+      "pitch_mean": 371.75
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 7.0,
+      "text": "So where did you locate your bill?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.78,
+      "sentiment_score": -0.1476,
+      "pitch_mean": 349.57
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0223,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 108.33,
+    "avg_pitch": 351.74
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro08",
+    "utterance_id": "Ses05F_impro08_F008",
+    "transcript_ground_truth": "Okay, so where?, okay, all right, so where did you uh- locate your your bill?"
+  }
+}

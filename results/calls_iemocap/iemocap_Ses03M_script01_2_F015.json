@@ -1,0 +1,91 @@
+{
+  "call_id": "iemocap_Ses03M_script01_2_F015",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:41:24.431503",
+  "duration_seconds": 14.03,
+  "transcript": "La, laugh at me, but I will. Because you know what happened when she came here, when she came back, she slept in his room, the memorial broke into pieces. Joe, look, look at it! I don't believe with me.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.8,
+      "text": "La, laugh at me, but I will.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.368,
+      "sentiment_score": -0.0257,
+      "pitch_mean": 355.3
+    },
+    {
+      "start_time": 2.8,
+      "end_time": 5.0,
+      "text": "Because you know what happened when she came here,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.745,
+      "sentiment_score": -0.061,
+      "pitch_mean": 344.27
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 6.8,
+      "text": "when she came back, she slept in his room,",
+      "emotion": "disgust",
+      "emotion_confidence": 0.86,
+      "sentiment_score": 0.012,
+      "pitch_mean": 374.16
+    },
+    {
+      "start_time": 6.8,
+      "end_time": 8.8,
+      "text": "the memorial broke into pieces.",
+      "emotion": "anger",
+      "emotion_confidence": 0.706,
+      "sentiment_score": -0.8285,
+      "pitch_mean": 355.3
+    },
+    {
+      "start_time": 8.8,
+      "end_time": 11.0,
+      "text": "Joe, look, look at it!",
+      "emotion": "joy",
+      "emotion_confidence": 0.446,
+      "sentiment_score": 0.1685,
+      "pitch_mean": 370.35
+    },
+    {
+      "start_time": 11.0,
+      "end_time": 13.0,
+      "text": "I don't believe with me.",
+      "emotion": "anger",
+      "emotion_confidence": 0.631,
+      "sentiment_score": -0.6821,
+      "pitch_mean": 333.2
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2361,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.333,
+      "neutral": 0.167,
+      "anger": 0.333,
+      "joy": 0.167
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 171.11,
+    "avg_pitch": 350.85
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.0,
+    "arousal": 5.0,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_2",
+    "utterance_id": "Ses03M_script01_2_F015",
+    "transcript_ground_truth": "Laugh, laugh at me but I will.  Because you know what happened when she came here?  When she came back she slept in his room, the memorial broke into pieces. Joe, look. Look at it. You got to believe with me."
+  }
+}

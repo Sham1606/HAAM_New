@@ -1,0 +1,63 @@
+{
+  "call_id": "iemocap_Ses04M_impro03_F003",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:51:36.752437",
+  "duration_seconds": 5.22,
+  "transcript": "and you're already right. Well, you paint a romantic picture. Ha-ha.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.6,
+      "text": "and you're already right.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.411,
+      "sentiment_score": 0.1923,
+      "pitch_mean": 360.06
+    },
+    {
+      "start_time": 2.6,
+      "end_time": 4.4,
+      "text": "Well, you paint a romantic picture.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.834,
+      "sentiment_score": 0.8761,
+      "pitch_mean": 359.89
+    },
+    {
+      "start_time": 4.4,
+      "end_time": 5.2,
+      "text": "Ha-ha.",
+      "emotion": "joy",
+      "emotion_confidence": 0.964,
+      "sentiment_score": 0.1781,
+      "pitch_mean": 329.22
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4155,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.333,
+      "neutral": 0.333,
+      "joy": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 126.55,
+    "avg_pitch": 357.09
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro03",
+    "utterance_id": "Ses04M_impro03_F003",
+    "transcript_ground_truth": "[LAUGHTER] Well you paint a romantic picture."
+  }
+}

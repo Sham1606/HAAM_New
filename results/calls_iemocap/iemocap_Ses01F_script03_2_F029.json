@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script03_2_F029",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:46:07.695777",
+  "duration_seconds": 3.05,
+  "transcript": "Not very funny darling, we're just gonna have some more brandy.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Not very funny darling, we're just gonna have some more brandy.",
+      "emotion": "anger",
+      "emotion_confidence": 0.51,
+      "sentiment_score": -0.8942,
+      "pitch_mean": 346.05
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8942,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 216.39,
+    "avg_pitch": 345.8
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script03_2",
+    "utterance_id": "Ses01F_script03_2_F029",
+    "transcript_ground_truth": "Not very funny, darling.  Why don't you have some more brandy."
+  }
+}

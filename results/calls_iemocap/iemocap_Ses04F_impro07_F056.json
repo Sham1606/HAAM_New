@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro07_F056",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:14:47.385843",
+  "duration_seconds": 1.94,
+  "transcript": "What could a donut shop or...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "What could a donut shop or...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.636,
+      "sentiment_score": 0.0227,
+      "pitch_mean": 349.35
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0227,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 185.57,
+    "avg_pitch": 349.35
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro07",
+    "utterance_id": "Ses04F_impro07_F056",
+    "transcript_ground_truth": "Work at a doughnut shop."
+  }
+}

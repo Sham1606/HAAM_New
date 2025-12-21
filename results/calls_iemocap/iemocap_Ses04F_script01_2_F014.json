@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script01_2_F014",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:27:14.871886",
+  "duration_seconds": 3.31,
+  "transcript": "Because if he's not coming back, I'll kill myself.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Because if he's not coming back, I'll kill myself.",
+      "emotion": "joy",
+      "emotion_confidence": 0.427,
+      "sentiment_score": -0.8365,
+      "pitch_mean": 351.78
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8365,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 162.93,
+    "avg_pitch": 346.99
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.0,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script01_2",
+    "utterance_id": "Ses04F_script01_2_F014",
+    "transcript_ground_truth": "Because if he's not coming back, I'll kill myself."
+  }
+}

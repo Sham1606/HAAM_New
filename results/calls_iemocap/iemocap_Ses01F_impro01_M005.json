@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01F_impro01_M005",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:15:54.698054",
+  "duration_seconds": 8.12,
+  "transcript": "You can't, this is not the line for the ZX4. If you're gonna fill out the ZX4, you need to have a different form of ID.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.08,
+      "text": "You can't, this is not the line for the ZX4.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.871,
+      "sentiment_score": -0.6509,
+      "pitch_mean": 330.81
+    },
+    {
+      "start_time": 4.08,
+      "end_time": 7.84,
+      "text": "If you're gonna fill out the ZX4, you need to have a different form of ID.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.961,
+      "sentiment_score": -0.0494,
+      "pitch_mean": 332.53
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3502,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 192.08,
+    "avg_pitch": 331.19
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro01",
+    "utterance_id": "Ses01F_impro01_M005",
+    "transcript_ground_truth": "You can't--  This is not the line for Z.X.four.  If you're going to fill out the Z.X.four, you need to have a different form of ID."
+  }
+}

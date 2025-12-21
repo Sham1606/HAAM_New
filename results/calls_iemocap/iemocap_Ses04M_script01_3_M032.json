@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses04M_script01_3_M032",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:09:43.633440",
+  "duration_seconds": 16.71,
+  "transcript": "There was no meaning in it here. The whole thing to them was some sort of bus accident. Then I went to work for Dad, that whole rat race again. I felt what you said ashamed somehow.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "There was no meaning in it here.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.728,
+      "sentiment_score": -0.7625,
+      "pitch_mean": 311.34
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 6.0,
+      "text": "The whole thing to them was some sort of bus accident.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.476,
+      "sentiment_score": -0.7785,
+      "pitch_mean": 317.48
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 12.0,
+      "text": "Then I went to work for Dad, that whole rat race again.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.402,
+      "sentiment_score": -0.6174,
+      "pitch_mean": 323.15
+    },
+    {
+      "start_time": 12.0,
+      "end_time": 16.0,
+      "text": "I felt what you said ashamed somehow.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.601,
+      "sentiment_score": -0.5451,
+      "pitch_mean": 321.72
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6759,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "neutral": 0.25,
+      "disgust": 0.75
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 132.86,
+    "avg_pitch": 320.28
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script01_3",
+    "utterance_id": "Ses04M_script01_3_M032",
+    "transcript_ground_truth": "There was no meaning in it here.  The whole thing to them was some sort of bus accident.  Then I went to work for dad and that whole rat race again.  I felt, what you said, ashamed somehow"
+  }
+}

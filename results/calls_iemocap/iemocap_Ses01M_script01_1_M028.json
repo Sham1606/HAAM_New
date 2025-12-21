@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script01_1_M028",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:03:29.950844",
+  "duration_seconds": 7.17,
+  "transcript": "I don't know. I think of her. I grew up next to her. She's what I think of when I think of a wife.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.6,
+      "text": "I don't know. I think of her. I grew up next to her. She's what I think of when I think of a wife.",
+      "emotion": "anger",
+      "emotion_confidence": 0.509,
+      "sentiment_score": 0.1285,
+      "pitch_mean": 349.02
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1285,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 200.84,
+    "avg_pitch": 341.98
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 3.0,
+    "arousal": 3.3333,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_1",
+    "utterance_id": "Ses01M_script01_1_M028",
+    "transcript_ground_truth": "I don't know, it I think of her, I grew up next to her.  She is what I think of when I think of a wife."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_impro06_M014",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:46:11.603052",
+  "duration_seconds": 7.55,
+  "transcript": "Do you always think that you know when you're you know when you're a little kid you think something's gonna happen like it will It'll all be better when I'm older, you know?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.4,
+      "text": "Do you always think that you know when you're you know when you're a little kid you think something's gonna happen like it will",
+      "emotion": "disgust",
+      "emotion_confidence": 0.347,
+      "sentiment_score": 0.0141,
+      "pitch_mean": 320.6
+    },
+    {
+      "start_time": 5.4,
+      "end_time": 7.4,
+      "text": "It'll all be better when I'm older, you know?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.798,
+      "sentiment_score": 0.82,
+      "pitch_mean": 338.58
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4171,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 262.42,
+    "avg_pitch": 325.27
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro06",
+    "utterance_id": "Ses05M_impro06_M014",
+    "transcript_ground_truth": "You always think, you know when you were- you know when you were a little kid and you think something is gonna happen, like, it will all be better when I am older, you know?"
+  }
+}

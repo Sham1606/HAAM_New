@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses05F_impro04_M020",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:59:26.508421",
+  "duration_seconds": 16.67,
+  "transcript": "It's the way it seems to me. You started complaining about not being able to find a job the first day you went out and didn't find a job And it's not saying that like I'm not trying to you know put you down or anything. It's just that",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It's the way it seems to me.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.869,
+      "sentiment_score": 0.0267,
+      "pitch_mean": 317.03
+    },
+    {
+      "start_time": 3.36,
+      "end_time": 8.82,
+      "text": "You started complaining about not being able to find a job the first day you went out and didn't find a job",
+      "emotion": "anger",
+      "emotion_confidence": 0.778,
+      "sentiment_score": -0.7804,
+      "pitch_mean": 329.81
+    },
+    {
+      "start_time": 11.2,
+      "end_time": 16.04,
+      "text": "And it's not saying that like I'm not trying to you know put you down or anything. It's just that",
+      "emotion": "neutral",
+      "emotion_confidence": 0.921,
+      "sentiment_score": -0.5461,
+      "pitch_mean": 326.12
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4333,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "anger": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 176.36,
+    "avg_pitch": 324.07
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro04",
+    "utterance_id": "Ses05F_impro04_M020",
+    "transcript_ground_truth": "It's the way it seems to me.  You started complaining about not being able to find a job the first day you went out and didn't find a job.  And I'm not saying like and not trying to you know put you down or anything, it's just that-"
+  }
+}

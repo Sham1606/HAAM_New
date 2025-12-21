@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02M_impro05_M020",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:54:03.534858",
+  "duration_seconds": 3.77,
+  "transcript": "I need you to tell me because I really need to get the back. Okay?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I need you to tell me because I really need to get the back.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.627,
+      "sentiment_score": 0.1414,
+      "pitch_mean": 326.87
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 4.0,
+      "text": "Okay?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.1184,
+      "pitch_mean": 328.11
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1299,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 238.71,
+    "avg_pitch": 328.11
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro05",
+    "utterance_id": "Ses02M_impro05_M020",
+    "transcript_ground_truth": "I need you to tell me because I really need to get the bag, okay?"
+  }
+}

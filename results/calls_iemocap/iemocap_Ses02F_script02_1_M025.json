@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02F_script02_1_M025",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:38:38.081906",
+  "duration_seconds": 9.33,
+  "transcript": "Yeah, but that moment on the beach is the highlight of their little lives all that flopping is laying eggs or what do you Spawning or mating I mean",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.08,
+      "text": "Yeah, but that moment on the beach is the highlight of their little lives all that flopping is laying eggs or what do you",
+      "emotion": "neutral",
+      "emotion_confidence": 0.772,
+      "sentiment_score": 0.4233,
+      "pitch_mean": 334.77
+    },
+    {
+      "start_time": 7.4,
+      "end_time": 9.4,
+      "text": "Spawning or mating I mean",
+      "emotion": "neutral",
+      "emotion_confidence": 0.637,
+      "sentiment_score": -0.0316,
+      "pitch_mean": 332.61
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1958,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 186.5,
+    "avg_pitch": 332.61
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script02_1",
+    "utterance_id": "Ses02F_script02_1_M025",
+    "transcript_ground_truth": "Yeah, but that moment on the beach, is the highlight of their little lives.  All that flopping is laying eggs or what do you--spawning or mating.  I mean,"
+  }
+}

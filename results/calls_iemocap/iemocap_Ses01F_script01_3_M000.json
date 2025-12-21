@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01F_script01_3_M000",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:36:03.380490",
+  "duration_seconds": 4.58,
+  "transcript": "I know. Kinda went out of style, didn't it?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I know.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.1268,
+      "pitch_mean": 327.77
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "Kinda went out of style, didn't it?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.475,
+      "sentiment_score": -0.7279,
+      "pitch_mean": 330.03
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3005,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 117.91,
+    "avg_pitch": 329.16
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 4.0,
+    "arousal": 1.6667,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_3",
+    "utterance_id": "Ses01F_script01_3_M000",
+    "transcript_ground_truth": "I know.  It kind of went out of style, didn't it?"
+  }
+}

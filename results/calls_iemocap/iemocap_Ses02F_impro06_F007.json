@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02F_impro06_F007",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:26:31.020392",
+  "duration_seconds": 6.79,
+  "transcript": "It was so young, you know. The other life stories is tell me about...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It was so young, you know.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.421,
+      "sentiment_score": -0.0875,
+      "pitch_mean": 335.99
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 6.0,
+      "text": "The other life stories is tell me about...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.837,
+      "sentiment_score": 0.0312,
+      "pitch_mean": 319.86
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0282,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 123.71,
+    "avg_pitch": 319.77
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.3333,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro06",
+    "utterance_id": "Ses02F_impro06_F007",
+    "transcript_ground_truth": "He was so young, you know.  And all the stories he used to tell me about..."
+  }
+}

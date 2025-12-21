@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_script01_3_M005",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:43:45.519446",
+  "duration_seconds": 9.44,
+  "transcript": "Well, the trouble is I was playing non-speaking up on you over a week or so. They take it for granted that were all set.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.88,
+      "text": "Well, the trouble is I was playing non-speaking up on you over a week or so.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.415,
+      "sentiment_score": -0.7526,
+      "pitch_mean": 325.67
+    },
+    {
+      "start_time": 6.88,
+      "end_time": 8.88,
+      "text": "They take it for granted that were all set.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.908,
+      "sentiment_score": -0.6654,
+      "pitch_mean": 332.89
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.709,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 158.85,
+    "avg_pitch": 326.65
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_3",
+    "utterance_id": "Ses03M_script01_3_M005",
+    "transcript_ground_truth": "Well the trouble is I was planning on sneaking up on you over a week or so and they take it for granted that we're all set."
+  }
+}

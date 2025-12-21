@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_impro08a_F031",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:32:40.756267",
+  "duration_seconds": 9.09,
+  "transcript": "I worked out at my home as a realtor and because I don't have a landline, I need a phone and because now I don't have one, I don't know what to do and you're not helping me at all.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.32,
+      "text": "I worked out at my home as a realtor and because I don't have a landline, I need a phone",
+      "emotion": "disgust",
+      "emotion_confidence": 0.398,
+      "sentiment_score": 0.0012,
+      "pitch_mean": 354.53
+    },
+    {
+      "start_time": 4.32,
+      "end_time": 8.76,
+      "text": "and because now I don't have one, I don't know what to do and you're not helping me at all.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.341,
+      "sentiment_score": -0.9137,
+      "pitch_mean": 357.19
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4562,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 264.02,
+    "avg_pitch": 353.88
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 5.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro08a",
+    "utterance_id": "Ses03M_impro08a_F031",
+    "transcript_ground_truth": "I work out of my home as a realtor and because I don't have a land line, I need a phone and because of now I don't have one I don't know what to do.  And you're not helping me at all."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script01_1_F004",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:31:29.330853",
+  "duration_seconds": 1.99,
+  "transcript": "Did you talk to him?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Did you talk to him?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.506,
+      "sentiment_score": 0.0045,
+      "pitch_mean": 312.41
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0045,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 150.39,
+    "avg_pitch": 312.41
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_1",
+    "utterance_id": "Ses02F_script01_1_F004",
+    "transcript_ground_truth": "Did you talk to him?"
+  }
+}

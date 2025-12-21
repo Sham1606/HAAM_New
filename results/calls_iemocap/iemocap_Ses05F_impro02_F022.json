@@ -1,0 +1,81 @@
+{
+  "call_id": "iemocap_Ses05F_impro02_F022",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:48:02.574578",
+  "duration_seconds": 12.85,
+  "transcript": "I can try it. Baby, don't beg me. I mean, if there were anything that I could do, I wouldn't do it. Believe me. This is not what I want.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.92,
+      "text": "I can try it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.827,
+      "sentiment_score": 0.281,
+      "pitch_mean": 334.79
+    },
+    {
+      "start_time": 2.92,
+      "end_time": 5.68,
+      "text": "Baby, don't beg me.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.412,
+      "sentiment_score": -0.087,
+      "pitch_mean": 344.2
+    },
+    {
+      "start_time": 5.68,
+      "end_time": 8.12,
+      "text": "I mean, if there were anything that I could do, I wouldn't do it.",
+      "emotion": "joy",
+      "emotion_confidence": 0.378,
+      "sentiment_score": -0.5499,
+      "pitch_mean": 392.8
+    },
+    {
+      "start_time": 8.12,
+      "end_time": 9.12,
+      "text": "Believe me.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.64,
+      "sentiment_score": 0.5423,
+      "pitch_mean": 355.72
+    },
+    {
+      "start_time": 9.12,
+      "end_time": 12.12,
+      "text": "This is not what I want.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.47,
+      "sentiment_score": -0.88,
+      "pitch_mean": 344.23
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1387,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.4,
+      "disgust": 0.4,
+      "joy": 0.2
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 140.08,
+    "avg_pitch": 345.09
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro02",
+    "utterance_id": "Ses05F_impro02_F022",
+    "transcript_ground_truth": "Well, we can try it.  Baby, don't beg me.  I mean, if there were anything that I could do, I would do it.  Believe me.  This is not what I want."
+  }
+}

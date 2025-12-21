@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses02F_script01_2_F015",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:34:29.537341",
+  "duration_seconds": 5.16,
+  "transcript": "But last week, a man turned up to Detroit, missing longer than Larry. I mean, you read it yourself. Right, all right.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.36,
+      "text": "But last week, a man turned up to Detroit, missing longer than Larry.",
+      "emotion": "joy",
+      "emotion_confidence": 0.38,
+      "sentiment_score": -0.6005,
+      "pitch_mean": 355.69
+    },
+    {
+      "start_time": 3.36,
+      "end_time": 4.48,
+      "text": "I mean, you read it yourself.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.653,
+      "sentiment_score": -0.0592,
+      "pitch_mean": 375.83
+    },
+    {
+      "start_time": 4.48,
+      "end_time": 5.16,
+      "text": "Right, all right.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.535,
+      "sentiment_score": 0.3618,
+      "pitch_mean": 360.95
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0993,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "joy": 0.333,
+      "neutral": 0.667
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 255.82,
+    "avg_pitch": 360.95
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_2",
+    "utterance_id": "Ses02F_script01_2_F015",
+    "transcript_ground_truth": "Last week, a man turned up in Detroit missing longer than Larry.  I mean, you read it yourself."
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses02M_script01_3_F027",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:04:15.822789",
+  "duration_seconds": 8.5,
+  "transcript": "I mean, and your money, there's nothing wrong with your money. Your father put hundreds of planes in the air, a man should be paid for that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.84,
+      "text": "I mean, and your money, there's nothing wrong with your money.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.435,
+      "sentiment_score": -0.1187,
+      "pitch_mean": 348.93
+    },
+    {
+      "start_time": 3.84,
+      "end_time": 5.96,
+      "text": "Your father put hundreds of planes in the air,",
+      "emotion": "disgust",
+      "emotion_confidence": 0.324,
+      "sentiment_score": -0.617,
+      "pitch_mean": 355.04
+    },
+    {
+      "start_time": 5.96,
+      "end_time": 7.96,
+      "text": "a man should be paid for that.",
+      "emotion": "anger",
+      "emotion_confidence": 0.64,
+      "sentiment_score": -0.4159,
+      "pitch_mean": 339.97
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3839,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.667,
+      "anger": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 190.68,
+    "avg_pitch": 343.61
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script01_3",
+    "utterance_id": "Ses02M_script01_3_F027",
+    "transcript_ground_truth": "I mean, and your money, there's- there's nothing wrong with your money.  I mean, your father put hundreds of planes in the air.  A man should be paid for that."
+  }
+}

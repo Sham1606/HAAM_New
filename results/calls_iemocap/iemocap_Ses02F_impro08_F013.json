@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02F_impro08_F013",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:30:19.975992",
+  "duration_seconds": 8.6,
+  "transcript": "So you will absolutely be in a high rated great hotel and we can make sure that it's in an area of town that you like as well.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.48,
+      "text": "So you will absolutely be in a high rated great hotel and we can make sure that it's in",
+      "emotion": "neutral",
+      "emotion_confidence": 0.909,
+      "sentiment_score": 0.9634,
+      "pitch_mean": 347.54
+    },
+    {
+      "start_time": 6.48,
+      "end_time": 8.16,
+      "text": "an area of town that you like as well.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.459,
+      "sentiment_score": 0.5225,
+      "pitch_mean": 343.08
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.743,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 195.32,
+    "avg_pitch": 344.67
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro08",
+    "utterance_id": "Ses02F_impro08_F013",
+    "transcript_ground_truth": "So, you will absolutely be in a high rated great hotel and we can make sure that it's in a area of town that you like as well."
+  }
+}

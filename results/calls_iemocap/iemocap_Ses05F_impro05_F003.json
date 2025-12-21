@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro05_F003",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:00:25.786461",
+  "duration_seconds": 4.79,
+  "transcript": "Yeah, I don't know where it was last I was coming from Africa so",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Yeah, I don't know where it was last I was coming from Africa so",
+      "emotion": "disgust",
+      "emotion_confidence": 0.406,
+      "sentiment_score": -0.2481,
+      "pitch_mean": 338.17
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2481,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 175.39,
+    "avg_pitch": 337.35
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro05",
+    "utterance_id": "Ses05F_impro05_F003",
+    "transcript_ground_truth": "Yeah, I don't know where it was lost.  I was coming from Africa, so."
+  }
+}

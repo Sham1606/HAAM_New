@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_script02_1_M010",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:46:23.069288",
+  "duration_seconds": 6.32,
+  "transcript": "How could we have not thought to bring it? I hope the moon stays out",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "How could we have not thought to bring it?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.874,
+      "sentiment_score": -0.2691,
+      "pitch_mean": 313.64
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "I hope the moon stays out",
+      "emotion": "neutral",
+      "emotion_confidence": 0.896,
+      "sentiment_score": 0.3844,
+      "pitch_mean": 313.02
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0576,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 142.32,
+    "avg_pitch": 313.68
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_1",
+    "utterance_id": "Ses03M_script02_1_M010",
+    "transcript_ground_truth": "How could we have not thought to bring it?  I hope the moon stays out."
+  }
+}

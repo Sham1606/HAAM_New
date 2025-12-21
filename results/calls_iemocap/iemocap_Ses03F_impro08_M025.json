@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro08_M025",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:29:10.615046",
+  "duration_seconds": 2.64,
+  "transcript": "So you're gonna give me a dollar back.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.5,
+      "text": "So you're gonna give me a dollar back.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.46,
+      "sentiment_score": 0.1208,
+      "pitch_mean": 337.08
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1208,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 182.06,
+    "avg_pitch": 335.94
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro08",
+    "utterance_id": "Ses03F_impro08_M025",
+    "transcript_ground_truth": "So you're giving me a dollar back."
+  }
+}

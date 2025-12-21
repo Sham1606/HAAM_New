@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03F_script01_3_M037",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:36:06.871610",
+  "duration_seconds": 11.12,
+  "transcript": "and to show that, to bring that onto the earth like some sort of monument standing right behind us, where everyone could feel it and would make a difference to him.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.4,
+      "text": "and to show that, to bring that onto the earth like some sort of monument standing right behind us,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.79,
+      "sentiment_score": -0.0688,
+      "pitch_mean": 337.92
+    },
+    {
+      "start_time": 6.4,
+      "end_time": 10.4,
+      "text": "where everyone could feel it and would make a difference to him.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.858,
+      "sentiment_score": 0.6647,
+      "pitch_mean": 333.55
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2979,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 167.22,
+    "avg_pitch": 334.58
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 3.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_3",
+    "utterance_id": "Ses03F_script01_3_M037",
+    "transcript_ground_truth": "And to show that-to bring that onto the earth like some sort of monument standing right behind us where everyone could feel it and it would make a difference to him."
+  }
+}

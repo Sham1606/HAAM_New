@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses04M_impro02_M026",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:51:03.979114",
+  "duration_seconds": 11.5,
+  "transcript": "I am. I mean, I don't know what else to tell you. I mean, I can tell you. I don't know what else to do. I mean, I've been forced into this situation.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "I am. I mean, I don't know what else to tell you. I mean, I can tell you. I don't know what else to do.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.459,
+      "sentiment_score": -0.3743,
+      "pitch_mean": 329.13
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 11.0,
+      "text": "I mean, I've been forced into this situation.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.635,
+      "sentiment_score": -0.5626,
+      "pitch_mean": 314.43
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4685,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 172.17,
+    "avg_pitch": 321.78
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro02",
+    "utterance_id": "Ses04M_impro02_M026",
+    "transcript_ground_truth": "I am.  I mean, I don't know.  I don't know what else to tell -- you know, I mean, I can tell you.  I don't know what else to do. I mean, I've been forced into this situation."
+  }
+}

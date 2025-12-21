@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses02M_script02_2_F032",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:08:50.893502",
+  "duration_seconds": 12.36,
+  "transcript": "I mean, this is just this. I mean, it includes a lot and everything, but it isn't something else. Do you have any idea what I'm trying to say?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I mean, this is just this.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.438,
+      "sentiment_score": 0.0508,
+      "pitch_mean": 333.71
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 9.0,
+      "text": "I mean, it includes a lot and everything, but it isn't something else.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.785,
+      "sentiment_score": -0.1158,
+      "pitch_mean": 346.85
+    },
+    {
+      "start_time": 9.0,
+      "end_time": 12.0,
+      "text": "Do you have any idea what I'm trying to say?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.67,
+      "sentiment_score": -0.0136,
+      "pitch_mean": 346.26
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0262,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "disgust": 0.333,
+      "neutral": 0.667
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 140.78,
+    "avg_pitch": 343.26
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script02_2",
+    "utterance_id": "Ses02M_script02_2_F032",
+    "transcript_ground_truth": "I mean it's -- this is just this. I mean it includes a lot and everything but isn't something else. Do you have any idea what I'm trying to say?"
+  }
+}

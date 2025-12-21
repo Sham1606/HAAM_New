@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02M_impro08_F010",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:57:56.444697",
+  "duration_seconds": 7.9,
+  "transcript": "Okay, it was um other a Sorry, it was at a department store. I think it was macy's or something",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Okay, it was um other a",
+      "emotion": "neutral",
+      "emotion_confidence": 0.898,
+      "sentiment_score": 0.0431,
+      "pitch_mean": 372.26
+    },
+    {
+      "start_time": 4.52,
+      "end_time": 7.64,
+      "text": "Sorry, it was at a department store. I think it was macy's or something",
+      "emotion": "sadness",
+      "emotion_confidence": 0.854,
+      "sentiment_score": -0.0805,
+      "pitch_mean": 364.33
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0187,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "sadness": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 151.86,
+    "avg_pitch": 357.08
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.3333,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro08",
+    "utterance_id": "Ses02M_impro08_F010",
+    "transcript_ground_truth": "Okay, it was um- at the [GARBAGE] sorry, it was at a department store, I think it was Macy's or something"
+  }
+}

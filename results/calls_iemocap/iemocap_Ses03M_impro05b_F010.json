@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro05b_F010",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:59:02.509336",
+  "duration_seconds": 4.1,
+  "transcript": "No, actually it was it's the first time this has ever happened. I don't know what happened",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.68,
+      "text": "No, actually it was it's the first time this has ever happened. I don't know what happened",
+      "emotion": "neutral",
+      "emotion_confidence": 0.906,
+      "sentiment_score": -0.6339,
+      "pitch_mean": 350.03
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6339,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 248.78,
+    "avg_pitch": 352.52
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro05b",
+    "utterance_id": "Ses03M_impro05b_F010",
+    "transcript_ground_truth": "No actually it was...this is the first time this has ever happened.  I don't know what happened--"
+  }
+}

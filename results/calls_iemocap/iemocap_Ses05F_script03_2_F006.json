@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05F_script03_2_F006",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:29:31.250487",
+  "duration_seconds": 3.84,
+  "transcript": "Well, he got a lot of pleasure out of it and it didn't hurt me. What about...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.34,
+      "text": "Well, he got a lot of pleasure out of it and it didn't hurt me.",
+      "emotion": "joy",
+      "emotion_confidence": 0.329,
+      "sentiment_score": 0.8954,
+      "pitch_mean": 350.02
+    },
+    {
+      "start_time": 3.34,
+      "end_time": 3.84,
+      "text": "What about...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.83,
+      "sentiment_score": 0.0309,
+      "pitch_mean": 347.28
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4631,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 265.63,
+    "avg_pitch": 347.28
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script03_2",
+    "utterance_id": "Ses05F_script03_2_F006",
+    "transcript_ground_truth": "Well, I- he got a lot of pleasure out of it and it didn't hurt me."
+  }
+}

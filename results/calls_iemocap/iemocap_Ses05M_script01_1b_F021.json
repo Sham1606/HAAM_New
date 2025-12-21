@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script01_1b_F021",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:56:42.783473",
+  "duration_seconds": 3.19,
+  "transcript": "Well, they're your considerate fellow. There's nothing wrong with that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Well, they're your considerate fellow. There's nothing wrong with that.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.579,
+      "sentiment_score": 0.457,
+      "pitch_mean": 335.6
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.457,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 188.09,
+    "avg_pitch": 337.45
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_1b",
+    "utterance_id": "Ses05M_script01_1b_F021",
+    "transcript_ground_truth": "Well, you're a considerate fella.  There's nothing wrong with that."
+  }
+}

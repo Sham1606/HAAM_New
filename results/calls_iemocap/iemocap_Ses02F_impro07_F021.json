@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro07_F021",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:28:15.752170",
+  "duration_seconds": 7.51,
+  "transcript": "And you know I've thought about it but they have so many different things that I think I might like try some things out first",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.48,
+      "text": "And you know I've thought about it but they have so many different things that I think I might like try some things out first",
+      "emotion": "neutral",
+      "emotion_confidence": 0.877,
+      "sentiment_score": 0.576,
+      "pitch_mean": 351.28
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.576,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 199.62,
+    "avg_pitch": 351.13
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro07",
+    "utterance_id": "Ses02F_impro07_F021",
+    "transcript_ground_truth": "Well, you know, I've thought about it but they have so many things that I might--Like try some things out first..."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script02_1_F005",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:32:14.627925",
+  "duration_seconds": 1.3,
+  "transcript": "Yes.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "Yes.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.898,
+      "sentiment_score": 0.2704,
+      "pitch_mean": 329.86
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2704,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 46.15,
+    "avg_pitch": 326.15
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script02_1",
+    "utterance_id": "Ses04F_script02_1_F005",
+    "transcript_ground_truth": "Yes."
+  }
+}

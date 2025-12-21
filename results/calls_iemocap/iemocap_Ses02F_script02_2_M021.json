@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script02_2_M021",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:41:26.615904",
+  "duration_seconds": 5.42,
+  "transcript": "Okay, yeah sure I see it now listen you want to dance?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.92,
+      "text": "Okay, yeah sure I see it now listen you want to dance?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.451,
+      "sentiment_score": 0.4336,
+      "pitch_mean": 332.3
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4336,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 132.84,
+    "avg_pitch": 330.45
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script02_2",
+    "utterance_id": "Ses02F_script02_2_M021",
+    "transcript_ground_truth": "Okay, yeah, sure, I see it now.  Listen, you wanna dance?"
+  }
+}

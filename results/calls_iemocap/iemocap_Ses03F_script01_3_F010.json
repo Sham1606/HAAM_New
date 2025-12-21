@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script01_3_F010",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:34:03.227051",
+  "duration_seconds": 3.24,
+  "transcript": "Yeah, they would especially your mom",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Yeah, they would especially your mom",
+      "emotion": "neutral",
+      "emotion_confidence": 0.687,
+      "sentiment_score": -0.5528,
+      "pitch_mean": 345.15
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5528,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 110.97,
+    "avg_pitch": 333.64
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_3",
+    "utterance_id": "Ses03F_script01_3_F010",
+    "transcript_ground_truth": "Yeah, they would. Especially your mom."
+  }
+}

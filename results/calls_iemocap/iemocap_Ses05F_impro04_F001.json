@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05F_impro04_F001",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:56:17.711668",
+  "duration_seconds": 10.41,
+  "transcript": "I don't, I'm just, I'm thinking maybe I should move back home or something like I don't, I don't know what to do. I can't, I can't keep living the way I'm living.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.72,
+      "text": "I don't, I'm just, I'm thinking maybe I should move back home or something like I don't, I don't know what to do.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.506,
+      "sentiment_score": -0.7335,
+      "pitch_mean": 323.66
+    },
+    {
+      "start_time": 6.72,
+      "end_time": 9.92,
+      "text": "I can't, I can't keep living the way I'm living.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.891,
+      "sentiment_score": -0.8311,
+      "pitch_mean": 327.51
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7823,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "sadness": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 190.2,
+    "avg_pitch": 325.07
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro04",
+    "utterance_id": "Ses05F_impro04_F001",
+    "transcript_ground_truth": "I don't--I'm just--I'm thinking maybe I should move back home or something.  I don't I don't know what to do.  I can't - I cant keep living the way I'm living."
+  }
+}

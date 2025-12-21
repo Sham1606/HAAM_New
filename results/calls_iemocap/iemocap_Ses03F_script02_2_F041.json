@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script02_2_F041",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:40:15.109585",
+  "duration_seconds": 5.38,
+  "transcript": "Okay, anything I do I'd rather be doing with you.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Okay, anything I do I'd rather be doing with you.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.476,
+      "sentiment_score": 0.5171,
+      "pitch_mean": 329.7
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5171,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 111.63,
+    "avg_pitch": 329.43
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.6667,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_2",
+    "utterance_id": "Ses03F_script02_2_F041",
+    "transcript_ground_truth": "Augie, anything I do I'd rather be doing with you."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro05b_M030",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T04:00:43.539822",
+  "duration_seconds": 3.98,
+  "transcript": "Okay, and you're gonna give me what from my convenience?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.2,
+      "text": "Okay, and you're gonna give me what from my convenience?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.53,
+      "sentiment_score": -0.1385,
+      "pitch_mean": 325.1
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1385,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 150.75,
+    "avg_pitch": 321.54
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro05b",
+    "utterance_id": "Ses03M_impro05b_M030",
+    "transcript_ground_truth": "Okay.  And you're going to give me what for my inconvenience?"
+  }
+}

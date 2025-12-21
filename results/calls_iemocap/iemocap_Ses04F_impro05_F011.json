@@ -1,0 +1,99 @@
+{
+  "call_id": "iemocap_Ses04F_impro05_F011",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:09:57.432629",
+  "duration_seconds": 16.61,
+  "transcript": "Look, $50 is unacceptable. My bag itself cost over $150. You can't just give me $50 gift certificate to percos or whatever the hell. And then send me off like that's good enough. Like that's all I needed was $50. My bag is worth more than that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.16,
+      "text": "Look, $50 is unacceptable.",
+      "emotion": "joy",
+      "emotion_confidence": 0.596,
+      "sentiment_score": -0.9301,
+      "pitch_mean": 359.11
+    },
+    {
+      "start_time": 2.16,
+      "end_time": 5.4,
+      "text": "My bag itself cost over $150.",
+      "emotion": "anger",
+      "emotion_confidence": 0.489,
+      "sentiment_score": -0.6291,
+      "pitch_mean": 372.4
+    },
+    {
+      "start_time": 5.4,
+      "end_time": 7.8,
+      "text": "You can't just give me $50 gift certificate",
+      "emotion": "anger",
+      "emotion_confidence": 0.656,
+      "sentiment_score": -0.6031,
+      "pitch_mean": 367.21
+    },
+    {
+      "start_time": 7.8,
+      "end_time": 10.12,
+      "text": "to percos or whatever the hell.",
+      "emotion": "anger",
+      "emotion_confidence": 0.725,
+      "sentiment_score": -0.8053,
+      "pitch_mean": 384.63
+    },
+    {
+      "start_time": 10.12,
+      "end_time": 12.56,
+      "text": "And then send me off like that's good enough.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.905,
+      "sentiment_score": -0.774,
+      "pitch_mean": 414.88
+    },
+    {
+      "start_time": 12.56,
+      "end_time": 14.52,
+      "text": "Like that's all I needed was $50.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.849,
+      "sentiment_score": -0.1732,
+      "pitch_mean": 371.9
+    },
+    {
+      "start_time": 14.52,
+      "end_time": 16.36,
+      "text": "My bag is worth more than that.",
+      "emotion": "joy",
+      "emotion_confidence": 0.602,
+      "sentiment_score": 0.5283,
+      "pitch_mean": 362.98
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4838,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "joy": 0.286,
+      "anger": 0.429,
+      "neutral": 0.286
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 169.78,
+    "avg_pitch": 373.52
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro05",
+    "utterance_id": "Ses04F_impro05_F011",
+    "transcript_ground_truth": "Look fifty dollars is unacceptable.  My bag itself cost over a hundred and fifty dollars.  You can't just give me fifty dollar gift certificate to Percoes or whatever the hell and then send me off like that's- that's good enough.  Like that's all I needed was fifty dollars.  My bag is worth more than that."
+  }
+}

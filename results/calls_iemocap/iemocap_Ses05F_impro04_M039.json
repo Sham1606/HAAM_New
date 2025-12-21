@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses05F_impro04_M039",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:00:09.211752",
+  "duration_seconds": 11.92,
+  "transcript": "Can't get a catering game? Well, I can call some friends. I did call some friends before but You you went in once but they never went back",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Can't get a catering game?",
+      "emotion": "sadness",
+      "emotion_confidence": 0.606,
+      "sentiment_score": -0.6158,
+      "pitch_mean": 321.05
+    },
+    {
+      "start_time": 3.22,
+      "end_time": 7.68,
+      "text": "Well, I can call some friends. I did call some friends before but",
+      "emotion": "neutral",
+      "emotion_confidence": 0.867,
+      "sentiment_score": 0.1547,
+      "pitch_mean": 329.9
+    },
+    {
+      "start_time": 8.76,
+      "end_time": 10.76,
+      "text": "You you went in once but they never went back",
+      "emotion": "sadness",
+      "emotion_confidence": 0.584,
+      "sentiment_score": -0.4418,
+      "pitch_mean": 318.15
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.301,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 0.667,
+      "neutral": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 140.94,
+    "avg_pitch": 320.56
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro04",
+    "utterance_id": "Ses05F_impro04_M039",
+    "transcript_ground_truth": "You can't get a catering gig?  Well, I can call some friends.  I- Well, I did call some friends before, but you went in once and then never went back."
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "call_id": "iemocap_Ses03M_script01_2_F007",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:41:01.947363",
+  "duration_seconds": 12.45,
+  "transcript": "Now why is she still single? And I mean there's plenty of single men in New York. Why isn't she married by now? Probably 100 men has told her that she's foolish, but she's waiting.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Now why is she still single?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.656,
+      "sentiment_score": -0.4259,
+      "pitch_mean": 324.8
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.6,
+      "text": "And I mean there's plenty of single men in New York.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.868,
+      "sentiment_score": -0.1176,
+      "pitch_mean": 337.48
+    },
+    {
+      "start_time": 4.6,
+      "end_time": 6.1,
+      "text": "Why isn't she married by now?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.604,
+      "sentiment_score": -0.1897,
+      "pitch_mean": 356.86
+    },
+    {
+      "start_time": 6.1,
+      "end_time": 12.1,
+      "text": "Probably 100 men has told her that she's foolish, but she's waiting.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.706,
+      "sentiment_score": -0.5309,
+      "pitch_mean": 334.85
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3161,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 168.62,
+    "avg_pitch": 334.43
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_2",
+    "utterance_id": "Ses03M_script01_2_F007",
+    "transcript_ground_truth": "Then why is still single?  I mean there's plenty of single men in New York.  Why isn't she married by now?  Probably a hundred men has told her that she's foolish but, she's waiting."
+  }
+}

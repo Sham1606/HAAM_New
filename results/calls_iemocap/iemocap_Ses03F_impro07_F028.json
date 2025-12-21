@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro07_F028",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:25:40.672400",
+  "duration_seconds": 1.73,
+  "transcript": "uy ooh gui",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 27.0,
+      "text": "uy ooh gui",
+      "emotion": "neutral",
+      "emotion_confidence": 0.725,
+      "sentiment_score": 0.0594,
+      "pitch_mean": 362.85
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0594,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 104.06,
+    "avg_pitch": 362.85
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro07",
+    "utterance_id": "Ses03F_impro07_F028",
+    "transcript_ground_truth": "Yeah. I'll get like one of those little--"
+  }
+}

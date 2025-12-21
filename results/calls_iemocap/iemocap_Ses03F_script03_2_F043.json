@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script03_2_F043",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:45:35.285081",
+  "duration_seconds": 3.92,
+  "transcript": "Beast of Root Cats Wine Beast Beast Brought!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Beast of Root Cats Wine Beast Beast Brought!",
+      "emotion": "anger",
+      "emotion_confidence": 0.783,
+      "sentiment_score": 0.4728,
+      "pitch_mean": 344.63
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4728,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 122.29,
+    "avg_pitch": 323.43
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.0,
+    "arousal": 3.5,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script03_2",
+    "utterance_id": "Ses03F_script03_2_F043",
+    "transcript_ground_truth": "Beast or brute cad, swine beast beast brute."
+  }
+}

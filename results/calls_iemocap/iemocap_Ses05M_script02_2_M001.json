@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script02_2_M001",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:08:24.909400",
+  "duration_seconds": 2.23,
+  "transcript": "What else you saying?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "What else you saying?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.763,
+      "sentiment_score": -0.0255,
+      "pitch_mean": 311.38
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0255,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 107.62,
+    "avg_pitch": 306.91
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.3333,
+    "arousal": 3.6667,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script02_2",
+    "utterance_id": "Ses05M_script02_2_M001",
+    "transcript_ground_truth": "What I was just saying."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script02_2_F038",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:40:08.981188",
+  "duration_seconds": 3.85,
+  "transcript": "It's not something else. Do you know what I'm trying to say?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "It's not something else. Do you know what I'm trying to say?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.556,
+      "sentiment_score": -0.0575,
+      "pitch_mean": 328.03
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0575,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 186.82,
+    "avg_pitch": 328.03
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.3333,
+    "arousal": 3.6667,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_2",
+    "utterance_id": "Ses03F_script02_2_F038",
+    "transcript_ground_truth": "it's not something else. Do you know what I'm trying to say?"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro07_M020",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:09:27.932550",
+  "duration_seconds": 6.03,
+  "transcript": "I know I know I know we'll figure it out right oh it's gonna be so much fun",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.72,
+      "text": "I know I know I know we'll figure it out right oh it's gonna be so much fun",
+      "emotion": "joy",
+      "emotion_confidence": 0.905,
+      "sentiment_score": 0.9748,
+      "pitch_mean": 337.62
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9748,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 179.11,
+    "avg_pitch": 335.99
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro07",
+    "utterance_id": "Ses05F_impro07_M020",
+    "transcript_ground_truth": "[garbage] I know, I know, I know, we'll figure it out.  Right?  [garbage] it is going to be so much fun."
+  }
+}

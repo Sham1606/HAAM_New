@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01F_script01_2_M002",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:34:33.768809",
+  "duration_seconds": 7.35,
+  "transcript": "You mean, you know, he lived next door to the girl's whole life? Why wouldn't he want to see her?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.32,
+      "text": "You mean, you know, he lived next door to the girl's whole life?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.527,
+      "sentiment_score": 0.0419,
+      "pitch_mean": 332.62
+    },
+    {
+      "start_time": 4.32,
+      "end_time": 6.32,
+      "text": "Why wouldn't he want to see her?",
+      "emotion": "anger",
+      "emotion_confidence": 0.876,
+      "sentiment_score": -0.301,
+      "pitch_mean": 323.86
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1296,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 163.27,
+    "avg_pitch": 328.66
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_2",
+    "utterance_id": "Ses01F_script01_2_M002",
+    "transcript_ground_truth": "What do you mean?  You know he lived next door to the girl his whole life, why wouldn't he want to see her?"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses02F_script03_2_M026",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:46:09.419898",
+  "duration_seconds": 6.52,
+  "transcript": "Oh, it must have had a riotous time. No restrained at all. Very enjoyable. He never had much anyhow.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.08,
+      "text": "Oh, it must have had a riotous time.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.396,
+      "sentiment_score": -0.5698,
+      "pitch_mean": 340.62
+    },
+    {
+      "start_time": 3.08,
+      "end_time": 4.32,
+      "text": "No restrained at all.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.653,
+      "sentiment_score": -0.215,
+      "pitch_mean": 340.82
+    },
+    {
+      "start_time": 4.32,
+      "end_time": 5.32,
+      "text": "Very enjoyable.",
+      "emotion": "joy",
+      "emotion_confidence": 0.963,
+      "sentiment_score": 0.9571,
+      "pitch_mean": 347.67
+    },
+    {
+      "start_time": 5.32,
+      "end_time": 6.32,
+      "text": "He never had much anyhow.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.502,
+      "sentiment_score": -0.7136,
+      "pitch_mean": 348.4
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1353,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.25,
+      "joy": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 174.85,
+    "avg_pitch": 341.84
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script03_2",
+    "utterance_id": "Ses02F_script03_2_M026",
+    "transcript_ground_truth": "Oh, must have had a riotous time. No restraint at all.  Very enjoyable and never had much anyhow."
+  }
+}

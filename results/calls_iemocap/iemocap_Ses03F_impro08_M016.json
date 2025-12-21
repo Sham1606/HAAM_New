@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro08_M016",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:28:54.824970",
+  "duration_seconds": 4.63,
+  "transcript": "So you take things from me and you expect me to just wait around.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "So you take things from me and you expect me to just wait around.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.909,
+      "sentiment_score": -0.692,
+      "pitch_mean": 336.29
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.692,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 181.43,
+    "avg_pitch": 335.47
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro08",
+    "utterance_id": "Ses03F_impro08_M016",
+    "transcript_ground_truth": "So you take things from me and you expect me just to wait around."
+  }
+}

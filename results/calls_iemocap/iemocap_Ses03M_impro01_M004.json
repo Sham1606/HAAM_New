@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_impro01_M004",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:48:14.758269",
+  "duration_seconds": 3.32,
+  "transcript": "What are you talking about? It says fill out that part.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.4,
+      "text": "What are you talking about?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.719,
+      "sentiment_score": -0.0735,
+      "pitch_mean": 356.18
+    },
+    {
+      "start_time": 1.4,
+      "end_time": 3.4,
+      "text": "It says fill out that part.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.953,
+      "sentiment_score": -0.0958,
+      "pitch_mean": 350.61
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0846,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 198.94,
+    "avg_pitch": 350.61
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro01",
+    "utterance_id": "Ses03M_impro01_M004",
+    "transcript_ground_truth": "What are you talking about?  It says fill out that part."
+  }
+}

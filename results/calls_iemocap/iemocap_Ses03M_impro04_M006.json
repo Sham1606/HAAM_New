@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_impro04_M006",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:55:37.136133",
+  "duration_seconds": 8.67,
+  "transcript": "You know what? I've been working at 10 jobs for the past six months. You don't have to grating is",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "You know what?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.435,
+      "sentiment_score": 0.0077,
+      "pitch_mean": 328.81
+    },
+    {
+      "start_time": 2.4,
+      "end_time": 7.92,
+      "text": "I've been working at 10 jobs for the past six months. You don't have to grating is",
+      "emotion": "disgust",
+      "emotion_confidence": 0.407,
+      "sentiment_score": -0.074,
+      "pitch_mean": 321.81
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0332,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 138.41,
+    "avg_pitch": 320.72
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro04",
+    "utterance_id": "Ses03M_impro04_M006",
+    "transcript_ground_truth": "You know what?  I've been working at temp jobs for the past six months.  You know how degrading it is?"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script02_2_F032",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:39:57.495063",
+  "duration_seconds": 1.91,
+  "transcript": "Now I know",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Now I know",
+      "emotion": "neutral",
+      "emotion_confidence": 0.689,
+      "sentiment_score": 0.1572,
+      "pitch_mean": 336.99
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1572,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 94.47,
+    "avg_pitch": 336.99
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_2",
+    "utterance_id": "Ses03F_script02_2_F032",
+    "transcript_ground_truth": "No."
+  }
+}

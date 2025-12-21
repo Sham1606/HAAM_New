@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro03_F023",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:52:29.092896",
+  "duration_seconds": 1.73,
+  "transcript": "and all round.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.6,
+      "text": "and all round.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.675,
+      "sentiment_score": 0.2585,
+      "pitch_mean": 336.37
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2585,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 104.05,
+    "avg_pitch": 340.35
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro03",
+    "utterance_id": "Ses04M_impro03_F023",
+    "transcript_ground_truth": "And brown."
+  }
+}

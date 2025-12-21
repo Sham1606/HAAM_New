@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro06_F026",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:27:59.934486",
+  "duration_seconds": 8.76,
+  "transcript": "So my guess she, she's memories this one John Dunn. It's called Death Be Not Proud.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "So my guess she, she's memories this one John Dunn. It's called Death Be Not Proud.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.94,
+      "sentiment_score": -0.1644,
+      "pitch_mean": 338.25
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1644,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 109.59,
+    "avg_pitch": 337.01
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro06",
+    "utterance_id": "Ses01F_impro06_F026",
+    "transcript_ground_truth": "Some, I guess.  She memorized this one, John Dunn, it's called, Death Be Not Proud. and-"
+  }
+}

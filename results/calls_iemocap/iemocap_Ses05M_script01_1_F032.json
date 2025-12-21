@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script01_1_F032",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:53:47.998156",
+  "duration_seconds": 1.76,
+  "transcript": "Are you crazy?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Are you crazy?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.3886,
+      "pitch_mean": 328.29
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3886,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 102.28,
+    "avg_pitch": 328.29
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_1",
+    "utterance_id": "Ses05M_script01_1_F032",
+    "transcript_ground_truth": "Are you crazy?"
+  }
+}

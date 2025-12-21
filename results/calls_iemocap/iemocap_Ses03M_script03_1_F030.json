@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_script03_1_F030",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:52:19.544470",
+  "duration_seconds": 4.2,
+  "transcript": "How ridiculous. How utterly, utterly ridiculous.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "How ridiculous.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.645,
+      "sentiment_score": -0.8568,
+      "pitch_mean": 345.4
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "How utterly, utterly ridiculous.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.688,
+      "sentiment_score": -0.9106,
+      "pitch_mean": 365.52
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8837,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 85.77,
+    "avg_pitch": 349.0
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.5,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script03_1",
+    "utterance_id": "Ses03M_script03_1_F030",
+    "transcript_ground_truth": "How ridiculous.  How utterly, utterly ridiculous."
+  }
+}

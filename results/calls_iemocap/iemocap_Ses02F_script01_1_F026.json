@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script01_1_F026",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:32:07.556081",
+  "duration_seconds": 3.08,
+  "transcript": "Have you asked any yet?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Have you asked any yet?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.828,
+      "sentiment_score": 0.0072,
+      "pitch_mean": 321.26
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0072,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 97.52,
+    "avg_pitch": 315.83
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_1",
+    "utterance_id": "Ses02F_script01_1_F026",
+    "transcript_ground_truth": "[BREATHING] Have you asked Annie yet?"
+  }
+}

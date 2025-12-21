@@ -1,0 +1,108 @@
+{
+  "call_id": "iemocap_Ses01F_impro07_F006",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:29:46.723291",
+  "duration_seconds": 9.13,
+  "transcript": "I'd wrap a hug. Please wear the wrap. I'm gonna have a party. Yeah. Yeah. So what are you doing this summer though? You're staying around too, yeah? Yeah.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "I'd wrap a hug.",
+      "emotion": "anger",
+      "emotion_confidence": 0.419,
+      "sentiment_score": 0.4803,
+      "pitch_mean": 372.39
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 2.0,
+      "text": "Please wear the wrap.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.762,
+      "sentiment_score": 0.1522,
+      "pitch_mean": 364.43
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "I'm gonna have a party.",
+      "emotion": "anger",
+      "emotion_confidence": 0.513,
+      "sentiment_score": 0.5385,
+      "pitch_mean": 340.44
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 4.0,
+      "text": "Yeah.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.814,
+      "sentiment_score": 0.2224,
+      "pitch_mean": 350.77
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 5.0,
+      "text": "Yeah.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.814,
+      "sentiment_score": 0.2224,
+      "pitch_mean": 360.93
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 7.0,
+      "text": "So what are you doing this summer though?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.608,
+      "sentiment_score": 0.0375,
+      "pitch_mean": 382.7
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 8.0,
+      "text": "You're staying around too, yeah?",
+      "emotion": "joy",
+      "emotion_confidence": 0.52,
+      "sentiment_score": 0.0795,
+      "pitch_mean": 382.24
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 9.0,
+      "text": "Yeah.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.814,
+      "sentiment_score": 0.2224,
+      "pitch_mean": 371.31
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2444,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "anger": 0.25,
+      "neutral": 0.625,
+      "joy": 0.125
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 190.58,
+    "avg_pitch": 365.78
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.5,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro07",
+    "utterance_id": "Ses01F_impro07_F006",
+    "transcript_ground_truth": "At Arapaho we could afford that. [GARBAGE]. Yeah.  So what are you doing this summer, though?  You're staying around, too, yeah?"
+  }
+}

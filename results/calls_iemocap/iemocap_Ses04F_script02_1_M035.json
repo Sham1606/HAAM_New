@@ -1,0 +1,80 @@
+{
+  "call_id": "iemocap_Ses04F_script02_1_M035",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:35:05.246869",
+  "duration_seconds": 11.87,
+  "transcript": "No one sent them a map or an invitation. Just some little instinctual time release firecracker went off in their little bodies and always won they turned and formed a line as long as the California coast and started swimming.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.88,
+      "text": "No one sent them a map or an invitation.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.538,
+      "sentiment_score": -0.4211,
+      "pitch_mean": 320.47
+    },
+    {
+      "start_time": 1.88,
+      "end_time": 5.12,
+      "text": "Just some little instinctual time release firecracker",
+      "emotion": "neutral",
+      "emotion_confidence": 0.825,
+      "sentiment_score": -0.0881,
+      "pitch_mean": 321.72
+    },
+    {
+      "start_time": 5.12,
+      "end_time": 7.52,
+      "text": "went off in their little bodies and always won",
+      "emotion": "disgust",
+      "emotion_confidence": 0.421,
+      "sentiment_score": 0.2775,
+      "pitch_mean": 338.71
+    },
+    {
+      "start_time": 7.52,
+      "end_time": 10.44,
+      "text": "they turned and formed a line as long as the California coast",
+      "emotion": "neutral",
+      "emotion_confidence": 0.846,
+      "sentiment_score": -0.014,
+      "pitch_mean": 328.69
+    },
+    {
+      "start_time": 10.44,
+      "end_time": 11.6,
+      "text": "and started swimming.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.368,
+      "sentiment_score": 0.1625,
+      "pitch_mean": 308.55
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0167,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.6,
+      "neutral": 0.4
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 202.21,
+    "avg_pitch": 323.25
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script02_1",
+    "utterance_id": "Ses04F_script02_1_M035",
+    "transcript_ground_truth": "No one sent them a map or an invitation.  Just some little instinctual time release firecracker went off in their little bodies and all as one. They turned and formed a line as long as the California coast and started swimming."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05M_impro08_M009",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:51:40.445795",
+  "duration_seconds": 10.51,
+  "transcript": "Okay, is it being compressed between anything by any chance? Because sometimes your connection can be disrupted just by the cable being squished.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.28,
+      "text": "Okay, is it being compressed between anything by any chance?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.283,
+      "sentiment_score": -0.019,
+      "pitch_mean": 315.29
+    },
+    {
+      "start_time": 4.28,
+      "end_time": 10.28,
+      "text": "Because sometimes your connection can be disrupted just by the cable being squished.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.414,
+      "sentiment_score": -0.6437,
+      "pitch_mean": 327.39
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3314,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 131.3,
+    "avg_pitch": 322.3
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro08",
+    "utterance_id": "Ses05M_impro08_M009",
+    "transcript_ground_truth": "Okay.  Is it being- Is it being compressed between anything by any chance?  Because sometimes your connection can be you know, disrupted by, you know, the cable being squished."
+  }
+}

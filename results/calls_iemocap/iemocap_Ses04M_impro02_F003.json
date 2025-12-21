@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro02_F003",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:48:06.810729",
+  "duration_seconds": 5.01,
+  "transcript": "When you get back, think of all of the things that you're going to have missed.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "When you get back, think of all of the things that you're going to have missed.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.927,
+      "sentiment_score": -0.1269,
+      "pitch_mean": 338.33
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1269,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 191.62,
+    "avg_pitch": 324.65
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro02",
+    "utterance_id": "Ses04M_impro02_F003",
+    "transcript_ground_truth": "When you get back, think of all of the things that you're going to have missed."
+  }
+}

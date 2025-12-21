@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses02M_script02_2_F043",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:09:12.209473",
+  "duration_seconds": 8.2,
+  "transcript": "No, no. I think you might be right. I think this may be the spot after all.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "No, no.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.533,
+      "sentiment_score": -0.0754,
+      "pitch_mean": 327.63
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "I think you might be right.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.781,
+      "sentiment_score": 0.5326,
+      "pitch_mean": 346.81
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 8.0,
+      "text": "I think this may be the spot after all.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.913,
+      "sentiment_score": 0.494,
+      "pitch_mean": 330.23
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3171,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "sadness": 0.333,
+      "neutral": 0.667
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 124.39,
+    "avg_pitch": 333.13
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script02_2",
+    "utterance_id": "Ses02M_script02_2_F043",
+    "transcript_ground_truth": "No. No. I think you might be right. I think this may be the spot after all."
+  }
+}

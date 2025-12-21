@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02F_script01_2_F009",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:34:16.609419",
+  "duration_seconds": 9.05,
+  "transcript": "She knows what I know. That's why she's faithful as a rock in my worst moments I think of her waiting and I know again that I'm right",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.66,
+      "text": "She knows what I know. That's why she's faithful as a rock in my worst moments",
+      "emotion": "disgust",
+      "emotion_confidence": 0.949,
+      "sentiment_score": 0.8175,
+      "pitch_mean": 340.92
+    },
+    {
+      "start_time": 5.66,
+      "end_time": 8.18,
+      "text": "I think of her waiting and I know again that I'm right",
+      "emotion": "neutral",
+      "emotion_confidence": 0.844,
+      "sentiment_score": 0.2689,
+      "pitch_mean": 387.06
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5432,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 185.64,
+    "avg_pitch": 348.34
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.3333,
+    "arousal": 3.3333,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_2",
+    "utterance_id": "Ses02F_script01_2_F009",
+    "transcript_ground_truth": "She knows what I know, that's why.  She's faithful as a rock.  In my worst moments I think of her waiting and I know again that I'm right."
+  }
+}

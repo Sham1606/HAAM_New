@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro02_F009",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:20:36.923077",
+  "duration_seconds": 4.05,
+  "transcript": "You can just remember it for me.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "You can just remember it for me.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.937,
+      "sentiment_score": 0.3507,
+      "pitch_mean": 316.23
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3507,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 103.65,
+    "avg_pitch": 316.93
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 2.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro02",
+    "utterance_id": "Ses02F_impro02_F009",
+    "transcript_ground_truth": "You can just remember it for me."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script01_3_F028",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:35:49.014654",
+  "duration_seconds": 2.53,
+  "transcript": "Yeah sure.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Yeah sure.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.764,
+      "sentiment_score": 0.4476,
+      "pitch_mean": 328.61
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4476,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 47.43,
+    "avg_pitch": 329.91
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.6667,
+    "arousal": 2.3333,
+    "dominance": 1.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_3",
+    "utterance_id": "Ses01F_script01_3_F028",
+    "transcript_ground_truth": "Yeah, sure."
+  }
+}

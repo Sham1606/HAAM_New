@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro01_F003",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:46:50.664543",
+  "duration_seconds": 6.92,
+  "transcript": "I actually need two forms of idea. I need either a passport or a birth certificate or social security card. I'm sorry.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "I actually need two forms of idea. I need either a passport or a birth certificate or social security card. I'm sorry.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.817,
+      "sentiment_score": -0.5006,
+      "pitch_mean": 349.54
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5006,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 190.79,
+    "avg_pitch": 349.54
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro01",
+    "utterance_id": "Ses02M_impro01_F003",
+    "transcript_ground_truth": "I actually need two forms of ID. I need either a passport or a birth certificate, or social security card. I'm sorry."
+  }
+}

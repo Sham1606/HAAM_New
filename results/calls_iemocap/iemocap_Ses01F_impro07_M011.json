@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro07_M011",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:30:36.182442",
+  "duration_seconds": 2.52,
+  "transcript": "Ooh, fancy.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Ooh, fancy.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.368,
+      "sentiment_score": 0.6723,
+      "pitch_mean": 319.13
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.6723,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 47.62,
+    "avg_pitch": 321.78
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro07",
+    "utterance_id": "Ses01F_impro07_M011",
+    "transcript_ground_truth": "Ooh. Fancy."
+  }
+}

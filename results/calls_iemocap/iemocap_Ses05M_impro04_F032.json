@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro04_F032",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:40:52.237457",
+  "duration_seconds": 4.8,
+  "transcript": "Okay, well fine, I won't argue with you about that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Okay, well fine, I won't argue with you about that.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.445,
+      "sentiment_score": 0.1053,
+      "pitch_mean": 332.62
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1053,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 125.0,
+    "avg_pitch": 330.52
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro04",
+    "utterance_id": "Ses05M_impro04_F032",
+    "transcript_ground_truth": "Okay.  Well, fine. we won't- I won't argue with you about that."
+  }
+}

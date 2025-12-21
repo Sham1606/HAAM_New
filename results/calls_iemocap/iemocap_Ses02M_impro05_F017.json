@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro05_F017",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:53:02.603760",
+  "duration_seconds": 8.37,
+  "transcript": "We have very tight security, but there are times when we just can't make sure that there are absolutely no human error, you know?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 8.0,
+      "text": "We have very tight security, but there are times when we just can't make sure that there are absolutely no human error, you know?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.922,
+      "sentiment_score": -0.6202,
+      "pitch_mean": 347.05
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6202,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 172.02,
+    "avg_pitch": 347.34
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro05",
+    "utterance_id": "Ses02M_impro05_F017",
+    "transcript_ground_truth": "We have very tight security but we -uh- there are times when we just can't uh make sure there aren't absolutely no human error, you know"
+  }
+}

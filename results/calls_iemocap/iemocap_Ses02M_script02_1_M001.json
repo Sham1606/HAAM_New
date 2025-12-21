@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script02_1_M001",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:06:12.913525",
+  "duration_seconds": 4.42,
+  "transcript": "This is great isn't it? Look at the night we've got here. Couldn't be better.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "This is great isn't it? Look at the night we've got here. Couldn't be better.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.502,
+      "sentiment_score": 0.9833,
+      "pitch_mean": 325.12
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9833,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 203.62,
+    "avg_pitch": 324.81
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script02_1",
+    "utterance_id": "Ses02M_script02_1_M001",
+    "transcript_ground_truth": "God, this great, isn't it? Like look at the night we go here, it couldn't be better."
+  }
+}

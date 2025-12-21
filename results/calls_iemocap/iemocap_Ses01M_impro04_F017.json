@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro04_F017",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:53:33.432163",
+  "duration_seconds": 3.98,
+  "transcript": "Like this right now we're trying to have a conversation.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Like this right now we're trying to have a conversation.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.792,
+      "sentiment_score": -0.1621,
+      "pitch_mean": 349.18
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1621,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 150.75,
+    "avg_pitch": 349.18
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro04",
+    "utterance_id": "Ses01M_impro04_F017",
+    "transcript_ground_truth": "Like this, right now we're trying have a conversation."
+  }
+}

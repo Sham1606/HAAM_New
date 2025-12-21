@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05F_impro08_M010",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:12:10.081122",
+  "duration_seconds": 6.69,
+  "transcript": "Well, when I look online, it says that I was charged to late these, so I'm assuming, but I paid on your website.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.84,
+      "text": "Well, when I look online, it says that I was charged to late these, so I'm assuming,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.76,
+      "sentiment_score": -0.394,
+      "pitch_mean": 350.56
+    },
+    {
+      "start_time": 4.84,
+      "end_time": 6.44,
+      "text": "but I paid on your website.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.347,
+      "sentiment_score": 0.0178,
+      "pitch_mean": 353.22
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1881,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 206.28,
+    "avg_pitch": 347.81
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro08",
+    "utterance_id": "Ses05F_impro08_M010",
+    "transcript_ground_truth": "Well, when I look online, it says, it says that I was charged a late fee so I'm assuming that I paid on your web site-"
+  }
+}

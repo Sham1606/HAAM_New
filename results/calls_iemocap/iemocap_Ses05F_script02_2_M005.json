@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses05F_script02_2_M005",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:25:17.403891",
+  "duration_seconds": 6.55,
+  "transcript": "Call it, can I ask you a question? No, no, don't get upset. Are you having your period? Yes.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.66,
+      "text": "Call it, can I ask you a question?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.826,
+      "sentiment_score": 0.0156,
+      "pitch_mean": 329.73
+    },
+    {
+      "start_time": 2.66,
+      "end_time": 4.94,
+      "text": "No, no, don't get upset.",
+      "emotion": "anger",
+      "emotion_confidence": 0.63,
+      "sentiment_score": -0.6399,
+      "pitch_mean": 322.36
+    },
+    {
+      "start_time": 4.94,
+      "end_time": 6.44,
+      "text": "Are you having your period?",
+      "emotion": "sadness",
+      "emotion_confidence": 0.331,
+      "sentiment_score": -0.0049,
+      "pitch_mean": 315.87
+    },
+    {
+      "start_time": 6.44,
+      "end_time": 7.28,
+      "text": "Yes.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.898,
+      "sentiment_score": 0.2704,
+      "pitch_mean": 324.12
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0897,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "anger": 0.25,
+      "sadness": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 174.06,
+    "avg_pitch": 324.12
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script02_2",
+    "utterance_id": "Ses05F_script02_2_M005",
+    "transcript_ground_truth": "Carla, can I ask you a question?  Now don't be upset, are you having a period?"
+  }
+}

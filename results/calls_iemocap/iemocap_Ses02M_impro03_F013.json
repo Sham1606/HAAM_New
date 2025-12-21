@@ -1,0 +1,80 @@
+{
+  "call_id": "iemocap_Ses02M_impro03_F013",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:49:41.361521",
+  "duration_seconds": 9.35,
+  "transcript": "That's so romantic! Oh my gosh, she's died. That's like one of the things we write into like a magazine about. Like, my word, what is this? Oh my god.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.68,
+      "text": "That's so romantic!",
+      "emotion": "neutral",
+      "emotion_confidence": 0.8,
+      "sentiment_score": 0.9594,
+      "pitch_mean": 418.88
+    },
+    {
+      "start_time": 1.68,
+      "end_time": 3.28,
+      "text": "Oh my gosh, she's died.",
+      "emotion": "joy",
+      "emotion_confidence": 0.436,
+      "sentiment_score": -0.8478,
+      "pitch_mean": 392.93
+    },
+    {
+      "start_time": 3.28,
+      "end_time": 6.16,
+      "text": "That's like one of the things we write into like a magazine about.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.936,
+      "sentiment_score": -0.0966,
+      "pitch_mean": 355.8
+    },
+    {
+      "start_time": 6.16,
+      "end_time": 7.76,
+      "text": "Like, my word, what is this?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.608,
+      "sentiment_score": -0.8073,
+      "pitch_mean": 341.72
+    },
+    {
+      "start_time": 7.76,
+      "end_time": 9.12,
+      "text": "Oh my god.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.92,
+      "sentiment_score": -0.1589,
+      "pitch_mean": 351.44
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1903,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.8,
+      "joy": 0.2
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 192.49,
+    "avg_pitch": 365.11
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 5.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro03",
+    "utterance_id": "Ses02M_impro03_F013",
+    "transcript_ground_truth": "That's so romantic. Oh, my Gosh. She must have died. That's like one of those things you write into a magazine about like my boyfriend did this. Oh my God."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro06_M009",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:45:56.630720",
+  "duration_seconds": 7.63,
+  "transcript": "Hey, one second you think you know you're having a conversation and then...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "Hey, one second you think you know you're having a conversation and then...",
+      "emotion": "disgust",
+      "emotion_confidence": 0.419,
+      "sentiment_score": -0.1029,
+      "pitch_mean": 307.78
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1029,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 102.23,
+    "avg_pitch": 307.9
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro06",
+    "utterance_id": "Ses05M_impro06_M009",
+    "transcript_ground_truth": "I mean, one second you think, you know, you're just having a conversation and then --"
+  }
+}

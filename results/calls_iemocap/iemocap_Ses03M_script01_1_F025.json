@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses03M_script01_1_F025",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:37:52.124925",
+  "duration_seconds": 9.09,
+  "transcript": "From Father's point of view, he is still alive. And if you try and take her, that's just not fair. You can't do that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "From Father's point of view, he is still alive.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.856,
+      "sentiment_score": 0.2137,
+      "pitch_mean": 329.58
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 7.0,
+      "text": "And if you try and take her, that's just not fair.",
+      "emotion": "anger",
+      "emotion_confidence": 0.684,
+      "sentiment_score": -0.8783,
+      "pitch_mean": 346.9
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 9.0,
+      "text": "You can't do that.",
+      "emotion": "anger",
+      "emotion_confidence": 0.656,
+      "sentiment_score": -0.6953,
+      "pitch_mean": 347.86
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4533,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "neutral": 0.333,
+      "anger": 0.667
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 158.46,
+    "avg_pitch": 339.3
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_1",
+    "utterance_id": "Ses03M_script01_1_F025",
+    "transcript_ground_truth": "From your father's point of view he is still alive and if you try and take her that's just not fair.  You can't do that."
+  }
+}

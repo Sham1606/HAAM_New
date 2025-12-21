@@ -1,0 +1,99 @@
+{
+  "call_id": "iemocap_Ses05M_script02_2_M007",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:08:41.783374",
+  "duration_seconds": 10.08,
+  "transcript": "It's not that complicated. Okay. We come down here. The Grunjian are right. They do their little fish thing. We say, ooh, ah, look at the little fish. And then they go home and we go home.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It's not that complicated.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.925,
+      "sentiment_score": -0.0591,
+      "pitch_mean": 323.59
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 2.5,
+      "text": "Okay.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.636,
+      "sentiment_score": 0.2809,
+      "pitch_mean": 330.15
+    },
+    {
+      "start_time": 2.5,
+      "end_time": 3.5,
+      "text": "We come down here.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.703,
+      "sentiment_score": 0.1114,
+      "pitch_mean": 321.58
+    },
+    {
+      "start_time": 3.5,
+      "end_time": 4.5,
+      "text": "The Grunjian are right.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.94,
+      "sentiment_score": 0.2026,
+      "pitch_mean": 336.7
+    },
+    {
+      "start_time": 4.5,
+      "end_time": 5.5,
+      "text": "They do their little fish thing.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.742,
+      "sentiment_score": 0.0602,
+      "pitch_mean": 299.78
+    },
+    {
+      "start_time": 5.5,
+      "end_time": 8.0,
+      "text": "We say, ooh, ah, look at the little fish.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.651,
+      "sentiment_score": 0.6031,
+      "pitch_mean": 324.95
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 10.0,
+      "text": "And then they go home and we go home.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.704,
+      "sentiment_score": 0.0594,
+      "pitch_mean": 330.78
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1798,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.714,
+      "sadness": 0.143,
+      "disgust": 0.143
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 220.24,
+    "avg_pitch": 324.21
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.6667,
+    "arousal": 4.0,
+    "dominance": 3.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script02_2",
+    "utterance_id": "Ses05M_script02_2_M007",
+    "transcript_ground_truth": "It's not that complicated.  We come down here, the grunions arrive, they do their little fish thing.  We say ooh, awe, look at the little fish.  And then they go home and we go home."
+  }
+}

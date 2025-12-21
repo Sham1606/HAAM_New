@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script02_1_M028",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:07:12.921176",
+  "duration_seconds": 9.95,
+  "transcript": "Okay, but it's fish that do something none of you have a fish do like the swallows returning to Capastrano or the Lemmings throwing themselves off the cliffs",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 9.36,
+      "text": "Okay, but it's fish that do something none of you have a fish do like the swallows returning to Capastrano or the Lemmings throwing themselves off the cliffs",
+      "emotion": "neutral",
+      "emotion_confidence": 0.876,
+      "sentiment_score": -0.4073,
+      "pitch_mean": 325.15
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4073,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 168.85,
+    "avg_pitch": 324.86
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.0,
+    "arousal": 4.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script02_1",
+    "utterance_id": "Ses02M_script02_1_M028",
+    "transcript_ground_truth": "Okay. But it's fish that do something none of the other fish do. Like the swallows returning to Capistrano, or the Lemmings throwing themselves off the cliffs"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03F_impro07_F003",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:24:50.232259",
+  "duration_seconds": 3.91,
+  "transcript": "What are you talking about? No.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "What are you talking about?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.719,
+      "sentiment_score": -0.0735,
+      "pitch_mean": 365.72
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "No.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.83,
+      "sentiment_score": 0.122,
+      "pitch_mean": 334.35
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0243,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 92.11,
+    "avg_pitch": 345.5
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "sur",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro07",
+    "utterance_id": "Ses03F_impro07_F003",
+    "transcript_ground_truth": "Pregnant? What are you talking about? No."
+  }
+}

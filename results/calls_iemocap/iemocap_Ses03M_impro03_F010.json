@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_impro03_F010",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:51:52.150190",
+  "duration_seconds": 5.3,
+  "transcript": "It's so nasty. No, you dirty me.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It's so nasty.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.956,
+      "sentiment_score": -0.894,
+      "pitch_mean": 378.79
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "No, you dirty me.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.891,
+      "sentiment_score": -0.8346,
+      "pitch_mean": 370.28
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8643,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 79.2,
+    "avg_pitch": 378.54
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 4.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro03",
+    "utterance_id": "Ses03M_impro03_F010",
+    "transcript_ground_truth": "[LAUGHTER] So nasty. No you... dirty me?"
+  }
+}

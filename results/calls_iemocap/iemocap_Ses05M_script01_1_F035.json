@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_script01_1_F035",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:53:56.758016",
+  "duration_seconds": 6.12,
+  "transcript": "Alright, but don't think like that because what the hell did we work for Chris? I mean this whole thing, it's all for you!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.72,
+      "text": "Alright, but don't think like that because what the hell did we work for Chris?",
+      "emotion": "anger",
+      "emotion_confidence": 0.599,
+      "sentiment_score": -0.8286,
+      "pitch_mean": 357.15
+    },
+    {
+      "start_time": 3.72,
+      "end_time": 5.72,
+      "text": "I mean this whole thing, it's all for you!",
+      "emotion": "disgust",
+      "emotion_confidence": 0.39,
+      "sentiment_score": 0.7802,
+      "pitch_mean": 368.44
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0242,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 235.3,
+    "avg_pitch": 361.17
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_1",
+    "utterance_id": "Ses05M_script01_1_F035",
+    "transcript_ground_truth": "All right.  But don't think like that.  Because what the hell did we work for, Chris?  I mean, this whole thing, it's all for you."
+  }
+}

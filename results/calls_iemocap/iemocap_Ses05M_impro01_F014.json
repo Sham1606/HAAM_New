@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro01_F014",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:33:04.290247",
+  "duration_seconds": 2.63,
+  "transcript": "Please don't waste my time.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Please don't waste my time.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.437,
+      "sentiment_score": -0.787,
+      "pitch_mean": 333.41
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.787,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 114.07,
+    "avg_pitch": 331.14
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro01",
+    "utterance_id": "Ses05M_impro01_F014",
+    "transcript_ground_truth": "Sir, please don't waste my time."
+  }
+}

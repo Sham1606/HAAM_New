@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script02_2_M048",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:39:36.345079",
+  "duration_seconds": 4.23,
+  "transcript": "You still cold? Wanna go home?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "You still cold? Wanna go home?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.377,
+      "sentiment_score": -0.1469,
+      "pitch_mean": 322.7
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1469,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 85.08,
+    "avg_pitch": 321.2
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script02_2",
+    "utterance_id": "Ses04F_script02_2_M048",
+    "transcript_ground_truth": "You still cold?  Do you want to go home?"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro05_F024",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:56:46.850334",
+  "duration_seconds": 3.8,
+  "transcript": "No one can make the three-check thing happen because we don't do that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.72,
+      "text": "No one can make the three-check thing happen because we don't do that.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.932,
+      "sentiment_score": -0.6586,
+      "pitch_mean": 339.34
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6586,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 205.26,
+    "avg_pitch": 339.38
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro05",
+    "utterance_id": "Ses04M_impro05_F024",
+    "transcript_ground_truth": "No one can make the three check thing happen 'cause we don't do that."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro05b_M019",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T04:00:20.262115",
+  "duration_seconds": 1.96,
+  "transcript": "I work for IBM.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I work for IBM.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.588,
+      "sentiment_score": 0.155,
+      "pitch_mean": 330.17
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.155,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 122.14,
+    "avg_pitch": 330.17
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro05b",
+    "utterance_id": "Ses03M_impro05b_M019",
+    "transcript_ground_truth": "I work for IBM."
+  }
+}

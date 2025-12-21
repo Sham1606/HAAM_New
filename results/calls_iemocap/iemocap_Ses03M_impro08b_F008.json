@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses03M_impro08b_F008",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:34:51.112568",
+  "duration_seconds": 7.64,
+  "transcript": "I'm doctor's office. Yeah, you know, you see the calls. I can't receive, no, it's, it's, it's, I cut me off. No, don't turn on.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I'm doctor's office.",
+      "emotion": "anger",
+      "emotion_confidence": 0.436,
+      "sentiment_score": 0.1031,
+      "pitch_mean": 365.2
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "Yeah, you know, you see the calls.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.678,
+      "sentiment_score": 0.0161,
+      "pitch_mean": 346.7
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 7.0,
+      "text": "I can't receive, no, it's, it's, it's, I cut me off.",
+      "emotion": "joy",
+      "emotion_confidence": 0.459,
+      "sentiment_score": -0.8649,
+      "pitch_mean": 372.34
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 8.0,
+      "text": "No, don't turn on.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.3695,
+      "pitch_mean": 365.81
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2788,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "anger": 0.25,
+      "neutral": 0.5,
+      "joy": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 196.34,
+    "avg_pitch": 365.81
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro08b",
+    "utterance_id": "Ses03M_impro08b_F008",
+    "transcript_ground_truth": "the symptoms- This [GARBAGE] a doctor's office. I'm not receiving calls...I can't receive- no, it's, it cuts me off--"
+  }
+}

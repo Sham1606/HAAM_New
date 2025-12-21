@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro06_M010",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:27:06.249181",
+  "duration_seconds": 6.31,
+  "transcript": "then you know, then in pain, just a gradual, horrible process. I mean...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "then you know, then in pain, just a gradual, horrible process. I mean...",
+      "emotion": "fear",
+      "emotion_confidence": 0.781,
+      "sentiment_score": -0.8964,
+      "pitch_mean": 324.08
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8964,
+    "dominant_emotion": "fear",
+    "emotion_distribution": {
+      "fear": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 123.65,
+    "avg_pitch": 323.78
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.6667,
+    "arousal": 3.0,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro06",
+    "utterance_id": "Ses02F_impro06_M010",
+    "transcript_ground_truth": ".than you know, in pain and like this gradual, this horrible process.  I mean--"
+  }
+}

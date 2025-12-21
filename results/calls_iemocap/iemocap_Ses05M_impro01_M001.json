@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro01_M001",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:33:28.262737",
+  "duration_seconds": 4.36,
+  "transcript": "What do you mean? I filled out my forms and I rushed to get my ID",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.96,
+      "text": "What do you mean? I filled out my forms and I rushed to get my ID",
+      "emotion": "disgust",
+      "emotion_confidence": 0.507,
+      "sentiment_score": -0.084,
+      "pitch_mean": 331.55
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.084,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 220.18,
+    "avg_pitch": 329.46
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro01",
+    "utterance_id": "Ses05M_impro01_M001",
+    "transcript_ground_truth": "What do you mean?  I filled out my forms and I rushed to get my I.D."
+  }
+}

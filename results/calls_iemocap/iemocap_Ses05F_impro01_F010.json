@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro01_F010",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:45:53.019356",
+  "duration_seconds": 1.61,
+  "transcript": "I don't.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I don't.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.701,
+      "sentiment_score": 0.0653,
+      "pitch_mean": 334.24
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0653,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 74.53,
+    "avg_pitch": 334.24
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro01",
+    "utterance_id": "Ses05F_impro01_F010",
+    "transcript_ground_truth": "I don't-"
+  }
+}

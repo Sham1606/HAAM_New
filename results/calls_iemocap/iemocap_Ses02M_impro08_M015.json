@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02M_impro08_M015",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:59:00.043833",
+  "duration_seconds": 8.19,
+  "transcript": "Right, you can go online, print it out, just fill out the form and send it to us, you know, regarding the grievance and",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.44,
+      "text": "Right, you can go online, print it out, just fill out the form and send it to us, you know,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.917,
+      "sentiment_score": 0.106,
+      "pitch_mean": 334.62
+    },
+    {
+      "start_time": 6.2,
+      "end_time": 8.2,
+      "text": "regarding the grievance and",
+      "emotion": "anger",
+      "emotion_confidence": 0.925,
+      "sentiment_score": -0.2767,
+      "pitch_mean": 330.5
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0854,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 175.8,
+    "avg_pitch": 330.5
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.3333,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro08",
+    "utterance_id": "Ses02M_impro08_M015",
+    "transcript_ground_truth": "Right. You can go online, print it out, and just fill out the form and um- send it to us um- you know,  regarding the grievance and-"
+  }
+}

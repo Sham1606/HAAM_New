@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script01_1_M025",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:01:41.894178",
+  "duration_seconds": 1.74,
+  "transcript": "to hell with that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "to hell with that.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.8526,
+      "pitch_mean": 329.76
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8526,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 137.93,
+    "avg_pitch": 329.76
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script01_1",
+    "utterance_id": "Ses02M_script01_1_M025",
+    "transcript_ground_truth": "To hell with that."
+  }
+}

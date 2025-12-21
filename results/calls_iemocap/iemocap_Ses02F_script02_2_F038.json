@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script02_2_F038",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:40:34.153887",
+  "duration_seconds": 8.12,
+  "transcript": "You're the one who probably wishes to see with someone else, someone who you have to enjoy yourself and didn't take everything so hard.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 8.0,
+      "text": "You're the one who probably wishes to see with someone else, someone who you have to enjoy yourself and didn't take everything so hard.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.793,
+      "sentiment_score": -0.1295,
+      "pitch_mean": 340.4
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1295,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 177.34,
+    "avg_pitch": 338.96
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script02_2",
+    "utterance_id": "Ses02F_script02_2_F038",
+    "transcript_ground_truth": "You're the one who probably wishes you were with someone else.  Someone who--you'd rather enjoy yourself and didn't take everything so hard."
+  }
+}

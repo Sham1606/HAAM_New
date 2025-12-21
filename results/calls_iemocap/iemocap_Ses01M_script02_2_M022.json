@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script02_2_M022",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:12:18.814576",
+  "duration_seconds": 3.47,
+  "transcript": "Wait a minute, I've got it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Wait a minute, I've got it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.748,
+      "sentiment_score": 0.4317,
+      "pitch_mean": 333.55
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4317,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 103.86,
+    "avg_pitch": 332.59
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script02_2",
+    "utterance_id": "Ses01M_script02_2_M022",
+    "transcript_ground_truth": "Wait a minute, I've got it."
+  }
+}

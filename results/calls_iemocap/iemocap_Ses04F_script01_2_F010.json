@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses04F_script01_2_F010",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:27:02.341615",
+  "duration_seconds": 5.57,
+  "transcript": "Because she knows what I know, that's why. She's faithful as a rock.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Because she knows what I know, that's why.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.794,
+      "sentiment_score": 0.4174,
+      "pitch_mean": 338.55
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 5.0,
+      "text": "She's faithful as a rock.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.888,
+      "sentiment_score": 0.9249,
+      "pitch_mean": 336.8
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.6711,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 140.02,
+    "avg_pitch": 338.3
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script01_2",
+    "utterance_id": "Ses04F_script01_2_F010",
+    "transcript_ground_truth": "Because she knows what I know that's why.  She's faithful as a rock."
+  }
+}

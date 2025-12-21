@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro07_M011",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:29:10.538301",
+  "duration_seconds": 1.85,
+  "transcript": "Wow that's cool.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Wow that's cool.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.92,
+      "sentiment_score": 0.9541,
+      "pitch_mean": 334.99
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9541,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 97.07,
+    "avg_pitch": 334.99
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro07",
+    "utterance_id": "Ses02F_impro07_M011",
+    "transcript_ground_truth": "Wow. That's cool."
+  }
+}

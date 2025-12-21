@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro06_M008",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:06:16.275208",
+  "duration_seconds": 6.61,
+  "transcript": "Yeah, what do you do or they do is it how'd you know?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "Yeah, what do you do or they do is it how'd you know?",
+      "emotion": "sadness",
+      "emotion_confidence": 0.698,
+      "sentiment_score": -0.0129,
+      "pitch_mean": 310.73
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0129,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 118.0,
+    "avg_pitch": 309.53
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro06",
+    "utterance_id": "Ses05F_impro06_M008",
+    "transcript_ground_truth": "Yeah?  What'd he do?  What did they do?  How'd you know him?"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02M_script02_2_M041",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:10:38.326956",
+  "duration_seconds": 6.1,
+  "transcript": "I don't know, it seemed like a pretty good spot to me. Look at the view of the moon you got from here.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.44,
+      "text": "I don't know, it seemed like a pretty good spot to me.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.388,
+      "sentiment_score": 0.8101,
+      "pitch_mean": 324.19
+    },
+    {
+      "start_time": 3.44,
+      "end_time": 6.2,
+      "text": "Look at the view of the moon you got from here.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.673,
+      "sentiment_score": 0.2515,
+      "pitch_mean": 318.87
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5308,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 226.13,
+    "avg_pitch": 318.87
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script02_2",
+    "utterance_id": "Ses02M_script02_2_M041",
+    "transcript_ground_truth": "I don't know it seemed like a pretty good spot to me. Look at the moon - view the moon view I got from here."
+  }
+}

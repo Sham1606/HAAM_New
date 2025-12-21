@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro03_F026",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:52:32.644299",
+  "duration_seconds": 3.72,
+  "transcript": "Sure, who's the sure you say yes sir? I don't like",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.16,
+      "text": "Sure, who's the sure you say yes sir? I don't like",
+      "emotion": "disgust",
+      "emotion_confidence": 0.442,
+      "sentiment_score": -0.7851,
+      "pitch_mean": 361.26
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7851,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 177.6,
+    "avg_pitch": 353.35
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro03",
+    "utterance_id": "Ses03M_impro03_F026",
+    "transcript_ground_truth": "Sure?  Who says sure?  You say yes...I don't like--"
+  }
+}

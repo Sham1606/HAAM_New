@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05F_impro04_M034",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:59:58.991731",
+  "duration_seconds": 6.55,
+  "transcript": "Yeah, I understand. Maybe what jobs are we talking about?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Yeah, I understand.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.683,
+      "sentiment_score": 0.2548,
+      "pitch_mean": 317.82
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "Maybe what jobs are we talking about?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.902,
+      "sentiment_score": -0.0627,
+      "pitch_mean": 329.92
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.096,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 91.6,
+    "avg_pitch": 321.76
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro04",
+    "utterance_id": "Ses05F_impro04_M034",
+    "transcript_ground_truth": "Yeah, I understand. maybe What jobs are we talking about?"
+  }
+}

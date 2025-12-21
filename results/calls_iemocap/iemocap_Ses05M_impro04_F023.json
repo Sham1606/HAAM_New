@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro04_F023",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:40:32.485606",
+  "duration_seconds": 1.37,
+  "transcript": "Okay, so.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "Okay, so.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.705,
+      "sentiment_score": 0.0613,
+      "pitch_mean": 348.45
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0613,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 87.59,
+    "avg_pitch": 342.73
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro04",
+    "utterance_id": "Ses05M_impro04_F023",
+    "transcript_ground_truth": "Okay so."
+  }
+}

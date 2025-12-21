@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script01_3_M020",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:04:55.294075",
+  "duration_seconds": 4.31,
+  "transcript": "Let's drive some place. I want to be alone with you.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Let's drive some place. I want to be alone with you.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.902,
+      "sentiment_score": 0.2199,
+      "pitch_mean": 329.86
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2199,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 152.98,
+    "avg_pitch": 328.47
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script01_3",
+    "utterance_id": "Ses02M_script01_3_M020",
+    "transcript_ground_truth": "Let's drive someplace.  I want to be alone with you."
+  }
+}

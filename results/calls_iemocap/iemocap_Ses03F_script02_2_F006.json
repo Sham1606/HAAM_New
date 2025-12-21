@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script02_2_F006",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:39:05.508432",
+  "duration_seconds": 8.02,
+  "transcript": "Look, we're just looking at this evening in a different way both of us. We both have different ideas of it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "Look, we're just looking at this evening in a different way both of us. We both have different ideas of it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.911,
+      "sentiment_score": 0.0682,
+      "pitch_mean": 327.16
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0682,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 157.05,
+    "avg_pitch": 325.18
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.3333,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_2",
+    "utterance_id": "Ses03F_script02_2_F006",
+    "transcript_ground_truth": "Look, it's-we just-we're looking at this evening in a different way, both of us. We both have different ideas of it."
+  }
+}

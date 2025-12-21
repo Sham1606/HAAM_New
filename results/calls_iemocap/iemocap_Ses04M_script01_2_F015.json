@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04M_script01_2_F015",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:07:19.658738",
+  "duration_seconds": 8.12,
+  "transcript": "She goes to sleep in his bed and his memorial breaks in pieces. Look, look at it! Joe...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.16,
+      "text": "She goes to sleep in his bed and his memorial breaks in pieces. Look, look at it!",
+      "emotion": "joy",
+      "emotion_confidence": 0.37,
+      "sentiment_score": -0.714,
+      "pitch_mean": 338.49
+    },
+    {
+      "start_time": 6.16,
+      "end_time": 8.16,
+      "text": "Joe...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.875,
+      "sentiment_score": 0.1184,
+      "pitch_mean": 334.95
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2978,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 133.03,
+    "avg_pitch": 334.95
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.6667,
+    "arousal": 4.3333,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script01_2",
+    "utterance_id": "Ses04M_script01_2_F015",
+    "transcript_ground_truth": "She goes to sleep in his bed and his memorial breaks in pieces.  Look.  Look at it.  Joe--"
+  }
+}

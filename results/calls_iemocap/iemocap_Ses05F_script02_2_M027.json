@@ -1,0 +1,63 @@
+{
+  "call_id": "iemocap_Ses05F_script02_2_M027",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:26:14.805163",
+  "duration_seconds": 18.03,
+  "transcript": "No! No, I was just like you. I thought it would be all peaches and roses and sand in our toes and wind in our hair and the fish would always come. And the bills would always magically pay themselves and we'd have three fat, rosy kids and well, haha baby, the jokes on us!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "No! No, I was just like you.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.466,
+      "sentiment_score": -0.2607,
+      "pitch_mean": 332.44
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 11.0,
+      "text": "I thought it would be all peaches and roses and sand in our toes and wind in our hair and the fish would always come.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.745,
+      "sentiment_score": 0.1068,
+      "pitch_mean": 340.42
+    },
+    {
+      "start_time": 11.0,
+      "end_time": 18.0,
+      "text": "And the bills would always magically pay themselves and we'd have three fat, rosy kids and well, haha baby, the jokes on us!",
+      "emotion": "joy",
+      "emotion_confidence": 0.903,
+      "sentiment_score": 0.6902,
+      "pitch_mean": 362.03
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1787,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.333,
+      "neutral": 0.333,
+      "joy": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 183.03,
+    "avg_pitch": 347.19
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script02_2",
+    "utterance_id": "Ses05F_script02_2_M027",
+    "transcript_ground_truth": "No, no I was just like you, I thought it will be all peaches and roses and- and sand in our toes and wind in our hair and the fish will always come. And the bills will always magically pay themselves and we will have three fat rosy kids and we will be, HAHA baby the joke is on us."
+  }
+}

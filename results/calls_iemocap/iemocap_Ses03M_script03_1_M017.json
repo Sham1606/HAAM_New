@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script03_1_M017",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:53:00.451945",
+  "duration_seconds": 2.12,
+  "transcript": "Who knows?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Who knows?",
+      "emotion": "sadness",
+      "emotion_confidence": 0.368,
+      "sentiment_score": -0.0276,
+      "pitch_mean": 320.35
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0276,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 56.67,
+    "avg_pitch": 318.48
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script03_1",
+    "utterance_id": "Ses03M_script03_1_M017",
+    "transcript_ground_truth": "Who knows?"
+  }
+}

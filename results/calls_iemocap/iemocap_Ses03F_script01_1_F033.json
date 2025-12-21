@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03F_script01_1_F033",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:30:15.621036",
+  "duration_seconds": 4.29,
+  "transcript": "How do you know she's gonna marry you? I mean, what if she feels the same way as your father?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "How do you know she's gonna marry you?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.46,
+      "sentiment_score": -0.197,
+      "pitch_mean": 331.85
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "I mean, what if she feels the same way as your father?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.551,
+      "sentiment_score": -0.2439,
+      "pitch_mean": 356.66
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2205,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 279.89,
+    "avg_pitch": 339.07
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.6667,
+    "arousal": 3.3333,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_1",
+    "utterance_id": "Ses03F_script01_1_F033",
+    "transcript_ground_truth": "Well, how do you know she's going to marry you? I mean, what if she feels the same way as your father?"
+  }
+}

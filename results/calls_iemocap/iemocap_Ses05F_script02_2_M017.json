@@ -1,0 +1,90 @@
+{
+  "call_id": "iemocap_Ses05F_script02_2_M017",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:25:47.191655",
+  "duration_seconds": 11.33,
+  "transcript": "He was in the car, right? When we were passing Nickerbocker's liquor locker, he said, let's get some champagne, I said, times wasting or something like that. Right? Of course.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "He was in the car, right?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.456,
+      "sentiment_score": 0.0113,
+      "pitch_mean": 323.18
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "When we were passing Nickerbocker's liquor locker,",
+      "emotion": "disgust",
+      "emotion_confidence": 0.948,
+      "sentiment_score": 0.0385,
+      "pitch_mean": 328.31
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "he said, let's get some champagne, I said,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.727,
+      "sentiment_score": 0.4332,
+      "pitch_mean": 330.24
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 8.0,
+      "text": "times wasting or something like that.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.418,
+      "sentiment_score": -0.6402,
+      "pitch_mean": 342.24
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 10.0,
+      "text": "Right?",
+      "emotion": "sadness",
+      "emotion_confidence": 0.596,
+      "sentiment_score": 0.032,
+      "pitch_mean": 320.32
+    },
+    {
+      "start_time": 10.0,
+      "end_time": 12.0,
+      "text": "Of course.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.831,
+      "sentiment_score": 0.1928,
+      "pitch_mean": 327.67
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0113,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.333,
+      "sadness": 0.167
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 158.9,
+    "avg_pitch": 327.67
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script02_2",
+    "utterance_id": "Ses05F_script02_2_M017",
+    "transcript_ground_truth": "It was in the car, right?  When we were passing Knickerbocker Liquor Locker, you said, Let's get some champagne.  And I said time wasting or something like that.  Right? of course."
+  }
+}

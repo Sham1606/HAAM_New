@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script01_2_F020",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:27:31.325162",
+  "duration_seconds": 2.43,
+  "transcript": "Just don't start believing that me.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.4,
+      "text": "Just don't start believing that me.",
+      "emotion": "anger",
+      "emotion_confidence": 0.632,
+      "sentiment_score": -0.4966,
+      "pitch_mean": 342.67
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4966,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 148.15,
+    "avg_pitch": 343.88
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script01_2",
+    "utterance_id": "Ses04F_script01_2_F020",
+    "transcript_ground_truth": "Just don't stop believing."
+  }
+}

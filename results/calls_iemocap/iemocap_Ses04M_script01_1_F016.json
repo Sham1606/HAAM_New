@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_script01_1_F016",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:04:47.119213",
+  "duration_seconds": 4.55,
+  "transcript": "Well, I've got an idea, but what's the story?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Well, I've got an idea, but what's the story?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.888,
+      "sentiment_score": 0.1076,
+      "pitch_mean": 330.12
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1076,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 118.68,
+    "avg_pitch": 326.04
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script01_1",
+    "utterance_id": "Ses04M_script01_1_F016",
+    "transcript_ground_truth": "Well I've got an idea, but what's the story?"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script01_1b_F019",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:56:37.863237",
+  "duration_seconds": 6.09,
+  "transcript": "As far as your father is concerned, he's not dead, and she's still his girl.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "As far as your father is concerned, he's not dead, and she's still his girl.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.933,
+      "sentiment_score": 0.044,
+      "pitch_mean": 334.82
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.044,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 147.78,
+    "avg_pitch": 335.59
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_1b",
+    "utterance_id": "Ses05M_script01_1b_F019",
+    "transcript_ground_truth": "As far as your father is concerned, he's not dead.  And she's still his girl."
+  }
+}

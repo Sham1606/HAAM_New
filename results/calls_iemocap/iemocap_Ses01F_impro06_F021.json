@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses01F_impro06_F021",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:27:48.201041",
+  "duration_seconds": 16.58,
+  "transcript": "my best friend Heather She's got a we have a we built this like little There's a park prospect park and there's like a Garden section of it that we set up for her",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "my best friend Heather",
+      "emotion": "joy",
+      "emotion_confidence": 0.802,
+      "sentiment_score": 0.9129,
+      "pitch_mean": 333.35
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 6.84,
+      "text": "She's got a we have a we built this like little",
+      "emotion": "neutral",
+      "emotion_confidence": 0.522,
+      "sentiment_score": 0.2772,
+      "pitch_mean": 342.52
+    },
+    {
+      "start_time": 7.8,
+      "end_time": 11.3,
+      "text": "There's a park prospect park and there's like a",
+      "emotion": "neutral",
+      "emotion_confidence": 0.731,
+      "sentiment_score": 0.0795,
+      "pitch_mean": 330.2
+    },
+    {
+      "start_time": 13.2,
+      "end_time": 15.56,
+      "text": "Garden section of it that we set up for her",
+      "emotion": "neutral",
+      "emotion_confidence": 0.716,
+      "sentiment_score": 0.0737,
+      "pitch_mean": 339.51
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3358,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "joy": 0.25,
+      "neutral": 0.75
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 123.0,
+    "avg_pitch": 334.1
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro06",
+    "utterance_id": "Ses01F_impro06_F021",
+    "transcript_ground_truth": "My best friend Heather.  She's got a- we have a- we built this like little--  There's a park, Prospect Park.  And there is like a garden section of it that we set up for her."
+  }
+}

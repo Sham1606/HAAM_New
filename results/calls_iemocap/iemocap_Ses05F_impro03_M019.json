@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro03_M019",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:53:39.429152",
+  "duration_seconds": 7.05,
+  "transcript": "What a guy. I can't believe it. So okay. So do you know any details when's it gonna be anything?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.48,
+      "text": "What a guy. I can't believe it. So okay. So do you know any details when's it gonna be anything?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.415,
+      "sentiment_score": 0.887,
+      "pitch_mean": 321.63
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.887,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 170.21,
+    "avg_pitch": 322.7
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro03",
+    "utterance_id": "Ses05F_impro03_M019",
+    "transcript_ground_truth": "What a guy.  I can't believe it.  So okay, so do you know any details?  When's it going to be?  Anything?"
+  }
+}

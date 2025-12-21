@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script02_2_F023",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:07:43.675481",
+  "duration_seconds": 4.3,
+  "transcript": "I just want things that turn out the way they're supposed to.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I just want things that turn out the way they're supposed to.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.941,
+      "sentiment_score": 0.2782,
+      "pitch_mean": 361.86
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2782,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 167.44,
+    "avg_pitch": 362.95
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.6667,
+    "arousal": 2.6667,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script02_2",
+    "utterance_id": "Ses05M_script02_2_F023",
+    "transcript_ground_truth": "I just want- I just want things to turn out the way they are supposed to."
+  }
+}

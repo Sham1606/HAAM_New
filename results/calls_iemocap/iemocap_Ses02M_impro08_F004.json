@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02M_impro08_F004",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:57:44.455339",
+  "duration_seconds": 6.54,
+  "transcript": "like press 9, press 0, press back to your own menu like I can't get through to what I'm supposed to get through to",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.28,
+      "text": "like press 9, press 0, press back to your own menu",
+      "emotion": "neutral",
+      "emotion_confidence": 0.939,
+      "sentiment_score": 0.0349,
+      "pitch_mean": 368.98
+    },
+    {
+      "start_time": 3.28,
+      "end_time": 6.48,
+      "text": "like I can't get through to what I'm supposed to get through to",
+      "emotion": "sadness",
+      "emotion_confidence": 0.851,
+      "sentiment_score": -0.8062,
+      "pitch_mean": 372.32
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3856,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "sadness": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 220.34,
+    "avg_pitch": 369.81
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.3333,
+    "dominance": 3.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro08",
+    "utterance_id": "Ses02M_impro08_F004",
+    "transcript_ground_truth": "like press nine, press zero, press back to the menu, like I can't get through to what I'm supposed to get through to."
+  }
+}

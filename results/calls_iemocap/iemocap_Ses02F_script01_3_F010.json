@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script01_3_F010",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:35:21.807035",
+  "duration_seconds": 4.45,
+  "transcript": "I... I guess this is why I came.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I... I guess this is why I came.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.833,
+      "sentiment_score": 0.2842,
+      "pitch_mean": 316.95
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2842,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 107.87,
+    "avg_pitch": 317.37
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_3",
+    "utterance_id": "Ses02F_script01_3_F010",
+    "transcript_ground_truth": "I--I guess this is why I came."
+  }
+}

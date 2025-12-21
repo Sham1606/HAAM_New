@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04F_script01_1_F031",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:23:44.846712",
+  "duration_seconds": 6.89,
+  "transcript": "I don't want a diagram. He thinks he's coming back, Chris.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I don't want a diagram.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.565,
+      "sentiment_score": -0.6201,
+      "pitch_mean": 338.92
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 7.0,
+      "text": "He thinks he's coming back, Chris.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.676,
+      "sentiment_score": 0.1239,
+      "pitch_mean": 328.58
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2481,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 95.79,
+    "avg_pitch": 328.58
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script01_1",
+    "utterance_id": "Ses04F_script01_1_F031",
+    "transcript_ground_truth": "I don't want a diagram.  He thinks he's coming back, Chris."
+  }
+}

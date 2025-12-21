@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro01_F020",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:33:16.791686",
+  "duration_seconds": 3.11,
+  "transcript": "Sir, you're gonna have to go stand the other line.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Sir, you're gonna have to go stand the other line.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.418,
+      "sentiment_score": -0.2224,
+      "pitch_mean": 348.84
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2224,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 192.93,
+    "avg_pitch": 349.12
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro01",
+    "utterance_id": "Ses05M_impro01_F020",
+    "transcript_ground_truth": "Sir, you're gonna have to go stand in the other line."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script01_1b_M028",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:58:47.944601",
+  "duration_seconds": 4.54,
+  "transcript": "I don't know what just is I.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I don't know what just is I.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.748,
+      "sentiment_score": -0.6101,
+      "pitch_mean": 326.73
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6101,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 92.51,
+    "avg_pitch": 324.37
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_1b",
+    "utterance_id": "Ses05M_script01_1b_M028",
+    "transcript_ground_truth": "[garbage] I don't know.  It's just,"
+  }
+}

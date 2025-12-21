@@ -1,0 +1,79 @@
+{
+  "call_id": "iemocap_Ses01M_script03_2_M043",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:18:47.734831",
+  "duration_seconds": 14.25,
+  "transcript": "Shut up! Shut up! You are... You are... I would marry you again if you came crawling back to me on a bending knee. You are an evil temple to no vampire! And I never want to see you again as long as I live!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Shut up! Shut up!",
+      "emotion": "anger",
+      "emotion_confidence": 0.974,
+      "sentiment_score": -0.084,
+      "pitch_mean": 430.96
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.5,
+      "text": "You are... You are...",
+      "emotion": "anger",
+      "emotion_confidence": 0.506,
+      "sentiment_score": 0.3169,
+      "pitch_mean": 371.9
+    },
+    {
+      "start_time": 3.5,
+      "end_time": 7.0,
+      "text": "I would marry you again if you came crawling back to me on a bending knee.",
+      "emotion": "anger",
+      "emotion_confidence": 0.867,
+      "sentiment_score": 0.5835,
+      "pitch_mean": 378.72
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 10.0,
+      "text": "You are an evil temple to no vampire!",
+      "emotion": "anger",
+      "emotion_confidence": 0.736,
+      "sentiment_score": -0.9096,
+      "pitch_mean": 372.3
+    },
+    {
+      "start_time": 10.0,
+      "end_time": 14.0,
+      "text": "And I never want to see you again as long as I live!",
+      "emotion": "anger",
+      "emotion_confidence": 0.865,
+      "sentiment_score": -0.9187,
+      "pitch_mean": 387.07
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2024,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 189.47,
+    "avg_pitch": 386.46
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.0,
+    "arousal": 5.0,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script03_2",
+    "utterance_id": "Ses01M_script03_2_M043",
+    "transcript_ground_truth": "Shut up. Shut up. I wouldn't marry you again if you came crawling back to me on a bended knee. You are an evil tempered little vampire and I never want to see you again as long as I live."
+  }
+}

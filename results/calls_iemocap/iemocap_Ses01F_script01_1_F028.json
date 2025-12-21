@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01F_script01_1_F028",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:32:05.868828",
+  "duration_seconds": 4.44,
+  "transcript": "Oh, that's a great reason. It's no reason at all.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Oh, that's a great reason.",
+      "emotion": "joy",
+      "emotion_confidence": 0.878,
+      "sentiment_score": 0.9694,
+      "pitch_mean": 337.64
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "It's no reason at all.",
+      "emotion": "anger",
+      "emotion_confidence": 0.575,
+      "sentiment_score": -0.6441,
+      "pitch_mean": 322.22
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1627,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 135.14,
+    "avg_pitch": 329.99
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.3333,
+    "arousal": 2.0,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_1",
+    "utterance_id": "Ses01F_script01_1_F028",
+    "transcript_ground_truth": "Oh that's a great reason.  It's no reason at all."
+  }
+}

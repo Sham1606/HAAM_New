@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script01_1_F049",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:30:45.953685",
+  "duration_seconds": 6.3,
+  "transcript": "We've worked all our lives for you only for you Chris the whole shoot matches for you",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.48,
+      "text": "We've worked all our lives for you only for you Chris the whole shoot matches for you",
+      "emotion": "neutral",
+      "emotion_confidence": 0.867,
+      "sentiment_score": 0.6456,
+      "pitch_mean": 349.82
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.6456,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 162.03,
+    "avg_pitch": 347.09
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.3333,
+    "arousal": 4.3333,
+    "dominance": 3.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_1",
+    "utterance_id": "Ses03F_script01_1_F049",
+    "transcript_ground_truth": "We've worked all our lives for you. Only for you, Chris. The whole shootin' match is for you."
+  }
+}

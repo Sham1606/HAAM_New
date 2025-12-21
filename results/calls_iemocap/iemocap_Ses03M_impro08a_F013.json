@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_impro08a_F013",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:31:52.946766",
+  "duration_seconds": 7.62,
+  "transcript": "You sign the contract and then down the line the phone doesn't work and you're stuck you can't go doing this no no contracts for me you Give me a new phone",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.46,
+      "text": "You sign the contract and then down the line the phone doesn't work and you're stuck you can't go doing this no no contracts for me you",
+      "emotion": "disgust",
+      "emotion_confidence": 0.421,
+      "sentiment_score": -0.8938,
+      "pitch_mean": 360.63
+    },
+    {
+      "start_time": 5.74,
+      "end_time": 7.74,
+      "text": "Give me a new phone",
+      "emotion": "neutral",
+      "emotion_confidence": 0.655,
+      "sentiment_score": 0.1057,
+      "pitch_mean": 354.85
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3941,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 252.03,
+    "avg_pitch": 354.85
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro08a",
+    "utterance_id": "Ses03M_impro08a_F013",
+    "transcript_ground_truth": "You sign the contract and then down the line the phone doesn't work and you're stuck, you can't go to a new...no.  No contracts for me.  You give me a new phone."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01M_script01_3_M022",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:06:42.645447",
+  "duration_seconds": 8.78,
+  "transcript": "I don't know what's complicated. But it's going from me now.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.8,
+      "text": "I don't know what's complicated.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.74,
+      "sentiment_score": -0.4783,
+      "pitch_mean": 333.38
+    },
+    {
+      "start_time": 6.8,
+      "end_time": 7.76,
+      "text": "But it's going from me now.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.415,
+      "sentiment_score": -0.0286,
+      "pitch_mean": 331.46
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2534,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 75.17,
+    "avg_pitch": 331.94
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_3",
+    "utterance_id": "Ses01M_script01_3_M022",
+    "transcript_ground_truth": "I don't know it's--it's complicated. But it's going from me now."
+  }
+}

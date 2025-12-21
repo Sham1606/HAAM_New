@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01F_impro06_F009",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:27:13.414465",
+  "duration_seconds": 7.58,
+  "transcript": "This woman came up and you know it was hers. It was her person that was there.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "This woman came up and you know it was hers.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.364,
+      "sentiment_score": 0.0366,
+      "pitch_mean": 332.38
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 7.0,
+      "text": "It was her person that was there.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.86,
+      "sentiment_score": -0.0064,
+      "pitch_mean": 327.12
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0151,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 134.57,
+    "avg_pitch": 330.64
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro06",
+    "utterance_id": "Ses01F_impro06_F009",
+    "transcript_ground_truth": "this woman came up and, you know, it was hers. It was her person that was there."
+  }
+}

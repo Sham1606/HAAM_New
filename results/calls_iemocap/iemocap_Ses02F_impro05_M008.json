@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses02F_impro05_M008",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:25:49.978993",
+  "duration_seconds": 7.99,
+  "transcript": "right now i think they might uh... they might if you if you are either case more maybe they'll reimburse you more but uh... right now",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.4,
+      "text": "right now i think they might uh... they might",
+      "emotion": "neutral",
+      "emotion_confidence": 0.803,
+      "sentiment_score": 0.0979,
+      "pitch_mean": 321.89
+    },
+    {
+      "start_time": 3.4,
+      "end_time": 6.56,
+      "text": "if you if you are either case more maybe they'll reimburse you more but",
+      "emotion": "sadness",
+      "emotion_confidence": 0.516,
+      "sentiment_score": 0.043,
+      "pitch_mean": 321.1
+    },
+    {
+      "start_time": 6.56,
+      "end_time": 7.0,
+      "text": "uh... right now",
+      "emotion": "neutral",
+      "emotion_confidence": 0.753,
+      "sentiment_score": 0.0416,
+      "pitch_mean": 337.39
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0608,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "sadness": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 195.29,
+    "avg_pitch": 325.77
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro05",
+    "utterance_id": "Ses02F_impro05_M008",
+    "transcript_ground_truth": "Right.  No.  I mean they- they might--they might--if you-if you are argue the case more, maybe they'll reimburse you more, but, right now--"
+  }
+}

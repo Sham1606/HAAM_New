@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03F_script02_1_M018",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:37:47.678613",
+  "duration_seconds": 7.35,
+  "transcript": "What are you kidding me? We just got here. We miss it. What's the point of coming down there if we just turn around and go home?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.92,
+      "text": "What are you kidding me? We just got here. We miss it. What's the point of coming down",
+      "emotion": "disgust",
+      "emotion_confidence": 0.402,
+      "sentiment_score": -0.8,
+      "pitch_mean": 347.22
+    },
+    {
+      "start_time": 4.92,
+      "end_time": 6.92,
+      "text": "there if we just turn around and go home?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.505,
+      "sentiment_score": 0.0208,
+      "pitch_mean": 354.08
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3896,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 220.46,
+    "avg_pitch": 346.67
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "sur",
+    "valence": 2.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_1",
+    "utterance_id": "Ses03F_script02_1_M018",
+    "transcript_ground_truth": "What? Are you kidding me? We just got here. We'd miss it. What's the point of coming down there if we just turn around and go home?"
+  }
+}

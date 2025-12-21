@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_script02_1_F011",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:10:11.971550",
+  "duration_seconds": 2.7,
+  "transcript": "Not particularly.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Not particularly.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.43,
+      "sentiment_score": -0.2016,
+      "pitch_mean": 329.05
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2016,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 44.45,
+    "avg_pitch": 324.8
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script02_1",
+    "utterance_id": "Ses04M_script02_1_F011",
+    "transcript_ground_truth": "Not particularly."
+  }
+}

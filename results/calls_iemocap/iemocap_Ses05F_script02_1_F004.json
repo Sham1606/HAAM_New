@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script02_1_F004",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:20:55.542422",
+  "duration_seconds": 5.55,
+  "transcript": "Well, I mean you said you kept saying my flashlight is if it's somehow just yours how that's what's making me feel",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.8,
+      "text": "Well, I mean you said you kept saying my flashlight is if it's somehow just yours how that's what's making me feel",
+      "emotion": "neutral",
+      "emotion_confidence": 0.858,
+      "sentiment_score": -0.1547,
+      "pitch_mean": 345.35
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1547,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 237.68,
+    "avg_pitch": 342.67
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script02_1",
+    "utterance_id": "Ses05F_script02_1_F004",
+    "transcript_ground_truth": "I mean you keep saying ,my flashlight, as if it's somehow just yours.  How's that suppose to make me feel?"
+  }
+}

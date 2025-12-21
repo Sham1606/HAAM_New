@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses02F_script01_3_M027",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:36:51.058509",
+  "duration_seconds": 14.14,
+  "transcript": "For instance one time I've been raining several days and this kid came to me and gave me his last pair of dry socks I put them in my pocket It's only a little thing, but that's the kind of guys I had",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.2,
+      "text": "For instance one time I've been raining several days and this kid came to me and gave me his last pair of dry socks",
+      "emotion": "disgust",
+      "emotion_confidence": 0.465,
+      "sentiment_score": -0.0944,
+      "pitch_mean": 323.83
+    },
+    {
+      "start_time": 7.4,
+      "end_time": 9.4,
+      "text": "I put them in my pocket",
+      "emotion": "neutral",
+      "emotion_confidence": 0.737,
+      "sentiment_score": 0.1385,
+      "pitch_mean": 326.15
+    },
+    {
+      "start_time": 9.8,
+      "end_time": 13.6,
+      "text": "It's only a little thing, but that's the kind of guys I had",
+      "emotion": "neutral",
+      "emotion_confidence": 0.865,
+      "sentiment_score": -0.0027,
+      "pitch_mean": 333.43
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0138,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "disgust": 0.333,
+      "neutral": 0.667
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 182.46,
+    "avg_pitch": 325.88
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_3",
+    "utterance_id": "Ses02F_script01_3_M027",
+    "transcript_ground_truth": "For instance, one time, it had been raining several days and this kid came to me and gave me his last pair of dry socks.  I put them in pocket.  It's only a little thing, but that's the kind of guys I had."
+  }
+}

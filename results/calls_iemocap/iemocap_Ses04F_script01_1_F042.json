@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script01_1_F042",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:24:13.211536",
+  "duration_seconds": 3.7,
+  "transcript": "But don't think that way. You hear me?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "But don't think that way. You hear me?",
+      "emotion": "anger",
+      "emotion_confidence": 0.476,
+      "sentiment_score": -0.2494,
+      "pitch_mean": 338.07
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2494,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 129.72,
+    "avg_pitch": 333.99
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script01_1",
+    "utterance_id": "Ses04F_script01_1_F042",
+    "transcript_ground_truth": "But don't think that way.  You hear me?"
+  }
+}

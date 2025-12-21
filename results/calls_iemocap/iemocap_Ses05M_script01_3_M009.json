@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses05M_script01_3_M009",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:02:19.342415",
+  "duration_seconds": 14.71,
+  "transcript": "I don't know what to say. I have no imagination and that's all I know to say to you. Well... God, I'm embarrassing you. I didn't want to do this here. I wanted to do it someplace different, someplace where we could be new to each other.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I don't know what to say. I have no imagination and that's all I know to say to you. Well...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.69,
+      "sentiment_score": -0.7158,
+      "pitch_mean": 337.69
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 7.0,
+      "text": "God, I'm embarrassing you.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.455,
+      "sentiment_score": -0.9048,
+      "pitch_mean": 327.72
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 14.0,
+      "text": "I didn't want to do this here. I wanted to do it someplace different, someplace where we could be new to each other.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.926,
+      "sentiment_score": -0.4601,
+      "pitch_mean": 333.84
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6936,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "disgust": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 191.71,
+    "avg_pitch": 331.76
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 4.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_3",
+    "utterance_id": "Ses05M_script01_3_M009",
+    "transcript_ground_truth": "I don't know what to say.  I have no imagination.  That's all I have to say to you.  God, I'm embarrassing you. I-I didn't want to do this here. I- I wanted to do it someplace different, someplace where we could be new to each other."
+  }
+}

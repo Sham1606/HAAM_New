@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02M_script01_3_M029",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:05:12.259349",
+  "duration_seconds": 10.16,
+  "transcript": "They didn't die. They killed themselves for each other. I mean that exactly. I mean, a little more selfish and they'd have been here today.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "They didn't die. They killed themselves for each other.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.366,
+      "sentiment_score": -0.7426,
+      "pitch_mean": 322.1
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 9.0,
+      "text": "I mean that exactly. I mean, a little more selfish and they'd have been here today.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.55,
+      "sentiment_score": -0.8965,
+      "pitch_mean": 325.36
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8195,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 147.59,
+    "avg_pitch": 323.71
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script01_3",
+    "utterance_id": "Ses02M_script01_3_M029",
+    "transcript_ground_truth": "They didn't die, they killed themselves for each other.  I mean that exactly.  I mean, a little more selfish and they'd have been here today."
+  }
+}

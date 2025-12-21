@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script01_1_M016",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:15:09.159938",
+  "duration_seconds": 3.34,
+  "transcript": "You know why I asked Andy here, don't you?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "You know why I asked Andy here, don't you?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.452,
+      "sentiment_score": -0.0065,
+      "pitch_mean": 318.51
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0065,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 161.63,
+    "avg_pitch": 317.43
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_1",
+    "utterance_id": "Ses05F_script01_1_M016",
+    "transcript_ground_truth": "You know why I asked Annie here, don't you?"
+  }
+}

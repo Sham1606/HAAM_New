@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script01_2_M010",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:41:57.542952",
+  "duration_seconds": 2.74,
+  "transcript": "What do you want me to do? What do you want?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "What do you want me to do? What do you want?",
+      "emotion": "anger",
+      "emotion_confidence": 0.47,
+      "sentiment_score": 0.088,
+      "pitch_mean": 334.93
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.088,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 241.16,
+    "avg_pitch": 337.26
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_2",
+    "utterance_id": "Ses03M_script01_2_M010",
+    "transcript_ground_truth": "What do you want me to do?  What do you want?"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01F_script03_2_F037",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:46:21.773984",
+  "duration_seconds": 10.35,
+  "transcript": "Oh shut up let go I hate you I hate you do you hear you're conceited and Overbearing and utterly impossible wicked",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.54,
+      "text": "Oh shut up let go I hate you I hate you do you hear you're conceited and",
+      "emotion": "anger",
+      "emotion_confidence": 0.876,
+      "sentiment_score": -0.9403,
+      "pitch_mean": 374.29
+    },
+    {
+      "start_time": 7.02,
+      "end_time": 10.28,
+      "text": "Overbearing and utterly impossible wicked",
+      "emotion": "anger",
+      "emotion_confidence": 0.929,
+      "sentiment_score": -0.8575,
+      "pitch_mean": 377.43
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8989,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 127.54,
+    "avg_pitch": 377.09
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.0,
+    "arousal": 4.5,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script03_2",
+    "utterance_id": "Ses01F_script03_2_F037",
+    "transcript_ground_truth": "Oh shut up.  Let go.  I hate you, I hate you.  Do you hear?  You are a conceited and overbearing and utterly impossible."
+  }
+}

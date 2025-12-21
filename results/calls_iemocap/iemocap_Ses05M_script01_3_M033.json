@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses05M_script01_3_M033",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:03:24.956204",
+  "duration_seconds": 15.51,
+  "transcript": "It was And then I went home It was incredible You didn't have any meaning there",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It was",
+      "emotion": "disgust",
+      "emotion_confidence": 0.416,
+      "sentiment_score": 0.3881,
+      "pitch_mean": 309.18
+    },
+    {
+      "start_time": 3.68,
+      "end_time": 6.68,
+      "text": "And then I went home",
+      "emotion": "sadness",
+      "emotion_confidence": 0.423,
+      "sentiment_score": 0.2628,
+      "pitch_mean": 318.63
+    },
+    {
+      "start_time": 8.6,
+      "end_time": 10.6,
+      "text": "It was incredible",
+      "emotion": "neutral",
+      "emotion_confidence": 0.79,
+      "sentiment_score": 0.9245,
+      "pitch_mean": 321.42
+    },
+    {
+      "start_time": 12.88,
+      "end_time": 14.88,
+      "text": "You didn't have any meaning there",
+      "emotion": "neutral",
+      "emotion_confidence": 0.626,
+      "sentiment_score": -0.5407,
+      "pitch_mean": 323.24
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2587,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "disgust": 0.25,
+      "sadness": 0.25,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 61.9,
+    "avg_pitch": 315.99
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_3",
+    "utterance_id": "Ses05M_script01_3_M033",
+    "transcript_ground_truth": "It was and then I went home.  And it was incredible.  It didn't have any meaning there."
+  }
+}

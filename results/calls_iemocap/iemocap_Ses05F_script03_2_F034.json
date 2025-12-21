@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script03_2_F034",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:30:39.928972",
+  "duration_seconds": 2.83,
+  "transcript": "Well, do try to control yourself, darling.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Well, do try to control yourself, darling.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.656,
+      "sentiment_score": 0.145,
+      "pitch_mean": 366.85
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.145,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 148.41,
+    "avg_pitch": 370.25
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script03_2",
+    "utterance_id": "Ses05F_script03_2_F034",
+    "transcript_ground_truth": "Well, do try to control yourself darling."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05F_impro04_F029",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:57:31.170191",
+  "duration_seconds": 2.15,
+  "transcript": "I don't know. I mean, are you going in for her?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "I don't know.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.779,
+      "sentiment_score": -0.125,
+      "pitch_mean": 299.93
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 2.0,
+      "text": "I mean, are you going in for her?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.465,
+      "sentiment_score": -0.0005,
+      "pitch_mean": 327.72
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0627,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 306.98,
+    "avg_pitch": 318.29
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 1.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro04",
+    "utterance_id": "Ses05F_impro04_F029",
+    "transcript_ground_truth": "I don't know."
+  }
+}

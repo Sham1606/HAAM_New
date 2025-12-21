@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script03_2_M020",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:47:02.606919",
+  "duration_seconds": 5.09,
+  "transcript": "Oh really, it's pity he didn't have any brandy, you know what it made you a little less disagreeable",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.8,
+      "text": "Oh really, it's pity he didn't have any brandy, you know what it made you a little less disagreeable",
+      "emotion": "anger",
+      "emotion_confidence": 0.522,
+      "sentiment_score": -0.7754,
+      "pitch_mean": 336.04
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7754,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 223.97,
+    "avg_pitch": 335.68
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script03_2",
+    "utterance_id": "Ses01F_script03_2_M020",
+    "transcript_ground_truth": "Oh really.  It's a pity you didn't have any brandy, it would have made you a little less disagreeable."
+  }
+}

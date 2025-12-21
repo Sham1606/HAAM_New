@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro02_M036",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:50:02.275348",
+  "duration_seconds": 6.58,
+  "transcript": "All the time every day every day and they have email over there and stuff like that right I can",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.04,
+      "text": "All the time every day every day and they have email over there and stuff like that right I can",
+      "emotion": "neutral",
+      "emotion_confidence": 0.928,
+      "sentiment_score": 0.071,
+      "pitch_mean": 342.66
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.071,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 182.37,
+    "avg_pitch": 339.02
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro02",
+    "utterance_id": "Ses05F_impro02_M036",
+    "transcript_ground_truth": "All the time, every day, every day.  They have e-mail over there and stuff like that, right? I can send you pictures."
+  }
+}

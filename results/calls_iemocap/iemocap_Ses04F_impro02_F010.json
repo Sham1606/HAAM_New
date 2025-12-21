@@ -1,0 +1,63 @@
+{
+  "call_id": "iemocap_Ses04F_impro02_F010",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T11:59:55.726914",
+  "duration_seconds": 6.86,
+  "transcript": "I mean, I'm the one who has to leave here. I'm the one who has to leave the two of you, at least you get to be together.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.8,
+      "text": "I mean, I'm the one who has to leave here.",
+      "emotion": "anger",
+      "emotion_confidence": 0.381,
+      "sentiment_score": -0.3125,
+      "pitch_mean": 335.36
+    },
+    {
+      "start_time": 2.8,
+      "end_time": 4.64,
+      "text": "I'm the one who has to leave the two of you,",
+      "emotion": "sadness",
+      "emotion_confidence": 0.835,
+      "sentiment_score": -0.5804,
+      "pitch_mean": 343.22
+    },
+    {
+      "start_time": 4.64,
+      "end_time": 6.64,
+      "text": "at least you get to be together.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.465,
+      "sentiment_score": 0.6265,
+      "pitch_mean": 335.49
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0888,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.333,
+      "sadness": 0.333,
+      "disgust": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 244.91,
+    "avg_pitch": 336.72
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro02",
+    "utterance_id": "Ses04F_impro02_F010",
+    "transcript_ground_truth": "I mean I'm the one who has to leave here.  I'm the one who has to leave the two of you.  At least you get to be together."
+  }
+}

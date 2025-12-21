@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04F_impro05_M008",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:10:56.121872",
+  "duration_seconds": 2.98,
+  "transcript": "You're getting very excited right now. Well, that's...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "You're getting very excited right now.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.522,
+      "sentiment_score": 0.9504,
+      "pitch_mean": 331.72
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "Well, that's...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.86,
+      "sentiment_score": -0.1974,
+      "pitch_mean": 339.35
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3765,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 161.07,
+    "avg_pitch": 339.35
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro05",
+    "utterance_id": "Ses04F_impro05_M008",
+    "transcript_ground_truth": "you're getting very excited right now"
+  }
+}

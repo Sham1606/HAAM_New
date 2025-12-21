@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02F_impro04_M010",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:24:21.433539",
+  "duration_seconds": 9.21,
+  "transcript": "It's not worthless because it's definitely gonna it's definitely gonna pay off. I know I mean I can you I've just I've seen your work etiquette You know you're you're a good worker and",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.96,
+      "text": "It's not worthless because it's definitely gonna it's definitely gonna pay off. I know I mean I can you I've just I've seen your work etiquette",
+      "emotion": "neutral",
+      "emotion_confidence": 0.826,
+      "sentiment_score": 0.8028,
+      "pitch_mean": 331.21
+    },
+    {
+      "start_time": 6.96,
+      "end_time": 8.96,
+      "text": "You know you're you're a good worker and",
+      "emotion": "neutral",
+      "emotion_confidence": 0.764,
+      "sentiment_score": 0.8631,
+      "pitch_mean": 336.42
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.8329,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 221.57,
+    "avg_pitch": 332.76
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro04",
+    "utterance_id": "Ses02F_impro04_M010",
+    "transcript_ground_truth": "It's not worthless 'cause it's definitely gonna--it's definitely gonna pay off.  I know it.  I mean, I can--I've just--I've seen your work etiquette.  You know, you're a good worker and..."
+  }
+}

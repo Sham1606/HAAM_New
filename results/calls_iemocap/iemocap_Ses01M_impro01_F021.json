@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01M_impro01_F021",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:48:15.668967",
+  "duration_seconds": 4.91,
+  "transcript": "Do you know how long I've been working here? How long have you lived in California?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Do you know how long I've been working here?",
+      "emotion": "anger",
+      "emotion_confidence": 0.675,
+      "sentiment_score": 0.0175,
+      "pitch_mean": 335.65
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 5.0,
+      "text": "How long have you lived in California?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.873,
+      "sentiment_score": 0.0184,
+      "pitch_mean": 338.58
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0179,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 195.42,
+    "avg_pitch": 338.58
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.0,
+    "arousal": 4.5,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro01",
+    "utterance_id": "Ses01M_impro01_F021",
+    "transcript_ground_truth": "Do you know how long I've been working here? How long have you lived in California?"
+  }
+}

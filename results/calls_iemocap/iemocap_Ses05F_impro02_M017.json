@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro02_M017",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:49:18.925834",
+  "duration_seconds": 4.47,
+  "transcript": "There's six months old six months old. They're tiny",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.6,
+      "text": "There's six months old six months old. They're tiny",
+      "emotion": "neutral",
+      "emotion_confidence": 0.8,
+      "sentiment_score": 0.1083,
+      "pitch_mean": 356.88
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1083,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 120.81,
+    "avg_pitch": 340.84
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro02",
+    "utterance_id": "Ses05F_impro02_M017",
+    "transcript_ground_truth": "They're six months old. Six months old, they're tiny."
+  }
+}

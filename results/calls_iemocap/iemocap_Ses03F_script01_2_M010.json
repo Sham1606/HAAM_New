@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script01_2_M010",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:33:32.278984",
+  "duration_seconds": 1.64,
+  "transcript": "Come here, sir",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Come here, sir",
+      "emotion": "neutral",
+      "emotion_confidence": 0.914,
+      "sentiment_score": 0.3086,
+      "pitch_mean": 406.4
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3086,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 109.43,
+    "avg_pitch": 406.4
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_2",
+    "utterance_id": "Ses03F_script01_2_M010",
+    "transcript_ground_truth": "Calm yourself."
+  }
+}

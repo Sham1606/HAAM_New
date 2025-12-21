@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script03_2_M013",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:46:51.789745",
+  "duration_seconds": 4.96,
+  "transcript": "Oh, don't be so grand, just because you don't happen to want one at the moment.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Oh, don't be so grand, just because you don't happen to want one at the moment.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.667,
+      "sentiment_score": -0.5934,
+      "pitch_mean": 327.38
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5934,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 193.55,
+    "avg_pitch": 327.38
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script03_2",
+    "utterance_id": "Ses01F_script03_2_M013",
+    "transcript_ground_truth": "Oh.  Don't be so grand.  Just because you don't happen to want one at the moment."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro01_F015",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:47:46.875357",
+  "duration_seconds": 2.77,
+  "transcript": "Well then you won't have a license will you?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Well then you won't have a license will you?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.426,
+      "sentiment_score": -0.742,
+      "pitch_mean": 357.37
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.742,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 194.7,
+    "avg_pitch": 342.64
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro01",
+    "utterance_id": "Ses03M_impro01_F015",
+    "transcript_ground_truth": "Well then you won't have a license will you?"
+  }
+}

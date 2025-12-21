@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05F_script01_3_F014",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:18:07.378896",
+  "duration_seconds": 10.19,
+  "transcript": "Well, I was waiting for you. I mean I didn't until then you hadn't written and when you write when you wrote What did you say? I mean you sure can't be ambiguous Chris",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.3,
+      "text": "Well, I was waiting for you. I mean I didn't until then you hadn't written and when you write when you wrote",
+      "emotion": "neutral",
+      "emotion_confidence": 0.818,
+      "sentiment_score": 0.2063,
+      "pitch_mean": 351.95
+    },
+    {
+      "start_time": 6.3,
+      "end_time": 9.16,
+      "text": "What did you say? I mean you sure can't be ambiguous Chris",
+      "emotion": "neutral",
+      "emotion_confidence": 0.767,
+      "sentiment_score": -0.4585,
+      "pitch_mean": 363.51
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1261,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 200.29,
+    "avg_pitch": 352.77
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 5.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_3",
+    "utterance_id": "Ses05F_script01_3_F014",
+    "transcript_ground_truth": "Well I was waiting for you!  I mean I didn't-until then you hadn't written and when you write- when you wrote what did you say?  I mean you sure can be ambiguous Chris."
+  }
+}

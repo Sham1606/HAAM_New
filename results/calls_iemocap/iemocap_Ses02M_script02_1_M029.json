@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02M_script02_1_M029",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:07:15.310045",
+  "duration_seconds": 7.81,
+  "transcript": "You know, there's like, there's a mystery here, a magic, a bit of the unexplainable. I don't see how you can not be interested.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "You know, there's like, there's a mystery here, a magic, a bit of the unexplainable.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.851,
+      "sentiment_score": 0.4463,
+      "pitch_mean": 323.28
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 7.0,
+      "text": "I don't see how you can not be interested.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.704,
+      "sentiment_score": -0.1904,
+      "pitch_mean": 323.36
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1279,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 184.38,
+    "avg_pitch": 321.2
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script02_1",
+    "utterance_id": "Ses02M_script02_1_M029",
+    "transcript_ground_truth": "you know there is like, there is a certain mystery here, a magic, a bit of the unexplainable. I don't see how you cannot be interested."
+  }
+}

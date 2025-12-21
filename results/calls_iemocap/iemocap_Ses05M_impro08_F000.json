@@ -1,0 +1,89 @@
+{
+  "call_id": "iemocap_Ses05M_impro08_F000",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:50:10.940155",
+  "duration_seconds": 26.75,
+  "transcript": "Hi, I need I need some help. I've been transferred to like eight different departments and I've told my problem to every single department and Then they just send me to another one and they say that they're gonna send all my information So I won't have to repeat it But then that person doesn't know what's going on I've restated my story about eight different times and I just want somebody to help me get my connection back because This happens every two weeks and I want to know what to do to stop it from happening again",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.92,
+      "text": "Hi, I need I need some help. I've been transferred to like eight different departments and I've told my problem to every single department and",
+      "emotion": "disgust",
+      "emotion_confidence": 0.466,
+      "sentiment_score": -0.5762,
+      "pitch_mean": 345.73
+    },
+    {
+      "start_time": 8.68,
+      "end_time": 12.08,
+      "text": "Then they just send me to another one and they say that they're gonna send all my information",
+      "emotion": "neutral",
+      "emotion_confidence": 0.871,
+      "sentiment_score": -0.348,
+      "pitch_mean": 355.31
+    },
+    {
+      "start_time": 12.08,
+      "end_time": 13.28,
+      "text": "So I won't have to repeat it",
+      "emotion": "neutral",
+      "emotion_confidence": 0.922,
+      "sentiment_score": -0.2135,
+      "pitch_mean": 352.11
+    },
+    {
+      "start_time": 13.28,
+      "end_time": 14.92,
+      "text": "But then that person doesn't know what's going on",
+      "emotion": "disgust",
+      "emotion_confidence": 0.402,
+      "sentiment_score": -0.4965,
+      "pitch_mean": 355.5
+    },
+    {
+      "start_time": 14.92,
+      "end_time": 21.08,
+      "text": "I've restated my story about eight different times and I just want somebody to help me get my connection back because",
+      "emotion": "neutral",
+      "emotion_confidence": 0.942,
+      "sentiment_score": -0.0863,
+      "pitch_mean": 353.12
+    },
+    {
+      "start_time": 21.52,
+      "end_time": 26.28,
+      "text": "This happens every two weeks and I want to know what to do to stop it from happening again",
+      "emotion": "neutral",
+      "emotion_confidence": 0.757,
+      "sentiment_score": -0.8726,
+      "pitch_mean": 343.15
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4322,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "disgust": 0.333,
+      "neutral": 0.667
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 222.06,
+    "avg_pitch": 345.92
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro08",
+    "utterance_id": "Ses05M_impro08_F000",
+    "transcript_ground_truth": "Hi, I need- I need some help.  I've been transferred to, like, eight different departments and I've told my problem to every single department, and then they just send me to another one and say they are going to send all my information so I won't have to repeat it, and then that person doesn't know what's going on.  And I've restated my story about eight different times and I just want somebody to help me get my connection back, because this happens every two weeks.  And I want to know what to do to stop it from happening again."
+  }
+}

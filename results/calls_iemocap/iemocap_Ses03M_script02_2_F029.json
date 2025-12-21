@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script02_2_F029",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:48:52.182704",
+  "duration_seconds": 4.27,
+  "transcript": "No, no no",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.5,
+      "text": "No, no no",
+      "emotion": "disgust",
+      "emotion_confidence": 0.428,
+      "sentiment_score": -0.1936,
+      "pitch_mean": 359.28
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1936,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 42.11,
+    "avg_pitch": 361.96
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.3333,
+    "arousal": 4.0,
+    "dominance": 3.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_2",
+    "utterance_id": "Ses03M_script02_2_F029",
+    "transcript_ground_truth": "No...No...No..."
+  }
+}

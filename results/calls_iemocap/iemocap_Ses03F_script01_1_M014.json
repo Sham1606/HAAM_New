@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script01_1_M014",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:31:20.061154",
+  "duration_seconds": 5.28,
+  "transcript": "Alright, sit down, mom. I want to talk to you.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Alright, sit down, mom. I want to talk to you.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.348,
+      "sentiment_score": 0.3346,
+      "pitch_mean": 334.95
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3346,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 113.59,
+    "avg_pitch": 334.18
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_1",
+    "utterance_id": "Ses03F_script01_1_M014",
+    "transcript_ground_truth": "All right. Just- Sit down, mom. I want to talk to you."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_script01_2_M009",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:00:35.663595",
+  "duration_seconds": 2.81,
+  "transcript": "Well, what do you want me to do about it? What do you want? I want you to retune.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Well, what do you want me to do about it? What do you want?",
+      "emotion": "anger",
+      "emotion_confidence": 0.62,
+      "sentiment_score": -0.2952,
+      "pitch_mean": 329.46
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "I want you to retune.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.783,
+      "sentiment_score": 0.0976,
+      "pitch_mean": 329.78
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0988,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 405.69,
+    "avg_pitch": 329.78
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.6667,
+    "arousal": 3.6667,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_2",
+    "utterance_id": "Ses05M_script01_2_M009",
+    "transcript_ground_truth": "Well, what do you want me to do about it?  What do you want?"
+  }
+}

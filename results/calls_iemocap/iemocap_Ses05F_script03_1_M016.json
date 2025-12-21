@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script03_1_M016",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:28:35.246539",
+  "duration_seconds": 4.07,
+  "transcript": "No, that fire will fade along with our passion.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "No, that fire will fade along with our passion.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.479,
+      "sentiment_score": -0.4396,
+      "pitch_mean": 327.99
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4396,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 132.68,
+    "avg_pitch": 328.05
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script03_1",
+    "utterance_id": "Ses05F_script03_1_M016",
+    "transcript_ground_truth": "No, that fire will fade along with our passion."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04M_impro05_F008",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:56:15.006713",
+  "duration_seconds": 3.66,
+  "transcript": "Refund coverage of the bag that was lost. Oh yes.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Refund coverage of the bag that was lost.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.445,
+      "sentiment_score": -0.599,
+      "pitch_mean": 351.01
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 4.0,
+      "text": "Oh yes.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.756,
+      "sentiment_score": 0.753,
+      "pitch_mean": 347.62
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.077,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 163.93,
+    "avg_pitch": 347.62
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro05",
+    "utterance_id": "Ses04M_impro05_F008",
+    "transcript_ground_truth": "refund--coverage of the bag that was lost. yes"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script03_2_M020",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:18:04.417003",
+  "duration_seconds": 5.05,
+  "transcript": "Hmm. As a matter of fact that's perfectly true.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Hmm. As a matter of fact that's perfectly true.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.946,
+      "sentiment_score": 0.8261,
+      "pitch_mean": 330.29
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.8261,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 106.93,
+    "avg_pitch": 330.29
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script03_2",
+    "utterance_id": "Ses01M_script03_2_M020",
+    "transcript_ground_truth": "As matter the fact that's perfectly true."
+  }
+}

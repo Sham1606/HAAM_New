@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script01_2_F013",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:02:44.752562",
+  "duration_seconds": 3.64,
+  "transcript": "I need you to believe with me. I can't stand all alone.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.4,
+      "text": "I need you to believe with me. I can't stand all alone.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.552,
+      "sentiment_score": 0.2882,
+      "pitch_mean": 369.69
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2882,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 197.81,
+    "avg_pitch": 365.17
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.6667,
+    "arousal": 3.6667,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script01_2",
+    "utterance_id": "Ses02M_script01_2_F013",
+    "transcript_ground_truth": "I need you to believe with me; I can't stand all alone."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02M_script01_1_M022",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:01:36.414963",
+  "duration_seconds": 10.69,
+  "transcript": "Sometimes you infuriate me you know that isn't it your business too if I tell that and he throws a fit about it You have such a talent for ignoring things",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.98,
+      "text": "Sometimes you infuriate me you know that isn't it your business too if I tell that and he throws a fit about it",
+      "emotion": "anger",
+      "emotion_confidence": 0.735,
+      "sentiment_score": -0.812,
+      "pitch_mean": 317.6
+    },
+    {
+      "start_time": 7.48,
+      "end_time": 9.72,
+      "text": "You have such a talent for ignoring things",
+      "emotion": "disgust",
+      "emotion_confidence": 0.574,
+      "sentiment_score": -0.7057,
+      "pitch_mean": 324.99
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7588,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 174.0,
+    "avg_pitch": 316.17
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script01_1",
+    "utterance_id": "Ses02M_script01_1_M022",
+    "transcript_ground_truth": "Sometimes you infuriate me you know that. Isn't it your business to if I tell dad and he throws a fit about it? You have such a talent for ignoring things."
+  }
+}

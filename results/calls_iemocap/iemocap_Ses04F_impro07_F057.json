@@ -1,0 +1,63 @@
+{
+  "call_id": "iemocap_Ses04F_impro07_F057",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:14:50.196475",
+  "duration_seconds": 5.17,
+  "transcript": "Maybe on campus I hear they have jobs on campus. Even. Even.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.12,
+      "text": "Maybe on campus I hear they have jobs on campus.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.844,
+      "sentiment_score": 0.0459,
+      "pitch_mean": 353.61
+    },
+    {
+      "start_time": 3.12,
+      "end_time": 3.92,
+      "text": "Even.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.621,
+      "sentiment_score": 0.0121,
+      "pitch_mean": 339.24
+    },
+    {
+      "start_time": 3.92,
+      "end_time": 4.72,
+      "text": "Even.",
+      "emotion": "joy",
+      "emotion_confidence": 0.467,
+      "sentiment_score": 0.0121,
+      "pitch_mean": 348.67
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0234,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.333,
+      "disgust": 0.333,
+      "joy": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 139.26,
+    "avg_pitch": 344.54
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro07",
+    "utterance_id": "Ses04F_impro07_F057",
+    "transcript_ground_truth": "Maybe on campus, I hear they have jobs on campus."
+  }
+}

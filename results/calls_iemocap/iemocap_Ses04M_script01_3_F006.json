@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_script01_3_F006",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:08:09.542110",
+  "duration_seconds": 3.2,
+  "transcript": "I knew they would, and your mother anyway.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I knew they would, and your mother anyway.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.485,
+      "sentiment_score": -0.1718,
+      "pitch_mean": 328.79
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1718,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 150.0,
+    "avg_pitch": 325.88
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script01_3",
+    "utterance_id": "Ses04M_script01_3_F006",
+    "transcript_ground_truth": "I knew they would, your mother, anyway."
+  }
+}

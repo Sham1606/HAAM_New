@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses05M_impro04_F009",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:39:55.962429",
+  "duration_seconds": 4.34,
+  "transcript": "I was going to say, maybe that's your issue. Maybe they're going in too much. No, I mean just...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I was going to say, maybe that's your issue.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.808,
+      "sentiment_score": -0.4444,
+      "pitch_mean": 351.74
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "Maybe they're going in too much.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.904,
+      "sentiment_score": -0.3376,
+      "pitch_mean": 362.12
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 4.0,
+      "text": "No, I mean just...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.609,
+      "sentiment_score": -0.17,
+      "pitch_mean": 353.89
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3174,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 262.67,
+    "avg_pitch": 348.54
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro04",
+    "utterance_id": "Ses05M_impro04_F009",
+    "transcript_ground_truth": "I was just going to say that's your issue. Maybe you are going in too much. No, I mean, just"
+  }
+}

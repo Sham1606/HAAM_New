@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01F_script01_3_F018",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:35:28.460473",
+  "duration_seconds": 6.86,
+  "transcript": "Yeah, I was waiting for you, Chris. You sure can be ambiguous, you know, and when you did right finally right me, huh?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Yeah, I was waiting for you, Chris.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.816,
+      "sentiment_score": 0.7293,
+      "pitch_mean": 406.2
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 6.5,
+      "text": "You sure can be ambiguous, you know, and when you did right finally right me, huh?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.709,
+      "sentiment_score": -0.3603,
+      "pitch_mean": 366.75
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1845,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 201.17,
+    "avg_pitch": 375.4
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.3333,
+    "arousal": 4.3333,
+    "dominance": 4.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_3",
+    "utterance_id": "Ses01F_script01_3_F018",
+    "transcript_ground_truth": "I was waiting for you, Chris.  You sure can be ambiguous, you know.  And when you did finally write me,"
+  }
+}

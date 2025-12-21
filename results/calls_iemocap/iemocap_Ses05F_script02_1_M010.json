@@ -1,0 +1,70 @@
+{
+  "call_id": "iemocap_Ses05F_script02_1_M010",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:22:02.753175",
+  "duration_seconds": 11.44,
+  "transcript": "I didn't even think to bring a six pack. Oh, six pack would be just the ticket right about now. I can't believe I forgot. I'm like a kid, and surprise I made it out of the house about flies it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.56,
+      "text": "I didn't even think to bring a six pack.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.785,
+      "sentiment_score": -0.219,
+      "pitch_mean": 314.23
+    },
+    {
+      "start_time": 2.56,
+      "end_time": 5.0,
+      "text": "Oh, six pack would be just the ticket right about now.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.947,
+      "sentiment_score": 0.2549,
+      "pitch_mean": 338.23
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 7.0,
+      "text": "I can't believe I forgot.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.935,
+      "sentiment_score": -0.6537,
+      "pitch_mean": 319.2
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 11.0,
+      "text": "I'm like a kid, and surprise I made it out of the house about flies it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.966,
+      "sentiment_score": 0.25,
+      "pitch_mean": 331.76
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.092,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 215.08,
+    "avg_pitch": 326.53
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script02_1",
+    "utterance_id": "Ses05F_script02_1_M010",
+    "transcript_ground_truth": "I didn't even think to bring a six-pack.  A six-pack would be just the thing right about now. I can't believe I forgot.  And look at kid, I am surprise I make it out of the house about flies it."
+  }
+}

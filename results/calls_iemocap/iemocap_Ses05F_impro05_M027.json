@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05F_impro05_M027",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:03:39.873696",
+  "duration_seconds": 6.5,
+  "transcript": "International flights are not cheap and there's many reasons for that it does not have solely to do with your baggage or",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.24,
+      "text": "International flights are not cheap and there's many reasons for that it does not have",
+      "emotion": "disgust",
+      "emotion_confidence": 0.412,
+      "sentiment_score": -0.8055,
+      "pitch_mean": 336.86
+    },
+    {
+      "start_time": 4.24,
+      "end_time": 7.0,
+      "text": "solely to do with your baggage or",
+      "emotion": "neutral",
+      "emotion_confidence": 0.789,
+      "sentiment_score": -0.3104,
+      "pitch_mean": 334.17
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5579,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 203.08,
+    "avg_pitch": 334.17
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro05",
+    "utterance_id": "Ses05F_impro05_M027",
+    "transcript_ground_truth": "Ma'am, international flights are not cheap and there's many reasons for that.  It does not have solely to do with your baggage or-"
+  }
+}

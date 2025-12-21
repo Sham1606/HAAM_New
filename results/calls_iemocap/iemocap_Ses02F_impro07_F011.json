@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses02F_impro07_F011",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:27:52.048547",
+  "duration_seconds": 8.12,
+  "transcript": "And people know what you know, in a mean like it's recognizable rather than just being like, I wouldn't have some random school, you know. It's like people really know what you...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.64,
+      "text": "And people know what you know, in a mean like it's recognizable rather than just being like,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.936,
+      "sentiment_score": 0.0778,
+      "pitch_mean": 346.23
+    },
+    {
+      "start_time": 3.64,
+      "end_time": 5.52,
+      "text": "I wouldn't have some random school, you know.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.892,
+      "sentiment_score": -0.1904,
+      "pitch_mean": 364.07
+    },
+    {
+      "start_time": 5.52,
+      "end_time": 8.02,
+      "text": "It's like people really know what you...",
+      "emotion": "anger",
+      "emotion_confidence": 0.383,
+      "sentiment_score": 0.0711,
+      "pitch_mean": 336.06
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0138,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "anger": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 236.46,
+    "avg_pitch": 348.82
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro07",
+    "utterance_id": "Ses02F_impro07_F011",
+    "transcript_ground_truth": "And you know what, you know what I mean, like it's recognizable rather than just being like I went some random school. It's like people really know what you..."
+  }
+}

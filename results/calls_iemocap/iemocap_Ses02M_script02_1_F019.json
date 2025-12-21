@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script02_1_F019",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:06:04.848486",
+  "duration_seconds": 2.01,
+  "transcript": "We didn't see them the first time either.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "We didn't see them the first time either.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.462,
+      "sentiment_score": -0.4364,
+      "pitch_mean": 341.89
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4364,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 238.81,
+    "avg_pitch": 342.34
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script02_1",
+    "utterance_id": "Ses02M_script02_1_F019",
+    "transcript_ground_truth": "We didn't see them the first time either."
+  }
+}

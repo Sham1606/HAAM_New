@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script01_1_F032",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:32:12.145618",
+  "duration_seconds": 3.67,
+  "transcript": "You marry that girl you're pronouncing him dead.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "You marry that girl you're pronouncing him dead.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.582,
+      "sentiment_score": -0.6866,
+      "pitch_mean": 339.99
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6866,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 130.8,
+    "avg_pitch": 338.36
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_1",
+    "utterance_id": "Ses01F_script01_1_F032",
+    "transcript_ground_truth": "You marry that girl, you are pronouncing him dead..."
+  }
+}

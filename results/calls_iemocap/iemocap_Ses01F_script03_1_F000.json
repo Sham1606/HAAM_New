@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script03_1_F000",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:43:04.751376",
+  "duration_seconds": 2.17,
+  "transcript": "Is it them?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Is it them?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.38,
+      "sentiment_score": -0.018,
+      "pitch_mean": 330.29
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.018,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 82.95,
+    "avg_pitch": 331.37
+  },
+  "ground_truth": {
+    "emotion": "fear",
+    "raw_emotion": "fea",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 1.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script03_1",
+    "utterance_id": "Ses01F_script03_1_F000",
+    "transcript_ground_truth": "Is it them?"
+  }
+}

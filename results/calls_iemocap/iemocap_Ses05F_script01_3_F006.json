@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script01_3_F006",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:17:48.640471",
+  "duration_seconds": 3.38,
+  "transcript": "Well, it's sort of embarrassed since I came.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Well, it's sort of embarrassed since I came.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.459,
+      "sentiment_score": -0.8291,
+      "pitch_mean": 335.73
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8291,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 142.11,
+    "avg_pitch": 335.07
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_3",
+    "utterance_id": "Ses05F_script01_3_F006",
+    "transcript_ground_truth": "Well sort of embarrassed soon as I came."
+  }
+}

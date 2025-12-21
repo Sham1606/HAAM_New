@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro07_M030",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:27:12.829001",
+  "duration_seconds": 4.59,
+  "transcript": "Oh, hey, you freshman slut. That's gonna be...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.5,
+      "text": "Oh, hey, you freshman slut. That's gonna be...",
+      "emotion": "disgust",
+      "emotion_confidence": 0.665,
+      "sentiment_score": -0.3058,
+      "pitch_mean": 336.31
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3058,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 104.65,
+    "avg_pitch": 334.94
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro07",
+    "utterance_id": "Ses03F_impro07_M030",
+    "transcript_ground_truth": "Oh, hey. Freshman slut. That's you gona need."
+  }
+}

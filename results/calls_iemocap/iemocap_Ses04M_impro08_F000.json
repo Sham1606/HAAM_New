@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04M_impro08_F000",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:02:25.185975",
+  "duration_seconds": 13.16,
+  "transcript": "Hi, I've been on the phone for an hour trying to get a little discrepancy on my bill fixed. I was charged for $200 worth of calls that I didn't make.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 9.28,
+      "text": "Hi, I've been on the phone for an hour trying to get a little discrepancy on my bill fixed.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.766,
+      "sentiment_score": -0.2783,
+      "pitch_mean": 340.38
+    },
+    {
+      "start_time": 9.28,
+      "end_time": 12.48,
+      "text": "I was charged for $200 worth of calls that I didn't make.",
+      "emotion": "anger",
+      "emotion_confidence": 0.706,
+      "sentiment_score": -0.8129,
+      "pitch_mean": 350.72
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5456,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 141.34,
+    "avg_pitch": 340.97
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro08",
+    "utterance_id": "Ses04M_impro08_F000",
+    "transcript_ground_truth": "Hi.  I've been on the phone for an hour trying to get a little discrepancy on my bill fixed.  I was charged for two hundred dollars worth of calls that I didn't make."
+  }
+}

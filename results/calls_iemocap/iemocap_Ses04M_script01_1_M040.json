@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_script01_1_M040",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:06:44.273481",
+  "duration_seconds": 2.86,
+  "transcript": "Yes, on this I would.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Yes, on this I would.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.425,
+      "sentiment_score": 0.5534,
+      "pitch_mean": 326.54
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5534,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 104.9,
+    "avg_pitch": 327.96
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script01_1",
+    "utterance_id": "Ses04M_script01_1_M040",
+    "transcript_ground_truth": "Yes, on this I would."
+  }
+}

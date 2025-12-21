@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro02_M006",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:18:10.215306",
+  "duration_seconds": 3.49,
+  "transcript": "God, we're supposed to take a look at our house next week.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "God, we're supposed to take a look at our house next week.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.747,
+      "sentiment_score": 0.3059,
+      "pitch_mean": 330.31
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3059,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 206.16,
+    "avg_pitch": 326.76
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro02",
+    "utterance_id": "Ses03F_impro02_M006",
+    "transcript_ground_truth": "God, we're supposed to take a look at a house next week."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03F_impro07_F007",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:24:57.399146",
+  "duration_seconds": 4.15,
+  "transcript": "I go, you wanna see ya? I go, yeah, I got the acceptance letter.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I go, you wanna see ya?",
+      "emotion": "joy",
+      "emotion_confidence": 0.475,
+      "sentiment_score": 0.2121,
+      "pitch_mean": 388.75
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "I go, yeah, I got the acceptance letter.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.64,
+      "sentiment_score": 0.5742,
+      "pitch_mean": 378.78
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3931,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 202.44,
+    "avg_pitch": 380.65
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro07",
+    "utterance_id": "Ses03F_impro07_F007",
+    "transcript_ground_truth": "I got--U.S.C.. I got- Yeah, I got the acceptance letter."
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses02M_impro04_M008",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:52:02.181992",
+  "duration_seconds": 5.4,
+  "transcript": "Well, and that's what I begin to question after a while. Maybe I just don't want to. Maybe it's not even worthy, you know?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.4,
+      "text": "Well, and that's what I begin to question after a while.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.817,
+      "sentiment_score": -0.7407,
+      "pitch_mean": 343.15
+    },
+    {
+      "start_time": 2.4,
+      "end_time": 3.6,
+      "text": "Maybe I just don't want to.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.338,
+      "sentiment_score": -0.5767,
+      "pitch_mean": 335.18
+    },
+    {
+      "start_time": 3.6,
+      "end_time": 5.2,
+      "text": "Maybe it's not even worthy, you know?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.8226,
+      "pitch_mean": 329.34
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7133,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "disgust": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 266.76,
+    "avg_pitch": 338.09
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.3333,
+    "arousal": 2.3333,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro04",
+    "utterance_id": "Ses02M_impro04_M008",
+    "transcript_ground_truth": "Well, and that's what I begin to question after a while is maybe I just don't want it, maybe it's not even worth it, you know, like"
+  }
+}

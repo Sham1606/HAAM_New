@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro06_M005",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:24:21.420570",
+  "duration_seconds": 4.14,
+  "transcript": "and just got that baseball scholarship.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "and just got that baseball scholarship.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.403,
+      "sentiment_score": 0.452,
+      "pitch_mean": 326.41
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.452,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 86.99,
+    "avg_pitch": 325.49
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro06",
+    "utterance_id": "Ses03F_impro06_M005",
+    "transcript_ground_truth": "And he just got that baseball scholarship."
+  }
+}

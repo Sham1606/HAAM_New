@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01F_script02_2_M021",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:42:11.624532",
+  "duration_seconds": 5.09,
+  "transcript": "Sure, alright. Okay.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Sure, alright.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.359,
+      "sentiment_score": 0.4455,
+      "pitch_mean": 319.26
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "Okay.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.535,
+      "sentiment_score": 0.2809,
+      "pitch_mean": 327.58
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3632,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 35.38,
+    "avg_pitch": 324.98
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_2",
+    "utterance_id": "Ses01F_script02_2_M021",
+    "transcript_ground_truth": "Sure.  All right.  Okay."
+  }
+}

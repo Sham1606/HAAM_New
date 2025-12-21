@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses03M_impro04_F027",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:55:11.153633",
+  "duration_seconds": 10.68,
+  "transcript": "My, I would do is just, you know, what about can you call Harvard and see that they have connections, something have a career center, you can find some stuff what's going on.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.36,
+      "text": "My, I would do is just, you know, what about can you call Harvard and see",
+      "emotion": "neutral",
+      "emotion_confidence": 0.866,
+      "sentiment_score": 0.0153,
+      "pitch_mean": 332.65
+    },
+    {
+      "start_time": 6.36,
+      "end_time": 9.44,
+      "text": "that they have connections, something have a career center, you can find some stuff",
+      "emotion": "neutral",
+      "emotion_confidence": 0.957,
+      "sentiment_score": 0.1541,
+      "pitch_mean": 360.0
+    },
+    {
+      "start_time": 9.44,
+      "end_time": 10.44,
+      "text": "what's going on.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.647,
+      "sentiment_score": -0.1303,
+      "pitch_mean": 352.91
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.013,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 185.39,
+    "avg_pitch": 338.32
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro04",
+    "utterance_id": "Ses03M_impro04_F027",
+    "transcript_ground_truth": "My, what I would do was just, you know, what about can you call Harvard and see...don't they have connections?  Don't they have like career center and you can find some stuff that's going on?"
+  }
+}

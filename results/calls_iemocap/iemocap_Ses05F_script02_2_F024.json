@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script02_2_F024",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:24:32.569413",
+  "duration_seconds": 4.44,
+  "transcript": "I just want something to turn out the way it's supposed to turn out",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.76,
+      "text": "I just want something to turn out the way it's supposed to turn out",
+      "emotion": "neutral",
+      "emotion_confidence": 0.911,
+      "sentiment_score": 0.1619,
+      "pitch_mean": 370.62
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1619,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 189.38,
+    "avg_pitch": 370.05
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script02_2",
+    "utterance_id": "Ses05F_script02_2_F024",
+    "transcript_ground_truth": "I want something to turn out the way it is suppose to turn out."
+  }
+}

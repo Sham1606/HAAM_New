@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02M_impro05_F028",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:53:23.752079",
+  "duration_seconds": 8.63,
+  "transcript": "I don't believe you should see the airline coming, but we do have a policy in which we can reimburse you and that's all we can do and I'm sorry I've done everything I can.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.62,
+      "text": "I don't believe you should see the airline coming, but we do have a policy in which we can reimburse you and that's all we can do",
+      "emotion": "neutral",
+      "emotion_confidence": 0.806,
+      "sentiment_score": -0.2338,
+      "pitch_mean": 343.11
+    },
+    {
+      "start_time": 6.62,
+      "end_time": 8.62,
+      "text": "and I'm sorry I've done everything I can.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.89,
+      "sentiment_score": -0.6479,
+      "pitch_mean": 359.83
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4409,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "sadness": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 243.33,
+    "avg_pitch": 348.22
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro05",
+    "utterance_id": "Ses02M_impro05_F028",
+    "transcript_ground_truth": "I don't believe you should sue the airline company but we do have a policy uh- in which we can reimburse you and that's all we can do and I'm sorry I've done everything I can-"
+  }
+}

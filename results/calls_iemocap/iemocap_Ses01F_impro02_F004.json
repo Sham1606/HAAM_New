@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro02_F004",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:16:30.851354",
+  "duration_seconds": 5.77,
+  "transcript": "There's people that give him more though, you know.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "There's people that give him more though, you know.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.886,
+      "sentiment_score": 0.1534,
+      "pitch_mean": 328.79
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1534,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 93.59,
+    "avg_pitch": 331.36
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro02",
+    "utterance_id": "Ses01F_impro02_F004",
+    "transcript_ground_truth": "There's people that have given more though, you know?"
+  }
+}

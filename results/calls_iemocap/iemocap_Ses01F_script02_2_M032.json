@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script02_2_M032",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:42:37.033361",
+  "duration_seconds": 2.64,
+  "transcript": "You know what you get you get you get this?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "You know what you get you get you get this?",
+      "emotion": "anger",
+      "emotion_confidence": 0.431,
+      "sentiment_score": 0.1701,
+      "pitch_mean": 332.84
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1701,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 227.03,
+    "avg_pitch": 329.42
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_2",
+    "utterance_id": "Ses01F_script02_2_M032",
+    "transcript_ground_truth": "Do you know what you get?  You get this."
+  }
+}

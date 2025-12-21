@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro07_M018",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:29:21.303121",
+  "duration_seconds": 1.59,
+  "transcript": "That would be awesome.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "That would be awesome.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.9722,
+      "pitch_mean": 335.51
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9722,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 150.56,
+    "avg_pitch": 335.51
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro07",
+    "utterance_id": "Ses02F_impro07_M018",
+    "transcript_ground_truth": "That'll be awesome."
+  }
+}

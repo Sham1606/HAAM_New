@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02M_impro07_M029",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:57:29.310545",
+  "duration_seconds": 7.45,
+  "transcript": "I mean, you gotta show me the ropes because I've never been there before. So, I mean, you know your way around already and...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.42,
+      "text": "I mean, you gotta show me the ropes because I've never been there before.",
+      "emotion": "anger",
+      "emotion_confidence": 0.342,
+      "sentiment_score": 0.0396,
+      "pitch_mean": 349.94
+    },
+    {
+      "start_time": 3.42,
+      "end_time": 7.16,
+      "text": "So, I mean, you know your way around already and...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.783,
+      "sentiment_score": 0.1515,
+      "pitch_mean": 347.39
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0955,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 193.32,
+    "avg_pitch": 348.55
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro07",
+    "utterance_id": "Ses02M_impro07_M029",
+    "transcript_ground_truth": "I mean you got to - you got to show me the ropes 'cause I've never been there before so I mean you know your way around already and- [LAUGHTER]"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02M_script02_1_M041",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:07:41.283556",
+  "duration_seconds": 9.39,
+  "transcript": "They just turn as one and start the swim that brings them right here to this spot where we stand For a massive celebration of sex and death",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.12,
+      "text": "They just turn as one and start the swim that brings them right here to this spot where we stand",
+      "emotion": "neutral",
+      "emotion_confidence": 0.963,
+      "sentiment_score": 0.2211,
+      "pitch_mean": 321.76
+    },
+    {
+      "start_time": 5.84,
+      "end_time": 8.8,
+      "text": "For a massive celebration of sex and death",
+      "emotion": "joy",
+      "emotion_confidence": 0.805,
+      "sentiment_score": -0.5699,
+      "pitch_mean": 326.42
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1744,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "joy": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 178.91,
+    "avg_pitch": 323.77
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script02_1",
+    "utterance_id": "Ses02M_script02_1_M041",
+    "transcript_ground_truth": "they just turn as one and start the swim and brings them right here to this spot where we stand, for a massive celebration of sex and death."
+  }
+}

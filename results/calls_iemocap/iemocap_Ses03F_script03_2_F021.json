@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script03_2_F021",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:44:48.512426",
+  "duration_seconds": 2.52,
+  "transcript": "Adderst don't snap they sting.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Adderst don't snap they sting.",
+      "emotion": "anger",
+      "emotion_confidence": 0.945,
+      "sentiment_score": -0.7573,
+      "pitch_mean": 317.53
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7573,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 118.93,
+    "avg_pitch": 319.7
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script03_2",
+    "utterance_id": "Ses03F_script03_2_F021",
+    "transcript_ground_truth": "Adders don't snap, they sting."
+  }
+}

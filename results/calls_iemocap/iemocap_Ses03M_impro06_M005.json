@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro06_M005",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T04:01:44.581966",
+  "duration_seconds": 4.41,
+  "transcript": "No one else would talk to me but you would.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "No one else would talk to me but you would.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.606,
+      "sentiment_score": 0.0149,
+      "pitch_mean": 319.36
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0149,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 136.21,
+    "avg_pitch": 319.29
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro06",
+    "utterance_id": "Ses03M_impro06_M005",
+    "transcript_ground_truth": "no one else would talk to me but he would."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script03_1_M028",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:12:32.916333",
+  "duration_seconds": 5.12,
+  "transcript": "The worst one was in Cannes when you're curling iron burnt a hole in my new dressing gown.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "The worst one was in Cannes when you're curling iron burnt a hole in my new dressing gown.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.972,
+      "sentiment_score": -0.8986,
+      "pitch_mean": 330.64
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8986,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 210.89,
+    "avg_pitch": 331.03
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script03_1",
+    "utterance_id": "Ses02M_script03_1_M028",
+    "transcript_ground_truth": "The worst one was in Cannes when your curling iron burned a hole in my new dressing gown."
+  }
+}

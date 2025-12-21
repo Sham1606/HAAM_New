@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses04M_script02_1_M008",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:10:46.869367",
+  "duration_seconds": 4.68,
+  "transcript": "I wonder, do they always run during a full moon? I can't remember if it was full last year. Remember? Yes.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.48,
+      "text": "I wonder, do they always run during a full moon?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.962,
+      "sentiment_score": 0.0116,
+      "pitch_mean": 324.58
+    },
+    {
+      "start_time": 2.48,
+      "end_time": 3.98,
+      "text": "I can't remember if it was full last year.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.494,
+      "sentiment_score": -0.129,
+      "pitch_mean": 323.91
+    },
+    {
+      "start_time": 3.98,
+      "end_time": 4.48,
+      "text": "Remember?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.573,
+      "sentiment_score": 0.1072,
+      "pitch_mean": 319.55
+    },
+    {
+      "start_time": 4.48,
+      "end_time": 4.98,
+      "text": "Yes.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.898,
+      "sentiment_score": 0.2704,
+      "pitch_mean": 323.89
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0651,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.75,
+      "disgust": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 269.23,
+    "avg_pitch": 323.89
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.5,
+    "arousal": 2.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script02_1",
+    "utterance_id": "Ses04M_script02_1_M008",
+    "transcript_ground_truth": "I wonder, do they always run during a full moon? I can't remember if it was full last year.  Remember?"
+  }
+}

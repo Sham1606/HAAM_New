@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses05F_script01_3_M036",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:20:30.369228",
+  "duration_seconds": 13.0,
+  "transcript": "I felt what you said, ashamed somehow. Because nobody had changed at all. It seemed to make suckers out of a whole lot of guys.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.68,
+      "text": "I felt what you said, ashamed somehow.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.592,
+      "sentiment_score": -0.832,
+      "pitch_mean": 312.97
+    },
+    {
+      "start_time": 5.68,
+      "end_time": 9.04,
+      "text": "Because nobody had changed at all.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.538,
+      "sentiment_score": -0.2752,
+      "pitch_mean": 311.52
+    },
+    {
+      "start_time": 9.04,
+      "end_time": 12.2,
+      "text": "It seemed to make suckers out of a whole lot of guys.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.928,
+      "sentiment_score": -0.8871,
+      "pitch_mean": 329.27
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6648,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 115.39,
+    "avg_pitch": 315.87
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_3",
+    "utterance_id": "Ses05F_script01_3_M036",
+    "transcript_ground_truth": "And I felt what you said- ashamed somehow-because nobody had changed at all.  It seemed to make suckers out of a whole lot of guys. and"
+  }
+}

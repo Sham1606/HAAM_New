@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses02M_impro08_M004",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:58:38.659546",
+  "duration_seconds": 2.93,
+  "transcript": "Pretend like you're on a rotary phone, go straight through to a person. Huh?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.56,
+      "text": "Pretend like you're on a rotary phone,",
+      "emotion": "anger",
+      "emotion_confidence": 0.403,
+      "sentiment_score": 0.0064,
+      "pitch_mean": 327.09
+    },
+    {
+      "start_time": 1.56,
+      "end_time": 2.72,
+      "text": "go straight through to a person.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.704,
+      "sentiment_score": -0.037,
+      "pitch_mean": 319.4
+    },
+    {
+      "start_time": 2.72,
+      "end_time": 3.56,
+      "text": "Huh?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.935,
+      "sentiment_score": -0.0404,
+      "pitch_mean": 326.87
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0237,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "anger": 0.333,
+      "neutral": 0.667
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 286.24,
+    "avg_pitch": 326.87
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.6667,
+    "arousal": 3.6667,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro08",
+    "utterance_id": "Ses02M_impro08_M004",
+    "transcript_ground_truth": "pretend like your on a rotary phone, goes straight through to a person."
+  }
+}

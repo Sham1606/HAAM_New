@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro05_M018",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:26:02.077511",
+  "duration_seconds": 3.13,
+  "transcript": "I once again I'm really I'm really sorry",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.48,
+      "text": "I once again I'm really I'm really sorry",
+      "emotion": "sadness",
+      "emotion_confidence": 0.944,
+      "sentiment_score": -0.8073,
+      "pitch_mean": 354.14
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8073,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 153.36,
+    "avg_pitch": 349.38
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro05",
+    "utterance_id": "Ses01F_impro05_M018",
+    "transcript_ground_truth": "Once again, I'm really- I'm really sorry."
+  }
+}

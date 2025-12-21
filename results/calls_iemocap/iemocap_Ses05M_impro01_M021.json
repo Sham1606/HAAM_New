@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro01_M021",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:34:19.103149",
+  "duration_seconds": 3.02,
+  "transcript": "I thought that the wrong form, because they made me feel that the wrong form.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.8,
+      "text": "I thought that the wrong form, because they made me feel that the wrong form.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.789,
+      "sentiment_score": -0.749,
+      "pitch_mean": 368.13
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.749,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 298.02,
+    "avg_pitch": 358.18
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro01",
+    "utterance_id": "Ses05M_impro01_M021",
+    "transcript_ground_truth": "I filled out the wrong form because they made me fill out the wrong form!"
+  }
+}

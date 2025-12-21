@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_script01_1b_M025",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:58:40.719863",
+  "duration_seconds": 6.4,
+  "transcript": "I'll find out and then we'll rush it out with that alright Mom, don't avoid me",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.64,
+      "text": "I'll find out and then we'll rush it out with that alright",
+      "emotion": "neutral",
+      "emotion_confidence": 0.947,
+      "sentiment_score": -0.1411,
+      "pitch_mean": 347.7
+    },
+    {
+      "start_time": 4.08,
+      "end_time": 6.08,
+      "text": "Mom, don't avoid me",
+      "emotion": "fear",
+      "emotion_confidence": 0.737,
+      "sentiment_score": -0.2983,
+      "pitch_mean": 328.16
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2197,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "fear": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 150.0,
+    "avg_pitch": 334.62
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_1b",
+    "utterance_id": "Ses05M_script01_1b_M025",
+    "transcript_ground_truth": "I'll find out and then we'll thrash it out with dad, all right?  Mom, don't avoid me."
+  }
+}

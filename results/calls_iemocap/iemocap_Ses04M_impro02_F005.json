@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro02_F005",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:48:12.262296",
+  "duration_seconds": 6.15,
+  "transcript": "Do you want to, do you want to leave us behind? I mean, I don't understand why you have to do this.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "Do you want to, do you want to leave us behind? I mean, I don't understand why you have to do this.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.438,
+      "sentiment_score": -0.8857,
+      "pitch_mean": 324.69
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8857,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 214.63,
+    "avg_pitch": 325.14
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro02",
+    "utterance_id": "Ses04M_impro02_F005",
+    "transcript_ground_truth": "Do you want to -- do you want to leave us behind?  I mean, I don't understand why you have to do this."
+  }
+}

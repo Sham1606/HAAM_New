@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02M_script02_2_F036",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:08:58.639545",
+  "duration_seconds": 3.88,
+  "transcript": "For heaven's sake, whatever I'm doing, I'd rather be doing it with you.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.84,
+      "text": "For heaven's sake, whatever I'm doing,",
+      "emotion": "disgust",
+      "emotion_confidence": 0.374,
+      "sentiment_score": -0.2586,
+      "pitch_mean": 341.5
+    },
+    {
+      "start_time": 1.84,
+      "end_time": 3.84,
+      "text": "I'd rather be doing it with you.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.343,
+      "sentiment_score": -0.0556,
+      "pitch_mean": 348.43
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1571,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "sadness": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 201.03,
+    "avg_pitch": 340.3
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script02_2",
+    "utterance_id": "Ses02M_script02_2_F036",
+    "transcript_ground_truth": "For heavens sake, whatever I'm doing I'd rather be doing it with you."
+  }
+}

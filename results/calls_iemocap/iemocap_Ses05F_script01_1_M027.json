@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses05F_script01_1_M027",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:15:34.820878",
+  "duration_seconds": 13.51,
+  "transcript": "Well, if she does, then that's the end of it, but from the letters it sounds like she's forgotten about him. We'll find out and then we'll thrash it out with that, alright? Mom, don't avoid me.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "Well, if she does, then that's the end of it, but from the letters it sounds like she's forgotten about him.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.823,
+      "sentiment_score": -0.321,
+      "pitch_mean": 318.25
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 11.0,
+      "text": "We'll find out and then we'll thrash it out with that, alright?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.893,
+      "sentiment_score": -0.0257,
+      "pitch_mean": 324.21
+    },
+    {
+      "start_time": 11.0,
+      "end_time": 13.0,
+      "text": "Mom, don't avoid me.",
+      "emotion": "fear",
+      "emotion_confidence": 0.775,
+      "sentiment_score": -0.2957,
+      "pitch_mean": 322.74
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2141,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "fear": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 164.32,
+    "avg_pitch": 319.58
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_1",
+    "utterance_id": "Ses05F_script01_1_M027",
+    "transcript_ground_truth": "Well, if she does, then that's the end of it, but from her letters it sounds like she's forgotten about it.  I'll find out and then we'll thrash it out with Dad, all right?  Mom, don't avoid me."
+  }
+}

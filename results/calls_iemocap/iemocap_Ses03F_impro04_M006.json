@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro04_M006",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:21:36.668796",
+  "duration_seconds": 2.78,
+  "transcript": "We're just pulling our funds together.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "We're just pulling our funds together.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.951,
+      "sentiment_score": 0.2108,
+      "pitch_mean": 328.74
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2108,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 129.57,
+    "avg_pitch": 330.39
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro04",
+    "utterance_id": "Ses03F_impro04_M006",
+    "transcript_ground_truth": "we're just pooling our funds together."
+  }
+}

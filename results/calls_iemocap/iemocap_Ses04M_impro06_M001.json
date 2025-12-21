@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses04M_impro06_M001",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:59:22.564930",
+  "duration_seconds": 11.59,
+  "transcript": "I know, I just... I don't know, it's just weird because... You have somebody who's... you know...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I know, I just...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.737,
+      "sentiment_score": -0.1135,
+      "pitch_mean": 326.02
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 7.0,
+      "text": "I don't know, it's just weird because...",
+      "emotion": "disgust",
+      "emotion_confidence": 0.859,
+      "sentiment_score": -0.6777,
+      "pitch_mean": 314.5
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 10.0,
+      "text": "You have somebody who's...",
+      "emotion": "disgust",
+      "emotion_confidence": 0.392,
+      "sentiment_score": 0.2179,
+      "pitch_mean": 329.55
+    },
+    {
+      "start_time": 10.0,
+      "end_time": 11.0,
+      "text": "you know...",
+      "emotion": "sadness",
+      "emotion_confidence": 0.616,
+      "sentiment_score": 0.0616,
+      "pitch_mean": 328.48
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1279,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "neutral": 0.25,
+      "disgust": 0.5,
+      "sadness": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 88.01,
+    "avg_pitch": 323.32
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro06",
+    "utterance_id": "Ses04M_impro06_M001",
+    "transcript_ground_truth": "I know.  I just -- I don't know.  It's just weird because you have somebody who's, you know,"
+  }
+}

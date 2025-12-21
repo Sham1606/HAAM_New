@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro06_F012",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T04:01:10.971143",
+  "duration_seconds": 2.31,
+  "transcript": "I know.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I know.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.544,
+      "sentiment_score": 0.1268,
+      "pitch_mean": 316.13
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1268,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 51.9,
+    "avg_pitch": 316.06
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro06",
+    "utterance_id": "Ses03M_impro06_F012",
+    "transcript_ground_truth": "I know."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro04_M020",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:56:03.170143",
+  "duration_seconds": 3.69,
+  "transcript": "No, I'm not gonna, yeah, they laughing my face.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "No, I'm not gonna, yeah, they laughing my face.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.388,
+      "sentiment_score": -0.5796,
+      "pitch_mean": 331.79
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5796,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 146.34,
+    "avg_pitch": 333.09
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro04",
+    "utterance_id": "Ses03M_impro04_M020",
+    "transcript_ground_truth": "No.  I'm not going to...yeah, they'd laugh in my face."
+  }
+}

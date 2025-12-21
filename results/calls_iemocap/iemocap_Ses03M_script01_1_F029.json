@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_script01_1_F029",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:38:03.121114",
+  "duration_seconds": 5.07,
+  "transcript": "And what if she doesn't marry you, huh? What if she feels the same way your father does?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "And what if she doesn't marry you, huh?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.463,
+      "sentiment_score": -0.5364,
+      "pitch_mean": 327.09
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "What if she feels the same way your father does?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.362,
+      "sentiment_score": -0.2067,
+      "pitch_mean": 340.33
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3715,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 212.94,
+    "avg_pitch": 328.75
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_1",
+    "utterance_id": "Ses03M_script01_1_F029",
+    "transcript_ground_truth": "And what if she doesn't marry you huh?  What if she feels the same way your father does?"
+  }
+}

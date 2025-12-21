@@ -1,0 +1,89 @@
+{
+  "call_id": "iemocap_Ses05M_impro03_M004",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:38:00.942902",
+  "duration_seconds": 7.07,
+  "transcript": "What did you do? Well, she said yes. First of all, let me say that. I don't know if you're bad. Okay. Well, I would like to assume too, but you never know these things, right?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "What did you do?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.621,
+      "sentiment_score": 0.0615,
+      "pitch_mean": 306.2
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 2.0,
+      "text": "Well, she said yes.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.767,
+      "sentiment_score": 0.5891,
+      "pitch_mean": 322.57
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "First of all, let me say that.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.761,
+      "sentiment_score": -0.1938,
+      "pitch_mean": 354.08
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 4.0,
+      "text": "I don't know if you're bad.",
+      "emotion": "joy",
+      "emotion_confidence": 0.457,
+      "sentiment_score": -0.6798,
+      "pitch_mean": 344.88
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 5.0,
+      "text": "Okay.",
+      "emotion": "joy",
+      "emotion_confidence": 0.364,
+      "sentiment_score": 0.2809,
+      "pitch_mean": 340.16
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 6.8,
+      "text": "Well, I would like to assume too, but you never know these things, right?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.837,
+      "sentiment_score": -0.3018,
+      "pitch_mean": 326.34
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0407,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "joy": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 305.52,
+    "avg_pitch": 329.49
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 3.6667,
+    "dominance": 3.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro03",
+    "utterance_id": "Ses05M_impro03_M004",
+    "transcript_ground_truth": "She--,well, she said yes, first of all, let me say that right off the bat. Well, I would like to assume, too.  But you never know these things, right?"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro07_M002",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:30:26.838835",
+  "duration_seconds": 4.58,
+  "transcript": "Guess you got into USC",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Guess you got into USC",
+      "emotion": "neutral",
+      "emotion_confidence": 0.761,
+      "sentiment_score": 0.0152,
+      "pitch_mean": 329.2
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0152,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 65.5,
+    "avg_pitch": 323.41
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 5.0,
+    "arousal": 5.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro07",
+    "utterance_id": "Ses03M_impro07_M002",
+    "transcript_ground_truth": "Guess who got into U.S.C.?"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses03M_script02_2_F032",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:49:00.256209",
+  "duration_seconds": 9.02,
+  "transcript": "This, this what? What's this? This isn't anything. Yes it is. Alright, sure. Standing on the beach, fighting and waiting.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.4,
+      "text": "This, this what? What's this? This isn't anything.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.58,
+      "sentiment_score": -0.8561,
+      "pitch_mean": 337.2
+    },
+    {
+      "start_time": 3.4,
+      "end_time": 4.4,
+      "text": "Yes it is.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.92,
+      "sentiment_score": 0.2564,
+      "pitch_mean": 324.59
+    },
+    {
+      "start_time": 4.4,
+      "end_time": 8.8,
+      "text": "Alright, sure. Standing on the beach, fighting and waiting.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.358,
+      "sentiment_score": 0.1789,
+      "pitch_mean": 342.88
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1403,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "disgust": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 133.02,
+    "avg_pitch": 337.13
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.6667,
+    "arousal": 3.3333,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_2",
+    "utterance_id": "Ses03M_script02_2_F032",
+    "transcript_ground_truth": "This what...what's this?  This isn't anything. Alright.  Sure.  Standing on the beach, fighting and waiting."
+  }
+}

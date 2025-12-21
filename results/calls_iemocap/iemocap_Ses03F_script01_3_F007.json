@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03F_script01_3_F007",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:33:58.464745",
+  "duration_seconds": 4.31,
+  "transcript": "You've been acting kind of... But you know.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "You've been acting kind of...",
+      "emotion": "disgust",
+      "emotion_confidence": 0.435,
+      "sentiment_score": -0.0804,
+      "pitch_mean": 316.24
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "But you know.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.647,
+      "sentiment_score": 0.0435,
+      "pitch_mean": 315.21
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0184,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "sadness": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 111.39,
+    "avg_pitch": 316.07
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_3",
+    "utterance_id": "Ses03F_script01_3_F007",
+    "transcript_ground_truth": "you've been acting kind of, well, you know."
+  }
+}

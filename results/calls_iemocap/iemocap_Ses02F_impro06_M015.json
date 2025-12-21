@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02F_impro06_M015",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:27:16.722562",
+  "duration_seconds": 8.1,
+  "transcript": "But it's okay because now you know Just go on with your life and",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.76,
+      "text": "But it's okay because now you know",
+      "emotion": "disgust",
+      "emotion_confidence": 0.46,
+      "sentiment_score": 0.7367,
+      "pitch_mean": 321.22
+    },
+    {
+      "start_time": 4.56,
+      "end_time": 7.48,
+      "text": "Just go on with your life and",
+      "emotion": "sadness",
+      "emotion_confidence": 0.641,
+      "sentiment_score": -0.0558,
+      "pitch_mean": 317.59
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3404,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "sadness": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 103.7,
+    "avg_pitch": 319.03
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.6667,
+    "arousal": 2.0,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro06",
+    "utterance_id": "Ses02F_impro06_M015",
+    "transcript_ground_truth": "But It's okay because now, you know, you'll just go on with your life and--"
+  }
+}

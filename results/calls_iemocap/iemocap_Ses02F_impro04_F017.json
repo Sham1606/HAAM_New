@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro04_F017",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:23:58.434179",
+  "duration_seconds": 10.42,
+  "transcript": "I don't know how to get out of it. I don't know how to dig myself out of it. It's the same hole that I'm in digging and digging and digging and can't...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 8.0,
+      "text": "I don't know how to get out of it. I don't know how to dig myself out of it. It's the same hole that I'm in digging and digging and digging and can't...",
+      "emotion": "disgust",
+      "emotion_confidence": 0.363,
+      "sentiment_score": -0.8527,
+      "pitch_mean": 351.27
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8527,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 190.02,
+    "avg_pitch": 338.2
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro04",
+    "utterance_id": "Ses02F_impro04_F017",
+    "transcript_ground_truth": "I don't know how to get out of it.  I don't know how to dig myself out of it.  It's the same hole that I've been digging and digging and digging.  I can't--"
+  }
+}

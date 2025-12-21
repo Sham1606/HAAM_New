@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01M_impro02_F017",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:50:04.041081",
+  "duration_seconds": 4.94,
+  "transcript": "Mm-hmm. We'll build a bunker. Never come out.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "Mm-hmm.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.746,
+      "sentiment_score": 0.0619,
+      "pitch_mean": 314.38
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "We'll build a bunker. Never come out.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.801,
+      "sentiment_score": -0.2416,
+      "pitch_mean": 312.18
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0899,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 97.17,
+    "avg_pitch": 311.29
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro02",
+    "utterance_id": "Ses01M_impro02_F017",
+    "transcript_ground_truth": "Mm hmm.  We'll build a bunker and never come out."
+  }
+}

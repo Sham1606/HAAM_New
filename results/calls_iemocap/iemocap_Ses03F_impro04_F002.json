@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro04_F002",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:20:42.097516",
+  "duration_seconds": 7.17,
+  "transcript": "I just... I see all these other people getting commercials and work and it's like, I'm not getting anything.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "I just... I see all these other people getting commercials and work and it's like, I'm not getting anything.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.49,
+      "sentiment_score": -0.7941,
+      "pitch_mean": 326.28
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7941,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 158.92,
+    "avg_pitch": 327.18
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro04",
+    "utterance_id": "Ses03F_impro04_F002",
+    "transcript_ground_truth": "I just, I see all these other people getting commercials and work and it's like I'm not getting anything."
+  }
+}

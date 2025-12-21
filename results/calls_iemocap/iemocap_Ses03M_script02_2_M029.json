@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses03M_script02_2_M029",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:50:44.219358",
+  "duration_seconds": 9.96,
+  "transcript": "Do you think that this is what I had in mind? That four years down the line that we'd get married and come to the beach and argue with each other over fish? No!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.48,
+      "text": "Do you think that this is what I had in mind?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.44,
+      "sentiment_score": -0.0479,
+      "pitch_mean": 323.34
+    },
+    {
+      "start_time": 3.48,
+      "end_time": 7.52,
+      "text": "That four years down the line that we'd get married and come to the beach and argue with",
+      "emotion": "neutral",
+      "emotion_confidence": 0.767,
+      "sentiment_score": -0.0949,
+      "pitch_mean": 333.85
+    },
+    {
+      "start_time": 7.52,
+      "end_time": 9.2,
+      "text": "each other over fish?",
+      "emotion": "anger",
+      "emotion_confidence": 0.457,
+      "sentiment_score": -0.1099,
+      "pitch_mean": 342.5
+    },
+    {
+      "start_time": 9.2,
+      "end_time": 9.52,
+      "text": "No!",
+      "emotion": "anger",
+      "emotion_confidence": 0.569,
+      "sentiment_score": 0.3251,
+      "pitch_mean": 358.26
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0181,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "disgust": 0.25,
+      "neutral": 0.25,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 204.91,
+    "avg_pitch": 330.88
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_2",
+    "utterance_id": "Ses03M_script02_2_M029",
+    "transcript_ground_truth": "Do you think that this is what I had in mind?  That four years down the line that we'd get married and come to the beach and argue with each other over fish?  No."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_script01_1_M036",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:40:16.764706",
+  "duration_seconds": 11.0,
+  "transcript": "I've given it three years of thought. And I thought if I waited, then Dad would forget about Larry, and then we could have a regular wedding and everything happy.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I've given it three years of thought.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.961,
+      "sentiment_score": 0.0894,
+      "pitch_mean": 309.9
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 11.0,
+      "text": "And I thought if I waited, then Dad would forget about Larry, and then we could have a regular wedding and everything happy.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.702,
+      "sentiment_score": 0.5024,
+      "pitch_mean": 320.3
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2959,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 163.58,
+    "avg_pitch": 315.97
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_1",
+    "utterance_id": "Ses03M_script01_1_M036",
+    "transcript_ground_truth": "I've given it three years of thought and I thought that if I waited then dad would forget about Larry and then we could have a regular wedding and everything happy."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01F_script02_1_M039",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:39:35.596427",
+  "duration_seconds": 6.67,
+  "transcript": "They're swimming right now. They're swimming is if that's the only thing that matters to them.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "They're swimming right now.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.947,
+      "sentiment_score": 0.2978,
+      "pitch_mean": 331.64
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 6.0,
+      "text": "They're swimming is if that's the only thing that matters to them.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.939,
+      "sentiment_score": -0.0367,
+      "pitch_mean": 330.64
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1306,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 143.96,
+    "avg_pitch": 331.83
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_1",
+    "utterance_id": "Ses01F_script02_1_M039",
+    "transcript_ground_truth": "They are swimming right now.  They are swimming as if that is the only thing that matters to them."
+  }
+}

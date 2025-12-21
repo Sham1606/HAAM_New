@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script02_1_M015",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:37:41.750352",
+  "duration_seconds": 9.97,
+  "transcript": "I'm so stupid. I'm like a little kid. It's amazing. I get out of the house. My fly's it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "I'm so stupid. I'm like a little kid. It's amazing. I get out of the house. My fly's it.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.417,
+      "sentiment_score": -0.1506,
+      "pitch_mean": 345.69
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1506,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 114.34,
+    "avg_pitch": 337.96
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 4.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_1",
+    "utterance_id": "Ses03F_script02_1_M015",
+    "transcript_ground_truth": "I'm so stupid. I'm like a little kid. I-it's amazing I get out of the house with my fly zipped. Oh- [LAUGHTER]."
+  }
+}

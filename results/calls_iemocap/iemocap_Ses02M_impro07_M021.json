@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses02M_impro07_M021",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:57:11.945941",
+  "duration_seconds": 5.18,
+  "transcript": "Right, I know, like you all heard, I mean, just a national champion, it's last year. Wow, you know?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.64,
+      "text": "Right, I know, like you all heard, I mean,",
+      "emotion": "anger",
+      "emotion_confidence": 0.554,
+      "sentiment_score": 0.2149,
+      "pitch_mean": 347.49
+    },
+    {
+      "start_time": 2.64,
+      "end_time": 4.48,
+      "text": "just a national champion, it's last year.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.74,
+      "sentiment_score": 0.203,
+      "pitch_mean": 333.73
+    },
+    {
+      "start_time": 4.48,
+      "end_time": 5.24,
+      "text": "Wow, you know?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.977,
+      "sentiment_score": 0.6723,
+      "pitch_mean": 341.93
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3634,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "anger": 0.333,
+      "neutral": 0.667
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 220.08,
+    "avg_pitch": 341.93
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro07",
+    "utterance_id": "Ses02M_impro07_M021",
+    "transcript_ground_truth": "Right I know, like you, it won't hurt, I mean national champions last year, wow, you know"
+  }
+}

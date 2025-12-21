@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script03_1_M002",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:11:45.063072",
+  "duration_seconds": 1.92,
+  "transcript": "Must be them then.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Must be them then.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.912,
+      "sentiment_score": -0.1521,
+      "pitch_mean": 321.98
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1521,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 124.85,
+    "avg_pitch": 321.98
+  },
+  "ground_truth": {
+    "emotion": "fear",
+    "raw_emotion": "fea",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script03_1",
+    "utterance_id": "Ses02M_script03_1_M002",
+    "transcript_ground_truth": "Must be them then."
+  }
+}

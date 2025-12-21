@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_script01_1b_M000",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:57:31.385223",
+  "duration_seconds": 2.14,
+  "transcript": "Hello! It's late.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.64,
+      "text": "Hello!",
+      "emotion": "disgust",
+      "emotion_confidence": 0.395,
+      "sentiment_score": 0.8024,
+      "pitch_mean": 323.94
+    },
+    {
+      "start_time": 1.64,
+      "end_time": 1.8,
+      "text": "It's late.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.555,
+      "sentiment_score": -0.3889,
+      "pitch_mean": 317.11
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2067,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "sadness": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 84.11,
+    "avg_pitch": 325.58
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_1b",
+    "utterance_id": "Ses05M_script01_1b_M000",
+    "transcript_ground_truth": "He saw it."
+  }
+}

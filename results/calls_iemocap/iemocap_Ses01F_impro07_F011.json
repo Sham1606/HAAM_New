@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro07_F011",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:29:55.258402",
+  "duration_seconds": 5.25,
+  "transcript": "Yeah, yeah, I'm a TA for two sections.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Yeah, yeah, I'm a TA for two sections.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.87,
+      "sentiment_score": 0.3925,
+      "pitch_mean": 346.95
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3925,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 91.34,
+    "avg_pitch": 338.02
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro07",
+    "utterance_id": "Ses01F_impro07_F011",
+    "transcript_ground_truth": "Um, yeah, yeah.  I'm a TA for two sessions. Mmhmm."
+  }
+}

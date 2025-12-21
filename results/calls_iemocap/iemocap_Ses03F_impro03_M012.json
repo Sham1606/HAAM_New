@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro03_M012",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:20:16.751799",
+  "duration_seconds": 5.17,
+  "transcript": "What is it? What did you say? You said yes, right?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.8,
+      "text": "What is it? What did you say? You said yes, right?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.693,
+      "sentiment_score": 0.0747,
+      "pitch_mean": 351.72
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0747,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 127.58,
+    "avg_pitch": 355.9
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro03",
+    "utterance_id": "Ses03F_impro03_M012",
+    "transcript_ground_truth": "Wha- What'd you say? You said yes, right? [LAUGHTER]"
+  }
+}

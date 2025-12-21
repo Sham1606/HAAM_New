@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro01_M023",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T11:59:19.119140",
+  "duration_seconds": 2.52,
+  "transcript": "You are testing my goddamn patience.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.5,
+      "text": "You are testing my goddamn patience.",
+      "emotion": "anger",
+      "emotion_confidence": 0.885,
+      "sentiment_score": -0.8893,
+      "pitch_mean": 355.53
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8893,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 142.86,
+    "avg_pitch": 355.18
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro01",
+    "utterance_id": "Ses04F_impro01_M023",
+    "transcript_ground_truth": "You're testing my goddamn patience."
+  }
+}

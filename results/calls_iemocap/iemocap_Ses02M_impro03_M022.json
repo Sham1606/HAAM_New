@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses02M_impro03_M022",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:50:50.631336",
+  "duration_seconds": 7.89,
+  "transcript": "well, we're thinking, we're thinking winter time. We're going to do it in the winter and then maybe, maybe.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.56,
+      "text": "well, we're thinking, we're thinking winter time.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.933,
+      "sentiment_score": 0.1392,
+      "pitch_mean": 331.31
+    },
+    {
+      "start_time": 4.56,
+      "end_time": 7.44,
+      "text": "We're going to do it in the winter and then maybe,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.934,
+      "sentiment_score": 0.1747,
+      "pitch_mean": 326.22
+    },
+    {
+      "start_time": 7.44,
+      "end_time": 7.94,
+      "text": "maybe.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.935,
+      "sentiment_score": 0.0512,
+      "pitch_mean": 328.21
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1217,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 144.55,
+    "avg_pitch": 328.21
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro03",
+    "utterance_id": "Ses02M_impro03_M022",
+    "transcript_ground_truth": "Well, we're thinking uh - we're thinking winter time, you know, we're going to do it in the winter and then maybe, you know, maybe"
+  }
+}

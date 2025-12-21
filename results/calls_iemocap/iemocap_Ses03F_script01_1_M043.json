@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script01_1_M043",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:32:11.604142",
+  "duration_seconds": 4.43,
+  "transcript": "I've been a sucker too long. I'm through with it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I've been a sucker too long. I'm through with it.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.388,
+      "sentiment_score": -0.8999,
+      "pitch_mean": 333.71
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8999,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 135.32,
+    "avg_pitch": 332.02
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.3333,
+    "arousal": 2.6667,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_1",
+    "utterance_id": "Ses03F_script01_1_M043",
+    "transcript_ground_truth": "I've been a sucker too long. I'm through with it."
+  }
+}

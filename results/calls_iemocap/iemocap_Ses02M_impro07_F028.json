@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses02M_impro07_F028",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:56:31.908592",
+  "duration_seconds": 4.8,
+  "transcript": "and to explore and you're gonna have such a good time. You're gonna fit in so well. It's gonna be awesome.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.76,
+      "text": "and to explore and you're gonna have such a good time.",
+      "emotion": "joy",
+      "emotion_confidence": 0.921,
+      "sentiment_score": 0.979,
+      "pitch_mean": 353.08
+    },
+    {
+      "start_time": 2.76,
+      "end_time": 4.08,
+      "text": "You're gonna fit in so well.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.521,
+      "sentiment_score": 0.9637,
+      "pitch_mean": 364.47
+    },
+    {
+      "start_time": 4.08,
+      "end_time": 4.92,
+      "text": "It's gonna be awesome.",
+      "emotion": "joy",
+      "emotion_confidence": 0.952,
+      "sentiment_score": 0.9805,
+      "pitch_mean": 357.09
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9744,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 0.667,
+      "disgust": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 262.39,
+    "avg_pitch": 357.09
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro07",
+    "utterance_id": "Ses02M_impro07_F028",
+    "transcript_ground_truth": "and we'll explore and you going to have such a good time, you're going to fit in so well, it's going to be awesome"
+  }
+}

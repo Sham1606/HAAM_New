@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses05M_script02_1_M017",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:05:49.627703",
+  "duration_seconds": 9.45,
+  "transcript": "Honey, it's a natural phenomenon. I mean, this kind of thing only happens once a year. It's a great opportunity.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Honey, it's a natural phenomenon.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.843,
+      "sentiment_score": 0.1818,
+      "pitch_mean": 319.07
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 7.0,
+      "text": "I mean, this kind of thing only happens once a year.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.872,
+      "sentiment_score": -0.348,
+      "pitch_mean": 313.13
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 9.0,
+      "text": "It's a great opportunity.",
+      "emotion": "joy",
+      "emotion_confidence": 0.95,
+      "sentiment_score": 0.9767,
+      "pitch_mean": 318.73
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2701,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "joy": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 127.01,
+    "avg_pitch": 315.0
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script02_1",
+    "utterance_id": "Ses05M_script02_1_M017",
+    "transcript_ground_truth": "Honey, it's a natural phenomenon.  I mean, this kind of thing only happens once a year.  It's a great opportunity."
+  }
+}

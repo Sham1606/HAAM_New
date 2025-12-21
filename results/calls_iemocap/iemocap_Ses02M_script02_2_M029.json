@@ -1,0 +1,81 @@
+{
+  "call_id": "iemocap_Ses02M_script02_2_M029",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:10:15.815442",
+  "duration_seconds": 12.94,
+  "transcript": "Well, welcome to the human race. All right. Do you think this is what I had in mind when I proposed? You think I had this great fantasy going that four years down the road, we'd come to the beach and yell at each other over fish?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.3,
+      "text": "Well, welcome to the human race.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.75,
+      "sentiment_score": 0.2667,
+      "pitch_mean": 341.01
+    },
+    {
+      "start_time": 2.3,
+      "end_time": 3.3,
+      "text": "All right.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.679,
+      "sentiment_score": 0.3743,
+      "pitch_mean": 338.83
+    },
+    {
+      "start_time": 3.3,
+      "end_time": 5.3,
+      "text": "Do you think this is what I had in mind when I proposed?",
+      "emotion": "joy",
+      "emotion_confidence": 0.382,
+      "sentiment_score": -0.0285,
+      "pitch_mean": 347.65
+    },
+    {
+      "start_time": 5.3,
+      "end_time": 10.34,
+      "text": "You think I had this great fantasy going that four years down the road, we'd come to the",
+      "emotion": "neutral",
+      "emotion_confidence": 0.788,
+      "sentiment_score": 0.5342,
+      "pitch_mean": 332.5
+    },
+    {
+      "start_time": 10.34,
+      "end_time": 12.18,
+      "text": "beach and yell at each other over fish?",
+      "emotion": "anger",
+      "emotion_confidence": 0.513,
+      "sentiment_score": -0.4781,
+      "pitch_mean": 330.61
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1337,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.6,
+      "joy": 0.2,
+      "anger": 0.2
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 217.93,
+    "avg_pitch": 335.49
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.0,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script02_2",
+    "utterance_id": "Ses02M_script02_2_M029",
+    "transcript_ground_truth": "Well welcome to the human race, all right. Do you think this is what I had in mind when I proposed? You think I had this great fantasy going that four years down the road we'd come to the beach and yell at each other over fish?"
+  }
+}

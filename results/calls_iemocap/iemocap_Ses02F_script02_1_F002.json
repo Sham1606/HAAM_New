@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script02_1_F002",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:37:17.127330",
+  "duration_seconds": 1.75,
+  "transcript": "That's not your flashlight.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "That's not your flashlight.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.896,
+      "sentiment_score": -0.6067,
+      "pitch_mean": 326.84
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6067,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 137.14,
+    "avg_pitch": 326.84
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script02_1",
+    "utterance_id": "Ses02F_script02_1_F002",
+    "transcript_ground_truth": "That's not your flashlight."
+  }
+}

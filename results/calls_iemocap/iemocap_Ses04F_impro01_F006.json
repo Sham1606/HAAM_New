@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04F_impro01_F006",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T11:57:39.978689",
+  "duration_seconds": 5.73,
+  "transcript": "I have a life, I have things to do, I have places to go, can you not just put this on? Please!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.32,
+      "text": "I have a life, I have things to do, I have places to go, can you not just put this on?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.764,
+      "sentiment_score": -0.2265,
+      "pitch_mean": 363.58
+    },
+    {
+      "start_time": 4.32,
+      "end_time": 5.32,
+      "text": "Please!",
+      "emotion": "joy",
+      "emotion_confidence": 0.535,
+      "sentiment_score": 0.6291,
+      "pitch_mean": 360.46
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2013,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "joy": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 230.37,
+    "avg_pitch": 365.83
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro01",
+    "utterance_id": "Ses04F_impro01_F006",
+    "transcript_ground_truth": "I have a life.  I have things to do.  I have places to go.  Can you not just put this through please?"
+  }
+}

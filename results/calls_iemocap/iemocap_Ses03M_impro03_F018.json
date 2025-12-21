@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_impro03_F018",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:52:13.179518",
+  "duration_seconds": 4.1,
+  "transcript": "Yeah, it's a rat it's a rat tricky cheese",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Yeah, it's a rat it's a rat",
+      "emotion": "disgust",
+      "emotion_confidence": 0.66,
+      "sentiment_score": -0.4418,
+      "pitch_mean": 338.73
+    },
+    {
+      "start_time": 2.2,
+      "end_time": 4.2,
+      "text": "tricky cheese",
+      "emotion": "neutral",
+      "emotion_confidence": 0.861,
+      "sentiment_score": -0.5962,
+      "pitch_mean": 330.53
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.519,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 131.67,
+    "avg_pitch": 330.53
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro03",
+    "utterance_id": "Ses03M_impro03_F018",
+    "transcript_ground_truth": "Isn't it a rat?  It's a rat.  Chuck E. Cheese?"
+  }
+}

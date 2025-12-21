@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script02_1_M038",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:39:03.245663",
+  "duration_seconds": 7.11,
+  "transcript": "They don't know why. We don't know why. Nobody sent them an invitation or a map. It wasn't a decision just",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "They don't know why. We don't know why. Nobody sent them an invitation or a map. It wasn't a decision just",
+      "emotion": "disgust",
+      "emotion_confidence": 0.522,
+      "sentiment_score": -0.8024,
+      "pitch_mean": 332.19
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8024,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 177.22,
+    "avg_pitch": 331.85
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script02_1",
+    "utterance_id": "Ses02F_script02_1_M038",
+    "transcript_ground_truth": "They don't know why, we don't know why.  Nobody sent them an invitation or a map, it wasn't a decision, just-"
+  }
+}

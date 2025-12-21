@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script01_3_M017",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:35:27.649772",
+  "duration_seconds": 2.57,
+  "transcript": "Why didn't you?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Why didn't you?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.661,
+      "sentiment_score": -0.2068,
+      "pitch_mean": 329.36
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2068,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 70.04,
+    "avg_pitch": 330.39
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "sur",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_3",
+    "utterance_id": "Ses03F_script01_3_M017",
+    "transcript_ground_truth": "Why didn't you?"
+  }
+}

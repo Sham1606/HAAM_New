@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05F_impro05_F022",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:01:19.743856",
+  "duration_seconds": 5.72,
+  "transcript": "Right, but part of the agreement is that I'm paying so that I can take myself and my belongings with me. Yes.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Right, but part of the agreement is that I'm paying so that I can take myself and my belongings with me.",
+      "emotion": "joy",
+      "emotion_confidence": 0.458,
+      "sentiment_score": 0.1037,
+      "pitch_mean": 364.21
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 6.0,
+      "text": "Yes.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.898,
+      "sentiment_score": 0.2704,
+      "pitch_mean": 362.21
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1871,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 230.9,
+    "avg_pitch": 362.21
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro05",
+    "utterance_id": "Ses05F_impro05_F022",
+    "transcript_ground_truth": "Right, but part of the agreement is that I'm paying so that I can take myself and my belongings with me."
+  }
+}

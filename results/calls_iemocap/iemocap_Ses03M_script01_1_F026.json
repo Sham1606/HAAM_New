@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses03M_script01_1_F026",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:37:56.155668",
+  "duration_seconds": 11.24,
+  "transcript": "And if you go on from there, if you know I were to go on from there, then you can. But I'm telling you something that I don't know where to go. You got it up. I mean, do you?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "And if you go on from there, if you know I were to go on from there, then you can.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.952,
+      "sentiment_score": 0.3163,
+      "pitch_mean": 347.69
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 8.0,
+      "text": "But I'm telling you something that I don't know where to go.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.403,
+      "sentiment_score": -0.4703,
+      "pitch_mean": 353.72
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 10.0,
+      "text": "You got it up.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.751,
+      "sentiment_score": 0.3773,
+      "pitch_mean": 319.02
+    },
+    {
+      "start_time": 10.0,
+      "end_time": 11.0,
+      "text": "I mean, do you?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.322,
+      "sentiment_score": -0.0059,
+      "pitch_mean": 360.22
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0544,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.75,
+      "disgust": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 213.61,
+    "avg_pitch": 341.8
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_1",
+    "utterance_id": "Ses03M_script01_1_F026",
+    "transcript_ground_truth": "And-And-And if you go on from there if you know already to go on from there, then you can.  But I'm telling you something that I don't know where to go.  You got it?  I mean, do you?"
+  }
+}

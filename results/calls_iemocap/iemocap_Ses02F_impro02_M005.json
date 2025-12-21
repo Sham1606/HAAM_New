@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro02_M005",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:20:57.294032",
+  "duration_seconds": 8.79,
+  "transcript": "What if maybe what if we went somewhere over there? I don't know I I need to figure something out for this because",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 8.1,
+      "text": "What if maybe what if we went somewhere over there? I don't know I I need to figure something out for this because",
+      "emotion": "disgust",
+      "emotion_confidence": 0.324,
+      "sentiment_score": -0.1295,
+      "pitch_mean": 320.86
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1295,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 157.08,
+    "avg_pitch": 321.45
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro02",
+    "utterance_id": "Ses02F_impro02_M005",
+    "transcript_ground_truth": "What if--maybe--what if, uh, we went somewhere over there?  I don't--I don't know--I--I need to figure something out for this because--"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro07_F000",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:12:34.196603",
+  "duration_seconds": 2.13,
+  "transcript": "Guess what came today?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Guess what came today?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.689,
+      "sentiment_score": 0.1123,
+      "pitch_mean": 337.29
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1123,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 112.68,
+    "avg_pitch": 334.36
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro07",
+    "utterance_id": "Ses04F_impro07_F000",
+    "transcript_ground_truth": "Guess what came today?"
+  }
+}

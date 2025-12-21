@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro04_M005",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:41:23.242275",
+  "duration_seconds": 4.71,
+  "transcript": "But I mean, I don't want to keep those jobs, I don't want those jobs, you know, that's something I want to do.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.4,
+      "text": "But I mean, I don't want to keep those jobs, I don't want those jobs, you know, that's something I want to do.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.417,
+      "sentiment_score": -0.6824,
+      "pitch_mean": 320.2
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6824,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 293.0,
+    "avg_pitch": 317.58
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro04",
+    "utterance_id": "Ses05M_impro04_M005",
+    "transcript_ground_truth": "But, I mean, I don't want to keep those jobs.  I don't want those jobs.It's not what I want to do."
+  }
+}

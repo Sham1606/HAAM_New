@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro08_F026",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:58:22.701179",
+  "duration_seconds": 1.24,
+  "transcript": "Okay, great.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "Okay, great.",
+      "emotion": "joy",
+      "emotion_confidence": 0.839,
+      "sentiment_score": 0.919,
+      "pitch_mean": 350.49
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.919,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 96.71,
+    "avg_pitch": 341.27
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.3333,
+    "arousal": 2.6667,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro08",
+    "utterance_id": "Ses02M_impro08_F026",
+    "transcript_ground_truth": "Okay, great."
+  }
+}

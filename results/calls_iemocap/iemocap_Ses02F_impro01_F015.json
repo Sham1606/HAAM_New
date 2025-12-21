@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro01_F015",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:19:18.362202",
+  "duration_seconds": 7.92,
+  "transcript": "I'm here. I have kids. I have to take them places on the weekends. I don't have time to come back here. Please I really need you to help me",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.7,
+      "text": "I'm here. I have kids. I have to take them places on the weekends. I don't have time to come back here. Please I really need you to help me",
+      "emotion": "sadness",
+      "emotion_confidence": 0.851,
+      "sentiment_score": -0.7252,
+      "pitch_mean": 356.02
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7252,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 227.34,
+    "avg_pitch": 356.63
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro01",
+    "utterance_id": "Ses02F_impro01_F015",
+    "transcript_ground_truth": "Um, I have kids.  I have to take them places on the weekends.  I don't have time to come back here.  Please.  I really need you to help me."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script01_3_M026",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:36:48.288434",
+  "duration_seconds": 5.19,
+  "transcript": "Take some time for a guy to toss that off because they weren't just men",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.56,
+      "text": "Take some time for a guy to toss that off because they weren't just men",
+      "emotion": "neutral",
+      "emotion_confidence": 0.941,
+      "sentiment_score": -0.3831,
+      "pitch_mean": 327.17
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3831,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 173.41,
+    "avg_pitch": 325.38
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_3",
+    "utterance_id": "Ses02F_script01_3_M026",
+    "transcript_ground_truth": "It takes some time for a guy to toss that off.  'Cause they weren't just men."
+  }
+}

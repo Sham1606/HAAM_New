@@ -1,0 +1,81 @@
+{
+  "call_id": "iemocap_Ses02F_script02_1_M006",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:38:03.792526",
+  "duration_seconds": 8.22,
+  "transcript": "How you doing? You know what I forgot? I forgot to bring my flashlight now. How could I be so stupid? I should have brought my flashlight.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "How you doing?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.83,
+      "sentiment_score": 0.1942,
+      "pitch_mean": 327.2
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 3.0,
+      "text": "You know what I forgot?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.559,
+      "sentiment_score": -0.2637,
+      "pitch_mean": 331.52
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 5.92,
+      "text": "I forgot to bring my flashlight now.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.492,
+      "sentiment_score": -0.7224,
+      "pitch_mean": 328.44
+    },
+    {
+      "start_time": 5.92,
+      "end_time": 6.92,
+      "text": "How could I be so stupid?",
+      "emotion": "anger",
+      "emotion_confidence": 0.714,
+      "sentiment_score": -0.9077,
+      "pitch_mean": 330.67
+    },
+    {
+      "start_time": 6.92,
+      "end_time": 7.92,
+      "text": "I should have brought my flashlight.",
+      "emotion": "anger",
+      "emotion_confidence": 0.388,
+      "sentiment_score": -0.3507,
+      "pitch_mean": 335.78
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.41,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "neutral": 0.2,
+      "disgust": 0.4,
+      "anger": 0.4
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 197.08,
+    "avg_pitch": 329.92
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script02_1",
+    "utterance_id": "Ses02F_script02_1_M006",
+    "transcript_ground_truth": "How you doing?  Aw, you know what I forgot?  I forgot to bring my flashlight.  Oh, how could I be so stupid?  I should've brought my flashlight."
+  }
+}

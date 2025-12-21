@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02F_impro05_F012",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:25:10.106394",
+  "duration_seconds": 9.96,
+  "transcript": "I said that I paid the airline to take care of things for when you pay for something There should be some sort of guarantee that it's gonna come through",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.3,
+      "text": "I said that I paid the airline to take care of things for when you pay for something",
+      "emotion": "neutral",
+      "emotion_confidence": 0.881,
+      "sentiment_score": -0.0989,
+      "pitch_mean": 358.65
+    },
+    {
+      "start_time": 6.3,
+      "end_time": 9.1,
+      "text": "There should be some sort of guarantee that it's gonna come through",
+      "emotion": "neutral",
+      "emotion_confidence": 0.952,
+      "sentiment_score": 0.023,
+      "pitch_mean": 343.76
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.038,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 180.72,
+    "avg_pitch": 352.23
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro05",
+    "utterance_id": "Ses02F_impro05_F012",
+    "transcript_ground_truth": "I didn't agree.  [GARBAGE] I paid the airline to take care of things for me.  When you pay for something, there should be some sort of guarantee that it's gonna come through."
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses05F_impro08_M005",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:11:59.101264",
+  "duration_seconds": 9.42,
+  "transcript": "Can you talk to somebody about this? Can you tell them that this is ridiculous? Maybe they can change it from now on or come? These are a phone number that you have that you can call that will automatically be talking to somebody human being",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.72,
+      "text": "Can you talk to somebody about this? Can you tell them that this is ridiculous?",
+      "emotion": "joy",
+      "emotion_confidence": 0.438,
+      "sentiment_score": -0.852,
+      "pitch_mean": 348.3
+    },
+    {
+      "start_time": 3.72,
+      "end_time": 4.96,
+      "text": "Maybe they can change it from now on or come?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.953,
+      "sentiment_score": 0.0084,
+      "pitch_mean": 364.12
+    },
+    {
+      "start_time": 4.96,
+      "end_time": 8.78,
+      "text": "These are a phone number that you have that you can call that will automatically be talking to somebody human being",
+      "emotion": "neutral",
+      "emotion_confidence": 0.951,
+      "sentiment_score": -0.0934,
+      "pitch_mean": 370.93
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3123,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "joy": 0.333,
+      "neutral": 0.667
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 293.0,
+    "avg_pitch": 359.26
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 4.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro08",
+    "utterance_id": "Ses05F_impro08_M005",
+    "transcript_ground_truth": "Can you like talk to somebody about this, can you like can you tell them that this is ridiculous and can they change it from now on, is there a phone number you have that I can call that will like automatically be talking to somebody a human being."
+  }
+}

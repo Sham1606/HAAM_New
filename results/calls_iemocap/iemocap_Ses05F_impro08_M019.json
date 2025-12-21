@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro08_M019",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:12:28.450854",
+  "duration_seconds": 1.25,
+  "transcript": "Yes, exactly.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "Yes, exactly.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.943,
+      "sentiment_score": 0.1447,
+      "pitch_mean": 326.28
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1447,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 96.0,
+    "avg_pitch": 325.71
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro08",
+    "utterance_id": "Ses05F_impro08_M019",
+    "transcript_ground_truth": "Yes, yes, exactly."
+  }
+}

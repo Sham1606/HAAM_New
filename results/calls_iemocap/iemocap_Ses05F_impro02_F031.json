@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05F_impro02_F031",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:48:24.107043",
+  "duration_seconds": 3.38,
+  "transcript": "You're right. I'm gonna miss their first words.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 0.5,
+      "text": "You're right.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.891,
+      "sentiment_score": 0.2139,
+      "pitch_mean": 335.17
+    },
+    {
+      "start_time": 0.5,
+      "end_time": 2.5,
+      "text": "I'm gonna miss their first words.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.954,
+      "sentiment_score": -0.7292,
+      "pitch_mean": 371.88
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2577,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "sadness": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 142.01,
+    "avg_pitch": 348.69
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.0,
+    "arousal": 4.0,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro02",
+    "utterance_id": "Ses05F_impro02_F031",
+    "transcript_ground_truth": "I'm going to miss their first words."
+  }
+}

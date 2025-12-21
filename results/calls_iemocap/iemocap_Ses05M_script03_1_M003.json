@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_script03_1_M003",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:11:22.059976",
+  "duration_seconds": 3.05,
+  "transcript": "We're all right, aren't we, darling? Whatever happens.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.8,
+      "text": "We're all right, aren't we, darling?",
+      "emotion": "anger",
+      "emotion_confidence": 0.449,
+      "sentiment_score": 0.8719,
+      "pitch_mean": 326.54
+    },
+    {
+      "start_time": 1.8,
+      "end_time": 2.8,
+      "text": "Whatever happens.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.737,
+      "sentiment_score": 0.0121,
+      "pitch_mean": 331.33
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.442,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 157.38,
+    "avg_pitch": 323.84
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script03_1",
+    "utterance_id": "Ses05M_script03_1_M003",
+    "transcript_ground_truth": "We're all right, aren't we, darling, whatever happens?"
+  }
+}

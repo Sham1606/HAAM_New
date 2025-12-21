@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script02_1_F015",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:32:51.514051",
+  "duration_seconds": 1.65,
+  "transcript": "oh Oh shedding",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 19.5,
+      "text": "oh Oh shedding",
+      "emotion": "neutral",
+      "emotion_confidence": 0.643,
+      "sentiment_score": -0.2773,
+      "pitch_mean": 339.61
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2773,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 109.1,
+    "avg_pitch": 339.61
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script02_1",
+    "utterance_id": "Ses04F_script02_1_F015",
+    "transcript_ground_truth": "Oh, Augie."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01M_impro05_M021",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:56:33.901961",
+  "duration_seconds": 5.85,
+  "transcript": "Do you know what was in that little bag that I could have just easily put in the overhate compartment but no I had to check?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.98,
+      "text": "Do you know what was in that little bag that I could have just easily put in the overhate",
+      "emotion": "anger",
+      "emotion_confidence": 0.574,
+      "sentiment_score": -0.5018,
+      "pitch_mean": 336.54
+    },
+    {
+      "start_time": 3.98,
+      "end_time": 5.78,
+      "text": "compartment but no I had to check?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.681,
+      "sentiment_score": -0.1867,
+      "pitch_mean": 360.76
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3442,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 266.67,
+    "avg_pitch": 341.94
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro05",
+    "utterance_id": "Ses01M_impro05_M021",
+    "transcript_ground_truth": "Do you know what was in that little bag that I could have just easily put in overhead compartment but no I had to check?"
+  }
+}

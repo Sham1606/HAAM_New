@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses04M_script03_1_M020",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:15:30.946378",
+  "duration_seconds": 15.69,
+  "transcript": "So is everyone else in the long run? Let's be superficial and pity the poor philosophers. Let's blow trumpets and squeakers and enjoy the parties much as we can. Like very small, quite idiotic little school children.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.6,
+      "text": "So is everyone else in the long run? Let's be superficial and pity the poor",
+      "emotion": "joy",
+      "emotion_confidence": 0.355,
+      "sentiment_score": -0.6621,
+      "pitch_mean": 335.57
+    },
+    {
+      "start_time": 4.6,
+      "end_time": 11.44,
+      "text": "philosophers. Let's blow trumpets and squeakers and enjoy the parties much as",
+      "emotion": "joy",
+      "emotion_confidence": 0.724,
+      "sentiment_score": 0.7101,
+      "pitch_mean": 318.1
+    },
+    {
+      "start_time": 11.44,
+      "end_time": 15.6,
+      "text": "we can. Like very small, quite idiotic little school children.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.596,
+      "sentiment_score": -0.845,
+      "pitch_mean": 317.67
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2657,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 0.667,
+      "neutral": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 141.51,
+    "avg_pitch": 324.86
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script03_1",
+    "utterance_id": "Ses04M_script03_1_M020",
+    "transcript_ground_truth": "So is everyone else in the long run.  Let's be superficial and pity the poor philosophers.  Let's blow trumpets and squeakers and- and enjoy the party as much as we can, like very small, quite idiotic little school children."
+  }
+}

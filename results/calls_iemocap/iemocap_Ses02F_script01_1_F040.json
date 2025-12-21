@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script01_1_F040",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:32:31.467467",
+  "duration_seconds": 3.34,
+  "transcript": "Well, you don't want to think like that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Well, you don't want to think like that.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.64,
+      "sentiment_score": -0.5709,
+      "pitch_mean": 333.35
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5709,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 143.63,
+    "avg_pitch": 332.13
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_1",
+    "utterance_id": "Ses02F_script01_1_F040",
+    "transcript_ground_truth": "Well, you don't want to think like that."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro04_F009",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:53:19.987718",
+  "duration_seconds": 4.34,
+  "transcript": "But I mean you kind of got to, you gotta fake it till you feel it right?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "But I mean you kind of got to, you gotta fake it till you feel it right?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.393,
+      "sentiment_score": -0.2895,
+      "pitch_mean": 329.65
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2895,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 235.02,
+    "avg_pitch": 328.54
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro04",
+    "utterance_id": "Ses01M_impro04_F009",
+    "transcript_ground_truth": "But I mean you kind of got to, you got to fake it 'til you feel it, right?"
+  }
+}

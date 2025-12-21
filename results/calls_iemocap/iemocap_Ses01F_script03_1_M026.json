@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses01F_script03_1_M026",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:44:56.370325",
+  "duration_seconds": 16.63,
+  "transcript": "Ah, see, I don't care what you do, see. You could paint yourself green and run naked through the palace-fen-dom. And run off with all the men in the world. I shouldn't say a word, just as long as you love me, best.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.24,
+      "text": "Ah, see, I don't care what you do, see.",
+      "emotion": "anger",
+      "emotion_confidence": 0.523,
+      "sentiment_score": -0.0447,
+      "pitch_mean": 332.33
+    },
+    {
+      "start_time": 5.24,
+      "end_time": 9.44,
+      "text": "You could paint yourself green and run naked through the palace-fen-dom.",
+      "emotion": "anger",
+      "emotion_confidence": 0.531,
+      "sentiment_score": -0.0735,
+      "pitch_mean": 333.24
+    },
+    {
+      "start_time": 9.44,
+      "end_time": 12.2,
+      "text": "And run off with all the men in the world.",
+      "emotion": "anger",
+      "emotion_confidence": 0.563,
+      "sentiment_score": -0.3101,
+      "pitch_mean": 335.85
+    },
+    {
+      "start_time": 12.2,
+      "end_time": 15.92,
+      "text": "I shouldn't say a word, just as long as you love me, best.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.575,
+      "sentiment_score": 0.5991,
+      "pitch_mean": 326.51
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0427,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.75,
+      "disgust": 0.25
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 155.14,
+    "avg_pitch": 331.06
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script03_1",
+    "utterance_id": "Ses01F_script03_1_M026",
+    "transcript_ground_truth": "Oh See, I don't care what you do, see.  You can paint yourself green and run naked through the Place Vendome and run off with all of the men of the world.  I shan't say a word, just as long as you love me best."
+  }
+}

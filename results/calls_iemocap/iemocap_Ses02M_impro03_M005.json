@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02M_impro03_M005",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:50:20.173162",
+  "duration_seconds": 3.28,
+  "transcript": "Yes, he said yes. I know, it's good.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Yes, he said yes.",
+      "emotion": "anger",
+      "emotion_confidence": 0.746,
+      "sentiment_score": 0.5094,
+      "pitch_mean": 361.84
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.28,
+      "text": "I know, it's good.",
+      "emotion": "joy",
+      "emotion_confidence": 0.931,
+      "sentiment_score": 0.931,
+      "pitch_mean": 367.25
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.7202,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "joy": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 146.42,
+    "avg_pitch": 367.25
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 4.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro03",
+    "utterance_id": "Ses02M_impro03_M005",
+    "transcript_ground_truth": "Yes, she said yes. [LAUGHTER] I know"
+  }
+}

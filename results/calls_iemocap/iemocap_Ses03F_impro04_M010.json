@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro04_M010",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:21:43.757557",
+  "duration_seconds": 5.3,
+  "transcript": "a part only 25 okay some people don't start until the 35",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.64,
+      "text": "a part only 25 okay some people don't start until the 35",
+      "emotion": "neutral",
+      "emotion_confidence": 0.674,
+      "sentiment_score": -0.0146,
+      "pitch_mean": 335.32
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0146,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 135.82,
+    "avg_pitch": 337.38
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro04",
+    "utterance_id": "Ses03F_impro04_M010",
+    "transcript_ground_truth": "You're only twenty five, okay? Some people don't start until they're thirty five."
+  }
+}

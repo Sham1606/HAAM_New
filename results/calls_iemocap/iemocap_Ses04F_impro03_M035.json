@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro03_M035",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:05:20.481389",
+  "duration_seconds": 3.16,
+  "transcript": "Why can't be in charge of this? I mean I got things I gotta do",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.52,
+      "text": "Why can't be in charge of this? I mean I got things I gotta do",
+      "emotion": "disgust",
+      "emotion_confidence": 0.459,
+      "sentiment_score": -0.6033,
+      "pitch_mean": 345.41
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6033,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 284.82,
+    "avg_pitch": 342.53
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro03",
+    "utterance_id": "Ses04F_impro03_M035",
+    "transcript_ground_truth": "Well I can't be in charge of this.  I mean I got things I got to do."
+  }
+}

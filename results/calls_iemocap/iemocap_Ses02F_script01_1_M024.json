@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses02F_script01_1_M024",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:33:23.385276",
+  "duration_seconds": 12.94,
+  "transcript": "I don't know why, but every time I reach out for something that I want, I have to pull back as someone else's suffer. I hold bloody life, time after time after time.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.06,
+      "text": "I don't know why, but every time I reach out for something that I want, I have to pull",
+      "emotion": "disgust",
+      "emotion_confidence": 0.479,
+      "sentiment_score": -0.5358,
+      "pitch_mean": 327.25
+    },
+    {
+      "start_time": 6.06,
+      "end_time": 8.6,
+      "text": "back as someone else's suffer.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.44,
+      "sentiment_score": -0.8635,
+      "pitch_mean": 328.83
+    },
+    {
+      "start_time": 8.6,
+      "end_time": 12.2,
+      "text": "I hold bloody life, time after time after time.",
+      "emotion": "anger",
+      "emotion_confidence": 0.928,
+      "sentiment_score": -0.7799,
+      "pitch_mean": 341.57
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7264,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.667,
+      "anger": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 153.0,
+    "avg_pitch": 329.59
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_1",
+    "utterance_id": "Ses02F_script01_1_M024",
+    "transcript_ground_truth": "I don't know why, but, every time I reach out for something that I want, I have to pull back 'cause someone else will suffer.  My whole bloody life.  Time after time after time."
+  }
+}

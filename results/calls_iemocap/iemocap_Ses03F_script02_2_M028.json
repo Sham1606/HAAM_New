@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses03F_script02_2_M028",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:41:36.229364",
+  "duration_seconds": 9.53,
+  "transcript": "Could you think this is how I thought it was going to turn out? Do you think I had some great fantasy down the line at four years down the line? That we'd come to the beach and argue with each other over fish?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.64,
+      "text": "Could you think this is how I thought it was going to turn out?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.842,
+      "sentiment_score": -0.2108,
+      "pitch_mean": 349.32
+    },
+    {
+      "start_time": 2.64,
+      "end_time": 6.24,
+      "text": "Do you think I had some great fantasy down the line at four years down the line?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.751,
+      "sentiment_score": 0.6098,
+      "pitch_mean": 353.03
+    },
+    {
+      "start_time": 6.24,
+      "end_time": 9.44,
+      "text": "That we'd come to the beach and argue with each other over fish?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.423,
+      "sentiment_score": -0.2761,
+      "pitch_mean": 344.69
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.041,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "disgust": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 277.14,
+    "avg_pitch": 347.26
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.6667,
+    "arousal": 3.6667,
+    "dominance": 3.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_2",
+    "utterance_id": "Ses03F_script02_2_M028",
+    "transcript_ground_truth": "Did you think this is how I thought it was going to turn out? Do you think I had some great fantasy down the line? That four years down the line that we'd come to the beach and argue with each other over fish?"
+  }
+}

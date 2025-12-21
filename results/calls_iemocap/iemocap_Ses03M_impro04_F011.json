@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro04_F011",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:54:40.312920",
+  "duration_seconds": 3.89,
+  "transcript": "You gotta be working as a restaurant manager. I mean, come on.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "You gotta be working as a restaurant manager. I mean, come on.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.1831,
+      "pitch_mean": 350.8
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1831,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 185.09,
+    "avg_pitch": 350.8
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro04",
+    "utterance_id": "Ses03M_impro04_F011",
+    "transcript_ground_truth": "You-You can't be working as a restaurant manager, I mean, come on."
+  }
+}

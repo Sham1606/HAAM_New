@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03F_impro05_M010",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:22:58.650639",
+  "duration_seconds": 6.64,
+  "transcript": "Whoa, maybe you should thought of a better way to send it than just in a bag, huh? Did you think about that?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Whoa, maybe you should thought of a better way to send it than just in a bag, huh?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.894,
+      "sentiment_score": -0.7769,
+      "pitch_mean": 345.98
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 7.0,
+      "text": "Did you think about that?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.837,
+      "sentiment_score": -0.0323,
+      "pitch_mean": 341.12
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4046,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 207.98,
+    "avg_pitch": 341.12
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro05",
+    "utterance_id": "Ses03F_impro05_M010",
+    "transcript_ground_truth": "Whoa, maybe you should uh- have thought of a better way to send it than just in a bag, hmm? Did you think about that?"
+  }
+}

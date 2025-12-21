@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro06_F002",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:23:14.998189",
+  "duration_seconds": 4.45,
+  "transcript": "I never knew it was gonna be this hard, you know.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I never knew it was gonna be this hard, you know.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.794,
+      "sentiment_score": -0.7812,
+      "pitch_mean": 318.62
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7812,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 148.31,
+    "avg_pitch": 319.19
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro06",
+    "utterance_id": "Ses03F_impro06_F002",
+    "transcript_ground_truth": "Mmm hmm. I never knew it was going to be this hard, you know."
+  }
+}

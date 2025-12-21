@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses04F_script01_3_M040",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:31:41.706276",
+  "duration_seconds": 8.43,
+  "transcript": "because nobody was changed at all. It seemed to make suckers out of a lot of guys.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "because nobody was changed at all.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.424,
+      "sentiment_score": -0.2049,
+      "pitch_mean": 321.93
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 8.0,
+      "text": "It seemed to make suckers out of a lot of guys.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.925,
+      "sentiment_score": -0.8743,
+      "pitch_mean": 326.13
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5396,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 120.94,
+    "avg_pitch": 324.44
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script01_3",
+    "utterance_id": "Ses04F_script01_3_M040",
+    "transcript_ground_truth": "because nobody was changed at all.  It seemed to make suckers out of a lot of guys."
+  }
+}

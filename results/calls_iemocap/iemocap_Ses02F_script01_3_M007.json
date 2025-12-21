@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script01_3_M007",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:36:15.292924",
+  "duration_seconds": 7.32,
+  "transcript": "And I love you. I love you a great deal. I love you",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.64,
+      "text": "And I love you. I love you a great deal. I love you",
+      "emotion": "joy",
+      "emotion_confidence": 0.942,
+      "sentiment_score": 0.9795,
+      "pitch_mean": 332.41
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9795,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 106.56,
+    "avg_pitch": 329.51
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_3",
+    "utterance_id": "Ses02F_script01_3_M007",
+    "transcript_ground_truth": "Anne, I love you.  I love you a great deal.  I love you."
+  }
+}

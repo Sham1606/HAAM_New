@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script01_3_M035",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:36:01.508624",
+  "duration_seconds": 6.11,
+  "transcript": "and I thought something watching them go down.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "and I thought something watching them go down.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.759,
+      "sentiment_score": -0.3631,
+      "pitch_mean": 330.3
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3631,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 78.57,
+    "avg_pitch": 328.35
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_3",
+    "utterance_id": "Ses03F_script01_3_M035",
+    "transcript_ground_truth": "And I, and I thought something watching them go down."
+  }
+}

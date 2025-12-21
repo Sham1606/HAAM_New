@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro01_M005",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:48:16.491365",
+  "duration_seconds": 1.6,
+  "transcript": "No, no, no, you have to go.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.6,
+      "text": "No, no, no, you have to go.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.457,
+      "sentiment_score": -0.4004,
+      "pitch_mean": 362.26
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4004,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 262.24,
+    "avg_pitch": 361.08
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro01",
+    "utterance_id": "Ses03M_impro01_M005",
+    "transcript_ground_truth": "Okay."
+  }
+}

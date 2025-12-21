@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05F_impro05_F018",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:01:08.869342",
+  "duration_seconds": 8.37,
+  "transcript": "not lose the baggage in the first place. I mean you're offering a service here. I paid so much money for that ticket.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.18,
+      "text": "not lose the baggage in the first place. I mean you're offering a service here.",
+      "emotion": "joy",
+      "emotion_confidence": 0.397,
+      "sentiment_score": -0.0365,
+      "pitch_mean": 350.85
+    },
+    {
+      "start_time": 5.18,
+      "end_time": 7.78,
+      "text": "I paid so much money for that ticket.",
+      "emotion": "anger",
+      "emotion_confidence": 0.425,
+      "sentiment_score": -0.3677,
+      "pitch_mean": 357.65
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2021,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 164.87,
+    "avg_pitch": 353.08
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro05",
+    "utterance_id": "Ses05F_impro05_F018",
+    "transcript_ground_truth": "Uh- Not lose the baggage in the first place. I mean You're offering a service here. I paid so much money for that ticket."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro05b_F023",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:59:26.322354",
+  "duration_seconds": 6.92,
+  "transcript": "Well, we have some people back there that made some firing so but I would just really appreciate",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.14,
+      "text": "Well, we have some people back there that made some firing so but I would just really appreciate",
+      "emotion": "disgust",
+      "emotion_confidence": 0.447,
+      "sentiment_score": 0.7047,
+      "pitch_mean": 357.5
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.7047,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 156.07,
+    "avg_pitch": 354.85
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro05b",
+    "utterance_id": "Ses03M_impro05b_F023",
+    "transcript_ground_truth": "Well we have some people back there that need some firing so, but I would just really appreciate--"
+  }
+}

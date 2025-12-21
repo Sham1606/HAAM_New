@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script03_1_M008",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:41:14.001436",
+  "duration_seconds": 4.07,
+  "transcript": "Things that automatically don't matter at all and ones happy do they.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Things that automatically don't matter at all and ones happy do they.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.385,
+      "sentiment_score": -0.1991,
+      "pitch_mean": 344.44
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1991,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 176.9,
+    "avg_pitch": 344.44
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script03_1",
+    "utterance_id": "Ses04F_script03_1_M008",
+    "transcript_ground_truth": "Things that ought to matter dreadfully don't matter at all when one's happy, do they?"
+  }
+}

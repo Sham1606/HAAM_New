@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script01_1_F028",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:02:10.112433",
+  "duration_seconds": 5.49,
+  "transcript": "The trouble is you don't see enough women. You never did.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "The trouble is you don't see enough women. You never did.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.423,
+      "sentiment_score": -0.68,
+      "pitch_mean": 315.27
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.68,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 120.23,
+    "avg_pitch": 315.24
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.6667,
+    "arousal": 2.6667,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_1",
+    "utterance_id": "Ses01M_script01_1_F028",
+    "transcript_ground_truth": "The trouble is you don't see enough women, you never did."
+  }
+}

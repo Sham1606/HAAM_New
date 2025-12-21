@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script03_1_M012",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:28:25.487116",
+  "duration_seconds": 3.29,
+  "transcript": "You must have been serious, my dear one, that's just what I want!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "You must have been serious, my dear one, that's just what I want!",
+      "emotion": "disgust",
+      "emotion_confidence": 0.474,
+      "sentiment_score": 0.7123,
+      "pitch_mean": 336.0
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.7123,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 237.09,
+    "avg_pitch": 334.87
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script03_1",
+    "utterance_id": "Ses05F_script03_1_M012",
+    "transcript_ground_truth": "You mustn't be serious my dear one, that's just what they want."
+  }
+}

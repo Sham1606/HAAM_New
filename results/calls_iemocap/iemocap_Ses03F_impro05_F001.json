@@ -1,0 +1,81 @@
+{
+  "call_id": "iemocap_Ses03F_impro05_F001",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:22:05.752336",
+  "duration_seconds": 8.88,
+  "transcript": "What do you mean you don't know what to tell me? I have two luggages that have been coming. They're coming from France and I need them here. I'm home now. I need to go start working. Found it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "What do you mean you don't know what to tell me?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.406,
+      "sentiment_score": -0.6866,
+      "pitch_mean": 319.58
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "I have two luggages that have been coming.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.418,
+      "sentiment_score": -0.1996,
+      "pitch_mean": 347.52
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "They're coming from France and I need them here.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.953,
+      "sentiment_score": -0.0475,
+      "pitch_mean": 358.53
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 8.0,
+      "text": "I'm home now. I need to go start working.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.712,
+      "sentiment_score": 0.2372,
+      "pitch_mean": 353.77
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 9.0,
+      "text": "Found it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.918,
+      "sentiment_score": 0.2444,
+      "pitch_mean": 339.62
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0904,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.4,
+      "neutral": 0.4,
+      "sadness": 0.2
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 263.59,
+    "avg_pitch": 339.62
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro05",
+    "utterance_id": "Ses03F_impro05_F001",
+    "transcript_ground_truth": "What do you mean, you don't know what to tell me? I have two luggage that I've been coming--they're coming--from France and I need them here. I'm home now. I need to go start working."
+  }
+}

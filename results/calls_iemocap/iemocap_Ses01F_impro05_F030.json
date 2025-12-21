@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses01F_impro05_F030",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:25:16.819840",
+  "duration_seconds": 3.31,
+  "transcript": "A letter. Yeah. I'll make a personal phone call.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "A letter.",
+      "emotion": "anger",
+      "emotion_confidence": 0.384,
+      "sentiment_score": 0.0662,
+      "pitch_mean": 357.49
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 2.0,
+      "text": "Yeah.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.814,
+      "sentiment_score": 0.2224,
+      "pitch_mean": 350.15
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "I'll make a personal phone call.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.767,
+      "sentiment_score": 0.0342,
+      "pitch_mean": 344.56
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1076,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "anger": 0.333,
+      "neutral": 0.667
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 163.14,
+    "avg_pitch": 351.29
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro05",
+    "utterance_id": "Ses01F_impro05_F030",
+    "transcript_ground_truth": "A letter? I'll make a personal phone call."
+  }
+}

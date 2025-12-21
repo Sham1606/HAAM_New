@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script02_1_F004",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:05:39.999919",
+  "duration_seconds": 5.22,
+  "transcript": "You keep saying my flashlight is sometimes just yours. I mean how is this supposed to make me feel?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.72,
+      "text": "You keep saying my flashlight is sometimes just yours. I mean how is this supposed to make me feel?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.43,
+      "sentiment_score": -0.553,
+      "pitch_mean": 350.12
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.553,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 218.39,
+    "avg_pitch": 349.03
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script02_1",
+    "utterance_id": "Ses02M_script02_1_F004",
+    "transcript_ground_truth": "But you kept saying my flashlight as if somehow it's just yours. I mean how is it supposed to make me feel?"
+  }
+}

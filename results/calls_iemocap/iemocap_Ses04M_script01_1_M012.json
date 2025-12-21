@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04M_script01_1_M012",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:05:55.037874",
+  "duration_seconds": 6.67,
+  "transcript": "Do we contradict him? Do we say straight out that we haven't hope anymore that we haven't any hope for years now?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.08,
+      "text": "Do we contradict him? Do we say straight out that we haven't hope anymore that we haven't",
+      "emotion": "disgust",
+      "emotion_confidence": 0.358,
+      "sentiment_score": -0.5018,
+      "pitch_mean": 322.45
+    },
+    {
+      "start_time": 5.08,
+      "end_time": 6.08,
+      "text": "any hope for years now?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.724,
+      "sentiment_score": -0.4907,
+      "pitch_mean": 310.93
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4962,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 197.9,
+    "avg_pitch": 322.23
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script01_1",
+    "utterance_id": "Ses04M_script01_1_M012",
+    "transcript_ground_truth": "Do we contradict him?  Do we say straight out that we have no hope anymore?  That we haven't had any hope for years, now."
+  }
+}

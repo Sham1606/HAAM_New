@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script01_2_F002",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:34:04.268163",
+  "duration_seconds": 3.8,
+  "transcript": "Nobody comes 700 miles just to see.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Nobody comes 700 miles just to see.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.624,
+      "sentiment_score": -0.3784,
+      "pitch_mean": 325.35
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3784,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 110.53,
+    "avg_pitch": 325.35
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.3333,
+    "arousal": 2.6667,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_2",
+    "utterance_id": "Ses02F_script01_2_F002",
+    "transcript_ground_truth": "Nobody comes seven hundred miles just to see."
+  }
+}

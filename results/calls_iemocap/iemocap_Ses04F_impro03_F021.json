@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses04F_impro03_F021",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:02:28.846716",
+  "duration_seconds": 1.62,
+  "transcript": "It's a wedding! It's a what?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "It's a wedding!",
+      "emotion": "neutral",
+      "emotion_confidence": 0.817,
+      "sentiment_score": 0.6386,
+      "pitch_mean": 382.67
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 2.0,
+      "text": "It's a what?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.926,
+      "sentiment_score": -0.0743,
+      "pitch_mean": 366.33
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2821,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 222.22,
+    "avg_pitch": 366.33
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro03",
+    "utterance_id": "Ses04F_impro03_F021",
+    "transcript_ground_truth": "It's a wedding."
+  }
+}

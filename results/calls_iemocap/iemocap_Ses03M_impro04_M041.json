@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro04_M041",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:56:43.857560",
+  "duration_seconds": 5.56,
+  "transcript": "Like wow you really, we're gonna give you the extra",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.6,
+      "text": "Like wow you really, we're gonna give you the extra",
+      "emotion": "neutral",
+      "emotion_confidence": 0.956,
+      "sentiment_score": 0.5005,
+      "pitch_mean": 340.8
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5005,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 107.91,
+    "avg_pitch": 338.29
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.5,
+    "arousal": 3.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro04",
+    "utterance_id": "Ses03M_impro04_M041",
+    "transcript_ground_truth": "Like, wow you're really smart we're going to give you an extra [GARBAGE]."
+  }
+}

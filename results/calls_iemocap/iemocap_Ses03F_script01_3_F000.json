@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script01_3_F000",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:33:46.503205",
+  "duration_seconds": 3.45,
+  "transcript": "You're the only one I know that still loves his parents.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "You're the only one I know that still loves his parents.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.69,
+      "sentiment_score": 0.7892,
+      "pitch_mean": 324.66
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.7892,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 191.09,
+    "avg_pitch": 325.42
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_3",
+    "utterance_id": "Ses03F_script01_3_F000",
+    "transcript_ground_truth": "You're the only one I know that still loves his parents."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05F_script01_3_M023",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:19:50.709044",
+  "duration_seconds": 3.69,
+  "transcript": "it's... Wik \u043f\u0440\u0435\u043a\u0440\u0430\u0441owe Something Seizes",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.84,
+      "text": "it's...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.77,
+      "sentiment_score": 0.0274,
+      "pitch_mean": 317.64
+    },
+    {
+      "start_time": 3.84,
+      "end_time": 4.08,
+      "text": "Wik \u043f\u0440\u0435\u043a\u0440\u0430\u0441owe Something Seizes",
+      "emotion": "neutral",
+      "emotion_confidence": 0.807,
+      "sentiment_score": 0.0186,
+      "pitch_mean": 317.64
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.023,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 81.23,
+    "avg_pitch": 317.64
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_3",
+    "utterance_id": "Ses05F_script01_3_M023",
+    "transcript_ground_truth": "It's- It's mixed up with so many other things, I-"
+  }
+}

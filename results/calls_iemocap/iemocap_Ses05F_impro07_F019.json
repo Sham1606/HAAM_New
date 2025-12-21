@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro07_F019",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:07:42.945774",
+  "duration_seconds": 2.4,
+  "transcript": "That happens. That happens to me.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "That happens. That happens to me.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.846,
+      "sentiment_score": -0.1169,
+      "pitch_mean": 343.67
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1169,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 150.0,
+    "avg_pitch": 339.1
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro07",
+    "utterance_id": "Ses05F_impro07_F019",
+    "transcript_ground_truth": "That happens. That happens at time"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_script01_1_F008",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:37:10.246841",
+  "duration_seconds": 5.77,
+  "transcript": "He's getting just like he did after he died, you know. What's the meaning of this?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "He's getting just like he did after he died, you know.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.867,
+      "sentiment_score": -0.3919,
+      "pitch_mean": 329.77
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 5.0,
+      "text": "What's the meaning of this?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.636,
+      "sentiment_score": -0.3904,
+      "pitch_mean": 350.68
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3912,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 166.29,
+    "avg_pitch": 335.34
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_1",
+    "utterance_id": "Ses03M_script01_1_F008",
+    "transcript_ground_truth": "He's getting just like he did after he died, you know?  What, what, what's the meaning of this?"
+  }
+}

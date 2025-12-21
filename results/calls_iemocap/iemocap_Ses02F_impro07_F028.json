@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses02F_impro07_F028",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:28:30.175450",
+  "duration_seconds": 4.01,
+  "transcript": "You do, yeah. I'm here. You're Sam. Thank you very much.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "You do, yeah.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.789,
+      "sentiment_score": 0.1668,
+      "pitch_mean": 342.27
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 2.0,
+      "text": "I'm here.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.561,
+      "sentiment_score": 0.2808,
+      "pitch_mean": 351.4
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "You're Sam.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.797,
+      "sentiment_score": 0.0915,
+      "pitch_mean": 351.62
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 4.0,
+      "text": "Thank you very much.",
+      "emotion": "joy",
+      "emotion_confidence": 0.704,
+      "sentiment_score": 0.9329,
+      "pitch_mean": 334.45
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.368,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.75,
+      "joy": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 164.59,
+    "avg_pitch": 346.39
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro07",
+    "utterance_id": "Ses02F_impro07_F028",
+    "transcript_ground_truth": "Student. I'm a student. Yes I am, Thank you very much."
+  }
+}

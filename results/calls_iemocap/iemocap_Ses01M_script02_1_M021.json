@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01M_script02_1_M021",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:09:15.767828",
+  "duration_seconds": 7.2,
+  "transcript": "What are you kidding? We just got here. We don't want to turn around and go home now. What's the point coming home? We're down here.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "What are you kidding? We just got here.",
+      "emotion": "anger",
+      "emotion_confidence": 0.585,
+      "sentiment_score": -0.3055,
+      "pitch_mean": 334.59
+    },
+    {
+      "start_time": 3.26,
+      "end_time": 7.0,
+      "text": "We don't want to turn around and go home now. What's the point coming home? We're down here.",
+      "emotion": "anger",
+      "emotion_confidence": 0.333,
+      "sentiment_score": -0.8168,
+      "pitch_mean": 348.65
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5611,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 216.67,
+    "avg_pitch": 339.66
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script02_1",
+    "utterance_id": "Ses01M_script02_1_M021",
+    "transcript_ground_truth": "What are you kidding?  We just got here.  We don't want to turn around and go home now.  What's the point coming all the way down here?"
+  }
+}

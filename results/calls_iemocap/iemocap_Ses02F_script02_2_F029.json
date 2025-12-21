@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses02F_script02_2_F029",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:40:16.581728",
+  "duration_seconds": 5.06,
+  "transcript": "This... What? What is this? This isn't even anything?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "This...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.844,
+      "sentiment_score": 0.0013,
+      "pitch_mean": 323.28
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 2.0,
+      "text": "What?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.922,
+      "sentiment_score": 0.083,
+      "pitch_mean": 357.47
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "What is this?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.831,
+      "sentiment_score": -0.1486,
+      "pitch_mean": 373.29
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 5.0,
+      "text": "This isn't even anything?",
+      "emotion": "anger",
+      "emotion_confidence": 0.379,
+      "sentiment_score": -0.7562,
+      "pitch_mean": 369.62
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2051,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.75,
+      "anger": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 106.72,
+    "avg_pitch": 352.32
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script02_2",
+    "utterance_id": "Ses02F_script02_2_F029",
+    "transcript_ground_truth": "This.  What?  What is this?  This isn't even anything."
+  }
+}

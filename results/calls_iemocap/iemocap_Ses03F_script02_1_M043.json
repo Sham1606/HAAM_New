@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script02_1_M043",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:38:46.681383",
+  "duration_seconds": 2.75,
+  "transcript": "\u8def\u884c\u3063\u3066",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.18,
+      "text": "\u8def\u884c\u3063\u3066",
+      "emotion": "neutral",
+      "emotion_confidence": 0.719,
+      "sentiment_score": -0.0308,
+      "pitch_mean": 326.76
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0308,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 21.84,
+    "avg_pitch": 323.63
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_1",
+    "utterance_id": "Ses03F_script02_1_M043",
+    "transcript_ground_truth": "So what do you think?"
+  }
+}

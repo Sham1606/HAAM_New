@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script03_1_M024",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:43:59.202952",
+  "duration_seconds": 4.35,
+  "transcript": "Horrible little thing I hated it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.16,
+      "text": "Horrible little thing I hated it.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.823,
+      "sentiment_score": -0.9221,
+      "pitch_mean": 336.7
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9221,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 82.71,
+    "avg_pitch": 336.66
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script03_1",
+    "utterance_id": "Ses03F_script03_1_M024",
+    "transcript_ground_truth": "Horrible little thing. I hated it."
+  }
+}

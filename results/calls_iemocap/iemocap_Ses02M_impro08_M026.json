@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro08_M026",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:59:18.530232",
+  "duration_seconds": 3.74,
+  "transcript": "Okay, all right, then we'll get it sent out there and",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Okay, all right, then we'll get it sent out there and",
+      "emotion": "neutral",
+      "emotion_confidence": 0.881,
+      "sentiment_score": 0.3082,
+      "pitch_mean": 331.96
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3082,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 176.27,
+    "avg_pitch": 328.85
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.3333,
+    "arousal": 2.6667,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro08",
+    "utterance_id": "Ses02M_impro08_M026",
+    "transcript_ground_truth": "Okay. All right. Then we'll get it sent out there. And"
+  }
+}

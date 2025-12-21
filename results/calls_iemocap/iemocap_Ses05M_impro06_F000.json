@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro06_F000",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:44:56.125214",
+  "duration_seconds": 2.9,
+  "transcript": "Ryan what's wrong?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Ryan what's wrong?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.438,
+      "sentiment_score": -0.6116,
+      "pitch_mean": 312.46
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6116,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 62.07,
+    "avg_pitch": 316.54
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro06",
+    "utterance_id": "Ses05M_impro06_F000",
+    "transcript_ground_truth": "Ryan, what's wrong?"
+  }
+}

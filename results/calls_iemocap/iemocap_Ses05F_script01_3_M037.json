@@ -1,0 +1,81 @@
+{
+  "call_id": "iemocap_Ses05F_script01_3_M037",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:20:35.543520",
+  "duration_seconds": 15.86,
+  "transcript": "I thought wrong to be alive. To open that bank book, to buy that new car, to look at that new refrigerator. I mean, you can take those things out of the war, but if you try that car, you have to know that that comes from beloved man can have for a man, and you've got to be a little bit better for that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I thought wrong to be alive.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.604,
+      "sentiment_score": -0.8466,
+      "pitch_mean": 326.44
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 6.56,
+      "text": "To open that bank book, to buy that new car, to look at that new refrigerator.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.669,
+      "sentiment_score": 0.3238,
+      "pitch_mean": 336.76
+    },
+    {
+      "start_time": 6.56,
+      "end_time": 10.16,
+      "text": "I mean, you can take those things out of the war, but if you try that car,",
+      "emotion": "anger",
+      "emotion_confidence": 0.382,
+      "sentiment_score": -0.4392,
+      "pitch_mean": 334.61
+    },
+    {
+      "start_time": 10.16,
+      "end_time": 13.52,
+      "text": "you have to know that that comes from beloved man can have for a man,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.796,
+      "sentiment_score": 0.3983,
+      "pitch_mean": 346.89
+    },
+    {
+      "start_time": 13.52,
+      "end_time": 15.52,
+      "text": "and you've got to be a little bit better for that.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.888,
+      "sentiment_score": 0.195,
+      "pitch_mean": 348.0
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0737,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "disgust": 0.2,
+      "neutral": 0.6,
+      "anger": 0.2
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 245.97,
+    "avg_pitch": 338.3
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_3",
+    "utterance_id": "Ses05F_script01_3_M037",
+    "transcript_ground_truth": "It felt wrong to be alive-to open that bank-book; to buy that new car; to look at that new refrigerator.  I mean, you can take those things out of the war, but if you drive that car, you have to know that that comes from the love that a man has for a man.  And you've got to be a little bit better than that!"
+  }
+}

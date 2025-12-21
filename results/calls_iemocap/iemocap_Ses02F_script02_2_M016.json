@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script02_2_M016",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:41:17.235088",
+  "duration_seconds": 4.71,
+  "transcript": "He said, hey, the grungeon are running tonight. I said, great, let's go. I feel lucky.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.32,
+      "text": "He said, hey, the grungeon are running tonight. I said, great, let's go. I feel lucky.",
+      "emotion": "joy",
+      "emotion_confidence": 0.894,
+      "sentiment_score": 0.9633,
+      "pitch_mean": 341.74
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9633,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 203.82,
+    "avg_pitch": 340.06
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script02_2",
+    "utterance_id": "Ses02F_script02_2_M016",
+    "transcript_ground_truth": "You said, \"Hey the grunion are running tonight.\"  I said, \"Great, let's go.  I feel lucky.\""
+  }
+}

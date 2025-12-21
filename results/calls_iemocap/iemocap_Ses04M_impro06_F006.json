@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro06_F006",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:58:55.519488",
+  "duration_seconds": 4.59,
+  "transcript": "No, it never is.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "No, it never is.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.798,
+      "sentiment_score": -0.3713,
+      "pitch_mean": 324.31
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3713,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 52.29,
+    "avg_pitch": 322.36
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro06",
+    "utterance_id": "Ses04M_impro06_F006",
+    "transcript_ground_truth": "I know.  It never is."
+  }
+}

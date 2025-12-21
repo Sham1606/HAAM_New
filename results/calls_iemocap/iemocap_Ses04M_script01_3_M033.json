@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04M_script01_3_M033",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:09:45.696729",
+  "duration_seconds": 10.5,
+  "transcript": "Because nobody was changed. It seemed to make sufferers out of a lot of guys. I felt wrong to be alive.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Because nobody was changed.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.612,
+      "sentiment_score": -0.1121,
+      "pitch_mean": 312.14
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 10.0,
+      "text": "It seemed to make sufferers out of a lot of guys. I felt wrong to be alive.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.775,
+      "sentiment_score": -0.9351,
+      "pitch_mean": 332.36
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5236,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 120.0,
+    "avg_pitch": 327.43
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script01_3",
+    "utterance_id": "Ses04M_script01_3_M033",
+    "transcript_ground_truth": "because nobody was changed.  It seemed to make suckers out of a lot of guys.  I felt wrong to be alive;"
+  }
+}

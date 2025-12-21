@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses02F_impro04_F000",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:23:18.064990",
+  "duration_seconds": 9.41,
+  "transcript": "I'm... I really did get and just being a dead end, you know what I mean? People are sick of me calling.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "I'm...",
+      "emotion": "sadness",
+      "emotion_confidence": 0.739,
+      "sentiment_score": 0.0519,
+      "pitch_mean": 310.05
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 6.0,
+      "text": "I really did get and just being a dead end, you know what I mean?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.502,
+      "sentiment_score": -0.493,
+      "pitch_mean": 323.29
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 9.0,
+      "text": "People are sick of me calling.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.656,
+      "sentiment_score": -0.8589,
+      "pitch_mean": 305.22
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4333,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "sadness": 0.333,
+      "disgust": 0.667
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 140.28,
+    "avg_pitch": 313.96
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro04",
+    "utterance_id": "Ses02F_impro04_F000",
+    "transcript_ground_truth": "I'm--every lead that I get ends up just being a dead end.  You know what I mean.  People are sick of me calling--"
+  }
+}

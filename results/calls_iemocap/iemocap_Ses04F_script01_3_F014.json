@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses04F_script01_3_F014",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:29:09.474354",
+  "duration_seconds": 8.61,
+  "transcript": "I was waiting for you, Chris, till then you never wrote and then when you did, what did you say? I mean you sure can't be ambiguous, you know?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.86,
+      "text": "I was waiting for you, Chris, till then you never wrote and then when you did, what did you say?",
+      "emotion": "joy",
+      "emotion_confidence": 0.413,
+      "sentiment_score": -0.1651,
+      "pitch_mean": 348.94
+    },
+    {
+      "start_time": 5.86,
+      "end_time": 7.86,
+      "text": "I mean you sure can't be ambiguous, you know?",
+      "emotion": "joy",
+      "emotion_confidence": 0.4,
+      "sentiment_score": -0.7413,
+      "pitch_mean": 375.09
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4532,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 202.0,
+    "avg_pitch": 348.52
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script01_3",
+    "utterance_id": "Ses04F_script01_3_F014",
+    "transcript_ground_truth": "I was waiting for you, Chris.  Till then you never wrote and then when you did what did you say.  I mean you sure can be ambiguous you know."
+  }
+}

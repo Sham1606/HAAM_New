@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script01_3_F025",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:43:08.732125",
+  "duration_seconds": 6.15,
+  "transcript": "But tell me what's wrong, even in your letters you seem to shame.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "But tell me what's wrong, even in your letters you seem to shame.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.369,
+      "sentiment_score": -0.8324,
+      "pitch_mean": 325.64
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8324,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 126.83,
+    "avg_pitch": 322.07
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_3",
+    "utterance_id": "Ses03M_script01_3_F025",
+    "transcript_ground_truth": "Tell me what's wrong.  I mean, even in your letters you seemed ashamed."
+  }
+}

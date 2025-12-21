@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_impro05b_F021",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:59:23.007734",
+  "duration_seconds": 7.1,
+  "transcript": "Well, the entire flight started. The luggage was placed on another plane that never actually left.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.12,
+      "text": "Well, the entire flight started.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.434,
+      "sentiment_score": 0.0705,
+      "pitch_mean": 352.53
+    },
+    {
+      "start_time": 3.12,
+      "end_time": 6.96,
+      "text": "The luggage was placed on another plane that never actually left.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.443,
+      "sentiment_score": -0.3909,
+      "pitch_mean": 359.53
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1602,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 135.21,
+    "avg_pitch": 354.88
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro05b",
+    "utterance_id": "Ses03M_impro05b_F021",
+    "transcript_ground_truth": "Well, the entire flight, sir, the luggage was placed on another plane that never actually left Baltimore."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script01_2_M006",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:04:40.609667",
+  "duration_seconds": 1.76,
+  "transcript": "You can't read our mind.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "You can't read our mind.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.745,
+      "pitch_mean": 334.88
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.745,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 170.46,
+    "avg_pitch": 334.88
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_2",
+    "utterance_id": "Ses01M_script01_2_M006",
+    "transcript_ground_truth": "Listen. Line. You can't read her mind."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02F_script02_1_F018",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:37:44.260670",
+  "duration_seconds": 9.7,
+  "transcript": "Last year you will also remember our shoes got wet. I got sand in my panties. You got a sore throat We got a big fight over nothing and we didn't see the crignons",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.52,
+      "text": "Last year you will also remember our shoes got wet. I got sand in my panties. You got a sore throat",
+      "emotion": "disgust",
+      "emotion_confidence": 0.452,
+      "sentiment_score": -0.7558,
+      "pitch_mean": 346.92
+    },
+    {
+      "start_time": 5.52,
+      "end_time": 9.28,
+      "text": "We got a big fight over nothing and we didn't see the crignons",
+      "emotion": "disgust",
+      "emotion_confidence": 0.412,
+      "sentiment_score": -0.6118,
+      "pitch_mean": 354.67
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6838,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 210.31,
+    "avg_pitch": 347.99
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script02_1",
+    "utterance_id": "Ses02F_script02_1_F018",
+    "transcript_ground_truth": "Last year, you will also remember our shoes got wet, I got sand in my panties, you got a sore throat, we got in a big fight over nothing, and we didn't see the grunions."
+  }
+}

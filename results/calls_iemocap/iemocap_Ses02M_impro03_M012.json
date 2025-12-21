@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro03_M012",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:50:32.838624",
+  "duration_seconds": 0.89,
+  "transcript": "I did.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 0.84,
+      "text": "I did.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.931,
+      "sentiment_score": 0.235,
+      "pitch_mean": 364.97
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.235,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 134.09,
+    "avg_pitch": 367.72
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro03",
+    "utterance_id": "Ses02M_impro03_M012",
+    "transcript_ground_truth": "I-I did."
+  }
+}

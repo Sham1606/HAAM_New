@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses03F_script03_2_M028",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:46:28.622572",
+  "duration_seconds": 7.69,
+  "transcript": "You had a riotist must have had a riotist time. No restraint at all. Very enjoyable. You never had much anyhow.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.52,
+      "text": "You had a riotist must have had a riotist time.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.618,
+      "sentiment_score": -0.4251,
+      "pitch_mean": 336.63
+    },
+    {
+      "start_time": 3.52,
+      "end_time": 4.86,
+      "text": "No restraint at all.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.462,
+      "sentiment_score": -0.7353,
+      "pitch_mean": 338.65
+    },
+    {
+      "start_time": 4.86,
+      "end_time": 5.94,
+      "text": "Very enjoyable.",
+      "emotion": "joy",
+      "emotion_confidence": 0.963,
+      "sentiment_score": 0.9571,
+      "pitch_mean": 339.68
+    },
+    {
+      "start_time": 5.94,
+      "end_time": 7.44,
+      "text": "You never had much anyhow.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.818,
+      "sentiment_score": -0.7093,
+      "pitch_mean": 333.12
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2281,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.25,
+      "joy": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 163.8,
+    "avg_pitch": 336.83
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script03_2",
+    "utterance_id": "Ses03F_script03_2_M028",
+    "transcript_ground_truth": "You had a riotous-must have had a riotous time. No restraint at all. Very enjoyable. You never had much anyhow."
+  }
+}

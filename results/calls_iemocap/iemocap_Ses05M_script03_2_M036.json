@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script03_2_M036",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:15:52.194681",
+  "duration_seconds": 2.16,
+  "transcript": "I shall do no such thing",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I shall do no such thing",
+      "emotion": "anger",
+      "emotion_confidence": 0.706,
+      "sentiment_score": -0.3984,
+      "pitch_mean": 332.92
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3984,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 166.67,
+    "avg_pitch": 327.15
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script03_2",
+    "utterance_id": "Ses05M_script03_2_M036",
+    "transcript_ground_truth": "I do I shall do no such thing."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script02_1_M005",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:38:26.655768",
+  "duration_seconds": 3.58,
+  "transcript": "Oh no you know what I forgot?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.4,
+      "text": "Oh no you know what I forgot?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.858,
+      "sentiment_score": -0.6344,
+      "pitch_mean": 354.65
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6344,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 117.29,
+    "avg_pitch": 353.18
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 4.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_1",
+    "utterance_id": "Ses01F_script02_1_M005",
+    "transcript_ground_truth": "Oh no.  you know what I forgot?"
+  }
+}

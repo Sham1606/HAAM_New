@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03F_script02_1_F018",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:37:03.870140",
+  "duration_seconds": 5.57,
+  "transcript": "No, for God's sake, we've never seen the grindings. We're not gonna see them. We're just born in a-",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.8,
+      "text": "No, for God's sake, we've never seen the grindings. We're not gonna see them.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.566,
+      "sentiment_score": -0.7799,
+      "pitch_mean": 341.39
+    },
+    {
+      "start_time": 4.8,
+      "end_time": 5.8,
+      "text": "We're just born in a-",
+      "emotion": "neutral",
+      "emotion_confidence": 0.592,
+      "sentiment_score": -0.0585,
+      "pitch_mean": 340.27
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4192,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 204.54,
+    "avg_pitch": 340.27
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_1",
+    "utterance_id": "Ses03F_script02_1_F018",
+    "transcript_ground_truth": "No, for God's sakes, we've never seen the grunions. We're not going to see them."
+  }
+}

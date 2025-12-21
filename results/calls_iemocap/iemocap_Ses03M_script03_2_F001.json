@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script03_2_F001",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:53:47.364960",
+  "duration_seconds": 3.09,
+  "transcript": "Presence at trivia a little brooch",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Presence at trivia a little brooch",
+      "emotion": "neutral",
+      "emotion_confidence": 0.712,
+      "sentiment_score": 0.125,
+      "pitch_mean": 372.69
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.125,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 116.37,
+    "avg_pitch": 346.03
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script03_2",
+    "utterance_id": "Ses03M_script03_2_F001",
+    "transcript_ground_truth": "Presents?  A trivial little broach."
+  }
+}

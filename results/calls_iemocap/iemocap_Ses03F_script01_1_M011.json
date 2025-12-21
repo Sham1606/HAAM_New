@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03F_script01_1_M011",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:31:14.381985",
+  "duration_seconds": 7.78,
+  "transcript": "No, I don't want to argue with him, but it's time that he realized that no one believes that Larry's coming back anymore.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.76,
+      "text": "No, I don't want to argue with him, but it's time that he realized that no one believes",
+      "emotion": "neutral",
+      "emotion_confidence": 0.787,
+      "sentiment_score": -0.4778,
+      "pitch_mean": 347.21
+    },
+    {
+      "start_time": 5.76,
+      "end_time": 7.2,
+      "text": "that Larry's coming back anymore.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.459,
+      "sentiment_score": -0.4356,
+      "pitch_mean": 353.53
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4567,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 177.34,
+    "avg_pitch": 346.28
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.3333,
+    "arousal": 3.3333,
+    "dominance": 3.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_1",
+    "utterance_id": "Ses03F_script01_1_M011",
+    "transcript_ground_truth": "No, I don't want to argue with him, but it's time that he realized that no one believes that Larry's coming back anymore."
+  }
+}

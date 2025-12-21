@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script03_2_M030",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:45:07.029461",
+  "duration_seconds": 5.09,
+  "transcript": "We might get up and sponge a little debate about that, you know, in temperate thoughts.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "We might get up and sponge a little debate about that, you know, in temperate thoughts.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.856,
+      "sentiment_score": 0.0359,
+      "pitch_mean": 323.72
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0359,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 188.61,
+    "avg_pitch": 323.77
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script03_2",
+    "utterance_id": "Ses04F_script03_2_M030",
+    "transcript_ground_truth": "They'd get up a splendid little debate about that, you know.  Intemperate tots."
+  }
+}

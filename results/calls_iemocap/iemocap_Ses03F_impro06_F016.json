@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro06_F016",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:23:39.852713",
+  "duration_seconds": 4.65,
+  "transcript": "So handsome, so young, so gifted.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "So handsome, so young, so gifted.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.414,
+      "sentiment_score": 0.9683,
+      "pitch_mean": 327.2
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9683,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 77.41,
+    "avg_pitch": 324.71
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro06",
+    "utterance_id": "Ses03F_impro06_F016",
+    "transcript_ground_truth": "So handsome, so young, so gifted."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04M_script01_3_M031",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:09:40.846812",
+  "duration_seconds": 11.59,
+  "transcript": "a kind of responsibility. Man for man, you understand me? And then I went home and it was incredible.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "a kind of responsibility. Man for man, you understand me?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.418,
+      "sentiment_score": 0.0074,
+      "pitch_mean": 323.31
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 11.0,
+      "text": "And then I went home and it was incredible.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.915,
+      "sentiment_score": 0.9748,
+      "pitch_mean": 324.89
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4911,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 98.36,
+    "avg_pitch": 324.36
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script01_3",
+    "utterance_id": "Ses04M_script01_3_M031",
+    "transcript_ground_truth": "a kind of responsibility.  Man for man.  You understand me?  And then I went home and it was incredible."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro01_F003",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:32:38.644188",
+  "duration_seconds": 2.8,
+  "transcript": "Yeah, so I can't I can't do anything for you all my brothers",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.68,
+      "text": "Yeah, so I can't I can't do anything for you all my brothers",
+      "emotion": "disgust",
+      "emotion_confidence": 0.326,
+      "sentiment_score": -0.8762,
+      "pitch_mean": 349.86
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8762,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 278.57,
+    "avg_pitch": 346.94
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro01",
+    "utterance_id": "Ses05M_impro01_F003",
+    "transcript_ground_truth": "Yeah.  So, I can't -- I can't do anything-"
+  }
+}

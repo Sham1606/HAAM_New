@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro02_F012",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:34:51.525715",
+  "duration_seconds": 3.26,
+  "transcript": "What would be the worst of it happen if they found you somewhere else?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "What would be the worst of it happen if they found you somewhere else?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.927,
+      "sentiment_score": -0.6296,
+      "pitch_mean": 329.9
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6296,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 257.67,
+    "avg_pitch": 329.73
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.6667,
+    "arousal": 2.6667,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro02",
+    "utterance_id": "Ses05M_impro02_F012",
+    "transcript_ground_truth": "What would be the worst that would happen if they found you somewhere else?"
+  }
+}

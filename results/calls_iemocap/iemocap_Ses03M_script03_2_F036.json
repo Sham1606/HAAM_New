@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script03_2_F036",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:54:52.257027",
+  "duration_seconds": 2.12,
+  "transcript": "their way into knees.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "their way into knees.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.424,
+      "sentiment_score": -0.1109,
+      "pitch_mean": 328.76
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1109,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 113.12,
+    "avg_pitch": 328.03
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script03_2",
+    "utterance_id": "Ses03M_script03_2_F036",
+    "transcript_ground_truth": "They are away in Tunis."
+  }
+}

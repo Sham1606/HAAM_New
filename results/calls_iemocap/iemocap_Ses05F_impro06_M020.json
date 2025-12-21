@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05F_impro06_M020",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:06:42.363864",
+  "duration_seconds": 5.72,
+  "transcript": "Right, it just doesn't make any sense. It's not real, it doesn't feel real.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Right, it just doesn't make any sense.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.785,
+      "sentiment_score": -0.8727,
+      "pitch_mean": 317.61
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 5.0,
+      "text": "It's not real, it doesn't feel real.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.355,
+      "sentiment_score": -0.7518,
+      "pitch_mean": 318.98
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8123,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 146.85,
+    "avg_pitch": 318.94
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro06",
+    "utterance_id": "Ses05F_impro06_M020",
+    "transcript_ground_truth": "Right, it just doesn't make any sense, it's not real.  It doesn't feel real."
+  }
+}

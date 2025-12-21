@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro03_F007",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:19:12.703293",
+  "duration_seconds": 5.16,
+  "transcript": "He comes up on stage and the entire cast like everyone just like",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.94,
+      "text": "He comes up on stage and the entire cast like everyone just like",
+      "emotion": "neutral",
+      "emotion_confidence": 0.686,
+      "sentiment_score": 0.3654,
+      "pitch_mean": 340.22
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3654,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 151.12,
+    "avg_pitch": 339.29
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 4.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro03",
+    "utterance_id": "Ses03F_impro03_F007",
+    "transcript_ground_truth": "he comes up onstage-- And the entire cast everyone just like"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro06_M004",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:12:12.318544",
+  "duration_seconds": 6.76,
+  "transcript": "Well, I mean, you know, I mean it was, I mean it was that kind of condition.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "Well, I mean, you know, I mean it was, I mean it was that kind of condition.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.1443,
+      "pitch_mean": 320.95
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1443,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 150.89,
+    "avg_pitch": 320.95
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro06",
+    "utterance_id": "Ses04F_impro06_M004",
+    "transcript_ground_truth": "Well I mean, you know, I mean it was I mean with that kind of condition,"
+  }
+}

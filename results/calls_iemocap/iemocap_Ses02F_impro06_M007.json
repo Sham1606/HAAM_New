@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02F_impro06_M007",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:26:59.835295",
+  "duration_seconds": 9.38,
+  "transcript": "Because you know you got all the times and you guys did spend together, you know I mean that's something good that you can look back on",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.2,
+      "text": "Because you know you got all the times and you guys did spend together, you know",
+      "emotion": "neutral",
+      "emotion_confidence": 0.892,
+      "sentiment_score": 0.5603,
+      "pitch_mean": 312.72
+    },
+    {
+      "start_time": 6.2,
+      "end_time": 8.6,
+      "text": "I mean that's something good that you can look back on",
+      "emotion": "neutral",
+      "emotion_confidence": 0.708,
+      "sentiment_score": 0.922,
+      "pitch_mean": 312.25
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.7411,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 172.71,
+    "avg_pitch": 314.26
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro06",
+    "utterance_id": "Ses02F_impro06_M007",
+    "transcript_ground_truth": "'Cause, you know, you've got all the times that you guys did spend together, you know and that's something good that you can look back on."
+  }
+}

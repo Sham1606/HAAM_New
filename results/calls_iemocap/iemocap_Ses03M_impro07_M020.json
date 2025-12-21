@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro07_M020",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:31:07.371324",
+  "duration_seconds": 5.4,
+  "transcript": "And tonight my parents want to take me out to sushi and they said I could bring you",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.94,
+      "text": "And tonight my parents want to take me out to sushi and they said I could bring you",
+      "emotion": "disgust",
+      "emotion_confidence": 0.441,
+      "sentiment_score": 0.5102,
+      "pitch_mean": 325.86
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5102,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 200.0,
+    "avg_pitch": 327.06
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 5.0,
+    "arousal": 5.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro07",
+    "utterance_id": "Ses03M_impro07_M020",
+    "transcript_ground_truth": "And tonight my parents want to take me out to sushi and they said I could bring you."
+  }
+}

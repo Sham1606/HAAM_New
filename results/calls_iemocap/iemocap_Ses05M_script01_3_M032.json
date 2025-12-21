@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_script01_3_M032",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:03:22.235023",
+  "duration_seconds": 12.11,
+  "transcript": "And to see that again, to bring that back onto the earth again, like a monument that would stand behind this man, and it would make a difference to them.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "And to see that again, to bring that back onto the earth again, like a monument that would",
+      "emotion": "disgust",
+      "emotion_confidence": 0.376,
+      "sentiment_score": 0.4038,
+      "pitch_mean": 324.27
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 11.4,
+      "text": "stand behind this man, and it would make a difference to them.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.752,
+      "sentiment_score": 0.657,
+      "pitch_mean": 329.34
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5304,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 148.64,
+    "avg_pitch": 326.07
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_3",
+    "utterance_id": "Ses05M_script01_3_M032",
+    "transcript_ground_truth": "And and to see that again, to to bring that back on the earth again, like- like a monument that that would stand behind these men and and and it would make a difference to them."
+  }
+}

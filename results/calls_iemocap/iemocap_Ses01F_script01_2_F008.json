@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01F_script01_2_F008",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:34:14.428590",
+  "duration_seconds": 10.78,
+  "transcript": "Because she knows what I know, that's why. She's faithful as a rock in my darkest moments, I think of her waiting and I know that I'm right.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Because she knows what I know, that's why.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.794,
+      "sentiment_score": 0.4174,
+      "pitch_mean": 339.67
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 10.0,
+      "text": "She's faithful as a rock in my darkest moments, I think of her waiting and I know that I'm right.",
+      "emotion": "joy",
+      "emotion_confidence": 0.344,
+      "sentiment_score": 0.8848,
+      "pitch_mean": 378.1
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.6511,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "joy": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 155.85,
+    "avg_pitch": 353.9
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_2",
+    "utterance_id": "Ses01F_script01_2_F008",
+    "transcript_ground_truth": "Because she knows what I know, that's why.  She's faithful as a rock.  In my darkest moments, I think of her waiting and I know that I'm right."
+  }
+}

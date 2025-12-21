@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro08_F007",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:57:50.334202",
+  "duration_seconds": 5.5,
+  "transcript": "Thank you very much. So I have a charge on my credit card that isn't mine.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.44,
+      "text": "Thank you very much. So I have a charge on my credit card that isn't mine.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.692,
+      "sentiment_score": 0.1349,
+      "pitch_mean": 371.45
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1349,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 174.59,
+    "avg_pitch": 370.23
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.6667,
+    "arousal": 3.6667,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro08",
+    "utterance_id": "Ses02M_impro08_F007",
+    "transcript_ground_truth": "Thank you very much. Um  So I have a charge on my credit card that, um, isn't mine."
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses02F_impro05_M012",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:25:58.387132",
+  "duration_seconds": 16.65,
+  "transcript": "You paid for the flight and then your bags were checked at it's a service that the airline provides for us. So really it's the risk was taken and I'm sorry but there's really nothing else we can do. So do you want the reimbursement?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.5,
+      "text": "You paid for the flight and then your bags were checked at it's a service that the airline provides for us.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.947,
+      "sentiment_score": 0.1517,
+      "pitch_mean": 334.24
+    },
+    {
+      "start_time": 5.5,
+      "end_time": 13.66,
+      "text": "So really it's the risk was taken and I'm sorry but there's really nothing else we can do.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.868,
+      "sentiment_score": -0.8723,
+      "pitch_mean": 328.34
+    },
+    {
+      "start_time": 13.66,
+      "end_time": 15.66,
+      "text": "So do you want the reimbursement?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.632,
+      "sentiment_score": -0.058,
+      "pitch_mean": 323.52
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2595,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "sadness": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 162.16,
+    "avg_pitch": 330.16
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro05",
+    "utterance_id": "Ses02F_impro05_M012",
+    "transcript_ground_truth": "You paid for the flight and then your bags were checked at--it's a service that the airline provides for us.  So so, really, it's really the risk was taken and, I'm sorry, but there's really nothing else we can do.  So do you want--do you want the reimbursement?"
+  }
+}

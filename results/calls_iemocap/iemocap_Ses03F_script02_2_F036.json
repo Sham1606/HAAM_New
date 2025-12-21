@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script02_2_F036",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:40:05.393037",
+  "duration_seconds": 4.85,
+  "transcript": "The things never turned out anything the way that I thought they would be.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "The things never turned out anything the way that I thought they would be.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.68,
+      "sentiment_score": -0.8316,
+      "pitch_mean": 341.82
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8316,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 173.23,
+    "avg_pitch": 335.34
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.6667,
+    "arousal": 3.0,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_2",
+    "utterance_id": "Ses03F_script02_2_F036",
+    "transcript_ground_truth": "Things have never turned out anything the way that I thought they would be."
+  }
+}

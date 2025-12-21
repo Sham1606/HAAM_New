@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro02_F004",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:49:12.750145",
+  "duration_seconds": 4.34,
+  "transcript": "Where, who, what are you talking about?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Where, who, what are you talking about?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.921,
+      "sentiment_score": -0.4785,
+      "pitch_mean": 336.53
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4785,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 96.83,
+    "avg_pitch": 336.49
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "sur",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro02",
+    "utterance_id": "Ses03M_impro02_F004",
+    "transcript_ground_truth": "Where?  Who?  What are you talking about?"
+  }
+}

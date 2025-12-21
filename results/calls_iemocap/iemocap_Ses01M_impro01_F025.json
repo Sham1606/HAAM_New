@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro01_F025",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:48:22.752796",
+  "duration_seconds": 3.43,
+  "transcript": "They don't pay me enough to deal with people like you.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "They don't pay me enough to deal with people like you.",
+      "emotion": "anger",
+      "emotion_confidence": 0.577,
+      "sentiment_score": -0.9032,
+      "pitch_mean": 330.96
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9032,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 192.42,
+    "avg_pitch": 329.58
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro01",
+    "utterance_id": "Ses01M_impro01_F025",
+    "transcript_ground_truth": "They don't pay me enough to deal people like you."
+  }
+}

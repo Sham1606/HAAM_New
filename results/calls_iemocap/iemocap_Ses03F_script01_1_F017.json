@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses03F_script01_1_F017",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:29:45.137696",
+  "duration_seconds": 9.36,
+  "transcript": "It's those goddamn newspapers, you know? I mean, it's like every day they come out with this new person that comes along. And the next one's gonna be Larry. Alright, alright.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "It's those goddamn newspapers, you know?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.456,
+      "sentiment_score": -0.9048,
+      "pitch_mean": 327.62
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 7.0,
+      "text": "I mean, it's like every day they come out with this new person that comes along.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.747,
+      "sentiment_score": 0.1274,
+      "pitch_mean": 346.88
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 9.0,
+      "text": "And the next one's gonna be Larry.",
+      "emotion": "joy",
+      "emotion_confidence": 0.373,
+      "sentiment_score": 0.0192,
+      "pitch_mean": 354.11
+    },
+    {
+      "start_time": 9.0,
+      "end_time": 10.0,
+      "text": "Alright, alright.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.631,
+      "sentiment_score": 0.281,
+      "pitch_mean": 337.82
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1193,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "disgust": 0.25,
+      "neutral": 0.5,
+      "joy": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 198.71,
+    "avg_pitch": 337.82
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 4.3333,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_1",
+    "utterance_id": "Ses03F_script01_1_F017",
+    "transcript_ground_truth": "It's those Goddamn newspapers, you know? I mean, it's like every day they come out with this new person that comes along. And the next one's going to be Larry."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro02_M030",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:18:53.868401",
+  "duration_seconds": 4.48,
+  "transcript": "I'm not thinking about, just me, thinking about our child.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I'm not thinking about, just me, thinking about our child.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.869,
+      "sentiment_score": -0.0407,
+      "pitch_mean": 331.39
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0407,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 133.93,
+    "avg_pitch": 329.33
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro02",
+    "utterance_id": "Ses03F_impro02_M030",
+    "transcript_ground_truth": "I'm not thinking about just me; I'm thinking about our child."
+  }
+}

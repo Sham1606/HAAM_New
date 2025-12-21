@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses04F_script02_1_M010",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:33:47.021959",
+  "duration_seconds": 7.67,
+  "transcript": "Film and I you called the I might jacket",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.58,
+      "text": "Film",
+      "emotion": "neutral",
+      "emotion_confidence": 0.644,
+      "sentiment_score": 0.2926,
+      "pitch_mean": 329.72
+    },
+    {
+      "start_time": 4.58,
+      "end_time": 9.2,
+      "text": "and I you called the I might jacket",
+      "emotion": "neutral",
+      "emotion_confidence": 0.595,
+      "sentiment_score": 0.0754,
+      "pitch_mean": 327.5
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.184,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 70.43,
+    "avg_pitch": 327.5
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script02_1",
+    "utterance_id": "Ses04F_script02_1_M010",
+    "transcript_ground_truth": "Are you cold?  Do you want my jacket?  We should have brought the blanket, our blanket."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script01_2_M002",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:02:56.507560",
+  "duration_seconds": 5.59,
+  "transcript": "What do you mean? He lived next door to the girl all his life. Why wouldn't he want to see her again?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.94,
+      "text": "What do you mean? He lived next door to the girl all his life. Why wouldn't he want to see her again?",
+      "emotion": "anger",
+      "emotion_confidence": 0.426,
+      "sentiment_score": -0.1176,
+      "pitch_mean": 323.57
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1176,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 236.14,
+    "avg_pitch": 323.46
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script01_2",
+    "utterance_id": "Ses02M_script01_2_M002",
+    "transcript_ground_truth": "What do you mean? He lived next door to the girl all his life, why wouldn't he want to see her again?"
+  }
+}

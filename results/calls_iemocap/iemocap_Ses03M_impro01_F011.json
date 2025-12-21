@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_impro01_F011",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:47:39.857618",
+  "duration_seconds": 7.51,
+  "transcript": "Well, I'm gonna have to call the security because sir you there are hundreds of people waiting in line to this DMV We're closing it about half an hour",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.12,
+      "text": "Well, I'm gonna have to call the security because sir you there are hundreds of people waiting in line to this DMV",
+      "emotion": "neutral",
+      "emotion_confidence": 0.663,
+      "sentiment_score": -0.5548,
+      "pitch_mean": 348.02
+    },
+    {
+      "start_time": 5.12,
+      "end_time": 7.12,
+      "text": "We're closing it about half an hour",
+      "emotion": "neutral",
+      "emotion_confidence": 0.618,
+      "sentiment_score": 0.0739,
+      "pitch_mean": 368.26
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2405,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 231.77,
+    "avg_pitch": 352.08
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro01",
+    "utterance_id": "Ses03M_impro01_F011",
+    "transcript_ground_truth": "Well I'm going to have to call- security because sir, you- there are hundreds of people waiting in line at this D.M.V.-- --We're closing in about half an hour..."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script02_1_M005",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:38:01.116362",
+  "duration_seconds": 4.74,
+  "transcript": "Well, I guess we can't tell it probably isn't it right probably unmistakable don't you think?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.24,
+      "text": "Well, I guess we can't tell it probably isn't it right probably unmistakable don't you think?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.347,
+      "sentiment_score": -0.2944,
+      "pitch_mean": 340.43
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2944,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 202.53,
+    "avg_pitch": 339.31
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script02_1",
+    "utterance_id": "Ses02F_script02_1_M005",
+    "transcript_ground_truth": "Well, I guess we can tell, it probably isn't right?  Probably be unmistakable don't you think?"
+  }
+}

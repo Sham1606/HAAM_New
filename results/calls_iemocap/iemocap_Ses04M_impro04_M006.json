@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro04_M006",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:55:21.929750",
+  "duration_seconds": 2.2,
+  "transcript": "Yeah, I do I do your shit",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Yeah, I do I do your shit",
+      "emotion": "anger",
+      "emotion_confidence": 0.589,
+      "sentiment_score": -0.062,
+      "pitch_mean": 343.95
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.062,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 190.91,
+    "avg_pitch": 346.65
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.3333,
+    "arousal": 3.6667,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro04",
+    "utterance_id": "Ses04M_impro04_M006",
+    "transcript_ground_truth": "Yeah, I do.  I do.  You don't understand."
+  }
+}

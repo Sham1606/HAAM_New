@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03F_script02_2_F039",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:40:11.793996",
+  "duration_seconds": 12.24,
+  "transcript": "I know you are all gay and then I know you wanted this evening to be nice but I can't help thinking of being somewhere else.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 9.48,
+      "text": "I know you are all gay and then I know you wanted this evening to be nice but I can't",
+      "emotion": "disgust",
+      "emotion_confidence": 0.443,
+      "sentiment_score": -0.7157,
+      "pitch_mean": 315.27
+    },
+    {
+      "start_time": 9.48,
+      "end_time": 11.48,
+      "text": "help thinking of being somewhere else.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.872,
+      "sentiment_score": -0.2998,
+      "pitch_mean": 309.85
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5077,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 127.44,
+    "avg_pitch": 314.27
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.3333,
+    "arousal": 3.0,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_2",
+    "utterance_id": "Ses03F_script02_2_F039",
+    "transcript_ground_truth": "I know you are, Augie, and I know you wanted this evening to be nice, but I can't help thinking of being somewhere else."
+  }
+}

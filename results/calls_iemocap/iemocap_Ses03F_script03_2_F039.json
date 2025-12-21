@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03F_script03_2_F039",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:45:27.592392",
+  "duration_seconds": 5.56,
+  "transcript": "Stop it, stop it, I hate you. I love you. You are overbearing and conceited and utterly impossible. You know you're...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Stop it, stop it, I hate you. I love you. You are overbearing and conceited and utterly impossible.",
+      "emotion": "anger",
+      "emotion_confidence": 0.906,
+      "sentiment_score": -0.92,
+      "pitch_mean": 353.76
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 6.0,
+      "text": "You know you're...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.701,
+      "sentiment_score": 0.0884,
+      "pitch_mean": 353.74
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4158,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 226.62,
+    "avg_pitch": 353.74
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.0,
+    "arousal": 4.5,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script03_2",
+    "utterance_id": "Ses03F_script03_2_F039",
+    "transcript_ground_truth": "Stop it, stop it, I hate you, I loath you, you are overbearing and conceited and utterly impossible."
+  }
+}

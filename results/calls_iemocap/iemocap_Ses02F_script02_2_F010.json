@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script02_2_F010",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:39:35.161529",
+  "duration_seconds": 5.38,
+  "transcript": "No, we won't. It's pointless. It's like waiting up to see Santa Claus.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.28,
+      "text": "No, we won't. It's pointless. It's like waiting up to see Santa Claus.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.425,
+      "sentiment_score": -0.765,
+      "pitch_mean": 339.53
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.765,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 144.98,
+    "avg_pitch": 339.99
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script02_2",
+    "utterance_id": "Ses02F_script02_2_F010",
+    "transcript_ground_truth": "No, we won't.  It's pointless.  It's like waiting up to see Santa Claus."
+  }
+}

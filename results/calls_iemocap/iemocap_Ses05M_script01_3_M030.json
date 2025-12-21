@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05M_script01_3_M030",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:03:16.205932",
+  "duration_seconds": 12.7,
+  "transcript": "I mean that exactly, any more selfish, it's just a little bit more selfish, and they'd have been here today. And it gave me an idea while I was watching them all go down.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "I mean that exactly, any more selfish, it's just a little bit more selfish, and they'd have been here today.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.54,
+      "sentiment_score": -0.9066,
+      "pitch_mean": 326.56
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 12.0,
+      "text": "And it gave me an idea while I was watching them all go down.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.48,
+      "sentiment_score": 0.0888,
+      "pitch_mean": 323.64
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4089,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 160.63,
+    "avg_pitch": 323.62
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_3",
+    "utterance_id": "Ses05M_script01_3_M030",
+    "transcript_ground_truth": "I mean that exactly, anymore selfish -- just a little bit more selfish and they would have been here today. And it gave me an idea as I was watching them all go down."
+  }
+}

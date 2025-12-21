@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script01_3_F000",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:04:59.836937",
+  "duration_seconds": 3.65,
+  "transcript": "The only one I know is to love his parents.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "The only one I know is to love his parents.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.358,
+      "sentiment_score": 0.6354,
+      "pitch_mean": 328.23
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.6354,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 164.29,
+    "avg_pitch": 327.86
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 4.0,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_3",
+    "utterance_id": "Ses01M_script01_3_F000",
+    "transcript_ground_truth": "The only one I know still love his parents."
+  }
+}

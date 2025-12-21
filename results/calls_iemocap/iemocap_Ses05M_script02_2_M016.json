@@ -1,0 +1,81 @@
+{
+  "call_id": "iemocap_Ses05M_script02_2_M016",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:09:06.353441",
+  "duration_seconds": 11.17,
+  "transcript": "It was in the car, right? When we were passing Nickerbocker's liquor locker. You said, let's stop and get some champagne. I said, times away, sting or something like that, right? You wanted to be like it was before, right?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It was in the car, right?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.65,
+      "sentiment_score": 0.0068,
+      "pitch_mean": 306.95
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "When we were passing Nickerbocker's liquor locker.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.967,
+      "sentiment_score": 0.0342,
+      "pitch_mean": 319.89
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "You said, let's stop and get some champagne.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.388,
+      "sentiment_score": 0.2037,
+      "pitch_mean": 326.65
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 8.0,
+      "text": "I said, times away, sting or something like that, right?",
+      "emotion": "anger",
+      "emotion_confidence": 0.938,
+      "sentiment_score": -0.1873,
+      "pitch_mean": 321.94
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 10.0,
+      "text": "You wanted to be like it was before, right?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.886,
+      "sentiment_score": -0.0188,
+      "pitch_mean": 337.76
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0077,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.4,
+      "disgust": 0.4,
+      "anger": 0.2
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 214.86,
+    "avg_pitch": 319.81
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.3333,
+    "arousal": 4.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script02_2",
+    "utterance_id": "Ses05M_script02_2_M016",
+    "transcript_ground_truth": "It was in the car, right?  When we were passing Knickerbocker Liquor Locker, you said, Let's stop and get champagne. and I said that times a wasting or something like that, right?  You wanted it to be like it was before, right?"
+  }
+}

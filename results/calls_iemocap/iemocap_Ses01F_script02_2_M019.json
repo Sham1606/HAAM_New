@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01F_script02_2_M019",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:42:08.235049",
+  "duration_seconds": 10.55,
+  "transcript": "It's when we were driving past that nickerbocker liquor locker. You said let's get some champagne and I said no like times of wasting or something like that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "It's when we were driving past that nickerbocker liquor locker.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.398,
+      "sentiment_score": 0.021,
+      "pitch_mean": 325.38
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 10.0,
+      "text": "You said let's get some champagne and I said no like times of wasting or something like that.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.8,
+      "sentiment_score": -0.0034,
+      "pitch_mean": 330.64
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0088,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 159.17,
+    "avg_pitch": 328.25
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_2",
+    "utterance_id": "Ses01F_script02_2_M019",
+    "transcript_ground_truth": "It's when we were driving past that Knickerbocker Liquor Locker, you said, let's get some champagne.  I said no, time's a wasting or something like that."
+  }
+}

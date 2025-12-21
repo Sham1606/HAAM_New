@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses04F_impro01_F012",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T11:57:56.391336",
+  "duration_seconds": 5.78,
+  "transcript": "I'm not starting over again. No, I have done this five times. I'm not starting over again.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I'm not starting over again.",
+      "emotion": "joy",
+      "emotion_confidence": 0.497,
+      "sentiment_score": -0.4963,
+      "pitch_mean": 378.69
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.6,
+      "text": "No, I have done this five times.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.914,
+      "sentiment_score": 0.0023,
+      "pitch_mean": 361.58
+    },
+    {
+      "start_time": 3.6,
+      "end_time": 5.6,
+      "text": "I'm not starting over again.",
+      "emotion": "joy",
+      "emotion_confidence": 0.489,
+      "sentiment_score": -0.4963,
+      "pitch_mean": 365.75
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3301,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 0.667,
+      "neutral": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 176.47,
+    "avg_pitch": 368.17
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 4.5,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro01",
+    "utterance_id": "Ses04F_impro01_F012",
+    "transcript_ground_truth": "I'm not starting over again.  No I have done this five times.  I am not starting over again."
+  }
+}

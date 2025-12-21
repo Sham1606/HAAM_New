@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses03F_script03_2_M031",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:46:34.957080",
+  "duration_seconds": 10.86,
+  "transcript": "Oh very interesting indeed. How about a child of four or a child of six or a child of nine? We might have a splendid little debate about this. Intemperate thoughts.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.12,
+      "text": "Oh very interesting indeed.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.893,
+      "sentiment_score": 0.948,
+      "pitch_mean": 331.15
+    },
+    {
+      "start_time": 2.12,
+      "end_time": 7.16,
+      "text": "How about a child of four or a child of six or a child of nine?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.906,
+      "sentiment_score": 0.0126,
+      "pitch_mean": 347.71
+    },
+    {
+      "start_time": 7.16,
+      "end_time": 9.44,
+      "text": "We might have a splendid little debate about this.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.858,
+      "sentiment_score": 0.4951,
+      "pitch_mean": 358.43
+    },
+    {
+      "start_time": 9.44,
+      "end_time": 10.44,
+      "text": "Intemperate thoughts.",
+      "emotion": "anger",
+      "emotion_confidence": 0.688,
+      "sentiment_score": -0.4002,
+      "pitch_mean": 348.32
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2639,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.75,
+      "anger": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 171.31,
+    "avg_pitch": 342.92
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script03_2",
+    "utterance_id": "Ses03F_script03_2_M031",
+    "transcript_ground_truth": "Oh, very interesting indeed. How about a child of four or a child of six or a child of nine. We might have a splendid little debate about this intemperate tots."
+  }
+}

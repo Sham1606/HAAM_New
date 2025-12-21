@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01F_impro04_F002",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:20:51.753339",
+  "duration_seconds": 12.3,
+  "transcript": "I don't know. I mean, I've been looking for so long. I just figure that I mean, I think things like monster a lot more reliable than just some random free board.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.32,
+      "text": "I don't know. I mean, I've been looking for so long. I just figure that I mean, I think",
+      "emotion": "disgust",
+      "emotion_confidence": 0.345,
+      "sentiment_score": -0.1069,
+      "pitch_mean": 337.59
+    },
+    {
+      "start_time": 6.32,
+      "end_time": 11.08,
+      "text": "things like monster a lot more reliable than just some random free board.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.92,
+      "sentiment_score": 0.6696,
+      "pitch_mean": 344.15
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2813,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 156.13,
+    "avg_pitch": 338.16
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro04",
+    "utterance_id": "Ses01F_impro04_F002",
+    "transcript_ground_truth": "I don't know.  I mean I've been looking for so long that I just figured that--  I mean, I think things like Monster are a lot more reliable than just some random free board."
+  }
+}

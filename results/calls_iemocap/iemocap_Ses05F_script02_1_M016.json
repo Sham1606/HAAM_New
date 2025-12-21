@@ -1,0 +1,63 @@
+{
+  "call_id": "iemocap_Ses05F_script02_1_M016",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:22:15.839694",
+  "duration_seconds": 8.28,
+  "transcript": "No, no, no, that's not my point. My point is what's the point of coming down here? We're just gonna turn around and go home. Don't you want to see it?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "No, no, no, that's not my point. My point is what's the point of coming down here?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.402,
+      "sentiment_score": -0.7075,
+      "pitch_mean": 335.06
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "We're just gonna turn around and go home.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.745,
+      "sentiment_score": 0.0105,
+      "pitch_mean": 342.05
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 8.0,
+      "text": "Don't you want to see it?",
+      "emotion": "anger",
+      "emotion_confidence": 0.721,
+      "sentiment_score": -0.4894,
+      "pitch_mean": 307.87
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3955,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.333,
+      "neutral": 0.333,
+      "anger": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 224.58,
+    "avg_pitch": 331.06
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script02_1",
+    "utterance_id": "Ses05F_script02_1_M016",
+    "transcript_ground_truth": "No, no, no.  That's not my point.  My point is what's the point in coming down here if we are just going to turn around and go home.  Don't you want to see it?"
+  }
+}

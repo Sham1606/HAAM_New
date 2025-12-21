@@ -1,0 +1,82 @@
+{
+  "call_id": "iemocap_Ses04M_script01_1_F030",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:05:11.214794",
+  "duration_seconds": 13.86,
+  "transcript": "Well, that's a good answer, but it don't answer anything. He thinks he's coming back, Chris. You married that girl you're pronouncing him dead. Now what happens to your father? Do you know because I don't?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.08,
+      "text": "Well, that's a good answer, but it don't answer anything.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.428,
+      "sentiment_score": -0.5171,
+      "pitch_mean": 323.23
+    },
+    {
+      "start_time": 4.08,
+      "end_time": 6.84,
+      "text": "He thinks he's coming back, Chris.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.676,
+      "sentiment_score": 0.1239,
+      "pitch_mean": 323.27
+    },
+    {
+      "start_time": 6.84,
+      "end_time": 10.12,
+      "text": "You married that girl you're pronouncing him dead.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.654,
+      "sentiment_score": -0.7558,
+      "pitch_mean": 336.91
+    },
+    {
+      "start_time": 10.12,
+      "end_time": 11.32,
+      "text": "Now what happens to your father?",
+      "emotion": "anger",
+      "emotion_confidence": 0.747,
+      "sentiment_score": -0.2795,
+      "pitch_mean": 332.6
+    },
+    {
+      "start_time": 11.32,
+      "end_time": 12.72,
+      "text": "Do you know because I don't?",
+      "emotion": "joy",
+      "emotion_confidence": 0.303,
+      "sentiment_score": -0.1271,
+      "pitch_mean": 339.98
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3111,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.4,
+      "neutral": 0.2,
+      "anger": 0.2,
+      "joy": 0.2
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 155.84,
+    "avg_pitch": 325.15
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script01_1",
+    "utterance_id": "Ses04M_script01_1_F030",
+    "transcript_ground_truth": "Well that's a good answer, but it don't answer anything.  He thinks he's coming back, Chris.  You marry that girl, you're pronouncing him dead.  Now what happens to your father?  Do you know?  Because I don't."
+  }
+}

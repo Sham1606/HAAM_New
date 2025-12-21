@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script03_1_M001",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:43:15.394189",
+  "duration_seconds": 2.22,
+  "transcript": "Good God!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Good God!",
+      "emotion": "disgust",
+      "emotion_confidence": 0.405,
+      "sentiment_score": 0.8283,
+      "pitch_mean": 338.32
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.8283,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 53.99,
+    "avg_pitch": 334.13
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script03_1",
+    "utterance_id": "Ses03F_script03_1_M001",
+    "transcript_ground_truth": "Good God."
+  }
+}

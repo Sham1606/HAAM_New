@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro08_F028",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:03:16.289186",
+  "duration_seconds": 4.21,
+  "transcript": "Call up the Sprit call center and you know cool",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.72,
+      "text": "Call up the Sprit call center and you know cool",
+      "emotion": "disgust",
+      "emotion_confidence": 0.511,
+      "sentiment_score": 0.486,
+      "pitch_mean": 346.2
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.486,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 142.52,
+    "avg_pitch": 345.93
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.5,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro08",
+    "utterance_id": "Ses04M_impro08_F028",
+    "transcript_ground_truth": "call up the Sprint call center and, uh, you know. cool"
+  }
+}

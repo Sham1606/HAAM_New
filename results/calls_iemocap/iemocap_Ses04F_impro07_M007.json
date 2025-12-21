@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses04F_impro07_M007",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:16:05.056568",
+  "duration_seconds": 6.04,
+  "transcript": "You're gonna have to get like a 9mm because USC is like in South Central.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.12,
+      "text": "You're gonna have to get like a 9mm",
+      "emotion": "neutral",
+      "emotion_confidence": 0.806,
+      "sentiment_score": -0.0611,
+      "pitch_mean": 335.76
+    },
+    {
+      "start_time": 3.12,
+      "end_time": 5.52,
+      "text": "because USC is like in South Central.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.903,
+      "sentiment_score": -0.0547,
+      "pitch_mean": 329.57
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0579,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 149.01,
+    "avg_pitch": 334.2
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro07",
+    "utterance_id": "Ses04F_impro07_M007",
+    "transcript_ground_truth": "You're going to have to get like a nine millimeter because U.S.C.'s like in South Central."
+  }
+}

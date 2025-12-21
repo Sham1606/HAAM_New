@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro05b_M026",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T04:00:32.736809",
+  "duration_seconds": 4.9,
+  "transcript": "Okay, get on the phone and figure out my luggage and tell me when it's gonna get there alright",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.08,
+      "text": "Okay, get on the phone and figure out my luggage and tell me when it's gonna get there alright",
+      "emotion": "joy",
+      "emotion_confidence": 0.42,
+      "sentiment_score": 0.1671,
+      "pitch_mean": 341.57
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1671,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 232.66,
+    "avg_pitch": 342.14
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro05b",
+    "utterance_id": "Ses03M_impro05b_M026",
+    "transcript_ground_truth": "Okay.  Get on the phone and figure out where my luggage is and tell me when it's going to get there alright?"
+  }
+}

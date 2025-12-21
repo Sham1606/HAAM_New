@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro03_M023",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:53:48.888948",
+  "duration_seconds": 2.25,
+  "transcript": "Are you gonna do it in town? Are you gonna do that town?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Are you gonna do it in town? Are you gonna do that town?",
+      "emotion": "anger",
+      "emotion_confidence": 0.568,
+      "sentiment_score": 0.0322,
+      "pitch_mean": 343.69
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0322,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 346.67,
+    "avg_pitch": 335.21
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro03",
+    "utterance_id": "Ses05F_impro03_M023",
+    "transcript_ground_truth": "Are you going to do it in town or are you out of town?"
+  }
+}

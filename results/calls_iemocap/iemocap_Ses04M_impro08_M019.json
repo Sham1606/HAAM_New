@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses04M_impro08_M019",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:04:02.574094",
+  "duration_seconds": 6.92,
+  "transcript": "Yeah, that's fine. I just Yeah, I mean it's just making a difference to me and it's not like it's gonna cause my job or anything",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Yeah, that's fine. I just",
+      "emotion": "disgust",
+      "emotion_confidence": 0.473,
+      "sentiment_score": 0.5188,
+      "pitch_mean": 330.81
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 6.5,
+      "text": "Yeah, I mean it's just making a difference to me and it's not like it's gonna cause my job or anything",
+      "emotion": "disgust",
+      "emotion_confidence": 0.482,
+      "sentiment_score": 0.2564,
+      "pitch_mean": 338.99
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3876,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 225.43,
+    "avg_pitch": 333.33
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro08",
+    "utterance_id": "Ses04M_impro08_M019",
+    "transcript_ground_truth": "Yeah.  That's fine.  I just -- that's fine. Yeah, I mean, it doesn't make any difference to me.  I mean, it's not like it's going to cost my job or anything."
+  }
+}

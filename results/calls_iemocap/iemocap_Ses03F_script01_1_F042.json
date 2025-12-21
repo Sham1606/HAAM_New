@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03F_script01_1_F042",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:30:34.022058",
+  "duration_seconds": 3.39,
+  "transcript": "Maybe in New York. You're crazy.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "Maybe in New York.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.963,
+      "sentiment_score": 0.0366,
+      "pitch_mean": 322.86
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 2.0,
+      "text": "You're crazy.",
+      "emotion": "anger",
+      "emotion_confidence": 0.709,
+      "sentiment_score": -0.6154,
+      "pitch_mean": 335.63
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2894,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 106.08,
+    "avg_pitch": 323.87
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.3333,
+    "arousal": 3.6667,
+    "dominance": 3.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_1",
+    "utterance_id": "Ses03F_script01_1_F042",
+    "transcript_ground_truth": "You're crazy."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro03_F001",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:51:31.169538",
+  "duration_seconds": 2.96,
+  "transcript": "Oh my god congratulations!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Oh my god congratulations!",
+      "emotion": "neutral",
+      "emotion_confidence": 0.931,
+      "sentiment_score": 0.9746,
+      "pitch_mean": 378.53
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9746,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 81.08,
+    "avg_pitch": 367.33
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 5.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro03",
+    "utterance_id": "Ses04M_impro03_F001",
+    "transcript_ground_truth": "Oh, my God.  Congratulations."
+  }
+}

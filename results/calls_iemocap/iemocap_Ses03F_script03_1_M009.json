@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script03_1_M009",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:43:28.782870",
+  "duration_seconds": 3.13,
+  "transcript": "You mean that sacred and beautiful thing love?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "You mean that sacred and beautiful thing love?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.462,
+      "sentiment_score": 0.7297,
+      "pitch_mean": 330.67
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.7297,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 153.11,
+    "avg_pitch": 331.47
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script03_1",
+    "utterance_id": "Ses03F_script03_1_M009",
+    "transcript_ground_truth": "You mean that sacred and beautiful thing, love?"
+  }
+}

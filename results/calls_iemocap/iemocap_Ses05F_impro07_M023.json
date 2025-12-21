@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05F_impro07_M023",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:09:34.812448",
+  "duration_seconds": 10.39,
+  "transcript": "Well, yeah, of course, but you have to be working on your schools up to and partying that takes up a lot of time Right especially at USC hurts big crazy party college",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.44,
+      "text": "Well, yeah, of course, but you have to be working on your schools up to and partying that takes up a lot of time",
+      "emotion": "neutral",
+      "emotion_confidence": 0.876,
+      "sentiment_score": -0.2215,
+      "pitch_mean": 328.1
+    },
+    {
+      "start_time": 7.02,
+      "end_time": 9.8,
+      "text": "Right especially at USC hurts big crazy party college",
+      "emotion": "disgust",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.6755,
+      "pitch_mean": 327.1
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4485,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 190.57,
+    "avg_pitch": 327.42
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro07",
+    "utterance_id": "Ses05F_impro07_M023",
+    "transcript_ground_truth": "Well, yeah, of course, but you're going to be working on your school stuff too, and partying that takes up a lot of time, right, especially at U.S.C., I hear it's a big party college."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script01_3_M026",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:35:43.055198",
+  "duration_seconds": 3.75,
+  "transcript": "No, no, no, nothing like that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "No, no, no, nothing like that.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.579,
+      "sentiment_score": -0.8116,
+      "pitch_mean": 327.79
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8116,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 96.01,
+    "avg_pitch": 334.34
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_3",
+    "utterance_id": "Ses03F_script01_3_M026",
+    "transcript_ground_truth": "No, no, no, no. Nothing like that."
+  }
+}

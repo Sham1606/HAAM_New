@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses04M_script02_2_F019",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:12:23.369529",
+  "duration_seconds": 5.33,
+  "transcript": "Would rather not remember some things. Would rather not hope for some things. Sure.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.4,
+      "text": "Would rather not remember some things.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.444,
+      "sentiment_score": -0.5236,
+      "pitch_mean": 329.17
+    },
+    {
+      "start_time": 2.4,
+      "end_time": 4.8,
+      "text": "Would rather not hope for some things.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.389,
+      "sentiment_score": -0.5606,
+      "pitch_mean": 334.63
+    },
+    {
+      "start_time": 4.8,
+      "end_time": 5.3,
+      "text": "Sure.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.841,
+      "sentiment_score": 0.2138,
+      "pitch_mean": 331.96
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2901,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.667,
+      "neutral": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 157.6,
+    "avg_pitch": 331.12
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script02_2",
+    "utterance_id": "Ses04M_script02_2_F019",
+    "transcript_ground_truth": "I'd rather not remember some things.  I'd rather not hope for some things."
+  }
+}

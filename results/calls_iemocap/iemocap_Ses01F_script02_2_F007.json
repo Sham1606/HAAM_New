@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script02_2_F007",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:40:02.538222",
+  "duration_seconds": 5.71,
+  "transcript": "We just have different ideas of what this night is supposed to look like.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "We just have different ideas of what this night is supposed to look like.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.925,
+      "sentiment_score": -0.0412,
+      "pitch_mean": 354.66
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0412,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 147.11,
+    "avg_pitch": 351.35
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_2",
+    "utterance_id": "Ses01F_script02_2_F007",
+    "transcript_ground_truth": "We just have different ideas of what this night is supposed to look like."
+  }
+}

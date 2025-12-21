@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro04_F011",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:40:02.390925",
+  "duration_seconds": 4.5,
+  "transcript": "Well, I don't really know. I don't I don't know you in like a job situation. So",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.8,
+      "text": "Well, I don't really know. I don't I don't know you in like a job situation. So",
+      "emotion": "disgust",
+      "emotion_confidence": 0.432,
+      "sentiment_score": -0.3371,
+      "pitch_mean": 338.64
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3371,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 226.67,
+    "avg_pitch": 342.03
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro04",
+    "utterance_id": "Ses05M_impro04_F011",
+    "transcript_ground_truth": "Well, I don't really know.  I don't I don't know you in like a job situation, so."
+  }
+}

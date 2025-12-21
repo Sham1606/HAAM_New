@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01F_impro05_M035",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:26:40.098008",
+  "duration_seconds": 6.31,
+  "transcript": "Or you can make a phone call, but I think a letter might be a little more. Am I impressed in letters help more?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.6,
+      "text": "Or you can make a phone call, but I think a letter might be a little more.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.97,
+      "sentiment_score": 0.0147,
+      "pitch_mean": 324.75
+    },
+    {
+      "start_time": 3.6,
+      "end_time": 6.1,
+      "text": "Am I impressed in letters help more?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.93,
+      "sentiment_score": 0.507,
+      "pitch_mean": 324.45
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2609,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 228.21,
+    "avg_pitch": 323.34
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 2.0,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro05",
+    "utterance_id": "Ses01F_impro05_M035",
+    "transcript_ground_truth": "Or you can make a phone call.  But I think a letter might be a little more-- in my impression, letters have more..."
+  }
+}

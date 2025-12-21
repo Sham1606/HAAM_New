@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script02_2_M037",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:09:57.461274",
+  "duration_seconds": 2.21,
+  "transcript": "Well, it is in champagne.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Well, it is in champagne.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.945,
+      "sentiment_score": 0.1707,
+      "pitch_mean": 320.96
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1707,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 135.75,
+    "avg_pitch": 320.03
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 3.3333,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script02_2",
+    "utterance_id": "Ses05M_script02_2_M037",
+    "transcript_ground_truth": "Well, it isn't champagne."
+  }
+}

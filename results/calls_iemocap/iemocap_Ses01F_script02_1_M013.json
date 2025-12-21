@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script02_1_M013",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:38:43.286769",
+  "duration_seconds": 3.99,
+  "transcript": "Do they always run during a full moon? They don't member, was it full?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Do they always run during a full moon? They don't member, was it full?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.779,
+      "sentiment_score": 0.0308,
+      "pitch_mean": 345.4
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0308,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 210.67,
+    "avg_pitch": 336.4
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_1",
+    "utterance_id": "Ses01F_script02_1_M013",
+    "transcript_ground_truth": "Do they always run during a full moon?  I don't remember.  Was it full last year?"
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "call_id": "iemocap_Ses01M_impro03_F006",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:51:16.758450",
+  "duration_seconds": 3.73,
+  "transcript": "\u304a\u3061\u306e\u65b9\u3060\u3051\u306b...\u521d\u3081\u3066?\u3042\u3063\u3066\u304b\u304b\u3089!\u3061\u3087\u3044\u3088\u30c8\u30df\u30e7\u6642\u306e\u901f\u3055\u30a2\u30ab\u30c3\u30af\u3084 p\u00e5\u7dad\u6301\u30c8\u30df\u30e7\u5dba\u4e9c\u8272APP\u79c1\u306f\u5927\u304d\u304f\u3084\u308d\u30d1\u30f3\u3067\u3059\u305d\u3046\u72af\u98ef\u3046\u3093\u308f\u304b\u308b\u30fb\u30fb\u30fb\u3044\u3063\u305f\u5730\u6473",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.36,
+      "text": "\u304a\u3061\u306e\u65b9\u3060\u3051\u306b...",
+      "emotion": "anger",
+      "emotion_confidence": 0.521,
+      "sentiment_score": -0.0266,
+      "pitch_mean": 322.45
+    },
+    {
+      "start_time": 1.36,
+      "end_time": 2.12,
+      "text": "\u521d\u3081\u3066?",
+      "emotion": "anger",
+      "emotion_confidence": 0.512,
+      "sentiment_score": -0.0256,
+      "pitch_mean": 389.9
+    },
+    {
+      "start_time": 2.12,
+      "end_time": 2.9,
+      "text": "\u3042\u3063\u3066\u304b\u304b\u3089!",
+      "emotion": "anger",
+      "emotion_confidence": 0.6,
+      "sentiment_score": 0.4819,
+      "pitch_mean": 339.71
+    },
+    {
+      "start_time": 2.9,
+      "end_time": 3.8,
+      "text": "\u3061\u3087\u3044\u3088\u30c8\u30df\u30e7\u6642\u306e\u901f\u3055",
+      "emotion": "neutral",
+      "emotion_confidence": 0.765,
+      "sentiment_score": -0.0832,
+      "pitch_mean": 355.71
+    },
+    {
+      "start_time": 3.8,
+      "end_time": 4.72,
+      "text": "\u30a2\u30ab\u30c3\u30af",
+      "emotion": "neutral",
+      "emotion_confidence": 0.819,
+      "sentiment_score": 0.0966,
+      "pitch_mean": 355.71
+    },
+    {
+      "start_time": 4.72,
+      "end_time": 6.0,
+      "text": "\u3084 p\u00e5",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.082,
+      "pitch_mean": 355.71
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 6.84,
+      "text": "\u7dad\u6301",
+      "emotion": "neutral",
+      "emotion_confidence": 0.692,
+      "sentiment_score": 0.026,
+      "pitch_mean": 355.71
+    },
+    {
+      "start_time": 6.84,
+      "end_time": 9.46,
+      "text": "\u30c8\u30df\u30e7",
+      "emotion": "neutral",
+      "emotion_confidence": 0.832,
+      "sentiment_score": 0.0251,
+      "pitch_mean": 355.71
+    },
+    {
+      "start_time": 9.46,
+      "end_time": 10.2,
+      "text": "\u5dba\u4e9c",
+      "emotion": "neutral",
+      "emotion_confidence": 0.916,
+      "sentiment_score": 0.0566,
+      "pitch_mean": 355.71
+    },
+    {
+      "start_time": 10.2,
+      "end_time": 12.3,
+      "text": "\u8272APP",
+      "emotion": "neutral",
+      "emotion_confidence": 0.894,
+      "sentiment_score": 0.0575,
+      "pitch_mean": 355.71
+    },
+    {
+      "start_time": 12.3,
+      "end_time": 14.96,
+      "text": "\u79c1\u306f",
+      "emotion": "neutral",
+      "emotion_confidence": 0.533,
+      "sentiment_score": -0.0263,
+      "pitch_mean": 355.71
+    },
+    {
+      "start_time": 14.96,
+      "end_time": 16.36,
+      "text": "\u5927\u304d\u304f",
+      "emotion": "neutral",
+      "emotion_confidence": 0.862,
+      "sentiment_score": -0.0698,
+      "pitch_mean": 355.71
+    },
+    {
+      "start_time": 16.36,
+      "end_time": 16.64,
+      "text": "\u3084\u308d",
+      "emotion": "neutral",
+      "emotion_confidence": 0.763,
+      "sentiment_score": -0.0156,
+      "pitch_mean": 355.71
+    },
+    {
+      "start_time": 16.64,
+      "end_time": 18.32,
+      "text": "\u30d1\u30f3",
+      "emotion": "neutral",
+      "emotion_confidence": 0.806,
+      "sentiment_score": -0.0475,
+      "pitch_mean": 355.71
+    },
+    {
+      "start_time": 18.32,
+      "end_time": 19.4,
+      "text": "\u3067\u3059",
+      "emotion": "neutral",
+      "emotion_confidence": 0.519,
+      "sentiment_score": 0.3913,
+      "pitch_mean": 355.71
+    },
+    {
+      "start_time": 19.4,
+      "end_time": 21.72,
+      "text": "\u305d\u3046",
+      "emotion": "neutral",
+      "emotion_confidence": 0.882,
+      "sentiment_score": -0.1002,
+      "pitch_mean": 355.71
+    },
+    {
+      "start_time": 21.72,
+      "end_time": 23.14,
+      "text": "\u72af\u98ef",
+      "emotion": "neutral",
+      "emotion_confidence": 0.733,
+      "sentiment_score": 0.0224,
+      "pitch_mean": 355.71
+    },
+    {
+      "start_time": 23.14,
+      "end_time": 23.86,
+      "text": "\u3046\u3093",
+      "emotion": "neutral",
+      "emotion_confidence": 0.843,
+      "sentiment_score": -0.0356,
+      "pitch_mean": 355.71
+    },
+    {
+      "start_time": 23.86,
+      "end_time": 26.06,
+      "text": "\u308f\u304b\u308b",
+      "emotion": "neutral",
+      "emotion_confidence": 0.763,
+      "sentiment_score": -0.0765,
+      "pitch_mean": 355.71
+    },
+    {
+      "start_time": 26.06,
+      "end_time": 27.42,
+      "text": "\u30fb\u30fb\u30fb",
+      "emotion": "neutral",
+      "emotion_confidence": 0.756,
+      "sentiment_score": 0.0342,
+      "pitch_mean": 355.71
+    },
+    {
+      "start_time": 27.42,
+      "end_time": 28.4,
+      "text": "\u3044\u3063\u305f",
+      "emotion": "neutral",
+      "emotion_confidence": 0.786,
+      "sentiment_score": -0.0006,
+      "pitch_mean": 355.71
+    },
+    {
+      "start_time": 28.4,
+      "end_time": 29.68,
+      "text": "\u5730\u6473",
+      "emotion": "neutral",
+      "emotion_confidence": 0.798,
+      "sentiment_score": 0.0393,
+      "pitch_mean": 355.71
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0292,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "anger": 0.136,
+      "neutral": 0.864
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 32.13,
+    "avg_pitch": 355.71
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro03",
+    "utterance_id": "Ses01M_impro03_F006",
+    "transcript_ground_truth": "That's so cool. Uh huh."
+  }
+}

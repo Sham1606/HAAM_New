@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script03_1_F006",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:27:03.135522",
+  "duration_seconds": 2.01,
+  "transcript": "We have exquisitely with the most...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "We have exquisitely with the most...",
+      "emotion": "disgust",
+      "emotion_confidence": 0.414,
+      "sentiment_score": 0.3021,
+      "pitch_mean": 344.23
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3021,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 179.11,
+    "avg_pitch": 344.33
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script03_1",
+    "utterance_id": "Ses05F_script03_1_F006",
+    "transcript_ground_truth": "Behave exquisitely."
+  }
+}

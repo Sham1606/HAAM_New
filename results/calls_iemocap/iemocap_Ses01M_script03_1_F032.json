@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script03_1_F032",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:14:28.978546",
+  "duration_seconds": 6.48,
+  "transcript": "Oh, I know you threw about the window to the grand canal. Oh, I'll never forgive you for that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Oh, I know you threw about the window to the grand canal. Oh, I'll never forgive you for that.",
+      "emotion": "anger",
+      "emotion_confidence": 0.508,
+      "sentiment_score": -0.9308,
+      "pitch_mean": 360.64
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9308,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 175.93,
+    "avg_pitch": 346.77
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script03_1",
+    "utterance_id": "Ses01M_script03_1_F032",
+    "transcript_ground_truth": "Oh I know you threw it out the window and into the Grand Canal.  Oh, I'll never forgive you for that."
+  }
+}

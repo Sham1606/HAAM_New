@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro04_M010",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:52:06.259252",
+  "duration_seconds": 6.43,
+  "transcript": "Yeah, it says I'm stupid enough to be trying this long and not move on somewhere else.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.4,
+      "text": "Yeah, it says I'm stupid enough to be trying this long and not move on somewhere else.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.395,
+      "sentiment_score": -0.9058,
+      "pitch_mean": 330.2
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9058,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 158.54,
+    "avg_pitch": 330.54
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.3333,
+    "arousal": 3.3333,
+    "dominance": 3.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro04",
+    "utterance_id": "Ses02M_impro04_M010",
+    "transcript_ground_truth": "Yea, it says I'm stupid enough to be trying this long and not move on somewhere else."
+  }
+}

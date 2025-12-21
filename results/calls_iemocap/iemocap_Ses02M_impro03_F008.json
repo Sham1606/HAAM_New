@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses02M_impro03_F008",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:49:32.200230",
+  "duration_seconds": 4.23,
+  "transcript": "Yeah, you're so... Oh my gosh! Was she surprised?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.44,
+      "text": "Yeah, you're so...",
+      "emotion": "joy",
+      "emotion_confidence": 0.393,
+      "sentiment_score": 0.2593,
+      "pitch_mean": 392.02
+    },
+    {
+      "start_time": 1.44,
+      "end_time": 2.46,
+      "text": "Oh my gosh!",
+      "emotion": "neutral",
+      "emotion_confidence": 0.94,
+      "sentiment_score": 0.7455,
+      "pitch_mean": 348.06
+    },
+    {
+      "start_time": 2.46,
+      "end_time": 3.96,
+      "text": "Was she surprised?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.98,
+      "sentiment_score": -0.0356,
+      "pitch_mean": 339.43
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3231,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "joy": 0.333,
+      "neutral": 0.667
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 127.8,
+    "avg_pitch": 349.32
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 5.0,
+    "arousal": 4.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro03",
+    "utterance_id": "Ses02M_impro03_F008",
+    "transcript_ground_truth": "Yea, I guess so. Oh, my Gosh. Was she surprised?"
+  }
+}

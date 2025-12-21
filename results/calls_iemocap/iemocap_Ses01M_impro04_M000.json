@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro04_M000",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:53:54.010452",
+  "duration_seconds": 1.98,
+  "transcript": "which man!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.1,
+      "text": "which man!",
+      "emotion": "neutral",
+      "emotion_confidence": 0.939,
+      "sentiment_score": 0.1598,
+      "pitch_mean": 331.42
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1598,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 60.64,
+    "avg_pitch": 331.42
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro04",
+    "utterance_id": "Ses01M_impro04_M000",
+    "transcript_ground_truth": "I'm just mad."
+  }
+}

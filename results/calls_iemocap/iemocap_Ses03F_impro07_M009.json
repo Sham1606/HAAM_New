@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro07_M009",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:26:18.406364",
+  "duration_seconds": 1.66,
+  "transcript": "Oh really?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Oh really?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.964,
+      "sentiment_score": -0.0564,
+      "pitch_mean": 396.13
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0564,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 72.11,
+    "avg_pitch": 396.13
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "sur",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro07",
+    "utterance_id": "Ses03F_impro07_M009",
+    "transcript_ground_truth": "oh really?"
+  }
+}

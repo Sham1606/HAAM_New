@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro03_F013",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:19:24.276722",
+  "duration_seconds": 3.82,
+  "transcript": "I don't know how to just like take me by surprise.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.5,
+      "text": "I don't know how to just like take me by surprise.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.942,
+      "sentiment_score": -0.5636,
+      "pitch_mean": 337.74
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5636,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 172.61,
+    "avg_pitch": 335.36
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.5,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro03",
+    "utterance_id": "Ses03F_impro03_F013",
+    "transcript_ground_truth": "I don't know- it just like took me, took me by surprise."
+  }
+}

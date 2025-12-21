@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro08_M008",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:58:45.486374",
+  "duration_seconds": 3.39,
+  "transcript": "Okay, alright yeah, I see it on here",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.92,
+      "text": "Okay, alright yeah, I see it on here",
+      "emotion": "disgust",
+      "emotion_confidence": 0.356,
+      "sentiment_score": 0.1682,
+      "pitch_mean": 347.7
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1682,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 141.48,
+    "avg_pitch": 348.14
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.3333,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro08",
+    "utterance_id": "Ses02M_impro08_M008",
+    "transcript_ground_truth": "Okay, Alright, yeah. I- I see it on here."
+  }
+}

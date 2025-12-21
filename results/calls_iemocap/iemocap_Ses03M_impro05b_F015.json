@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro05b_F015",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:59:11.278859",
+  "duration_seconds": 3.03,
+  "transcript": "Did you have your name tags on the luggage?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Did you have your name tags on the luggage?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.725,
+      "sentiment_score": 0.0128,
+      "pitch_mean": 343.45
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0128,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 178.22,
+    "avg_pitch": 343.67
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro05b",
+    "utterance_id": "Ses03M_impro05b_F015",
+    "transcript_ground_truth": "Did you have your name tags on the luggage?"
+  }
+}

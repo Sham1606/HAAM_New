@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05F_script01_1_F023",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:13:46.347413",
+  "duration_seconds": 10.51,
+  "transcript": "Now Chris, you can go on from there, but I don't know what to do. Do you know what to do because I don't?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Now Chris, you can go on from there, but I don't know what to do.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.424,
+      "sentiment_score": -0.4429,
+      "pitch_mean": 337.41
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 10.0,
+      "text": "Do you know what to do because I don't?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.38,
+      "sentiment_score": -0.305,
+      "pitch_mean": 342.33
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3739,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 137.01,
+    "avg_pitch": 335.66
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_1",
+    "utterance_id": "Ses05F_script01_1_F023",
+    "transcript_ground_truth": "Now Chris you can go on from there, but I don't know what to do.  I mean do you know what to do, because I don't."
+  }
+}

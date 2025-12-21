@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro03_F041",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:03:18.796584",
+  "duration_seconds": 1.62,
+  "transcript": "Take every G",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 22.96,
+      "text": "Take every G",
+      "emotion": "neutral",
+      "emotion_confidence": 0.9,
+      "sentiment_score": 0.2397,
+      "pitch_mean": 346.98
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2397,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 111.11,
+    "avg_pitch": 346.98
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro03",
+    "utterance_id": "Ses04F_impro03_F041",
+    "transcript_ground_truth": "Ha ha."
+  }
+}

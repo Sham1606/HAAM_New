@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro02_M019",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:18:34.904870",
+  "duration_seconds": 5.5,
+  "transcript": "I don't know if I can take it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "I don't know if I can take it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.681,
+      "sentiment_score": -0.7854,
+      "pitch_mean": 328.37
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7854,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 87.27,
+    "avg_pitch": 327.36
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro02",
+    "utterance_id": "Ses03F_impro02_M019",
+    "transcript_ground_truth": "I don't know if I- if I could take it."
+  }
+}

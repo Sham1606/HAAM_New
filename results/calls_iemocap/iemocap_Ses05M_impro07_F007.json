@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro07_F007",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:46:46.648707",
+  "duration_seconds": 2.59,
+  "transcript": "I heard that was so top to get into.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I heard that was so top to get into.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.638,
+      "sentiment_score": -0.0159,
+      "pitch_mean": 347.33
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0159,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 208.5,
+    "avg_pitch": 344.12
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro07",
+    "utterance_id": "Ses05M_impro07_F007",
+    "transcript_ground_truth": "I heard it's so tough to get into."
+  }
+}

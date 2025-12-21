@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro05_M024",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:58:02.186885",
+  "duration_seconds": 4.13,
+  "transcript": "You're going to do that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "You're going to do that.",
+      "emotion": "anger",
+      "emotion_confidence": 0.49,
+      "sentiment_score": -0.0443,
+      "pitch_mean": 331.21
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0443,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 72.64,
+    "avg_pitch": 330.54
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro05",
+    "utterance_id": "Ses04M_impro05_M024",
+    "transcript_ground_truth": "You- you- you- you're misunderstanding me.  You're going to do that."
+  }
+}

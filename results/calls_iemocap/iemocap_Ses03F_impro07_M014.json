@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro07_M014",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:26:26.101054",
+  "duration_seconds": 2.35,
+  "transcript": "Party you want to get drunk tonight?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Party you want to get drunk tonight?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.455,
+      "sentiment_score": 0.1586,
+      "pitch_mean": 365.56
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1586,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 178.43,
+    "avg_pitch": 357.23
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro07",
+    "utterance_id": "Ses03F_impro07_M014",
+    "transcript_ground_truth": "Party. You want to get drunk tonight?"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_script02_2_F010",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:12:04.341568",
+  "duration_seconds": 3.65,
+  "transcript": "Twice is every time we've tried, that's ever.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Twice is every time we've tried, that's ever.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.824,
+      "sentiment_score": 0.2058,
+      "pitch_mean": 354.71
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2058,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 131.51,
+    "avg_pitch": 344.18
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script02_2",
+    "utterance_id": "Ses04M_script02_2_F010",
+    "transcript_ground_truth": "Twice is every time we've tried.  That's ever."
+  }
+}

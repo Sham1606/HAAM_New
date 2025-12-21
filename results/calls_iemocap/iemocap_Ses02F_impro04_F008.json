@@ -1,0 +1,82 @@
+{
+  "call_id": "iemocap_Ses02F_impro04_F008",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:23:37.177139",
+  "duration_seconds": 11.84,
+  "transcript": "It's just so frustrating. I just don't want to do it anymore. I just don't want to hit the pavement every single day with my resume. Going out there all the time. It's just like...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It's just so frustrating.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.633,
+      "sentiment_score": -0.9175,
+      "pitch_mean": 344.16
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 5.0,
+      "text": "I just don't want to do it anymore.",
+      "emotion": "anger",
+      "emotion_confidence": 0.327,
+      "sentiment_score": -0.8537,
+      "pitch_mean": 343.94
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 9.0,
+      "text": "I just don't want to hit the pavement every single day with my resume.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.39,
+      "sentiment_score": -0.7868,
+      "pitch_mean": 342.53
+    },
+    {
+      "start_time": 9.0,
+      "end_time": 11.0,
+      "text": "Going out there all the time.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.599,
+      "sentiment_score": 0.14,
+      "pitch_mean": 332.88
+    },
+    {
+      "start_time": 11.0,
+      "end_time": 12.0,
+      "text": "It's just like...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.929,
+      "sentiment_score": -0.1116,
+      "pitch_mean": 339.89
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5059,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "sadness": 0.2,
+      "anger": 0.2,
+      "disgust": 0.2,
+      "neutral": 0.4
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 177.42,
+    "avg_pitch": 339.89
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro04",
+    "utterance_id": "Ses02F_impro04_F008",
+    "transcript_ground_truth": "It's just so frustrating.  Like, I just--I just don't wanna do it anymore.  You know?  I just don't wanna like hit the pavement every single day with my resumes and going out there all the time.  You know, it's just like--"
+  }
+}

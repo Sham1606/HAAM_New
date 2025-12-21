@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script01_2_M017",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:35:01.786916",
+  "duration_seconds": 2.32,
+  "transcript": "Look at you look at you shaking",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Look at you look at you shaking",
+      "emotion": "fear",
+      "emotion_confidence": 0.984,
+      "sentiment_score": -0.0064,
+      "pitch_mean": 318.75
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0064,
+    "dominant_emotion": "fear",
+    "emotion_distribution": {
+      "fear": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 181.04,
+    "avg_pitch": 324.86
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.6667,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_2",
+    "utterance_id": "Ses02F_script01_2_M017",
+    "transcript_ground_truth": "Look at you.  Look at you shaking."
+  }
+}

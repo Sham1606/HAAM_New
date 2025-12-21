@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses04M_script01_1_M039",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:06:42.765591",
+  "duration_seconds": 9.76,
+  "transcript": "I want a family, I want some kids, I want to build something I can give myself to. And he's in the middle of that. Now where do I find it?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.48,
+      "text": "I want a family, I want some kids, I want to build something I can give myself to.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.454,
+      "sentiment_score": 0.5458,
+      "pitch_mean": 332.6
+    },
+    {
+      "start_time": 5.48,
+      "end_time": 7.2,
+      "text": "And he's in the middle of that.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.556,
+      "sentiment_score": -0.2568,
+      "pitch_mean": 320.1
+    },
+    {
+      "start_time": 7.2,
+      "end_time": 9.0,
+      "text": "Now where do I find it?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.541,
+      "sentiment_score": -0.2039,
+      "pitch_mean": 325.26
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0284,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "disgust": 0.333,
+      "neutral": 0.667
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 190.54,
+    "avg_pitch": 327.79
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script01_1",
+    "utterance_id": "Ses04M_script01_1_M039",
+    "transcript_ground_truth": "I want a family.  I want some kids.  I want to build something I can give myself to.  Annie's in the middle of that.  Now where do I find it?"
+  }
+}

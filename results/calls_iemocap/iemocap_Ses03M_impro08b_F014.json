@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro08b_F014",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:35:11.049649",
+  "duration_seconds": 4.27,
+  "transcript": "Brent back in time right in the stand Brent backer sin alright",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.8,
+      "text": "Brent back in time right in the stand Brent backer sin alright",
+      "emotion": "neutral",
+      "emotion_confidence": 0.85,
+      "sentiment_score": 0.1508,
+      "pitch_mean": 351.69
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1508,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 168.62,
+    "avg_pitch": 349.19
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro08b",
+    "utterance_id": "Ses03M_impro08b_F014",
+    "transcript_ground_truth": "Brent Backersen, I am writing this down, Brent Backersen.  Alright."
+  }
+}

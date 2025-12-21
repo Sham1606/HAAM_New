@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script02_2_F004",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:39:24.375126",
+  "duration_seconds": 2.96,
+  "transcript": "I'm sorry but it's not just fished to me.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I'm sorry but it's not just fished to me.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.888,
+      "sentiment_score": -0.8387,
+      "pitch_mean": 325.81
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8387,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 182.44,
+    "avg_pitch": 325.81
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script02_2",
+    "utterance_id": "Ses02F_script02_2_F004",
+    "transcript_ground_truth": "Well, I'm sorry, but it's still just fish to me."
+  }
+}

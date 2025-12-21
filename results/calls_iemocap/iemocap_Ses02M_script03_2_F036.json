@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script03_2_F036",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:13:41.549930",
+  "duration_seconds": 2.08,
+  "transcript": "Stop it, stop it, I hate you!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Stop it, stop it, I hate you!",
+      "emotion": "anger",
+      "emotion_confidence": 0.958,
+      "sentiment_score": -0.9314,
+      "pitch_mean": 385.65
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9314,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 201.49,
+    "avg_pitch": 381.47
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script03_2",
+    "utterance_id": "Ses02M_script03_2_F036",
+    "transcript_ground_truth": "Stop it. Stop it. I hate you."
+  }
+}

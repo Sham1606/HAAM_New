@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_script02_1_M005",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:05:17.022395",
+  "duration_seconds": 7.25,
+  "transcript": "Oh, no, of course our flashlight. Me flashlight? I see flashlight, naturally.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.16,
+      "text": "Oh, no, of course our flashlight.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.445,
+      "sentiment_score": -0.6434,
+      "pitch_mean": 319.79
+    },
+    {
+      "start_time": 4.16,
+      "end_time": 7.0,
+      "text": "Me flashlight? I see flashlight, naturally.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.483,
+      "sentiment_score": 0.1041,
+      "pitch_mean": 301.62
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2696,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 99.31,
+    "avg_pitch": 314.3
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script02_1",
+    "utterance_id": "Ses05M_script02_1_M005",
+    "transcript_ground_truth": "Oh, no, of course, our flashlight.  Me flashlight is to you flashlight, naturally."
+  }
+}

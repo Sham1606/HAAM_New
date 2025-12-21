@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_script01_3_M011",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:02:25.370418",
+  "duration_seconds": 4.6,
+  "transcript": "So he's gone for everything. You sure?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.68,
+      "text": "So he's gone for everything.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.442,
+      "sentiment_score": -0.5395,
+      "pitch_mean": 323.06
+    },
+    {
+      "start_time": 2.68,
+      "end_time": 4.18,
+      "text": "You sure?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.866,
+      "sentiment_score": 0.0509,
+      "pitch_mean": 316.22
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2443,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 91.3,
+    "avg_pitch": 319.16
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_3",
+    "utterance_id": "Ses05M_script01_3_M011",
+    "transcript_ground_truth": "So he's gone forever then?  You sure?"
+  }
+}

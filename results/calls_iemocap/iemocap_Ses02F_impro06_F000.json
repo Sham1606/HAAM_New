@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro06_F000",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:26:19.513256",
+  "duration_seconds": 5.09,
+  "transcript": "Johnny died yesterday.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Johnny died yesterday.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.946,
+      "sentiment_score": -0.5461,
+      "pitch_mean": 325.88
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5461,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 35.36,
+    "avg_pitch": 325.02
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.6667,
+    "arousal": 2.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro06",
+    "utterance_id": "Ses02F_impro06_F000",
+    "transcript_ground_truth": "Um, Johnny died yesterday."
+  }
+}

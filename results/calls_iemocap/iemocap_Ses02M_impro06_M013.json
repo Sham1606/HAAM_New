@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02M_impro06_M013",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:55:22.849883",
+  "duration_seconds": 5.94,
+  "transcript": "God, he just hates it. He hates it's your go.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "God, he just hates it.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.533,
+      "sentiment_score": -0.907,
+      "pitch_mean": 318.93
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "He hates it's your go.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.526,
+      "sentiment_score": -0.8651,
+      "pitch_mean": 316.38
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.886,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "sadness": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 100.94,
+    "avg_pitch": 319.6
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 1.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro06",
+    "utterance_id": "Ses02M_impro06_M013",
+    "transcript_ground_truth": "Gosh, I just hate I just hate to see her go."
+  }
+}

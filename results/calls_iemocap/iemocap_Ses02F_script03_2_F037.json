@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script03_2_F037",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:45:12.248924",
+  "duration_seconds": 2.41,
+  "transcript": "Stop and go away, I hate you!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Stop and go away, I hate you!",
+      "emotion": "anger",
+      "emotion_confidence": 0.954,
+      "sentiment_score": -0.9338,
+      "pitch_mean": 396.16
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9338,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 174.28,
+    "avg_pitch": 382.79
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script03_2",
+    "utterance_id": "Ses02F_script03_2_F037",
+    "transcript_ground_truth": "Stop it.  Go away.  I hate you."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro03_F015",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:02:16.619922",
+  "duration_seconds": 5.16,
+  "transcript": "Plan everything so then you can make sure that no one gets attacked by bears",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.46,
+      "text": "Plan everything so then you can make sure that no one gets attacked by bears",
+      "emotion": "neutral",
+      "emotion_confidence": 0.859,
+      "sentiment_score": -0.0868,
+      "pitch_mean": 351.47
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0868,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 174.42,
+    "avg_pitch": 347.38
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro03",
+    "utterance_id": "Ses04F_impro03_F015",
+    "transcript_ground_truth": "plan everything.  So then you can make sure that no one gets attacked by bears."
+  }
+}

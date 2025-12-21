@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro03_M008",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:20:10.613692",
+  "duration_seconds": 2.7,
+  "transcript": "Uh, uh,",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.32,
+      "text": "Uh, uh,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.746,
+      "sentiment_score": 0.0307,
+      "pitch_mean": 344.21
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0307,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 44.36,
+    "avg_pitch": 338.22
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro03",
+    "utterance_id": "Ses03F_impro03_M008",
+    "transcript_ground_truth": "Uh huh. Oh-"
+  }
+}

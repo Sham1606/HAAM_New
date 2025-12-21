@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro08_M031",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:59:28.339844",
+  "duration_seconds": 3.54,
+  "transcript": "Alright, yeah, I'm sorry for all the inconvenience, but we'll get it taken care of.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.44,
+      "text": "Alright, yeah, I'm sorry for all the inconvenience, but we'll get it taken care of.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.724,
+      "sentiment_score": -0.1436,
+      "pitch_mean": 332.76
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1436,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 254.41,
+    "avg_pitch": 331.34
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.3333,
+    "arousal": 3.0,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro08",
+    "utterance_id": "Ses02M_impro08_M031",
+    "transcript_ground_truth": "Alright Yes, I'm sorry for all the inconvenience but we'll get it taken care of."
+  }
+}

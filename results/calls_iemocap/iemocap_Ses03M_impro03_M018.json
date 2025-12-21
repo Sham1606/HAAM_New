@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_impro03_M018",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:53:36.652986",
+  "duration_seconds": 5.76,
+  "transcript": "I didn't down the lights. I got one on the tables, pulled her up.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I didn't down the lights.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.431,
+      "sentiment_score": -0.115,
+      "pitch_mean": 334.15
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 6.0,
+      "text": "I got one on the tables, pulled her up.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.841,
+      "sentiment_score": 0.1495,
+      "pitch_mean": 329.7
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0173,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 145.9,
+    "avg_pitch": 329.7
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro03",
+    "utterance_id": "Ses03M_impro03_M018",
+    "transcript_ground_truth": "dim down the lights and uh, I got on one of the tables pulled her up."
+  }
+}

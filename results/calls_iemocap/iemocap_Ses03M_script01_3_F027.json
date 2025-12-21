@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script01_3_F027",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:43:12.560388",
+  "duration_seconds": 3.53,
+  "transcript": "Okay, it wouldn't work like this.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Okay, it wouldn't work like this.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.386,
+      "sentiment_score": -0.6402,
+      "pitch_mean": 329.2
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6402,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 101.9,
+    "avg_pitch": 328.56
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_3",
+    "utterance_id": "Ses03M_script01_3_F027",
+    "transcript_ground_truth": "Okay.  It wouldn't work like this?"
+  }
+}

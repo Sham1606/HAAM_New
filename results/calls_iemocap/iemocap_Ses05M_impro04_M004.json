@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro04_M004",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:41:20.545682",
+  "duration_seconds": 6.39,
+  "transcript": "Well, everything I'll do, tempering, you know, office work, you know, whatever, to pay the bills, you know, I'll do anything.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "Well, everything I'll do, tempering, you know, office work, you know, whatever, to pay the bills, you know, I'll do anything.",
+      "emotion": "anger",
+      "emotion_confidence": 0.697,
+      "sentiment_score": 0.1342,
+      "pitch_mean": 315.86
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1342,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 197.19,
+    "avg_pitch": 314.32
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro04",
+    "utterance_id": "Ses05M_impro04_M004",
+    "transcript_ground_truth": "Well, everything.  I'll do temping, you know, office work.  You know, whatever to pay the bills.  You know, I'll do anything."
+  }
+}

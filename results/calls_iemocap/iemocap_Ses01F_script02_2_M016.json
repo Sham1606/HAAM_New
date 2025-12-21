@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses01F_script02_2_M016",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:42:02.700769",
+  "duration_seconds": 15.63,
+  "transcript": "Okay, so you were fine doing that phone call from March and then dinner was okay and Doing the dishes was fine and then I was gonna take a shower and you're watching the news and you said the grunions are running tonight You want to go and I said sure great. Let's go",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.12,
+      "text": "Okay, so you were fine doing that phone call from March and then dinner was okay and",
+      "emotion": "neutral",
+      "emotion_confidence": 0.834,
+      "sentiment_score": 0.3076,
+      "pitch_mean": 341.42
+    },
+    {
+      "start_time": 6.36,
+      "end_time": 13.12,
+      "text": "Doing the dishes was fine and then I was gonna take a shower and you're watching the news and you said the grunions are running tonight",
+      "emotion": "neutral",
+      "emotion_confidence": 0.769,
+      "sentiment_score": 0.1854,
+      "pitch_mean": 331.93
+    },
+    {
+      "start_time": 13.12,
+      "end_time": 15.12,
+      "text": "You want to go and I said sure great. Let's go",
+      "emotion": "anger",
+      "emotion_confidence": 0.498,
+      "sentiment_score": 0.7861,
+      "pitch_mean": 368.34
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4264,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "anger": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 207.23,
+    "avg_pitch": 340.11
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_2",
+    "utterance_id": "Ses01F_script02_2_M016",
+    "transcript_ground_truth": "Okay.  So you were fine during that phone call from Marge and then dinner was okay.  And doing the dishes was fine and then I was going to take a shower and you're watching the news and you said the grunions are running tonight, do you want to go?  And I said, sure great, let's go."
+  }
+}

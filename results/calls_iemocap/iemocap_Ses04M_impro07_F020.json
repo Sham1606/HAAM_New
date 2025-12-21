@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses04M_impro07_F020",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:00:28.226262",
+  "duration_seconds": 4.26,
+  "transcript": "Okay, well that's a good plan. Shower shoes, two thumbs up. Yeah.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Okay, well that's a good plan.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.614,
+      "sentiment_score": 0.9203,
+      "pitch_mean": 384.72
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "Shower shoes, two thumbs up.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.929,
+      "sentiment_score": 0.3649,
+      "pitch_mean": 336.56
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 5.0,
+      "text": "Yeah.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.814,
+      "sentiment_score": 0.2224,
+      "pitch_mean": 361.6
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5026,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 169.02,
+    "avg_pitch": 361.6
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro07",
+    "utterance_id": "Ses04M_impro07_F020",
+    "transcript_ground_truth": "Okay. Well, that's a good plan. Shower shoes. Two thumbs up."
+  }
+}

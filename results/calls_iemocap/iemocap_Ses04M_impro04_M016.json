@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro04_M016",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:55:46.319499",
+  "duration_seconds": 1.67,
+  "transcript": "Yeah, exactly.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Yeah, exactly.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.879,
+      "sentiment_score": -0.0928,
+      "pitch_mean": 346.56
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0928,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 71.86,
+    "avg_pitch": 346.56
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 4.0,
+    "arousal": 3.3333,
+    "dominance": 3.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro04",
+    "utterance_id": "Ses04M_impro04_M016",
+    "transcript_ground_truth": "Yeah, exactly."
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses03F_script01_3_M036",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:36:04.338494",
+  "duration_seconds": 13.29,
+  "transcript": "Everything was being destroyed, but there was one new thing that was being created. It kind of... Responsibility. Man for man. You understand me?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "Everything was being destroyed, but there was one new thing that was being created.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.448,
+      "sentiment_score": -0.3676,
+      "pitch_mean": 330.55
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 8.0,
+      "text": "It kind of...",
+      "emotion": "disgust",
+      "emotion_confidence": 0.438,
+      "sentiment_score": -0.0159,
+      "pitch_mean": 330.26
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 10.0,
+      "text": "Responsibility.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.713,
+      "sentiment_score": 0.1736,
+      "pitch_mean": 329.36
+    },
+    {
+      "start_time": 10.0,
+      "end_time": 13.0,
+      "text": "Man for man. You understand me?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.335,
+      "sentiment_score": 0.2251,
+      "pitch_mean": 332.12
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0038,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.75,
+      "neutral": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 108.37,
+    "avg_pitch": 330.55
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_3",
+    "utterance_id": "Ses03F_script01_3_M036",
+    "transcript_ground_truth": "Everything was being destroyed, see, but there was one new thing that was being created. A kind of responsibility, man for man. You understand me?"
+  }
+}

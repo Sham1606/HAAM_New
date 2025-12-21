@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_impro05a_F012",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:57:15.489949",
+  "duration_seconds": 6.64,
+  "transcript": "I'm very sorry, but let's let's check on this immediately. This is definitely an emergency. It seems like",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "I'm very sorry, but let's let's check on this immediately. This is definitely an emergency.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.781,
+      "sentiment_score": -0.6922,
+      "pitch_mean": 349.02
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 7.0,
+      "text": "It seems like",
+      "emotion": "neutral",
+      "emotion_confidence": 0.803,
+      "sentiment_score": 0.0213,
+      "pitch_mean": 350.03
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3354,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 162.65,
+    "avg_pitch": 350.03
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro05a",
+    "utterance_id": "Ses03M_impro05a_F012",
+    "transcript_ground_truth": "I'm very sorry but let's check on this immediately.  This is definitely an emergency.  It seems--"
+  }
+}

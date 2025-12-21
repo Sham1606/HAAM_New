@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses02F_script03_2_F043",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:45:23.769066",
+  "duration_seconds": 10.87,
+  "transcript": "Thank God I realized what you are, if I would never marry you again, ever in my life. You're cruel, fiend, and I hate you, you're beans! You're beans, they hate you, dumbass, dumbass!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.14,
+      "text": "Thank God I realized what you are, if I would never marry you again, ever in my life.",
+      "emotion": "anger",
+      "emotion_confidence": 0.642,
+      "sentiment_score": -0.3532,
+      "pitch_mean": 374.9
+    },
+    {
+      "start_time": 4.14,
+      "end_time": 7.28,
+      "text": "You're cruel, fiend, and I hate you, you're beans!",
+      "emotion": "anger",
+      "emotion_confidence": 0.859,
+      "sentiment_score": -0.9428,
+      "pitch_mean": 403.68
+    },
+    {
+      "start_time": 7.28,
+      "end_time": 10.18,
+      "text": "You're beans, they hate you, dumbass, dumbass!",
+      "emotion": "anger",
+      "emotion_confidence": 0.853,
+      "sentiment_score": -0.9312,
+      "pitch_mean": 395.77
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7424,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 187.67,
+    "avg_pitch": 380.2
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 5.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script03_2",
+    "utterance_id": "Ses02F_script03_2_F043",
+    "transcript_ground_truth": "Thank God I realized what you are-- I'd never marry you again ever in my life. You're a cruel fiend and I hate you. You're a beast. You're a beast--I hate you. Stop it.  Stop it."
+  }
+}

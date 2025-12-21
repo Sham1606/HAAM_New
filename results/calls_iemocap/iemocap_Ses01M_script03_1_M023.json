@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01M_script03_1_M023",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:15:30.978267",
+  "duration_seconds": 5.68,
+  "transcript": "Um, no. That will fade. Hmph. Along with our passions.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.56,
+      "text": "Um, no. That will fade.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.62,
+      "sentiment_score": -0.4,
+      "pitch_mean": 331.75
+    },
+    {
+      "start_time": 3.56,
+      "end_time": 5.56,
+      "text": "Hmph. Along with our passions.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.897,
+      "sentiment_score": 0.025,
+      "pitch_mean": 327.88
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1875,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 105.63,
+    "avg_pitch": 329.25
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script03_1",
+    "utterance_id": "Ses01M_script03_1_M023",
+    "transcript_ground_truth": "No, that will fade...Along with our passion..."
+  }
+}

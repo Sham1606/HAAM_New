@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses05M_script01_1b_M037",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:59:15.713777",
+  "duration_seconds": 10.15,
+  "transcript": "I'd like to build something that's my own. And Annie is in the center of that. Now, where do I find it?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "I'd like to build something that's my own.",
+      "emotion": "joy",
+      "emotion_confidence": 0.755,
+      "sentiment_score": 0.4111,
+      "pitch_mean": 330.78
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 7.0,
+      "text": "And Annie is in the center of that.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.86,
+      "sentiment_score": 0.0439,
+      "pitch_mean": 329.63
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 10.0,
+      "text": "Now, where do I find it?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.502,
+      "sentiment_score": -0.1067,
+      "pitch_mean": 326.57
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1161,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "joy": 0.333,
+      "neutral": 0.667
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 130.05,
+    "avg_pitch": 328.99
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_1b",
+    "utterance_id": "Ses05M_script01_1b_M037",
+    "transcript_ground_truth": "I'd like to build something that's my own.  And Annie is in the center of that.  Now, where do I find it?"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script02_2_F020",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:39:55.585469",
+  "duration_seconds": 5.28,
+  "transcript": "I'd rather not remember some things. I would rather not hope for some things.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "I'd rather not remember some things. I would rather not hope for some things.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.772,
+      "sentiment_score": -0.6634,
+      "pitch_mean": 339.61
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6634,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 159.09,
+    "avg_pitch": 337.71
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script02_2",
+    "utterance_id": "Ses02F_script02_2_F020",
+    "transcript_ground_truth": "I'd rather not remember some things.  I would rather not hope for some things."
+  }
+}

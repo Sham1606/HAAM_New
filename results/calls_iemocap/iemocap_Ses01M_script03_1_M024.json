@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script03_1_M024",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:15:32.582424",
+  "duration_seconds": 3.49,
+  "transcript": "Oh, it depends on how well we played.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Oh, it depends on how well we played.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.956,
+      "sentiment_score": 0.3876,
+      "pitch_mean": 340.23
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3876,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 137.54,
+    "avg_pitch": 335.55
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script03_1",
+    "utterance_id": "Ses01M_script03_1_M024",
+    "transcript_ground_truth": "Well it depends on how well we've played."
+  }
+}

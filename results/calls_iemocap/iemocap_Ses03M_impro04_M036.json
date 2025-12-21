@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_impro04_M036",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:56:35.485216",
+  "duration_seconds": 8.27,
+  "transcript": "And I'm never gonna find anything properly, but I'll just keep working harder. Yeah, okay, positive. I'm gonna do good. Find that job.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "And I'm never gonna find anything properly, but I'll just keep working harder.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.884,
+      "sentiment_score": -0.8174,
+      "pitch_mean": 328.45
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 8.0,
+      "text": "Yeah, okay, positive. I'm gonna do good. Find that job.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.413,
+      "sentiment_score": 0.9398,
+      "pitch_mean": 328.18
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0612,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 166.87,
+    "avg_pitch": 329.15
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro04",
+    "utterance_id": "Ses03M_impro04_M036",
+    "transcript_ground_truth": "and I'm never going to find anything probably but I'll just keep working hard at it-- Yeah. Okay.  Positive, I'm going to do good, find that job."
+  }
+}

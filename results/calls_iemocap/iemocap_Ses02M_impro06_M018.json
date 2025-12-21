@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro06_M018",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:55:33.836075",
+  "duration_seconds": 2.61,
+  "transcript": "And then she's gone.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "And then she's gone.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.455,
+      "sentiment_score": -0.4964,
+      "pitch_mean": 331.42
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4964,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 91.92,
+    "avg_pitch": 328.83
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro06",
+    "utterance_id": "Ses02M_impro06_M018",
+    "transcript_ground_truth": "Then she's gone."
+  }
+}

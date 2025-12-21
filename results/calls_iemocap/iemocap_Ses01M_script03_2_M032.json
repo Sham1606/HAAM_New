@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses01M_script03_2_M032",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:18:28.756092",
+  "duration_seconds": 5.82,
+  "transcript": "Would you turn that off please? Why? You're gonna wake the people upstairs.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.7,
+      "text": "Would you turn that off please?",
+      "emotion": "anger",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.0911,
+      "pitch_mean": 330.26
+    },
+    {
+      "start_time": 3.7,
+      "end_time": 4.2,
+      "text": "Why?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.926,
+      "sentiment_score": 0.0088,
+      "pitch_mean": 337.38
+    },
+    {
+      "start_time": 4.2,
+      "end_time": 5.7,
+      "text": "You're gonna wake the people upstairs.",
+      "emotion": "anger",
+      "emotion_confidence": 0.523,
+      "sentiment_score": -0.1059,
+      "pitch_mean": 336.23
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0627,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.667,
+      "neutral": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 133.91,
+    "avg_pitch": 332.04
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script03_2",
+    "utterance_id": "Ses01M_script03_2_M032",
+    "transcript_ground_truth": "Would you uh...turn that off please? You're going to wake the people upstairs."
+  }
+}

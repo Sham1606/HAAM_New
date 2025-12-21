@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script01_1_F018",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:13:33.858468",
+  "duration_seconds": 3.41,
+  "transcript": "All that's nobody's business but yours Chris.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "All that's nobody's business but yours Chris.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.884,
+      "sentiment_score": -0.298,
+      "pitch_mean": 331.2
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.298,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 123.17,
+    "avg_pitch": 329.44
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_1",
+    "utterance_id": "Ses05F_script01_1_F018",
+    "transcript_ground_truth": "Well that's nobody's business but yours, Chris."
+  }
+}

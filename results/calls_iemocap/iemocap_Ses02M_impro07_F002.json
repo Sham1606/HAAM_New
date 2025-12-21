@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses02M_impro07_F002",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:55:47.301614",
+  "duration_seconds": 3.96,
+  "transcript": "Oh, you were seeing? Oh my gosh, that's awesome. That was your top choice, right?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.52,
+      "text": "Oh, you were seeing?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.905,
+      "sentiment_score": 0.0516,
+      "pitch_mean": 376.29
+    },
+    {
+      "start_time": 1.52,
+      "end_time": 2.68,
+      "text": "Oh my gosh, that's awesome.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.798,
+      "sentiment_score": 0.9712,
+      "pitch_mean": 414.25
+    },
+    {
+      "start_time": 2.68,
+      "end_time": 4.08,
+      "text": "That was your top choice, right?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.817,
+      "sentiment_score": 0.0475,
+      "pitch_mean": 398.59
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3568,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 227.34,
+    "avg_pitch": 398.59
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "sur",
+    "valence": 5.0,
+    "arousal": 4.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro07",
+    "utterance_id": "Ses02M_impro07_F002",
+    "transcript_ground_truth": "Oh, U.S.C.? Oh my Gosh, that's awesome, that was your top choice, right?"
+  }
+}

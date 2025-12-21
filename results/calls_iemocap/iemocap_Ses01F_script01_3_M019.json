@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01F_script01_3_M019",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:36:47.268897",
+  "duration_seconds": 5.64,
+  "transcript": "Oh, Eddie, we're gonna live now. I'm gonna make you so happy.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.1,
+      "text": "Oh, Eddie, we're gonna live now.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.509,
+      "sentiment_score": 0.7926,
+      "pitch_mean": 327.28
+    },
+    {
+      "start_time": 3.1,
+      "end_time": 5.1,
+      "text": "I'm gonna make you so happy.",
+      "emotion": "joy",
+      "emotion_confidence": 0.972,
+      "sentiment_score": 0.9776,
+      "pitch_mean": 330.91
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.8851,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "joy": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 127.72,
+    "avg_pitch": 329.63
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.3333,
+    "arousal": 3.3333,
+    "dominance": 3.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_3",
+    "utterance_id": "Ses01F_script01_3_M019",
+    "transcript_ground_truth": "Oh Annie, we are going to live now.  I am going to make you so happy."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02F_script01_1_F033",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:32:20.244046",
+  "duration_seconds": 3.55,
+  "transcript": "And what's gonna happen to your father? Do you know I don't? Alright, alright.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "And what's gonna happen to your father? Do you know I don't?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.417,
+      "sentiment_score": -0.591,
+      "pitch_mean": 346.84
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 4.0,
+      "text": "Alright, alright.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.631,
+      "sentiment_score": 0.281,
+      "pitch_mean": 344.68
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.155,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 236.62,
+    "avg_pitch": 344.68
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_1",
+    "utterance_id": "Ses02F_script01_1_F033",
+    "transcript_ground_truth": "I mean, what's gonna happen to your father?  Do you know?  I don't."
+  }
+}

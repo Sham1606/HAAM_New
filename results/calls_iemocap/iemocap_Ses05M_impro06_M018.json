@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_impro06_M018",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:46:22.259059",
+  "duration_seconds": 10.7,
+  "transcript": "he even yeah he doesn't he he would never would feel that way he would never want me to feel that way of course not but There's just worry him right now and I don't know what else to do with it",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.6,
+      "text": "he even yeah he doesn't he he would never would feel that way he would never want me to feel that way of course not but",
+      "emotion": "neutral",
+      "emotion_confidence": 0.654,
+      "sentiment_score": -0.8168,
+      "pitch_mean": 320.26
+    },
+    {
+      "start_time": 7.36,
+      "end_time": 10.04,
+      "text": "There's just worry him right now and I don't know what else to do with it",
+      "emotion": "fear",
+      "emotion_confidence": 0.85,
+      "sentiment_score": -0.8493,
+      "pitch_mean": 328.25
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8331,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "fear": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 235.52,
+    "avg_pitch": 318.72
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro06",
+    "utterance_id": "Ses05M_impro06_M018",
+    "transcript_ground_truth": "Even, yeah -- he doesn't he would never feel that way, he would never want me to feel that way.  Of course not, but that's just where I am right now and -- -- I don't know what else to do with it."
+  }
+}

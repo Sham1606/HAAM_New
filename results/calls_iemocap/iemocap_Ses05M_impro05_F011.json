@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro05_F011",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:43:28.958227",
+  "duration_seconds": 2.9,
+  "transcript": "Yeah, well",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Yeah, well",
+      "emotion": "neutral",
+      "emotion_confidence": 0.72,
+      "sentiment_score": 0.272,
+      "pitch_mean": 331.95
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.272,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 41.38,
+    "avg_pitch": 332.19
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.3333,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro05",
+    "utterance_id": "Ses05M_impro05_F011",
+    "transcript_ground_truth": "well, it's something that worth"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro07_M032",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:29:48.034078",
+  "duration_seconds": 1.31,
+  "transcript": "So much.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "So much.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.366,
+      "sentiment_score": 0.0434,
+      "pitch_mean": 346.24
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0434,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 91.6,
+    "avg_pitch": 336.75
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro07",
+    "utterance_id": "Ses02F_impro07_M032",
+    "transcript_ground_truth": "So much."
+  }
+}

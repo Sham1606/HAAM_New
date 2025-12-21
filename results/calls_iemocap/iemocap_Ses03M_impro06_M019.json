@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro06_M019",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:28:49.238400",
+  "duration_seconds": 8.35,
+  "transcript": "And I am busy with work and stuff and three years go by.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "And I am busy with work and stuff and three years go by.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.666,
+      "sentiment_score": -0.2671,
+      "pitch_mean": 321.65
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2671,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 93.44,
+    "avg_pitch": 320.15
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro06",
+    "utterance_id": "Ses03M_impro06_M019",
+    "transcript_ground_truth": "then I got busy with work and stuff and three years go by"
+  }
+}

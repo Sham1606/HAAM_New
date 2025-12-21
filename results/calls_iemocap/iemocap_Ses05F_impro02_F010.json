@@ -1,0 +1,70 @@
+{
+  "call_id": "iemocap_Ses05F_impro02_F010",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:47:37.465219",
+  "duration_seconds": 10.96,
+  "transcript": "I know, we'll have to figure all that out. I mean, I think the Army is gonna provide child care and help us out with that. Um.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.64,
+      "text": "I know, we'll have to figure all that out.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.902,
+      "sentiment_score": -0.3044,
+      "pitch_mean": 351.19
+    },
+    {
+      "start_time": 3.64,
+      "end_time": 7.48,
+      "text": "I mean, I think the Army is gonna provide child care",
+      "emotion": "neutral",
+      "emotion_confidence": 0.872,
+      "sentiment_score": 0.1217,
+      "pitch_mean": 331.85
+    },
+    {
+      "start_time": 8.56,
+      "end_time": 9.92,
+      "text": "and help us out with that.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.93,
+      "sentiment_score": 0.0978,
+      "pitch_mean": 357.55
+    },
+    {
+      "start_time": 9.92,
+      "end_time": 10.92,
+      "text": "Um.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.876,
+      "sentiment_score": 0.025,
+      "pitch_mean": 327.41
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.015,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 147.81,
+    "avg_pitch": 340.18
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro02",
+    "utterance_id": "Ses05F_impro02_F010",
+    "transcript_ground_truth": "I know.  Well, we'll have to figure all that out.  I mean, I think the Army's going to provide childcare and help us out with that. um."
+  }
+}

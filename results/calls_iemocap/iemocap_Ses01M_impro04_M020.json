@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro04_M020",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:54:40.261083",
+  "duration_seconds": 2.09,
+  "transcript": "Not always right, I'm just...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Not always right, I'm just...",
+      "emotion": "disgust",
+      "emotion_confidence": 0.469,
+      "sentiment_score": -0.564,
+      "pitch_mean": 329.28
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.564,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 143.54,
+    "avg_pitch": 329.85
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro04",
+    "utterance_id": "Ses01M_impro04_M020",
+    "transcript_ground_truth": "I'm not always right I'm just--"
+  }
+}

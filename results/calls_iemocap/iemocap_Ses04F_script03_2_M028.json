@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04F_script03_2_M028",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:45:01.564849",
+  "duration_seconds": 10.46,
+  "transcript": "I think I mentioned once before that I had three minute record glasses of Brandy the whole evening long a child of two couldn't get drunk on that",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.4,
+      "text": "I think I mentioned once before that I had three minute record glasses of",
+      "emotion": "neutral",
+      "emotion_confidence": 0.932,
+      "sentiment_score": 0.146,
+      "pitch_mean": 336.2
+    },
+    {
+      "start_time": 6.4,
+      "end_time": 10.2,
+      "text": "Brandy the whole evening long a child of two couldn't get drunk on that",
+      "emotion": "disgust",
+      "emotion_confidence": 0.826,
+      "sentiment_score": -0.2426,
+      "pitch_mean": 327.99
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0483,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 160.58,
+    "avg_pitch": 332.03
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script03_2",
+    "utterance_id": "Ses04F_script03_2_M028",
+    "transcript_ground_truth": "I think I mentioned once before that I had three minute liquor glasses of brandy the whole evening long.  A child of two couldn't get drunk on that."
+  }
+}

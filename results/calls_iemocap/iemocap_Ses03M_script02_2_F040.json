@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses03M_script02_2_F040",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:49:17.822502",
+  "duration_seconds": 10.11,
+  "transcript": "Anybody wants to be with anybody else? It's probably you. Probably somebody who enjoys herself a little more. Not so hard.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Anybody wants to be with anybody else? It's probably you.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.651,
+      "sentiment_score": -0.5385,
+      "pitch_mean": 335.74
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 8.0,
+      "text": "Probably somebody who enjoys herself a little more.",
+      "emotion": "joy",
+      "emotion_confidence": 0.693,
+      "sentiment_score": 0.7594,
+      "pitch_mean": 333.74
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 10.0,
+      "text": "Not so hard.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.667,
+      "sentiment_score": 0.2125,
+      "pitch_mean": 321.34
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1445,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "joy": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 124.57,
+    "avg_pitch": 331.6
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.3333,
+    "arousal": 2.6667,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_2",
+    "utterance_id": "Ses03M_script02_2_F040",
+    "transcript_ground_truth": "If anybody wants to be with anybody else it's probably you.  Probably somebody who enjoys herself a little more and is not so hard."
+  }
+}

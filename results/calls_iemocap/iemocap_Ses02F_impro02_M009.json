@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02F_impro02_M009",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:21:05.666437",
+  "duration_seconds": 10.43,
+  "transcript": "I mean you just get to go off and do your thing. I mean yeah we're both, I don't know it's bad for both of us but...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "I mean you just get to go off and do your thing.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.374,
+      "sentiment_score": -0.041,
+      "pitch_mean": 318.95
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 10.0,
+      "text": "I mean yeah we're both, I don't know it's bad for both of us but...",
+      "emotion": "disgust",
+      "emotion_confidence": 0.589,
+      "sentiment_score": -0.6012,
+      "pitch_mean": 316.26
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3211,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 155.39,
+    "avg_pitch": 317.01
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro02",
+    "utterance_id": "Ses02F_impro02_M009",
+    "transcript_ground_truth": "I mean, you just get to--go off and do your thing.  I mean, yeah, we're both--I don't know--it's bad for both of us, but--"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04F_impro08_M019",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:21:39.649195",
+  "duration_seconds": 7.38,
+  "transcript": "because I know you're at a desk right now and you're a stupid corporate building and you're gonna send me a check for $16.42.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.12,
+      "text": "because I know you're at a desk right now and you're a stupid corporate building",
+      "emotion": "anger",
+      "emotion_confidence": 0.704,
+      "sentiment_score": -0.8755,
+      "pitch_mean": 336.85
+    },
+    {
+      "start_time": 3.12,
+      "end_time": 7.2,
+      "text": "and you're gonna send me a check for $16.42.",
+      "emotion": "joy",
+      "emotion_confidence": 0.306,
+      "sentiment_score": -0.3332,
+      "pitch_mean": 327.56
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6044,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "joy": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 195.12,
+    "avg_pitch": 332.85
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro08",
+    "utterance_id": "Ses04F_impro08_M019",
+    "transcript_ground_truth": "because I know you're at a desk right now in your stupid corporate building and you're going to send me a check for sixteen dollars and forty two cents."
+  }
+}

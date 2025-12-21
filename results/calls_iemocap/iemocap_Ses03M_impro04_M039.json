@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro04_M039",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:56:40.268955",
+  "duration_seconds": 2.74,
+  "transcript": "2100 on my s8.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "2100 on my s8.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.674,
+      "sentiment_score": 0.1559,
+      "pitch_mean": 325.86
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1559,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 87.59,
+    "avg_pitch": 320.97
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro04",
+    "utterance_id": "Ses03M_impro04_M039",
+    "transcript_ground_truth": "Twenty-one hundred on my S.A.T.."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro03_M040",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:05:32.423562",
+  "duration_seconds": 4.91,
+  "transcript": "Wow, I just I I feel like I'm gonna faint",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.6,
+      "text": "Wow, I just I I feel like I'm gonna faint",
+      "emotion": "disgust",
+      "emotion_confidence": 0.452,
+      "sentiment_score": -0.6857,
+      "pitch_mean": 329.28
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6857,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 122.2,
+    "avg_pitch": 329.11
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 2.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro03",
+    "utterance_id": "Ses04F_impro03_M040",
+    "transcript_ground_truth": "Wow.  I just- I- I- I feel like I'm going to faint."
+  }
+}

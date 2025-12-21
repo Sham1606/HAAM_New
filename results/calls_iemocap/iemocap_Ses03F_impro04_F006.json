@@ -1,0 +1,81 @@
+{
+  "call_id": "iemocap_Ses03F_impro04_F006",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:20:50.051282",
+  "duration_seconds": 10.76,
+  "transcript": "I know, I just don't know if I can handle it. I mean, you're helping me so much financially, I think. I can't survive on my own without you. I don't like that. You.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.42,
+      "text": "I know, I just don't know if I can handle it.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.46,
+      "sentiment_score": -0.7063,
+      "pitch_mean": 312.06
+    },
+    {
+      "start_time": 2.42,
+      "end_time": 6.0,
+      "text": "I mean, you're helping me so much financially, I think.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.416,
+      "sentiment_score": 0.9296,
+      "pitch_mean": 322.77
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 9.5,
+      "text": "I can't survive on my own without you.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.955,
+      "sentiment_score": -0.1807,
+      "pitch_mean": 326.65
+    },
+    {
+      "start_time": 9.5,
+      "end_time": 10.5,
+      "text": "I don't like that.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.861,
+      "sentiment_score": -0.8579,
+      "pitch_mean": 330.43
+    },
+    {
+      "start_time": 10.5,
+      "end_time": 11.0,
+      "text": "You.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.635,
+      "sentiment_score": 0.1674,
+      "pitch_mean": 323.81
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1296,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.6,
+      "sadness": 0.2,
+      "neutral": 0.2
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 189.59,
+    "avg_pitch": 323.81
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro04",
+    "utterance_id": "Ses03F_impro04_F006",
+    "transcript_ground_truth": "I know, I just don't know if I can handle it. I mean, you're helping me so much financially it's like I can't survive on my own without you. I don't like that."
+  }
+}

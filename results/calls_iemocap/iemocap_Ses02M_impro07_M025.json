@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses02M_impro07_M025",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:57:19.831993",
+  "duration_seconds": 7.14,
+  "transcript": "Yeah, I mean a lot a lot of good stuff. Oh yeah, I mean, it's just really good school. So really, whatever I pick, I mean, I can't go wrong. I mean, I just...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.94,
+      "text": "Yeah, I mean a lot a lot of good stuff.",
+      "emotion": "joy",
+      "emotion_confidence": 0.827,
+      "sentiment_score": 0.945,
+      "pitch_mean": 339.19
+    },
+    {
+      "start_time": 1.94,
+      "end_time": 4.1,
+      "text": "Oh yeah, I mean, it's just really good school.",
+      "emotion": "joy",
+      "emotion_confidence": 0.945,
+      "sentiment_score": 0.9518,
+      "pitch_mean": 328.16
+    },
+    {
+      "start_time": 4.1,
+      "end_time": 6.34,
+      "text": "So really, whatever I pick, I mean, I can't go wrong.",
+      "emotion": "anger",
+      "emotion_confidence": 0.482,
+      "sentiment_score": 0.5935,
+      "pitch_mean": 359.69
+    },
+    {
+      "start_time": 6.34,
+      "end_time": 7.18,
+      "text": "I mean, I just...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.529,
+      "sentiment_score": -0.1583,
+      "pitch_mean": 342.67
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.583,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 0.5,
+      "anger": 0.25,
+      "neutral": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 285.71,
+    "avg_pitch": 342.67
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro07",
+    "utterance_id": "Ses02M_impro07_M025",
+    "transcript_ground_truth": "yeah, I mean a lot-a lot  of good stuff oh, yeah, I mean it's- it's just a really good school; so really, whatever I pick I can't go wrong. I mean I'm just"
+  }
+}

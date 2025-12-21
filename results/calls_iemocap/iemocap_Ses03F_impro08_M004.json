@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03F_impro08_M004",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:28:30.583111",
+  "duration_seconds": 8.54,
+  "transcript": "Fine, sorry, okay, my phone's been on the fritz for like three days. I can't get any incoming calls what What is going on",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.16,
+      "text": "Fine, sorry, okay, my phone's been on the fritz for like three days. I can't get any incoming calls what",
+      "emotion": "disgust",
+      "emotion_confidence": 0.433,
+      "sentiment_score": -0.6352,
+      "pitch_mean": 343.85
+    },
+    {
+      "start_time": 6.76,
+      "end_time": 8.76,
+      "text": "What is going on",
+      "emotion": "neutral",
+      "emotion_confidence": 0.534,
+      "sentiment_score": -0.1021,
+      "pitch_mean": 342.64
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3687,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 168.62,
+    "avg_pitch": 342.64
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro08",
+    "utterance_id": "Ses03F_impro08_M004",
+    "transcript_ground_truth": "Fine, sorry.  Okay, my phone's been on the fritz for like three days.  I can't get any incoming calls. What- What is going on?"
+  }
+}

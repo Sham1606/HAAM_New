@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_impro02_M020",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:36:08.166845",
+  "duration_seconds": 7.98,
+  "transcript": "Yeah, it's gonna be everything. And it'd be in the front, it's not gonna be safe.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Yeah, it's gonna be everything.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.421,
+      "sentiment_score": 0.9008,
+      "pitch_mean": 323.18
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 8.0,
+      "text": "And it'd be in the front, it's not gonna be safe.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.8576,
+      "pitch_mean": 320.21
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0216,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 120.3,
+    "avg_pitch": 320.21
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 2.6667,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro02",
+    "utterance_id": "Ses05M_impro02_M020",
+    "transcript_ground_truth": "Yeah, it's gonna be everything.  I'm gonna be in the front.  I'll be -- it's not gonna be safe."
+  }
+}

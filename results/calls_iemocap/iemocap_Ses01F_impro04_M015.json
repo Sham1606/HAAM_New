@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01F_impro04_M015",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:23:05.334994",
+  "duration_seconds": 6.9,
+  "transcript": "No, you can't worry, you can just bring it in person, but they need generally something to see you know kind of work You've done what kind of call that?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.36,
+      "text": "No, you can't worry, you can just bring it in person, but they need generally something to see you know kind of work",
+      "emotion": "neutral",
+      "emotion_confidence": 0.542,
+      "sentiment_score": -0.0257,
+      "pitch_mean": 334.63
+    },
+    {
+      "start_time": 5.36,
+      "end_time": 7.36,
+      "text": "You've done what kind of call that?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.2835,
+      "pitch_mean": 335.98
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1546,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 260.87,
+    "avg_pitch": 335.98
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro04",
+    "utterance_id": "Ses01F_impro04_M015",
+    "transcript_ground_truth": "No.  You can- or you can just bring it in person.  But they need, generally, something to see, you know, what kind of what that you've done, what kind of--"
+  }
+}

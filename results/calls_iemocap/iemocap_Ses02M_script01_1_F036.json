@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script01_1_F036",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:00:35.820404",
+  "duration_seconds": 2.86,
+  "transcript": "Tell me you'd leave the business.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Tell me you'd leave the business.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.436,
+      "sentiment_score": -0.3176,
+      "pitch_mean": 336.14
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3176,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 125.87,
+    "avg_pitch": 333.7
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script01_1",
+    "utterance_id": "Ses02M_script01_1_F036",
+    "transcript_ground_truth": "Tell me, you'd leave the business?"
+  }
+}

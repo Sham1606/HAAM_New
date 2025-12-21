@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script02_1_M040",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:35:18.864644",
+  "duration_seconds": 4.38,
+  "transcript": "Oh, you're giving myself goosebumps. All my hairs are popping up.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Oh, you're giving myself goosebumps. All my hairs are popping up.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.56,
+      "sentiment_score": 0.8606,
+      "pitch_mean": 326.1
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.8606,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 150.69,
+    "avg_pitch": 326.39
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script02_1",
+    "utterance_id": "Ses04F_script02_1_M040",
+    "transcript_ground_truth": "Ah, I'm giving myself goose bumps.  All my hairs are popping up."
+  }
+}

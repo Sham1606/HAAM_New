@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01F_script01_1_F012",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:31:39.120709",
+  "duration_seconds": 11.69,
+  "transcript": "to you it is to me it is. But to your father, you can talk yourself to your blue in the face but there's no grave and there's no body so where are you?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.82,
+      "text": "to you it is to me it is. But to your father, you can talk yourself to your",
+      "emotion": "neutral",
+      "emotion_confidence": 0.872,
+      "sentiment_score": 0.0299,
+      "pitch_mean": 334.41
+    },
+    {
+      "start_time": 6.82,
+      "end_time": 11.48,
+      "text": "blue in the face but there's no grave and there's no body so where are you?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.652,
+      "sentiment_score": -0.4018,
+      "pitch_mean": 337.89
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.186,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 174.55,
+    "avg_pitch": 335.42
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.3333,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_1",
+    "utterance_id": "Ses01F_script01_1_F012",
+    "transcript_ground_truth": "To you it is, to me it is, but to your father, you can talk yourself until you are blue in the face.  But there is no grave and there is no body, so where are you?"
+  }
+}

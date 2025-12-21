@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02F_impro04_F014",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:23:51.761960",
+  "duration_seconds": 6.82,
+  "transcript": "I guess the money shouldn't matter to me, but somehow it does, you know? It's like, it's like I do it for the money, but...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I guess the money shouldn't matter to me, but somehow it does, you know?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.597,
+      "sentiment_score": -0.531,
+      "pitch_mean": 330.57
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 7.0,
+      "text": "It's like, it's like I do it for the money, but...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.693,
+      "sentiment_score": -0.1762,
+      "pitch_mean": 330.23
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3536,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 219.94,
+    "avg_pitch": 330.23
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro04",
+    "utterance_id": "Ses02F_impro04_F014",
+    "transcript_ground_truth": "I guess the money shouldn't matter to me, but--Somehow it does.  You know? It's not like I do it for the money, but"
+  }
+}

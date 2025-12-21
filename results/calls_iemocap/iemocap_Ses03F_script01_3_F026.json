@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03F_script01_3_F026",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:34:33.639413",
+  "duration_seconds": 5.9,
+  "transcript": "with and tell me what's wrong I mean even in your letters there's something ashamed",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.1,
+      "text": "with and tell me what's wrong I mean even in your letters there's something",
+      "emotion": "disgust",
+      "emotion_confidence": 0.488,
+      "sentiment_score": -0.663,
+      "pitch_mean": 328.0
+    },
+    {
+      "start_time": 4.1,
+      "end_time": 7.0,
+      "text": "ashamed",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.6268,
+      "pitch_mean": 326.74
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6449,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 152.58,
+    "avg_pitch": 326.74
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_3",
+    "utterance_id": "Ses03F_script01_3_F026",
+    "transcript_ground_truth": "Well then tell me what's wrong. I mean, even in your letters there's something ashamed."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_impro01_F023",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:48:01.796866",
+  "duration_seconds": 10.56,
+  "transcript": "I have it. I'm taking it. This isn't me. I'm gonna do anything with it. Get out of my line. This is my line Get out. This people all these supergallant surgery you're causing a mob in this department",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.22,
+      "text": "I have it. I'm taking it. This isn't me. I'm gonna do anything with it. Get out of my line. This is my line",
+      "emotion": "anger",
+      "emotion_confidence": 0.878,
+      "sentiment_score": -0.3566,
+      "pitch_mean": 369.8
+    },
+    {
+      "start_time": 6.22,
+      "end_time": 10.46,
+      "text": "Get out. This people all these supergallant surgery you're causing a mob in this department",
+      "emotion": "anger",
+      "emotion_confidence": 0.86,
+      "sentiment_score": -0.8566,
+      "pitch_mean": 379.68
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6066,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 221.54,
+    "avg_pitch": 371.79
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro01",
+    "utterance_id": "Ses03M_impro01_F023",
+    "transcript_ground_truth": "I have it.  I'm taking it.  Doesn't mean I'm going to do anything with it.--Get out of my line!  This is my line.  Get out.  All these people--Sir, you are causing a mob in this department."
+  }
+}

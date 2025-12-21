@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script03_2_M034",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:56:48.555759",
+  "duration_seconds": 2.75,
+  "transcript": "You better turn that off.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "You better turn that off.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.529,
+      "sentiment_score": -0.6641,
+      "pitch_mean": 322.69
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6641,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 109.26,
+    "avg_pitch": 321.87
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script03_2",
+    "utterance_id": "Ses03M_script03_2_M034",
+    "transcript_ground_truth": "You better turn that off."
+  }
+}

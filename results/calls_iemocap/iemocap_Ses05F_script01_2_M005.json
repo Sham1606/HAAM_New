@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05F_script01_2_M005",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:17:04.853801",
+  "duration_seconds": 3.52,
+  "transcript": "Nal\u0131s\u0131n \u00fclkeye de. \u00c7as\u0131r.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Nal\u0131s\u0131n \u00fclkeye de.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.456,
+      "sentiment_score": 0.0463,
+      "pitch_mean": 315.64
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "\u00c7as\u0131r.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.335,
+      "sentiment_score": 0.0543,
+      "pitch_mean": 309.91
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0503,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 68.18,
+    "avg_pitch": 312.48
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_2",
+    "utterance_id": "Ses05F_script01_2_M005",
+    "transcript_ground_truth": "Now, listen, Kate, just-"
+  }
+}

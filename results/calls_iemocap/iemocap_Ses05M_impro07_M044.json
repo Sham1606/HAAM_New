@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses05M_impro07_M044",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:49:58.279717",
+  "duration_seconds": 5.63,
+  "transcript": "Because you're doing something you love, that's the kind of busy you want. I want to be able to do that for the rest of my life. Be that kind of busy.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.4,
+      "text": "Because you're doing something you love, that's the kind of busy you want.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.565,
+      "sentiment_score": 0.9316,
+      "pitch_mean": 340.34
+    },
+    {
+      "start_time": 2.4,
+      "end_time": 4.24,
+      "text": "I want to be able to do that for the rest of my life.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.761,
+      "sentiment_score": 0.7999,
+      "pitch_mean": 339.13
+    },
+    {
+      "start_time": 4.24,
+      "end_time": 5.44,
+      "text": "Be that kind of busy.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.88,
+      "sentiment_score": -0.0018,
+      "pitch_mean": 327.38
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5766,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "sadness": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 341.03,
+    "avg_pitch": 336.87
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro07",
+    "utterance_id": "Ses05M_impro07_M044",
+    "transcript_ground_truth": "Because you're doing something you love.  That's the kind of busy you want.  I want to be able to do that for the rest of my life.  Be that kind of busy."
+  }
+}

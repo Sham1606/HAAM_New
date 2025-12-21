@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04M_script01_1_F023",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:04:58.758158",
+  "duration_seconds": 6.38,
+  "transcript": "Now you can go on from there if you know where to go but I'm telling you I don't know where to go. See I don't know.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Now you can go on from there if you know where to go but I'm telling you I don't know where to go.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.864,
+      "sentiment_score": -0.2163,
+      "pitch_mean": 350.13
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "See I don't know.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.415,
+      "sentiment_score": -0.4283,
+      "pitch_mean": 333.17
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3223,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 253.96,
+    "avg_pitch": 339.61
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script01_1",
+    "utterance_id": "Ses04M_script01_1_F023",
+    "transcript_ground_truth": "Now you can go on from there if you know where to go. But I'm telling you I don't know where to go.  See, I don't know."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01F_impro04_M021",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:23:23.412140",
+  "duration_seconds": 9.73,
+  "transcript": "Well, sometimes you have to do things you don't necessarily like to do to have a job, but the job before you, you know, money, you wouldn't have to be taking the bus right now.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.64,
+      "text": "Well, sometimes you have to do things you don't necessarily like to do to have a job, but",
+      "emotion": "neutral",
+      "emotion_confidence": 0.801,
+      "sentiment_score": -0.4186,
+      "pitch_mean": 325.62
+    },
+    {
+      "start_time": 4.64,
+      "end_time": 9.2,
+      "text": "the job before you, you know, money, you wouldn't have to be taking the bus right now.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.845,
+      "sentiment_score": -0.3279,
+      "pitch_mean": 326.61
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3733,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 215.83,
+    "avg_pitch": 325.22
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro04",
+    "utterance_id": "Ses01F_impro04_M021",
+    "transcript_ground_truth": "Well, sometimes you have to do things that you don't necessarily like to do to have a job. But the job affords you money, you won't have to be taking the bus right now."
+  }
+}

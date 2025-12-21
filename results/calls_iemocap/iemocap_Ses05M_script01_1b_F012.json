@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses05M_script01_1b_F012",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:56:23.446621",
+  "duration_seconds": 7.26,
+  "transcript": "The trouble is the goddamn newspapers. I mean, each week a new boy turns up from out of nowhere, so the next one's gonna be Larry, so you're...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "The trouble is the goddamn newspapers.",
+      "emotion": "anger",
+      "emotion_confidence": 0.716,
+      "sentiment_score": -0.9144,
+      "pitch_mean": 341.49
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 5.0,
+      "text": "I mean, each week a new boy turns up from out of nowhere,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.71,
+      "sentiment_score": -0.1703,
+      "pitch_mean": 364.19
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 7.0,
+      "text": "so the next one's gonna be Larry, so you're...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.651,
+      "sentiment_score": 0.089,
+      "pitch_mean": 385.74
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3319,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "anger": 0.333,
+      "neutral": 0.667
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 231.41,
+    "avg_pitch": 359.59
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_1b",
+    "utterance_id": "Ses05M_script01_1b_F012",
+    "transcript_ground_truth": "The trouble is the God damn newspapers, I mean, ea- each week a new boy turns up out of nowhere.  So the next one is gonna be Larry.  So you--"
+  }
+}

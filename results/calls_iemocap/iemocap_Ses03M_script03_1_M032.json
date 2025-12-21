@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script03_1_M032",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:53:32.509585",
+  "duration_seconds": 3.45,
+  "transcript": "Oh, the worst one was in Khan, when you...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Oh, the worst one was in Khan, when you...",
+      "emotion": "disgust",
+      "emotion_confidence": 0.972,
+      "sentiment_score": -0.9217,
+      "pitch_mean": 319.06
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9217,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 156.41,
+    "avg_pitch": 319.06
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script03_1",
+    "utterance_id": "Ses03M_script03_1_M032",
+    "transcript_ground_truth": "Oh, the worst one was in Cannes when you-"
+  }
+}

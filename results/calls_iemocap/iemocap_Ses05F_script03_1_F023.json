@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script03_1_F023",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:27:37.871010",
+  "duration_seconds": 6.01,
+  "transcript": "Oh, thank you, dear. And the same goes for you, except that if I so much see you looking at another woman, I'll kill you.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "Oh, thank you, dear. And the same goes for you, except that if I so much see you looking at another woman, I'll kill you.",
+      "emotion": "anger",
+      "emotion_confidence": 0.652,
+      "sentiment_score": 0.1071,
+      "pitch_mean": 360.15
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1071,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 249.59,
+    "avg_pitch": 360.0
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script03_1",
+    "utterance_id": "Ses05F_script03_1_F023",
+    "transcript_ground_truth": "Oh, thank you dear.  And the same goes for you except that if I so much as see you looking at another woman, I'll kill you."
+  }
+}

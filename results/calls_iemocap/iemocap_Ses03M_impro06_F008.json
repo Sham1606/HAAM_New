@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro06_F008",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T04:01:04.021808",
+  "duration_seconds": 2.14,
+  "transcript": "A man.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "A man.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.977,
+      "sentiment_score": 0.2354,
+      "pitch_mean": 310.92
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2354,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 56.03,
+    "avg_pitch": 310.76
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro06",
+    "utterance_id": "Ses03M_impro06_F008",
+    "transcript_ground_truth": "Oh man."
+  }
+}

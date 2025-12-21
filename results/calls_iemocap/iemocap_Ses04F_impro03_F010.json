@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro03_F010",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:02:05.422647",
+  "duration_seconds": 9.5,
+  "transcript": "Everybody's gonna come up, we're gonna stay in all the pretty cabins up there and everybody's gonna have, you know, really flowery sort of naturey stuff and",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 9.26,
+      "text": "Everybody's gonna come up, we're gonna stay in all the pretty cabins up there and everybody's gonna have, you know, really flowery sort of naturey stuff and",
+      "emotion": "neutral",
+      "emotion_confidence": 0.674,
+      "sentiment_score": 0.8014,
+      "pitch_mean": 349.78
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.8014,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 170.53,
+    "avg_pitch": 349.13
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro03",
+    "utterance_id": "Ses04F_impro03_F010",
+    "transcript_ground_truth": "Everybody's going to come up. We're going to stay in all the pretty cabins up there and, um, everybody's going to have, you know, really flowery sort of naturey stuff."
+  }
+}

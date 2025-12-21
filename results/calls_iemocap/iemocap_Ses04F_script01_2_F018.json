@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script01_2_F018",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:27:26.624923",
+  "duration_seconds": 4.99,
+  "transcript": "Just last week a man showed up in Detroit missing longer than Larry you read it yourself",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.48,
+      "text": "Just last week a man showed up in Detroit missing longer than Larry you read it yourself",
+      "emotion": "joy",
+      "emotion_confidence": 0.538,
+      "sentiment_score": -0.6583,
+      "pitch_mean": 353.53
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6583,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 204.41,
+    "avg_pitch": 356.07
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script01_2",
+    "utterance_id": "Ses04F_script01_2_F018",
+    "transcript_ground_truth": "Just last week a man showed up in Detroit missing longer than Larry.  You read it yourself."
+  }
+}

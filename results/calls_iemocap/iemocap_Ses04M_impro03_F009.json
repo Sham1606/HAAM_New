@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro03_F009",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:51:52.066429",
+  "duration_seconds": 4.57,
+  "transcript": "Oh my god, have you guys talked about where you're gonna get married or?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.68,
+      "text": "Oh my god, have you guys talked about where you're gonna get married or?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.919,
+      "sentiment_score": -0.0188,
+      "pitch_mean": 371.09
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0188,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 183.81,
+    "avg_pitch": 368.63
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro03",
+    "utterance_id": "Ses04M_impro03_F009",
+    "transcript_ground_truth": "Oh, my God, where -- have you guys talked about where you're going to get married or--"
+  }
+}

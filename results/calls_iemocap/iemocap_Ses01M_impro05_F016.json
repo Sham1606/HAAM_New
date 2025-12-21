@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01M_impro05_F016",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:55:18.946587",
+  "duration_seconds": 5.74,
+  "transcript": "I had nothing to do with the boarding attendant. I'm sorry that your seat was wherever it was.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.54,
+      "text": "I had nothing to do with the boarding attendant.",
+      "emotion": "anger",
+      "emotion_confidence": 0.438,
+      "sentiment_score": -0.3525,
+      "pitch_mean": 326.82
+    },
+    {
+      "start_time": 2.54,
+      "end_time": 5.54,
+      "text": "I'm sorry that your seat was wherever it was.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.902,
+      "sentiment_score": -0.8708,
+      "pitch_mean": 332.86
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6116,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "sadness": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 188.15,
+    "avg_pitch": 328.74
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro05",
+    "utterance_id": "Ses01M_impro05_F016",
+    "transcript_ground_truth": "I had nothing to do with the boarding attendance.  I'm sorry that your seat was wherever it was."
+  }
+}

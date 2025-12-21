@@ -1,0 +1,63 @@
+{
+  "call_id": "iemocap_Ses03M_impro03_F035",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:52:51.013573",
+  "duration_seconds": 4.12,
+  "transcript": "I should not believe you. Why do you want to get married? Just your boy, your little boy.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 0.88,
+      "text": "I should not believe you.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.402,
+      "sentiment_score": -0.8394,
+      "pitch_mean": 362.45
+    },
+    {
+      "start_time": 0.88,
+      "end_time": 2.04,
+      "text": "Why do you want to get married?",
+      "emotion": "joy",
+      "emotion_confidence": 0.385,
+      "sentiment_score": -0.0399,
+      "pitch_mean": 444.24
+    },
+    {
+      "start_time": 2.04,
+      "end_time": 4.16,
+      "text": "Just your boy, your little boy.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.892,
+      "sentiment_score": 0.1124,
+      "pitch_mean": 373.72
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2556,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.333,
+      "joy": 0.333,
+      "neutral": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 262.07,
+    "avg_pitch": 373.72
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro03",
+    "utterance_id": "Ses03M_impro03_F035",
+    "transcript_ground_truth": "I cannot believe you.  Why do you want to get married?  You're a boy.  You're a little boy."
+  }
+}

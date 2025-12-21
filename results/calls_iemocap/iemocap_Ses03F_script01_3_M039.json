@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03F_script01_3_M039",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:36:11.723442",
+  "duration_seconds": 14.22,
+  "transcript": "And I went to work with dad and that rat race again and I felt what you said ashamed somehow because nobody was changed at all it seemed to make a sucker out of a lot of guys",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 8.72,
+      "text": "And I went to work with dad and that rat race again and I felt what you said ashamed somehow",
+      "emotion": "disgust",
+      "emotion_confidence": 0.381,
+      "sentiment_score": -0.7561,
+      "pitch_mean": 332.28
+    },
+    {
+      "start_time": 8.72,
+      "end_time": 13.44,
+      "text": "because nobody was changed at all it seemed to make a sucker out of a lot of guys",
+      "emotion": "disgust",
+      "emotion_confidence": 0.516,
+      "sentiment_score": -0.829,
+      "pitch_mean": 341.66
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7926,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 160.29,
+    "avg_pitch": 334.68
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_3",
+    "utterance_id": "Ses03F_script01_3_M039",
+    "transcript_ground_truth": "And I went to work with dad and that rat race again. And I felt what you said-ashamed somehow. Because nobody was changed at all. It seemed to make a sucker out of a lot of guys."
+  }
+}

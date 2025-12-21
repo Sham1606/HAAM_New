@@ -1,0 +1,31 @@
+{
+  "call_id": "iemocap_Ses05M_impro02_F024",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:35:17.793343",
+  "duration_seconds": 1.42,
+  "transcript": "",
+  "segments": [],
+  "overall_metrics": {
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {},
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 0.0,
+    "avg_pitch": 311.47
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.3333,
+    "arousal": 3.0,
+    "dominance": 1.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro02",
+    "utterance_id": "Ses05M_impro02_F024",
+    "transcript_ground_truth": "[GARBAGE]"
+  }
+}

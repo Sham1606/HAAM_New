@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro05_F029",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:53:25.275168",
+  "duration_seconds": 1.7,
+  "transcript": "There's other people waiting.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.6,
+      "text": "There's other people waiting.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.938,
+      "sentiment_score": 0.1151,
+      "pitch_mean": 343.74
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1151,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 141.03,
+    "avg_pitch": 343.92
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro05",
+    "utterance_id": "Ses02M_impro05_F029",
+    "transcript_ground_truth": "There's other people waiting-"
+  }
+}

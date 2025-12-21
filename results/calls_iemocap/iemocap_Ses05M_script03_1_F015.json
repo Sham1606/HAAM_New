@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05M_script03_1_F015",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:10:38.413590",
+  "duration_seconds": 3.7,
+  "transcript": "Well, will we always pick her and fight? No.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Well, will we always pick her and fight?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.922,
+      "sentiment_score": -0.4284,
+      "pitch_mean": 321.73
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 4.0,
+      "text": "No.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.83,
+      "sentiment_score": 0.122,
+      "pitch_mean": 324.41
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1532,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 145.95,
+    "avg_pitch": 324.41
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script03_1",
+    "utterance_id": "Ses05M_script03_1_F015",
+    "transcript_ground_truth": "Well, will we always bicker and fight?"
+  }
+}

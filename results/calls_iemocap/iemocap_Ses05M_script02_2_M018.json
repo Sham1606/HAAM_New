@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script02_2_M018",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:09:11.467022",
+  "duration_seconds": 2.34,
+  "transcript": "Do you want me to go get some champagne?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Do you want me to go get some champagne?",
+      "emotion": "anger",
+      "emotion_confidence": 0.439,
+      "sentiment_score": 0.1307,
+      "pitch_mean": 310.86
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1307,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 230.77,
+    "avg_pitch": 308.42
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.3333,
+    "arousal": 3.0,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script02_2",
+    "utterance_id": "Ses05M_script02_2_M018",
+    "transcript_ground_truth": "Do you want me to go get some champagne?"
+  }
+}

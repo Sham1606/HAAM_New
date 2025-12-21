@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_script03_2_M044",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T14:45:05.873761",
+  "duration_seconds": 3.22,
+  "transcript": "This is no time of year for Denise.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "This is no time of year for Denise.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.736,
+      "sentiment_score": -0.7666,
+      "pitch_mean": 328.19
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7666,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 149.07,
+    "avg_pitch": 330.27
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script03_2",
+    "utterance_id": "Ses04M_script03_2_M044",
+    "transcript_ground_truth": "This is no time of year for Tunis."
+  }
+}

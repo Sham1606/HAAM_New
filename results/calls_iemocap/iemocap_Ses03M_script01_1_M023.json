@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script01_1_M023",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:39:45.497933",
+  "duration_seconds": 2.27,
+  "transcript": "She's not Larry's girl",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "She's not Larry's girl",
+      "emotion": "disgust",
+      "emotion_confidence": 0.547,
+      "sentiment_score": -0.3566,
+      "pitch_mean": 320.92
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3566,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 105.84,
+    "avg_pitch": 322.25
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_1",
+    "utterance_id": "Ses03M_script01_1_M023",
+    "transcript_ground_truth": "She's not Larry's girl."
+  }
+}

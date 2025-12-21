@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro04_F009",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:51:26.375512",
+  "duration_seconds": 1.82,
+  "transcript": "I'm so exited.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I'm so exited.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.682,
+      "sentiment_score": 0.9805,
+      "pitch_mean": 344.04
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9805,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 98.9,
+    "avg_pitch": 344.04
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 1.3333,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro04",
+    "utterance_id": "Ses02M_impro04_F009",
+    "transcript_ground_truth": "I'm sorry."
+  }
+}

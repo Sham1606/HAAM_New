@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_script01_3_F017",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:42:53.205296",
+  "duration_seconds": 7.13,
+  "transcript": "I was waiting for you, Christ. Until then you never wrote and then when you did, what'd you say?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I was waiting for you, Christ.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.739,
+      "sentiment_score": 0.7333,
+      "pitch_mean": 334.13
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 7.0,
+      "text": "Until then you never wrote and then when you did, what'd you say?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.802,
+      "sentiment_score": -0.1097,
+      "pitch_mean": 341.68
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3118,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 159.86,
+    "avg_pitch": 337.58
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_3",
+    "utterance_id": "Ses03M_script01_3_F017",
+    "transcript_ground_truth": "I was waiting for you Chris, I mean, till then you never wrote and then when you did what did you say?"
+  }
+}

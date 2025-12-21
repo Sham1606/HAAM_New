@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses01F_script01_3_M036",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:37:23.711805",
+  "duration_seconds": 10.68,
+  "transcript": "And uh... I didn't want any of it. I guess that included you.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "And uh...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.847,
+      "sentiment_score": 0.0166,
+      "pitch_mean": 316.57
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 5.0,
+      "text": "I didn't want any of it.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.486,
+      "sentiment_score": -0.829,
+      "pitch_mean": 326.31
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 10.0,
+      "text": "I guess that included you.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.902,
+      "sentiment_score": -0.0836,
+      "pitch_mean": 317.26
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2987,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "disgust": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 73.03,
+    "avg_pitch": 321.66
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.6667,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_3",
+    "utterance_id": "Ses01F_script01_3_M036",
+    "transcript_ground_truth": "And I didn't want any of it. I guess that included you."
+  }
+}

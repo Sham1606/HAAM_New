@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script02_2_M028",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:42:27.354216",
+  "duration_seconds": 2.55,
+  "transcript": "Let's see that indication.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.44,
+      "text": "Let's see that indication.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.963,
+      "sentiment_score": 0.1174,
+      "pitch_mean": 316.59
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1174,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 93.95,
+    "avg_pitch": 316.82
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_2",
+    "utterance_id": "Ses01F_script02_2_M028",
+    "transcript_ground_truth": "A vacation?"
+  }
+}

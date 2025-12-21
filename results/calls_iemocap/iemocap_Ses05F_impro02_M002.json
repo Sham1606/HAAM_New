@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro02_M002",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:48:49.976913",
+  "duration_seconds": 1.53,
+  "transcript": "Are you alright?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Are you alright?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.0741,
+      "pitch_mean": 336.14
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0741,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 117.65,
+    "avg_pitch": 336.14
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro02",
+    "utterance_id": "Ses05F_impro02_M002",
+    "transcript_ground_truth": "Are you all right?"
+  }
+}

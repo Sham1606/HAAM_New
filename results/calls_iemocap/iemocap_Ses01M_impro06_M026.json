@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro06_M026",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:58:54.930569",
+  "duration_seconds": 2.92,
+  "transcript": "I feel like eight years.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I feel like eight years.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.37,
+      "sentiment_score": -0.0791,
+      "pitch_mean": 331.46
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0791,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 102.67,
+    "avg_pitch": 331.03
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro06",
+    "utterance_id": "Ses01M_impro06_M026",
+    "transcript_ground_truth": "For like eight years."
+  }
+}

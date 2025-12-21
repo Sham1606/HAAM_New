@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro02_M018",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:18:33.250436",
+  "duration_seconds": 4.09,
+  "transcript": "I don't know if I can handle you going another year.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I don't know if I can handle you going another year.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.579,
+      "sentiment_score": -0.8243,
+      "pitch_mean": 327.24
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8243,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 161.37,
+    "avg_pitch": 326.46
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro02",
+    "utterance_id": "Ses03F_impro02_M018",
+    "transcript_ground_truth": "I don't know if I can handle you going another year."
+  }
+}

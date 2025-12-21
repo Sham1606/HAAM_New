@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01M_script02_2_M036",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:12:44.681527",
+  "duration_seconds": 9.9,
+  "transcript": "You think there are times when you look at me like I was a used Kleenex? How did I look at you and think, holy hell, I wasn't excited to Alaska?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "You think there are times when you look at me like I was a used Kleenex?",
+      "emotion": "anger",
+      "emotion_confidence": 0.481,
+      "sentiment_score": -0.5399,
+      "pitch_mean": 331.39
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 10.0,
+      "text": "How did I look at you and think, holy hell, I wasn't excited to Alaska?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.869,
+      "sentiment_score": -0.8703,
+      "pitch_mean": 333.7
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7051,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 187.83,
+    "avg_pitch": 333.7
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script02_2",
+    "utterance_id": "Ses01M_script02_2_M036",
+    "transcript_ground_truth": "You think there would be times when you'd look at me like I was used Kleenex and then I'd look at you and think \"Holy hell when is the next flight to Alaska.\""
+  }
+}

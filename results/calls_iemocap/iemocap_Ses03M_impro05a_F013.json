@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro05a_F013",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:57:17.115105",
+  "duration_seconds": 4.91,
+  "transcript": "Sorry, it seems to me that your luggage is not here.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Sorry, it seems to me that your luggage is not here.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.91,
+      "sentiment_score": -0.6513,
+      "pitch_mean": 335.61
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6513,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 134.42,
+    "avg_pitch": 335.61
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro05a",
+    "utterance_id": "Ses03M_impro05a_F013",
+    "transcript_ground_truth": "Sir it seems to me that your luggage is um- is not here"
+  }
+}

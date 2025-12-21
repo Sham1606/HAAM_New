@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02F_impro02_F007",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:20:33.027140",
+  "duration_seconds": 11.95,
+  "transcript": "And I mean, and my daughter, I don't want to put her in danger, you know? She has to say.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 10.0,
+      "text": "And I mean, and my daughter, I don't want to put her in danger, you know?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.457,
+      "sentiment_score": -0.5149,
+      "pitch_mean": 321.02
+    },
+    {
+      "start_time": 10.0,
+      "end_time": 12.0,
+      "text": "She has to say.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.816,
+      "sentiment_score": 0.0192,
+      "pitch_mean": 321.3
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2479,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 100.43,
+    "avg_pitch": 321.3
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro02",
+    "utterance_id": "Ses02F_impro02_F007",
+    "transcript_ground_truth": "and--I mean, my daughter--I don't want to put her in danger.  You know?  She has to stay."
+  }
+}

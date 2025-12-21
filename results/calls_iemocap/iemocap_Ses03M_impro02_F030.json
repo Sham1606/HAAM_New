@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro02_F030",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:50:02.951007",
+  "duration_seconds": 5.63,
+  "transcript": "I'm done. I can't honey.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "I'm done. I can't honey.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.375,
+      "sentiment_score": -0.8456,
+      "pitch_mean": 324.6
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8456,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 53.28,
+    "avg_pitch": 324.7
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro02",
+    "utterance_id": "Ses03M_impro02_F030",
+    "transcript_ground_truth": "I'm done.  I can't honey."
+  }
+}

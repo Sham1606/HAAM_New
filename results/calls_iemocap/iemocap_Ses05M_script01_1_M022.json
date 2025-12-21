@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses05M_script01_1_M022",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:54:57.465900",
+  "duration_seconds": 8.56,
+  "transcript": "Isn't it your business too if dad... If I tell dad and he throws a fit about it? I mean you have such a talent for ignoring things.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.28,
+      "text": "Isn't it your business too if dad...",
+      "emotion": "anger",
+      "emotion_confidence": 0.44,
+      "sentiment_score": -0.0238,
+      "pitch_mean": 333.38
+    },
+    {
+      "start_time": 3.12,
+      "end_time": 5.52,
+      "text": "If I tell dad and he throws a fit about it?",
+      "emotion": "anger",
+      "emotion_confidence": 0.536,
+      "sentiment_score": -0.6244,
+      "pitch_mean": 345.13
+    },
+    {
+      "start_time": 5.84,
+      "end_time": 8.16,
+      "text": "I mean you have such a talent for ignoring things.",
+      "emotion": "anger",
+      "emotion_confidence": 0.413,
+      "sentiment_score": -0.6915,
+      "pitch_mean": 345.27
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4466,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 196.26,
+    "avg_pitch": 334.89
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_1",
+    "utterance_id": "Ses05M_script01_1_M022",
+    "transcript_ground_truth": "Isn't it your business, too, if dad -- if I tell dad and he throws a fit about it?  I mean, you have such a talent for ignoring things."
+  }
+}

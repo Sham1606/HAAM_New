@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro04_F007",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:20:51.816693",
+  "duration_seconds": 4.37,
+  "transcript": "I feel like I'm not doing anything like I'm not giving anything into this world",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.64,
+      "text": "I feel like I'm not doing anything like I'm not giving anything into this world",
+      "emotion": "disgust",
+      "emotion_confidence": 0.412,
+      "sentiment_score": -0.8494,
+      "pitch_mean": 318.42
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8494,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 205.83,
+    "avg_pitch": 322.69
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro04",
+    "utterance_id": "Ses03F_impro04_F007",
+    "transcript_ground_truth": "I feel like I'm not doing anything. Like I'm not giving anything into this world."
+  }
+}

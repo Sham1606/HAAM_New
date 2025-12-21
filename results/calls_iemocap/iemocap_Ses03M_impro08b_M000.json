@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro08b_M000",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:35:39.647442",
+  "duration_seconds": 2.4,
+  "transcript": "Hello?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Hello?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.62,
+      "sentiment_score": 0.1163,
+      "pitch_mean": 343.85
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1163,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 25.0,
+    "avg_pitch": 340.79
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro08b",
+    "utterance_id": "Ses03M_impro08b_M000",
+    "transcript_ground_truth": "Hello?"
+  }
+}

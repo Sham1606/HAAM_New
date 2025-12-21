@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses04F_impro01_F005",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T11:57:37.237383",
+  "duration_seconds": 7.42,
+  "transcript": "I have done everything, everyone in this entire place has told me to do I've been here for over an hour, they made me wait in line every single time I start over again.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.8,
+      "text": "I have done everything, everyone in this entire place",
+      "emotion": "neutral",
+      "emotion_confidence": 0.927,
+      "sentiment_score": -0.0727,
+      "pitch_mean": 374.71
+    },
+    {
+      "start_time": 2.8,
+      "end_time": 4.4,
+      "text": "has told me to do I've been here for over an hour,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.823,
+      "sentiment_score": -0.1421,
+      "pitch_mean": 388.56
+    },
+    {
+      "start_time": 4.4,
+      "end_time": 7.2,
+      "text": "they made me wait in line every single time I start over again.",
+      "emotion": "joy",
+      "emotion_confidence": 0.427,
+      "sentiment_score": -0.6901,
+      "pitch_mean": 393.97
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3016,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "joy": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 274.93,
+    "avg_pitch": 381.13
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro01",
+    "utterance_id": "Ses04F_impro01_F005",
+    "transcript_ground_truth": "I have done everything everyone in this entire place has told me to do.  I've been here for over an hour.  They make me wait in line.  Every single time I start over again."
+  }
+}

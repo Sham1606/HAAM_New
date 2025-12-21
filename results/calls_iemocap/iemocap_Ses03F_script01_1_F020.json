@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script01_1_F020",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:29:50.423397",
+  "duration_seconds": 4.98,
+  "transcript": "Well, I have an idea, but go on, tell me what's the story.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Well, I have an idea, but go on, tell me what's the story.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.861,
+      "sentiment_score": 0.1015,
+      "pitch_mean": 326.27
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1015,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 156.59,
+    "avg_pitch": 325.15
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.6667,
+    "arousal": 3.3333,
+    "dominance": 3.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_1",
+    "utterance_id": "Ses03F_script01_1_F020",
+    "transcript_ground_truth": "Well, I have an idea, but go on, tell me, what's the story?"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05M_script01_1b_M029",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:58:51.463814",
+  "duration_seconds": 10.67,
+  "transcript": "She's who I know best. I've known her since I was a kid. I grew up with her. When I think of somebody from my wife these days, I think of Annie. What do you want to diagram?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 9.0,
+      "text": "She's who I know best. I've known her since I was a kid. I grew up with her. When I think of somebody from my wife these days, I think of Annie.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.821,
+      "sentiment_score": 0.8688,
+      "pitch_mean": 338.73
+    },
+    {
+      "start_time": 9.0,
+      "end_time": 11.0,
+      "text": "What do you want to diagram?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.63,
+      "sentiment_score": 0.0666,
+      "pitch_mean": 341.02
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4677,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 213.68,
+    "avg_pitch": 341.02
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_1b",
+    "utterance_id": "Ses05M_script01_1b_M029",
+    "transcript_ground_truth": "she's who I know best. I know her since I- I was a kid I grew up with her.  When I think of somebody for my wife these days, I I think of Annie.  What do you want, a diagram?"
+  }
+}

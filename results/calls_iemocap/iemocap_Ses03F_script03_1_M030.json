@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script03_1_M030",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:44:09.457040",
+  "duration_seconds": 2.14,
+  "transcript": "We're very much younger than",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "We're very much younger than",
+      "emotion": "neutral",
+      "emotion_confidence": 0.934,
+      "sentiment_score": 0.1097,
+      "pitch_mean": 322.29
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1097,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 140.19,
+    "avg_pitch": 319.63
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script03_1",
+    "utterance_id": "Ses03F_script03_1_M030",
+    "transcript_ground_truth": "We were very much younger then."
+  }
+}

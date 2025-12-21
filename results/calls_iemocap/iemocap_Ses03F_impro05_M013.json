@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro05_M013",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:23:04.888205",
+  "duration_seconds": 4.23,
+  "transcript": "Okay, let me get it. Oh, guess who the supervisor is. It's me.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.6,
+      "text": "Okay, let me get it. Oh, guess who the supervisor is. It's me.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.418,
+      "sentiment_score": 0.5781,
+      "pitch_mean": 345.96
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5781,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 184.51,
+    "avg_pitch": 344.63
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro05",
+    "utterance_id": "Ses03F_impro05_M013",
+    "transcript_ground_truth": "Okay, let me get him.Oh, guess who the supervisor is? It's me."
+  }
+}

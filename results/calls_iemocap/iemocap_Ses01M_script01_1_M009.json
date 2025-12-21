@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01M_script01_1_M009",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:02:54.236308",
+  "duration_seconds": 7.95,
+  "transcript": "I mean, these kind of things, man, they always come back at you and this is definitely coming back to us.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.64,
+      "text": "I mean, these kind of things, man, they always come back at you and",
+      "emotion": "disgust",
+      "emotion_confidence": 0.531,
+      "sentiment_score": -0.71,
+      "pitch_mean": 331.94
+    },
+    {
+      "start_time": 4.64,
+      "end_time": 7.0,
+      "text": "this is definitely coming back to us.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.46,
+      "sentiment_score": 0.2088,
+      "pitch_mean": 327.99
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2506,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 158.44,
+    "avg_pitch": 330.83
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.3333,
+    "arousal": 3.0,
+    "dominance": 3.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_1",
+    "utterance_id": "Ses01M_script01_1_M009",
+    "transcript_ground_truth": "I mean, these kinds of things, man they always come back at you.  And this is definitely coming back to us."
+  }
+}

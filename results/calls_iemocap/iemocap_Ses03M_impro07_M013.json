@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses03M_impro07_M013",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:30:52.722213",
+  "duration_seconds": 8.2,
+  "transcript": "As some band news I was like what? It's like not really you got into USC I was like It's like oh my god I was about to tear my own hair out",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "As some band news I was like what?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.928,
+      "sentiment_score": -0.0173,
+      "pitch_mean": 319.88
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.48,
+      "text": "It's like not really you got into USC I was like",
+      "emotion": "anger",
+      "emotion_confidence": 0.387,
+      "sentiment_score": -0.154,
+      "pitch_mean": 336.85
+    },
+    {
+      "start_time": 4.48,
+      "end_time": 7.28,
+      "text": "It's like oh my god I was about to tear my own hair out",
+      "emotion": "neutral",
+      "emotion_confidence": 0.841,
+      "sentiment_score": -0.8481,
+      "pitch_mean": 369.98
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3398,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "anger": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 241.46,
+    "avg_pitch": 336.66
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 5.5,
+    "arousal": 5.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro07",
+    "utterance_id": "Ses03M_impro07_M013",
+    "transcript_ground_truth": "I have some bad news.  I was like what?  She's like not really you got into U.S.C. and I was like, I was like oh my God.  I was about to tear my own hair out."
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses02F_impro04_M012",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:24:26.802526",
+  "duration_seconds": 17.62,
+  "transcript": "because I know you you know maybe once you get to know some more people like talk into them and everything they'll get to know you too and and they'll realize that I should have hired you three years ago you know but and and they'll finally come around and believe me it'll you guys",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.58,
+      "text": "because I know you you know maybe once you get to know some more people like talk",
+      "emotion": "neutral",
+      "emotion_confidence": 0.867,
+      "sentiment_score": 0.2864,
+      "pitch_mean": 328.64
+    },
+    {
+      "start_time": 5.58,
+      "end_time": 9.14,
+      "text": "into them and everything they'll get to know you too and and they'll realize that",
+      "emotion": "neutral",
+      "emotion_confidence": 0.72,
+      "sentiment_score": 0.3477,
+      "pitch_mean": 330.0
+    },
+    {
+      "start_time": 9.14,
+      "end_time": 13.98,
+      "text": "I should have hired you three years ago you know but and and they'll finally come",
+      "emotion": "disgust",
+      "emotion_confidence": 0.398,
+      "sentiment_score": 0.0439,
+      "pitch_mean": 333.4
+    },
+    {
+      "start_time": 13.98,
+      "end_time": 17.16,
+      "text": "around and believe me it'll you guys",
+      "emotion": "neutral",
+      "emotion_confidence": 0.65,
+      "sentiment_score": 0.6218,
+      "pitch_mean": 314.79
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.325,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.75,
+      "disgust": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 187.31,
+    "avg_pitch": 325.73
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro04",
+    "utterance_id": "Ses02F_impro04_M012",
+    "transcript_ground_truth": "Because I know you.  You know, and maybe once you get to know some more people, like talking to them and everything, they'll get to know you too and they'll realize they should've hired you three years ago.  You know? but  And- and they'll finally come around and believe me--it'll--you gotta-"
+  }
+}

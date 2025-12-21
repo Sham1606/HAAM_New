@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02M_impro05_F022",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:53:11.641135",
+  "duration_seconds": 9.32,
+  "transcript": "I've already looked, thank you very much and because we have filled up paperwork if it shows up we will send it to you but otherwise what we can do is reimburse you for $50.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "I've already looked, thank you very much and because we have filled up paperwork if it shows up we will send it to you",
+      "emotion": "disgust",
+      "emotion_confidence": 0.454,
+      "sentiment_score": 0.8607,
+      "pitch_mean": 354.04
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 9.0,
+      "text": "but otherwise what we can do is reimburse you for $50.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.844,
+      "sentiment_score": 0.0499,
+      "pitch_mean": 369.69
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4553,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 225.23,
+    "avg_pitch": 356.54
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro05",
+    "utterance_id": "Ses02M_impro05_F022",
+    "transcript_ground_truth": "I've already looked, thank you very much and because we've filled out paperwork if it shows up we will send it to you but otherwise what we can do is reimburse you for fifty dollar."
+  }
+}

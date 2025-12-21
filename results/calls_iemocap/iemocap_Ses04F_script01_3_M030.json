@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script01_3_M030",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:31:11.507352",
+  "duration_seconds": 7.45,
+  "transcript": "It takes a lot of time to toss that off because they weren't just men.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "It takes a lot of time to toss that off because they weren't just men.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.957,
+      "sentiment_score": -0.6154,
+      "pitch_mean": 325.51
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6154,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 120.83,
+    "avg_pitch": 324.2
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script01_3",
+    "utterance_id": "Ses04F_script01_3_M030",
+    "transcript_ground_truth": "It takes a lot of time to toss that off because they weren't just men."
+  }
+}

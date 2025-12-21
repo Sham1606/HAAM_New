@@ -1,0 +1,81 @@
+{
+  "call_id": "iemocap_Ses01F_script02_1_M024",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:39:04.747206",
+  "duration_seconds": 12.86,
+  "transcript": "I think this is like a natural phenomenon. I mean, people in Kansas would have to get plane reservations and get hotel rooms to see this. It's just 40 minutes away for us. It's too good to pass up.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.54,
+      "text": "I think this is like a natural phenomenon.",
+      "emotion": "anger",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.0973,
+      "pitch_mean": 343.73
+    },
+    {
+      "start_time": 2.54,
+      "end_time": 8.88,
+      "text": "I mean, people in Kansas would have to get plane reservations and get hotel rooms to see",
+      "emotion": "neutral",
+      "emotion_confidence": 0.907,
+      "sentiment_score": -0.0027,
+      "pitch_mean": 337.3
+    },
+    {
+      "start_time": 8.88,
+      "end_time": 9.88,
+      "text": "this.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.769,
+      "sentiment_score": -0.1189,
+      "pitch_mean": 324.07
+    },
+    {
+      "start_time": 9.88,
+      "end_time": 11.28,
+      "text": "It's just 40 minutes away for us.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.893,
+      "sentiment_score": 0.1887,
+      "pitch_mean": 341.96
+    },
+    {
+      "start_time": 11.28,
+      "end_time": 12.12,
+      "text": "It's too good to pass up.",
+      "emotion": "joy",
+      "emotion_confidence": 0.588,
+      "sentiment_score": 0.9697,
+      "pitch_mean": 337.6
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1879,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "anger": 0.2,
+      "neutral": 0.6,
+      "joy": 0.2
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 181.96,
+    "avg_pitch": 338.02
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_1",
+    "utterance_id": "Ses01F_script02_1_M024",
+    "transcript_ground_truth": "Honey, this is like a natural phenomenon. I mean... People in Kansas would have to get plane reservations and get hotel rooms to see this.  It's just forty minutes away for us; it's too good to pass up."
+  }
+}

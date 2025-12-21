@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro03_F027",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:37:37.661356",
+  "duration_seconds": 3.73,
+  "transcript": "Yeah, have you ever like lived with someone else before?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Yeah, have you ever like lived with someone else before?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.595,
+      "sentiment_score": -0.0399,
+      "pitch_mean": 350.56
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0399,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 160.86,
+    "avg_pitch": 358.03
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.3333,
+    "arousal": 2.6667,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro03",
+    "utterance_id": "Ses05M_impro03_F027",
+    "transcript_ground_truth": "Yeah, have you ever like lived with someone else before?"
+  }
+}

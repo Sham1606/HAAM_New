@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses04M_script02_2_M029",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:13:45.970641",
+  "duration_seconds": 11.55,
+  "transcript": "Well welcome to the human race. You think this is what I had in mind? You think that when I proposed I had this great fantasy going that four years down the line We'd come to the beach and yell at each other over fish. No",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.74,
+      "text": "Well welcome to the human race. You think this is what I had in mind?",
+      "emotion": "anger",
+      "emotion_confidence": 0.632,
+      "sentiment_score": 0.2163,
+      "pitch_mean": 343.77
+    },
+    {
+      "start_time": 4.14,
+      "end_time": 8.42,
+      "text": "You think that when I proposed I had this great fantasy going that four years down the line",
+      "emotion": "anger",
+      "emotion_confidence": 0.528,
+      "sentiment_score": 0.4854,
+      "pitch_mean": 341.12
+    },
+    {
+      "start_time": 8.42,
+      "end_time": 11.18,
+      "text": "We'd come to the beach and yell at each other over fish. No",
+      "emotion": "joy",
+      "emotion_confidence": 0.361,
+      "sentiment_score": -0.5717,
+      "pitch_mean": 332.18
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0433,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.667,
+      "joy": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 238.96,
+    "avg_pitch": 338.42
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script02_2",
+    "utterance_id": "Ses04M_script02_2_M029",
+    "transcript_ground_truth": "Well welcome to the human race.  You think this is what I had in mind?  You think that when I proposed, I had this great fantasy going that four years down the line, we'd come to the beach and yell at each other over fish?  No."
+  }
+}

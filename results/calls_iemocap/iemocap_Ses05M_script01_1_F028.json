@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_script01_1_F028",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:53:37.538615",
+  "duration_seconds": 5.49,
+  "transcript": "Well, that's a good reason, but it doesn't mean anything at all. I mean, you haven't seen her in five years.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.76,
+      "text": "Well, that's a good reason, but it doesn't mean anything at all.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.602,
+      "sentiment_score": -0.8119,
+      "pitch_mean": 339.46
+    },
+    {
+      "start_time": 2.76,
+      "end_time": 5.0,
+      "text": "I mean, you haven't seen her in five years.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.46,
+      "sentiment_score": -0.304,
+      "pitch_mean": 329.44
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5579,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 229.51,
+    "avg_pitch": 327.84
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_1",
+    "utterance_id": "Ses05M_script01_1_F028",
+    "transcript_ground_truth": "Well, that's a good reason.  But that doesn't mean anything at all.  I mean, you haven't seen her in five years."
+  }
+}

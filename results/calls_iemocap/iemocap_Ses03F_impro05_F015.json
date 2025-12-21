@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro05_F015",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:22:33.949780",
+  "duration_seconds": 2.74,
+  "transcript": "No, they said I couldn't lock it",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "No, they said I couldn't lock it",
+      "emotion": "anger",
+      "emotion_confidence": 0.382,
+      "sentiment_score": -0.3312,
+      "pitch_mean": 378.49
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3312,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 153.27,
+    "avg_pitch": 357.53
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro05",
+    "utterance_id": "Ses03F_impro05_F015",
+    "transcript_ground_truth": "No, they said I couldn't lock it."
+  }
+}

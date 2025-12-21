@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02F_impro08_F023",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:30:39.553274",
+  "duration_seconds": 10.05,
+  "transcript": "Absolutely, that actually goes in and the same package with our hotel. You just give me your address. We'll come and pick you up at a time that allows you to get to your flight with plenty of time to spare.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.64,
+      "text": "Absolutely, that actually goes in and the same package with our hotel.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.906,
+      "sentiment_score": 0.432,
+      "pitch_mean": 355.16
+    },
+    {
+      "start_time": 3.64,
+      "end_time": 9.76,
+      "text": "You just give me your address. We'll come and pick you up at a time that allows you to get to your flight with plenty of time to spare.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.962,
+      "sentiment_score": 0.3372,
+      "pitch_mean": 343.76
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3846,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 244.78,
+    "avg_pitch": 346.72
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro08",
+    "utterance_id": "Ses02F_impro08_F023",
+    "transcript_ground_truth": "Absolutely.  That actually goes in on the same package with our hotel.  You just give me your address.  We'll come and pick up a time that allows you to get to your flight with plenty of time to spare."
+  }
+}

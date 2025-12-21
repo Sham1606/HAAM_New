@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script03_1_M029",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:29:08.384403",
+  "duration_seconds": 4.13,
+  "transcript": "Oh, that was quite a rouser, wasn't it?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.4,
+      "text": "Oh, that was quite a rouser, wasn't it?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.671,
+      "sentiment_score": -0.0817,
+      "pitch_mean": 347.17
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0817,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 116.22,
+    "avg_pitch": 340.12
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script03_1",
+    "utterance_id": "Ses05F_script03_1_M029",
+    "transcript_ground_truth": "Oh, that was quite a rouser, wasn't it?"
+  }
+}

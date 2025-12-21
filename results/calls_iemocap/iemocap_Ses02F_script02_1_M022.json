@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script02_1_M022",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:38:31.668140",
+  "duration_seconds": 1.4,
+  "transcript": "Why not?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "Why not?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.33,
+      "sentiment_score": 0.0449,
+      "pitch_mean": 335.11
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0449,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 85.71,
+    "avg_pitch": 337.1
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script02_1",
+    "utterance_id": "Ses02F_script02_1_M022",
+    "transcript_ground_truth": "Why not?"
+  }
+}

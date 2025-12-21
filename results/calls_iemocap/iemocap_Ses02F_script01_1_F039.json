@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script01_1_F039",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:32:29.800929",
+  "duration_seconds": 3.58,
+  "transcript": "Tell me you believe the business.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Tell me you believe the business.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.446,
+      "sentiment_score": -0.0611,
+      "pitch_mean": 328.59
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0611,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 100.56,
+    "avg_pitch": 325.9
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 2.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_1",
+    "utterance_id": "Ses02F_script01_1_F039",
+    "transcript_ground_truth": "Tell me, you'd leave the business?"
+  }
+}

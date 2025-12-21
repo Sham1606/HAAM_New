@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01M_script01_3_F005",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:05:08.667013",
+  "duration_seconds": 5.48,
+  "transcript": "And then you... You think kinda...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "And then you...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.664,
+      "sentiment_score": -0.034,
+      "pitch_mean": 315.68
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 5.0,
+      "text": "You think kinda...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.79,
+      "sentiment_score": 0.0253,
+      "pitch_mean": 317.42
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0043,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 65.66,
+    "avg_pitch": 315.2
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 3.5,
+    "arousal": 2.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_3",
+    "utterance_id": "Ses01M_script01_3_F005",
+    "transcript_ground_truth": "[BREATHING] And then you've been kind of..."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses04F_impro03_M020",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:04:46.615426",
+  "duration_seconds": 8.78,
+  "transcript": "I just think that Browns are really what you want to go with. I mean, I think, I mean, there's more contrast between Brown and Green and there is Blue and Green.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I just think that Browns are really what you want to go with.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.937,
+      "sentiment_score": 0.1208,
+      "pitch_mean": 340.88
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 9.0,
+      "text": "I mean, I think, I mean, there's more contrast between Brown and Green and there is Blue and Green.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.784,
+      "sentiment_score": 0.0753,
+      "pitch_mean": 333.79
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0981,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 218.68,
+    "avg_pitch": 333.79
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro03",
+    "utterance_id": "Ses04F_impro03_M020",
+    "transcript_ground_truth": "I just think browns are really what you want to go with.  I mean I think there's more contrast between brown and green than there is-"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01F_script03_2_M029",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:47:20.937255",
+  "duration_seconds": 5.08,
+  "transcript": "But you better turn that off. I don't want to wake up the people upstairs.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.8,
+      "text": "But you better turn that off.",
+      "emotion": "joy",
+      "emotion_confidence": 0.364,
+      "sentiment_score": -0.5701,
+      "pitch_mean": 331.57
+    },
+    {
+      "start_time": 2.8,
+      "end_time": 4.8,
+      "text": "I don't want to wake up the people upstairs.",
+      "emotion": "anger",
+      "emotion_confidence": 0.431,
+      "sentiment_score": -0.5822,
+      "pitch_mean": 333.37
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5761,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 177.25,
+    "avg_pitch": 333.37
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script03_2",
+    "utterance_id": "Ses01F_script03_2_M029",
+    "transcript_ground_truth": "Look, you better turn that off. I don't want to wake up the people upstairs."
+  }
+}

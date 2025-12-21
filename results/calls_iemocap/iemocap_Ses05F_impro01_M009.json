@@ -1,0 +1,80 @@
+{
+  "call_id": "iemocap_Ses05F_impro01_M009",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:46:41.719516",
+  "duration_seconds": 11.14,
+  "transcript": "Man, you know, obviously I have no idea how long it's taking. This seems to be a bit of a line there. It looks like 30, 40 people. It could take 4 to 5 hours. I'm sorry.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.44,
+      "text": "Man, you know, obviously I have no idea how long it's taking.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.715,
+      "sentiment_score": -0.658,
+      "pitch_mean": 340.24
+    },
+    {
+      "start_time": 4.44,
+      "end_time": 6.16,
+      "text": "This seems to be a bit of a line there.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.927,
+      "sentiment_score": -0.0539,
+      "pitch_mean": 350.59
+    },
+    {
+      "start_time": 6.16,
+      "end_time": 8.08,
+      "text": "It looks like 30, 40 people.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.811,
+      "sentiment_score": -0.0682,
+      "pitch_mean": 327.17
+    },
+    {
+      "start_time": 8.08,
+      "end_time": 10.08,
+      "text": "It could take 4 to 5 hours.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.945,
+      "sentiment_score": -0.1065,
+      "pitch_mean": 330.21
+    },
+    {
+      "start_time": 10.08,
+      "end_time": 11.08,
+      "text": "I'm sorry.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.911,
+      "sentiment_score": -0.5695,
+      "pitch_mean": 333.96
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2912,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.8,
+      "sadness": 0.2
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 199.28,
+    "avg_pitch": 337.73
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro01",
+    "utterance_id": "Ses05F_impro01_M009",
+    "transcript_ground_truth": "Ma'am, obviously I have no idea how long it's taking.  There seems to be a bit of a line there.  It looks like thirty forty people.  It could take four to five hours.  I'm sorry."
+  }
+}

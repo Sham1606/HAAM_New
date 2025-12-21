@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script01_3_F014",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:01:27.761569",
+  "duration_seconds": 7.63,
+  "transcript": "I'll never forgive you. I did you wait so long all this time I've sat around wondering if I was crazy for thinking of you",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.96,
+      "text": "I'll never forgive you. I did you wait so long all this time I've sat around wondering if I was crazy for thinking of you",
+      "emotion": "neutral",
+      "emotion_confidence": 0.753,
+      "sentiment_score": -0.9362,
+      "pitch_mean": 353.16
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9362,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 196.59,
+    "avg_pitch": 353.26
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 5.0,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_3",
+    "utterance_id": "Ses05M_script01_3_F014",
+    "transcript_ground_truth": "I'll never forgive you.  Why did you wait so long?  All this time I've sat around wondering if I was crazy for thinking of you."
+  }
+}

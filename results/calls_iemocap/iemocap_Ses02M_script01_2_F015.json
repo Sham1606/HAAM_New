@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script01_2_F015",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:02:48.353541",
+  "duration_seconds": 3.24,
+  "transcript": "Just you above all need to believe.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Just you above all need to believe.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.906,
+      "sentiment_score": 0.3657,
+      "pitch_mean": 353.86
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3657,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 129.63,
+    "avg_pitch": 346.28
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.3333,
+    "arousal": 3.3333,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script01_2",
+    "utterance_id": "Ses02M_script01_2_F015",
+    "transcript_ground_truth": "Just you above all need to believe."
+  }
+}

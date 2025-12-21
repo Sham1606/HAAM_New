@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses03M_script02_1_M037",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:47:34.923897",
+  "duration_seconds": 12.49,
+  "transcript": "Somewhere out there, this is huge silver mass of fish heading this way. They don't know why. We don't know why. They just some little instinctual firecracker went off in their bodies like shhhhhh and they...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.32,
+      "text": "Somewhere out there, this is huge silver mass of fish heading this way. They don't know why. We don't know why.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.424,
+      "sentiment_score": -0.6426,
+      "pitch_mean": 322.91
+    },
+    {
+      "start_time": 6.32,
+      "end_time": 11.0,
+      "text": "They just some little instinctual firecracker went off in their bodies like",
+      "emotion": "neutral",
+      "emotion_confidence": 0.662,
+      "sentiment_score": -0.2408,
+      "pitch_mean": 330.85
+    },
+    {
+      "start_time": 11.0,
+      "end_time": 12.5,
+      "text": "shhhhhh and they...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.1699,
+      "pitch_mean": 324.31
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3511,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "disgust": 0.333,
+      "neutral": 0.667
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 172.94,
+    "avg_pitch": 324.31
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_1",
+    "utterance_id": "Ses03M_script02_1_M037",
+    "transcript_ground_truth": "Somewhere out there, there's this huge silver mass of fish heading this way, they don't why, we don't know why, they just some little instinctual fire cracker went off in their bodies..."
+  }
+}

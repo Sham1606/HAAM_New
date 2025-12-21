@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro02_M002",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:17:30.901191",
+  "duration_seconds": 6.24,
+  "transcript": "Oh, it's just not fair. I think you've already made your sacrifice.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "Oh, it's just not fair. I think you've already made your sacrifice.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.426,
+      "sentiment_score": -0.9119,
+      "pitch_mean": 325.82
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9119,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 115.39,
+    "avg_pitch": 326.66
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro02",
+    "utterance_id": "Ses01F_impro02_M002",
+    "transcript_ground_truth": "I don't know, it's just not fair.  I think you've already made your sacrifice."
+  }
+}

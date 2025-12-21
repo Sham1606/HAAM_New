@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses01M_script01_3_M017",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:06:34.033542",
+  "duration_seconds": 10.01,
+  "transcript": "Oh, honey. Don't you go ahead and give me your kiss. Come on, Stu.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Oh, honey.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.478,
+      "sentiment_score": 0.337,
+      "pitch_mean": 339.82
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 5.0,
+      "text": "Don't you go ahead and give me your kiss.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.476,
+      "sentiment_score": -0.0587,
+      "pitch_mean": 327.46
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 6.0,
+      "text": "Come on, Stu.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.842,
+      "sentiment_score": 0.105,
+      "pitch_mean": 324.58
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1278,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.667,
+      "neutral": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 83.95,
+    "avg_pitch": 330.19
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_3",
+    "utterance_id": "Ses01M_script01_3_M017",
+    "transcript_ground_truth": "Oh Annie, why don't you go ahead and give me a kiss, come on just a..."
+  }
+}

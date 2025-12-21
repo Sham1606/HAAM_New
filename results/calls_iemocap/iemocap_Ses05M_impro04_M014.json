@@ -1,0 +1,80 @@
+{
+  "call_id": "iemocap_Ses05M_impro04_M014",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:41:47.363282",
+  "duration_seconds": 7.56,
+  "transcript": "Yeah, absolutely. Oh, hello, you know me. I go to bars all the time. Like, they all know me, you know? But no one wants to hire me.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.6,
+      "text": "Yeah, absolutely.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.73,
+      "sentiment_score": 0.2983,
+      "pitch_mean": 327.96
+    },
+    {
+      "start_time": 1.6,
+      "end_time": 3.28,
+      "text": "Oh, hello, you know me.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.593,
+      "sentiment_score": 0.6512,
+      "pitch_mean": 319.33
+    },
+    {
+      "start_time": 3.28,
+      "end_time": 4.64,
+      "text": "I go to bars all the time.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.618,
+      "sentiment_score": 0.2383,
+      "pitch_mean": 338.56
+    },
+    {
+      "start_time": 4.64,
+      "end_time": 6.12,
+      "text": "Like, they all know me, you know?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.361,
+      "sentiment_score": 0.2041,
+      "pitch_mean": 311.57
+    },
+    {
+      "start_time": 6.12,
+      "end_time": 7.44,
+      "text": "But no one wants to hire me.",
+      "emotion": "anger",
+      "emotion_confidence": 0.566,
+      "sentiment_score": -0.8461,
+      "pitch_mean": 332.76
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1092,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.8,
+      "anger": 0.2
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 222.22,
+    "avg_pitch": 323.69
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro04",
+    "utterance_id": "Ses05M_impro04_M014",
+    "transcript_ground_truth": "Yeah, absolutely.  Hello?  You know me.  I go to bars all the time.  Like, they all know me, you know.  But no one wants to hire me."
+  }
+}

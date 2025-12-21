@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script02_2_M023",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:10:00.798788",
+  "duration_seconds": 1.8,
+  "transcript": "Take off our shoes",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Take off our shoes",
+      "emotion": "neutral",
+      "emotion_confidence": 0.633,
+      "sentiment_score": 0.0097,
+      "pitch_mean": 323.35
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0097,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 133.33,
+    "avg_pitch": 323.35
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script02_2",
+    "utterance_id": "Ses02M_script02_2_M023",
+    "transcript_ground_truth": "Take off our shoes?"
+  }
+}

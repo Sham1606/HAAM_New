@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01M_script02_1_M029",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:09:30.602060",
+  "duration_seconds": 14.72,
+  "transcript": "Yeah, but that like flopping around is what to do. It's a, it's like spawning or mating or something. This is like the highlight for their little fish lives. It's like life's last orgy.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "Yeah, but that like flopping around is what to do. It's a, it's like spawning or mating or something.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.76,
+      "sentiment_score": -0.018,
+      "pitch_mean": 341.69
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 14.0,
+      "text": "This is like the highlight for their little fish lives. It's like life's last orgy.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.897,
+      "sentiment_score": 0.8856,
+      "pitch_mean": 340.61
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4338,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 138.6,
+    "avg_pitch": 340.09
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script02_1",
+    "utterance_id": "Ses01M_script02_1_M029",
+    "transcript_ground_truth": "Yeah but that like flopping around is what to do it's like spawning or mating or something.  This is like the highlight of their little fish lives.  It's like life's last orgy."
+  }
+}

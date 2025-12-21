@@ -1,0 +1,81 @@
+{
+  "call_id": "iemocap_Ses05M_script03_1_M014",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:11:49.335898",
+  "duration_seconds": 11.3,
+  "transcript": "All the futile moralists who try to make life unbearable? Laugh at them. Be flippant! Laugh at everything! All their sacred shibbolists!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "All the futile moralists who try to make life unbearable?",
+      "emotion": "joy",
+      "emotion_confidence": 0.419,
+      "sentiment_score": -0.8868,
+      "pitch_mean": 331.17
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 6.0,
+      "text": "Laugh at them.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.615,
+      "sentiment_score": -0.1694,
+      "pitch_mean": 318.78
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 7.0,
+      "text": "Be flippant!",
+      "emotion": "anger",
+      "emotion_confidence": 0.347,
+      "sentiment_score": -0.32,
+      "pitch_mean": 302.26
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 9.0,
+      "text": "Laugh at everything!",
+      "emotion": "disgust",
+      "emotion_confidence": 0.501,
+      "sentiment_score": 0.7515,
+      "pitch_mean": 323.6
+    },
+    {
+      "start_time": 9.0,
+      "end_time": 11.0,
+      "text": "All their sacred shibbolists!",
+      "emotion": "anger",
+      "emotion_confidence": 0.657,
+      "sentiment_score": -0.5483,
+      "pitch_mean": 317.42
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2346,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "joy": 0.2,
+      "disgust": 0.4,
+      "anger": 0.4
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 116.79,
+    "avg_pitch": 315.92
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script03_1",
+    "utterance_id": "Ses05M_script03_1_M014",
+    "transcript_ground_truth": "All the futile mortals who try to make life unbearable.  Laugh at them, Be flippant.  Laugh at everything, all their sacred shibboleths."
+  }
+}

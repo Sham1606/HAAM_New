@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro01_M004",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T11:58:36.960382",
+  "duration_seconds": 2.63,
+  "transcript": "Ma'am, I can't help you, do you understand?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Ma'am, I can't help you, do you understand?",
+      "emotion": "joy",
+      "emotion_confidence": 0.39,
+      "sentiment_score": -0.5182,
+      "pitch_mean": 357.59
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5182,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 182.51,
+    "avg_pitch": 354.19
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro01",
+    "utterance_id": "Ses04F_impro01_M004",
+    "transcript_ground_truth": "Ma'am I can't help you.  Do you understand?"
+  }
+}

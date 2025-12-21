@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01F_impro07_M015",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:30:57.861348",
+  "duration_seconds": 10.55,
+  "transcript": "You have to get married. Well you are married. Chuck! Your miss is not. I was too confused with Mrs. Dash, which is the popular season.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "You have to get married. Well you are married. Chuck! Your miss is not.",
+      "emotion": "joy",
+      "emotion_confidence": 0.553,
+      "sentiment_score": -0.0701,
+      "pitch_mean": 353.97
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 10.0,
+      "text": "I was too confused with Mrs. Dash, which is the popular season.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.844,
+      "sentiment_score": -0.1988,
+      "pitch_mean": 333.85
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1345,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 147.83,
+    "avg_pitch": 344.26
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro07",
+    "utterance_id": "Ses01F_impro07_M015",
+    "transcript_ground_truth": "You have to get married.  Well you are married to Chuck.  You're Mrs. Nash.  Not to be confused with Mrs. Dash which is the popular seasoning."
+  }
+}

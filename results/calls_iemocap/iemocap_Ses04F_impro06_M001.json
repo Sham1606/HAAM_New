@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses04F_impro06_M001",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:12:06.564774",
+  "duration_seconds": 24.36,
+  "transcript": "When I was seven my grandmother died and I really, I don't know, I mean it was really hard to let go but the important thing is is that you do let go and you realize that you know they, you know, this person had fun while they were, while they were here and you work, work through it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.52,
+      "text": "When I was seven my grandmother died and I really, I don't know, I mean it was really",
+      "emotion": "disgust",
+      "emotion_confidence": 0.379,
+      "sentiment_score": -0.8243,
+      "pitch_mean": 320.22
+    },
+    {
+      "start_time": 7.52,
+      "end_time": 11.76,
+      "text": "hard to let go but the important thing is is that you do let go and you realize that",
+      "emotion": "sadness",
+      "emotion_confidence": 0.405,
+      "sentiment_score": 0.3551,
+      "pitch_mean": 324.07
+    },
+    {
+      "start_time": 11.76,
+      "end_time": 19.52,
+      "text": "you know they, you know, this person had fun while they were, while they were here and",
+      "emotion": "sadness",
+      "emotion_confidence": 0.353,
+      "sentiment_score": 0.7761,
+      "pitch_mean": 318.37
+    },
+    {
+      "start_time": 19.52,
+      "end_time": 23.52,
+      "text": "you work, work through it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.872,
+      "sentiment_score": 0.2875,
+      "pitch_mean": 315.05
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1486,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "disgust": 0.25,
+      "sadness": 0.5,
+      "neutral": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 145.32,
+    "avg_pitch": 319.67
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro06",
+    "utterance_id": "Ses04F_impro06_M001",
+    "transcript_ground_truth": "When I was seven, my- my grandmother died and I really- I don't know, I mean it was really hard to let go but the important thing is- is that you do let go and your realize that, you know, they- you know, they- this person had fun while they were- while they were here and, uh, you know, you work- you work through it."
+  }
+}

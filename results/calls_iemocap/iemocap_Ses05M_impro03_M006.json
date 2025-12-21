@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses05M_impro03_M006",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:38:07.079305",
+  "duration_seconds": 12.47,
+  "transcript": "I did it up at Yosemite, room at camping, right? Like we usually do, you know, we go camping up the roll time. But the waterfalls had died down a little bit, you know? And so we had to climb up.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.64,
+      "text": "I did it up at Yosemite, room at camping, right?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.861,
+      "sentiment_score": 0.0634,
+      "pitch_mean": 310.84
+    },
+    {
+      "start_time": 3.64,
+      "end_time": 5.96,
+      "text": "Like we usually do, you know, we go camping up the roll time.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.941,
+      "sentiment_score": 0.0768,
+      "pitch_mean": 318.92
+    },
+    {
+      "start_time": 5.96,
+      "end_time": 9.24,
+      "text": "But the waterfalls had died down a little bit, you know?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.569,
+      "sentiment_score": 0.026,
+      "pitch_mean": 313.95
+    },
+    {
+      "start_time": 9.24,
+      "end_time": 12.24,
+      "text": "And so we had to climb up.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.399,
+      "sentiment_score": 0.4129,
+      "pitch_mean": 311.35
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1447,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.75,
+      "disgust": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 197.27,
+    "avg_pitch": 313.96
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 3.6667,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro03",
+    "utterance_id": "Ses05M_impro03_M006",
+    "transcript_ground_truth": "I did it up at Yosemite.  We went camping right like we usually do.  You know we go camping up there all the time.  But, um- the waterfalls had died down a little bit, you know. And so uh- we-I had her climb up."
+  }
+}

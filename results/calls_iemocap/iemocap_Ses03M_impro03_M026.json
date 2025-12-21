@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro03_M026",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:53:51.902737",
+  "duration_seconds": 1.96,
+  "transcript": "Yes, because",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Yes, because",
+      "emotion": "neutral",
+      "emotion_confidence": 0.818,
+      "sentiment_score": 0.1599,
+      "pitch_mean": 346.92
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1599,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 61.1,
+    "avg_pitch": 346.92
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro03",
+    "utterance_id": "Ses03M_impro03_M026",
+    "transcript_ground_truth": "Yeah, she goes--"
+  }
+}

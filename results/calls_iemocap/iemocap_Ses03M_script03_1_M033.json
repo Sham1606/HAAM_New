@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script03_1_M033",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:53:34.548279",
+  "duration_seconds": 2.97,
+  "transcript": "Your curling iron smirves a hole in my dressing gown.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.8,
+      "text": "Your curling iron smirves a hole in my dressing gown.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.693,
+      "sentiment_score": -0.5379,
+      "pitch_mean": 331.1
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5379,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 202.02,
+    "avg_pitch": 329.68
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script03_1",
+    "utterance_id": "Ses03M_script03_1_M033",
+    "transcript_ground_truth": "you're curling iron burnt a hole in my dressing gown."
+  }
+}

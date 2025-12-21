@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01M_script02_2_M020",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:12:15.522527",
+  "duration_seconds": 9.83,
+  "transcript": "Let's see. I took a shower and you were watching the news and you said the Gruddin's running tonight and I said okay great let's go.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.2,
+      "text": "Let's see. I took a shower and you were watching the news and you said the",
+      "emotion": "anger",
+      "emotion_confidence": 0.334,
+      "sentiment_score": 0.0233,
+      "pitch_mean": 331.45
+    },
+    {
+      "start_time": 7.2,
+      "end_time": 10.8,
+      "text": "Gruddin's running tonight and I said okay great let's go.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.8993,
+      "pitch_mean": 335.98
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4613,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 158.66,
+    "avg_pitch": 335.98
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script02_2",
+    "utterance_id": "Ses01M_script02_2_M020",
+    "transcript_ground_truth": "Let's see, uh, I took a shower and, um, you were watching the news and you said the \"the Grunions are running tonight,\" and I said \"okay great, let's go.\""
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script03_2_F037",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:17:12.633088",
+  "duration_seconds": 2.59,
+  "transcript": "Stop it. No, go away",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Stop it. No, go away",
+      "emotion": "anger",
+      "emotion_confidence": 0.823,
+      "sentiment_score": -0.8725,
+      "pitch_mean": 367.53
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8725,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 115.83,
+    "avg_pitch": 367.76
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script03_2",
+    "utterance_id": "Ses01M_script03_2_F037",
+    "transcript_ground_truth": "Stop it. No. Go away."
+  }
+}

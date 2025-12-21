@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script03_1_F002",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:26:54.259009",
+  "duration_seconds": 2.13,
+  "transcript": "What will we do?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "What will we do?",
+      "emotion": "fear",
+      "emotion_confidence": 0.593,
+      "sentiment_score": -0.123,
+      "pitch_mean": 346.11
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.123,
+    "dominant_emotion": "fear",
+    "emotion_distribution": {
+      "fear": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 112.68,
+    "avg_pitch": 343.37
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script03_1",
+    "utterance_id": "Ses05F_script03_1_F002",
+    "transcript_ground_truth": "What will be do?"
+  }
+}

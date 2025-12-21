@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro05_M007",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:25:47.691895",
+  "duration_seconds": 6.86,
+  "transcript": "I think maybe you can file a claim if you want and turn it into our main office.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "I think maybe you can file a claim if you want and turn it into our main office.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.959,
+      "sentiment_score": 0.0564,
+      "pitch_mean": 329.81
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0564,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 157.43,
+    "avg_pitch": 329.81
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro05",
+    "utterance_id": "Ses02F_impro05_M007",
+    "transcript_ground_truth": "I think, um, maybe you can file a claim if you want and turn it in to our main office--"
+  }
+}

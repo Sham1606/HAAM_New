@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script02_1_F013",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:04:32.711535",
+  "duration_seconds": 6.6,
+  "transcript": "Pass what up? It's just little fish and they swim onto the beach and they flop around and they swim away and then they die.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "Pass what up? It's just little fish and they swim onto the beach and they flop around and they swim away and then they die.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.882,
+      "sentiment_score": -0.7548,
+      "pitch_mean": 353.74
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7548,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 227.27,
+    "avg_pitch": 349.98
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script02_1",
+    "utterance_id": "Ses05M_script02_1_F013",
+    "transcript_ground_truth": "Pass what up?  It's It's just little fish and they swim up on the beach and they flop around and they swim away and then they die."
+  }
+}

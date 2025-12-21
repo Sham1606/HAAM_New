@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02M_impro01_M016",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:47:58.372241",
+  "duration_seconds": 6.81,
+  "transcript": "My driver's license, I had to have my birth certificate to get my driver's license in the first place, right? I mean this here's my driver's license so",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.34,
+      "text": "My driver's license, I had to have my birth certificate to get my driver's license in the first place, right?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.721,
+      "sentiment_score": -0.0711,
+      "pitch_mean": 362.79
+    },
+    {
+      "start_time": 4.34,
+      "end_time": 6.34,
+      "text": "I mean this here's my driver's license so",
+      "emotion": "joy",
+      "emotion_confidence": 0.36,
+      "sentiment_score": 0.0558,
+      "pitch_mean": 349.86
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0076,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "joy": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 246.62,
+    "avg_pitch": 360.18
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro01",
+    "utterance_id": "Ses02M_impro01_M016",
+    "transcript_ground_truth": "But my driver's license - I had to have my birth certificate to get my driver's license in the first place right, I mean this - here is my driver's license so"
+  }
+}

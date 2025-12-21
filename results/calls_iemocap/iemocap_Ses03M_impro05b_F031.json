@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro05b_F031",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:59:42.397854",
+  "duration_seconds": 2.24,
+  "transcript": "And actually\u00f6t Columbia",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.9,
+      "text": "And actually\u00f6t Columbia",
+      "emotion": "neutral",
+      "emotion_confidence": 0.583,
+      "sentiment_score": 0.0882,
+      "pitch_mean": 349.54
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0882,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 80.36,
+    "avg_pitch": 349.54
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro05b",
+    "utterance_id": "Ses03M_impro05b_F031",
+    "transcript_ground_truth": "eh- we actually--"
+  }
+}

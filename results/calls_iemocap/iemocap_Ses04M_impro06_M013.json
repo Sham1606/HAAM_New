@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses04M_impro06_M013",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:59:43.988688",
+  "duration_seconds": 8.87,
+  "transcript": "There's just be some sort of rule that people don't die until they're older. Because then at least it's expected.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.6,
+      "text": "There's just be some sort of rule that people don't die until they're older.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.956,
+      "sentiment_score": -0.2468,
+      "pitch_mean": 314.28
+    },
+    {
+      "start_time": 5.6,
+      "end_time": 8.6,
+      "text": "Because then at least it's expected.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.912,
+      "sentiment_score": -0.0787,
+      "pitch_mean": 323.78
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1628,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 135.29,
+    "avg_pitch": 317.97
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro06",
+    "utterance_id": "Ses04M_impro06_M013",
+    "transcript_ground_truth": "there should just be some sort of rule that people don't die until they're older, 'cause then, at least, it's expected."
+  }
+}

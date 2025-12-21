@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04F_script01_1_M032",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:25:59.027597",
+  "duration_seconds": 7.26,
+  "transcript": "These years when I think of someone from my wife I think of Annie. What do you want to diagram?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "These years when I think of someone from my wife I think of Annie.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.633,
+      "sentiment_score": -0.1363,
+      "pitch_mean": 322.25
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 7.0,
+      "text": "What do you want to diagram?",
+      "emotion": "sadness",
+      "emotion_confidence": 0.591,
+      "sentiment_score": 0.0666,
+      "pitch_mean": 317.21
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0349,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "sadness": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 165.26,
+    "avg_pitch": 320.13
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script01_1",
+    "utterance_id": "Ses04F_script01_1_M032",
+    "transcript_ground_truth": "These years when I think of someone for my wife, I think of Annie.  What do you want, a diagram?"
+  }
+}

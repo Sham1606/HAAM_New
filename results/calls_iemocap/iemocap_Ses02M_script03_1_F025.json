@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script03_1_F025",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:11:34.091807",
+  "duration_seconds": 4.55,
+  "transcript": "It burnt my comb to it all the towels in the bathroom.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "It burnt my comb to it all the towels in the bathroom.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.697,
+      "sentiment_score": -0.6859,
+      "pitch_mean": 365.77
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6859,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 158.22,
+    "avg_pitch": 365.24
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script03_1",
+    "utterance_id": "Ses02M_script03_1_F025",
+    "transcript_ground_truth": "It burned my comb too and all the towels in the bathroom."
+  }
+}

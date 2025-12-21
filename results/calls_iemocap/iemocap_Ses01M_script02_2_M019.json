@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses01M_script02_2_M019",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:12:12.697658",
+  "duration_seconds": 8.43,
+  "transcript": "You were fine during the phone call from March. Dinner was okay. Doing the dishes was fine.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "You were fine during the phone call from March.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.759,
+      "sentiment_score": 0.4898,
+      "pitch_mean": 336.18
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "Dinner was okay.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.812,
+      "sentiment_score": 0.8044,
+      "pitch_mean": 336.57
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 8.0,
+      "text": "Doing the dishes was fine.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.784,
+      "sentiment_score": 0.4432,
+      "pitch_mean": 322.63
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5791,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 120.96,
+    "avg_pitch": 333.53
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script02_2",
+    "utterance_id": "Ses01M_script02_2_M019",
+    "transcript_ground_truth": "you were fine during the phone call from Marge, dinner was okay, doing the dishes was fine."
+  }
+}

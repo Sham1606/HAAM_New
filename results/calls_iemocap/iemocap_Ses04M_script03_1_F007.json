@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_script03_1_F007",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:14:18.846411",
+  "duration_seconds": 2.92,
+  "transcript": "Certainly I shall probably do a court curtsy.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.8,
+      "text": "Certainly I shall probably do a court curtsy.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.832,
+      "sentiment_score": 0.2138,
+      "pitch_mean": 341.31
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2138,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 164.38,
+    "avg_pitch": 337.7
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 5.0,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script03_1",
+    "utterance_id": "Ses04M_script03_1_F007",
+    "transcript_ground_truth": "Certainly.  I shall probably do a court curtsey."
+  }
+}

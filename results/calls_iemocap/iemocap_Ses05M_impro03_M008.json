@@ -1,0 +1,63 @@
+{
+  "call_id": "iemocap_Ses05M_impro03_M008",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:38:13.960497",
+  "duration_seconds": 10.44,
+  "transcript": "and you can climb it and it's like covered in algae, you know? I wanted her to climb it to go take a picture, like back in this little waterfall area and she got back there and took her picture and then had her come back and I was gonna do the same thing.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.48,
+      "text": "and you can climb it and it's like covered in algae, you know?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.598,
+      "sentiment_score": -0.4516,
+      "pitch_mean": 323.44
+    },
+    {
+      "start_time": 2.48,
+      "end_time": 6.32,
+      "text": "I wanted her to climb it to go take a picture, like back in this little waterfall area",
+      "emotion": "anger",
+      "emotion_confidence": 0.362,
+      "sentiment_score": 0.1425,
+      "pitch_mean": 326.93
+    },
+    {
+      "start_time": 6.32,
+      "end_time": 10.32,
+      "text": "and she got back there and took her picture and then had her come back and I was gonna do the same thing.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.571,
+      "sentiment_score": -0.0696,
+      "pitch_mean": 331.91
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1262,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.333,
+      "anger": 0.333,
+      "neutral": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 310.35,
+    "avg_pitch": 329.25
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 3.6667,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro03",
+    "utterance_id": "Ses05M_impro03_M008",
+    "transcript_ground_truth": "and you can climb it and it's covered in algae you know. So, I wanted her to climb it to go take a picture, like, back in this little waterfall area, and she got back there and she took her picture. And then, I had her come back.  And I was going to do the same thing."
+  }
+}

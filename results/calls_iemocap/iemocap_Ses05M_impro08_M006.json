@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro08_M006",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:51:32.716459",
+  "duration_seconds": 6.46,
+  "transcript": "Okay, well I don't know and it consistently happens every two weeks.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.6,
+      "text": "Okay, well I don't know and it consistently happens every two weeks.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.885,
+      "sentiment_score": -0.5897,
+      "pitch_mean": 325.33
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5897,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 111.46,
+    "avg_pitch": 322.6
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro08",
+    "utterance_id": "Ses05M_impro08_M006",
+    "transcript_ground_truth": "Okay. Um-  Well, I don't know.  And it consistently happens every two weeks?"
+  }
+}

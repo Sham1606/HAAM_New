@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script01_1_F012",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:59:53.398914",
+  "duration_seconds": 2.46,
+  "transcript": "Can you prove it? How can you prove it?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Can you prove it? How can you prove it?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.375,
+      "sentiment_score": -0.0493,
+      "pitch_mean": 344.58
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0493,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 219.51,
+    "avg_pitch": 339.74
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script01_1",
+    "utterance_id": "Ses02M_script01_1_F012",
+    "transcript_ground_truth": "Can you prove it, how can you prove it?"
+  }
+}

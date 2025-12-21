@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script02_1_F023",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:38:11.499856",
+  "duration_seconds": 2.59,
+  "transcript": "We didn't see in the gear before either.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "We didn't see in the gear before either.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.54,
+      "sentiment_score": -0.064,
+      "pitch_mean": 339.72
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.064,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 185.33,
+    "avg_pitch": 337.27
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_1",
+    "utterance_id": "Ses01F_script02_1_F023",
+    "transcript_ground_truth": "Hmm.  We didn't see them the year before either."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_impro03_M036",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:54:12.284128",
+  "duration_seconds": 7.09,
+  "transcript": "She just, we're in a good position too. She's got promoted to assistant manager at Jack in the box.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.84,
+      "text": "She just, we're in a good position too.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.935,
+      "sentiment_score": 0.8165,
+      "pitch_mean": 323.83
+    },
+    {
+      "start_time": 3.84,
+      "end_time": 7.0,
+      "text": "She's got promoted to assistant manager at Jack in the box.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.457,
+      "sentiment_score": 0.382,
+      "pitch_mean": 328.91
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5993,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 160.88,
+    "avg_pitch": 325.93
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro03",
+    "utterance_id": "Ses03M_impro03_M036",
+    "transcript_ground_truth": "She just...she just...we're in a good position too.  She just got promoted to assistant manager at Jack In The Box"
+  }
+}

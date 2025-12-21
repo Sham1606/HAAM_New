@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03F_script02_2_F012",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:39:16.542876",
+  "duration_seconds": 7.51,
+  "transcript": "I could feel like my whole life if you're just standing on this beach with my hands class waiting for these fish to show up and these fish never show up.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.6,
+      "text": "I could feel like my whole life if you're just standing on this beach with my hands",
+      "emotion": "disgust",
+      "emotion_confidence": 0.41,
+      "sentiment_score": 0.7493,
+      "pitch_mean": 329.43
+    },
+    {
+      "start_time": 3.6,
+      "end_time": 7.0,
+      "text": "class waiting for these fish to show up and these fish never show up.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.545,
+      "sentiment_score": -0.752,
+      "pitch_mean": 337.54
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0013,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "sadness": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 247.51,
+    "avg_pitch": 334.19
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.6667,
+    "arousal": 3.3333,
+    "dominance": 3.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_2",
+    "utterance_id": "Ses03F_script02_2_F012",
+    "transcript_ground_truth": "Like I feel like my whole life I've been just standing on this beach with my hands clasped waiting for these fish to show up and these fish never show up."
+  }
+}

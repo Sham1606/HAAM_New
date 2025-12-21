@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro04_F014",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:54:56.655267",
+  "duration_seconds": 3.89,
+  "transcript": "That's amazing logic that you manage to turn that around and make it my fault.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.84,
+      "text": "That's amazing logic that you manage to turn that around and make it my fault.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.808,
+      "sentiment_score": -0.2808,
+      "pitch_mean": 352.18
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2808,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 231.37,
+    "avg_pitch": 353.04
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.3333,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro04",
+    "utterance_id": "Ses04M_impro04_F014",
+    "transcript_ground_truth": "That's amazing logic that you managed to turn that around and make it my fault."
+  }
+}

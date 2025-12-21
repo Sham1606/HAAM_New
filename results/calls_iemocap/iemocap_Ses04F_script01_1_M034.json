@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses04F_script01_1_M034",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:26:04.299027",
+  "duration_seconds": 6.14,
+  "transcript": "I've given it three years of thought. I'd hope that if I waited, dad would forget about Larry.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.72,
+      "text": "I've given it three years of thought.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.961,
+      "sentiment_score": 0.0894,
+      "pitch_mean": 331.5
+    },
+    {
+      "start_time": 2.72,
+      "end_time": 6.0,
+      "text": "I'd hope that if I waited, dad would forget about Larry.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.924,
+      "sentiment_score": -0.0104,
+      "pitch_mean": 335.75
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0395,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 175.99,
+    "avg_pitch": 333.25
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script01_1",
+    "utterance_id": "Ses04F_script01_1_M034",
+    "transcript_ground_truth": "I've given it three years of thought.  I hoped that if I waited, dad would forget about Larry"
+  }
+}

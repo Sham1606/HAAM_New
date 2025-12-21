@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro07_M021",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:09:30.194453",
+  "duration_seconds": 3.72,
+  "transcript": "You can't make fun of me because I'm not going to school though because I'm gonna be working though",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.1,
+      "text": "You can't make fun of me because I'm not going to school though because I'm gonna be working though",
+      "emotion": "anger",
+      "emotion_confidence": 0.563,
+      "sentiment_score": -0.3554,
+      "pitch_mean": 344.32
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3554,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 306.45,
+    "avg_pitch": 338.36
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro07",
+    "utterance_id": "Ses05F_impro07_M021",
+    "transcript_ground_truth": "You can't make fun of me because I'm not going to school, though, because I'm going to be working though."
+  }
+}

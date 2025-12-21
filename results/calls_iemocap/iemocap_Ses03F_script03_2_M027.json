@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script03_2_M027",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:46:26.109284",
+  "duration_seconds": 4.75,
+  "transcript": "Imagine that you let him kiss you quite a bit more than didn't you.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Imagine that you let him kiss you quite a bit more than didn't you.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.825,
+      "sentiment_score": 0.1342,
+      "pitch_mean": 326.22
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1342,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 176.94,
+    "avg_pitch": 322.26
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script03_2",
+    "utterance_id": "Ses03F_script03_2_M027",
+    "transcript_ground_truth": "I imagine that you let him kiss you quite a bit more then, didn't you?"
+  }
+}

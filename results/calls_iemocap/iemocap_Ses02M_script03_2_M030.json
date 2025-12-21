@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script03_2_M030",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:14:45.336212",
+  "duration_seconds": 5.63,
+  "transcript": "Very interesting. How about a child of four? Child of six or a child of nine?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.8,
+      "text": "Very interesting. How about a child of four? Child of six or a child of nine?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.498,
+      "sentiment_score": 0.7459,
+      "pitch_mean": 326.96
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.7459,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 170.63,
+    "avg_pitch": 327.54
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script03_2",
+    "utterance_id": "Ses02M_script03_2_M030",
+    "transcript_ground_truth": "Oh very interesting. How about a child of four, a child of six or a child of nine?"
+  }
+}

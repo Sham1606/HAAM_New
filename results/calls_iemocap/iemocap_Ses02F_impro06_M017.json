@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02F_impro06_M017",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:27:20.407226",
+  "duration_seconds": 8.14,
+  "transcript": "I know but you're not I mean you're not gonna forget I'm the pain will go eventually and I mean or it'll it'll subside a lot",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.7,
+      "text": "I know but you're not I mean you're not gonna forget I'm the pain will go eventually and",
+      "emotion": "sadness",
+      "emotion_confidence": 0.631,
+      "sentiment_score": -0.3351,
+      "pitch_mean": 324.05
+    },
+    {
+      "start_time": 5.5,
+      "end_time": 7.7,
+      "text": "I mean or it'll it'll subside a lot",
+      "emotion": "neutral",
+      "emotion_confidence": 0.887,
+      "sentiment_score": -0.034,
+      "pitch_mean": 340.4
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1846,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 191.65,
+    "avg_pitch": 328.42
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.6667,
+    "arousal": 2.0,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro06",
+    "utterance_id": "Ses02F_impro06_M017",
+    "transcript_ground_truth": "I know. but you're not  I mean you're not going to forget him.  The pain will go away eventually and--or it will subside--"
+  }
+}

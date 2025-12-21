@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02F_impro08_M001",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:30:50.142183",
+  "duration_seconds": 8.22,
+  "transcript": "Okay, I've just been talking to this machine for the past half hour and I can't get anything done. I've been trying to book this vacation this entire time.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.56,
+      "text": "Okay, I've just been talking to this machine for the past half hour and I can't get anything done.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.456,
+      "sentiment_score": -0.9083,
+      "pitch_mean": 330.02
+    },
+    {
+      "start_time": 5.56,
+      "end_time": 8.2,
+      "text": "I've been trying to book this vacation this entire time.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.786,
+      "sentiment_score": -0.0388,
+      "pitch_mean": 341.65
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4735,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 211.7,
+    "avg_pitch": 333.61
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro08",
+    "utterance_id": "Ses02F_impro08_M001",
+    "transcript_ground_truth": "Ok.  I've- I've just been talking to this machine for the past half hour and I can't-can't get anything done.  I've been trying to book this vacation this entire time."
+  }
+}

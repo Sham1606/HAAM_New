@@ -1,0 +1,63 @@
+{
+  "call_id": "iemocap_Ses02M_impro04_F013",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:51:34.735164",
+  "duration_seconds": 6.32,
+  "transcript": "It might be that lottery, I don't know, because you're not the worst. I mean, you're great. You're very talented at what you do.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.08,
+      "text": "It might be that lottery, I don't know, because you're not the worst.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.931,
+      "sentiment_score": -0.0965,
+      "pitch_mean": 343.01
+    },
+    {
+      "start_time": 3.08,
+      "end_time": 4.14,
+      "text": "I mean, you're great.",
+      "emotion": "joy",
+      "emotion_confidence": 0.886,
+      "sentiment_score": 0.9389,
+      "pitch_mean": 361.01
+    },
+    {
+      "start_time": 4.14,
+      "end_time": 6.0,
+      "text": "You're very talented at what you do.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.875,
+      "sentiment_score": 0.9606,
+      "pitch_mean": 333.72
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.601,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.333,
+      "joy": 0.333,
+      "neutral": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 227.97,
+    "avg_pitch": 339.94
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.6667,
+    "arousal": 3.3333,
+    "dominance": 3.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro04",
+    "utterance_id": "Ses02M_impro04_F013",
+    "transcript_ground_truth": "It might be the latter I don't know because you're not the worst, I mean you're great, you very talented at what you do."
+  }
+}

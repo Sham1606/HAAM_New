@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro06_F011",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:05:00.207285",
+  "duration_seconds": 7.58,
+  "transcript": "Yeah, he kinda did a lot of things, but we acted together sometimes.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "Yeah, he kinda did a lot of things, but we acted together sometimes.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.678,
+      "sentiment_score": 0.1125,
+      "pitch_mean": 330.45
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1125,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 102.9,
+    "avg_pitch": 330.72
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro06",
+    "utterance_id": "Ses05F_impro06_F011",
+    "transcript_ground_truth": "Yeah, he kind of did a lot of things, but we acted together, sometimes."
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "call_id": "iemocap_Ses01F_script01_3_F034",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:35:59.943289",
+  "duration_seconds": 17.91,
+  "transcript": "Even me. And your money? Chris, there's nothing wrong in your money. Your father put hundreds of planes into the air. You should be proud of that. A man should be paid for that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Even me.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.403,
+      "sentiment_score": 0.0289,
+      "pitch_mean": 318.93
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "And your money?",
+      "emotion": "anger",
+      "emotion_confidence": 0.359,
+      "sentiment_score": -0.0657,
+      "pitch_mean": 332.44
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 9.0,
+      "text": "Chris, there's nothing wrong in your money.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.73,
+      "sentiment_score": -0.1267,
+      "pitch_mean": 312.86
+    },
+    {
+      "start_time": 9.0,
+      "end_time": 12.0,
+      "text": "Your father put hundreds of planes into the air.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.538,
+      "sentiment_score": -0.6307,
+      "pitch_mean": 341.7
+    },
+    {
+      "start_time": 12.0,
+      "end_time": 14.0,
+      "text": "You should be proud of that.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.849,
+      "sentiment_score": 0.8094,
+      "pitch_mean": 329.67
+    },
+    {
+      "start_time": 15.0,
+      "end_time": 17.0,
+      "text": "A man should be paid for that.",
+      "emotion": "anger",
+      "emotion_confidence": 0.67,
+      "sentiment_score": -0.3733,
+      "pitch_mean": 330.2
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0597,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "anger": 0.333,
+      "disgust": 0.167
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 113.88,
+    "avg_pitch": 325.44
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.6667,
+    "arousal": 2.6667,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_3",
+    "utterance_id": "Ses01F_script01_3_F034",
+    "transcript_ground_truth": "Even me.  And your money?  Chris, there's nothing wrong in your money.  Your father put hundreds of planes into the air, you should be proud of that.  A man should be paid for that."
+  }
+}

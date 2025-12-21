@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script02_2_F014",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:40:18.077783",
+  "duration_seconds": 7.07,
+  "transcript": "I did want to see it. I still do. I always do. I just...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "I did want to see it. I still do. I always do. I just...",
+      "emotion": "joy",
+      "emotion_confidence": 0.414,
+      "sentiment_score": 0.541,
+      "pitch_mean": 340.12
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.541,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 118.89,
+    "avg_pitch": 337.9
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_2",
+    "utterance_id": "Ses01F_script02_2_F014",
+    "transcript_ground_truth": "I did want to see it, I still do, I always do.  I just..."
+  }
+}

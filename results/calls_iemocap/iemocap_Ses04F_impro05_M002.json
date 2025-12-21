@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro05_M002",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:10:42.364170",
+  "duration_seconds": 5.97,
+  "transcript": "Where did you do it at the front desk over by the back of the plane?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Where did you do it at the front desk over by the back of the plane?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.451,
+      "sentiment_score": 0.0036,
+      "pitch_mean": 319.14
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0036,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 160.8,
+    "avg_pitch": 321.82
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro05",
+    "utterance_id": "Ses04F_impro05_M002",
+    "transcript_ground_truth": "Where?  Did you do it at the front desk or by the baggage claims?"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses01F_impro06_F025",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:27:56.213646",
+  "duration_seconds": 18.95,
+  "transcript": "but I mean she could but it was so I was kind of sitting in her feet like holding her up and She had these poems she had memorized. I remember looking up she had curly red hair and there was this palm tree right behind her and it's like It was like it was crown, you know growing up her head is cool",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.08,
+      "text": "but I mean she could but it was so I was kind of sitting in her feet like holding her up and",
+      "emotion": "neutral",
+      "emotion_confidence": 0.542,
+      "sentiment_score": 0.1526,
+      "pitch_mean": 335.94
+    },
+    {
+      "start_time": 6.96,
+      "end_time": 13.8,
+      "text": "She had these poems she had memorized. I remember looking up she had curly red hair and there was this palm tree right behind her and it's like",
+      "emotion": "disgust",
+      "emotion_confidence": 0.393,
+      "sentiment_score": 0.1183,
+      "pitch_mean": 336.28
+    },
+    {
+      "start_time": 14.56,
+      "end_time": 18.12,
+      "text": "It was like it was crown, you know growing up her head is cool",
+      "emotion": "neutral",
+      "emotion_confidence": 0.834,
+      "sentiment_score": 0.7886,
+      "pitch_mean": 342.64
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3532,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "disgust": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 202.64,
+    "avg_pitch": 336.98
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro06",
+    "utterance_id": "Ses01F_impro06_F025",
+    "transcript_ground_truth": "But I mean she could, but it was- so it was kind of sitting at her feet holding her up and she had these poems she had memorized.  And I remember looking up, she had curly red hair and there was this palm tree right behind her and it was like a crown growing right out of her head.  It was cool."
+  }
+}

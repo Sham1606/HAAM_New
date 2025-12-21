@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses01F_script01_2_F010",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:34:18.913304",
+  "duration_seconds": 9.81,
+  "transcript": "I want you to act like he's coming back. Both of you. Don't think I haven't noticed you since Chris invited her here.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.8,
+      "text": "I want you to act like he's coming back.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.716,
+      "sentiment_score": 0.1642,
+      "pitch_mean": 357.46
+    },
+    {
+      "start_time": 3.8,
+      "end_time": 5.8,
+      "text": "Both of you.",
+      "emotion": "anger",
+      "emotion_confidence": 0.622,
+      "sentiment_score": 0.1004,
+      "pitch_mean": 329.98
+    },
+    {
+      "start_time": 5.8,
+      "end_time": 8.84,
+      "text": "Don't think I haven't noticed you since Chris invited her here.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.939,
+      "sentiment_score": -0.0145,
+      "pitch_mean": 351.68
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0834,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "anger": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 140.67,
+    "avg_pitch": 344.89
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_2",
+    "utterance_id": "Ses01F_script01_2_F010",
+    "transcript_ground_truth": "I want you to-- I want you to act like he is coming back, both of you.  Don't think I haven't noticed you since Chris invited her here."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "call_id": "iemocap_Ses02M_impro01_M012",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:47:50.920616",
+  "duration_seconds": 7.18,
+  "transcript": "Okay, well what about... No, get away. How about you hold that and I'll go and I can come back and see...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.6,
+      "text": "Okay, well what about...",
+      "emotion": "anger",
+      "emotion_confidence": 0.459,
+      "sentiment_score": 0.0201,
+      "pitch_mean": 350.09
+    },
+    {
+      "start_time": 1.6,
+      "end_time": 2.8,
+      "text": "No, get away.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.485,
+      "sentiment_score": -0.4316,
+      "pitch_mean": 332.08
+    },
+    {
+      "start_time": 2.8,
+      "end_time": 7.2,
+      "text": "How about you hold that and I'll go and I can come back and see...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.0809,
+      "pitch_mean": 339.67
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1102,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.333,
+      "disgust": 0.333,
+      "neutral": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 183.76,
+    "avg_pitch": 339.67
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 4.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro01",
+    "utterance_id": "Ses02M_impro01_M012",
+    "transcript_ground_truth": "Okay. What about - no -- how about you hold that and I'll - I'll go and I can come back-"
+  }
+}

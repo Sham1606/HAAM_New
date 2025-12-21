@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04M_impro05_M006",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:57:29.992153",
+  "duration_seconds": 11.99,
+  "transcript": "and he told me to come to this desk here so I can at least get the $150 that I'm owed for my loss.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 10.0,
+      "text": "and he told me to come to this desk here so I can at least get the $150 that I'm owed",
+      "emotion": "neutral",
+      "emotion_confidence": 0.879,
+      "sentiment_score": -0.1549,
+      "pitch_mean": 322.53
+    },
+    {
+      "start_time": 10.0,
+      "end_time": 11.28,
+      "text": "for my loss.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.983,
+      "sentiment_score": -0.7881,
+      "pitch_mean": 329.3
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4715,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "sadness": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 120.1,
+    "avg_pitch": 322.92
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 2.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro05",
+    "utterance_id": "Ses04M_impro05_M006",
+    "transcript_ground_truth": "And he told me to come to this desk here so I can, uh, at least get, uh, the hundred- hundred and fifty dollars that- that I'm owed for my loss."
+  }
+}

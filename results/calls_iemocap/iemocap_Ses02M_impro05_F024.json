@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro05_F024",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:53:15.427424",
+  "duration_seconds": 6.27,
+  "transcript": "The airline can't afford to give you everything that is in that suitcase and so...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "The airline can't afford to give you everything that is in that suitcase and so...",
+      "emotion": "disgust",
+      "emotion_confidence": 0.469,
+      "sentiment_score": -0.7339,
+      "pitch_mean": 352.77
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7339,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 143.53,
+    "avg_pitch": 353.19
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro05",
+    "utterance_id": "Ses02M_impro05_F024",
+    "transcript_ground_truth": "The airline can't afford to give you everything that is in that suitcase. and so-"
+  }
+}

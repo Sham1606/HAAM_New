@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro02_M019",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:49:22.671213",
+  "duration_seconds": 4.22,
+  "transcript": "Your mom give mom you want me to move in with your mom",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.44,
+      "text": "Your mom give mom you want me to move in with your mom",
+      "emotion": "neutral",
+      "emotion_confidence": 0.614,
+      "sentiment_score": -0.077,
+      "pitch_mean": 327.11
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.077,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 184.84,
+    "avg_pitch": 334.61
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "sur",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro02",
+    "utterance_id": "Ses05F_impro02_M019",
+    "transcript_ground_truth": "Your Your mom, you want me to move in with your mom?"
+  }
+}

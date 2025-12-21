@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script03_1_F022",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:11:28.714577",
+  "duration_seconds": 5.15,
+  "transcript": "Charles, that was his name Charles, he just wriggles so beautifully.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Charles, that was his name Charles, he just wriggles so beautifully.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.739,
+      "sentiment_score": 0.9211,
+      "pitch_mean": 347.4
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9211,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 128.12,
+    "avg_pitch": 346.26
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script03_1",
+    "utterance_id": "Ses02M_script03_1_F022",
+    "transcript_ground_truth": "Oh Charles, that was his name Charles. It did wiggle so beautifully."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03F_impro02_F024",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:17:24.502310",
+  "duration_seconds": 4.46,
+  "transcript": "But she has you, that's what you're there for. You're my right hand man.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.4,
+      "text": "But she has you, that's what you're there for.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.934,
+      "sentiment_score": 0.6157,
+      "pitch_mean": 316.11
+    },
+    {
+      "start_time": 2.4,
+      "end_time": 4.4,
+      "text": "You're my right hand man.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.906,
+      "sentiment_score": 0.4721,
+      "pitch_mean": 345.08
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5439,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 188.34,
+    "avg_pitch": 329.46
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro02",
+    "utterance_id": "Ses03F_impro02_F024",
+    "transcript_ground_truth": "But she has you. I mean, that's what you're there for. You're my right-hand man."
+  }
+}

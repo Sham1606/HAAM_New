@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses01M_script01_3_M028",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:06:52.931427",
+  "duration_seconds": 13.85,
+  "transcript": "It takes a while to toss something like that off. I mean... They weren't just men, you know?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "It takes a while to toss something like that off.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.957,
+      "sentiment_score": -0.288,
+      "pitch_mean": 329.39
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 7.0,
+      "text": "I mean...",
+      "emotion": "sadness",
+      "emotion_confidence": 0.614,
+      "sentiment_score": 0.0309,
+      "pitch_mean": 323.26
+    },
+    {
+      "start_time": 11.0,
+      "end_time": 14.0,
+      "text": "They weren't just men, you know?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.1497,
+      "pitch_mean": 326.73
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1356,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "sadness": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 77.97,
+    "avg_pitch": 326.73
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 2.0,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_3",
+    "utterance_id": "Ses01M_script01_3_M028",
+    "transcript_ground_truth": "Takes awhile to toss something like that off.  I mean they weren't just men, you know."
+  }
+}

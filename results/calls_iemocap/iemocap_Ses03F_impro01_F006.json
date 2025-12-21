@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro01_F006",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:15:37.492485",
+  "duration_seconds": 5.2,
+  "transcript": "And she told me to come over here and she said to fill out everything on the application and I did that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "And she told me to come over here and she said to fill out everything on the application and I did that.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.871,
+      "sentiment_score": 0.0748,
+      "pitch_mean": 365.72
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0748,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 253.97,
+    "avg_pitch": 362.76
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.3333,
+    "dominance": 3.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro01",
+    "utterance_id": "Ses03F_impro01_F006",
+    "transcript_ground_truth": "and she told me to come over here and she said to fill out everything on the application and I did that."
+  }
+}

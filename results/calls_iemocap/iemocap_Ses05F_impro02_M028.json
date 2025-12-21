@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses05F_impro02_M028",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:49:41.836334",
+  "duration_seconds": 11.95,
+  "transcript": "I don't know but it's not me so I'm the one who has to stay here I'm the one who has to take care of them and I don't have it I don't have anybody else You're all I have",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.44,
+      "text": "I don't know but it's not me so I'm the one who has to stay here",
+      "emotion": "disgust",
+      "emotion_confidence": 0.507,
+      "sentiment_score": -0.7109,
+      "pitch_mean": 335.14
+    },
+    {
+      "start_time": 3.44,
+      "end_time": 5.64,
+      "text": "I'm the one who has to take care of them and I don't have it",
+      "emotion": "neutral",
+      "emotion_confidence": 0.703,
+      "sentiment_score": -0.6868,
+      "pitch_mean": 374.13
+    },
+    {
+      "start_time": 8.14,
+      "end_time": 10.14,
+      "text": "I don't have anybody else",
+      "emotion": "neutral",
+      "emotion_confidence": 0.848,
+      "sentiment_score": -0.106,
+      "pitch_mean": 330.94
+    },
+    {
+      "start_time": 10.14,
+      "end_time": 11.64,
+      "text": "You're all I have",
+      "emotion": "neutral",
+      "emotion_confidence": 0.767,
+      "sentiment_score": 0.7349,
+      "pitch_mean": 338.45
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1922,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "disgust": 0.25,
+      "neutral": 0.75
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 200.84,
+    "avg_pitch": 334.91
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro02",
+    "utterance_id": "Ses05F_impro02_M028",
+    "transcript_ground_truth": "I don't know.  It's not me, so I'm the one who has to stay here.  I'm the one who has to take care of them, and I don't have-I don't have anybody else.  You're all I have."
+  }
+}

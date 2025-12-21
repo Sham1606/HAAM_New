@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro03_M020",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:23:05.032348",
+  "duration_seconds": 6.27,
+  "transcript": "Yeah, I'd love to be in that same situation someday, but wow.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "Yeah, I'd love to be in that same situation someday, but wow.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.945,
+      "sentiment_score": 0.457,
+      "pitch_mean": 328.22
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.457,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 114.83,
+    "avg_pitch": 328.34
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 2.75,
+    "dominance": 2.75
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro03",
+    "utterance_id": "Ses02F_impro03_M020",
+    "transcript_ground_truth": "Yeah, I'd love to be in that same situation some day, but, wow- so-"
+  }
+}

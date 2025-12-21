@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro02_M035",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:49:59.943558",
+  "duration_seconds": 2.13,
+  "transcript": "you know",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.1,
+      "text": "you know",
+      "emotion": "neutral",
+      "emotion_confidence": 0.83,
+      "sentiment_score": 0.1642,
+      "pitch_mean": 309.06
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1642,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 56.34,
+    "avg_pitch": 316.12
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro02",
+    "utterance_id": "Ses05F_impro02_M035",
+    "transcript_ground_truth": "I know."
+  }
+}

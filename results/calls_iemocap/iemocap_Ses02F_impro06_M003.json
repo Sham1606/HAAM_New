@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro06_M003",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:26:52.134601",
+  "duration_seconds": 1.33,
+  "transcript": "Yeah.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "Yeah.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.607,
+      "sentiment_score": 0.2224,
+      "pitch_mean": 322.55
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2224,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 45.11,
+    "avg_pitch": 323.31
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.3333,
+    "arousal": 2.3333,
+    "dominance": 1.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro06",
+    "utterance_id": "Ses02F_impro06_M003",
+    "transcript_ground_truth": "Yeah."
+  }
+}

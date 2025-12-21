@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script02_2_F041",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:49:19.812226",
+  "duration_seconds": 8.47,
+  "transcript": "Well, I guess this is the wrong spot for the right people.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "Well, I guess this is the wrong spot for the right people.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.764,
+      "sentiment_score": -0.8023,
+      "pitch_mean": 326.56
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8023,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 84.96,
+    "avg_pitch": 326.8
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 3.3333,
+    "arousal": 2.3333,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_2",
+    "utterance_id": "Ses03M_script02_2_F041",
+    "transcript_ground_truth": "Well, I guess this is the wrong spot for the right people."
+  }
+}

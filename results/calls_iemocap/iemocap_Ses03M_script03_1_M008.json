@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script03_1_M008",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:52:41.069268",
+  "duration_seconds": 2.29,
+  "transcript": "with the most perfect poise.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "with the most perfect poise.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.794,
+      "sentiment_score": 0.9454,
+      "pitch_mean": 321.45
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9454,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 131.01,
+    "avg_pitch": 319.06
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 2.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script03_1",
+    "utterance_id": "Ses03M_script03_1_M008",
+    "transcript_ground_truth": "With the most perfect poise?"
+  }
+}

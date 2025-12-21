@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script01_2_F000",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:16:08.959444",
+  "duration_seconds": 2.73,
+  "transcript": "Why did he invite her here?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Why did he invite her here?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.472,
+      "sentiment_score": -0.5052,
+      "pitch_mean": 340.88
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5052,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 131.87,
+    "avg_pitch": 336.51
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_2",
+    "utterance_id": "Ses05F_script01_2_F000",
+    "transcript_ground_truth": "Why did you invite her here?"
+  }
+}

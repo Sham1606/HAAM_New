@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro04_M010",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:54:14.420197",
+  "duration_seconds": 4.7,
+  "transcript": "I guess I just getting really hard to fake, you know?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I guess I just getting really hard to fake, you know?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.376,
+      "sentiment_score": -0.6325,
+      "pitch_mean": 330.46
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6325,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 140.28,
+    "avg_pitch": 330.03
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro04",
+    "utterance_id": "Ses01M_impro04_M010",
+    "transcript_ground_truth": "I guess I just getting really hard to fake, you know."
+  }
+}

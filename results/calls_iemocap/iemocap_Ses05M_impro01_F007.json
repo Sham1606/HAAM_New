@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro01_F007",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:32:48.763494",
+  "duration_seconds": 3.17,
+  "transcript": "I don't know. I don't know who told you. It wasn't me.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I don't know. I don't know who told you. It wasn't me.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.664,
+      "sentiment_score": -0.6408,
+      "pitch_mean": 349.81
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6408,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 227.13,
+    "avg_pitch": 346.28
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro01",
+    "utterance_id": "Ses05M_impro01_F007",
+    "transcript_ground_truth": "I don't know.  I don't know who told you.  It wasn't me."
+  }
+}

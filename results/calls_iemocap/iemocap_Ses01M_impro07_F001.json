@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses01M_impro07_F001",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:59:05.031493",
+  "duration_seconds": 7.17,
+  "transcript": "For softball. For softball! That's the only level! Is it slow pitch?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "For softball.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.941,
+      "sentiment_score": 0.1562,
+      "pitch_mean": 346.34
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "For softball!",
+      "emotion": "anger",
+      "emotion_confidence": 0.509,
+      "sentiment_score": 0.4432,
+      "pitch_mean": 398.25
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "That's the only level!",
+      "emotion": "anger",
+      "emotion_confidence": 0.51,
+      "sentiment_score": 0.6655,
+      "pitch_mean": 385.91
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 8.0,
+      "text": "Is it slow pitch?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.737,
+      "sentiment_score": -0.2381,
+      "pitch_mean": 367.39
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2567,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 100.42,
+    "avg_pitch": 367.39
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 4.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro07",
+    "utterance_id": "Ses01M_impro07_F001",
+    "transcript_ground_truth": "[LAUGHTER]. For softball? That's unbelievable. Is it slow pitch?"
+  }
+}

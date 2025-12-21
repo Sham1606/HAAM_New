@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script03_2_F004",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:12:52.271254",
+  "duration_seconds": 3.43,
+  "transcript": "Maybe a little. Nothing serious.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Maybe a little. Nothing serious.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.502,
+      "sentiment_score": 0.0922,
+      "pitch_mean": 349.26
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0922,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 87.46,
+    "avg_pitch": 347.23
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script03_2",
+    "utterance_id": "Ses05M_script03_2_F004",
+    "transcript_ground_truth": "Oh, maybe a little.  Nothing serious."
+  }
+}

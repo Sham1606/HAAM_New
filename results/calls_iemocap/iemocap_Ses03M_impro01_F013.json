@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro01_F013",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:47:43.590979",
+  "duration_seconds": 3.94,
+  "transcript": "No, now I'm gonna take this for you because girl are obviously miss",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.28,
+      "text": "No, now I'm gonna take this for you because girl are obviously miss",
+      "emotion": "sadness",
+      "emotion_confidence": 0.714,
+      "sentiment_score": -0.2904,
+      "pitch_mean": 347.87
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2904,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 198.22,
+    "avg_pitch": 347.03
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro01",
+    "utterance_id": "Ses03M_impro01_F013",
+    "transcript_ground_truth": "No.  Now I'm going to take this from you because you are obviously misleading"
+  }
+}

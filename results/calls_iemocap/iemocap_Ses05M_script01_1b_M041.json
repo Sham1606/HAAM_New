@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05M_script01_1b_M041",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:59:25.050937",
+  "duration_seconds": 4.78,
+  "transcript": "No, you don't. I'm a pretty tough guy.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "No, you don't.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.533,
+      "sentiment_score": -0.1486,
+      "pitch_mean": 323.88
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "I'm a pretty tough guy.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.466,
+      "sentiment_score": 0.8389,
+      "pitch_mean": 312.5
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3451,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 100.42,
+    "avg_pitch": 322.05
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_1b",
+    "utterance_id": "Ses05M_script01_1b_M041",
+    "transcript_ground_truth": "No, you don't.  I'm a pretty tough guy."
+  }
+}

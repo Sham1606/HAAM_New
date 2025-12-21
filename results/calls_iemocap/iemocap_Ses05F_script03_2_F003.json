@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script03_2_F003",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:29:24.770362",
+  "duration_seconds": 3.12,
+  "transcript": "You worked the whole thing up in your jealous imagination.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "You worked the whole thing up in your jealous imagination.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.393,
+      "sentiment_score": -0.7298,
+      "pitch_mean": 339.37
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7298,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 192.31,
+    "avg_pitch": 338.77
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script03_2",
+    "utterance_id": "Ses05F_script03_2_F003",
+    "transcript_ground_truth": "You worked the whole thing up in your jealous imagination."
+  }
+}

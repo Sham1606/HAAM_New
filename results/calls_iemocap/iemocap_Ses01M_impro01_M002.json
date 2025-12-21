@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro01_M002",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:48:38.842312",
+  "duration_seconds": 3.11,
+  "transcript": "and I have this form of ID here so...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "and I have this form of ID here so...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.847,
+      "sentiment_score": 0.0844,
+      "pitch_mean": 338.84
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0844,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 173.64,
+    "avg_pitch": 338.62
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro01",
+    "utterance_id": "Ses01M_impro01_M002",
+    "transcript_ground_truth": "and I have This form of ID here so..."
+  }
+}

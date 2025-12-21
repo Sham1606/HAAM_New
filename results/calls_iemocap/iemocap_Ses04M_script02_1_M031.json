@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses04M_script02_1_M031",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:11:35.946549",
+  "duration_seconds": 9.64,
+  "transcript": "They're swimming right now as if that's the only thing that matters It's a single mindedness with no mind urgency that's pure urge",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.74,
+      "text": "They're swimming right now as if that's the only thing that matters",
+      "emotion": "neutral",
+      "emotion_confidence": 0.943,
+      "sentiment_score": 0.6448,
+      "pitch_mean": 325.53
+    },
+    {
+      "start_time": 4.98,
+      "end_time": 8.9,
+      "text": "It's a single mindedness with no mind urgency that's pure urge",
+      "emotion": "neutral",
+      "emotion_confidence": 0.949,
+      "sentiment_score": -0.7131,
+      "pitch_mean": 328.49
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0342,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 143.15,
+    "avg_pitch": 324.16
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script02_1",
+    "utterance_id": "Ses04M_script02_1_M031",
+    "transcript_ground_truth": "They're swimming right now as if that's the only thing that matters.  It's single mindedness with no mind.  Urgency that's pure urge."
+  }
+}

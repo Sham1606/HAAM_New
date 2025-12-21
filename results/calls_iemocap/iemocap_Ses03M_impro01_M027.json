@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro01_M027",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:48:59.823187",
+  "duration_seconds": 4.02,
+  "transcript": "What are you talking about? It's transferred over. I fell out the new ones.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "What are you talking about? It's transferred over. I fell out the new ones.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.735,
+      "sentiment_score": -0.4426,
+      "pitch_mean": 372.67
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4426,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 209.04,
+    "avg_pitch": 372.78
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro01",
+    "utterance_id": "Ses03M_impro01_M027",
+    "transcript_ground_truth": "What are you talking about?  Just transfer it over.  I filled out the new one."
+  }
+}

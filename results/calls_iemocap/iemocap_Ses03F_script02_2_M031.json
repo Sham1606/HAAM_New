@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script02_2_M031",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:41:43.812046",
+  "duration_seconds": 2.4,
+  "transcript": "Yes it is.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Yes it is.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.92,
+      "sentiment_score": 0.2564,
+      "pitch_mean": 347.67
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2564,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 75.01,
+    "avg_pitch": 345.09
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.3333,
+    "arousal": 3.6667,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_2",
+    "utterance_id": "Ses03F_script02_2_M031",
+    "transcript_ground_truth": "Yes, it is."
+  }
+}

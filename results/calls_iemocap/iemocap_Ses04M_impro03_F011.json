@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro03_F011",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:51:57.185326",
+  "duration_seconds": 4.76,
+  "transcript": "Are you gonna get married on the beach barefoot or fancier in a church?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.64,
+      "text": "Are you gonna get married on the beach barefoot or fancier in a church?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.414,
+      "sentiment_score": -0.0125,
+      "pitch_mean": 358.46
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0125,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 176.47,
+    "avg_pitch": 357.53
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro03",
+    "utterance_id": "Ses04M_impro03_F011",
+    "transcript_ground_truth": "Are you going to get married like on the beach barefoot or like fancier?  Like in a church."
+  }
+}

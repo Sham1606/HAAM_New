@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro03_M003",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:52:05.985212",
+  "duration_seconds": 3.61,
+  "transcript": "Well, she's not a citizen, so she wants to get a visa.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.5,
+      "text": "Well, she's not a citizen, so she wants to get a visa.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.882,
+      "sentiment_score": -0.3323,
+      "pitch_mean": 330.44
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3323,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 199.45,
+    "avg_pitch": 330.65
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.5,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro03",
+    "utterance_id": "Ses01M_impro03_M003",
+    "transcript_ground_truth": "Well, she's not a citizen so she wants to get a visa."
+  }
+}

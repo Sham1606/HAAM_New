@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses04M_script02_2_F030",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:12:40.535210",
+  "duration_seconds": 10.09,
+  "transcript": "This is just this I mean it includes a lot in everything, but it's just not you know something else Do you have any idea what I'm trying to say?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.1,
+      "text": "This is just this I mean it includes a lot in everything, but it's just not you know something else",
+      "emotion": "neutral",
+      "emotion_confidence": 0.911,
+      "sentiment_score": -0.3832,
+      "pitch_mean": 354.72
+    },
+    {
+      "start_time": 7.46,
+      "end_time": 9.46,
+      "text": "Do you have any idea what I'm trying to say?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.67,
+      "sentiment_score": -0.0136,
+      "pitch_mean": 376.29
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1984,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 178.39,
+    "avg_pitch": 359.06
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script02_2",
+    "utterance_id": "Ses04M_script02_2_F030",
+    "transcript_ground_truth": "This is just this.  I mean, it includes a lot and everything, but it's just not, you know, something else.  Do you have any idea what I'm trying to say?"
+  }
+}

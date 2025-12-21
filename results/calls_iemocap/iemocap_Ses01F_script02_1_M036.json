@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses01F_script02_1_M036",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:39:28.531531",
+  "duration_seconds": 8.27,
+  "transcript": "God, this is great. I mean, think about this. Okay, I know you're not interested, but just think about this.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "God, this is great.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.696,
+      "sentiment_score": 0.9607,
+      "pitch_mean": 333.0
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.5,
+      "text": "I mean, think about this.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.729,
+      "sentiment_score": -0.3104,
+      "pitch_mean": 328.0
+    },
+    {
+      "start_time": 4.5,
+      "end_time": 8.0,
+      "text": "Okay, I know you're not interested, but just think about this.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.65,
+      "sentiment_score": -0.518,
+      "pitch_mean": 338.83
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0441,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "disgust": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 145.06,
+    "avg_pitch": 332.7
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_1",
+    "utterance_id": "Ses01F_script02_1_M036",
+    "transcript_ground_truth": "God, this is great.  Think about this.  I know you are not interested, but just think about this."
+  }
+}

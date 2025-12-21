@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro01_F015",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:46:27.567384",
+  "duration_seconds": 9.3,
+  "transcript": "I can't do that. It's against our rules. You can go get in that line over there or you can just go ahead and leave and come back another day. Maybe there will be a shorter line.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 9.0,
+      "text": "I can't do that. It's against our rules. You can go get in that line over there or you can just go ahead and leave and come back another day. Maybe there will be a shorter line.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.742,
+      "sentiment_score": -0.6423,
+      "pitch_mean": 351.13
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6423,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 238.71,
+    "avg_pitch": 347.51
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro01",
+    "utterance_id": "Ses04M_impro01_F015",
+    "transcript_ground_truth": "I can't do that. It's against our rules. You can go get in that line over there or you can just go ahead and leave and come back another day.  Maybe there will be a shorter line."
+  }
+}

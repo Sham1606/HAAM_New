@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro06_F012",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:27:20.620136",
+  "duration_seconds": 8.97,
+  "transcript": "I don't know, it just like, I felt so bad because I shouldn't have done it if I don't know whatever.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 8.0,
+      "text": "I don't know, it just like, I felt so bad because I shouldn't have done it if I don't know whatever.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.53,
+      "sentiment_score": -0.8713,
+      "pitch_mean": 340.61
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8713,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 140.47,
+    "avg_pitch": 339.25
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro06",
+    "utterance_id": "Ses01F_impro06_F012",
+    "transcript_ground_truth": "I don't know.  It just, like, I felt so bad because I shouldn't have done it.  I don't know.  Whatever."
+  }
+}

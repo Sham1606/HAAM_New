@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro05_M011",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:23:00.716476",
+  "duration_seconds": 4.76,
+  "transcript": "I think that's kind of stupid that you put a hundred thousands of dollars in a bag",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I think that's kind of stupid that you put a hundred thousands of dollars in a bag",
+      "emotion": "disgust",
+      "emotion_confidence": 0.695,
+      "sentiment_score": -0.9191,
+      "pitch_mean": 345.9
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9191,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 214.48,
+    "avg_pitch": 344.89
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 4.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro05",
+    "utterance_id": "Ses03F_impro05_M011",
+    "transcript_ground_truth": "I think that's kind of stupid, that you put a hundred thousands of dollars in the bag."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05F_impro08_M011",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:12:13.061250",
+  "duration_seconds": 7.72,
+  "transcript": "Like I paid right through your own company before my due date, but it's still trying to even shows my payment there But then it charged me the late fee afterwards",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.78,
+      "text": "Like I paid right through your own company before my due date, but it's still trying to even shows my payment there",
+      "emotion": "neutral",
+      "emotion_confidence": 0.507,
+      "sentiment_score": -0.7699,
+      "pitch_mean": 335.59
+    },
+    {
+      "start_time": 5.78,
+      "end_time": 7.78,
+      "text": "But then it charged me the late fee afterwards",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.5288,
+      "pitch_mean": 337.18
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6494,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 240.93,
+    "avg_pitch": 337.18
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro08",
+    "utterance_id": "Ses05F_impro08_M011",
+    "transcript_ground_truth": "like I paid right through your own company before my due date but it's still and it even shows my payment there, and then it charged me the late fee afterwards."
+  }
+}

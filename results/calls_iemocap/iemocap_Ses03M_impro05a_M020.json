@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro05a_M020",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:58:26.859456",
+  "duration_seconds": 2.71,
+  "transcript": "What is the matter with you?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "What is the matter with you?",
+      "emotion": "joy",
+      "emotion_confidence": 0.456,
+      "sentiment_score": -0.8624,
+      "pitch_mean": 355.85
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8624,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 132.84,
+    "avg_pitch": 347.58
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro05a",
+    "utterance_id": "Ses03M_impro05a_M020",
+    "transcript_ground_truth": "What is the matter with you?"
+  }
+}

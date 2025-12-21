@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro02_F010",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:20:38.786860",
+  "duration_seconds": 7.82,
+  "transcript": "I need you to be able to do this for me because I can't do anything about it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "I need you to be able to do this for me because I can't do anything about it.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.445,
+      "sentiment_score": -0.099,
+      "pitch_mean": 329.08
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.099,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 138.15,
+    "avg_pitch": 325.07
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro02",
+    "utterance_id": "Ses02F_impro02_F010",
+    "transcript_ground_truth": "Well, I need--I need you to be able to do this for me 'cause I can't do anything about it."
+  }
+}

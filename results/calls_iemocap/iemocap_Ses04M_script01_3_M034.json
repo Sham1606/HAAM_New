@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses04M_script01_3_M034",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:09:48.570158",
+  "duration_seconds": 14.57,
+  "transcript": "to open that bankbook to drive the new car to see the new refrigerator. I mean you can take these things out of a war, but when you drive the new car you have to know that it came out of the love of a man can have for a man.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "to open that bankbook to drive the new car to see the new refrigerator.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.741,
+      "sentiment_score": 0.1485,
+      "pitch_mean": 321.54
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 11.0,
+      "text": "I mean you can take these things out of a war, but when you drive the new car you have to know that",
+      "emotion": "neutral",
+      "emotion_confidence": 0.827,
+      "sentiment_score": -0.1437,
+      "pitch_mean": 326.73
+    },
+    {
+      "start_time": 11.0,
+      "end_time": 14.0,
+      "text": "it came out of the love of a man can have for a man.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.448,
+      "sentiment_score": 0.3606,
+      "pitch_mean": 328.44
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1218,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "disgust": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 210.02,
+    "avg_pitch": 326.01
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script01_3",
+    "utterance_id": "Ses04M_script01_3_M034",
+    "transcript_ground_truth": "to open that bank book; to drive the new car; to see the new refrigerator.  I mean, you can take these things out of a war, but when you drive the new car, you have to know that it came out of the love a man can have for a man."
+  }
+}

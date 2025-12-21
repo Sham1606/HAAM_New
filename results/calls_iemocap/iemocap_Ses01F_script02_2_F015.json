@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01F_script02_2_F015",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:40:20.631328",
+  "duration_seconds": 10.5,
+  "transcript": "I feel like I'm always just standing here waiting. I feel like this night is gonna be the night but it never is.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.68,
+      "text": "I feel like I'm always just standing here waiting. I feel like this night is",
+      "emotion": "neutral",
+      "emotion_confidence": 0.729,
+      "sentiment_score": -0.4738,
+      "pitch_mean": 336.69
+    },
+    {
+      "start_time": 7.68,
+      "end_time": 10.64,
+      "text": "gonna be the night but it never is.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.93,
+      "sentiment_score": -0.4017,
+      "pitch_mean": 341.08
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4378,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "sadness": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 131.46,
+    "avg_pitch": 341.08
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_2",
+    "utterance_id": "Ses01F_script02_2_F015",
+    "transcript_ground_truth": "I feel like I'm always just standing here waiting.  I feel like this night is going to be the night, but it never is."
+  }
+}

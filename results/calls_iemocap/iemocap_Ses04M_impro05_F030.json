@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro05_F030",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:56:57.196467",
+  "duration_seconds": 2.52,
+  "transcript": "And your bag is not my concern.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.5,
+      "text": "And your bag is not my concern.",
+      "emotion": "fear",
+      "emotion_confidence": 0.686,
+      "sentiment_score": -0.5448,
+      "pitch_mean": 354.1
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5448,
+    "dominant_emotion": "fear",
+    "emotion_distribution": {
+      "fear": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 166.67,
+    "avg_pitch": 354.09
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 3.5,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro05",
+    "utterance_id": "Ses04M_impro05_F030",
+    "transcript_ground_truth": "And your bag is not my concern."
+  }
+}

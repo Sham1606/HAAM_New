@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04M_impro03_M029",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:54:08.977891",
+  "duration_seconds": 5.66,
+  "transcript": "All fruits and the color brown. Just that. That's all that's my only reference.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "All fruits and the color brown.",
+      "emotion": "anger",
+      "emotion_confidence": 0.322,
+      "sentiment_score": 0.0337,
+      "pitch_mean": 333.29
+    },
+    {
+      "start_time": 2.72,
+      "end_time": 5.72,
+      "text": "Just that. That's all that's my only reference.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.957,
+      "sentiment_score": 0.089,
+      "pitch_mean": 341.17
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0614,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 148.41,
+    "avg_pitch": 341.17
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro03",
+    "utterance_id": "Ses04M_impro03_M029",
+    "transcript_ground_truth": "All fruit and the color brown. Just that. That's all- that's my only request."
+  }
+}

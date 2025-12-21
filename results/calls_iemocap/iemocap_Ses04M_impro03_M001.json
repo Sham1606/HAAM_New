@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro03_M001",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:52:40.420916",
+  "duration_seconds": 6.93,
+  "transcript": "Yeah, yeah, I proposed for yesterday. We're getting we're engaged now. We're gonna we're gonna get married in about eight months",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.44,
+      "text": "Yeah, yeah, I proposed for yesterday. We're getting we're engaged now. We're gonna we're gonna get married in about eight months",
+      "emotion": "joy",
+      "emotion_confidence": 0.721,
+      "sentiment_score": 0.7293,
+      "pitch_mean": 331.79
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.7293,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 181.82,
+    "avg_pitch": 330.59
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro03",
+    "utterance_id": "Ses04M_impro03_M001",
+    "transcript_ground_truth": "Yeah. Yeah, I proposed to her yesterday. We're getting -- we're engaged now and we're going to -- we're going to get married in about eight months."
+  }
+}

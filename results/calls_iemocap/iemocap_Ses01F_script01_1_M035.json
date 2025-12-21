@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01F_script01_1_M035",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:33:41.680337",
+  "duration_seconds": 4.78,
+  "transcript": "It's a good sun for too long. It's a good sucker.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "It's a good sun for too long.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.471,
+      "sentiment_score": 0.5846,
+      "pitch_mean": 327.82
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 5.0,
+      "text": "It's a good sucker.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.6034,
+      "pitch_mean": 328.48
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.594,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 138.12,
+    "avg_pitch": 328.48
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.3333,
+    "arousal": 2.3333,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_1",
+    "utterance_id": "Ses01F_script01_1_M035",
+    "transcript_ground_truth": "I've been a good son for too long, a good sucker."
+  }
+}

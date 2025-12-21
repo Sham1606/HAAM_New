@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03F_script02_2_F014",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:39:20.289500",
+  "duration_seconds": 10.08,
+  "transcript": "Look, I did. I always do, but it's like every time I try it. Nothing ever happens.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "Look, I did. I always do, but it's like every time I try it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.896,
+      "sentiment_score": 0.1908,
+      "pitch_mean": 325.3
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 10.0,
+      "text": "Nothing ever happens.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.378,
+      "sentiment_score": -0.1712,
+      "pitch_mean": 316.73
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0098,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "sadness": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 101.16,
+    "avg_pitch": 322.92
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.3333,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_2",
+    "utterance_id": "Ses03F_script02_2_F014",
+    "transcript_ground_truth": "Look, I did. I always do. But it's like every time I try nothing ever happens."
+  }
+}

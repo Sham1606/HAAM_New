@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01F_impro01_M009",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:16:06.002697",
+  "duration_seconds": 7.49,
+  "transcript": "A birth certificate, a passport, a student ID. Did you go to school? Anything?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "A birth certificate, a passport, a student ID.",
+      "emotion": "joy",
+      "emotion_confidence": 0.527,
+      "sentiment_score": 0.0616,
+      "pitch_mean": 352.79
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 7.0,
+      "text": "Did you go to school? Anything?",
+      "emotion": "anger",
+      "emotion_confidence": 0.566,
+      "sentiment_score": -0.0049,
+      "pitch_mean": 335.64
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0283,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 112.15,
+    "avg_pitch": 346.46
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro01",
+    "utterance_id": "Ses01F_impro01_M009",
+    "transcript_ground_truth": "A birth certificate, a passport...a student ID; didn't you go to school?  Anything?"
+  }
+}

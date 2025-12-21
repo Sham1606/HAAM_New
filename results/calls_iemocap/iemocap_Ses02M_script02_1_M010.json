@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02M_script02_1_M010",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:06:33.685839",
+  "duration_seconds": 6.43,
+  "transcript": "No, no, of course our flashlight yours and mine Me flashlight a suit flashlight",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.72,
+      "text": "No, no, of course our flashlight yours and mine",
+      "emotion": "disgust",
+      "emotion_confidence": 0.324,
+      "sentiment_score": 0.2264,
+      "pitch_mean": 340.47
+    },
+    {
+      "start_time": 3.36,
+      "end_time": 5.36,
+      "text": "Me flashlight a suit flashlight",
+      "emotion": "disgust",
+      "emotion_confidence": 0.417,
+      "sentiment_score": 0.2223,
+      "pitch_mean": 331.08
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2243,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 130.64,
+    "avg_pitch": 332.07
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 2.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script02_1",
+    "utterance_id": "Ses02M_script02_1_M010",
+    "transcript_ground_truth": "No. No. Of course our flashlight yours and mine. Mi flashlight, es su flashlight, naturally."
+  }
+}

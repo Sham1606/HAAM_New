@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01F_impro07_M016",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:31:12.201229",
+  "duration_seconds": 5.74,
+  "transcript": "Hahaha, this is Nerge. Uh, that's so hot\u677eno.",
+  "segments": [
+    {
+      "start_time": 0.08,
+      "end_time": 3.68,
+      "text": "Hahaha, this is Nerge.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.441,
+      "sentiment_score": 0.6461,
+      "pitch_mean": 324.77
+    },
+    {
+      "start_time": 4.02,
+      "end_time": 5.64,
+      "text": "Uh, that's so hot\u677eno.",
+      "emotion": "anger",
+      "emotion_confidence": 0.467,
+      "sentiment_score": 0.8445,
+      "pitch_mean": 348.85
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.7453,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 83.62,
+    "avg_pitch": 331.21
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.5,
+    "arousal": 4.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro07",
+    "utterance_id": "Ses01F_impro07_M016",
+    "transcript_ground_truth": "Mrs. Nash.  That's so awesome, though."
+  }
+}

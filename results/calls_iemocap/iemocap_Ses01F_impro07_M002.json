@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01F_impro07_M002",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:30:18.843946",
+  "duration_seconds": 5.17,
+  "transcript": "Oh my god! What are you gonna do? What are you-",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Oh my god!",
+      "emotion": "neutral",
+      "emotion_confidence": 0.909,
+      "sentiment_score": 0.497,
+      "pitch_mean": 404.72
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "What are you gonna do? What are you-",
+      "emotion": "anger",
+      "emotion_confidence": 0.346,
+      "sentiment_score": -0.1289,
+      "pitch_mean": 363.91
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.184,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 127.66,
+    "avg_pitch": 373.52
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro07",
+    "utterance_id": "Ses01F_impro07_M002",
+    "transcript_ground_truth": "Oh my God. What are you going to do? [LAUGHTER]"
+  }
+}

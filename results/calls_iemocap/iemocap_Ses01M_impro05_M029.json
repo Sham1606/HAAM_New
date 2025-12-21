@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01M_impro05_M029",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:56:50.076922",
+  "duration_seconds": 8.92,
+  "transcript": "I don't need to take this kind of abuse either. I just was trying to get back to Atlanta. I just got home I just want to get my bag and get my stuff so I can keep my job",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.12,
+      "text": "I don't need to take this kind of abuse either. I just was trying to get back to Atlanta. I just got home",
+      "emotion": "joy",
+      "emotion_confidence": 0.412,
+      "sentiment_score": -0.7518,
+      "pitch_mean": 351.68
+    },
+    {
+      "start_time": 5.12,
+      "end_time": 8.28,
+      "text": "I just want to get my bag and get my stuff so I can keep my job",
+      "emotion": "joy",
+      "emotion_confidence": 0.406,
+      "sentiment_score": 0.2784,
+      "pitch_mean": 364.8
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2367,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 269.06,
+    "avg_pitch": 355.92
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro05",
+    "utterance_id": "Ses01M_impro05_M029",
+    "transcript_ground_truth": "Well, I don't need to take this kind of abuse either.  I just was trying get back to Atlanta. I just got home, I just want to get my bag and get my stuff. And keep my job."
+  }
+}

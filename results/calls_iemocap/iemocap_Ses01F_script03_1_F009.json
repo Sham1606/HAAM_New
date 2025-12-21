@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01F_script03_1_F009",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:43:19.679560",
+  "duration_seconds": 3.11,
+  "transcript": "It's true, I think the whole thing's a cruel joke. What?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.4,
+      "text": "It's true, I think the whole thing's a cruel joke.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.763,
+      "sentiment_score": -0.9129,
+      "pitch_mean": 356.98
+    },
+    {
+      "start_time": 2.4,
+      "end_time": 2.9,
+      "text": "What?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.922,
+      "sentiment_score": 0.083,
+      "pitch_mean": 334.44
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.415,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 212.22,
+    "avg_pitch": 348.29
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script03_1",
+    "utterance_id": "Ses01F_script03_1_F009",
+    "transcript_ground_truth": "It's true.  I think the whole thing's a cruel joke."
+  }
+}

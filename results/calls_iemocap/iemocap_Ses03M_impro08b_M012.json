@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses03M_impro08b_M012",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:36:08.396510",
+  "duration_seconds": 6.17,
+  "transcript": "I was in the variety. Okay, tell my name. My name is Brent Bacrossing.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.3,
+      "text": "I was in the variety.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.882,
+      "sentiment_score": 0.1256,
+      "pitch_mean": 370.62
+    },
+    {
+      "start_time": 2.3,
+      "end_time": 3.8,
+      "text": "Okay, tell my name.",
+      "emotion": "anger",
+      "emotion_confidence": 0.472,
+      "sentiment_score": -0.0186,
+      "pitch_mean": 354.37
+    },
+    {
+      "start_time": 3.8,
+      "end_time": 5.8,
+      "text": "My name is Brent Bacrossing.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.886,
+      "sentiment_score": 0.0281,
+      "pitch_mean": 348.5
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.045,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "anger": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 136.14,
+    "avg_pitch": 355.75
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro08b",
+    "utterance_id": "Ses03M_impro08b_M012",
+    "transcript_ground_truth": "Tell them my name.  My name is Brent Backersen."
+  }
+}

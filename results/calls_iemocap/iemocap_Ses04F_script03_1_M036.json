@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script03_1_M036",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:42:07.696790",
+  "duration_seconds": 3.57,
+  "transcript": "As a matter of fact, the real cause of that route was Peter Burden.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "As a matter of fact, the real cause of that route was Peter Burden.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.885,
+      "sentiment_score": -0.1837,
+      "pitch_mean": 335.89
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1837,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 235.3,
+    "avg_pitch": 329.77
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script03_1",
+    "utterance_id": "Ses04F_script03_1_M036",
+    "transcript_ground_truth": "As a matter of fact, the real cause of that row was Peter Burden."
+  }
+}

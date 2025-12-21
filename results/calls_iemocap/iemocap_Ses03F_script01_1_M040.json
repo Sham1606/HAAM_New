@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script01_1_M040",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:32:06.070256",
+  "duration_seconds": 8.46,
+  "transcript": "And I thought that if I waited then dad would forget about Larry and then we could have a regular wedding and everything happy",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.32,
+      "text": "And I thought that if I waited then dad would forget about Larry and then we could have a regular wedding and everything happy",
+      "emotion": "disgust",
+      "emotion_confidence": 0.405,
+      "sentiment_score": 0.3516,
+      "pitch_mean": 334.59
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3516,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 170.25,
+    "avg_pitch": 333.24
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.3333,
+    "arousal": 2.3333,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_1",
+    "utterance_id": "Ses03F_script01_1_M040",
+    "transcript_ground_truth": "And I thought that if I waited then dad would forget about Larry and then we could have a regular wedding and everything happy."
+  }
+}

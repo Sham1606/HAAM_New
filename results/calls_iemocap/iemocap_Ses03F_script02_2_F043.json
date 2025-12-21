@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script02_2_F043",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:40:19.510438",
+  "duration_seconds": 8.07,
+  "transcript": "Well, guess we're just in the wrong spot with the right person.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "Well, guess we're just in the wrong spot with the right person.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.921,
+      "sentiment_score": -0.735,
+      "pitch_mean": 313.59
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.735,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 89.2,
+    "avg_pitch": 313.66
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 3.0,
+    "arousal": 2.3333,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_2",
+    "utterance_id": "Ses03F_script02_2_F043",
+    "transcript_ground_truth": "Well, I guess we're just in the wrong spart-spot with the right person."
+  }
+}

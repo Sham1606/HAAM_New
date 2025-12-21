@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script03_1_M030",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:53:28.678195",
+  "duration_seconds": 1.19,
+  "transcript": "I hated it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "I hated it.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.502,
+      "sentiment_score": -0.8556,
+      "pitch_mean": 319.96
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8556,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 151.27,
+    "avg_pitch": 320.2
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script03_1",
+    "utterance_id": "Ses03M_script03_1_M030",
+    "transcript_ground_truth": "I hated it."
+  }
+}

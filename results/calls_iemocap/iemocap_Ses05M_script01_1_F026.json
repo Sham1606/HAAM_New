@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script01_1_F026",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:53:31.281858",
+  "duration_seconds": 3.54,
+  "transcript": "The trouble is you never saw enough women.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "The trouble is you never saw enough women.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.465,
+      "sentiment_score": -0.6908,
+      "pitch_mean": 322.74
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6908,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 135.59,
+    "avg_pitch": 320.01
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_1",
+    "utterance_id": "Ses05M_script01_1_F026",
+    "transcript_ground_truth": "Well, the trouble is you never saw enough women."
+  }
+}

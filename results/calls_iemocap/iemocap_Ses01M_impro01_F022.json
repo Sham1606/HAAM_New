@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01M_impro01_F022",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:48:18.030101",
+  "duration_seconds": 10.69,
+  "transcript": "Maybe you've never been to the DMV before. Maybe you should get back in line. You know what? Didn't line again, and if you get my number ask for a different one",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.6,
+      "text": "Maybe you've never been to the DMV before. Maybe you should get back in line. You know what?",
+      "emotion": "anger",
+      "emotion_confidence": 0.59,
+      "sentiment_score": -0.085,
+      "pitch_mean": 350.21
+    },
+    {
+      "start_time": 5.76,
+      "end_time": 9.76,
+      "text": "Didn't line again, and if you get my number ask for a different one",
+      "emotion": "anger",
+      "emotion_confidence": 0.703,
+      "sentiment_score": -0.5153,
+      "pitch_mean": 376.27
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3002,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 179.61,
+    "avg_pitch": 351.89
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.0,
+    "arousal": 5.0,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro01",
+    "utterance_id": "Ses01M_impro01_F022",
+    "transcript_ground_truth": "Maybe you never been to the D.M.V. before, maybe you should get back in line.  You know what?  sit in line again and if you get my number ask for different one."
+  }
+}

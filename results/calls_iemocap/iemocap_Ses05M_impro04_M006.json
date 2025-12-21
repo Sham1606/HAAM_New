@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05M_impro04_M006",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:41:26.438625",
+  "duration_seconds": 7.99,
+  "transcript": "But uh, I don't know. What am I gonna do? I'm gonna go back to school. I can't. I can't afford to go back to school.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "But uh, I don't know.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.3276,
+      "pitch_mean": 309.8
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 7.0,
+      "text": "What am I gonna do? I'm gonna go back to school. I can't. I can't afford to go back to school.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.771,
+      "sentiment_score": -0.8215,
+      "pitch_mean": 317.07
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5745,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 195.24,
+    "avg_pitch": 312.99
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro04",
+    "utterance_id": "Ses05M_impro04_M006",
+    "transcript_ground_truth": "But, I don't know.  God, what am I going to do?  Should I go back to school?  I can't- I can't afford to go back to school."
+  }
+}

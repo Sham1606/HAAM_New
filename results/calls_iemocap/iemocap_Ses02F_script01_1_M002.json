@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02F_script01_1_M002",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:32:43.556935",
+  "duration_seconds": 7.2,
+  "transcript": "But for this morning, I heard it cracking and I woke up and looked out. You're standing right here when it cracked.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "But for this morning, I heard it cracking and I woke up and looked out.",
+      "emotion": "fear",
+      "emotion_confidence": 0.627,
+      "sentiment_score": 0.081,
+      "pitch_mean": 335.75
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 7.0,
+      "text": "You're standing right here when it cracked.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.436,
+      "sentiment_score": 0.3278,
+      "pitch_mean": 336.46
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2044,
+    "dominant_emotion": "fear",
+    "emotion_distribution": {
+      "fear": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 183.28,
+    "avg_pitch": 335.02
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_1",
+    "utterance_id": "Ses02F_script01_1_M002",
+    "transcript_ground_truth": "About four this morning.  I heard it cracking and I woke up and looked out. He was standing right here when it cracked."
+  }
+}

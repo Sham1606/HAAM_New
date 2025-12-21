@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script03_2_M023",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:56:25.404798",
+  "duration_seconds": 4.08,
+  "transcript": "Hmm, snap snap snap, like a little after.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Hmm, snap snap snap, like a little after.",
+      "emotion": "anger",
+      "emotion_confidence": 0.851,
+      "sentiment_score": 0.1681,
+      "pitch_mean": 326.57
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1681,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 117.77,
+    "avg_pitch": 326.33
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script03_2",
+    "utterance_id": "Ses03M_script03_2_M023",
+    "transcript_ground_truth": "Hmm, snap, snap, snap like a little adder."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script03_2_F016",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:13:16.964684",
+  "duration_seconds": 4.18,
+  "transcript": "So women's job to allure the man, watch me a moment, won't you?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "So women's job to allure the man, watch me a moment, won't you?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.439,
+      "sentiment_score": -0.0725,
+      "pitch_mean": 325.99
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0725,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 186.6,
+    "avg_pitch": 327.97
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script03_2",
+    "utterance_id": "Ses05M_script03_2_F016",
+    "transcript_ground_truth": "It's a woman's job to allure the man.  Watch me a moment, won't you?"
+  }
+}

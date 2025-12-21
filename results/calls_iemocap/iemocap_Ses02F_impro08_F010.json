@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses02F_impro08_F010",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:30:13.610838",
+  "duration_seconds": 12.73,
+  "transcript": "You're scheduling a flight as well and you would like to We have a highly discounted hotel rate that goes along with that so that everything is all in one deal You're taking care of by the time that you get there",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.56,
+      "text": "You're scheduling a flight as well and you would like to",
+      "emotion": "neutral",
+      "emotion_confidence": 0.875,
+      "sentiment_score": 0.1227,
+      "pitch_mean": 354.11
+    },
+    {
+      "start_time": 4.52,
+      "end_time": 10.08,
+      "text": "We have a highly discounted hotel rate that goes along with that so that everything is all in one deal",
+      "emotion": "neutral",
+      "emotion_confidence": 0.917,
+      "sentiment_score": 0.7711,
+      "pitch_mean": 345.04
+    },
+    {
+      "start_time": 10.08,
+      "end_time": 12.08,
+      "text": "You're taking care of by the time that you get there",
+      "emotion": "neutral",
+      "emotion_confidence": 0.947,
+      "sentiment_score": 0.3304,
+      "pitch_mean": 346.03
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4081,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 197.92,
+    "avg_pitch": 345.9
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro08",
+    "utterance_id": "Ses02F_impro08_F010",
+    "transcript_ground_truth": "um, you're scheduling a flight as well--And you would like to, um, we have a highly discounted hotel rate that goes along with that so that everything is all in one deal.  You're taken care of by the time that you get there."
+  }
+}

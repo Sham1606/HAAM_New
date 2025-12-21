@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script03_2_M028",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:31:57.059043",
+  "duration_seconds": 8.24,
+  "transcript": "I think I mentioned once before that I had only three minute LeCourte glasses of brandy the entire evening long a child of two could not get drunk on that",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.7,
+      "text": "I think I mentioned once before that I had only three minute LeCourte glasses of brandy the entire evening long a child of two could not get drunk on that",
+      "emotion": "neutral",
+      "emotion_confidence": 0.936,
+      "sentiment_score": -0.1978,
+      "pitch_mean": 343.92
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1978,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 218.45,
+    "avg_pitch": 347.77
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script03_2",
+    "utterance_id": "Ses05F_script03_2_M028",
+    "transcript_ground_truth": "I think I mentioned once before that I had only three-minute liqueur glasses of brandy the entire evening long.  A child of two could not be drunk on that."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script02_1_M013",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:38:15.891176",
+  "duration_seconds": 5.55,
+  "transcript": "You cold you want my jacket? Oh, we should have brought the blanket our blanket",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "You cold you want my jacket? Oh, we should have brought the blanket our blanket",
+      "emotion": "disgust",
+      "emotion_confidence": 0.43,
+      "sentiment_score": -0.1694,
+      "pitch_mean": 334.51
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1694,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 162.16,
+    "avg_pitch": 334.82
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script02_1",
+    "utterance_id": "Ses02F_script02_1_M013",
+    "transcript_ground_truth": "You cold?  Do you want my jacket?  Oh, we should've brought the blanket.  Our blanket."
+  }
+}

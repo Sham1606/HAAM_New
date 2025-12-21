@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01M_script02_2_F016",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:10:37.163690",
+  "duration_seconds": 11.49,
+  "transcript": "I feel like my whole life is going to be spent here on the beach with my eyes wide open and my hands clasped expectantly waiting for fish to show up and the fish never show.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.8,
+      "text": "I feel like my whole life is going to be spent here on the beach with my eyes wide open",
+      "emotion": "sadness",
+      "emotion_confidence": 0.882,
+      "sentiment_score": 0.5817,
+      "pitch_mean": 354.2
+    },
+    {
+      "start_time": 4.8,
+      "end_time": 10.56,
+      "text": "and my hands clasped expectantly waiting for fish to show up and the fish never show.",
+      "emotion": "anger",
+      "emotion_confidence": 0.854,
+      "sentiment_score": -0.2549,
+      "pitch_mean": 357.91
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1634,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 188.03,
+    "avg_pitch": 349.99
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script02_2",
+    "utterance_id": "Ses01M_script02_2_F016",
+    "transcript_ground_truth": "I feel like my whole life is going to be spent here on the beach with my eyes wide open and my hands clasped expectantly, waiting for fish to show up and the fish never show."
+  }
+}

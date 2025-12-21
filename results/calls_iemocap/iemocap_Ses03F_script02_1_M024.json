@@ -1,0 +1,98 @@
+{
+  "call_id": "iemocap_Ses03F_script02_1_M024",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:38:00.872900",
+  "duration_seconds": 19.22,
+  "transcript": "Honey, this is a natural phenomenon. I mean, it only happens once a year. This is a great opportunity. Think about the people in Kansas. They would have to get a plane ticket and hotel reservation to come and see this. We're only 40 minutes away. This is too good to pass up.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.68,
+      "text": "Honey, this is a natural phenomenon.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.698,
+      "sentiment_score": 0.0952,
+      "pitch_mean": 339.15
+    },
+    {
+      "start_time": 4.68,
+      "end_time": 7.68,
+      "text": "I mean, it only happens once a year.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.921,
+      "sentiment_score": -0.0982,
+      "pitch_mean": 340.39
+    },
+    {
+      "start_time": 7.68,
+      "end_time": 10.92,
+      "text": "This is a great opportunity.",
+      "emotion": "joy",
+      "emotion_confidence": 0.909,
+      "sentiment_score": 0.9786,
+      "pitch_mean": 336.74
+    },
+    {
+      "start_time": 10.92,
+      "end_time": 12.2,
+      "text": "Think about the people in Kansas.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.887,
+      "sentiment_score": -0.3708,
+      "pitch_mean": 352.78
+    },
+    {
+      "start_time": 12.2,
+      "end_time": 16.04,
+      "text": "They would have to get a plane ticket and hotel reservation to come and see this.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.949,
+      "sentiment_score": -0.5549,
+      "pitch_mean": 344.79
+    },
+    {
+      "start_time": 16.04,
+      "end_time": 17.52,
+      "text": "We're only 40 minutes away.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.933,
+      "sentiment_score": 0.5975,
+      "pitch_mean": 351.72
+    },
+    {
+      "start_time": 17.52,
+      "end_time": 18.72,
+      "text": "This is too good to pass up.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.547,
+      "sentiment_score": 0.9714,
+      "pitch_mean": 347.43
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2313,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.857,
+      "joy": 0.143
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 165.48,
+    "avg_pitch": 340.59
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_1",
+    "utterance_id": "Ses03F_script02_1_M024",
+    "transcript_ground_truth": "Honey, this is a natural-this is a natural phenomenon. I mean, it only happens once a year. This is, this is a great opportunity. Think about the people in Kansas. They would have to get a plane ticket and hotel reservation to come and see this. We're only forty minutes away. This is too good to pass up."
+  }
+}

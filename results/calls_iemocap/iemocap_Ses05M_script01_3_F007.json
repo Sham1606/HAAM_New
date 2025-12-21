@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script01_3_F007",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:01:12.880875",
+  "duration_seconds": 5.15,
+  "transcript": "well from her perspective I mean well so did I come here",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "well from her perspective I mean well so did I come here",
+      "emotion": "neutral",
+      "emotion_confidence": 0.718,
+      "sentiment_score": -0.044,
+      "pitch_mean": 312.41
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.044,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 139.81,
+    "avg_pitch": 312.41
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_3",
+    "utterance_id": "Ses05M_script01_3_F007",
+    "transcript_ground_truth": "Well, from her perspective, I mean, why else would I come here?"
+  }
+}

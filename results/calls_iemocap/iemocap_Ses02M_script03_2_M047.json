@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02M_script03_2_M047",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:15:13.649115",
+  "duration_seconds": 9.75,
+  "transcript": "I wouldn't marry you again if you came to me on your offended knees. You're an even mind a little vampire I hope to God I never see you again as long as I live",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.98,
+      "text": "I wouldn't marry you again if you came to me on your offended knees. You're an even mind a little vampire",
+      "emotion": "anger",
+      "emotion_confidence": 0.589,
+      "sentiment_score": -0.9193,
+      "pitch_mean": 371.99
+    },
+    {
+      "start_time": 5.98,
+      "end_time": 8.98,
+      "text": "I hope to God I never see you again as long as I live",
+      "emotion": "anger",
+      "emotion_confidence": 0.874,
+      "sentiment_score": -0.6667,
+      "pitch_mean": 408.99
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.793,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 215.37,
+    "avg_pitch": 376.88
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script03_2",
+    "utterance_id": "Ses02M_script03_2_M047",
+    "transcript_ground_truth": "I wouldn't marry you again if you came to me on your bended knees. You're a evil minded little vampire. I hope to God I never see you again as long as I live."
+  }
+}

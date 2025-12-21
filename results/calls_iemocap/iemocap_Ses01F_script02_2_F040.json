@@ -1,0 +1,63 @@
+{
+  "call_id": "iemocap_Ses01F_script02_2_F040",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:41:19.690563",
+  "duration_seconds": 9.99,
+  "transcript": "You're the one who probably wishes he was with somebody else. Somebody who didn't take things so seriously. Could enjoy yourself.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "You're the one who probably wishes he was with somebody else.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.695,
+      "sentiment_score": -0.7999,
+      "pitch_mean": 333.83
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 7.0,
+      "text": "Somebody who didn't take things so seriously.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.696,
+      "sentiment_score": -0.5502,
+      "pitch_mean": 334.09
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 10.0,
+      "text": "Could enjoy yourself.",
+      "emotion": "joy",
+      "emotion_confidence": 0.915,
+      "sentiment_score": 0.9109,
+      "pitch_mean": 333.9
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1464,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.333,
+      "disgust": 0.333,
+      "joy": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 126.13,
+    "avg_pitch": 333.9
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 1.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_2",
+    "utterance_id": "Ses01F_script02_2_F040",
+    "transcript_ground_truth": "You're the one who probably wishes he was with somebody else.  Somebody who doesn't take things so seriously, who could enjoy herself."
+  }
+}

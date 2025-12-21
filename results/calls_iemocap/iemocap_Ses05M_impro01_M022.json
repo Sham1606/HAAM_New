@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05M_impro01_M022",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:34:21.667173",
+  "duration_seconds": 8.01,
+  "transcript": "This is crap. You know, I don't even know why I'm in the state. Screw California. I'm outta here.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.84,
+      "text": "This is crap. You know, I don't even know why I'm in the state.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.752,
+      "sentiment_score": -0.9426,
+      "pitch_mean": 324.75
+    },
+    {
+      "start_time": 4.84,
+      "end_time": 7.0,
+      "text": "Screw California. I'm outta here.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.38,
+      "sentiment_score": -0.8663,
+      "pitch_mean": 327.69
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9045,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 142.32,
+    "avg_pitch": 323.85
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro01",
+    "utterance_id": "Ses05M_impro01_M022",
+    "transcript_ground_truth": "This is crap.  You know, I don't even know why I'm in this state.  Screw California.  I'm out of here."
+  }
+}

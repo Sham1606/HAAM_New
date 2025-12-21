@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro06_M023",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:06:49.001590",
+  "duration_seconds": 2.09,
+  "transcript": "It's best to put it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It's best to put it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.894,
+      "sentiment_score": 0.3922,
+      "pitch_mean": 306.19
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3922,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 143.54,
+    "avg_pitch": 308.88
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro06",
+    "utterance_id": "Ses05F_impro06_M023",
+    "transcript_ground_truth": "That's the best way to put it."
+  }
+}

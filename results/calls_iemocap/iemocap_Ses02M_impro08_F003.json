@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro08_F003",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:57:42.359934",
+  "duration_seconds": 5.05,
+  "transcript": "So is there any way to like bypass that because that is so like I've been going around in circles?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.96,
+      "text": "So is there any way to like bypass that because that is so like I've been going around in circles?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.859,
+      "sentiment_score": -0.6271,
+      "pitch_mean": 375.74
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6271,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 237.69,
+    "avg_pitch": 372.99
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.3333,
+    "arousal": 3.6667,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro08",
+    "utterance_id": "Ses02M_impro08_F003",
+    "transcript_ground_truth": "So is there any way to like bypass that because that is so, like I've been going around in circles"
+  }
+}

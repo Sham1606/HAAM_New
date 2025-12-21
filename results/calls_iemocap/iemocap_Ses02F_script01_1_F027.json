@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script01_1_F027",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:32:09.266499",
+  "duration_seconds": 4.4,
+  "transcript": "How do you not show Mary? Maybe she feels the same way her father does",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.32,
+      "text": "How do you not show Mary? Maybe she feels the same way her father does",
+      "emotion": "disgust",
+      "emotion_confidence": 0.409,
+      "sentiment_score": -0.4967,
+      "pitch_mean": 329.59
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4967,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 204.39,
+    "avg_pitch": 322.1
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_1",
+    "utterance_id": "Ses02F_script01_1_F027",
+    "transcript_ground_truth": "Well, how do you know she'll marry you?  Maybe she feels the same way your father does."
+  }
+}

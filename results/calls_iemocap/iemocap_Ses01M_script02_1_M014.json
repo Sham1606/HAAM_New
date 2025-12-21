@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01M_script02_1_M014",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:09:03.730268",
+  "duration_seconds": 17.42,
+  "transcript": "You know what we should about a blanket too man our blanket our blanket Oh, we should have six pack to a six pack would be just a ticket right about now, huh six pack",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.04,
+      "text": "You know what we should about a blanket too man our blanket our blanket",
+      "emotion": "neutral",
+      "emotion_confidence": 0.729,
+      "sentiment_score": 0.1019,
+      "pitch_mean": 333.47
+    },
+    {
+      "start_time": 11.84,
+      "end_time": 16.52,
+      "text": "Oh, we should have six pack to a six pack would be just a ticket right about now, huh six pack",
+      "emotion": "neutral",
+      "emotion_confidence": 0.928,
+      "sentiment_score": 0.113,
+      "pitch_mean": 341.61
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1075,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 120.55,
+    "avg_pitch": 336.31
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.0,
+    "arousal": 4.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script02_1",
+    "utterance_id": "Ses01M_script02_1_M014",
+    "transcript_ground_truth": "You know what we should've brought a blanket too.  Man, our blanket, our blanket.  Wish I had six-pack too, a six-pack would be just the ticket right about now, huh, six-pack."
+  }
+}

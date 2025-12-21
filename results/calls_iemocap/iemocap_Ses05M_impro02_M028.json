@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05M_impro02_M028",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:36:30.060613",
+  "duration_seconds": 10.81,
+  "transcript": "All the time I'll write you every day all the time and I'll send you pictures and you send me pictures I knew we got email out there. We got email and I can see stuff you can send me stuff all the time okay",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.9,
+      "text": "All the time I'll write you every day all the time and I'll send you pictures and you send me pictures",
+      "emotion": "neutral",
+      "emotion_confidence": 0.849,
+      "sentiment_score": 0.2764,
+      "pitch_mean": 329.95
+    },
+    {
+      "start_time": 5.9,
+      "end_time": 10.14,
+      "text": "I knew we got email out there. We got email and I can see stuff you can send me stuff all the time okay",
+      "emotion": "neutral",
+      "emotion_confidence": 0.848,
+      "sentiment_score": 0.0962,
+      "pitch_mean": 337.75
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1863,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 249.77,
+    "avg_pitch": 332.81
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.3333,
+    "arousal": 4.0,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro02",
+    "utterance_id": "Ses05M_impro02_M028",
+    "transcript_ground_truth": "All- I'll write you everyday, all the time.  And I'll send you pictures and you send me pictures. I know We've got email out there.  We've got email and I can see stuff and you can send me stuff all the time.  Okay?"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses04M_impro07_F024",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:00:35.069422",
+  "duration_seconds": 5.29,
+  "transcript": "You're not gonna, are you gonna go to games though, right? I mean, you can't go to USC and not go to a football game.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.4,
+      "text": "You're not gonna, are you gonna go to games though, right?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.41,
+      "sentiment_score": -0.3758,
+      "pitch_mean": 366.7
+    },
+    {
+      "start_time": 2.4,
+      "end_time": 4.8,
+      "text": "I mean, you can't go to USC and not go to a football game.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.505,
+      "sentiment_score": -0.1984,
+      "pitch_mean": 355.31
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2871,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 283.56,
+    "avg_pitch": 356.62
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro07",
+    "utterance_id": "Ses04M_impro07_F024",
+    "transcript_ground_truth": "You're not going to -- you're going to go to games, though, right? I mean, you can't go to U.S.C. and not go to a football game."
+  }
+}

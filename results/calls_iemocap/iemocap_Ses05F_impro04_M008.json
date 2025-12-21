@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro04_M008",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:58:41.212948",
+  "duration_seconds": 5.86,
+  "transcript": "And no, I understand, but you gotta like start somewhere. I mean, it's better than nothing and that's all you have me have nothing right now",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.18,
+      "text": "And no, I understand, but you gotta like start somewhere. I mean, it's better than nothing and that's all you have me have nothing right now",
+      "emotion": "neutral",
+      "emotion_confidence": 0.627,
+      "sentiment_score": 0.0277,
+      "pitch_mean": 338.09
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0277,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 266.21,
+    "avg_pitch": 336.54
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro04",
+    "utterance_id": "Ses05F_impro04_M008",
+    "transcript_ground_truth": "and No, I understand, but you've got to start somewhere.  It's better than nothing and that's all you have.  You have nothing right now."
+  }
+}

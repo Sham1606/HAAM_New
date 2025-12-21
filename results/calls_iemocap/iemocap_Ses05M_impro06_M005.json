@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05M_impro06_M005",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:45:43.814956",
+  "duration_seconds": 6.99,
+  "transcript": "You wanted to travel, you know. You so talented, probably the most talented person I've ever met my entire life.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.76,
+      "text": "You wanted to travel, you know.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.703,
+      "sentiment_score": 0.1493,
+      "pitch_mean": 318.4
+    },
+    {
+      "start_time": 2.76,
+      "end_time": 7.0,
+      "text": "You so talented, probably the most talented person I've ever met my entire life.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.9801,
+      "pitch_mean": 319.85
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5647,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 171.67,
+    "avg_pitch": 319.85
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro06",
+    "utterance_id": "Ses05M_impro06_M005",
+    "transcript_ground_truth": "he wanted to travel, you know.  And he's so talented.  Probably the most talented person I have ever met in my entire life."
+  }
+}

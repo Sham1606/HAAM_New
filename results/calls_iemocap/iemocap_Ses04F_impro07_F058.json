@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro07_F058",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:14:52.696623",
+  "duration_seconds": 5.31,
+  "transcript": "Excellent! Drive drunk people around, because you know that's all campus cruisers for.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Excellent! Drive drunk people around, because you know that's all campus cruisers for.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.561,
+      "sentiment_score": 0.2405,
+      "pitch_mean": 346.9
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2405,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 146.89,
+    "avg_pitch": 347.18
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro07",
+    "utterance_id": "Ses04F_impro07_F058",
+    "transcript_ground_truth": "Excellent.  Drive drunk people around because you know that's all campus cruisers for."
+  }
+}

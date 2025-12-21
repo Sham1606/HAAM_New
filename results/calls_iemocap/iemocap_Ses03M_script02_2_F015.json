@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script02_2_F015",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:48:26.150199",
+  "duration_seconds": 7.24,
+  "transcript": "I do uh, I always do it. I keep thinking this time will be the time and it never is.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "I do uh, I always do it. I keep thinking this time will be the time and it never is.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.913,
+      "sentiment_score": -0.3469,
+      "pitch_mean": 349.14
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3469,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 165.64,
+    "avg_pitch": 347.24
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.3333,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_2",
+    "utterance_id": "Ses03M_script02_2_F015",
+    "transcript_ground_truth": "I do.  I always do.  I keep thinking, this time will be the time and it never is."
+  }
+}

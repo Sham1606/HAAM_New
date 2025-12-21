@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_impro08_M017",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:52:00.742116",
+  "duration_seconds": 9.71,
+  "transcript": "Okay, okay, and letters and numbers and stuff. Can you just type in IP address search and hit enter?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Okay, okay, and letters and numbers and stuff.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.391,
+      "sentiment_score": 0.0639,
+      "pitch_mean": 327.82
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 9.0,
+      "text": "Can you just type in IP address search and hit enter?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.957,
+      "sentiment_score": 0.008,
+      "pitch_mean": 329.86
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.036,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 117.41,
+    "avg_pitch": 328.2
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro08",
+    "utterance_id": "Ses05M_impro08_M017",
+    "transcript_ground_truth": "Okay Okay, And Um- letters and numbers and stuff.  Uh- Can you - Can you just type in IP address search? And hit enter."
+  }
+}

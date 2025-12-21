@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses01M_script02_2_M031",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:12:34.843428",
+  "duration_seconds": 5.36,
+  "transcript": "What? What? Are you one of the fours?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "What?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.922,
+      "sentiment_score": 0.083,
+      "pitch_mean": 332.92
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "What?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.922,
+      "sentiment_score": 0.083,
+      "pitch_mean": 331.63
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "Are you one of the fours?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.562,
+      "sentiment_score": 0.03,
+      "pitch_mean": 334.02
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0653,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 89.51,
+    "avg_pitch": 334.02
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script02_2",
+    "utterance_id": "Ses01M_script02_2_M031",
+    "transcript_ground_truth": "What?  What?  You want to divorce?"
+  }
+}

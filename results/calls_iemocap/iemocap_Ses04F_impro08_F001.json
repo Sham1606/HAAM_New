@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro08_F001",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:19:28.499529",
+  "duration_seconds": 6.3,
+  "transcript": "Okay, well did you go through the automated menu most of your requests can be taken care of through this?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.18,
+      "text": "Okay, well did you go through the automated menu most of your requests can be taken care of through this?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.938,
+      "sentiment_score": 0.1455,
+      "pitch_mean": 348.03
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1455,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 190.48,
+    "avg_pitch": 346.61
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 4.0,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro08",
+    "utterance_id": "Ses04F_impro08_F001",
+    "transcript_ground_truth": "Okay.  Well, Did you go through the automated menu?  Most of your requests can be taken care of through that."
+  }
+}

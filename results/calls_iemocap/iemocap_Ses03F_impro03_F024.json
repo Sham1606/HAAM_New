@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro03_F024",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:19:43.212383",
+  "duration_seconds": 3.28,
+  "transcript": "I'm excited.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I'm excited.",
+      "emotion": "joy",
+      "emotion_confidence": 0.954,
+      "sentiment_score": 0.9786,
+      "pitch_mean": 336.31
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9786,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 36.59,
+    "avg_pitch": 326.55
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 4.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro03",
+    "utterance_id": "Ses03F_impro03_F024",
+    "transcript_ground_truth": "Yeah. I'm so excited. [LAUGHTER]."
+  }
+}

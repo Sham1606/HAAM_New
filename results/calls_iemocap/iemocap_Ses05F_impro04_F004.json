@@ -1,0 +1,108 @@
+{
+  "call_id": "iemocap_Ses05F_impro04_F004",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:56:28.919826",
+  "duration_seconds": 16.92,
+  "transcript": "I mean, I just don't, I don't know. Like if you don't have a lot of qualification, where do you find work? It's like LA is so frustrating because if you don't know somebody, you can't get a job. It's impossible. It's totally discriminatory. You have to know somebody.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.64,
+      "text": "I mean, I just don't, I don't know.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.395,
+      "sentiment_score": -0.692,
+      "pitch_mean": 336.69
+    },
+    {
+      "start_time": 2.64,
+      "end_time": 4.88,
+      "text": "Like if you don't have a lot of qualification,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.734,
+      "sentiment_score": -0.4322,
+      "pitch_mean": 341.53
+    },
+    {
+      "start_time": 4.88,
+      "end_time": 6.56,
+      "text": "where do you find work?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.789,
+      "sentiment_score": 0.0021,
+      "pitch_mean": 338.44
+    },
+    {
+      "start_time": 6.56,
+      "end_time": 10.08,
+      "text": "It's like LA is so frustrating because if you don't know",
+      "emotion": "disgust",
+      "emotion_confidence": 0.398,
+      "sentiment_score": -0.8705,
+      "pitch_mean": 341.36
+    },
+    {
+      "start_time": 10.08,
+      "end_time": 12.44,
+      "text": "somebody, you can't get a job.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.495,
+      "sentiment_score": -0.6566,
+      "pitch_mean": 339.22
+    },
+    {
+      "start_time": 12.44,
+      "end_time": 13.32,
+      "text": "It's impossible.",
+      "emotion": "joy",
+      "emotion_confidence": 0.433,
+      "sentiment_score": -0.7194,
+      "pitch_mean": 351.71
+    },
+    {
+      "start_time": 13.32,
+      "end_time": 15.08,
+      "text": "It's totally discriminatory.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.845,
+      "sentiment_score": -0.8913,
+      "pitch_mean": 355.12
+    },
+    {
+      "start_time": 15.08,
+      "end_time": 16.64,
+      "text": "You have to know somebody.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.868,
+      "sentiment_score": 0.0253,
+      "pitch_mean": 326.37
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5293,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.375,
+      "joy": 0.125
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 173.76,
+    "avg_pitch": 341.04
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro04",
+    "utterance_id": "Ses05F_impro04_F004",
+    "transcript_ground_truth": "I mean, I just don't--I don't know.  If you don't have a lot of qualification, where do you - where do you find work?  It's like L.A. is so frustrating because if you don't know somebody, you can't -you can't get a job.  It's impossible.  It's totally discriminatory.  You have to know somebody."
+  }
+}

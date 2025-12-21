@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04M_impro02_M006",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:49:47.860797",
+  "duration_seconds": 4.97,
+  "transcript": "I've made a pledge. I can't not do this at this point. You made a pledge to-",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I've made a pledge. I can't not do this at this point.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.398,
+      "sentiment_score": 0.0145,
+      "pitch_mean": 321.1
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 5.0,
+      "text": "You made a pledge to-",
+      "emotion": "neutral",
+      "emotion_confidence": 0.615,
+      "sentiment_score": -0.0319,
+      "pitch_mean": 322.34
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0087,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 205.23,
+    "avg_pitch": 322.34
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro02",
+    "utterance_id": "Ses04M_impro02_M006",
+    "transcript_ground_truth": "I've made a pledge.  I can't not do this at this point."
+  }
+}

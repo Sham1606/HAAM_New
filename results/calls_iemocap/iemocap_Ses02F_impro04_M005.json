@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02F_impro04_M005",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:24:11.034242",
+  "duration_seconds": 7.61,
+  "transcript": "No, it's, I mean, it's competitive, you know, like that's what it is. So that's what you gotta be, it's competitive.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.24,
+      "text": "No, it's, I mean, it's competitive, you know, like that's what it is.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.83,
+      "sentiment_score": -0.0883,
+      "pitch_mean": 329.57
+    },
+    {
+      "start_time": 5.24,
+      "end_time": 7.24,
+      "text": "So that's what you gotta be, it's competitive.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.911,
+      "sentiment_score": 0.06,
+      "pitch_mean": 323.93
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0141,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 165.57,
+    "avg_pitch": 329.42
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro04",
+    "utterance_id": "Ses02F_impro04_M005",
+    "transcript_ground_truth": "No.  It's--I mean, it's competitive, you know.  That's-That's what it is.  that's what you gotta be is competitive."
+  }
+}

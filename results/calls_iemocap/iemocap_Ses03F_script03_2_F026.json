@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script03_2_F026",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:45:00.621155",
+  "duration_seconds": 3.79,
+  "transcript": "You are quite inseparable. I suppose it's because you're drunk.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.2,
+      "text": "You are quite inseparable. I suppose it's because you're drunk.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.737,
+      "sentiment_score": 0.3449,
+      "pitch_mean": 345.27
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3449,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 158.31,
+    "avg_pitch": 345.33
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script03_2",
+    "utterance_id": "Ses03F_script03_2_F026",
+    "transcript_ground_truth": "You are quite insufferable. I suppose it's because you're drunk."
+  }
+}

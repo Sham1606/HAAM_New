@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script02_2_F027",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:24:38.562468",
+  "duration_seconds": 4.38,
+  "transcript": "But this isn't anything like I thought it would be.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "But this isn't anything like I thought it would be.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.581,
+      "sentiment_score": -0.8458,
+      "pitch_mean": 334.97
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8458,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 137.07,
+    "avg_pitch": 335.4
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script02_2",
+    "utterance_id": "Ses05F_script02_2_F027",
+    "transcript_ground_truth": "But this isn't anything like I thought it would be."
+  }
+}

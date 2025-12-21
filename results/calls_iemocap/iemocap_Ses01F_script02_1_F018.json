@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01F_script02_1_F018",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:37:59.278454",
+  "duration_seconds": 8.77,
+  "transcript": "I don't see why you're so excited. This isn't a friggin moon landing. We're talking about. It's fish. It's a fish nobody even eats.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "I don't see why you're so excited. This isn't a friggin moon landing. We're talking about. It's fish.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.459,
+      "sentiment_score": -0.7021,
+      "pitch_mean": 344.01
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 8.0,
+      "text": "It's a fish nobody even eats.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.866,
+      "sentiment_score": -0.7924,
+      "pitch_mean": 340.88
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7473,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 164.14,
+    "avg_pitch": 342.26
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_1",
+    "utterance_id": "Ses01F_script02_1_F018",
+    "transcript_ground_truth": "I don't see why you're so excited; this isn't a freaking moon landing we are talking about.  It's fish.  It's a fish nobody even eats."
+  }
+}

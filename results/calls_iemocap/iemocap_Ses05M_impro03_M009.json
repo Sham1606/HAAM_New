@@ -1,0 +1,81 @@
+{
+  "call_id": "iemocap_Ses05M_impro03_M009",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:38:19.367302",
+  "duration_seconds": 13.2,
+  "transcript": "Well, instead I climb up in the rock. And like, I, well I didn't do it, I did it on purpose, but it made it look like I accidentally did it, and I slipped down into this pool of water, right? And she freaks out because I slide all the way down this rock. And, um...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Well, instead I climb up in the rock.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.365,
+      "sentiment_score": -0.281,
+      "pitch_mean": 329.37
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 5.0,
+      "text": "And like, I, well I didn't do it, I did it on purpose,",
+      "emotion": "disgust",
+      "emotion_confidence": 0.418,
+      "sentiment_score": -0.2919,
+      "pitch_mean": 319.57
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 9.0,
+      "text": "but it made it look like I accidentally did it, and I slipped down into this pool of water, right?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.474,
+      "sentiment_score": -0.4658,
+      "pitch_mean": 326.32
+    },
+    {
+      "start_time": 9.0,
+      "end_time": 12.0,
+      "text": "And she freaks out because I slide all the way down this rock.",
+      "emotion": "joy",
+      "emotion_confidence": 0.339,
+      "sentiment_score": -0.3599,
+      "pitch_mean": 326.5
+    },
+    {
+      "start_time": 12.0,
+      "end_time": 13.0,
+      "text": "And, um...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.762,
+      "sentiment_score": 0.019,
+      "pitch_mean": 307.55
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2759,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.6,
+      "joy": 0.2,
+      "neutral": 0.2
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 254.55,
+    "avg_pitch": 325.03
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 3.6667,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro03",
+    "utterance_id": "Ses05M_impro03_M009",
+    "transcript_ground_truth": "Well, instead I climb up on the rock and like I- I didn't do it -- well, I did it on purpose. I made it look like I accidentally did it.  I slipped down into this pool of water, right?  And she freaks out because I slide all the way down this rock.  And um-"
+  }
+}

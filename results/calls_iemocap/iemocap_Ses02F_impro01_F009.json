@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02F_impro01_F009",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:19:05.860216",
+  "duration_seconds": 5.38,
+  "transcript": "I have my passport and I have my driver's license. That's all I have.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.56,
+      "text": "I have my passport and I have my driver's license.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.847,
+      "sentiment_score": 0.4569,
+      "pitch_mean": 345.94
+    },
+    {
+      "start_time": 3.56,
+      "end_time": 5.06,
+      "text": "That's all I have.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.931,
+      "sentiment_score": -0.0558,
+      "pitch_mean": 342.57
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2006,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 156.26,
+    "avg_pitch": 341.91
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro01",
+    "utterance_id": "Ses02F_impro01_F009",
+    "transcript_ground_truth": "I have my passport and I have my driver's license. And that's all I have."
+  }
+}

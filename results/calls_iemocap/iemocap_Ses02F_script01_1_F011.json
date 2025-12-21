@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02F_script01_1_F011",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:31:40.832676",
+  "duration_seconds": 2.04,
+  "transcript": "What do you want to do? I'll give you a thing.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "What do you want to do?",
+      "emotion": "sadness",
+      "emotion_confidence": 0.342,
+      "sentiment_score": 0.0777,
+      "pitch_mean": 343.87
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 2.0,
+      "text": "I'll give you a thing.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.792,
+      "sentiment_score": 0.262,
+      "pitch_mean": 322.4
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1699,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 323.54,
+    "avg_pitch": 331.16
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_1",
+    "utterance_id": "Ses02F_script01_1_F011",
+    "transcript_ground_truth": "What do you want to do argue with him?"
+  }
+}

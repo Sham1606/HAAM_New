@@ -1,0 +1,97 @@
+{
+  "call_id": "iemocap_Ses05F_impro02_F028",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:48:18.096616",
+  "duration_seconds": 1.85,
+  "transcript": "Nee d\u00e9fendeording now. Hello. You mean Deborah raised your goodbye to your community? No. Dr. DeGroes. Thank you. I'm going to get the moon.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.34,
+      "text": "Nee d\u00e9fendeording now.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.908,
+      "sentiment_score": -0.0348,
+      "pitch_mean": 345.35
+    },
+    {
+      "start_time": 1.34,
+      "end_time": 2.18,
+      "text": "Hello.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.951,
+      "sentiment_score": 0.5302,
+      "pitch_mean": 340.51
+    },
+    {
+      "start_time": 2.18,
+      "end_time": 6.18,
+      "text": "You mean Deborah raised your goodbye to your community?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.548,
+      "sentiment_score": -0.2673,
+      "pitch_mean": 340.51
+    },
+    {
+      "start_time": 6.18,
+      "end_time": 7.4,
+      "text": "No.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.83,
+      "sentiment_score": 0.122,
+      "pitch_mean": 340.51
+    },
+    {
+      "start_time": 7.4,
+      "end_time": 10.96,
+      "text": "Dr. DeGroes.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.918,
+      "sentiment_score": 0.0689,
+      "pitch_mean": 340.51
+    },
+    {
+      "start_time": 10.96,
+      "end_time": 20.84,
+      "text": "Thank you.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.666,
+      "sentiment_score": 0.8156,
+      "pitch_mean": 340.51
+    },
+    {
+      "start_time": 20.84,
+      "end_time": 28.74,
+      "text": "I'm going to get the moon.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.692,
+      "sentiment_score": 0.8578,
+      "pitch_mean": 340.51
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2989,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 778.38,
+    "avg_pitch": 340.51
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro02",
+    "utterance_id": "Ses05F_impro02_F028",
+    "transcript_ground_truth": "I know."
+  }
+}

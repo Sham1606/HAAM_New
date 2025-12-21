@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro03_M024",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:38:59.850991",
+  "duration_seconds": 3.64,
+  "transcript": "Of course, of course, it told them right away. We called them all red then",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.36,
+      "text": "Of course, of course, it told them right away. We called them all red then",
+      "emotion": "neutral",
+      "emotion_confidence": 0.943,
+      "sentiment_score": -0.0819,
+      "pitch_mean": 342.54
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0819,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 247.26,
+    "avg_pitch": 340.65
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 3.6667,
+    "arousal": 3.3333,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro03",
+    "utterance_id": "Ses05M_impro03_M024",
+    "transcript_ground_truth": "Of course.  I told them right away.  We called them all right them."
+  }
+}

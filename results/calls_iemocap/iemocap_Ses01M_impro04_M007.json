@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro04_M007",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:54:08.680329",
+  "duration_seconds": 1.99,
+  "transcript": "Do you have an attitude problem?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Do you have an attitude problem?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.539,
+      "sentiment_score": -0.5504,
+      "pitch_mean": 339.67
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5504,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 180.9,
+    "avg_pitch": 339.67
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro04",
+    "utterance_id": "Ses01M_impro04_M007",
+    "transcript_ground_truth": "Do I have an attitude problem?"
+  }
+}

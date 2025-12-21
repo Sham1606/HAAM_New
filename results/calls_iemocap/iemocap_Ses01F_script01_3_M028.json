@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01F_script01_3_M028",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:37:02.535403",
+  "duration_seconds": 11.06,
+  "transcript": "You can't just toss off a thing like that. Because they weren't just men, you know?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 8.26,
+      "text": "You can't just toss off a thing like that.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.602,
+      "sentiment_score": -0.8416,
+      "pitch_mean": 312.83
+    },
+    {
+      "start_time": 8.26,
+      "end_time": 9.74,
+      "text": "Because they weren't just men, you know?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.434,
+      "sentiment_score": -0.1861,
+      "pitch_mean": 312.15
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5139,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 86.78,
+    "avg_pitch": 314.42
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.6667,
+    "arousal": 3.3333,
+    "dominance": 3.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_3",
+    "utterance_id": "Ses01F_script01_3_M028",
+    "transcript_ground_truth": "You can't just toss off a thing like that because they weren't just men. You know?"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script03_1_F008",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:27:07.106097",
+  "duration_seconds": 5.72,
+  "transcript": "do they? It's a pity that one can't stay this way forever.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "do they? It's a pity that one can't stay this way forever.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.8744,
+      "pitch_mean": 335.15
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8744,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 125.87,
+    "avg_pitch": 335.15
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script03_1",
+    "utterance_id": "Ses05F_script03_1_F008",
+    "transcript_ground_truth": "Um... It's a pity that one can't stay this way forever."
+  }
+}

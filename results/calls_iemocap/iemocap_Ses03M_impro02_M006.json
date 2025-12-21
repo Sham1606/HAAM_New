@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro02_M006",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:50:31.175877",
+  "duration_seconds": 2.76,
+  "transcript": "He said anywhere from 2 to 3 years.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "He said anywhere from 2 to 3 years.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.949,
+      "sentiment_score": 0.0171,
+      "pitch_mean": 322.98
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0171,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 173.68,
+    "avg_pitch": 322.98
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro02",
+    "utterance_id": "Ses03M_impro02_M006",
+    "transcript_ground_truth": "They said anywhere from two to three years."
+  }
+}

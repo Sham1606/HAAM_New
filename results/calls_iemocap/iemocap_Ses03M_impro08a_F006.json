@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro08a_F006",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:31:35.576340",
+  "duration_seconds": 9.29,
+  "transcript": "This has been going on for the past two weeks. I called every single day. Nobody is helping me. You guys tell me the same thing over and over. Call again, call again, call again, call again.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 9.0,
+      "text": "This has been going on for the past two weeks. I called every single day. Nobody is helping me. You guys tell me the same thing over and over. Call again, call again, call again, call again.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.415,
+      "sentiment_score": -0.9282,
+      "pitch_mean": 360.98
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9282,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 239.03,
+    "avg_pitch": 359.54
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.0,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro08a",
+    "utterance_id": "Ses03M_impro08a_F006",
+    "transcript_ground_truth": "This has been going on for the past two weeks.  I called every single day.  Nobody is helping me.  You guys tell me the same thing over and over, call again, call again, call again--"
+  }
+}

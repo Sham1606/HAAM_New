@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_impro01_M008",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:33:44.361541",
+  "duration_seconds": 5.84,
+  "transcript": "Well then when I showed them my ID before and I said I had to get a new ID Why didn't they tell me to fill out the right form?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.52,
+      "text": "Well then when I showed them my ID before and I said I had to get a new ID",
+      "emotion": "neutral",
+      "emotion_confidence": 0.737,
+      "sentiment_score": -0.1135,
+      "pitch_mean": 332.56
+    },
+    {
+      "start_time": 3.52,
+      "end_time": 5.32,
+      "text": "Why didn't they tell me to fill out the right form?",
+      "emotion": "anger",
+      "emotion_confidence": 0.539,
+      "sentiment_score": -0.7234,
+      "pitch_mean": 352.05
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4184,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 308.22,
+    "avg_pitch": 338.13
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro01",
+    "utterance_id": "Ses05M_impro01_M008",
+    "transcript_ground_truth": "Well then, when I showed them my I.D. before and I said I had to get a new I.D, why didn't they tell me to fill out the right form?"
+  }
+}

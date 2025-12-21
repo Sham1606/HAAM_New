@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01M_impro05_M013",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:56:19.911538",
+  "duration_seconds": 11.29,
+  "transcript": "It was right in the middle of five different people. I had a huge fat lady to the next of me a crying kid on my left Oh, I like can you please get a bloody Mary please? What even bring me a bloody Mary?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.76,
+      "text": "It was right in the middle of five different people. I had a huge fat lady to the next of me a crying kid on my left",
+      "emotion": "anger",
+      "emotion_confidence": 0.511,
+      "sentiment_score": -0.4634,
+      "pitch_mean": 362.74
+    },
+    {
+      "start_time": 6.24,
+      "end_time": 10.36,
+      "text": "Oh, I like can you please get a bloody Mary please? What even bring me a bloody Mary?",
+      "emotion": "anger",
+      "emotion_confidence": 0.731,
+      "sentiment_score": 0.3764,
+      "pitch_mean": 359.5
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0435,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 239.15,
+    "avg_pitch": 359.7
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.0,
+    "arousal": 5.0,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro05",
+    "utterance_id": "Ses01M_impro05_M013",
+    "transcript_ground_truth": "It was right in the middle of five different people.  I had a huge fat lady next me, a crying kid on left I went like can I please get a Bloody Mary, please? Will you bring a Bloody Mary?"
+  }
+}

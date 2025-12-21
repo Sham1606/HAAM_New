@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script03_1_M033",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:29:16.623495",
+  "duration_seconds": 8.01,
+  "transcript": "as a matter of fact the real cause of that ral was Peter Bird",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "as a matter of fact the real cause of that ral was Peter Bird",
+      "emotion": "neutral",
+      "emotion_confidence": 0.727,
+      "sentiment_score": -0.2637,
+      "pitch_mean": 326.62
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2637,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 104.87,
+    "avg_pitch": 326.94
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 2.5,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script03_1",
+    "utterance_id": "Ses05F_script03_1_M033",
+    "transcript_ground_truth": "Oh, As a matter of fact, the real cause of that row was Peter Burden."
+  }
+}

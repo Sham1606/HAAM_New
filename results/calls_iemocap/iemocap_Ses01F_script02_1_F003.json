@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script02_1_F003",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:37:32.402242",
+  "duration_seconds": 1.97,
+  "transcript": "We're flashlight",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "We're flashlight",
+      "emotion": "neutral",
+      "emotion_confidence": 0.811,
+      "sentiment_score": 0.17,
+      "pitch_mean": 340.79
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.17,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 60.91,
+    "avg_pitch": 340.79
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "sur",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_1",
+    "utterance_id": "Ses01F_script02_1_F003",
+    "transcript_ground_truth": "What flashlight?"
+  }
+}

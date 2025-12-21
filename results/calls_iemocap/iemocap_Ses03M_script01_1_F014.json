@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_script01_1_F014",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:37:23.554515",
+  "duration_seconds": 4.06,
+  "transcript": "to you maybe, to me, but not to your father. I mean...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.56,
+      "text": "to you maybe, to me, but not to your father.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.667,
+      "sentiment_score": -0.0821,
+      "pitch_mean": 339.97
+    },
+    {
+      "start_time": 3.56,
+      "end_time": 4.06,
+      "text": "I mean...",
+      "emotion": "disgust",
+      "emotion_confidence": 0.351,
+      "sentiment_score": 0.0309,
+      "pitch_mean": 337.06
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0256,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 177.32,
+    "avg_pitch": 339.55
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_1",
+    "utterance_id": "Ses03M_script01_1_F014",
+    "transcript_ground_truth": "To you maybe, to me, but not to your father.  I mean,"
+  }
+}

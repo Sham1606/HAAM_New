@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses05F_script01_2_F008",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:16:26.802238",
+  "duration_seconds": 7.8,
+  "transcript": "Because she knows what I know. She's faithful as a rock. In my worst moments, I think of her waiting and I know again that I'm right.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Because she knows what I know.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.77,
+      "sentiment_score": 0.3056,
+      "pitch_mean": 338.34
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "She's faithful as a rock.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.888,
+      "sentiment_score": 0.9249,
+      "pitch_mean": 339.49
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "In my worst moments, I think of her waiting",
+      "emotion": "disgust",
+      "emotion_confidence": 0.968,
+      "sentiment_score": -0.1376,
+      "pitch_mean": 383.5
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 8.0,
+      "text": "and I know again that I'm right.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.799,
+      "sentiment_score": 0.742,
+      "pitch_mean": 354.32
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4587,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.75,
+      "disgust": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 207.69,
+    "avg_pitch": 354.32
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_2",
+    "utterance_id": "Ses05F_script01_2_F008",
+    "transcript_ground_truth": "Because she knows what I know - she's faithful as a rock and my worst moments I think of her waiting and I know again that I'm right."
+  }
+}

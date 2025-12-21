@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses02F_script01_3_M031",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:37:01.458291",
+  "duration_seconds": 15.31,
+  "transcript": "Then I came back and it was incredible. There was no meaning in it here. The whole thing to them seemed like it's sort of a bus accident. I went to work with Dad and that rat race again.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.44,
+      "text": "Then I came back and it was incredible. There was no meaning in it here.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.95,
+      "sentiment_score": 0.8437,
+      "pitch_mean": 326.27
+    },
+    {
+      "start_time": 5.44,
+      "end_time": 10.68,
+      "text": "The whole thing to them seemed like it's sort of a bus accident.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.464,
+      "sentiment_score": -0.7388,
+      "pitch_mean": 328.12
+    },
+    {
+      "start_time": 10.68,
+      "end_time": 15.32,
+      "text": "I went to work with Dad and that rat race again.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.6494,
+      "pitch_mean": 325.83
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1815,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "disgust": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 152.84,
+    "avg_pitch": 325.83
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_3",
+    "utterance_id": "Ses02F_script01_3_M031",
+    "transcript_ground_truth": "Then I came back and it was incredible.  There was no meaning in it here.  The whole thing to them seemed like sort of a bus accident.  I went to work with Dad and that rat race again."
+  }
+}

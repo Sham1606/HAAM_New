@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script01_1_F047",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:30:42.412280",
+  "duration_seconds": 4.11,
+  "transcript": "You can't do that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "You can't do that.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.445,
+      "sentiment_score": -0.6953,
+      "pitch_mean": 325.61
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6953,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 58.46,
+    "avg_pitch": 321.31
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.6667,
+    "arousal": 3.0,
+    "dominance": 3.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_1",
+    "utterance_id": "Ses03F_script01_1_F047",
+    "transcript_ground_truth": "You can't do that."
+  }
+}

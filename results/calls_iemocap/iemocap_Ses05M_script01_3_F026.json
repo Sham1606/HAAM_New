@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script01_3_F026",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:01:53.920435",
+  "duration_seconds": 6.33,
+  "transcript": "And your father, he put hundreds of planes in the air. You should be proud. A man should be paid for that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.56,
+      "text": "And your father, he put hundreds of planes in the air. You should be proud. A man should be paid for that.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.366,
+      "sentiment_score": 0.1763,
+      "pitch_mean": 331.26
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1763,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 208.53,
+    "avg_pitch": 324.85
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_3",
+    "utterance_id": "Ses05M_script01_3_F026",
+    "transcript_ground_truth": "And you father, he put hundreds of planes in the air and you should be proud.  A man should be paid for that."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03F_impro08_M017",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:28:57.012172",
+  "duration_seconds": 6.67,
+  "transcript": "Okay, so you think you're gonna give me back some minutes and that's gonna make up for three days of business that I lost Okay, great",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.3,
+      "text": "Okay, so you think you're gonna give me back some minutes and that's gonna make up for three days of business that I lost",
+      "emotion": "neutral",
+      "emotion_confidence": 0.603,
+      "sentiment_score": -0.5181,
+      "pitch_mean": 339.31
+    },
+    {
+      "start_time": 5.3,
+      "end_time": 7.3,
+      "text": "Okay, great",
+      "emotion": "joy",
+      "emotion_confidence": 0.919,
+      "sentiment_score": 0.9159,
+      "pitch_mean": 338.01
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1989,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "joy": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 233.88,
+    "avg_pitch": 338.01
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro08",
+    "utterance_id": "Ses03F_impro08_M017",
+    "transcript_ground_truth": "Okay, so you think you're going to-  -get me back some minutes, and that's going to make up for three days of business that I lost?  Okay, great."
+  }
+}

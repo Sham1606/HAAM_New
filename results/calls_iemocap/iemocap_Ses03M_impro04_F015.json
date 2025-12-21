@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro04_F015",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:54:47.605611",
+  "duration_seconds": 3.36,
+  "transcript": "But I'm moving up. I mean I could be...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "But I'm moving up. I mean I could be...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.625,
+      "sentiment_score": 0.4056,
+      "pitch_mean": 343.94
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4056,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 160.84,
+    "avg_pitch": 342.2
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro04",
+    "utterance_id": "Ses03M_impro04_F015",
+    "transcript_ground_truth": "Well, I'm moving up.  I mean it could be..."
+  }
+}

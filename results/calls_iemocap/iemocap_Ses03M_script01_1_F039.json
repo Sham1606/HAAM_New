@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_script01_1_F039",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:38:28.279318",
+  "duration_seconds": 2.55,
+  "transcript": "Oh, you have to be inspired. Yes.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Oh, you have to be inspired.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.91,
+      "sentiment_score": 0.7468,
+      "pitch_mean": 326.64
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 2.5,
+      "text": "Yes.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.898,
+      "sentiment_score": 0.2704,
+      "pitch_mean": 327.72
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5086,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 164.79,
+    "avg_pitch": 327.82
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_1",
+    "utterance_id": "Ses03M_script01_1_F039",
+    "transcript_ground_truth": "Oh, you have to be inspired."
+  }
+}

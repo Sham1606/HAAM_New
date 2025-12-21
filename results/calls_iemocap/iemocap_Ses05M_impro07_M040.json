@@ -1,0 +1,81 @@
+{
+  "call_id": "iemocap_Ses05M_impro07_M040",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:49:48.369081",
+  "duration_seconds": 7.47,
+  "transcript": "Yeah, yeah, yeah, and it's gonna work out. I'm gonna be able to pay for it. I'm gonna go. I mean, I'll have a little deathy end, but I don't care. Okay.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.42,
+      "text": "Yeah, yeah, yeah, and it's gonna work out.",
+      "emotion": "joy",
+      "emotion_confidence": 0.392,
+      "sentiment_score": 0.917,
+      "pitch_mean": 344.66
+    },
+    {
+      "start_time": 2.42,
+      "end_time": 3.5,
+      "text": "I'm gonna be able to pay for it.",
+      "emotion": "anger",
+      "emotion_confidence": 0.506,
+      "sentiment_score": 0.48,
+      "pitch_mean": 355.97
+    },
+    {
+      "start_time": 3.5,
+      "end_time": 4.32,
+      "text": "I'm gonna go.",
+      "emotion": "anger",
+      "emotion_confidence": 0.45,
+      "sentiment_score": 0.251,
+      "pitch_mean": 348.05
+    },
+    {
+      "start_time": 4.32,
+      "end_time": 6.74,
+      "text": "I mean, I'll have a little deathy end, but I don't care.",
+      "emotion": "anger",
+      "emotion_confidence": 0.409,
+      "sentiment_score": -0.6404,
+      "pitch_mean": 348.79
+    },
+    {
+      "start_time": 6.74,
+      "end_time": 7.58,
+      "text": "Okay.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.535,
+      "sentiment_score": 0.2809,
+      "pitch_mean": 345.19
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2577,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "joy": 0.2,
+      "anger": 0.6,
+      "neutral": 0.2
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 257.03,
+    "avg_pitch": 345.19
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro07",
+    "utterance_id": "Ses05M_impro07_M040",
+    "transcript_ground_truth": "Yeah, yeah, yeah.  And it's gonna work out.  I'm gonna be able to pay for it, I'm gonna go, I mean, I'll have a little debt in the end.  But I don't care."
+  }
+}

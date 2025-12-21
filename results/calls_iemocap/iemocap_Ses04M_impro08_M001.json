@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses04M_impro08_M001",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:03:26.419230",
+  "duration_seconds": 2.87,
+  "transcript": "Are you sure you didn't make them? I'm",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Are you sure you didn't make them?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.619,
+      "sentiment_score": -0.3603,
+      "pitch_mean": 310.35
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "I'm",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.2047,
+      "pitch_mean": 313.42
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0778,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 167.25,
+    "avg_pitch": 313.42
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro08",
+    "utterance_id": "Ses04M_impro08_M001",
+    "transcript_ground_truth": "Are you sure you didn't make them?"
+  }
+}

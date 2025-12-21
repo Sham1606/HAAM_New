@@ -1,0 +1,90 @@
+{
+  "call_id": "iemocap_Ses05M_impro04_M001",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:41:12.610053",
+  "duration_seconds": 9.24,
+  "transcript": "I don't know, there's nothing for me out there. I can't get a job. I haven't gotten a job in a year, three years. What is it, three years now, right? Then I haven't been able to have a job. No.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.24,
+      "text": "I don't know, there's nothing for me out there.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.329,
+      "sentiment_score": -0.7479,
+      "pitch_mean": 317.78
+    },
+    {
+      "start_time": 2.24,
+      "end_time": 3.08,
+      "text": "I can't get a job.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.983,
+      "sentiment_score": -0.8267,
+      "pitch_mean": 327.01
+    },
+    {
+      "start_time": 3.08,
+      "end_time": 6.48,
+      "text": "I haven't gotten a job in a year, three years.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.644,
+      "sentiment_score": -0.8154,
+      "pitch_mean": 306.14
+    },
+    {
+      "start_time": 6.48,
+      "end_time": 7.76,
+      "text": "What is it, three years now, right?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.436,
+      "sentiment_score": -0.0532,
+      "pitch_mean": 322.81
+    },
+    {
+      "start_time": 7.76,
+      "end_time": 9.28,
+      "text": "Then I haven't been able to have a job.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.979,
+      "sentiment_score": -0.7607,
+      "pitch_mean": 317.28
+    },
+    {
+      "start_time": 9.28,
+      "end_time": 10.12,
+      "text": "No.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.83,
+      "sentiment_score": 0.122,
+      "pitch_mean": 317.28
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5136,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.333,
+      "sadness": 0.333,
+      "neutral": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 266.24,
+    "avg_pitch": 317.28
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro04",
+    "utterance_id": "Ses05M_impro04_M001",
+    "transcript_ground_truth": "I don't know.  There's nothing for me out there.  I can't get a job.  I haven't gotten a job in a year, three years.  What is it, three years now; right? That I haven't been able to have a job."
+  }
+}

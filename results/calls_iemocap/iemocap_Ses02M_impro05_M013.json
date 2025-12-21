@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02M_impro05_M013",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:53:51.150735",
+  "duration_seconds": 7.01,
+  "transcript": "But you have the tags on. I mean like I wouldn't you know if it got stuck somewhere it's like well There's nobody's bag. I mean maybe you know look on the tag and",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.02,
+      "text": "But you have the tags on. I mean like I wouldn't you know if it got stuck somewhere it's like well",
+      "emotion": "neutral",
+      "emotion_confidence": 0.894,
+      "sentiment_score": -0.1668,
+      "pitch_mean": 353.78
+    },
+    {
+      "start_time": 4.02,
+      "end_time": 6.94,
+      "text": "There's nobody's bag. I mean maybe you know look on the tag and",
+      "emotion": "neutral",
+      "emotion_confidence": 0.921,
+      "sentiment_score": -0.2159,
+      "pitch_mean": 346.02
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1914,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 290.82,
+    "avg_pitch": 348.92
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 4.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro05",
+    "utterance_id": "Ses02M_impro05_M013",
+    "transcript_ground_truth": "But we have the tags on. I mean like it wouldn't you know, if it got stuck somewhere it's like well this is nobodies bag I mean maybe you know look on the tag and"
+  }
+}

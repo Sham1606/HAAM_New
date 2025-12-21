@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05F_script01_3_M028",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:20:08.051100",
+  "duration_seconds": 12.28,
+  "transcript": "For instance, there's this one time when he'd been raining for several days and this kid came up to me and he gave me his last pair of dry socks. You know, he just put him in my pocket.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 9.0,
+      "text": "For instance, there's this one time when he'd been raining for several days and this kid came up to me and he gave me his last pair of dry socks.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.648,
+      "sentiment_score": -0.015,
+      "pitch_mean": 312.29
+    },
+    {
+      "start_time": 9.0,
+      "end_time": 12.0,
+      "text": "You know, he just put him in my pocket.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.443,
+      "sentiment_score": 0.0869,
+      "pitch_mean": 309.51
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.036,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 190.58,
+    "avg_pitch": 310.64
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 3.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_3",
+    "utterance_id": "Ses05F_script01_3_M028",
+    "transcript_ground_truth": "for instance, there's this one time.  It had been raining for several days.  And this kid came up to me and gave me his last pair of dry socks. you know, He just put them in my pocket."
+  }
+}

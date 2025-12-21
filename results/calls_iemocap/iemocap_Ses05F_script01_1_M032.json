@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses05F_script01_1_M032",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:15:47.628069",
+  "duration_seconds": 13.41,
+  "transcript": "I've given it three years of thought. I had hoped by now that he would forget about Larry and we'd have a regular wedding and everybody happy. But if that can't happen here, then I'll just have to get out.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I've given it three years of thought.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.961,
+      "sentiment_score": 0.0894,
+      "pitch_mean": 320.51
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 9.04,
+      "text": "I had hoped by now that he would forget about Larry and we'd have a regular wedding and",
+      "emotion": "neutral",
+      "emotion_confidence": 0.872,
+      "sentiment_score": -0.0022,
+      "pitch_mean": 332.28
+    },
+    {
+      "start_time": 9.04,
+      "end_time": 10.04,
+      "text": "everybody happy.",
+      "emotion": "joy",
+      "emotion_confidence": 0.919,
+      "sentiment_score": 0.9523,
+      "pitch_mean": 341.45
+    },
+    {
+      "start_time": 10.04,
+      "end_time": 12.96,
+      "text": "But if that can't happen here, then I'll just have to get out.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.83,
+      "sentiment_score": -0.5246,
+      "pitch_mean": 321.03
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1287,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.75,
+      "joy": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 178.97,
+    "avg_pitch": 327.59
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_1",
+    "utterance_id": "Ses05F_script01_1_M032",
+    "transcript_ground_truth": "I've given it three years of thought.  And hope by now that he wouldn't.  Can you forget about Larry an-- and we can have a regular wedding and have everybody be happy.  But that can't happen here, I'm set to get out."
+  }
+}

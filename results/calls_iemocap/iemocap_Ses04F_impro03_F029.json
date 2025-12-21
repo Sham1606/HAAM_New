@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro03_F029",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:02:45.608919",
+  "duration_seconds": 5.6,
+  "transcript": "You can't ruin my mood today if you want to wear brown tux you go ahead and wear brown tux",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.12,
+      "text": "You can't ruin my mood today if you want to wear brown tux you go ahead and wear brown tux",
+      "emotion": "neutral",
+      "emotion_confidence": 0.882,
+      "sentiment_score": -0.5933,
+      "pitch_mean": 369.92
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5933,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 214.29,
+    "avg_pitch": 361.94
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro03",
+    "utterance_id": "Ses04F_impro03_F029",
+    "transcript_ground_truth": "You can't ruin my mood today.  If you want to wear a brown tux, you go ahead and wear a brown tux"
+  }
+}

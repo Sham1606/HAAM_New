@@ -1,0 +1,98 @@
+{
+  "call_id": "iemocap_Ses01M_script01_1_M020",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:03:15.769414",
+  "duration_seconds": 12.43,
+  "transcript": "See? That is not just my business. I just say. Sometimes you infuriate me. You know that? You know it's just your business too if I tell father that he throws a fit about it. Huh?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "See?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.706,
+      "sentiment_score": 0.1495,
+      "pitch_mean": 330.06
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 3.0,
+      "text": "That is not just my business.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.912,
+      "sentiment_score": -0.1595,
+      "pitch_mean": 337.52
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 4.0,
+      "text": "I just say.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.872,
+      "sentiment_score": -0.0077,
+      "pitch_mean": 366.33
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 5.0,
+      "text": "Sometimes you infuriate me.",
+      "emotion": "anger",
+      "emotion_confidence": 0.743,
+      "sentiment_score": -0.8676,
+      "pitch_mean": 335.99
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 6.0,
+      "text": "You know that?",
+      "emotion": "anger",
+      "emotion_confidence": 0.577,
+      "sentiment_score": -0.0368,
+      "pitch_mean": 337.56
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 10.0,
+      "text": "You know it's just your business too if I tell father that he throws a fit about it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.664,
+      "sentiment_score": -0.3612,
+      "pitch_mean": 347.92
+    },
+    {
+      "start_time": 10.0,
+      "end_time": 11.0,
+      "text": "Huh?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.935,
+      "sentiment_score": -0.0404,
+      "pitch_mean": 341.13
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1891,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.714,
+      "anger": 0.286
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 173.79,
+    "avg_pitch": 340.51
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.6667,
+    "arousal": 4.0,
+    "dominance": 4.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_1",
+    "utterance_id": "Ses01M_script01_1_M020",
+    "transcript_ground_truth": "See.  Then it's not just my business. Sometimes you infuriate me, you know that?  You know it's just your business too if I tell father and he throws a fit about it, huh?"
+  }
+}

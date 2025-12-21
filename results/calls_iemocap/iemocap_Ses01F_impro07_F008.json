@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01F_impro07_F008",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:29:50.341570",
+  "duration_seconds": 7.28,
+  "transcript": "It's critical studies. It's a really prestigious program, so they say.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.56,
+      "text": "It's critical studies.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.821,
+      "sentiment_score": 0.1122,
+      "pitch_mean": 348.37
+    },
+    {
+      "start_time": 3.56,
+      "end_time": 7.0,
+      "text": "It's a really prestigious program, so they say.",
+      "emotion": "joy",
+      "emotion_confidence": 0.808,
+      "sentiment_score": 0.9361,
+      "pitch_mean": 339.59
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5241,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "joy": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 90.72,
+    "avg_pitch": 342.05
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro07",
+    "utterance_id": "Ses01F_impro07_F008",
+    "transcript_ground_truth": "Umm. It's...It's uhh...It's Critical Studies. It's a really prestigious program, so they say."
+  }
+}

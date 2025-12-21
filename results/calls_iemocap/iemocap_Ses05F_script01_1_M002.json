@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script01_1_M002",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:14:37.508615",
+  "duration_seconds": 7.08,
+  "transcript": "I heard a crack and I looked out and I kept standing right there when it cracked.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "I heard a crack and I looked out and I kept standing right there when it cracked.",
+      "emotion": "fear",
+      "emotion_confidence": 0.774,
+      "sentiment_score": -0.0917,
+      "pitch_mean": 318.7
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0917,
+    "dominant_emotion": "fear",
+    "emotion_distribution": {
+      "fear": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 144.07,
+    "avg_pitch": 318.39
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_1",
+    "utterance_id": "Ses05F_script01_1_M002",
+    "transcript_ground_truth": "Around Four this morning, and there was a crack and I looked out.  We're standing right there when I cracked."
+  }
+}

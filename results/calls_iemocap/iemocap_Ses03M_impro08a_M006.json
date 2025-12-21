@@ -1,0 +1,63 @@
+{
+  "call_id": "iemocap_Ses03M_impro08a_M006",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:33:10.019356",
+  "duration_seconds": 8.91,
+  "transcript": "Um, I think part of it has to do with the network being down. It's been having some trouble the last few weeks. That's fine.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.76,
+      "text": "Um, I think part of it has to do with the network being down.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.851,
+      "sentiment_score": -0.4666,
+      "pitch_mean": 323.33
+    },
+    {
+      "start_time": 5.76,
+      "end_time": 7.76,
+      "text": "It's been having some trouble the last few weeks.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.668,
+      "sentiment_score": -0.6953,
+      "pitch_mean": 320.32
+    },
+    {
+      "start_time": 7.76,
+      "end_time": 8.76,
+      "text": "That's fine.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.391,
+      "sentiment_score": 0.5569,
+      "pitch_mean": 325.93
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2016,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.333,
+      "sadness": 0.333,
+      "disgust": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 168.3,
+    "avg_pitch": 322.9
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro08a",
+    "utterance_id": "Ses03M_impro08a_M006",
+    "transcript_ground_truth": "Um- I think part of it has to do with the network being down.  It's been having some trouble the last few weeks--"
+  }
+}

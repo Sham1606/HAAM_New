@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro03_F022",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:02:30.907816",
+  "duration_seconds": 2.92,
+  "transcript": "Yeah, it was blue for the sky.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Yeah, it was blue for the sky.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.871,
+      "sentiment_score": 0.1656,
+      "pitch_mean": 352.31
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1656,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 143.84,
+    "avg_pitch": 339.38
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro03",
+    "utterance_id": "Ses04F_impro03_F022",
+    "transcript_ground_truth": "Blue for the sky."
+  }
+}

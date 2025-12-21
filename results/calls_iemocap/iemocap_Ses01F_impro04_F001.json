@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro04_F001",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:20:47.986344",
+  "duration_seconds": 4.41,
+  "transcript": "I don't know, that's all like escort services and things like that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I don't know, that's all like escort services and things like that.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.725,
+      "sentiment_score": -0.358,
+      "pitch_mean": 341.49
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.358,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 163.45,
+    "avg_pitch": 339.1
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro04",
+    "utterance_id": "Ses01F_impro04_F001",
+    "transcript_ground_truth": "I don't know.  Isn't that-- that's all like escort services and things like that."
+  }
+}

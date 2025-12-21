@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro02_F019",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:17:13.833264",
+  "duration_seconds": 4.13,
+  "transcript": "But it is for a year.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "But it is for a year.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.95,
+      "sentiment_score": -0.0667,
+      "pitch_mean": 322.03
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0667,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 87.06,
+    "avg_pitch": 322.33
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro02",
+    "utterance_id": "Ses03F_impro02_F019",
+    "transcript_ground_truth": "But it- it is for a year."
+  }
+}

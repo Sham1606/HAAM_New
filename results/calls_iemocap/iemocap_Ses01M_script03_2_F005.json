@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script03_2_F005",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:16:15.119860",
+  "duration_seconds": 4.33,
+  "transcript": "I did not. You were fed holding up in your jealous imagination.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.84,
+      "text": "I did not. You were fed holding up in your jealous imagination.",
+      "emotion": "anger",
+      "emotion_confidence": 0.584,
+      "sentiment_score": -0.5065,
+      "pitch_mean": 326.44
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5065,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 166.28,
+    "avg_pitch": 321.48
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script03_2",
+    "utterance_id": "Ses01M_script03_2_F005",
+    "transcript_ground_truth": "I did not you worked whole thing up in your jealous imagination."
+  }
+}

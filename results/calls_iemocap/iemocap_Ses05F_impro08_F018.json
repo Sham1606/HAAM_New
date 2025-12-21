@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro08_F018",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:11:07.910078",
+  "duration_seconds": 6.08,
+  "transcript": "Well, you know sometimes just with the online transactions things happen so",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.58,
+      "text": "Well, you know sometimes just with the online transactions things happen so",
+      "emotion": "neutral",
+      "emotion_confidence": 0.947,
+      "sentiment_score": 0.036,
+      "pitch_mean": 344.62
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.036,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 118.42,
+    "avg_pitch": 342.02
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro08",
+    "utterance_id": "Ses05F_impro08_F018",
+    "transcript_ground_truth": "Well you know sometimes-- just with online transactions, things happens. so um-"
+  }
+}

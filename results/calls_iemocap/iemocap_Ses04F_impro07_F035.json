@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro07_F035",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:13:46.469341",
+  "duration_seconds": 2.28,
+  "transcript": "What would you have in mind?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "What would you have in mind?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.811,
+      "sentiment_score": 0.0799,
+      "pitch_mean": 336.78
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0799,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 157.89,
+    "avg_pitch": 331.66
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro07",
+    "utterance_id": "Ses04F_impro07_F035",
+    "transcript_ground_truth": "What- what did you have in mind?"
+  }
+}

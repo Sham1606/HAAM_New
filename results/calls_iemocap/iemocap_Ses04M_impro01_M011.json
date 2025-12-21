@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro01_M011",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:47:21.375031",
+  "duration_seconds": 1.45,
+  "transcript": "What if I pay you money?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "What if I pay you money?",
+      "emotion": "anger",
+      "emotion_confidence": 0.863,
+      "sentiment_score": 0.0523,
+      "pitch_mean": 335.51
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0523,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 248.29,
+    "avg_pitch": 335.51
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro01",
+    "utterance_id": "Ses04M_impro01_M011",
+    "transcript_ground_truth": "What if I pay you money?"
+  }
+}

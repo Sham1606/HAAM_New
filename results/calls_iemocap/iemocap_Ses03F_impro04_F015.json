@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro04_F015",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:21:06.830453",
+  "duration_seconds": 7.63,
+  "transcript": "I don't know. I don't know anything other than this though is a problem. This is my life. This is what I build everything about, you know.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "I don't know. I don't know anything other than this though is a problem. This is my life. This is what I build everything about, you know.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.693,
+      "sentiment_score": -0.4584,
+      "pitch_mean": 341.65
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4584,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 212.4,
+    "avg_pitch": 340.2
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro04",
+    "utterance_id": "Ses03F_impro04_F015",
+    "transcript_ground_truth": "I don't know. I don't know anything other than this, though, is the problem. This is my life. This is what I built everything about, you know."
+  }
+}

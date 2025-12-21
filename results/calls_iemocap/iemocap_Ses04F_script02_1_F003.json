@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script02_1_F003",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:32:09.871442",
+  "duration_seconds": 2.85,
+  "transcript": "It's ours, it's mine too.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It's ours, it's mine too.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.944,
+      "sentiment_score": 0.6436,
+      "pitch_mean": 340.27
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.6436,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 105.26,
+    "avg_pitch": 334.67
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script02_1",
+    "utterance_id": "Ses04F_script02_1_F003",
+    "transcript_ground_truth": "It's ours.  It's mine too."
+  }
+}

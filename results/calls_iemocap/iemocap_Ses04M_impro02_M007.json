@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses04M_impro02_M007",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:49:50.244011",
+  "duration_seconds": 3.97,
+  "transcript": "I know that. I know that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I know that.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.787,
+      "sentiment_score": -0.0008,
+      "pitch_mean": 340.29
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "I know that.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.787,
+      "sentiment_score": -0.0008,
+      "pitch_mean": 342.56
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0008,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 90.68,
+    "avg_pitch": 342.56
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro02",
+    "utterance_id": "Ses04M_impro02_M007",
+    "transcript_ground_truth": "I know that. I know that. I know that."
+  }
+}

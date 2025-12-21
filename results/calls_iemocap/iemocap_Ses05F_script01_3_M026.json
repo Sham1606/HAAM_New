@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script01_3_M026",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:20:01.773774",
+  "duration_seconds": 2.08,
+  "transcript": "an \uc5c6",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 10.08,
+      "text": "an \uc5c6",
+      "emotion": "neutral",
+      "emotion_confidence": 0.793,
+      "sentiment_score": 0.0351,
+      "pitch_mean": 318.36
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0351,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 57.61,
+    "avg_pitch": 318.36
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_3",
+    "utterance_id": "Ses05F_script01_3_M026",
+    "transcript_ground_truth": "just about all."
+  }
+}

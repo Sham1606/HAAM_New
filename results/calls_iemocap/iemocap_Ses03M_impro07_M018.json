@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses03M_impro07_M018",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:31:03.335058",
+  "duration_seconds": 7.61,
+  "transcript": "We're doing what we want to do. Within four years later, we're going to be working professionals, making money, shipping my T's every day.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.48,
+      "text": "We're doing what we want to do.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.878,
+      "sentiment_score": 0.5292,
+      "pitch_mean": 313.21
+    },
+    {
+      "start_time": 1.48,
+      "end_time": 4.84,
+      "text": "Within four years later, we're going to be working professionals, making money,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.843,
+      "sentiment_score": 0.5377,
+      "pitch_mean": 321.54
+    },
+    {
+      "start_time": 4.84,
+      "end_time": 7.0,
+      "text": "shipping my T's every day.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.796,
+      "sentiment_score": 0.0463,
+      "pitch_mean": 333.87
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.371,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 189.22,
+    "avg_pitch": 325.86
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 5.0,
+    "arousal": 4.5,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro07",
+    "utterance_id": "Ses03M_impro07_M018",
+    "transcript_ground_truth": "We're doing what we want to do, then four years later we're going to be working professionals, making money, sipping martinis every day."
+  }
+}

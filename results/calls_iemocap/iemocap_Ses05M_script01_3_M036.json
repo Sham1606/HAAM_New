@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses05M_script01_3_M036",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:03:32.283352",
+  "duration_seconds": 10.52,
+  "transcript": "I felt what you said Assume somehow Because nobody had changed at all",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I felt what you said",
+      "emotion": "neutral",
+      "emotion_confidence": 0.625,
+      "sentiment_score": 0.0691,
+      "pitch_mean": 326.43
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "Assume somehow",
+      "emotion": "disgust",
+      "emotion_confidence": 0.393,
+      "sentiment_score": -0.0206,
+      "pitch_mean": 314.15
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 10.0,
+      "text": "Because nobody had changed at all",
+      "emotion": "disgust",
+      "emotion_confidence": 0.417,
+      "sentiment_score": -0.2391,
+      "pitch_mean": 323.64
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0635,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "neutral": 0.333,
+      "disgust": 0.667
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 74.14,
+    "avg_pitch": 320.25
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_3",
+    "utterance_id": "Ses05M_script01_3_M036",
+    "transcript_ground_truth": "I felt what you said, ashamed somehow because nobody had changed at all."
+  }
+}

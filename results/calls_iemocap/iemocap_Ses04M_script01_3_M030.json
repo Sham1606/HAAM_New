@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04M_script01_3_M030",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:09:38.747120",
+  "duration_seconds": 11.88,
+  "transcript": "And I got this idea watching them go down. Everything was being destroyed, but to me it seemed there was one new thing that was made.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.62,
+      "text": "And I got this idea watching them go down.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.715,
+      "sentiment_score": -0.289,
+      "pitch_mean": 323.23
+    },
+    {
+      "start_time": 6.62,
+      "end_time": 11.36,
+      "text": "Everything was being destroyed, but to me it seemed there was one new thing that was made.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.441,
+      "sentiment_score": -0.6248,
+      "pitch_mean": 313.87
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4569,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 131.31,
+    "avg_pitch": 319.27
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script01_3",
+    "utterance_id": "Ses04M_script01_3_M030",
+    "transcript_ground_truth": "And I got this idea watching them go down, everything was being destroyed, see?  But, to me, it seemed there was one new thing that was made,"
+  }
+}

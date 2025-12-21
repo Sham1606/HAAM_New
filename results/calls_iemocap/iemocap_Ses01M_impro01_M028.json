@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01M_impro01_M028",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:49:22.935685",
+  "duration_seconds": 2.4,
+  "transcript": "Just try and help me. You don't help me that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Just try and help me.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.409,
+      "sentiment_score": 0.4065,
+      "pitch_mean": 337.23
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "You don't help me that.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.7432,
+      "pitch_mean": 341.25
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1684,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 250.0,
+    "avg_pitch": 341.25
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro01",
+    "utterance_id": "Ses01M_impro01_M028",
+    "transcript_ground_truth": "Just try and help me."
+  }
+}

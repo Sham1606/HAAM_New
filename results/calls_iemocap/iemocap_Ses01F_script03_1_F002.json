@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01F_script03_1_F002",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:43:08.434102",
+  "duration_seconds": 5.51,
+  "transcript": "I had to have it sooner or later. What are we going to do?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I had to have it sooner or later.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.896,
+      "sentiment_score": -0.2424,
+      "pitch_mean": 337.44
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 5.0,
+      "text": "What are we going to do?",
+      "emotion": "joy",
+      "emotion_confidence": 0.427,
+      "sentiment_score": -0.0914,
+      "pitch_mean": 347.22
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1669,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "joy": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 152.45,
+    "avg_pitch": 340.05
+  },
+  "ground_truth": {
+    "emotion": "fear",
+    "raw_emotion": "fea",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 1.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script03_1",
+    "utterance_id": "Ses01F_script03_1_F002",
+    "transcript_ground_truth": "It had to happen sooner or later.  What are we going to do?"
+  }
+}

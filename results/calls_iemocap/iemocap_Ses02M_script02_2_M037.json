@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02M_script02_2_M037",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:10:30.982979",
+  "duration_seconds": 3.67,
+  "transcript": "maybe if you're with somebody else too. Hi dudes.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "maybe if you're with somebody else too.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.936,
+      "sentiment_score": -0.0177,
+      "pitch_mean": 317.22
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 4.0,
+      "text": "Hi dudes.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.5367,
+      "pitch_mean": 318.85
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2595,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 147.14,
+    "avg_pitch": 318.85
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script02_2",
+    "utterance_id": "Ses02M_script02_2_M037",
+    "transcript_ground_truth": "Maybe if you were with somebody else too."
+  }
+}

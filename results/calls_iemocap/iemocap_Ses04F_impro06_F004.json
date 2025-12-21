@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses04F_impro06_F004",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:11:41.024778",
+  "duration_seconds": 15.91,
+  "transcript": "Yeah, I know But I'd rather have him here with me, you know It's just not fair. I mean he I think it's due like anything. I mean he was",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Yeah, I know",
+      "emotion": "sadness",
+      "emotion_confidence": 0.609,
+      "sentiment_score": 0.2121,
+      "pitch_mean": 329.53
+    },
+    {
+      "start_time": 2.12,
+      "end_time": 4.52,
+      "text": "But I'd rather have him here with me, you know",
+      "emotion": "neutral",
+      "emotion_confidence": 0.628,
+      "sentiment_score": 0.6189,
+      "pitch_mean": 320.86
+    },
+    {
+      "start_time": 9.0,
+      "end_time": 11.0,
+      "text": "It's just not fair. I mean he",
+      "emotion": "disgust",
+      "emotion_confidence": 0.512,
+      "sentiment_score": -0.9091,
+      "pitch_mean": 333.67
+    },
+    {
+      "start_time": 12.48,
+      "end_time": 15.0,
+      "text": "I think it's due like anything. I mean he was",
+      "emotion": "neutral",
+      "emotion_confidence": 0.701,
+      "sentiment_score": 0.0434,
+      "pitch_mean": 336.25
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0087,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "sadness": 0.25,
+      "neutral": 0.5,
+      "disgust": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 113.14,
+    "avg_pitch": 324.37
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro06",
+    "utterance_id": "Ses04F_impro06_F004",
+    "transcript_ground_truth": "Yeah, I know. But I'd rather have him here with me, you know. It's just not fair.  I mean he- he didn't get to do like anything. I mean he was-"
+  }
+}

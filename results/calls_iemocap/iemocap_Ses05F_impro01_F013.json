@@ -1,0 +1,81 @@
+{
+  "call_id": "iemocap_Ses05F_impro01_F013",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:46:00.619151",
+  "duration_seconds": 10.87,
+  "transcript": "Please, I don't think that's necessary. I'm just asking, maybe you could call over and say that, you know, somebody misinformed her because I didn't pick to stand in this line. I asked them where to stand and they told me here. What?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.3,
+      "text": "Please, I don't think that's necessary.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.456,
+      "sentiment_score": -0.7369,
+      "pitch_mean": 338.66
+    },
+    {
+      "start_time": 2.3,
+      "end_time": 6.36,
+      "text": "I'm just asking, maybe you could call over and say that, you know, somebody misinformed",
+      "emotion": "neutral",
+      "emotion_confidence": 0.725,
+      "sentiment_score": -0.5809,
+      "pitch_mean": 366.69
+    },
+    {
+      "start_time": 6.36,
+      "end_time": 8.26,
+      "text": "her because I didn't pick to stand in this line.",
+      "emotion": "joy",
+      "emotion_confidence": 0.392,
+      "sentiment_score": -0.3317,
+      "pitch_mean": 353.44
+    },
+    {
+      "start_time": 8.26,
+      "end_time": 10.26,
+      "text": "I asked them where to stand and they told me here.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.784,
+      "sentiment_score": 0.0037,
+      "pitch_mean": 353.31
+    },
+    {
+      "start_time": 10.26,
+      "end_time": 10.76,
+      "text": "What?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.922,
+      "sentiment_score": 0.083,
+      "pitch_mean": 340.93
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3126,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "disgust": 0.2,
+      "neutral": 0.6,
+      "joy": 0.2
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 237.35,
+    "avg_pitch": 351.23
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro01",
+    "utterance_id": "Ses05F_impro01_F013",
+    "transcript_ground_truth": "Please, I don't think that's necessary.  I'm just asking, maybe you could call over and say that somebody miss informed her because I didn't pick to stand in this line.  I asked them where to stand, and they told me here."
+  }
+}

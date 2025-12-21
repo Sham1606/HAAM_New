@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro04_M023",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:54:45.022747",
+  "duration_seconds": 6.3,
+  "transcript": "I'm like a sponge. I'm like soaked up with all this information for like three years. I'm just dying from job to like put it into",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "I'm like a sponge. I'm like soaked up with all this information for like three years. I'm just dying from job to like put it into",
+      "emotion": "joy",
+      "emotion_confidence": 0.515,
+      "sentiment_score": -0.8348,
+      "pitch_mean": 343.67
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8348,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 247.5,
+    "avg_pitch": 338.49
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 4.5,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro04",
+    "utterance_id": "Ses01M_impro04_M023",
+    "transcript_ground_truth": "I'm like a sponge I'm like soaked up with all this information for like three years I'm just dying for a job to like put it in to."
+  }
+}

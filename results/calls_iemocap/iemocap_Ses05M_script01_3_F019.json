@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script01_3_F019",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:01:38.811575",
+  "duration_seconds": 4.18,
+  "transcript": "Even in your letters there was something ashamed.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Even in your letters there was something ashamed.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.899,
+      "sentiment_score": -0.8304,
+      "pitch_mean": 324.41
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8304,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 114.83,
+    "avg_pitch": 323.03
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_3",
+    "utterance_id": "Ses05M_script01_3_F019",
+    "transcript_ground_truth": "Even in your letters there was something ashamed."
+  }
+}

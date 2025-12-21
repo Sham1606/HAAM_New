@@ -1,0 +1,63 @@
+{
+  "call_id": "iemocap_Ses04F_impro01_F022",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T11:58:24.765785",
+  "duration_seconds": 6.97,
+  "transcript": "Please, just put the form in, take the picture, let me get my license and get the hell out of here. Please!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.92,
+      "text": "Please, just put the form in, take the picture,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.917,
+      "sentiment_score": 0.0643,
+      "pitch_mean": 361.5
+    },
+    {
+      "start_time": 2.92,
+      "end_time": 5.52,
+      "text": "let me get my license and get the hell out of here.",
+      "emotion": "anger",
+      "emotion_confidence": 0.918,
+      "sentiment_score": -0.7074,
+      "pitch_mean": 375.84
+    },
+    {
+      "start_time": 5.52,
+      "end_time": 6.84,
+      "text": "Please!",
+      "emotion": "joy",
+      "emotion_confidence": 0.432,
+      "sentiment_score": 0.6291,
+      "pitch_mean": 350.76
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0046,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.333,
+      "anger": 0.333,
+      "joy": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 189.38,
+    "avg_pitch": 361.55
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro01",
+    "utterance_id": "Ses04F_impro01_F022",
+    "transcript_ground_truth": "Please just put the form in, take the picture, let me get my license and get the hell out of here.  Please."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script02_2_F037",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:40:07.165573",
+  "duration_seconds": 5.38,
+  "transcript": "I mean this is this is everything and it's a lot but",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "I mean this is this is everything and it's a lot but",
+      "emotion": "neutral",
+      "emotion_confidence": 0.794,
+      "sentiment_score": -0.3604,
+      "pitch_mean": 320.34
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3604,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 133.8,
+    "avg_pitch": 317.91
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.6667,
+    "arousal": 3.0,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_2",
+    "utterance_id": "Ses03F_script02_2_F037",
+    "transcript_ground_truth": "I mean, this is, this is everything, and it's a lot, but"
+  }
+}

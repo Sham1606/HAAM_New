@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro06_F013",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T04:01:13.208731",
+  "duration_seconds": 7.2,
+  "transcript": "things happen in life and there's just no explanation you know we just don't",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "things happen in life and there's just no explanation you know we just don't",
+      "emotion": "disgust",
+      "emotion_confidence": 0.447,
+      "sentiment_score": -0.7088,
+      "pitch_mean": 324.31
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7088,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 116.6,
+    "avg_pitch": 323.48
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro06",
+    "utterance_id": "Ses03M_impro06_F013",
+    "transcript_ground_truth": "just things happen in life and you just...there's just no explanation you know?  We just don't..."
+  }
+}

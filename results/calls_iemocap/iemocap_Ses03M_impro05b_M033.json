@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro05b_M033",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T04:00:49.027087",
+  "duration_seconds": 3.18,
+  "transcript": "I will never do business with ducks again.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I will never do business with ducks again.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.409,
+      "sentiment_score": -0.8843,
+      "pitch_mean": 322.06
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8843,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 150.94,
+    "avg_pitch": 322.27
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro05b",
+    "utterance_id": "Ses03M_impro05b_M033",
+    "transcript_ground_truth": "I will never do business with Delta again."
+  }
+}

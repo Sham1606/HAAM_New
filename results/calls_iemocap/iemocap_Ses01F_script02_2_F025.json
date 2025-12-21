@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script02_2_F025",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:40:42.919963",
+  "duration_seconds": 3.78,
+  "transcript": "No, no, nothing.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "No, no, nothing.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.3485,
+      "pitch_mean": 331.56
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3485,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 47.59,
+    "avg_pitch": 331.56
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 4.0,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_2",
+    "utterance_id": "Ses01F_script02_2_F025",
+    "transcript_ground_truth": "No, no. Nothing."
+  }
+}

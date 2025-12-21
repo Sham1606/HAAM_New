@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_impro08b_F006",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:34:44.968369",
+  "duration_seconds": 6.54,
+  "transcript": "You know, I just want to drop my phone in water and not apply it to your soul and just drop my phone anywhere I see it. Look at this is my business.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.8,
+      "text": "You know, I just want to drop my phone in water and not apply it to your soul and just drop my phone anywhere I see it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.799,
+      "sentiment_score": -0.5224,
+      "pitch_mean": 352.19
+    },
+    {
+      "start_time": 4.8,
+      "end_time": 6.8,
+      "text": "Look at this is my business.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.0959,
+      "pitch_mean": 351.02
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2132,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 302.87,
+    "avg_pitch": 351.02
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 2.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro08b",
+    "utterance_id": "Ses03M_impro08b_F006",
+    "transcript_ground_truth": "No I did not drop my phone in water.  I'm not five years old and just dropped my phone anywhere I see it.  Okay this is my business."
+  }
+}

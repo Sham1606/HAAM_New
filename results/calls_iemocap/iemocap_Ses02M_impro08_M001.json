@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro08_M001",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:58:32.275046",
+  "duration_seconds": 2.13,
+  "transcript": "Okay, we're gonna do it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Okay, we're gonna do it.",
+      "emotion": "anger",
+      "emotion_confidence": 0.381,
+      "sentiment_score": 0.474,
+      "pitch_mean": 344.85
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.474,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 140.84,
+    "avg_pitch": 346.82
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro08",
+    "utterance_id": "Ses02M_impro08_M001",
+    "transcript_ground_truth": "I'm a real person, yes."
+  }
+}

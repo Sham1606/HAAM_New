@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro03_M016",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:53:31.707346",
+  "duration_seconds": 1.39,
+  "transcript": "Okay, yeah",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Okay, yeah",
+      "emotion": "neutral",
+      "emotion_confidence": 0.628,
+      "sentiment_score": 0.2836,
+      "pitch_mean": 344.04
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2836,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 86.33,
+    "avg_pitch": 344.04
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro03",
+    "utterance_id": "Ses05F_impro03_M016",
+    "transcript_ground_truth": "Oh, okay, yeah."
+  }
+}

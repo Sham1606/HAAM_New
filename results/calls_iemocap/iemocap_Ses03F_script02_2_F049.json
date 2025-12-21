@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script02_2_F049",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:40:33.927047",
+  "duration_seconds": 6.91,
+  "transcript": "So I was thinking he might be right.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "So I was thinking he might be right.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.7,
+      "sentiment_score": 0.2948,
+      "pitch_mean": 318.24
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2948,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 69.48,
+    "avg_pitch": 318.24
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 2.6667,
+    "dominance": 1.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_2",
+    "utterance_id": "Ses03F_script02_2_F049",
+    "transcript_ground_truth": "So I was thinking you might be right."
+  }
+}

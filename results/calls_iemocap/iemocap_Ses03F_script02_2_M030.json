@@ -1,0 +1,90 @@
+{
+  "call_id": "iemocap_Ses03F_script02_2_M030",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:41:42.305319",
+  "duration_seconds": 9.02,
+  "transcript": "You know what you get? The jokes on us baby. Because you know what you get? Huh? Carla, do you know what you get? You get this.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "You know what you get?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.339,
+      "sentiment_score": -0.0465,
+      "pitch_mean": 327.34
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "The jokes on us baby.",
+      "emotion": "joy",
+      "emotion_confidence": 0.574,
+      "sentiment_score": -0.7273,
+      "pitch_mean": 345.16
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "Because you know what you get?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.342,
+      "sentiment_score": -0.2842,
+      "pitch_mean": 335.15
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 7.0,
+      "text": "Huh?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.935,
+      "sentiment_score": -0.0404,
+      "pitch_mean": 321.44
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 8.0,
+      "text": "Carla, do you know what you get?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.681,
+      "sentiment_score": -0.0087,
+      "pitch_mean": 350.88
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 9.0,
+      "text": "You get this.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.877,
+      "sentiment_score": 0.7296,
+      "pitch_mean": 335.2
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0629,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "disgust": 0.333,
+      "joy": 0.167,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 179.6,
+    "avg_pitch": 335.95
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.6667,
+    "arousal": 4.0,
+    "dominance": 4.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_2",
+    "utterance_id": "Ses03F_script02_2_M030",
+    "transcript_ground_truth": "You know what you get? The jokes on us, baby. Because do you know what you get? Huh? Carla? Do you know what you get? You get this."
+  }
+}

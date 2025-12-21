@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro01_M020",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:48:06.802299",
+  "duration_seconds": 3.38,
+  "transcript": "I'm waiting in line now I'm ready to get my stuff and then go home.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.16,
+      "text": "I'm waiting in line now I'm ready to get my stuff and then go home.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.863,
+      "sentiment_score": 0.1763,
+      "pitch_mean": 358.77
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1763,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 265.94,
+    "avg_pitch": 354.09
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro01",
+    "utterance_id": "Ses02M_impro01_M020",
+    "transcript_ground_truth": "I waited in line now I'm ready to get my stuff and then go home."
+  }
+}

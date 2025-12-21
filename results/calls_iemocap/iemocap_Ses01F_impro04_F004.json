@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro04_F004",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:21:08.695755",
+  "duration_seconds": 1.72,
+  "transcript": "of realtorostime.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.94,
+      "text": "of realtorostime.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.8,
+      "sentiment_score": 0.062,
+      "pitch_mean": 339.49
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.062,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 69.77,
+    "avg_pitch": 339.49
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro04",
+    "utterance_id": "Ses01F_impro04_F004",
+    "transcript_ground_truth": "Really?"
+  }
+}

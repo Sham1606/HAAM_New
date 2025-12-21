@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro03_M008",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:53:00.009199",
+  "duration_seconds": 9.74,
+  "transcript": "Yeah, yeah, so I know I know I know it's weird cuz it's like the beginning of the rest of my life, you know",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 8.96,
+      "text": "Yeah, yeah, so I know I know I know it's weird cuz it's like the beginning of the rest of my life, you know",
+      "emotion": "disgust",
+      "emotion_confidence": 0.748,
+      "sentiment_score": -0.3643,
+      "pitch_mean": 349.41
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3643,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 147.84,
+    "avg_pitch": 350.07
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro03",
+    "utterance_id": "Ses04M_impro03_M008",
+    "transcript_ground_truth": "Yeah. Yeah. So- I know.  I know. I know.  It's weird 'cause it's like the beginning of the rest of my life, you know."
+  }
+}

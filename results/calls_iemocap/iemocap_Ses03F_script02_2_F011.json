@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03F_script02_2_F011",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:39:14.250478",
+  "duration_seconds": 6.21,
+  "transcript": "It's impossible. It's like waiting around, waiting to see Santa Claus, you know?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It's impossible.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.597,
+      "sentiment_score": -0.7194,
+      "pitch_mean": 325.79
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 6.0,
+      "text": "It's like waiting around, waiting to see Santa Claus, you know?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.919,
+      "sentiment_score": 0.3711,
+      "pitch_mean": 334.61
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1742,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 125.7,
+    "avg_pitch": 330.06
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_2",
+    "utterance_id": "Ses03F_script02_2_F011",
+    "transcript_ground_truth": "It's impossible. It's like waiting around. Waiting to see Santa Claus, you know?"
+  }
+}

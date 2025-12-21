@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro03_F018",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:52:15.513644",
+  "duration_seconds": 2.05,
+  "transcript": "Well, I'm glad you told me.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Well, I'm glad you told me.",
+      "emotion": "joy",
+      "emotion_confidence": 0.971,
+      "sentiment_score": 0.9414,
+      "pitch_mean": 329.63
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9414,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 175.61,
+    "avg_pitch": 330.07
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro03",
+    "utterance_id": "Ses04M_impro03_F018",
+    "transcript_ground_truth": "Well I'm glad you told me."
+  }
+}

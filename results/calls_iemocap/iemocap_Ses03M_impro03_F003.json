@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro03_F003",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:51:34.890308",
+  "duration_seconds": 3.76,
+  "transcript": "Checking cheese on man that is so lame",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Checking cheese on man that is so lame",
+      "emotion": "disgust",
+      "emotion_confidence": 0.795,
+      "sentiment_score": -0.9124,
+      "pitch_mean": 368.6
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9124,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 127.71,
+    "avg_pitch": 356.35
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 4.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro03",
+    "utterance_id": "Ses03M_impro03_F003",
+    "transcript_ground_truth": "Chuck E. Cheese?  Ah, man that is so lame."
+  }
+}

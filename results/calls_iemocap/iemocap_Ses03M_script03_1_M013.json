@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses03M_script03_1_M013",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:52:52.169384",
+  "duration_seconds": 5.04,
+  "transcript": "That means... Seriously. Uh, darling, you mustn't be serious. That's just what they want.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "That means...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.834,
+      "sentiment_score": 0.013,
+      "pitch_mean": 317.64
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 2.0,
+      "text": "Seriously.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.485,
+      "sentiment_score": -0.0719,
+      "pitch_mean": 324.1
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.68,
+      "text": "Uh, darling, you mustn't be serious.",
+      "emotion": "joy",
+      "emotion_confidence": 0.316,
+      "sentiment_score": -0.7233,
+      "pitch_mean": 323.8
+    },
+    {
+      "start_time": 3.68,
+      "end_time": 4.8,
+      "text": "That's just what they want.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.937,
+      "sentiment_score": -0.4876,
+      "pitch_mean": 358.2
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3175,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.25,
+      "joy": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 166.67,
+    "avg_pitch": 334.04
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.5,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script03_1",
+    "utterance_id": "Ses03M_script03_1_M013",
+    "transcript_ground_truth": "[LAUGHTER] Oh, darling.  You mustn't be serious, that's just what they want."
+  }
+}

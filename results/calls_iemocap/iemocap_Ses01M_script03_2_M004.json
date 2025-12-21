@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01M_script03_2_M004",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:17:32.799019",
+  "duration_seconds": 4.81,
+  "transcript": "I knew nothing of the sort. You took presents from him.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I knew nothing of the sort.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.453,
+      "sentiment_score": -0.2506,
+      "pitch_mean": 335.43
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "You took presents from him.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.479,
+      "sentiment_score": 0.0802,
+      "pitch_mean": 324.5
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0852,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 137.21,
+    "avg_pitch": 328.21
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script03_2",
+    "utterance_id": "Ses01M_script03_2_M004",
+    "transcript_ground_truth": "I knew nothing of the sort. You took presents from him."
+  }
+}

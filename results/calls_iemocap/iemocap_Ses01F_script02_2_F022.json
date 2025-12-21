@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01F_script02_2_F022",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:40:37.599115",
+  "duration_seconds": 6.37,
+  "transcript": "I rather not remember some things. I'd rather not hope for some things.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I rather not remember some things.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.44,
+      "sentiment_score": -0.5768,
+      "pitch_mean": 330.41
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 6.0,
+      "text": "I'd rather not hope for some things.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.408,
+      "sentiment_score": -0.6452,
+      "pitch_mean": 330.8
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.611,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 122.35,
+    "avg_pitch": 329.97
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 1.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_2",
+    "utterance_id": "Ses01F_script02_2_F022",
+    "transcript_ground_truth": "I'd rather not remember some things.  I'd rather not hope for some things."
+  }
+}

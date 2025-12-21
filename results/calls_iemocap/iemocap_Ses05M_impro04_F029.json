@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro04_F029",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:40:45.693521",
+  "duration_seconds": 2.29,
+  "transcript": "We checked out like Craigslist and stuff.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "We checked out like Craigslist and stuff.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.938,
+      "sentiment_score": 0.0161,
+      "pitch_mean": 359.54
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0161,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 183.41,
+    "avg_pitch": 361.55
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 4.0,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro04",
+    "utterance_id": "Ses05M_impro04_F029",
+    "transcript_ground_truth": "Have you checked out Craig's List and stuff?"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "call_id": "iemocap_Ses01F_script03_2_F040",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:46:29.271324",
+  "duration_seconds": 18.43,
+  "transcript": "Yes I am. Stop it! Stop it! Let go of me! Oh, you're a cruel feat! I loathe and I hate you! Marry again? Never, never, never, never, never, never. I hope you die as torment! And your food I made! Please, can!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "Yes I am.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.846,
+      "sentiment_score": 0.3471,
+      "pitch_mean": 342.24
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "Stop it!",
+      "emotion": "anger",
+      "emotion_confidence": 0.973,
+      "sentiment_score": -0.2614,
+      "pitch_mean": 338.89
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 4.0,
+      "text": "Stop it! Let go of me!",
+      "emotion": "anger",
+      "emotion_confidence": 0.953,
+      "sentiment_score": -0.5606,
+      "pitch_mean": 410.04
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "Oh, you're a cruel feat!",
+      "emotion": "anger",
+      "emotion_confidence": 0.539,
+      "sentiment_score": -0.8789,
+      "pitch_mean": 379.62
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 8.0,
+      "text": "I loathe and I hate you!",
+      "emotion": "anger",
+      "emotion_confidence": 0.851,
+      "sentiment_score": -0.9346,
+      "pitch_mean": 398.92
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 10.0,
+      "text": "Marry again?",
+      "emotion": "anger",
+      "emotion_confidence": 0.715,
+      "sentiment_score": 0.021,
+      "pitch_mean": 369.23
+    },
+    {
+      "start_time": 10.0,
+      "end_time": 13.0,
+      "text": "Never, never, never, never, never, never.",
+      "emotion": "anger",
+      "emotion_confidence": 0.523,
+      "sentiment_score": -0.7958,
+      "pitch_mean": 383.44
+    },
+    {
+      "start_time": 13.0,
+      "end_time": 15.0,
+      "text": "I hope you die as torment!",
+      "emotion": "anger",
+      "emotion_confidence": 0.798,
+      "sentiment_score": -0.9096,
+      "pitch_mean": 375.6
+    },
+    {
+      "start_time": 15.0,
+      "end_time": 17.0,
+      "text": "And your food I made!",
+      "emotion": "anger",
+      "emotion_confidence": 0.834,
+      "sentiment_score": 0.8111,
+      "pitch_mean": 387.12
+    },
+    {
+      "start_time": 17.0,
+      "end_time": 18.0,
+      "text": "Please, can!",
+      "emotion": "anger",
+      "emotion_confidence": 0.855,
+      "sentiment_score": 0.6299,
+      "pitch_mean": 369.18
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2532,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "neutral": 0.1,
+      "anger": 0.9
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 139.99,
+    "avg_pitch": 366.21
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.0,
+    "arousal": 5.0,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script03_2",
+    "utterance_id": "Ses01F_script03_2_F040",
+    "transcript_ground_truth": "Yes I am.   Stop it. Stop it.  Let go of me. Oh.  You're a cruel fiend.  I loathe and I hate you. Marry you again?  Never, never, never. I hope you die in torment, you brute beast cad."
+  }
+}

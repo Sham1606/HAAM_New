@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02M_impro01_F008",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:46:59.486637",
+  "duration_seconds": 3.37,
+  "transcript": "you need to bring two forms of ideas, there's nothing we can do about it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.76,
+      "text": "you need to bring two forms of ideas,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.952,
+      "sentiment_score": 0.1173,
+      "pitch_mean": 370.6
+    },
+    {
+      "start_time": 1.76,
+      "end_time": 3.36,
+      "text": "there's nothing we can do about it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.742,
+      "sentiment_score": -0.8026,
+      "pitch_mean": 363.52
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3427,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 267.06,
+    "avg_pitch": 365.99
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro01",
+    "utterance_id": "Ses02M_impro01_F008",
+    "transcript_ground_truth": "you need to bring two forms of ID there is nothing we can do about it."
+  }
+}

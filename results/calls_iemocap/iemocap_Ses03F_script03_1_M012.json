@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses03F_script03_1_M012",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:43:35.531342",
+  "duration_seconds": 12.74,
+  "transcript": "All the futile moralists who try to make life unbearable laugh at them. Be flippant. Laugh at all the sacred shibbolits. Flippantcy brings out the acid in their damn sweetness and light.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.36,
+      "text": "All the futile moralists who try to make life unbearable laugh at them.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.431,
+      "sentiment_score": -0.8843,
+      "pitch_mean": 341.06
+    },
+    {
+      "start_time": 5.36,
+      "end_time": 6.76,
+      "text": "Be flippant.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.616,
+      "sentiment_score": -0.3766,
+      "pitch_mean": 333.86
+    },
+    {
+      "start_time": 6.76,
+      "end_time": 8.76,
+      "text": "Laugh at all the sacred shibbolits.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.677,
+      "sentiment_score": 0.6135,
+      "pitch_mean": 345.33
+    },
+    {
+      "start_time": 8.76,
+      "end_time": 12.76,
+      "text": "Flippantcy brings out the acid in their damn sweetness and light.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.529,
+      "sentiment_score": -0.62,
+      "pitch_mean": 337.35
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3169,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 150.68,
+    "avg_pitch": 337.35
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script03_1",
+    "utterance_id": "Ses03F_script03_1_M012",
+    "transcript_ground_truth": "All the futile moralists who try to make life unbearable. Laugh at them. Be flippant. Laugh at all the sacred shibboleths. Flippancy brings out the acid in their damn sweetness and light."
+  }
+}

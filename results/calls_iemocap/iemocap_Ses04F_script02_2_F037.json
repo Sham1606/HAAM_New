@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses04F_script02_2_F037",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:37:14.922450",
+  "duration_seconds": 13.62,
+  "transcript": "I know you are Augie really I do. I know you wanted this to be special and nice and it's the full moon and the sand and all but I just couldn't help thinking about being somewhere else",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 8.14,
+      "text": "I know you are Augie really I do. I know you wanted this to be special and nice and it's the full moon and the sand and all but",
+      "emotion": "neutral",
+      "emotion_confidence": 0.655,
+      "sentiment_score": 0.5764,
+      "pitch_mean": 341.29
+    },
+    {
+      "start_time": 9.34,
+      "end_time": 12.22,
+      "text": "I just couldn't help thinking about being somewhere else",
+      "emotion": "neutral",
+      "emotion_confidence": 0.896,
+      "sentiment_score": -0.6552,
+      "pitch_mean": 337.82
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0394,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 167.34,
+    "avg_pitch": 335.68
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script02_2",
+    "utterance_id": "Ses04F_script02_2_F037",
+    "transcript_ground_truth": "I know you are, Augie.  Really I do.  I know you wanted this to be special and nice and it's the full moon and the sand and all but I just couldn't help thinking about being somewhere else."
+  }
+}

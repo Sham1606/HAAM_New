@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses05M_impro03_M016",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:38:40.607743",
+  "duration_seconds": 12.8,
+  "transcript": "We're gonna do it back in the Midwest where her family all is there all out there, you know, so um, and so Just gonna small, small wedding But you know, of course you're gonna come right",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.2,
+      "text": "We're gonna do it back in the Midwest where her family all is there all out there, you know, so",
+      "emotion": "neutral",
+      "emotion_confidence": 0.89,
+      "sentiment_score": 0.0945,
+      "pitch_mean": 329.89
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 8.0,
+      "text": "um, and so",
+      "emotion": "neutral",
+      "emotion_confidence": 0.821,
+      "sentiment_score": 0.1197,
+      "pitch_mean": 310.87
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 10.0,
+      "text": "Just gonna small, small wedding",
+      "emotion": "joy",
+      "emotion_confidence": 0.821,
+      "sentiment_score": 0.29,
+      "pitch_mean": 311.97
+    },
+    {
+      "start_time": 10.8,
+      "end_time": 12.8,
+      "text": "But you know, of course you're gonna come right",
+      "emotion": "neutral",
+      "emotion_confidence": 0.599,
+      "sentiment_score": 0.8006,
+      "pitch_mean": 322.87
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3262,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.75,
+      "joy": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 173.44,
+    "avg_pitch": 320.44
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 2.6667,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro03",
+    "utterance_id": "Ses05M_impro03_M016",
+    "transcript_ground_truth": "We're going to do it back in the Midwest where her family all is.  They're all out there. you know so, Um  And so, just gonna have a small, small wedding. But, um- you know, of course, you're going to come, right?"
+  }
+}

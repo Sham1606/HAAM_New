@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro02_M027",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:49:38.853170",
+  "duration_seconds": 3.57,
+  "transcript": "What are you gonna do that's a need different than anybody else?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "What are you gonna do that's a need different than anybody else?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.483,
+      "sentiment_score": -0.1441,
+      "pitch_mean": 325.48
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1441,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 201.68,
+    "avg_pitch": 327.24
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro02",
+    "utterance_id": "Ses05F_impro02_M027",
+    "transcript_ground_truth": "What are you going to do that's any different than anybody else?"
+  }
+}

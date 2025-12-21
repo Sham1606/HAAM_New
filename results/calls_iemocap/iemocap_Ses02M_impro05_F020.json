@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro05_F020",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:53:07.581685",
+  "duration_seconds": 2.78,
+  "transcript": "Alright, we've already checked, but here for your baggage.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.8,
+      "text": "Alright, we've already checked, but here for your baggage.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.785,
+      "sentiment_score": -0.0078,
+      "pitch_mean": 336.22
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0078,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 194.25,
+    "avg_pitch": 336.22
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro05",
+    "utterance_id": "Ses02M_impro05_F020",
+    "transcript_ground_truth": "all right, We've already checked back here for your baggage"
+  }
+}

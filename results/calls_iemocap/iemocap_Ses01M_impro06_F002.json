@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro06_F002",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:57:00.828263",
+  "duration_seconds": 2.32,
+  "transcript": "You don't have to if you don't want to.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "You don't have to if you don't want to.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.79,
+      "sentiment_score": -0.3529,
+      "pitch_mean": 299.76
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3529,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 232.76,
+    "avg_pitch": 300.98
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro06",
+    "utterance_id": "Ses01M_impro06_F002",
+    "transcript_ground_truth": "You don't have to if you don't want to."
+  }
+}

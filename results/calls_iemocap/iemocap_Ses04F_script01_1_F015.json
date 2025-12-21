@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script01_1_F015",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:23:01.027178",
+  "duration_seconds": 6.48,
+  "transcript": "The trouble is the goddamn newspapers. Every month some boy turns up from nowhere so the next one is going to be Larry.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "The trouble is the goddamn newspapers. Every month some boy turns up from nowhere so the next one is going to be Larry.",
+      "emotion": "anger",
+      "emotion_confidence": 0.699,
+      "sentiment_score": -0.9121,
+      "pitch_mean": 353.37
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9121,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 212.97,
+    "avg_pitch": 354.88
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script01_1",
+    "utterance_id": "Ses04F_script01_1_F015",
+    "transcript_ground_truth": "The trouble is the goddamn newspapers.  Every month some boy turns up from nowhere so the next one is going to be Larry."
+  }
+}

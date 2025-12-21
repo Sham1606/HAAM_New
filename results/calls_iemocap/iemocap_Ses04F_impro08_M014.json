@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses04F_impro08_M014",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:21:22.955178",
+  "duration_seconds": 6.23,
+  "transcript": "Okay, do you understand that's all I want? Just don't give me a problem with this, okay? Please cuz I'm very I'm very sensitive right now",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Okay, do you understand that's all I want?",
+      "emotion": "joy",
+      "emotion_confidence": 0.472,
+      "sentiment_score": 0.511,
+      "pitch_mean": 363.16
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.76,
+      "text": "Just don't give me a problem with this, okay?",
+      "emotion": "anger",
+      "emotion_confidence": 0.741,
+      "sentiment_score": -0.7331,
+      "pitch_mean": 334.69
+    },
+    {
+      "start_time": 3.76,
+      "end_time": 5.92,
+      "text": "Please cuz I'm very I'm very sensitive right now",
+      "emotion": "anger",
+      "emotion_confidence": 0.4,
+      "sentiment_score": -0.6252,
+      "pitch_mean": 346.14
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2824,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "joy": 0.333,
+      "anger": 0.667
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 250.22,
+    "avg_pitch": 349.03
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 4.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro08",
+    "utterance_id": "Ses04F_impro08_M014",
+    "transcript_ground_truth": "Okay.  You understand that's all I want. Just don't give me a problem with this.  Okay, please because I'm very sensitive right now"
+  }
+}

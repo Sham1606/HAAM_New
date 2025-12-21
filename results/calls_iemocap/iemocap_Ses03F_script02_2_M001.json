@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script02_2_M001",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:40:42.098139",
+  "duration_seconds": 3.2,
+  "transcript": "But what I was just saying...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "But what I was just saying...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.69,
+      "sentiment_score": -0.0198,
+      "pitch_mean": 317.55
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0198,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 112.52,
+    "avg_pitch": 322.26
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_2",
+    "utterance_id": "Ses03F_script02_2_M001",
+    "transcript_ground_truth": "About what I was just saying."
+  }
+}

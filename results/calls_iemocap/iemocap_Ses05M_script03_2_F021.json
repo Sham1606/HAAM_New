@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script03_2_F021",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:13:35.979039",
+  "duration_seconds": 1.26,
+  "transcript": "Yeah that is true, that isn't true.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.78,
+      "text": "Yeah that is true, that isn't true.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.606,
+      "sentiment_score": -0.6412,
+      "pitch_mean": 352.5
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6412,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 333.73,
+    "avg_pitch": 352.5
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script03_2",
+    "utterance_id": "Ses05M_script03_2_F021",
+    "transcript_ground_truth": "They sting."
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses03M_impro07_F013",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:29:50.310410",
+  "duration_seconds": 8.01,
+  "transcript": "This is so great, you know, because I'm going to fit them downtown, so I'm going to be like right here. I think I'm going to be living in city lights downtown. So that is...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.16,
+      "text": "This is so great, you know, because I'm going to fit them downtown, so I'm going to be like right here.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.442,
+      "sentiment_score": 0.962,
+      "pitch_mean": 362.33
+    },
+    {
+      "start_time": 4.16,
+      "end_time": 7.16,
+      "text": "I think I'm going to be living in city lights downtown.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.864,
+      "sentiment_score": 0.2035,
+      "pitch_mean": 339.8
+    },
+    {
+      "start_time": 7.16,
+      "end_time": 8.16,
+      "text": "So that is...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.868,
+      "sentiment_score": 0.0315,
+      "pitch_mean": 349.38
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.399,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "disgust": 0.333,
+      "neutral": 0.667
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 262.17,
+    "avg_pitch": 349.38
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro07",
+    "utterance_id": "Ses03M_impro07_F013",
+    "transcript_ground_truth": "This is so great, you know, because I gone fit on downtown so I'm going to be like right here.  I think I'm going to be living at City Lights downtown."
+  }
+}

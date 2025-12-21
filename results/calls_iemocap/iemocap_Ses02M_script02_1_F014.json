@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script02_1_F014",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:05:56.124837",
+  "duration_seconds": 7.93,
+  "transcript": "What are you so excited about? I mean it's not moon landing we're talking about here. It's fish. It's a fish nobody even eats",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.14,
+      "text": "What are you so excited about? I mean it's not moon landing we're talking about here. It's fish. It's a fish nobody even eats",
+      "emotion": "disgust",
+      "emotion_confidence": 0.483,
+      "sentiment_score": -0.2335,
+      "pitch_mean": 361.63
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2335,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 181.59,
+    "avg_pitch": 356.89
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script02_1",
+    "utterance_id": "Ses02M_script02_1_F014",
+    "transcript_ground_truth": "What are you so excited about? I mean it's not a moon landing we're talking about here it's fish. It's a fish nobody even eats."
+  }
+}

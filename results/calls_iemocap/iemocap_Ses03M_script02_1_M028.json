@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script02_1_M028",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:47:09.865509",
+  "duration_seconds": 3.18,
+  "transcript": "I mean I can't see how you cannot be interested.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I mean I can't see how you cannot be interested.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.736,
+      "sentiment_score": -0.2539,
+      "pitch_mean": 319.89
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2539,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 188.52,
+    "avg_pitch": 319.59
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_1",
+    "utterance_id": "Ses03M_script02_1_M028",
+    "transcript_ground_truth": "I mean, I can't see how you can not be interested."
+  }
+}

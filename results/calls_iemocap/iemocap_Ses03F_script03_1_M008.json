@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script03_1_M008",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:43:27.106360",
+  "duration_seconds": 2.71,
+  "transcript": "Oh darling, don't say that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Oh darling, don't say that.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.457,
+      "sentiment_score": -0.7153,
+      "pitch_mean": 321.5
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7153,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 110.7,
+    "avg_pitch": 325.54
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script03_1",
+    "utterance_id": "Ses03F_script03_1_M008",
+    "transcript_ground_truth": "Ooh darling, don't say that."
+  }
+}

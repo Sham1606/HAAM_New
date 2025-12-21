@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro07_M002",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:48:18.283878",
+  "duration_seconds": 3.05,
+  "transcript": "Yes! I just fell off the bed, just got the litter.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Yes! I just fell off the bed, just got the litter.",
+      "emotion": "joy",
+      "emotion_confidence": 0.458,
+      "sentiment_score": 0.3035,
+      "pitch_mean": 378.35
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3035,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 216.74,
+    "avg_pitch": 376.91
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 5.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro07",
+    "utterance_id": "Ses05M_impro07_M002",
+    "transcript_ground_truth": "Yes! I just found out today.  I just got the letter."
+  }
+}

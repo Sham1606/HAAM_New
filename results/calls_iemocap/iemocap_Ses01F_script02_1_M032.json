@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01F_script02_1_M032",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:39:21.028270",
+  "duration_seconds": 6.66,
+  "transcript": "And last year, I remember distinctive that you said you were so excited to get here that you don't remember that you stubbed your toe into the car.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.68,
+      "text": "And last year, I remember distinctive that you said you were so excited to get here that",
+      "emotion": "anger",
+      "emotion_confidence": 0.384,
+      "sentiment_score": 0.9057,
+      "pitch_mean": 337.9
+    },
+    {
+      "start_time": 3.68,
+      "end_time": 6.08,
+      "text": "you don't remember that you stubbed your toe into the car.",
+      "emotion": "anger",
+      "emotion_confidence": 0.517,
+      "sentiment_score": -0.6126,
+      "pitch_mean": 350.57
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1465,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 252.35,
+    "avg_pitch": 340.1
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_1",
+    "utterance_id": "Ses01F_script02_1_M032",
+    "transcript_ground_truth": "And last year, I remember distinctly you said, you were so excited to get here that you don't remember you stubbed your toe until we were in the car."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script03_2_F023",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:44:55.550750",
+  "duration_seconds": 6.35,
+  "transcript": "I don't care. I don't care. Do you understand? I don't care if they bark if they roll over on the floor like whoops?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.36,
+      "text": "I don't care. I don't care. Do you understand? I don't care if they bark if they roll over on the floor like whoops?",
+      "emotion": "anger",
+      "emotion_confidence": 0.458,
+      "sentiment_score": -0.7307,
+      "pitch_mean": 385.79
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7307,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 226.77,
+    "avg_pitch": 364.4
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.0,
+    "arousal": 4.5,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script03_2",
+    "utterance_id": "Ses03F_script03_2_F023",
+    "transcript_ground_truth": "I don't care. I don't care, do you understand? I don't care if they bark, if they roll over on the floor like hoops."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03F_impro08_M026",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:29:12.715288",
+  "duration_seconds": 3.13,
+  "transcript": "but you know, have a bit of trash. Oh my gosh.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.84,
+      "text": "but you know, have a bit of trash.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.582,
+      "sentiment_score": -0.734,
+      "pitch_mean": 329.64
+    },
+    {
+      "start_time": 1.84,
+      "end_time": 2.84,
+      "text": "Oh my gosh.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.906,
+      "sentiment_score": -0.1203,
+      "pitch_mean": 337.35
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4271,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 210.87,
+    "avg_pitch": 330.32
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro08",
+    "utterance_id": "Ses03F_impro08_M026",
+    "transcript_ground_truth": "Oh, my God."
+  }
+}

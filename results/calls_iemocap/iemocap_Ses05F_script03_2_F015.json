@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script03_2_F015",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:29:50.770101",
+  "duration_seconds": 4.03,
+  "transcript": "So a woman's job to allure the man. Why don't you watch me for a moment?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "So a woman's job to allure the man. Why don't you watch me for a moment?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.516,
+      "sentiment_score": -0.3273,
+      "pitch_mean": 345.91
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3273,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 238.22,
+    "avg_pitch": 346.49
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script03_2",
+    "utterance_id": "Ses05F_script03_2_F015",
+    "transcript_ground_truth": "It's the woman's job to allure the man.  Why don't you watch me for a moment?"
+  }
+}

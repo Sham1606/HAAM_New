@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro01_M014",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:20:00.165122",
+  "duration_seconds": 5.93,
+  "transcript": "Well, the weekends are not as busy, maybe you can come and try to get here early on the",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.88,
+      "text": "Well, the weekends are not as busy, maybe you can come and try to get here early on the",
+      "emotion": "neutral",
+      "emotion_confidence": 0.936,
+      "sentiment_score": 0.287,
+      "pitch_mean": 342.68
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.287,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 192.26,
+    "avg_pitch": 342.47
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro01",
+    "utterance_id": "Ses02F_impro01_M014",
+    "transcript_ground_truth": "Well, the weekends are not as busy.  Maybe you can uh, come and try to get here early--"
+  }
+}

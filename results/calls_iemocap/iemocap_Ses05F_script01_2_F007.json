@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05F_script01_2_F007",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:16:23.825104",
+  "duration_seconds": 9.63,
+  "transcript": "She's the why she's still single New York is full of men. Why isn't she married? Probably a hundred people told her she's foolish but she's waited.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "She's the why she's still single New York is full of men. Why isn't she married?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.63,
+      "sentiment_score": -0.6162,
+      "pitch_mean": 345.35
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 9.0,
+      "text": "Probably a hundred people told her she's foolish but she's waited.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.681,
+      "sentiment_score": -0.6293,
+      "pitch_mean": 343.79
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6227,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 168.23,
+    "avg_pitch": 340.84
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_2",
+    "utterance_id": "Ses05F_script01_2_F007",
+    "transcript_ground_truth": "She's . . . Then why is she still single.  New York is full of men, why isn't she married?  Probably a hundred people told her she's foolish, but she's waited."
+  }
+}

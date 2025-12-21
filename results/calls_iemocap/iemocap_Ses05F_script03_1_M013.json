@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses05F_script03_1_M013",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:28:29.116577",
+  "duration_seconds": 14.81,
+  "transcript": "All the futile moralists who try to make life unbearable laugh at them be flippant laugh at everything all their sacred shibbolus Flippency brings out the acid in their damn sweetness of light",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.04,
+      "text": "All the futile moralists who try to make life unbearable",
+      "emotion": "disgust",
+      "emotion_confidence": 0.412,
+      "sentiment_score": -0.8763,
+      "pitch_mean": 331.32
+    },
+    {
+      "start_time": 4.04,
+      "end_time": 9.36,
+      "text": "laugh at them be flippant laugh at everything all their sacred shibbolus",
+      "emotion": "joy",
+      "emotion_confidence": 0.733,
+      "sentiment_score": -0.1968,
+      "pitch_mean": 328.96
+    },
+    {
+      "start_time": 10.4,
+      "end_time": 14.0,
+      "text": "Flippency brings out the acid in their damn sweetness of light",
+      "emotion": "disgust",
+      "emotion_confidence": 0.43,
+      "sentiment_score": -0.5599,
+      "pitch_mean": 327.72
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5444,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.667,
+      "joy": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 133.69,
+    "avg_pitch": 325.57
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script03_1",
+    "utterance_id": "Ses05F_script03_1_M013",
+    "transcript_ground_truth": "All the futile mortals who try to make life unbearable.  Laugh at them.  Be flippant.  Laugh at everything, all their sacred shibboleths.  Flippancy brings out the acid in their damned sweetness and light."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04M_script01_1_M033",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:06:30.341524",
+  "duration_seconds": 5.79,
+  "transcript": "I've given it three years of thought. I'd hoped that if...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.32,
+      "text": "I've given it three years of thought.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.961,
+      "sentiment_score": 0.0894,
+      "pitch_mean": 316.56
+    },
+    {
+      "start_time": 4.32,
+      "end_time": 5.32,
+      "text": "I'd hoped that if...",
+      "emotion": "disgust",
+      "emotion_confidence": 0.518,
+      "sentiment_score": 0.0479,
+      "pitch_mean": 326.91
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0686,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 114.02,
+    "avg_pitch": 317.41
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script01_1",
+    "utterance_id": "Ses04M_script01_1_M033",
+    "transcript_ground_truth": "I've given it three years' of thought.  I'd hope that if"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro05_F000",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:43:00.667030",
+  "duration_seconds": 1.56,
+  "transcript": "and her\u8aaa",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.36,
+      "text": "and her\u8aaa",
+      "emotion": "neutral",
+      "emotion_confidence": 0.925,
+      "sentiment_score": 0.0688,
+      "pitch_mean": 324.66
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0688,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 76.92,
+    "avg_pitch": 320.15
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.3333,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro05",
+    "utterance_id": "Ses05M_impro05_F000",
+    "transcript_ground_truth": "Hmm. Hmm."
+  }
+}

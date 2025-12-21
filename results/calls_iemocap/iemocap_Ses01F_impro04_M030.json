@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro04_M030",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:23:42.732968",
+  "duration_seconds": 3.51,
+  "transcript": "You can't get a job or refuse to have a resume.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "You can't get a job or refuse to have a resume.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.463,
+      "sentiment_score": -0.7673,
+      "pitch_mean": 326.38
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7673,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 188.04,
+    "avg_pitch": 321.51
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro04",
+    "utterance_id": "Ses01F_impro04_M030",
+    "transcript_ground_truth": "...you can't get a job and refuse to have a resume."
+  }
+}

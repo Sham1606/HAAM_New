@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02F_impro01_F013",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:19:13.777620",
+  "duration_seconds": 5.84,
+  "transcript": "No, it's not. And I could tell you where I was born and what time and by who and what day.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "No, it's not.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.744,
+      "sentiment_score": -0.2187,
+      "pitch_mean": 317.31
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 5.6,
+      "text": "And I could tell you where I was born and what time and by who and what day.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.858,
+      "sentiment_score": 0.1488,
+      "pitch_mean": 348.68
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.035,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 215.8,
+    "avg_pitch": 338.47
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro01",
+    "utterance_id": "Ses02F_impro01_F013",
+    "transcript_ground_truth": "And I can tell you where I was born and what time and by who and what day."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro02_F000",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:48:11.284865",
+  "duration_seconds": 2.06,
+  "transcript": "I don't want you to go.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I don't want you to go.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.422,
+      "sentiment_score": -0.6862,
+      "pitch_mean": 335.82
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6862,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 175.15,
+    "avg_pitch": 336.62
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro02",
+    "utterance_id": "Ses02M_impro02_F000",
+    "transcript_ground_truth": "I don't want you to go."
+  }
+}

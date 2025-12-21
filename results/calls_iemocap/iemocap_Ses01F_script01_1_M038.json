@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses01F_script01_1_M038",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:33:48.046723",
+  "duration_seconds": 9.55,
+  "transcript": "I want some kids, I want a family, I want something that I can give myself to. And Annie is in the center of that. Now it's just where to find it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.16,
+      "text": "I want some kids, I want a family, I want something that I can give myself to.",
+      "emotion": "anger",
+      "emotion_confidence": 0.419,
+      "sentiment_score": 0.5062,
+      "pitch_mean": 346.54
+    },
+    {
+      "start_time": 5.04,
+      "end_time": 6.72,
+      "text": "And Annie is in the center of that.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.86,
+      "sentiment_score": 0.0439,
+      "pitch_mean": 348.09
+    },
+    {
+      "start_time": 7.6,
+      "end_time": 9.28,
+      "text": "Now it's just where to find it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.969,
+      "sentiment_score": 0.0254,
+      "pitch_mean": 335.09
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1918,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "anger": 0.333,
+      "neutral": 0.667
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 200.99,
+    "avg_pitch": 338.69
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.6667,
+    "arousal": 3.6667,
+    "dominance": 3.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_1",
+    "utterance_id": "Ses01F_script01_1_M038",
+    "transcript_ground_truth": "I want some kids, I want a family, I want somebody that I can give myself to and Annie is in the center of that.  Now it's just where to find it."
+  }
+}

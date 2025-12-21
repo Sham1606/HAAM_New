@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro03_F021",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:50:56.713632",
+  "duration_seconds": 2.31,
+  "transcript": "So next fall I guess",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "So next fall I guess",
+      "emotion": "neutral",
+      "emotion_confidence": 0.948,
+      "sentiment_score": 0.0875,
+      "pitch_mean": 354.92
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0875,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 129.87,
+    "avg_pitch": 346.99
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro03",
+    "utterance_id": "Ses05F_impro03_F021",
+    "transcript_ground_truth": "So next fall I guess."
+  }
+}

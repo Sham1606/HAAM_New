@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script01_1b_F016",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:56:31.310751",
+  "duration_seconds": 3.39,
+  "transcript": "What do you want me to do? I mean you're old enough to know your own mind",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.8,
+      "text": "What do you want me to do? I mean you're old enough to know your own mind",
+      "emotion": "disgust",
+      "emotion_confidence": 0.433,
+      "sentiment_score": -0.225,
+      "pitch_mean": 342.35
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.225,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 300.89,
+    "avg_pitch": 337.49
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_1b",
+    "utterance_id": "Ses05M_script01_1b_F016",
+    "transcript_ground_truth": "What do you want me to do?  I mean, You're old enough to know your own mind."
+  }
+}

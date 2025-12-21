@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro03_M016",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:52:31.535343",
+  "duration_seconds": 3.93,
+  "transcript": "I know oh so I get to like plan a wedding that too. That's",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.82,
+      "text": "I know oh so I get to like plan a wedding that too. That's",
+      "emotion": "anger",
+      "emotion_confidence": 0.517,
+      "sentiment_score": 0.248,
+      "pitch_mean": 378.83
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.248,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 213.74,
+    "avg_pitch": 382.4
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro03",
+    "utterance_id": "Ses01M_impro03_M016",
+    "transcript_ground_truth": "I know.  Also I get to like plan the wedding now too. That will be fun."
+  }
+}

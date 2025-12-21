@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03F_script01_2_F001",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:32:33.231561",
+  "duration_seconds": 4.63,
+  "transcript": "She's been in New York for three and a half years. She don't just suddenly come and...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.8,
+      "text": "She's been in New York for three and a half years.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.871,
+      "sentiment_score": 0.0433,
+      "pitch_mean": 333.33
+    },
+    {
+      "start_time": 2.8,
+      "end_time": 4.8,
+      "text": "She don't just suddenly come and...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.553,
+      "sentiment_score": -0.1086,
+      "pitch_mean": 334.18
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0327,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 220.11,
+    "avg_pitch": 334.18
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 4.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_2",
+    "utterance_id": "Ses03F_script01_2_F001",
+    "transcript_ground_truth": "She's been in New York for three-and-a-half years. She don't just suddenly come and-"
+  }
+}

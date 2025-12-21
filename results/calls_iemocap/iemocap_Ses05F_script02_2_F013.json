@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses05F_script02_2_F013",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:24:07.502688",
+  "duration_seconds": 11.74,
+  "transcript": "Hagi, do you remember the first time we came to see it? It was about four years ago right after we got married and... We thought I was pregnant.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Hagi, do you remember the first time we came to see it?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.433,
+      "sentiment_score": 0.0763,
+      "pitch_mean": 332.01
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 8.0,
+      "text": "It was about four years ago right after we got married and...",
+      "emotion": "disgust",
+      "emotion_confidence": 0.37,
+      "sentiment_score": 0.0519,
+      "pitch_mean": 337.1
+    },
+    {
+      "start_time": 9.0,
+      "end_time": 11.0,
+      "text": "We thought I was pregnant.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.358,
+      "sentiment_score": -0.0666,
+      "pitch_mean": 335.19
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0205,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 148.16,
+    "avg_pitch": 333.6
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 2.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script02_2",
+    "utterance_id": "Ses05F_script02_2_F013",
+    "transcript_ground_truth": "Augie, do you remember the first time we came to see it?  It was about four years ago right after we got married and we thought I was pregnant."
+  }
+}

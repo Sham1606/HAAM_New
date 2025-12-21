@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05F_impro03_M045",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:54:55.896902",
+  "duration_seconds": 4.93,
+  "transcript": "I don't feel so bad then. Ah, well, I'm excited for it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I don't feel so bad then.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.902,
+      "sentiment_score": -0.0536,
+      "pitch_mean": 325.81
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "Ah, well, I'm excited for it.",
+      "emotion": "joy",
+      "emotion_confidence": 0.892,
+      "sentiment_score": 0.984,
+      "pitch_mean": 330.53
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4652,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 0.5,
+      "joy": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 146.04,
+    "avg_pitch": 330.61
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro03",
+    "utterance_id": "Ses05F_impro03_M045",
+    "transcript_ground_truth": "I don't feel so bad then.  Well, I'm excited for you."
+  }
+}

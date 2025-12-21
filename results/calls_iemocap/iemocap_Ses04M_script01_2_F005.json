@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_script01_2_F005",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:06:59.619146",
+  "duration_seconds": 2.42,
+  "transcript": "It's got that about it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It's got that about it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.862,
+      "sentiment_score": 0.0238,
+      "pitch_mean": 337.24
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0238,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 124.06,
+    "avg_pitch": 330.0
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 2.6667,
+    "dominance": 3.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script01_2",
+    "utterance_id": "Ses04M_script01_2_F005",
+    "transcript_ground_truth": "It's got that about it."
+  }
+}

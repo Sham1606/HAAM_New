@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro02_F001",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:49:07.963948",
+  "duration_seconds": 7.78,
+  "transcript": "How's it going? Oh I'm so tired. Oh I just woke up.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "How's it going? Oh I'm so tired. Oh I just woke up.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.76,
+      "sentiment_score": -0.7079,
+      "pitch_mean": 338.35
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7079,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 92.52,
+    "avg_pitch": 338.02
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro02",
+    "utterance_id": "Ses03M_impro02_F001",
+    "transcript_ground_truth": "How's it- going?  Oh I'm so tired.  Oh, I just woke up. Mmm."
+  }
+}

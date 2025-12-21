@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script01_1_F042",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:32:35.395550",
+  "duration_seconds": 4.5,
+  "transcript": "Alright, so I'm thinking that way, hear me?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Alright, so I'm thinking that way, hear me?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.447,
+      "sentiment_score": 0.1021,
+      "pitch_mean": 327.56
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1021,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 106.67,
+    "avg_pitch": 327.64
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_1",
+    "utterance_id": "Ses02F_script01_1_F042",
+    "transcript_ground_truth": "All right.  Just-- just don't go thinkin' that way, you hear me?"
+  }
+}

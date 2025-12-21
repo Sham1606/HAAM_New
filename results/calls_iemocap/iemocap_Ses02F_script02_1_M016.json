@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script02_1_M016",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:38:21.717554",
+  "duration_seconds": 4.76,
+  "transcript": "You think they can hear us talk or feel the vibrations in the sand when you move around?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.16,
+      "text": "You think they can hear us talk or feel the vibrations in the sand when you move around?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.398,
+      "sentiment_score": -0.1137,
+      "pitch_mean": 331.92
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1137,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 226.89,
+    "avg_pitch": 332.06
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script02_1",
+    "utterance_id": "Ses02F_script02_1_M016",
+    "transcript_ground_truth": "You think they can hear us talk?  Or feel the vibrations in the sand when we move around?"
+  }
+}

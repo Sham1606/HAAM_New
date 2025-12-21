@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro02_F015",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:47:47.784204",
+  "duration_seconds": 3.66,
+  "transcript": "Believe me, if I had a choice, I wouldn't have chosen this.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.5,
+      "text": "Believe me, if I had a choice, I wouldn't have chosen this.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.429,
+      "sentiment_score": -0.5275,
+      "pitch_mean": 351.73
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5275,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 196.72,
+    "avg_pitch": 350.26
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro02",
+    "utterance_id": "Ses05F_impro02_F015",
+    "transcript_ground_truth": "Believe me, if I had a choice, I wouldn't have chosen this."
+  }
+}

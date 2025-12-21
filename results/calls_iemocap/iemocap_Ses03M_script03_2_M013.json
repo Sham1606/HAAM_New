@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script03_2_M013",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:56:07.149105",
+  "duration_seconds": 6.73,
+  "transcript": "Having three small minute liquor glasses in the evenings, hardly going on and on and on.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "Having three small minute liquor glasses in the evenings, hardly going on and on and on.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.63,
+      "sentiment_score": 0.0512,
+      "pitch_mean": 315.57
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0512,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 142.75,
+    "avg_pitch": 315.3
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script03_2",
+    "utterance_id": "Ses03M_script03_2_M013",
+    "transcript_ground_truth": "...having three small minute liquor glasses in the evening is hardly going on and on and on."
+  }
+}

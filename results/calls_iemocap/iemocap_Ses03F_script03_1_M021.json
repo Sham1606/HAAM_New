@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses03F_script03_1_M021",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:43:53.791390",
+  "duration_seconds": 14.69,
+  "transcript": "I don't care what you do, see? As long you can paint yourself bright green all over and dance naked in the palace of Endome and rush off madly with all the men in the world and I shant say a word as long as you love me best.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.26,
+      "text": "I don't care what you do, see?",
+      "emotion": "anger",
+      "emotion_confidence": 0.637,
+      "sentiment_score": -0.3221,
+      "pitch_mean": 325.49
+    },
+    {
+      "start_time": 3.26,
+      "end_time": 8.44,
+      "text": "As long you can paint yourself bright green all over and dance naked in the palace",
+      "emotion": "disgust",
+      "emotion_confidence": 0.402,
+      "sentiment_score": 0.3202,
+      "pitch_mean": 332.53
+    },
+    {
+      "start_time": 8.44,
+      "end_time": 13.2,
+      "text": "of Endome and rush off madly with all the men in the world and I shant say a word as",
+      "emotion": "disgust",
+      "emotion_confidence": 0.356,
+      "sentiment_score": -0.4438,
+      "pitch_mean": 337.82
+    },
+    {
+      "start_time": 13.2,
+      "end_time": 14.4,
+      "text": "long as you love me best.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.383,
+      "sentiment_score": 0.902,
+      "pitch_mean": 335.54
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1141,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "anger": 0.25,
+      "disgust": 0.75
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 200.07,
+    "avg_pitch": 331.31
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script03_1",
+    "utterance_id": "Ses03F_script03_1_M021",
+    "transcript_ground_truth": "I don't care what you do, see? As long-you can paint yourself bright green all over and dance naked in the Place Vendome and rush off madly with all the men in the world and I shan't say a word as long as you love me best."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_script02_2_M026",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:50:33.602894",
+  "duration_seconds": 4.3,
+  "transcript": "Wow Do you want me to breathe in your ear?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Wow",
+      "emotion": "neutral",
+      "emotion_confidence": 0.967,
+      "sentiment_score": 0.6354,
+      "pitch_mean": 307.98
+    },
+    {
+      "start_time": 2.16,
+      "end_time": 4.16,
+      "text": "Do you want me to breathe in your ear?",
+      "emotion": "sadness",
+      "emotion_confidence": 0.716,
+      "sentiment_score": 0.031,
+      "pitch_mean": 310.65
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3332,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "sadness": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 139.66,
+    "avg_pitch": 309.4
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 2.3333,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_2",
+    "utterance_id": "Ses03M_script02_2_M026",
+    "transcript_ground_truth": "What?  Do you want me to breathe in your ear?"
+  }
+}

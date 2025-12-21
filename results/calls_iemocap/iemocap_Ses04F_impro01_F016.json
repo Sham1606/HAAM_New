@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro01_F016",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T11:58:07.135160",
+  "duration_seconds": 4.45,
+  "transcript": "This is your job, your job, to help people like me who need to get a new license.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.4,
+      "text": "This is your job, your job, to help people like me who need to get a new license.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.855,
+      "sentiment_score": 0.0958,
+      "pitch_mean": 375.74
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0958,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 242.7,
+    "avg_pitch": 374.88
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro01",
+    "utterance_id": "Ses04F_impro01_F016",
+    "transcript_ground_truth": "This is your job is to help people like me who need to get a new license."
+  }
+}

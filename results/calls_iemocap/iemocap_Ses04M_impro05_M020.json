@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro05_M020",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:57:54.212812",
+  "duration_seconds": 6.78,
+  "transcript": "I'm gonna get very upset like I'm I'm I'm I'm upset right now, but I'm gonna get really upset if you if you don't do the check",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.88,
+      "text": "I'm gonna get very upset like I'm I'm I'm I'm upset right now, but I'm gonna get really upset if you if you don't do the check",
+      "emotion": "anger",
+      "emotion_confidence": 0.934,
+      "sentiment_score": -0.8833,
+      "pitch_mean": 334.76
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8833,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 238.94,
+    "avg_pitch": 334.56
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro05",
+    "utterance_id": "Ses04M_impro05_M020",
+    "transcript_ground_truth": "I'm going to get very upset.  Like, I mean, I'm- I'm upset right now but I'm going to get really upset if you- if you don't do the check thing."
+  }
+}

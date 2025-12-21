@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro01_M006",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:46:34.972559",
+  "duration_seconds": 6.98,
+  "transcript": "I don't want to be rude here ma'am, but line 2b is where you need to be. This is the line for registration.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "I don't want to be rude here ma'am, but line 2b is where you need to be. This is the line for registration.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.947,
+      "sentiment_score": -0.0689,
+      "pitch_mean": 327.26
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0689,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 197.71,
+    "avg_pitch": 327.26
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro01",
+    "utterance_id": "Ses05F_impro01_M006",
+    "transcript_ground_truth": "I don't want to be rude here, ma'am, but line two B is where you need to be.  This is the line for registration."
+  }
+}

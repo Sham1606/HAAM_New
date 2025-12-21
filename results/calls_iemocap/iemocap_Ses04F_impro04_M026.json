@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro04_M026",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:08:36.863233",
+  "duration_seconds": 4.77,
+  "transcript": "Hey, I'd love to help you, but I you don't have the kind of training that I",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.3,
+      "text": "Hey, I'd love to help you, but I you don't have the kind of training that I",
+      "emotion": "sadness",
+      "emotion_confidence": 0.874,
+      "sentiment_score": -0.632,
+      "pitch_mean": 338.55
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.632,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 213.84,
+    "avg_pitch": 337.93
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro04",
+    "utterance_id": "Ses04F_impro04_M026",
+    "transcript_ground_truth": "Hey, I'd love to help you but I- you don't have the kind of training that I-"
+  }
+}

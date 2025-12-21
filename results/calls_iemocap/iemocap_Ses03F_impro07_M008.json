@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro07_M008",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:26:16.990215",
+  "duration_seconds": 1.51,
+  "transcript": "\ub9c8\uc774 dec keep creating",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.3,
+      "text": "\ub9c8\uc774 dec keep creating",
+      "emotion": "neutral",
+      "emotion_confidence": 0.61,
+      "sentiment_score": 0.31,
+      "pitch_mean": 349.1
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.31,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 158.85,
+    "avg_pitch": 349.1
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro07",
+    "utterance_id": "Ses03F_impro07_M008",
+    "transcript_ground_truth": "Which one?"
+  }
+}

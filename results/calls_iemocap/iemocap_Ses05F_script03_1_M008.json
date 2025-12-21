@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05F_script03_1_M008",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:28:16.513656",
+  "duration_seconds": 6.2,
+  "transcript": "Well the things that automatically most dreadfully don't seem to matter at all when once happy do they.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Well the things that automatically most",
+      "emotion": "neutral",
+      "emotion_confidence": 0.626,
+      "sentiment_score": -0.0321,
+      "pitch_mean": 346.04
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 6.0,
+      "text": "dreadfully don't seem to matter at all when once happy do they.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.8,
+      "sentiment_score": -0.5147,
+      "pitch_mean": 330.83
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2734,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 174.19,
+    "avg_pitch": 339.13
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script03_1",
+    "utterance_id": "Ses05F_script03_1_M008",
+    "transcript_ground_truth": "[LAUGHTER] Oh, the things that ought to matter most dreadfully don't seem to matter at all when one's happy, do they?"
+  }
+}

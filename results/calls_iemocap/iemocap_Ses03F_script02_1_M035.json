@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03F_script02_1_M035",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:38:23.200228",
+  "duration_seconds": 4.7,
+  "transcript": "No, let's just see weed in it, isn't it? This is great, isn't it?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.68,
+      "text": "No, let's just see weed in it, isn't it?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.645,
+      "sentiment_score": -0.2969,
+      "pitch_mean": 327.25
+    },
+    {
+      "start_time": 2.68,
+      "end_time": 4.68,
+      "text": "This is great, isn't it?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.623,
+      "sentiment_score": 0.9805,
+      "pitch_mean": 348.67
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3418,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 178.91,
+    "avg_pitch": 336.1
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_1",
+    "utterance_id": "Ses03F_script02_1_M035",
+    "transcript_ground_truth": "no, that's just seaweed, isn't it? This is great, isn't it?"
+  }
+}

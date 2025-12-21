@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04F_impro07_F074",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:15:36.342758",
+  "duration_seconds": 10.18,
+  "transcript": "Oh, oh, I'm sorry my bad. I'll have to like sign up for summer lessons from you before I go You can teach me how to be cool before I go to college",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.44,
+      "text": "Oh, oh, I'm sorry my bad. I'll have to like sign up for summer lessons from you before I go",
+      "emotion": "joy",
+      "emotion_confidence": 0.443,
+      "sentiment_score": -0.491,
+      "pitch_mean": 360.08
+    },
+    {
+      "start_time": 6.44,
+      "end_time": 9.2,
+      "text": "You can teach me how to be cool before I go to college",
+      "emotion": "neutral",
+      "emotion_confidence": 0.921,
+      "sentiment_score": 0.126,
+      "pitch_mean": 374.79
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1825,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 194.5,
+    "avg_pitch": 363.67
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro07",
+    "utterance_id": "Ses04F_impro07_F074",
+    "transcript_ground_truth": "Oh, oh, I'm sorry, my bad.  I'll have to, like, sign up for summer lessons from you before I go.  You can teach me how to be cool before I go to college."
+  }
+}

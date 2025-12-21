@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro05_F000",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:54:53.029056",
+  "duration_seconds": 2.05,
+  "transcript": "Can I help you?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Can I help you?",
+      "emotion": "fear",
+      "emotion_confidence": 0.761,
+      "sentiment_score": 0.1402,
+      "pitch_mean": 338.19
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1402,
+    "dominant_emotion": "fear",
+    "emotion_distribution": {
+      "fear": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 117.0,
+    "avg_pitch": 338.2
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro05",
+    "utterance_id": "Ses01M_impro05_F000",
+    "transcript_ground_truth": "Can I help you?"
+  }
+}

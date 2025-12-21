@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_script03_2_M052",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T14:45:21.424961",
+  "duration_seconds": 1.08,
+  "transcript": "No you're not.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "No you're not.",
+      "emotion": "joy",
+      "emotion_confidence": 0.511,
+      "sentiment_score": -0.2387,
+      "pitch_mean": 388.88
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2387,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 166.68,
+    "avg_pitch": 387.81
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.5,
+    "arousal": 4.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script03_2",
+    "utterance_id": "Ses04M_script03_2_M052",
+    "transcript_ground_truth": "No, you're not."
+  }
+}

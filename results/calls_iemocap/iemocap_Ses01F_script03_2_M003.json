@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script03_2_M003",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:46:35.585175",
+  "duration_seconds": 4.16,
+  "transcript": "This bristling with diamonds on the worst possible taste.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "This bristling with diamonds on the worst possible taste.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.975,
+      "sentiment_score": -0.8967,
+      "pitch_mean": 330.3
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8967,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 129.81,
+    "avg_pitch": 331.39
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script03_2",
+    "utterance_id": "Ses01F_script03_2_M003",
+    "transcript_ground_truth": "It was bristling with diamonds.  In the worst possible taste, too."
+  }
+}

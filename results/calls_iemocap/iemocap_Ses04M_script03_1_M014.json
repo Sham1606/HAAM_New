@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_script03_1_M014",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:15:20.069280",
+  "duration_seconds": 3.94,
+  "transcript": "You certainly must. We're figures of fun all right.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "You certainly must. We're figures of fun all right.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.9233,
+      "pitch_mean": 329.02
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9233,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 137.06,
+    "avg_pitch": 329.02
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script03_1",
+    "utterance_id": "Ses04M_script03_1_M014",
+    "transcript_ground_truth": "Certainly you must.  We're figures of fun alright."
+  }
+}

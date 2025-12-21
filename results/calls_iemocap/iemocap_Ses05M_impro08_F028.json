@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_impro08_F028",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:51:16.442125",
+  "duration_seconds": 1.71,
+  "transcript": "Okay, thank you. All right, bye-bye.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "Okay, thank you.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.45,
+      "sentiment_score": 0.7991,
+      "pitch_mean": 372.64
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 2.0,
+      "text": "All right, bye-bye.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.627,
+      "sentiment_score": 0.0352,
+      "pitch_mean": 357.06
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4171,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 210.53,
+    "avg_pitch": 357.06
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro08",
+    "utterance_id": "Ses05M_impro08_F028",
+    "transcript_ground_truth": "Okay.  Thanks."
+  }
+}

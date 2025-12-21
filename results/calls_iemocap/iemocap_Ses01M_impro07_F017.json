@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01M_impro07_F017",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:59:43.938197",
+  "duration_seconds": 7.4,
+  "transcript": "Do you are you one of those like four o'clock in the morning practices? Is that that's when we're like swimming in ballet and things like that?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.8,
+      "text": "Do you are you one of those like four o'clock in the morning practices?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.642,
+      "sentiment_score": 0.0096,
+      "pitch_mean": 351.72
+    },
+    {
+      "start_time": 3.04,
+      "end_time": 6.56,
+      "text": "Is that that's when we're like swimming in ballet and things like that?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.676,
+      "sentiment_score": 0.0467,
+      "pitch_mean": 335.98
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0282,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 218.92,
+    "avg_pitch": 337.43
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro07",
+    "utterance_id": "Ses01M_impro07_F017",
+    "transcript_ground_truth": "Do you--are you one of those like four a clock in the morning practices?  Is it--that's more like swimming and- --ballet and things like that."
+  }
+}

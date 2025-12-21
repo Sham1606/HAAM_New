@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses05M_impro07_M036",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:49:38.180300",
+  "duration_seconds": 7.67,
+  "transcript": "Oh, loan scholarships, I got a lot of scholarships. Yeah, yeah. I'm half-needed of Americans, so I get all those scholarships too. Yeah.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.44,
+      "text": "Oh, loan scholarships, I got a lot of scholarships.",
+      "emotion": "joy",
+      "emotion_confidence": 0.493,
+      "sentiment_score": 0.3845,
+      "pitch_mean": 345.3
+    },
+    {
+      "start_time": 2.44,
+      "end_time": 3.8,
+      "text": "Yeah, yeah.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.444,
+      "sentiment_score": 0.3124,
+      "pitch_mean": 323.66
+    },
+    {
+      "start_time": 3.8,
+      "end_time": 6.94,
+      "text": "I'm half-needed of Americans, so I get all those scholarships too.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.814,
+      "sentiment_score": 0.146,
+      "pitch_mean": 333.52
+    },
+    {
+      "start_time": 6.94,
+      "end_time": 7.44,
+      "text": "Yeah.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.814,
+      "sentiment_score": 0.2224,
+      "pitch_mean": 337.8
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2663,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "joy": 0.25,
+      "disgust": 0.25,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 179.92,
+    "avg_pitch": 335.39
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.5,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro07",
+    "utterance_id": "Ses05M_impro07_M036",
+    "transcript_ground_truth": "Loans, scholarships, I've got a lot of scholarships-- Yeah, yeah. I'm- I'm half Native American so I get all those scholarships, too. yeah."
+  }
+}

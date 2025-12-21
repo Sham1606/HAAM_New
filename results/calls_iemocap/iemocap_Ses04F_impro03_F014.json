@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro03_F014",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:02:14.437125",
+  "duration_seconds": 3.6,
+  "transcript": "Okay, well, you know what? I was hoping that you would help",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.16,
+      "text": "Okay, well, you know what? I was hoping that you would help",
+      "emotion": "neutral",
+      "emotion_confidence": 0.719,
+      "sentiment_score": 0.2871,
+      "pitch_mean": 354.05
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2871,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 200.0,
+    "avg_pitch": 354.25
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro03",
+    "utterance_id": "Ses04F_impro03_F014",
+    "transcript_ground_truth": "Okey Well- well-, you know what?  I was hoping that you would help"
+  }
+}

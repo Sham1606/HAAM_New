@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses03M_script01_1_F034",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:38:17.065348",
+  "duration_seconds": 12.09,
+  "transcript": "He thinks he's coming back. And you go off and marry that girl and you're just pronouncing him dead and what's gonna happen to him? I don't know. Do you? I mean, I don't know.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.8,
+      "text": "He thinks he's coming back.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.677,
+      "sentiment_score": 0.0977,
+      "pitch_mean": 321.48
+    },
+    {
+      "start_time": 2.8,
+      "end_time": 7.0,
+      "text": "And you go off and marry that girl and you're just pronouncing him dead and what's gonna happen to him?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.42,
+      "sentiment_score": -0.8109,
+      "pitch_mean": 366.9
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 9.0,
+      "text": "I don't know.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.554,
+      "sentiment_score": -0.125,
+      "pitch_mean": 327.33
+    },
+    {
+      "start_time": 9.0,
+      "end_time": 12.0,
+      "text": "Do you? I mean, I don't know.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.401,
+      "sentiment_score": -0.1946,
+      "pitch_mean": 337.23
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2582,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "neutral": 0.25,
+      "disgust": 0.75
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 173.65,
+    "avg_pitch": 337.65
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_1",
+    "utterance_id": "Ses03M_script01_1_F034",
+    "transcript_ground_truth": "He thinks he's coming back. And you go off and marry that girl and you're just pronouncing him dead and what's going to happen to him?  I don't know.  Do you?  I mean, I don't know."
+  }
+}

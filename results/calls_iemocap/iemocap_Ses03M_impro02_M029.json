@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_impro02_M029",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:51:10.272904",
+  "duration_seconds": 6.03,
+  "transcript": "Is this gonna be... That's gonna go faster than you think.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Is this gonna be...",
+      "emotion": "sadness",
+      "emotion_confidence": 0.475,
+      "sentiment_score": -0.0161,
+      "pitch_mean": 309.53
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 5.0,
+      "text": "That's gonna go faster than you think.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.635,
+      "sentiment_score": -0.1217,
+      "pitch_mean": 317.12
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0689,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 109.47,
+    "avg_pitch": 316.35
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro02",
+    "utterance_id": "Ses03M_impro02_M029",
+    "transcript_ground_truth": "It's just going to be--it's going to go faster than you think."
+  }
+}

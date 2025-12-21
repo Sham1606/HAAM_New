@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script01_1_M007",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:31:06.260722",
+  "duration_seconds": 2.6,
+  "transcript": "I don't know.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I don't know.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.627,
+      "sentiment_score": -0.125,
+      "pitch_mean": 327.41
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.125,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 69.23,
+    "avg_pitch": 325.1
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.6667,
+    "arousal": 2.6667,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_1",
+    "utterance_id": "Ses03F_script01_1_M007",
+    "transcript_ground_truth": "I don't know."
+  }
+}

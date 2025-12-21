@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses01M_impro03_M024",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:53:02.205278",
+  "duration_seconds": 1.46,
+  "transcript": "\u5404\u4f4d happy \uc5b4\ufffd sut loneliness loneliness",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.08,
+      "text": "\u5404\u4f4d happy",
+      "emotion": "joy",
+      "emotion_confidence": 0.862,
+      "sentiment_score": 0.8535,
+      "pitch_mean": 333.56
+    },
+    {
+      "start_time": 1.08,
+      "end_time": 1.42,
+      "text": "\uc5b4\ufffd sut",
+      "emotion": "anger",
+      "emotion_confidence": 0.488,
+      "sentiment_score": -0.1103,
+      "pitch_mean": 380.74
+    },
+    {
+      "start_time": 16.3,
+      "end_time": 18.86,
+      "text": "loneliness",
+      "emotion": "neutral",
+      "emotion_confidence": 0.797,
+      "sentiment_score": -0.5208,
+      "pitch_mean": 348.96
+    },
+    {
+      "start_time": 26.16,
+      "end_time": 27.18,
+      "text": "loneliness",
+      "emotion": "neutral",
+      "emotion_confidence": 0.797,
+      "sentiment_score": -0.5208,
+      "pitch_mean": 348.96
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0746,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "joy": 0.25,
+      "anger": 0.25,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 246.58,
+    "avg_pitch": 348.96
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro03",
+    "utterance_id": "Ses01M_impro03_M024",
+    "transcript_ground_truth": "Will you help me plan?"
+  }
+}

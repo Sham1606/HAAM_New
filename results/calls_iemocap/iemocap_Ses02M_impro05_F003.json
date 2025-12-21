@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02M_impro05_F003",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:52:36.750315",
+  "duration_seconds": 11.41,
+  "transcript": "actually I'm looking here at the information. The flight that you were on we had some trouble with some of the baggage. It looks like a few people's bags didn't make it through.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.36,
+      "text": "actually I'm looking here at the information. The flight that you were on we had some trouble",
+      "emotion": "neutral",
+      "emotion_confidence": 0.769,
+      "sentiment_score": -0.4603,
+      "pitch_mean": 346.26
+    },
+    {
+      "start_time": 5.36,
+      "end_time": 10.96,
+      "text": "with some of the baggage. It looks like a few people's bags didn't make it through.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.403,
+      "sentiment_score": -0.721,
+      "pitch_mean": 342.62
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5906,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 173.49,
+    "avg_pitch": 345.92
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro05",
+    "utterance_id": "Ses02M_impro05_F003",
+    "transcript_ground_truth": "Actually I'm looking here at the information, the flight that you were on we had some trouble with some of the baggage, it looks like a few peoples' bags didn't make it through. Um, so-"
+  }
+}

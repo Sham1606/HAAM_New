@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script01_1_M024",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:03:22.448612",
+  "duration_seconds": 3.61,
+  "transcript": "No, I wanted to get this all sorted out first.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "No, I wanted to get this all sorted out first.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.68,
+      "sentiment_score": -0.2265,
+      "pitch_mean": 331.5
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2265,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 165.99,
+    "avg_pitch": 331.5
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.6667,
+    "arousal": 3.0,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_1",
+    "utterance_id": "Ses01M_script01_1_M024",
+    "transcript_ground_truth": "No, I wanted to get this all sorted out first."
+  }
+}

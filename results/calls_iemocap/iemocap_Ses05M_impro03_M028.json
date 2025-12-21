@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro03_M028",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:39:11.757497",
+  "duration_seconds": 6.25,
+  "transcript": "She wants like eight she wants like eight kids and I'm like no, no, no, no, no, no, I'm like let's do maybe three and we'll go with that",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.78,
+      "text": "She wants like eight she wants like eight kids and I'm like no, no, no, no, no, no, I'm like let's do maybe three and we'll go with that",
+      "emotion": "disgust",
+      "emotion_confidence": 0.293,
+      "sentiment_score": -0.2757,
+      "pitch_mean": 315.8
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2757,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 278.4,
+    "avg_pitch": 316.79
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro03",
+    "utterance_id": "Ses05M_impro03_M028",
+    "transcript_ground_truth": "She wants like eight- She wants like eight kids and I'm like, no, no, no, no, no.  I am like what Let's do maybe three and we'll go with that."
+  }
+}

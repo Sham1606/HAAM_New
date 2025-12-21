@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses03M_script03_2_F041",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:55:29.746522",
+  "duration_seconds": 9.81,
+  "transcript": "I hate you Listen. I'm sick and tired of listening to you. Y-you\u2014you.... You're a sadistic bully.",
+  "segments": [
+    {
+      "start_time": 0.68,
+      "end_time": 2.04,
+      "text": "I hate you",
+      "emotion": "anger",
+      "emotion_confidence": 0.673,
+      "sentiment_score": -0.7539,
+      "pitch_mean": 331.09
+    },
+    {
+      "start_time": 3.12,
+      "end_time": 7.06,
+      "text": "Listen. I'm sick and tired of listening to you. Y-you\u2014you....",
+      "emotion": "disgust",
+      "emotion_confidence": 0.424,
+      "sentiment_score": -0.9219,
+      "pitch_mean": 340.89
+    },
+    {
+      "start_time": 7.36,
+      "end_time": 8.96,
+      "text": "You're a sadistic bully.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.513,
+      "sentiment_score": -0.9183,
+      "pitch_mean": 376.87
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8647,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "anger": 0.333,
+      "disgust": 0.667
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 103.97,
+    "avg_pitch": 338.88
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script03_2",
+    "utterance_id": "Ses03M_script03_2_F041",
+    "transcript_ground_truth": "I hate you.  Listen I'm sick and tired of listening to you, you sadistic bully."
+  }
+}

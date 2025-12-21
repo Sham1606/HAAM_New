@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01F_script01_1_M029",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:33:29.991390",
+  "duration_seconds": 10.07,
+  "transcript": "I can't help it. I know her best. I was brought up next door to her, you know? These years when I think of someone from my wife, I think of Annie.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.88,
+      "text": "I can't help it. I know her best. I was brought up next door to her, you know?",
+      "emotion": "anger",
+      "emotion_confidence": 0.394,
+      "sentiment_score": 0.7284,
+      "pitch_mean": 342.4
+    },
+    {
+      "start_time": 4.88,
+      "end_time": 9.0,
+      "text": "These years when I think of someone from my wife, I think of Annie.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.664,
+      "sentiment_score": -0.1139,
+      "pitch_mean": 326.79
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3073,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 190.67,
+    "avg_pitch": 335.28
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.6667,
+    "arousal": 3.0,
+    "dominance": 3.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_1",
+    "utterance_id": "Ses01F_script01_1_M029",
+    "transcript_ground_truth": "I can't help it, I know her best.  I was brought up next door to her, you know?  These years when I think of someone for my wife, I think of Annie."
+  }
+}

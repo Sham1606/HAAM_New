@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script02_2_M011",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:41:00.071450",
+  "duration_seconds": 2.59,
+  "transcript": "I thought you wanted to see it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I thought you wanted to see it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.738,
+      "sentiment_score": 0.0234,
+      "pitch_mean": 327.17
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0234,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 161.89,
+    "avg_pitch": 330.63
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.3333,
+    "arousal": 2.3333,
+    "dominance": 1.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_2",
+    "utterance_id": "Ses03F_script02_2_M011",
+    "transcript_ground_truth": "God, I thought you wanted to see it."
+  }
+}

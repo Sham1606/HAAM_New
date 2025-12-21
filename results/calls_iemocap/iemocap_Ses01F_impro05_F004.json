@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses01F_impro05_F004",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:24:17.193016",
+  "duration_seconds": 9.7,
+  "transcript": "I waited for the whole baggage carousel four times. They told me to go to the next one. I waited through that for three planes and now I'm here.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "I waited for the whole baggage carousel four times.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.858,
+      "sentiment_score": -0.2456,
+      "pitch_mean": 360.32
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 6.48,
+      "text": "They told me to go to the next one.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.859,
+      "sentiment_score": -0.0145,
+      "pitch_mean": 348.09
+    },
+    {
+      "start_time": 6.48,
+      "end_time": 9.48,
+      "text": "I waited through that for three planes and now I'm here.",
+      "emotion": "anger",
+      "emotion_confidence": 0.434,
+      "sentiment_score": -0.3639,
+      "pitch_mean": 347.51
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.208,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "anger": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 179.38,
+    "avg_pitch": 353.67
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro05",
+    "utterance_id": "Ses01F_impro05_F004",
+    "transcript_ground_truth": "I waited the entire baggage- I waited for the whole baggage carousel four times.  They told me to go to the next one.  I waited through that for three planes and now I'm here."
+  }
+}

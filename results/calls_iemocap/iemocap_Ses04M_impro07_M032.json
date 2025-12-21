@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses04M_impro07_M032",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:02:02.069228",
+  "duration_seconds": 3.37,
+  "transcript": "I don't know, did they have golf? Did you see them? I don't know.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.2,
+      "text": "I don't know, did they have golf?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.865,
+      "sentiment_score": -0.0994,
+      "pitch_mean": 358.05
+    },
+    {
+      "start_time": 1.2,
+      "end_time": 2.2,
+      "text": "Did you see them?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.812,
+      "sentiment_score": 0.0277,
+      "pitch_mean": 330.57
+    },
+    {
+      "start_time": 2.2,
+      "end_time": 3.2,
+      "text": "I don't know.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.496,
+      "sentiment_score": -0.125,
+      "pitch_mean": 344.75
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0656,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "disgust": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 249.07,
+    "avg_pitch": 344.81
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro07",
+    "utterance_id": "Ses04M_impro07_M032",
+    "transcript_ground_truth": "I don't know.  Do they have golf?  Do they have- Does U.S.C. have a -- I don't know if they have a golf team."
+  }
+}

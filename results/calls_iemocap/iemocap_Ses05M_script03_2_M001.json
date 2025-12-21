@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script03_2_M001",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:14:36.531169",
+  "duration_seconds": 3.27,
+  "transcript": "I knew nothing of a sword. You accepted Presence from him.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.04,
+      "text": "I knew nothing of a sword. You accepted Presence from him.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.4,
+      "sentiment_score": 0.1595,
+      "pitch_mean": 326.06
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1595,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 201.83,
+    "avg_pitch": 324.26
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script03_2",
+    "utterance_id": "Ses05M_script03_2_M001",
+    "transcript_ground_truth": "I knew nothing of the sort.  You accepted presents from him."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro08_M012",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:51:48.763038",
+  "duration_seconds": 4.14,
+  "transcript": "Okay, and go ahead and click on run",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.6,
+      "text": "Okay, and go ahead and click on run",
+      "emotion": "neutral",
+      "emotion_confidence": 0.87,
+      "sentiment_score": 0.137,
+      "pitch_mean": 332.49
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.137,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 115.94,
+    "avg_pitch": 331.47
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro08",
+    "utterance_id": "Ses05M_impro08_M012",
+    "transcript_ground_truth": "Okay, And uh- go ahead and click on run."
+  }
+}

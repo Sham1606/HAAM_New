@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro03_F003",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:36:48.494231",
+  "duration_seconds": 3.45,
+  "transcript": "Oh, how did you do it?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Oh, how did you do it?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.846,
+      "sentiment_score": -0.0015,
+      "pitch_mean": 359.51
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0015,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 104.35,
+    "avg_pitch": 350.75
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 3.3333,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro03",
+    "utterance_id": "Ses05M_impro03_F003",
+    "transcript_ground_truth": "Oh, what, how- where how did you do it?"
+  }
+}

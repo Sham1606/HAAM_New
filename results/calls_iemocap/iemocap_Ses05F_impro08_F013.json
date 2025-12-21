@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05F_impro08_F013",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:10:53.583810",
+  "duration_seconds": 1.51,
+  "transcript": "Alright. I...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "Alright.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.683,
+      "sentiment_score": 0.3175,
+      "pitch_mean": 349.94
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 2.0,
+      "text": "I...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.7,
+      "sentiment_score": 0.0646,
+      "pitch_mean": 345.27
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.191,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 79.47,
+    "avg_pitch": 345.27
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro08",
+    "utterance_id": "Ses05F_impro08_F013",
+    "transcript_ground_truth": "All right. I-"
+  }
+}

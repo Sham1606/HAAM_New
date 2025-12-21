@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro07_M033",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:27:17.466239",
+  "duration_seconds": 1.74,
+  "transcript": "Well, can you still?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Well, can you still?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.0706,
+      "pitch_mean": 332.6
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0706,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 137.87,
+    "avg_pitch": 332.6
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 4.0,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro07",
+    "utterance_id": "Ses03F_impro07_M033",
+    "transcript_ground_truth": "Well, get used to it."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro04_F035",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:57:51.405568",
+  "duration_seconds": 2.96,
+  "transcript": "It's just like it's a matter of",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.3,
+      "text": "It's just like it's a matter of",
+      "emotion": "neutral",
+      "emotion_confidence": 0.92,
+      "sentiment_score": 0.034,
+      "pitch_mean": 337.28
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.034,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 141.89,
+    "avg_pitch": 332.87
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro04",
+    "utterance_id": "Ses05F_impro04_F035",
+    "transcript_ground_truth": "It's just like- it's a matter of-"
+  }
+}

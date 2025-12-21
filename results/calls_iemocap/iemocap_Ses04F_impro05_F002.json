@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04F_impro05_F002",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:09:15.238127",
+  "duration_seconds": 12.01,
+  "transcript": "I don't know the place where they told me to go look they told me to come talk to you because you guys Lost my bag not it's late not it'll be here soon lost it completely. What are you going to do about that?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.42,
+      "text": "I don't know the place where they told me to go look they told me to come talk to you because you guys",
+      "emotion": "neutral",
+      "emotion_confidence": 0.727,
+      "sentiment_score": -0.3796,
+      "pitch_mean": 354.28
+    },
+    {
+      "start_time": 4.7,
+      "end_time": 10.78,
+      "text": "Lost my bag not it's late not it'll be here soon lost it completely. What are you going to do about that?",
+      "emotion": "joy",
+      "emotion_confidence": 0.452,
+      "sentiment_score": -0.9139,
+      "pitch_mean": 373.5
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6468,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "joy": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 224.81,
+    "avg_pitch": 356.31
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro05",
+    "utterance_id": "Ses04F_impro05_F002",
+    "transcript_ground_truth": "I-I don't know.  The place where they told me to go.  Look they told me to come talk to you because you guys lost my bag.  Not it's late.  Not it will be here soon, lost it completely.  What are you going to do about that?"
+  }
+}

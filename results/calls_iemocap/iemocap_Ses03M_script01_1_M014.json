@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_script01_1_M014",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:39:24.072378",
+  "duration_seconds": 5.73,
+  "transcript": "Larry's been gone for three years. For God's sake, no one comes back after three years is insane.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Larry's been gone for three years.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.842,
+      "sentiment_score": -0.4717,
+      "pitch_mean": 326.14
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 5.0,
+      "text": "For God's sake, no one comes back after three years is insane.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.266,
+      "sentiment_score": -0.8227,
+      "pitch_mean": 314.02
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6472,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 188.47,
+    "avg_pitch": 321.69
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_1",
+    "utterance_id": "Ses03M_script01_1_M014",
+    "transcript_ground_truth": "Larry's been gone for three years.  For god sakes no one comes back after three years.  It's insane."
+  }
+}

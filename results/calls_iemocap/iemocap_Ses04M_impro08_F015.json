@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses04M_impro08_F015",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:02:52.679656",
+  "duration_seconds": 10.06,
+  "transcript": "and I did everything they said and now I'm talking to you and you are supposed to put the money back on my account because I didn't make the calls and I'm really Tired of dealing with this because I didn't even do",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.4,
+      "text": "and I did everything they said and now I'm talking to you and you are supposed to put the money back on my account because I didn't make the calls and I'm really",
+      "emotion": "joy",
+      "emotion_confidence": 0.486,
+      "sentiment_score": -0.6966,
+      "pitch_mean": 385.48
+    },
+    {
+      "start_time": 6.96,
+      "end_time": 9.26,
+      "text": "Tired of dealing with this because I didn't even do",
+      "emotion": "joy",
+      "emotion_confidence": 0.465,
+      "sentiment_score": -0.9034,
+      "pitch_mean": 366.94
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 256.46,
+    "avg_pitch": 373.3
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.0,
+    "arousal": 5.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro08",
+    "utterance_id": "Ses04M_impro08_F015",
+    "transcript_ground_truth": "And I did everything they said.  And now i'm talking to you and you're supposed to put the money back on my account because I didn't make the calls and I'm really tired of dealing with this because I didn't even"
+  }
+}

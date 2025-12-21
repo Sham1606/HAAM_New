@@ -1,0 +1,82 @@
+{
+  "call_id": "iemocap_Ses03F_script01_1_M045",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:32:16.481419",
+  "duration_seconds": 15.45,
+  "transcript": "Yes, I like an hour out of the day. If I have to grub for money all day long, at least at evening I want a beautiful. I want a wife, I want a family, I want some kids, I want to build something I can give myself to.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.34,
+      "text": "Yes, I like an hour out of the day.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.421,
+      "sentiment_score": 0.6888,
+      "pitch_mean": 343.36
+    },
+    {
+      "start_time": 4.34,
+      "end_time": 6.3,
+      "text": "If I have to grub for money all day long,",
+      "emotion": "joy",
+      "emotion_confidence": 0.473,
+      "sentiment_score": -0.5417,
+      "pitch_mean": 364.11
+    },
+    {
+      "start_time": 6.3,
+      "end_time": 8.94,
+      "text": "at least at evening I want a beautiful.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.446,
+      "pitch_mean": 349.23
+    },
+    {
+      "start_time": 8.94,
+      "end_time": 12.7,
+      "text": "I want a wife, I want a family, I want some kids,",
+      "emotion": "sadness",
+      "emotion_confidence": 0.789,
+      "sentiment_score": 0.4645,
+      "pitch_mean": 347.37
+    },
+    {
+      "start_time": 12.7,
+      "end_time": 15.46,
+      "text": "I want to build something I can give myself to.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.6063,
+      "pitch_mean": 348.92
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3328,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.4,
+      "joy": 0.2,
+      "sadness": 0.2,
+      "neutral": 0.2
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 190.28,
+    "avg_pitch": 348.92
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_1",
+    "utterance_id": "Ses03F_script01_1_M045",
+    "transcript_ground_truth": "Yes. I like it an hour out of the day. If I have to grub for money all day long at least that evening I want it beautiful. I want a wife. I want a family. I want some kids. I want to build something I can give myself to."
+  }
+}

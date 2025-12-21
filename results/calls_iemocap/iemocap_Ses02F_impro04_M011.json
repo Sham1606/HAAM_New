@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02F_impro04_M011",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:24:23.539117",
+  "duration_seconds": 5.98,
+  "transcript": "And there's no reason that something won't come up like really soon. All right, so you just got to...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.24,
+      "text": "And there's no reason that something won't come up like really soon.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.811,
+      "sentiment_score": -0.4103,
+      "pitch_mean": 322.75
+    },
+    {
+      "start_time": 4.24,
+      "end_time": 5.76,
+      "text": "All right, so you just got to...",
+      "emotion": "disgust",
+      "emotion_confidence": 0.499,
+      "sentiment_score": 0.3,
+      "pitch_mean": 319.38
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0551,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 190.54,
+    "avg_pitch": 323.25
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro04",
+    "utterance_id": "Ses02F_impro04_M011",
+    "transcript_ground_truth": "... and there's no reason that--that something won't come up like really soon.  All right?  So you just gotta--"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script03_2_F032",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:45:04.348724",
+  "duration_seconds": 4.04,
+  "transcript": "There aren't any people upstairs. It's a photographer studio.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "There aren't any people upstairs. It's a photographer studio.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.762,
+      "sentiment_score": -0.0591,
+      "pitch_mean": 331.11
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0591,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 133.67,
+    "avg_pitch": 329.64
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script03_2",
+    "utterance_id": "Ses02F_script03_2_F032",
+    "transcript_ground_truth": "There aren't any people upstairs.  It's a photographer's studio."
+  }
+}

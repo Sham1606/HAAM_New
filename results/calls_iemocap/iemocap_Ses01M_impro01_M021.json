@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01M_impro01_M021",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:49:09.901697",
+  "duration_seconds": 5.33,
+  "transcript": "Did you even look at the form? I've already answered these questions. Just talk to me like heaven.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Did you even look at the form? I've already answered these questions.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.525,
+      "sentiment_score": -0.1795,
+      "pitch_mean": 343.31
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "Just talk to me like heaven.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.835,
+      "sentiment_score": 0.847,
+      "pitch_mean": 347.62
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3338,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 202.63,
+    "avg_pitch": 347.62
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro01",
+    "utterance_id": "Ses01M_impro01_M021",
+    "transcript_ground_truth": "Did you even look at the form?  I've already answered these question."
+  }
+}

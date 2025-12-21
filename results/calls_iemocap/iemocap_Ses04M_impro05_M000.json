@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04M_impro05_M000",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:57:19.425407",
+  "duration_seconds": 4.96,
+  "transcript": "Yeah, hi, look. Okay, here's the thing.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Yeah, hi, look.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.414,
+      "sentiment_score": 0.4705,
+      "pitch_mean": 333.22
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "Okay, here's the thing.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.674,
+      "sentiment_score": -0.0806,
+      "pitch_mean": 336.12
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1949,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 84.68,
+    "avg_pitch": 330.87
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 2.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro05",
+    "utterance_id": "Ses04M_impro05_M000",
+    "transcript_ground_truth": "Yeah, hi.  Look--Um, okay.  Here's the thing."
+  }
+}

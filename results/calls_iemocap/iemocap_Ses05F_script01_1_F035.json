@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses05F_script01_1_F035",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:14:14.290507",
+  "duration_seconds": 5.58,
+  "transcript": "Wait a minute, tell me this. Do you mean to say that you would leave the business? The business?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Wait a minute, tell me this.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.865,
+      "sentiment_score": -0.0352,
+      "pitch_mean": 341.49
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 5.0,
+      "text": "Do you mean to say that you would leave the business?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.384,
+      "sentiment_score": -0.1183,
+      "pitch_mean": 338.58
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 6.0,
+      "text": "The business?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.833,
+      "sentiment_score": -0.0311,
+      "pitch_mean": 339.32
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0615,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "disgust": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 204.3,
+    "avg_pitch": 339.32
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_1",
+    "utterance_id": "Ses05F_script01_1_F035",
+    "transcript_ground_truth": "Wait a minute.  Tell me this.  Do you mean to say that you would leave the business?"
+  }
+}

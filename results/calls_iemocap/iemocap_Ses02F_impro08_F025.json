@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro08_F025",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:30:43.192541",
+  "duration_seconds": 5.74,
+  "transcript": "Yeah, I completely understand. It's a difficult process sometimes and we want to make traveling as easy as possible",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.54,
+      "text": "Yeah, I completely understand. It's a difficult process sometimes and we want to make traveling as easy as possible",
+      "emotion": "neutral",
+      "emotion_confidence": 0.917,
+      "sentiment_score": 0.2586,
+      "pitch_mean": 342.55
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2586,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 198.71,
+    "avg_pitch": 341.52
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro08",
+    "utterance_id": "Ses02F_impro08_F025",
+    "transcript_ground_truth": "Yeah--I completely understand.  It's a difficult process sometimes and we want to make traveling as easy as possible."
+  }
+}

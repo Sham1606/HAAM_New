@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro02_M010",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:49:04.711358",
+  "duration_seconds": 2.98,
+  "transcript": "Where you have to go? Where you going?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Where you have to go? Where you going?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.0755,
+      "pitch_mean": 331.04
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0755,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 161.07,
+    "avg_pitch": 331.04
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro02",
+    "utterance_id": "Ses05F_impro02_M010",
+    "transcript_ground_truth": "Where do you have to go?  Where are you going?"
+  }
+}

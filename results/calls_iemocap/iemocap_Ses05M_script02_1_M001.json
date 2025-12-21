@@ -1,0 +1,63 @@
+{
+  "call_id": "iemocap_Ses05M_script02_1_M001",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:05:04.386242",
+  "duration_seconds": 15.16,
+  "transcript": "No, I've got sight. Is it? Wait, is that foam? I can't even towel. Oh, actually, I guess I can't tell, but probably isn't it, isn't it? It'll probably be unmistakable, don't you think?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 8.0,
+      "text": "No, I've got sight. Is it? Wait, is that foam? I can't even towel.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.515,
+      "sentiment_score": -0.524,
+      "pitch_mean": 301.47
+    },
+    {
+      "start_time": 9.0,
+      "end_time": 13.0,
+      "text": "Oh, actually, I guess I can't tell, but probably isn't it, isn't it?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.335,
+      "sentiment_score": -0.485,
+      "pitch_mean": 311.01
+    },
+    {
+      "start_time": 13.0,
+      "end_time": 15.0,
+      "text": "It'll probably be unmistakable, don't you think?",
+      "emotion": "joy",
+      "emotion_confidence": 0.311,
+      "sentiment_score": 0.0888,
+      "pitch_mean": 322.18
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3067,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 0.333,
+      "disgust": 0.333,
+      "joy": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 134.57,
+    "avg_pitch": 306.03
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script02_1",
+    "utterance_id": "Ses05M_script02_1_M001",
+    "transcript_ground_truth": "What's that? Is that- Wait, is that foam?  I can't even tell.  Oh Actually, I guess if I can't tell then it probably isn't it, is it?  It will probably be unmistakable, don't you think?"
+  }
+}

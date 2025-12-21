@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro02_M010",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:00:58.879069",
+  "duration_seconds": 4.01,
+  "transcript": "You're smart person, there are the things you can do.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "You're smart person, there are the things you can do.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.805,
+      "sentiment_score": 0.8021,
+      "pitch_mean": 316.4
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.8021,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 149.63,
+    "avg_pitch": 316.43
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro02",
+    "utterance_id": "Ses04F_impro02_M010",
+    "transcript_ground_truth": "You're a smart person.  There are other things you can do."
+  }
+}

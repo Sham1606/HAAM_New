@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro04_M017",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:54:29.804211",
+  "duration_seconds": 1.71,
+  "transcript": "Sirulus.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.8,
+      "text": "Sirulus.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.874,
+      "sentiment_score": 0.1169,
+      "pitch_mean": 324.96
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1169,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 35.09,
+    "avg_pitch": 324.96
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro04",
+    "utterance_id": "Ses01M_impro04_M017",
+    "transcript_ground_truth": "I have a short fuse?"
+  }
+}

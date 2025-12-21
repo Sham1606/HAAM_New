@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script01_2_M014",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:17:27.575027",
+  "duration_seconds": 4.26,
+  "transcript": "All right, all right calm yourself",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.12,
+      "text": "All right, all right calm yourself",
+      "emotion": "neutral",
+      "emotion_confidence": 0.814,
+      "sentiment_score": 0.3493,
+      "pitch_mean": 324.72
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3493,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 84.51,
+    "avg_pitch": 322.98
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_2",
+    "utterance_id": "Ses05F_script01_2_M014",
+    "transcript_ground_truth": "All right, all right.  Calm yourself."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro05_F039",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:57:13.156309",
+  "duration_seconds": 6.47,
+  "transcript": "And I'm looking forward to that. However, I can't do that. I would lose my job.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "And I'm looking forward to that. However, I can't do that. I would lose my job.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.537,
+      "sentiment_score": -0.1821,
+      "pitch_mean": 337.0
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1821,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 148.34,
+    "avg_pitch": 332.39
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 3.5,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro05",
+    "utterance_id": "Ses04M_impro05_F039",
+    "transcript_ground_truth": "And I'm looking forward to that.  However, I can't do that. I would lose my job."
+  }
+}

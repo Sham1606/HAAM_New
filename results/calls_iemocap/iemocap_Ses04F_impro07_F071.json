@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro07_F071",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:15:26.863050",
+  "duration_seconds": 4.21,
+  "transcript": "Freeing nothing because you have to pay tons of money anyway",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.32,
+      "text": "Freeing nothing because you have to pay tons of money anyway",
+      "emotion": "joy",
+      "emotion_confidence": 0.389,
+      "sentiment_score": -0.7446,
+      "pitch_mean": 348.62
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7446,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 156.77,
+    "avg_pitch": 342.39
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro07",
+    "utterance_id": "Ses04F_impro07_F071",
+    "transcript_ground_truth": "Free nothing. 'Cause you have to pay tons of money anyway."
+  }
+}

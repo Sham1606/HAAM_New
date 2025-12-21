@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script01_3_F000",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:34:59.086257",
+  "duration_seconds": 4.1,
+  "transcript": "You're the only one who still loves his parents.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "You're the only one who still loves his parents.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.685,
+      "sentiment_score": 0.7513,
+      "pitch_mean": 334.83
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.7513,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 131.84,
+    "avg_pitch": 334.98
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 4.0,
+    "arousal": 1.6667,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_3",
+    "utterance_id": "Ses01F_script01_3_F000",
+    "transcript_ground_truth": "You're the only one who still loves his parents."
+  }
+}

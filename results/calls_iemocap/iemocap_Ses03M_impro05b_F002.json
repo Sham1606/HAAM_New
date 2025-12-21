@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro05b_F002",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:58:48.819326",
+  "duration_seconds": 2.51,
+  "transcript": "This is Dr. Flight 2 LAX.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "This is Dr. Flight 2 LAX.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.857,
+      "sentiment_score": 0.0345,
+      "pitch_mean": 351.21
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0345,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 143.43,
+    "avg_pitch": 345.69
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro05b",
+    "utterance_id": "Ses03M_impro05b_F002",
+    "transcript_ground_truth": "Baltimore and this is a direct flight to LAX"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02M_impro03_F025",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:50:01.851167",
+  "duration_seconds": 3.15,
+  "transcript": "Did you have a good ring? You better have a good ring.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.52,
+      "text": "Did you have a good ring?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.425,
+      "sentiment_score": 0.4335,
+      "pitch_mean": 337.45
+    },
+    {
+      "start_time": 1.52,
+      "end_time": 3.04,
+      "text": "You better have a good ring.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.662,
+      "sentiment_score": 0.5997,
+      "pitch_mean": 355.14
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5166,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 228.37,
+    "avg_pitch": 347.44
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro03",
+    "utterance_id": "Ses02M_impro03_F025",
+    "transcript_ground_truth": "Did you have a good ring? You better have had a good ring."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script03_1_M026",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:44:02.709595",
+  "duration_seconds": 5.35,
+  "transcript": "The worst one was in Khan when your curly nirons burnt a hole in my dressing gown.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "The worst one was in Khan when your curly nirons burnt a hole in my dressing gown.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.953,
+      "sentiment_score": -0.94,
+      "pitch_mean": 337.05
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.94,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 190.66,
+    "avg_pitch": 335.58
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script03_1",
+    "utterance_id": "Ses03F_script03_1_M026",
+    "transcript_ground_truth": "The worst one was in Cannes when your-your curling iron burnt a hole in my dressing gown."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script01_1_M043",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:02:14.453143",
+  "duration_seconds": 4.52,
+  "transcript": "I know I know mom alright just help me stay here",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.48,
+      "text": "I know I know mom alright just help me stay here",
+      "emotion": "disgust",
+      "emotion_confidence": 0.578,
+      "sentiment_score": 0.3003,
+      "pitch_mean": 331.27
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3003,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 146.02,
+    "avg_pitch": 325.37
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script01_1",
+    "utterance_id": "Ses02M_script01_1_M043",
+    "transcript_ground_truth": "I know I know mom. All right. Just help me stay here."
+  }
+}

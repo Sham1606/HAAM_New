@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script03_2_M022",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:15:19.590193",
+  "duration_seconds": 3.5,
+  "transcript": "No, since they've got a little bag of vending behind their bags and they snap",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.16,
+      "text": "No, since they've got a little bag of vending behind their bags and they snap",
+      "emotion": "anger",
+      "emotion_confidence": 0.925,
+      "sentiment_score": -0.3521,
+      "pitch_mean": 353.03
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3521,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 257.14,
+    "avg_pitch": 348.91
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script03_2",
+    "utterance_id": "Ses05M_script03_2_M022",
+    "transcript_ground_truth": "Nonsense, they've got a little bag of venom behind their fangs and they snap!"
+  }
+}

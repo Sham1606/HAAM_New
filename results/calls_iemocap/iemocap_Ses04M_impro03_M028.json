@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_impro03_M028",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:54:06.261853",
+  "duration_seconds": 7.24,
+  "transcript": "Well, I mean I just told her, well, I just said, you know, hey, these are my suggestions.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.0,
+      "text": "Well, I mean I just told her, well, I just said, you know, hey, these are my suggestions.",
+      "emotion": "joy",
+      "emotion_confidence": 0.331,
+      "sentiment_score": 0.1635,
+      "pitch_mean": 341.44
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1635,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 149.17,
+    "avg_pitch": 340.47
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro03",
+    "utterance_id": "Ses04M_impro03_M028",
+    "transcript_ground_truth": "Well, I mean I just told her--Well I just said, you know, hey, these are my suggestions."
+  }
+}

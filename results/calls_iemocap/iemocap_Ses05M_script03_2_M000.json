@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script03_2_M000",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:14:34.209123",
+  "duration_seconds": 5.02,
+  "transcript": "Come to think of it, the real cause of that rile was Peter Berth.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Come to think of it, the real cause of that rile was Peter Berth.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.922,
+      "sentiment_score": -0.6456,
+      "pitch_mean": 320.81
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6456,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 167.47,
+    "avg_pitch": 320.38
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script03_2",
+    "utterance_id": "Ses05M_script03_2_M000",
+    "transcript_ground_truth": "Come to think of it the real cause of that roue was Peter Burden."
+  }
+}

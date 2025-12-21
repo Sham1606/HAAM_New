@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_impro04_M032",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:08:47.978720",
+  "duration_seconds": 3.91,
+  "transcript": "Trying to be helpful and you're just like coming at me with like attacks.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Trying to be helpful and you're just like coming at me with like attacks.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.8219,
+      "pitch_mean": 329.64
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8219,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 214.57,
+    "avg_pitch": 329.64
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro04",
+    "utterance_id": "Ses04F_impro04_M032",
+    "transcript_ground_truth": "I'm trying to be helpful and you're just, like, coming at me with, like, attacks."
+  }
+}

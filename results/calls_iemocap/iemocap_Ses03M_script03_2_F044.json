@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_script03_2_F044",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:55:37.890462",
+  "duration_seconds": 14.05,
+  "transcript": "Listen up. You're your cruel fiend and I'm not a hate load you can think God finally finally think God I've realized how horrible you are and Mary you oh Mary you never never never never I will never make I'd rather die in torment",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.66,
+      "text": "Listen up. You're your cruel fiend and I'm not a hate load you can think God finally finally think God",
+      "emotion": "anger",
+      "emotion_confidence": 0.71,
+      "sentiment_score": -0.8524,
+      "pitch_mean": 376.79
+    },
+    {
+      "start_time": 5.66,
+      "end_time": 13.54,
+      "text": "I've realized how horrible you are and Mary you oh Mary you never never never never I will never make I'd rather die in torment",
+      "emotion": "fear",
+      "emotion_confidence": 0.898,
+      "sentiment_score": -0.9514,
+      "pitch_mean": 395.4
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9019,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "fear": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 192.14,
+    "avg_pitch": 386.94
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.0,
+    "arousal": 5.0,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script03_2",
+    "utterance_id": "Ses03M_script03_2_F044",
+    "transcript_ground_truth": "Listen, you're a cruel fiend and I hate, loathe you.  Thank God finally, finally thank God I've realized just how horrible you are--and marry you?  Marry you?  Never. I will never marry you.  I will die die in torment-"
+  }
+}

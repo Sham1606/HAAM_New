@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses01F_impro06_F007",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:27:09.203236",
+  "duration_seconds": 8.0,
+  "transcript": "So I was wandering around before. I always, it takes forever to find your headstone. I always lose it, you know?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "So I was wandering around before.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.591,
+      "sentiment_score": 0.0249,
+      "pitch_mean": 331.39
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 5.0,
+      "text": "I always, it takes forever to find your headstone.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.949,
+      "sentiment_score": -0.6957,
+      "pitch_mean": 329.55
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 8.0,
+      "text": "I always lose it, you know?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.341,
+      "sentiment_score": -0.8272,
+      "pitch_mean": 334.29
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4993,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "disgust": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 157.5,
+    "avg_pitch": 329.92
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro06",
+    "utterance_id": "Ses01F_impro06_F007",
+    "transcript_ground_truth": "So I was like wandering around before.  It takes forever to find her headstone; I always lose it. You know."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_impro05_F014",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:43:35.819265",
+  "duration_seconds": 8.39,
+  "transcript": "Well, there's not much I can do. You can file this report and we'll call you when it comes in.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Well, there's not much I can do.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.457,
+      "sentiment_score": -0.7774,
+      "pitch_mean": 338.8
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 7.0,
+      "text": "You can file this report and we'll call you when it comes in.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.956,
+      "sentiment_score": 0.0305,
+      "pitch_mean": 352.92
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3735,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 143.03,
+    "avg_pitch": 341.22
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.3333,
+    "arousal": 2.3333,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro05",
+    "utterance_id": "Ses05M_impro05_F014",
+    "transcript_ground_truth": "Um, well, there's not much I can do.  I can, you can file this report and we'll call you when it comes in."
+  }
+}

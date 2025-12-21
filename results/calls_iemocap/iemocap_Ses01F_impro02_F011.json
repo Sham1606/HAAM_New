@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro02_F011",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:16:51.221481",
+  "duration_seconds": 3.34,
+  "transcript": "We're doing the right thing now.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "We're doing the right thing now.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.931,
+      "sentiment_score": 0.6534,
+      "pitch_mean": 329.51
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.6534,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 107.94,
+    "avg_pitch": 329.36
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro02",
+    "utterance_id": "Ses01F_impro02_F011",
+    "transcript_ground_truth": "We're doing the right thing, though."
+  }
+}

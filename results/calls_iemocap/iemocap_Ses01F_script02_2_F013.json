@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01F_script02_2_F013",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:40:15.893383",
+  "duration_seconds": 2.39,
+  "transcript": "You don't understand anything I'm saying. No!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "You don't understand anything I'm saying.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.467,
+      "sentiment_score": -0.7074,
+      "pitch_mean": 335.25
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 2.5,
+      "text": "No!",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.3251,
+      "pitch_mean": 334.74
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1911,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 175.74,
+    "avg_pitch": 334.74
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 1.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_2",
+    "utterance_id": "Ses01F_script02_2_F013",
+    "transcript_ground_truth": "You don't understand anything I am saying."
+  }
+}

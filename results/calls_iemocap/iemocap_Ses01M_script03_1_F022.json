@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script03_1_F022",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:14:09.416760",
+  "duration_seconds": 2.49,
+  "transcript": "Does the one that's left still have?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Does the one that's left still have?",
+      "emotion": "anger",
+      "emotion_confidence": 0.348,
+      "sentiment_score": 0.0342,
+      "pitch_mean": 339.63
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0342,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 168.67,
+    "avg_pitch": 335.2
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script03_1",
+    "utterance_id": "Ses01M_script03_1_F022",
+    "transcript_ground_truth": "does the one that's left still laugh?"
+  }
+}

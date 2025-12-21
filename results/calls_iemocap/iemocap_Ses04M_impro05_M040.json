@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses04M_impro05_M040",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:58:35.427967",
+  "duration_seconds": 8.83,
+  "transcript": "Just all I need you to do is just fill out three forms and I'll leave you alone forever forever. I'll never We'll never see each other again",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "Just all I need you to do is just fill out three forms and I'll leave you alone forever forever. I'll never",
+      "emotion": "neutral",
+      "emotion_confidence": 0.925,
+      "sentiment_score": -0.4041,
+      "pitch_mean": 328.84
+    },
+    {
+      "start_time": 6.32,
+      "end_time": 8.32,
+      "text": "We'll never see each other again",
+      "emotion": "neutral",
+      "emotion_confidence": 0.558,
+      "sentiment_score": -0.6882,
+      "pitch_mean": 310.72
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5462,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 190.17,
+    "avg_pitch": 322.67
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro05",
+    "utterance_id": "Ses04M_impro05_M040",
+    "transcript_ground_truth": "Just all I need you to do is just fill out three forms and I'll leave you alone forever, forever.  I'll never -- we'll never see each other again."
+  }
+}

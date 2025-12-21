@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script01_2_F019",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:33:04.944117",
+  "duration_seconds": 3.85,
+  "transcript": "Believe Joe, you above all people have got to believe",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.4,
+      "text": "Believe Joe, you above all people have got to believe",
+      "emotion": "neutral",
+      "emotion_confidence": 0.797,
+      "sentiment_score": 0.7742,
+      "pitch_mean": 349.95
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.7742,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 155.72,
+    "avg_pitch": 347.11
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_2",
+    "utterance_id": "Ses03F_script01_2_F019",
+    "transcript_ground_truth": "Believe, Joe. You above all people have got to believe."
+  }
+}

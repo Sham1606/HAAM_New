@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro01_M032",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:49:30.814920",
+  "duration_seconds": 5.51,
+  "transcript": "Because you're obviously not talking to me, you're just yelling at me and berating me and telling me I can't fill out forms right.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Because you're obviously not talking to me, you're just yelling at me and berating me and telling me I can't fill out forms right.",
+      "emotion": "anger",
+      "emotion_confidence": 0.588,
+      "sentiment_score": -0.8884,
+      "pitch_mean": 347.54
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8884,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 261.35,
+    "avg_pitch": 351.63
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro01",
+    "utterance_id": "Ses01M_impro01_M032",
+    "transcript_ground_truth": "'Cause you're obviously not talking to me, you're just yelling at me, berating me and telling me I can't fill out forms right."
+  }
+}

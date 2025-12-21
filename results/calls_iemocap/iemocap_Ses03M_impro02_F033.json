@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro02_F033",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:50:07.844244",
+  "duration_seconds": 4.68,
+  "transcript": "I need you here. On and needs you.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I need you here. On and needs you.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.867,
+      "sentiment_score": 0.5125,
+      "pitch_mean": 329.87
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5125,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 102.65,
+    "avg_pitch": 327.72
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro02",
+    "utterance_id": "Ses03M_impro02_F033",
+    "transcript_ground_truth": "I need you here.  Anna needs you."
+  }
+}

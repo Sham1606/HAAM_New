@@ -1,0 +1,88 @@
+{
+  "call_id": "iemocap_Ses02F_script02_2_M015",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:41:15.281262",
+  "duration_seconds": 9.99,
+  "transcript": "I mean, you were you were fine during the phone call from March. Dinner was okay. Doing the dishes was no problem. Let's see. It took a shower. You watched the news.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.86,
+      "text": "I mean, you were you were fine during the phone call from March.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.661,
+      "sentiment_score": 0.2754,
+      "pitch_mean": 337.69
+    },
+    {
+      "start_time": 3.36,
+      "end_time": 4.12,
+      "text": "Dinner was okay.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.812,
+      "sentiment_score": 0.8044,
+      "pitch_mean": 347.02
+    },
+    {
+      "start_time": 4.12,
+      "end_time": 5.72,
+      "text": "Doing the dishes was no problem.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.668,
+      "sentiment_score": 0.1679,
+      "pitch_mean": 315.43
+    },
+    {
+      "start_time": 6.52,
+      "end_time": 7.0,
+      "text": "Let's see.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.798,
+      "sentiment_score": 0.2334,
+      "pitch_mean": 321.38
+    },
+    {
+      "start_time": 7.68,
+      "end_time": 8.48,
+      "text": "It took a shower.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.784,
+      "sentiment_score": 0.0574,
+      "pitch_mean": 327.78
+    },
+    {
+      "start_time": 8.48,
+      "end_time": 9.48,
+      "text": "You watched the news.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.818,
+      "sentiment_score": -0.0251,
+      "pitch_mean": 323.02
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2522,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 192.19,
+    "avg_pitch": 330.67
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script02_2",
+    "utterance_id": "Ses02F_script02_2_M015",
+    "transcript_ground_truth": "I mean, you were-  you were fine during the phone call from Marge.  Dinner was okay.  Doing the dishes was no problem.  Let's see.  I took a shower.  You watched the news."
+  }
+}

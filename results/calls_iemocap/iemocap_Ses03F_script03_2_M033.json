@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script03_2_M033",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:46:38.152251",
+  "duration_seconds": 3.29,
+  "transcript": "It's very late and it will annoy the people upstairs.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "It's very late and it will annoy the people upstairs.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.414,
+      "sentiment_score": -0.8021,
+      "pitch_mean": 333.17
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8021,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 182.24,
+    "avg_pitch": 332.1
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script03_2",
+    "utterance_id": "Ses03F_script03_2_M033",
+    "transcript_ground_truth": "It's very late and it will annoy the people upstairs."
+  }
+}

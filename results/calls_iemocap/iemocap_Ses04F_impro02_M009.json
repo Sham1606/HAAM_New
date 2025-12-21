@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04F_impro02_M009",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:00:56.524963",
+  "duration_seconds": 6.53,
+  "transcript": "I know it's just... You don't have to do this for a living, you know?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I know it's just...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.852,
+      "sentiment_score": -0.1284,
+      "pitch_mean": 333.52
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 6.0,
+      "text": "You don't have to do this for a living, you know?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.526,
+      "sentiment_score": -0.6114,
+      "pitch_mean": 318.13
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3699,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 137.83,
+    "avg_pitch": 324.65
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro02",
+    "utterance_id": "Ses04F_impro02_M009",
+    "transcript_ground_truth": "I know.  It's just you don't have to do this for a living you know."
+  }
+}

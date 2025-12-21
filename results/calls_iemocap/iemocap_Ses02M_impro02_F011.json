@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro02_F011",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:48:29.836762",
+  "duration_seconds": 4.14,
+  "transcript": "It doesn't make any sense. I don't know why we have to be more of the first place.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "It doesn't make any sense. I don't know why we have to be more of the first place.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.669,
+      "sentiment_score": -0.9111,
+      "pitch_mean": 355.2
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9111,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 261.11,
+    "avg_pitch": 353.3
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro02",
+    "utterance_id": "Ses02M_impro02_F011",
+    "transcript_ground_truth": "It doesn't make any sense; I don't know why we have to be at war in the first place."
+  }
+}

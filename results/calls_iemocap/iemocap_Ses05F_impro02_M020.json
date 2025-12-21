@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro02_M020",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:49:24.408676",
+  "duration_seconds": 4.15,
+  "transcript": "She doesn't even like me, she's never like me. No.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "She doesn't even like me, she's never like me. No.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.675,
+      "sentiment_score": -0.8869,
+      "pitch_mean": 339.46
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8869,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 144.58,
+    "avg_pitch": 339.49
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro02",
+    "utterance_id": "Ses05F_impro02_M020",
+    "transcript_ground_truth": "She doesn't even like me.  She's never liked me. No."
+  }
+}

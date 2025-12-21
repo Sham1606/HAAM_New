@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses02M_script02_2_M044",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:10:43.685234",
+  "duration_seconds": 3.8,
+  "transcript": "You're still cold. You're all my jacket. I'm going to go home.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "You're still cold.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.39,
+      "sentiment_score": -0.3114,
+      "pitch_mean": 313.56
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 2.0,
+      "text": "You're all my jacket.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.418,
+      "sentiment_score": 0.5036,
+      "pitch_mean": 329.31
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "I'm going to go home.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.895,
+      "sentiment_score": 0.3546,
+      "pitch_mean": 316.29
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1823,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 189.47,
+    "avg_pitch": 318.32
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script02_2",
+    "utterance_id": "Ses02M_script02_2_M044",
+    "transcript_ground_truth": "You still cold? Do you want my jacket? Do you want to go home?"
+  }
+}

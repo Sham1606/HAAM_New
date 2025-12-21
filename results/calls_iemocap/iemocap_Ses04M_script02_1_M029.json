@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses04M_script02_1_M029",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:11:31.798670",
+  "duration_seconds": 13.02,
+  "transcript": "Out there, some places is a huge mass of silverfish heading this way. They don't know why, we don't know why, it wasn't a decision, they didn't take a vote. No one sent them an invitation or a map.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Out there, some places is a huge mass of silverfish heading this way.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.574,
+      "sentiment_score": -0.2444,
+      "pitch_mean": 316.16
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 10.0,
+      "text": "They don't know why, we don't know why, it wasn't a decision, they didn't take a vote.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.588,
+      "sentiment_score": -0.8166,
+      "pitch_mean": 309.82
+    },
+    {
+      "start_time": 10.0,
+      "end_time": 13.0,
+      "text": "No one sent them an invitation or a map.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.459,
+      "sentiment_score": -0.4499,
+      "pitch_mean": 295.82
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5036,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "disgust": 0.333,
+      "neutral": 0.667
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 179.67,
+    "avg_pitch": 310.17
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script02_1",
+    "utterance_id": "Ses04M_script02_1_M029",
+    "transcript_ground_truth": "Out there someplace is this huge mass of silver fish heading this way.  They don't know why.  We don't know why.  It wasn't a decision.  They didn't take a vote.  No one sent them an invitation or a map;"
+  }
+}

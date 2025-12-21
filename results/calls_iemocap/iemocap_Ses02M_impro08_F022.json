@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro08_F022",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:58:17.016147",
+  "duration_seconds": 1.79,
+  "transcript": "Yes, absolutely.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Yes, absolutely.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.785,
+      "sentiment_score": 0.5455,
+      "pitch_mean": 346.58
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5455,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 67.12,
+    "avg_pitch": 346.58
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.3333,
+    "arousal": 3.3333,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro08",
+    "utterance_id": "Ses02M_impro08_F022",
+    "transcript_ground_truth": "Yes, absolutely."
+  }
+}

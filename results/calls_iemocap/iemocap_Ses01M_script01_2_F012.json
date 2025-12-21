@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses01M_script01_2_F012",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:04:20.853708",
+  "duration_seconds": 8.99,
+  "transcript": "Believe with me Joe, you've got to believe. Recall yourself. Don't leave last week, a bum boy came back missing longer than Larry. You read it yourself.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.68,
+      "text": "Believe with me Joe, you've got to believe.",
+      "emotion": "anger",
+      "emotion_confidence": 0.428,
+      "sentiment_score": 0.7521,
+      "pitch_mean": 392.4
+    },
+    {
+      "start_time": 2.68,
+      "end_time": 3.52,
+      "text": "Recall yourself.",
+      "emotion": "anger",
+      "emotion_confidence": 0.519,
+      "sentiment_score": 0.1195,
+      "pitch_mean": 334.58
+    },
+    {
+      "start_time": 3.52,
+      "end_time": 7.52,
+      "text": "Don't leave last week, a bum boy came back missing longer than Larry.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.911,
+      "sentiment_score": -0.907,
+      "pitch_mean": 388.7
+    },
+    {
+      "start_time": 7.52,
+      "end_time": 8.92,
+      "text": "You read it yourself.",
+      "emotion": "anger",
+      "emotion_confidence": 0.638,
+      "sentiment_score": -0.0121,
+      "pitch_mean": 380.96
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0119,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.75,
+      "sadness": 0.25
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 180.2,
+    "avg_pitch": 378.53
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_2",
+    "utterance_id": "Ses01M_script01_2_F012",
+    "transcript_ground_truth": "Believe with me Joe, you got to believe. Only last week a boy came back missing longer then Larry you read it yourself."
+  }
+}

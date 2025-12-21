@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_script01_1_F016",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:37:29.939417",
+  "duration_seconds": 8.82,
+  "transcript": "No, this is goddamn newspapers is what it is. Every month there's a new boy comes home and he's Larry's gonna be the next one.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.24,
+      "text": "No, this is goddamn newspapers is what it is.",
+      "emotion": "anger",
+      "emotion_confidence": 0.723,
+      "sentiment_score": -0.8928,
+      "pitch_mean": 323.59
+    },
+    {
+      "start_time": 3.24,
+      "end_time": 8.38,
+      "text": "Every month there's a new boy comes home and he's Larry's gonna be the next one.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.401,
+      "sentiment_score": 0.4214,
+      "pitch_mean": 357.65
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2357,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 169.99,
+    "avg_pitch": 338.64
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_1",
+    "utterance_id": "Ses03M_script01_1_F016",
+    "transcript_ground_truth": "No.  It's his god damned newspapers is what it is.  Now every month there's a new boy comes home and Larry's going to be the next one."
+  }
+}

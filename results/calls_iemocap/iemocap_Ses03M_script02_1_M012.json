@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script02_1_M012",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:46:27.250900",
+  "duration_seconds": 3.83,
+  "transcript": "Are you cold? Do you want my jacket?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Are you cold? Do you want my jacket?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.445,
+      "sentiment_score": -0.1454,
+      "pitch_mean": 326.53
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1454,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 125.46,
+    "avg_pitch": 323.06
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_1",
+    "utterance_id": "Ses03M_script02_1_M012",
+    "transcript_ground_truth": "Are you cold?  Do you want my jacket?"
+  }
+}

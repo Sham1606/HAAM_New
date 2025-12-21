@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script03_1_M006",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:41:10.507492",
+  "duration_seconds": 3.37,
+  "transcript": "What shall we do if they suddenly walk in on us?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "What shall we do if they suddenly walk in on us?",
+      "emotion": "fear",
+      "emotion_confidence": 0.708,
+      "sentiment_score": -0.0909,
+      "pitch_mean": 334.86
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0909,
+    "dominant_emotion": "fear",
+    "emotion_distribution": {
+      "fear": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 195.93,
+    "avg_pitch": 333.93
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script03_1",
+    "utterance_id": "Ses04F_script03_1_M006",
+    "transcript_ground_truth": "What shall we do if they suddenly walk in on us?"
+  }
+}

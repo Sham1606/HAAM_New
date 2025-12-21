@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro07_F022",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:25:26.292197",
+  "duration_seconds": 4.16,
+  "transcript": "I'm so excited. Yeah, I even thought it was gonna be a little bossing but then",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.5,
+      "text": "I'm so excited. Yeah, I even thought it was gonna be a little bossing but then",
+      "emotion": "joy",
+      "emotion_confidence": 0.802,
+      "sentiment_score": 0.9783,
+      "pitch_mean": 332.16
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9783,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 230.82,
+    "avg_pitch": 330.34
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 2.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro07",
+    "utterance_id": "Ses03F_impro07_F022",
+    "transcript_ground_truth": "I'm so excited. Yeah, I thought I was going to go to Boston, but then--"
+  }
+}

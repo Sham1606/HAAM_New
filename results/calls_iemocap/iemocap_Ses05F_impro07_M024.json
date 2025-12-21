@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro07_M024",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:09:40.858273",
+  "duration_seconds": 3.67,
+  "transcript": "Ah, I do.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 12.68,
+      "text": "Ah, I do.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.862,
+      "sentiment_score": 0.6563,
+      "pitch_mean": 342.03
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.6563,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 49.05,
+    "avg_pitch": 342.03
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro07",
+    "utterance_id": "Ses05F_impro07_M024",
+    "transcript_ground_truth": "Woo- I I do."
+  }
+}

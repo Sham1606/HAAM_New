@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro02_M003",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:48:42.628205",
+  "duration_seconds": 6.89,
+  "transcript": "Stay and dangerous anywhere. I mean this is this I'm just gonna go and we'll get it get it over with",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.58,
+      "text": "Stay and dangerous anywhere. I mean this is this I'm just gonna go and we'll get it get it over with",
+      "emotion": "disgust",
+      "emotion_confidence": 0.485,
+      "sentiment_score": -0.8548,
+      "pitch_mean": 316.31
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8548,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 182.86,
+    "avg_pitch": 316.42
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro02",
+    "utterance_id": "Ses02M_impro02_M003",
+    "transcript_ground_truth": "It's- It's dangerous anywhere, honey. I mean this is -this- I'm just going to go and we'll get it over with,"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro02_M031",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:36:38.223059",
+  "duration_seconds": 4.69,
+  "transcript": "Then I'll get to see you now, I get to see you later at least, you know. You gotta keep it all from me, alright?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.5,
+      "text": "Then I'll get to see you now, I get to see you later at least, you know. You gotta keep it all from me, alright?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.768,
+      "sentiment_score": 0.5106,
+      "pitch_mean": 329.55
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5106,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 319.83,
+    "avg_pitch": 329.82
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 3.3333,
+    "dominance": 3.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro02",
+    "utterance_id": "Ses05M_impro02_M031",
+    "transcript_ground_truth": "If I don't get to see it now, I get to see it later at least, you know?  You've got to keep it all for me; all right?"
+  }
+}

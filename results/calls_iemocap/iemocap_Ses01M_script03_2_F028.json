@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01M_script03_2_F028",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:16:57.590960",
+  "duration_seconds": 6.1,
+  "transcript": "Of the contrary, a childhood two could get violently drunk on only one glass of brandy.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.3,
+      "text": "Of the contrary, a childhood two could get violently drunk on only one glass of",
+      "emotion": "anger",
+      "emotion_confidence": 0.49,
+      "sentiment_score": -0.3578,
+      "pitch_mean": 362.9
+    },
+    {
+      "start_time": 5.3,
+      "end_time": 7.3,
+      "text": "brandy.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.852,
+      "sentiment_score": 0.1585,
+      "pitch_mean": 358.82
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0996,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 157.38,
+    "avg_pitch": 358.82
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script03_2",
+    "utterance_id": "Ses01M_script03_2_F028",
+    "transcript_ground_truth": "On the contrary, a child two could get violently drunk on only one glass of brandy."
+  }
+}

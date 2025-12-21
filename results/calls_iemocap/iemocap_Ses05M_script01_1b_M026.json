@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script01_1b_M026",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:58:43.943514",
+  "duration_seconds": 3.33,
+  "transcript": "So what, I'm not fast with women, actually.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "So what, I'm not fast with women, actually.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.725,
+      "sentiment_score": -0.4264,
+      "pitch_mean": 334.37
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4264,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 144.14,
+    "avg_pitch": 333.07
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_1b",
+    "utterance_id": "Ses05M_script01_1b_M026",
+    "transcript_ground_truth": "So what, I'm not fast with women?"
+  }
+}

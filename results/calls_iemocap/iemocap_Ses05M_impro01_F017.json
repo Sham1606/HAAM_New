@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro01_F017",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:33:10.447489",
+  "duration_seconds": 2.77,
+  "transcript": "There's no way I can make an exception.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "There's no way I can make an exception.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.611,
+      "sentiment_score": -0.6351,
+      "pitch_mean": 380.65
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6351,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 173.29,
+    "avg_pitch": 357.63
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro01",
+    "utterance_id": "Ses05M_impro01_F017",
+    "transcript_ground_truth": "I -- there's no way I'd make an exception."
+  }
+}

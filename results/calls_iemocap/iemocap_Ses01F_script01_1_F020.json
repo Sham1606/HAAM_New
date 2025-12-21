@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script01_1_F020",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:31:51.949312",
+  "duration_seconds": 4.85,
+  "transcript": "Ignore him. Oh, I ignore what I got to ignore that girl is Larry's girl",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.98,
+      "text": "Ignore him. Oh, I ignore what I got to ignore that girl is Larry's girl",
+      "emotion": "anger",
+      "emotion_confidence": 0.415,
+      "sentiment_score": -0.5904,
+      "pitch_mean": 367.75
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5904,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 185.57,
+    "avg_pitch": 371.94
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.3333,
+    "arousal": 4.0,
+    "dominance": 4.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script01_1",
+    "utterance_id": "Ses01F_script01_1_F020",
+    "transcript_ground_truth": "Oh.  I ignore what I got to ignore.  That girl is Larry's girl."
+  }
+}

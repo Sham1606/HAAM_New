@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_impro01_F017",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:47:50.208732",
+  "duration_seconds": 1.69,
+  "transcript": "Sir! The big legs!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "Sir!",
+      "emotion": "disgust",
+      "emotion_confidence": 0.377,
+      "sentiment_score": 0.6133,
+      "pitch_mean": 348.8
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 2.0,
+      "text": "The big legs!",
+      "emotion": "neutral",
+      "emotion_confidence": 0.63,
+      "sentiment_score": 0.8283,
+      "pitch_mean": 337.61
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.7208,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 142.09,
+    "avg_pitch": 337.61
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro01",
+    "utterance_id": "Ses03M_impro01_F017",
+    "transcript_ground_truth": "Sir-"
+  }
+}

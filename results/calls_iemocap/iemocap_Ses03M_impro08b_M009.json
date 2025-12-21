@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro08b_M009",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:36:00.119268",
+  "duration_seconds": 8.0,
+  "transcript": "You might have an older phone where we would use SIM card but probably not.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 8.0,
+      "text": "You might have an older phone where we would use SIM card but probably not.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.943,
+      "sentiment_score": -0.1126,
+      "pitch_mean": 341.72
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1126,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 112.5,
+    "avg_pitch": 341.72
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro08b",
+    "utterance_id": "Ses03M_impro08b_M009",
+    "transcript_ground_truth": "you might have an older phone where we would use sim cards but probably not."
+  }
+}

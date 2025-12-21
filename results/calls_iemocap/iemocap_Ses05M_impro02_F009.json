@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro02_F009",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:34:45.148715",
+  "duration_seconds": 4.31,
+  "transcript": "There's gotta be something we can do. You can't just go.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "There's gotta be something we can do. You can't just go.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.944,
+      "sentiment_score": -0.065,
+      "pitch_mean": 340.53
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.065,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 153.13,
+    "avg_pitch": 338.89
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.6667,
+    "arousal": 3.6667,
+    "dominance": 3.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro02",
+    "utterance_id": "Ses05M_impro02_F009",
+    "transcript_ground_truth": "There's got to be something we can do.  You can't just go."
+  }
+}

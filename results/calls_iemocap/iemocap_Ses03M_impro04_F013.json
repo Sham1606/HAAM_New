@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_impro04_F013",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:54:44.210683",
+  "duration_seconds": 8.45,
+  "transcript": "You need me help finding place. I can I can talk to my work. You know work at that law firm downtown And I can ask if they're looking for anybody",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.68,
+      "text": "You need me help finding place. I can I can talk to my work. You know work at that law firm downtown",
+      "emotion": "neutral",
+      "emotion_confidence": 0.815,
+      "sentiment_score": 0.1085,
+      "pitch_mean": 344.65
+    },
+    {
+      "start_time": 5.68,
+      "end_time": 7.68,
+      "text": "And I can ask if they're looking for anybody",
+      "emotion": "neutral",
+      "emotion_confidence": 0.935,
+      "sentiment_score": 0.0095,
+      "pitch_mean": 334.62
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.059,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 220.12,
+    "avg_pitch": 340.94
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro04",
+    "utterance_id": "Ses03M_impro04_F013",
+    "transcript_ground_truth": "You know if you need any help finding a place I can, I can talk to my work you know I work at that law firm downtown and I can ask if they're looking for anybody."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_impro02_F019",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:49:42.674219",
+  "duration_seconds": 7.44,
+  "transcript": "You could, you really could, you could get into another line of work. I could start working after Anna's born.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.64,
+      "text": "You could, you really could, you could get into another line of work.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.843,
+      "sentiment_score": 0.5394,
+      "pitch_mean": 338.99
+    },
+    {
+      "start_time": 4.64,
+      "end_time": 7.0,
+      "text": "I could start working after Anna's born.",
+      "emotion": "joy",
+      "emotion_confidence": 0.571,
+      "sentiment_score": 0.179,
+      "pitch_mean": 352.42
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3592,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "joy": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 161.25,
+    "avg_pitch": 340.02
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro02",
+    "utterance_id": "Ses03M_impro02_F019",
+    "transcript_ground_truth": "You could.  You really could.  You could-- --get into another line of work.  I could start working after Anna's born?"
+  }
+}

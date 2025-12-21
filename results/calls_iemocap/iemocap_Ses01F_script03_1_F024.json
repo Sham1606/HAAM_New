@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_script03_1_F024",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:43:48.497494",
+  "duration_seconds": 5.07,
+  "transcript": "Oh Charles! Oh that was just me! We did Wiggle so beautifully!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.5,
+      "text": "Oh Charles! Oh that was just me! We did Wiggle so beautifully!",
+      "emotion": "neutral",
+      "emotion_confidence": 0.783,
+      "sentiment_score": 0.9645,
+      "pitch_mean": 355.46
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9645,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 142.01,
+    "avg_pitch": 352.88
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 5.0,
+    "arousal": 4.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script03_1",
+    "utterance_id": "Ses01F_script03_1_F024",
+    "transcript_ground_truth": "Oh Charles, that was his name.  He did wiggle so beautifully."
+  }
+}

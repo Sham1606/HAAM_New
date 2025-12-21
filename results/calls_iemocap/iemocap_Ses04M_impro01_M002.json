@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses04M_impro01_M002",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:46:57.636357",
+  "duration_seconds": 11.02,
+  "transcript": "that she gave to me earlier and she said, oh I gave you the wrong one by accident so I was hoping I could just fill out a new one, give it to you and sort of skip this whole line. Okay, I'll do.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.78,
+      "text": "that she gave to me earlier and she said,",
+      "emotion": "disgust",
+      "emotion_confidence": 0.368,
+      "sentiment_score": 0.0548,
+      "pitch_mean": 321.84
+    },
+    {
+      "start_time": 2.78,
+      "end_time": 7.38,
+      "text": "oh I gave you the wrong one by accident so I was hoping I could just fill out a new one,",
+      "emotion": "joy",
+      "emotion_confidence": 0.368,
+      "sentiment_score": -0.6675,
+      "pitch_mean": 339.3
+    },
+    {
+      "start_time": 7.38,
+      "end_time": 9.82,
+      "text": "give it to you and sort of skip this whole line.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.912,
+      "sentiment_score": -0.1015,
+      "pitch_mean": 314.24
+    },
+    {
+      "start_time": 9.82,
+      "end_time": 10.98,
+      "text": "Okay, I'll do.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.439,
+      "sentiment_score": 0.4649,
+      "pitch_mean": 336.78
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0623,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "joy": 0.25,
+      "neutral": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 239.55,
+    "avg_pitch": 329.06
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro01",
+    "utterance_id": "Ses04M_impro01_M002",
+    "transcript_ground_truth": "that she gave to me earlier. And she said oh, I gave you the wrong one by accident.  So I was hoping I could just fill out a new one, give it to you and sort of skip this whole line business."
+  }
+}

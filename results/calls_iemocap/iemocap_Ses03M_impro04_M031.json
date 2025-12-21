@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro04_M031",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:56:25.977258",
+  "duration_seconds": 1.66,
+  "transcript": "Whenever I sit back in the open,",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.66,
+      "text": "Whenever I sit back in the open,",
+      "emotion": "sadness",
+      "emotion_confidence": 0.403,
+      "sentiment_score": 0.0519,
+      "pitch_mean": 318.72
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0519,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 253.01,
+    "avg_pitch": 318.72
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 1.5,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro04",
+    "utterance_id": "Ses03M_impro04_M031",
+    "transcript_ground_truth": "I was just joking..."
+  }
+}

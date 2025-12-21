@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script03_2_F007",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:12:54.381400",
+  "duration_seconds": 4.96,
+  "transcript": "Well, if your henmans are nosy and suspicious, you never know anything about it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Well, if your henmans are nosy and suspicious, you never know anything about it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.6,
+      "sentiment_score": -0.4527,
+      "pitch_mean": 356.75
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4527,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 169.47,
+    "avg_pitch": 356.75
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script03_2",
+    "utterance_id": "Ses02M_script03_2_F007",
+    "transcript_ground_truth": "Well, if you hadn't been so nosey and suspicious you never wouldn't have known anything about it."
+  }
+}

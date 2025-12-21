@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro05a_F028",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:57:46.661968",
+  "duration_seconds": 1.29,
+  "transcript": "What is your maker?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "What is your maker?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.681,
+      "sentiment_score": 0.0317,
+      "pitch_mean": 358.7
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0317,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 186.06,
+    "avg_pitch": 358.7
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro05a",
+    "utterance_id": "Ses03M_impro05a_F028",
+    "transcript_ground_truth": "What is your name?"
+  }
+}

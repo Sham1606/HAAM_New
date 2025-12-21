@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses03M_script01_2_M017",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:42:14.046476",
+  "duration_seconds": 5.99,
+  "transcript": "What do I got to hide? Huh? What the hell's the matter with you, Kate?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "What do I got to hide?",
+      "emotion": "anger",
+      "emotion_confidence": 0.363,
+      "sentiment_score": -0.3954,
+      "pitch_mean": 328.4
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "Huh?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.935,
+      "sentiment_score": -0.0404,
+      "pitch_mean": 316.74
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 5.0,
+      "text": "What the hell's the matter with you, Kate?",
+      "emotion": "anger",
+      "emotion_confidence": 0.716,
+      "sentiment_score": -0.9404,
+      "pitch_mean": 332.66
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4587,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.667,
+      "neutral": 0.333
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 150.21,
+    "avg_pitch": 323.96
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_2",
+    "utterance_id": "Ses03M_script01_2_M017",
+    "transcript_ground_truth": "What do I got to hide?  Huh?  What the hell's the matter with you Kate?"
+  }
+}

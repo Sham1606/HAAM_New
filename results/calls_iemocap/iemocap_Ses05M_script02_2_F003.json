@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses05M_script02_2_F003",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:06:49.869694",
+  "duration_seconds": 11.09,
+  "transcript": "Sure, everybody's told the same thing. It keeps us all excited. It keeps us coming back for more. It keeps us thinking that life is going to start now any minute if we can just run the right spot and get in on the action.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.08,
+      "text": "Sure, everybody's told the same thing. It keeps us all excited. It keeps us coming back for more.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.423,
+      "sentiment_score": 0.9146,
+      "pitch_mean": 339.66
+    },
+    {
+      "start_time": 5.08,
+      "end_time": 8.48,
+      "text": "It keeps us thinking that life is going to start now any minute if we can just",
+      "emotion": "neutral",
+      "emotion_confidence": 0.865,
+      "sentiment_score": 0.1425,
+      "pitch_mean": 368.22
+    },
+    {
+      "start_time": 8.48,
+      "end_time": 10.48,
+      "text": "run the right spot and get in on the action.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.957,
+      "sentiment_score": 0.265,
+      "pitch_mean": 339.09
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4407,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "disgust": 0.333,
+      "neutral": 0.667
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 243.46,
+    "avg_pitch": 344.65
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.3333,
+    "arousal": 3.3333,
+    "dominance": 3.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script02_2",
+    "utterance_id": "Ses05M_script02_2_F003",
+    "transcript_ground_truth": "Sure.  Everybody is told the same thing, it keeps us all excited.  It keeps us all coming back for more.  It keeps us thinking that life is gonna start now any minute if we can just find the right spot and get in on the action."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses04M_impro02_F006",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:48:15.968047",
+  "duration_seconds": 9.81,
+  "transcript": "You've made a pledge to us too. Remember that day we stood in front of each other and said till death to us part put on some rings and it's supposed to mean something.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "You've made a pledge to us too.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.846,
+      "sentiment_score": 0.2727,
+      "pitch_mean": 337.41
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 9.0,
+      "text": "Remember that day we stood in front of each other and said till death to us part put on some rings and it's supposed to mean something.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.772,
+      "sentiment_score": 0.0829,
+      "pitch_mean": 349.4
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1778,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 207.95,
+    "avg_pitch": 336.97
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro02",
+    "utterance_id": "Ses04M_impro02_F006",
+    "transcript_ground_truth": "You've made a pledge to us, too.  Remember that day, we stood in front of each other and said 'til death do us part.  Put on some rings and it's supposed to mean something."
+  }
+}

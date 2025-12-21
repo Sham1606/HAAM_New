@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05M_impro08_M020",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:52:09.798591",
+  "duration_seconds": 7.05,
+  "transcript": "Well, if it does happen again, let me give you my direct number and you can call me actually I'll give you my cell number It's",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.12,
+      "text": "Well, if it does happen again, let me give you my direct number and you can call me actually I'll give you my cell number",
+      "emotion": "neutral",
+      "emotion_confidence": 0.92,
+      "sentiment_score": -0.0244,
+      "pitch_mean": 333.29
+    },
+    {
+      "start_time": 5.12,
+      "end_time": 7.12,
+      "text": "It's",
+      "emotion": "neutral",
+      "emotion_confidence": 0.671,
+      "sentiment_score": 0.2988,
+      "pitch_mean": 330.32
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1372,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 221.28,
+    "avg_pitch": 330.32
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro08",
+    "utterance_id": "Ses05M_impro08_M020",
+    "transcript_ground_truth": "Well, if it does happen again, let me give you my direct number and you can call me.  Actually, I'll give you my cell number. Um- It's --"
+  }
+}

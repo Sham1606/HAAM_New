@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses02M_impro02_M000",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:48:37.514709",
+  "duration_seconds": 8.06,
+  "transcript": "I know, I know, I don't want to go either way. I love you, you know. I'm gonna miss you a lot.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I know, I know, I don't want to go either way.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.367,
+      "sentiment_score": -0.7457,
+      "pitch_mean": 317.69
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 5.0,
+      "text": "I love you, you know.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.688,
+      "sentiment_score": 0.9325,
+      "pitch_mean": 313.83
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 7.0,
+      "text": "I'm gonna miss you a lot.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.97,
+      "sentiment_score": -0.0516,
+      "pitch_mean": 308.26
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0451,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "disgust": 0.333,
+      "sadness": 0.667
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 163.7,
+    "avg_pitch": 313.39
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro02",
+    "utterance_id": "Ses02M_impro02_M000",
+    "transcript_ground_truth": "I know, I know. I don't want to go either baby. I love you know. And I'm going to miss you a lot."
+  }
+}

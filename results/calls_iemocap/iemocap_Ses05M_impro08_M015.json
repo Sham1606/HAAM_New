@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro08_M015",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:51:56.009283",
+  "duration_seconds": 1.1,
+  "transcript": "and hit enter.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "and hit enter.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.901,
+      "sentiment_score": 0.1147,
+      "pitch_mean": 312.84
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1147,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 163.64,
+    "avg_pitch": 309.7
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro08",
+    "utterance_id": "Ses05M_impro08_M015",
+    "transcript_ground_truth": "And hit enter."
+  }
+}

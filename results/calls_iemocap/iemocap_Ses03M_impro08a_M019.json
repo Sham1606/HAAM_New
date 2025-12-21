@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_impro08a_M019",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:34:04.803768",
+  "duration_seconds": 9.82,
+  "transcript": "What I can do for you, if you want to make a call right now, I can contact you through a computer, I can call through my phone, and you can speak through me.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.88,
+      "text": "What I can do for you, if you want to make a call right now, I can contact you through",
+      "emotion": "neutral",
+      "emotion_confidence": 0.768,
+      "sentiment_score": 0.1875,
+      "pitch_mean": 331.17
+    },
+    {
+      "start_time": 5.88,
+      "end_time": 9.12,
+      "text": "a computer, I can call through my phone, and you can speak through me.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.901,
+      "sentiment_score": 0.1378,
+      "pitch_mean": 317.17
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1626,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 207.74,
+    "avg_pitch": 327.02
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro08a",
+    "utterance_id": "Ses03M_impro08a_M019",
+    "transcript_ground_truth": "What I can do for you, if you want to make a call right now I could contact you through our computer.  I can call through my phone and you can speak through me."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script01_2_M018",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:03:22.181983",
+  "duration_seconds": 4.97,
+  "transcript": "What if I got to hide? What the hell is the matter with you, Kate?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.16,
+      "text": "What if I got to hide? What the hell is the matter with you, Kate?",
+      "emotion": "anger",
+      "emotion_confidence": 0.615,
+      "sentiment_score": -0.8829,
+      "pitch_mean": 341.9
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8829,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 181.09,
+    "avg_pitch": 336.61
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.6667,
+    "arousal": 3.3333,
+    "dominance": 4.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script01_2",
+    "utterance_id": "Ses02M_script01_2_M018",
+    "transcript_ground_truth": "What have I got to hide? What the hell is the matter with you, Kate?"
+  }
+}

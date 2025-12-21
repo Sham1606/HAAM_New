@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02M_script02_1_M032",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:07:21.140756",
+  "duration_seconds": 8.64,
+  "transcript": "And then last year, I remember specifically you were so excited that you stubbed your toe on the way pushing me out of the house And you didn't even notice until we got in the car",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.24,
+      "text": "And then last year, I remember specifically you were so excited that you stubbed your toe on the way pushing me out of the house",
+      "emotion": "disgust",
+      "emotion_confidence": 0.381,
+      "sentiment_score": 0.419,
+      "pitch_mean": 325.02
+    },
+    {
+      "start_time": 6.24,
+      "end_time": 8.24,
+      "text": "And you didn't even notice until we got in the car",
+      "emotion": "anger",
+      "emotion_confidence": 0.453,
+      "sentiment_score": -0.3026,
+      "pitch_mean": 337.04
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0582,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 250.0,
+    "avg_pitch": 327.83
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script02_1",
+    "utterance_id": "Ses02M_script02_1_M032",
+    "transcript_ground_truth": "And then last year I remember specifically you were so excited that you stubbed your toe on the way pushing me out of the house, and you didn't even notice until we got in the car."
+  }
+}

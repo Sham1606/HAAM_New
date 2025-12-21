@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro02_F010",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:49:27.356845",
+  "duration_seconds": 5.63,
+  "transcript": "You can't we need you I need you",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.36,
+      "text": "You can't we need you I need you",
+      "emotion": "disgust",
+      "emotion_confidence": 0.444,
+      "sentiment_score": 0.1423,
+      "pitch_mean": 325.19
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1423,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 85.24,
+    "avg_pitch": 323.33
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro02",
+    "utterance_id": "Ses03M_impro02_F010",
+    "transcript_ground_truth": "You can't.  We need you.  I need you."
+  }
+}

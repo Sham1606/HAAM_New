@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script01_1_F022",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:29:54.462310",
+  "duration_seconds": 5.61,
+  "transcript": "What is, I mean, what do you want me to do? You're grown up. You know what's going on in your mind.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "What is, I mean, what do you want me to do? You're grown up. You know what's going on in your mind.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.493,
+      "sentiment_score": -0.4139,
+      "pitch_mean": 353.64
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4139,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 235.26,
+    "avg_pitch": 345.12
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.3333,
+    "arousal": 4.0,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_1",
+    "utterance_id": "Ses03F_script01_1_F022",
+    "transcript_ground_truth": "Well, it is. I mean, what do you want me to do? You're grown up; you know what's going on in your mind."
+  }
+}

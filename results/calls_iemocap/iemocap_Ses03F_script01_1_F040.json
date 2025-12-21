@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03F_script01_1_F040",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:30:30.475403",
+  "duration_seconds": 6.16,
+  "transcript": "Just listen. Give it more thought, it's all.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Just listen.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.809,
+      "sentiment_score": 0.1824,
+      "pitch_mean": 314.38
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 5.0,
+      "text": "Give it more thought, it's all.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.886,
+      "sentiment_score": 0.0487,
+      "pitch_mean": 330.15
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1156,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 77.95,
+    "avg_pitch": 320.27
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 3.0,
+    "arousal": 3.3333,
+    "dominance": 3.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_1",
+    "utterance_id": "Ses03F_script01_1_F040",
+    "transcript_ground_truth": "Just, listen. Give it more thought, is all."
+  }
+}

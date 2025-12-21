@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script02_2_M003",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:08:29.573303",
+  "duration_seconds": 2.49,
+  "transcript": "I'm not the only one look at all these people",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I'm not the only one look at all these people",
+      "emotion": "neutral",
+      "emotion_confidence": 0.722,
+      "sentiment_score": -0.1202,
+      "pitch_mean": 330.23
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1202,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 240.96,
+    "avg_pitch": 327.76
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 3.3333,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script02_2",
+    "utterance_id": "Ses05M_script02_2_M003",
+    "transcript_ground_truth": "I'm not the only one, look at all these people."
+  }
+}

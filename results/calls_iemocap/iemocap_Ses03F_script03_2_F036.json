@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03F_script03_2_F036",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:45:21.800576",
+  "duration_seconds": 7.08,
+  "transcript": "You've always had far too temperamental for yourself. You should try to control it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.2,
+      "text": "You've always had far too temperamental for yourself.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.639,
+      "sentiment_score": -0.8504,
+      "pitch_mean": 295.27
+    },
+    {
+      "start_time": 5.2,
+      "end_time": 6.38,
+      "text": "You should try to control it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.736,
+      "sentiment_score": -0.0877,
+      "pitch_mean": 319.59
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.469,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 118.73,
+    "avg_pitch": 294.84
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script03_2",
+    "utterance_id": "Ses03F_script03_2_F036",
+    "transcript_ground_truth": "You've always had far too temperamental for yourself. You should try to control it."
+  }
+}

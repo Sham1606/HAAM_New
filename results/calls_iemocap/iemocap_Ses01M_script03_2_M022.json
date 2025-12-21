@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01M_script03_2_M022",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:18:09.503208",
+  "duration_seconds": 6.52,
+  "transcript": "You know, it's a pity you didn't have any more brandy. What it made you just a little less disagreeable.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.5,
+      "text": "You know, it's a pity you didn't have any more brandy.",
+      "emotion": "anger",
+      "emotion_confidence": 0.315,
+      "sentiment_score": -0.6951,
+      "pitch_mean": 320.82
+    },
+    {
+      "start_time": 3.5,
+      "end_time": 6.0,
+      "text": "What it made you just a little less disagreeable.",
+      "emotion": "anger",
+      "emotion_confidence": 0.423,
+      "sentiment_score": -0.2341,
+      "pitch_mean": 334.85
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4646,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 183.95,
+    "avg_pitch": 323.23
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script03_2",
+    "utterance_id": "Ses01M_script03_2_M022",
+    "transcript_ground_truth": "You know, it's a pity you didn't have any more brandy. It would have made you just a little less disagreeable."
+  }
+}

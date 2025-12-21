@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro01_F024",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:47:28.053945",
+  "duration_seconds": 2.54,
+  "transcript": "I'm sorry sir, it's not my choice.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I'm sorry sir, it's not my choice.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.901,
+      "sentiment_score": -0.8498,
+      "pitch_mean": 351.64
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8498,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 165.25,
+    "avg_pitch": 341.57
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro01",
+    "utterance_id": "Ses02M_impro01_F024",
+    "transcript_ground_truth": "I'm sorry, sir, it's not my choice."
+  }
+}

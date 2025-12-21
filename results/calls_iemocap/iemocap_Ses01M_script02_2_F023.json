@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_script02_2_F023",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:10:51.433448",
+  "duration_seconds": 5.87,
+  "transcript": "Dancing on the beach barefoot, drinking champagne from the bottle.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Dancing on the beach barefoot, drinking champagne from the bottle.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.408,
+      "sentiment_score": 0.2918,
+      "pitch_mean": 326.75
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2918,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 102.26,
+    "avg_pitch": 325.51
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 2.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script02_2",
+    "utterance_id": "Ses01M_script02_2_F023",
+    "transcript_ground_truth": "Dancing on the beach barefoot, drinking champagne from the bottle."
+  }
+}

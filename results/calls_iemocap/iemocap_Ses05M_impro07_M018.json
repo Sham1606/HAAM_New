@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro07_M018",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:48:55.371001",
+  "duration_seconds": 5.01,
+  "transcript": "I just want to be really close to things, you know, I know it's not exactly the best neighborhood in the entire world, but um...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.8,
+      "text": "I just want to be really close to things, you know, I know it's not exactly the best neighborhood in the entire world, but um...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.866,
+      "sentiment_score": -0.172,
+      "pitch_mean": 334.74
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.172,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 299.4,
+    "avg_pitch": 334.84
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.5,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro07",
+    "utterance_id": "Ses05M_impro07_M018",
+    "transcript_ground_truth": "I just want to be really close to things, you know.  I know it's not exactly the best neighborhood in the entire world. But uh-"
+  }
+}

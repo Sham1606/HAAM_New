@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script01_3_F001",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:42:18.601200",
+  "duration_seconds": 4.12,
+  "transcript": "No, it's all right. It's a good thing, you know?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.68,
+      "text": "No, it's all right. It's a good thing, you know?",
+      "emotion": "joy",
+      "emotion_confidence": 0.694,
+      "sentiment_score": 0.7944,
+      "pitch_mean": 338.84
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.7944,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 145.57,
+    "avg_pitch": 333.97
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_3",
+    "utterance_id": "Ses03M_script01_3_F001",
+    "transcript_ground_truth": "No.  It's alright.  It's a good thing, you know?"
+  }
+}

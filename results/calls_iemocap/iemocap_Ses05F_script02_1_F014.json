@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script02_1_F014",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:21:19.208659",
+  "duration_seconds": 6.62,
+  "transcript": "What are you so excited about? I mean, it's not rocket science. We're talking about its fish. It's fish nobody even eats",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.2,
+      "text": "What are you so excited about? I mean, it's not rocket science. We're talking about its fish. It's fish nobody even eats",
+      "emotion": "joy",
+      "emotion_confidence": 0.365,
+      "sentiment_score": 0.0754,
+      "pitch_mean": 347.73
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0754,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 199.5,
+    "avg_pitch": 346.07
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script02_1",
+    "utterance_id": "Ses05F_script02_1_F014",
+    "transcript_ground_truth": "What are you so excited about?  I mean it's not--it's not rocket science we are talking about, its fish.  Its fish nobody even eats."
+  }
+}

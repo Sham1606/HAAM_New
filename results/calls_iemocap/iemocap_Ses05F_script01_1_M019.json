@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script01_1_M019",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:15:14.897992",
+  "duration_seconds": 2.58,
+  "transcript": "You know that's not just my business.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "You know that's not just my business.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.903,
+      "sentiment_score": -0.0656,
+      "pitch_mean": 325.87
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0656,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 162.79,
+    "avg_pitch": 321.42
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_1",
+    "utterance_id": "Ses05F_script01_1_M019",
+    "transcript_ground_truth": "You know that's not just my business."
+  }
+}

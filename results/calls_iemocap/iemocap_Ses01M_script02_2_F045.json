@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01M_script02_2_F045",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:11:34.701111",
+  "duration_seconds": 7.63,
+  "transcript": "I'm beginning to think you might re-write. I think this might be the spot after all.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I'm beginning to think you might re-write.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.456,
+      "sentiment_score": 0.0257,
+      "pitch_mean": 319.16
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 7.0,
+      "text": "I think this might be the spot after all.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.914,
+      "sentiment_score": 0.5062,
+      "pitch_mean": 316.71
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2659,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 125.8,
+    "avg_pitch": 317.54
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 2.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script02_2",
+    "utterance_id": "Ses01M_script02_2_F045",
+    "transcript_ground_truth": "I'm beginning to think you might be right.  I think this might be the spot after all."
+  }
+}

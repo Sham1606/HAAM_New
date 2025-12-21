@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01M_script01_3_M021",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:06:40.672771",
+  "duration_seconds": 3.89,
+  "transcript": "No, no, it's not mine. What's that?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "No, no, it's not mine.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.391,
+      "sentiment_score": -0.4966,
+      "pitch_mean": 333.16
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 4.0,
+      "text": "What's that?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.901,
+      "sentiment_score": -0.0597,
+      "pitch_mean": 332.17
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2782,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 107.97,
+    "avg_pitch": 332.17
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 2.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script01_3",
+    "utterance_id": "Ses01M_script01_3_M021",
+    "transcript_ground_truth": "No, no, it's nothing like that."
+  }
+}

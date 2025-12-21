@@ -1,0 +1,61 @@
+{
+  "call_id": "iemocap_Ses05M_impro07_M010",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:48:37.234591",
+  "duration_seconds": 5.73,
+  "transcript": "No, no, I'm really looking forward to it. So you know how long I've been talking about this forever, right? Right? Yeah.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.6,
+      "text": "No, no, I'm really looking forward to it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.312,
+      "sentiment_score": 0.9739,
+      "pitch_mean": 312.88
+    },
+    {
+      "start_time": 2.6,
+      "end_time": 5.18,
+      "text": "So you know how long I've been talking about this forever, right? Right?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.862,
+      "sentiment_score": 0.0006,
+      "pitch_mean": 349.16
+    },
+    {
+      "start_time": 5.18,
+      "end_time": 5.68,
+      "text": "Yeah.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.814,
+      "sentiment_score": 0.2224,
+      "pitch_mean": 345.91
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.399,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 230.37,
+    "avg_pitch": 334.5
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro07",
+    "utterance_id": "Ses05M_impro07_M010",
+    "transcript_ground_truth": "No, No, I'm really looking forward to it.  You know how long -- I have been talking about this forever, right? right?"
+  }
+}

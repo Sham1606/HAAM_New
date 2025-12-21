@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02F_impro08_M007",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:31:01.545801",
+  "duration_seconds": 9.2,
+  "transcript": "Alright, and I want to make sure it's like a nice hotel. I mean, I mean, I mean we're gonna be paying a lot of money for this I don't want to you know, I don't want it to be a waste of time",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.08,
+      "text": "Alright, and I want to make sure it's like a nice hotel. I mean, I mean, I mean we're gonna be paying a lot of money for this",
+      "emotion": "disgust",
+      "emotion_confidence": 0.488,
+      "sentiment_score": 0.3397,
+      "pitch_mean": 348.13
+    },
+    {
+      "start_time": 5.08,
+      "end_time": 9.02,
+      "text": "I don't want to you know, I don't want it to be a waste of time",
+      "emotion": "disgust",
+      "emotion_confidence": 0.406,
+      "sentiment_score": -0.7557,
+      "pitch_mean": 336.84
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.208,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 287.01,
+    "avg_pitch": 342.43
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro08",
+    "utterance_id": "Ses02F_impro08_M007",
+    "transcript_ground_truth": "All right.  I want to make sure it's like a nice hotel--I mean-mean I'm gonna be paying a lot of money for this so I don't wanna-I don't wanna, you know, I don't wanna to be a waste of time."
+  }
+}

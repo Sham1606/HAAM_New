@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro08_F019",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:50:50.937488",
+  "duration_seconds": 3.36,
+  "transcript": "Uh, yeah, it looks... no, no, it's set to zeroes.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.3,
+      "text": "Uh, yeah, it looks... no, no, it's set to zeroes.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.668,
+      "sentiment_score": -0.1917,
+      "pitch_mean": 332.91
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1917,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 178.57,
+    "avg_pitch": 331.68
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro08",
+    "utterance_id": "Ses05M_impro08_F019",
+    "transcript_ground_truth": "Uh, yeah looks -- no, no.  It's set to zeros."
+  }
+}

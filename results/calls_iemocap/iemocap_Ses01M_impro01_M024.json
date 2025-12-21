@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01M_impro01_M024",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:49:15.361958",
+  "duration_seconds": 2.62,
+  "transcript": "I have the decolor phone in my home. DMV.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I have the decolor phone in my home.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.891,
+      "sentiment_score": 0.1427,
+      "pitch_mean": 364.93
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "DMV.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.912,
+      "sentiment_score": 0.1038,
+      "pitch_mean": 356.73
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1233,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 205.91,
+    "avg_pitch": 356.73
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro01",
+    "utterance_id": "Ses01M_impro01_M024",
+    "transcript_ground_truth": "I have been to California my whole--"
+  }
+}

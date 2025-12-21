@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_script02_2_F033",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:40:24.096736",
+  "duration_seconds": 3.34,
+  "transcript": "I know that Aggie really, I do.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I know that Aggie really, I do.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.884,
+      "sentiment_score": 0.221,
+      "pitch_mean": 332.98
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.221,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 125.75,
+    "avg_pitch": 326.48
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script02_2",
+    "utterance_id": "Ses02F_script02_2_F033",
+    "transcript_ground_truth": "I know that, Augie.  Really, I do."
+  }
+}

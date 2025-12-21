@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro02_F010",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:16:48.796331",
+  "duration_seconds": 4.25,
+  "transcript": "Things just aren't they seem.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Things just aren't they seem.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.443,
+      "sentiment_score": -0.729,
+      "pitch_mean": 329.37
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.729,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 70.59,
+    "avg_pitch": 330.64
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 1.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro02",
+    "utterance_id": "Ses01F_impro02_F010",
+    "transcript_ground_truth": "things just aren't what they seem."
+  }
+}

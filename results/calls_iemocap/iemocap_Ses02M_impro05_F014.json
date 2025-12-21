@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro05_F014",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:52:57.341655",
+  "duration_seconds": 1.84,
+  "transcript": "So what we'll be able to do?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.84,
+      "text": "So what we'll be able to do?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.909,
+      "sentiment_score": -0.0689,
+      "pitch_mean": 355.01
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0689,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 228.21,
+    "avg_pitch": 355.02
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro05",
+    "utterance_id": "Ses02M_impro05_F014",
+    "transcript_ground_truth": "So we'll- what we'll do"
+  }
+}

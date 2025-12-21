@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro08_M002",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:30:51.926894",
+  "duration_seconds": 4.47,
+  "transcript": "And I know I'm sorry, it's just that it's been a little frustrating because",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "And I know I'm sorry, it's just that it's been a little frustrating because",
+      "emotion": "sadness",
+      "emotion_confidence": 0.825,
+      "sentiment_score": -0.8397,
+      "pitch_mean": 337.58
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8397,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 188.12,
+    "avg_pitch": 335.66
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro08",
+    "utterance_id": "Ses02F_impro08_M002",
+    "transcript_ground_truth": "I know, I'm sorry.  It's-It's just that it's been a little frustrating because--"
+  }
+}

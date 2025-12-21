@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_script01_3_M037",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:03:35.710852",
+  "duration_seconds": 12.19,
+  "transcript": "It seemed to make suckers out of so many guys and I felt wrong to be alive To open that bank book to to drive that car the new car and that look at that new refrigerator. I mean",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.1,
+      "text": "It seemed to make suckers out of so many guys and I felt wrong to be alive",
+      "emotion": "joy",
+      "emotion_confidence": 0.447,
+      "sentiment_score": -0.9345,
+      "pitch_mean": 341.38
+    },
+    {
+      "start_time": 6.06,
+      "end_time": 11.84,
+      "text": "To open that bank book to to drive that car the new car and that look at that new refrigerator. I mean",
+      "emotion": "anger",
+      "emotion_confidence": 0.403,
+      "sentiment_score": 0.2343,
+      "pitch_mean": 344.92
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3501,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 192.03,
+    "avg_pitch": 338.75
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_3",
+    "utterance_id": "Ses05M_script01_3_M037",
+    "transcript_ground_truth": "It seemed to make suckers out of so many guys.  And I-I felt wrong to be alive; to to open that bank book, to to drive that car, the new car, and look at that new refrigerator. I mean,"
+  }
+}

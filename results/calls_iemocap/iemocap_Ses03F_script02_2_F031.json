@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script02_2_F031",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:39:55.911048",
+  "duration_seconds": 2.11,
+  "transcript": "invitation. Nope!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.7,
+      "text": "invitation. Nope!",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.4701,
+      "pitch_mean": 340.37
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4701,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 56.91,
+    "avg_pitch": 340.37
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.6667,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_2",
+    "utterance_id": "Ses03F_script02_2_F031",
+    "transcript_ground_truth": "No."
+  }
+}

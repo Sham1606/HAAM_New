@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_script01_2_M002",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:07:31.412833",
+  "duration_seconds": 3.31,
+  "transcript": "Why all of a sudden? Well, maybe maybe just want to see her.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.8,
+      "text": "Why all of a sudden? Well, maybe maybe just want to see her.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.91,
+      "sentiment_score": -0.1288,
+      "pitch_mean": 334.76
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1288,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 235.65,
+    "avg_pitch": 329.89
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.0,
+    "arousal": 2.6667,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script01_2",
+    "utterance_id": "Ses04M_script01_2_M002",
+    "transcript_ground_truth": "Well, maybe- maybe he just wanted to see her."
+  }
+}

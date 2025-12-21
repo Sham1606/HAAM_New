@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02M_script02_2_F038",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:09:02.623918",
+  "duration_seconds": 7.35,
+  "transcript": "You're the one who probably wishes you was with someone else. Someone who you had enjoy yourself and take everything so hard.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.04,
+      "text": "You're the one who probably wishes you was with someone else.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.435,
+      "sentiment_score": -0.7835,
+      "pitch_mean": 363.43
+    },
+    {
+      "start_time": 3.04,
+      "end_time": 7.0,
+      "text": "Someone who you had enjoy yourself and take everything so hard.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.482,
+      "sentiment_score": 0.403,
+      "pitch_mean": 355.34
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1902,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 179.59,
+    "avg_pitch": 356.26
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script02_2",
+    "utterance_id": "Ses02M_script02_2_F038",
+    "transcript_ground_truth": "You're the one who probably wishes he was with someone else, someone who knew how to enjoy herself and didn't take everything so hard."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro08_M023",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:12:36.140670",
+  "duration_seconds": 4.67,
+  "transcript": "If you have it, if I call back, I'm gonna have to go this whole rigmarole again and try and get a hold of someone.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "If you have it, if I call back, I'm gonna have to go this whole rigmarole again and try and get a hold of someone.",
+      "emotion": "anger",
+      "emotion_confidence": 0.514,
+      "sentiment_score": -0.2052,
+      "pitch_mean": 345.35
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2052,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 321.2,
+    "avg_pitch": 341.9
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro08",
+    "utterance_id": "Ses05F_impro08_M023",
+    "transcript_ground_truth": "Yeah, but if I call back, I'll have to go through this whole rigmarole again. and try to get a hole or someone."
+  }
+}

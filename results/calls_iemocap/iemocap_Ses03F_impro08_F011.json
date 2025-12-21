@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_impro08_F011",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:27:45.945363",
+  "duration_seconds": 2.08,
+  "transcript": "Do you have a landline sir?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Do you have a landline sir?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.42,
+      "sentiment_score": 0.0261,
+      "pitch_mean": 335.44
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0261,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 172.66,
+    "avg_pitch": 334.65
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro08",
+    "utterance_id": "Ses03F_impro08_F011",
+    "transcript_ground_truth": "Do you have a land line, sir?"
+  }
+}

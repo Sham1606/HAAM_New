@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses04M_impro04_M015",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:55:44.873938",
+  "duration_seconds": 11.44,
+  "transcript": "It's your fault because because you always told me to do this and I did that instead and I didn't take your advice and And but you so were like we're telling",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.44,
+      "text": "It's your fault because because you always told me to do this and I did that instead and I didn't take your advice and",
+      "emotion": "anger",
+      "emotion_confidence": 0.81,
+      "sentiment_score": -0.8936,
+      "pitch_mean": 334.68
+    },
+    {
+      "start_time": 8.16,
+      "end_time": 10.96,
+      "text": "And but you so were like we're telling",
+      "emotion": "anger",
+      "emotion_confidence": 0.428,
+      "sentiment_score": 0.0032,
+      "pitch_mean": 341.22
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4452,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 167.83,
+    "avg_pitch": 334.4
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 4.0,
+    "arousal": 3.0,
+    "dominance": 3.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro04",
+    "utterance_id": "Ses04M_impro04_M015",
+    "transcript_ground_truth": "It's your fault 'cause -cause you always told me to- to do this and I did that instead.  And I didn't take your advice and - and- but you sort of were like were telling--"
+  }
+}

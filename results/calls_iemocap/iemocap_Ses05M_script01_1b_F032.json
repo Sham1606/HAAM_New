@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script01_1b_F032",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:57:07.428234",
+  "duration_seconds": 3.14,
+  "transcript": "But you have a business here, what the hell is this?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "But you have a business here, what the hell is this?",
+      "emotion": "anger",
+      "emotion_confidence": 0.678,
+      "sentiment_score": -0.8249,
+      "pitch_mean": 342.38
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8249,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 210.19,
+    "avg_pitch": 339.84
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_1b",
+    "utterance_id": "Ses05M_script01_1b_F032",
+    "transcript_ground_truth": "But you have a business here.  What the hell is this?"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script01_3_F003",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:01:04.344629",
+  "duration_seconds": 3.73,
+  "transcript": "Well, your mother, first of all, pretty much told me to leave.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.5,
+      "text": "Well, your mother, first of all, pretty much told me to leave.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.689,
+      "sentiment_score": -0.5994,
+      "pitch_mean": 332.51
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5994,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 193.03,
+    "avg_pitch": 330.5
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_3",
+    "utterance_id": "Ses05M_script01_3_F003",
+    "transcript_ground_truth": "Well, your mother, first of all, pretty much told me to leave."
+  }
+}

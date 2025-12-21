@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04F_impro03_F003",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:01:48.976416",
+  "duration_seconds": 3.53,
+  "transcript": "Yes, finally for Bob, they're getting married. Oh.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.68,
+      "text": "Yes, finally for Bob, they're getting married.",
+      "emotion": "joy",
+      "emotion_confidence": 0.598,
+      "sentiment_score": 0.8872,
+      "pitch_mean": 407.68
+    },
+    {
+      "start_time": 2.68,
+      "end_time": 3.52,
+      "text": "Oh.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.689,
+      "sentiment_score": 0.1028,
+      "pitch_mean": 373.26
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.495,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 135.98,
+    "avg_pitch": 393.64
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 5.0,
+    "arousal": 5.0,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_impro03",
+    "utterance_id": "Ses04F_impro03_F003",
+    "transcript_ground_truth": "Yes.  He finally proposed.  I'm getting married."
+  }
+}

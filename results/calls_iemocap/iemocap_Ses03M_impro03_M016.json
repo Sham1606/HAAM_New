@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro03_M016",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:53:33.009546",
+  "duration_seconds": 2.73,
+  "transcript": "So, okay, then um...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "So, okay, then um...",
+      "emotion": "disgust",
+      "emotion_confidence": 0.468,
+      "sentiment_score": 0.1035,
+      "pitch_mean": 331.3
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1035,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 87.78,
+    "avg_pitch": 325.15
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro03",
+    "utterance_id": "Ses03M_impro03_M016",
+    "transcript_ground_truth": "So Okay then and."
+  }
+}

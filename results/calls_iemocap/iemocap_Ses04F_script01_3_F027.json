@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses04F_script01_3_F027",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:29:42.630117",
+  "duration_seconds": 7.54,
+  "transcript": "because you mustn't feel that way anymore. Because you have a right to whatever you have, Chris, do you understand everything?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "because you mustn't feel that way anymore.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.625,
+      "sentiment_score": -0.5346,
+      "pitch_mean": 330.99
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 6.0,
+      "text": "Because you have a right to whatever you have, Chris,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.764,
+      "sentiment_score": 0.323,
+      "pitch_mean": 352.57
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 8.0,
+      "text": "do you understand everything?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.71,
+      "sentiment_score": -0.0471,
+      "pitch_mean": 347.57
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0862,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "sadness": 0.333,
+      "neutral": 0.667
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 167.11,
+    "avg_pitch": 347.57
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script01_3",
+    "utterance_id": "Ses04F_script01_3_F027",
+    "transcript_ground_truth": "Because you mustn't feel that way anymore because you have a right to whatever you have, Chris, do you understand, everything"
+  }
+}

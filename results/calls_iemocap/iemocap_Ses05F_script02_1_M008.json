@@ -1,0 +1,81 @@
+{
+  "call_id": "iemocap_Ses05F_script02_1_M008",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:21:56.736418",
+  "duration_seconds": 8.42,
+  "transcript": "Well, I hope the moon stays out. I wonder, do they always run during a full moon? I can't remember. Was the moon full last year? Do you remember?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.32,
+      "text": "Well, I hope the moon stays out.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.918,
+      "sentiment_score": 0.3931,
+      "pitch_mean": 329.48
+    },
+    {
+      "start_time": 2.32,
+      "end_time": 5.32,
+      "text": "I wonder, do they always run during a full moon?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.962,
+      "sentiment_score": 0.0116,
+      "pitch_mean": 312.38
+    },
+    {
+      "start_time": 5.32,
+      "end_time": 6.82,
+      "text": "I can't remember.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.502,
+      "sentiment_score": -0.1304,
+      "pitch_mean": 312.72
+    },
+    {
+      "start_time": 6.82,
+      "end_time": 7.84,
+      "text": "Was the moon full last year?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.429,
+      "sentiment_score": 0.1216,
+      "pitch_mean": 324.96
+    },
+    {
+      "start_time": 7.84,
+      "end_time": 8.84,
+      "text": "Do you remember?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.675,
+      "sentiment_score": 0.0876,
+      "pitch_mean": 320.99
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0967,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.6,
+      "sadness": 0.2,
+      "disgust": 0.2
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 206.68,
+    "avg_pitch": 320.99
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 2.5,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script02_1",
+    "utterance_id": "Ses05F_script02_1_M008",
+    "transcript_ground_truth": "Well, I hope the moon stays out.  Well, I wonder do they always wander during a full moon?  I can't remember, wasn't it full last year?  Do you remember?"
+  }
+}

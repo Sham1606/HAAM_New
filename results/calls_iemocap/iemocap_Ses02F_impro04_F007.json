@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02F_impro04_F007",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:23:34.336645",
+  "duration_seconds": 9.33,
+  "transcript": "I didn't have like one of their starts you're like a family member who's already in the business or something You know that could like give me a helping hand",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.42,
+      "text": "I didn't have like one of their starts you're like a family member who's already in the business or something",
+      "emotion": "neutral",
+      "emotion_confidence": 0.824,
+      "sentiment_score": -0.1883,
+      "pitch_mean": 329.54
+    },
+    {
+      "start_time": 6.42,
+      "end_time": 8.82,
+      "text": "You know that could like give me a helping hand",
+      "emotion": "disgust",
+      "emotion_confidence": 0.403,
+      "sentiment_score": 0.2826,
+      "pitch_mean": 350.85
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0471,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 192.93,
+    "avg_pitch": 334.9
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro04",
+    "utterance_id": "Ses02F_impro04_F007",
+    "transcript_ground_truth": "I didn't have like one of those starts, you know, like a family member who was already in the business or something you know that could like give me a helping hand."
+  }
+}

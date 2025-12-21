@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03F_script03_1_F024",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:43:01.755367",
+  "duration_seconds": 4.44,
+  "transcript": "Well, I burned a hole in my comb too and all the towels in the bathroom.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Well, I burned a hole in my comb too and all the towels in the bathroom.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.576,
+      "sentiment_score": -0.86,
+      "pitch_mean": 356.59
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.86,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 216.22,
+    "avg_pitch": 352.57
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script03_1",
+    "utterance_id": "Ses03F_script03_1_F024",
+    "transcript_ground_truth": "Well, I burnt a hole in my comb too, and all the towels in the bathroom. [LAUGHTER]."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro08_F020",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:50:53.482050",
+  "duration_seconds": 5.62,
+  "transcript": "So if we reset this how will I know it's not going to happen again every other week?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.16,
+      "text": "So if we reset this how will I know it's not going to happen again every other week?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.878,
+      "sentiment_score": -0.3613,
+      "pitch_mean": 344.48
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3613,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 192.17,
+    "avg_pitch": 342.01
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro08",
+    "utterance_id": "Ses05M_impro08_F020",
+    "transcript_ground_truth": "what happening - So if we reset this, how will I know it's not going to happen again every other week?"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03F_impro07_M028",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:26:57.180710",
+  "duration_seconds": 2.69,
+  "transcript": "No, I'll sleep in your bed. Come on up.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "No, I'll sleep in your bed.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.426,
+      "sentiment_score": 0.0699,
+      "pitch_mean": 340.32
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "Come on up.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.734,
+      "sentiment_score": 0.3378,
+      "pitch_mean": 346.09
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2039,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 200.51,
+    "avg_pitch": 346.09
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.0,
+    "arousal": 2.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro07",
+    "utterance_id": "Ses03F_impro07_M028",
+    "transcript_ground_truth": "No, I'll sleep in your bed. Cuddle up."
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses05M_script02_2_F010",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:07:07.770962",
+  "duration_seconds": 16.49,
+  "transcript": "No, we won't. It's like waiting up for Santa Claus or something. I feel like as though my whole life is going to be standing on the beach waiting with my eyes open, expectantly my hands class neatly in front of me waiting for fish to show up and the fish will not show up.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "No, we won't.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.602,
+      "sentiment_score": -0.2905,
+      "pitch_mean": 332.75
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "It's like waiting up for Santa Claus or something.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.952,
+      "sentiment_score": -0.0801,
+      "pitch_mean": 336.39
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 10.0,
+      "text": "I feel like as though my whole life is going to be standing on the beach waiting with my eyes open,",
+      "emotion": "disgust",
+      "emotion_confidence": 0.381,
+      "sentiment_score": 0.4005,
+      "pitch_mean": 357.62
+    },
+    {
+      "start_time": 10.0,
+      "end_time": 16.0,
+      "text": "expectantly my hands class neatly in front of me waiting for fish to show up and the fish will not show up.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.657,
+      "sentiment_score": -0.2965,
+      "pitch_mean": 351.49
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0666,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.75,
+      "disgust": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 200.12,
+    "avg_pitch": 348.49
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.6667,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script02_2",
+    "utterance_id": "Ses05M_script02_2_F010",
+    "transcript_ground_truth": "No, we won't.  It's like waiting up for Santa Clause or something.  I feel like as though my whole life is going to be standing on the beach waiting with my eyes opened expectantly, my hands clasped neatly in front of me, waiting for fish to show up.  And the fish will not show up."
+  }
+}

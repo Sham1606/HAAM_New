@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro06_M018",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:06:37.839683",
+  "duration_seconds": 2.66,
+  "transcript": "What do you want me to go with you I will.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "What do you want me to go with you I will.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.694,
+      "sentiment_score": 0.1785,
+      "pitch_mean": 308.94
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1785,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 248.51,
+    "avg_pitch": 314.35
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro06",
+    "utterance_id": "Ses05F_impro06_M018",
+    "transcript_ground_truth": "Cool, Well, If you want me to go with you, I will."
+  }
+}

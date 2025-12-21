@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02M_impro02_F012",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:48:31.795616",
+  "duration_seconds": 4.17,
+  "transcript": "They wreck me letters. Paper ones.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "They wreck me letters.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.445,
+      "sentiment_score": -0.8992,
+      "pitch_mean": 329.97
+    },
+    {
+      "start_time": 2.72,
+      "end_time": 3.92,
+      "text": "Paper ones.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.922,
+      "sentiment_score": 0.0543,
+      "pitch_mean": 315.95
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4225,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 86.32,
+    "avg_pitch": 326.67
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 4.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro02",
+    "utterance_id": "Ses02M_impro02_F012",
+    "transcript_ground_truth": "Will you write me letters, paper ones?"
+  }
+}

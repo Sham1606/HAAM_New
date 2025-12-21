@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_impro05b_F027",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:59:32.895038",
+  "duration_seconds": 1.8,
+  "transcript": "I have a place. Yes.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "I have a place.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.361,
+      "sentiment_score": 0.2031,
+      "pitch_mean": 353.66
+    },
+    {
+      "start_time": 1.0,
+      "end_time": 2.0,
+      "text": "Yes.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.898,
+      "sentiment_score": 0.2704,
+      "pitch_mean": 352.83
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2368,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 166.67,
+    "avg_pitch": 352.83
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro05b",
+    "utterance_id": "Ses03M_impro05b_F027",
+    "transcript_ground_truth": "Yes sir, Yes."
+  }
+}

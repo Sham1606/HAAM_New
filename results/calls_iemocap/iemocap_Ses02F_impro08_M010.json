@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro08_M010",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:31:06.431865",
+  "duration_seconds": 4.4,
+  "transcript": "You know the kids just want to go to the beach and stuff and so",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.44,
+      "text": "You know the kids just want to go to the beach and stuff and so",
+      "emotion": "neutral",
+      "emotion_confidence": 0.727,
+      "sentiment_score": 0.3021,
+      "pitch_mean": 323.4
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3021,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 204.73,
+    "avg_pitch": 327.48
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 4.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro08",
+    "utterance_id": "Ses02F_impro08_M010",
+    "transcript_ground_truth": "--you know, the kids wanna go to the beach and stuff and so--um"
+  }
+}

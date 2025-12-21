@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script02_1_M014",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T16:05:43.153557",
+  "duration_seconds": 5.68,
+  "transcript": "Oh, no, no, no. It's not my point. My point is what's the point in coming out here for just gonna leave. Don't you want to see it?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Oh, no, no, no. It's not my point. My point is what's the point in coming out here for just gonna leave. Don't you want to see it?",
+      "emotion": "anger",
+      "emotion_confidence": 0.521,
+      "sentiment_score": -0.7975,
+      "pitch_mean": 337.41
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7975,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 295.77,
+    "avg_pitch": 334.63
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script02_1",
+    "utterance_id": "Ses05M_script02_1_M014",
+    "transcript_ground_truth": "Oh, no, no, no.  no That's not my point.  My point is what's the point coming out here if we're just going to leave?  Don't you want to see it?"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses02M_impro08_M025",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:59:16.863397",
+  "duration_seconds": 10.69,
+  "transcript": "Yeah, but for that for that charge we will need to send something in but we can get your process Immediately for this for this new card still goes the same address, right?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.92,
+      "text": "Yeah, but for that for that charge we will need to send something in but we can get your process",
+      "emotion": "neutral",
+      "emotion_confidence": 0.934,
+      "sentiment_score": 0.0107,
+      "pitch_mean": 332.83
+    },
+    {
+      "start_time": 6.16,
+      "end_time": 10.32,
+      "text": "Immediately for this for this new card still goes the same address, right?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.877,
+      "sentiment_score": 0.0121,
+      "pitch_mean": 334.82
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0114,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 185.24,
+    "avg_pitch": 333.11
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.6667,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro08",
+    "utterance_id": "Ses02M_impro08_M025",
+    "transcript_ground_truth": "Yes, um but  for- for that- for that charge we will need you to send something in but we can get you processed immediately for this, for this, for this new card. It still goes to the same address, right?"
+  }
+}

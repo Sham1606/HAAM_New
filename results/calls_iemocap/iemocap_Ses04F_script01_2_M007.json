@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script01_2_M007",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:27:59.644183",
+  "duration_seconds": 9.96,
+  "transcript": "She he, takes care of her grandparents that year she spent the whole year there?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 10.0,
+      "text": "She he, takes care of her grandparents that year she spent the whole year there?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.0232,
+      "pitch_mean": 319.63
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0232,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 90.4,
+    "avg_pitch": 319.63
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script01_2",
+    "utterance_id": "Ses04F_script01_2_M007",
+    "transcript_ground_truth": "Uh, Then why is she still-she's not his girl, Joe"
+  }
+}

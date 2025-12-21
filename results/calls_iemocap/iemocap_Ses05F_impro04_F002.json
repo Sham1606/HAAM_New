@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05F_impro04_F002",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:56:20.722059",
+  "duration_seconds": 6.93,
+  "transcript": "I don't know. I mean what am I supposed to do? It's not for lack of effort. I've been trying.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I don't know. I mean what am I supposed to do?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.753,
+      "sentiment_score": -0.6984,
+      "pitch_mean": 332.64
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 6.0,
+      "text": "It's not for lack of effort. I've been trying.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.876,
+      "sentiment_score": 0.2474,
+      "pitch_mean": 340.04
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2255,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 173.16,
+    "avg_pitch": 333.16
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro04",
+    "utterance_id": "Ses05F_impro04_F002",
+    "transcript_ground_truth": "I don't know.  I mean, what am I supposed to do? I've It's not for lack of effort.  I've been trying."
+  }
+}

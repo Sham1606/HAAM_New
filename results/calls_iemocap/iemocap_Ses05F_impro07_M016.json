@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro07_M016",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:09:14.274728",
+  "duration_seconds": 5.13,
+  "transcript": "Sure, why not? I don't know why not. I'm not doing anything. I have no plans. I could live anywhere I want",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.54,
+      "text": "Sure, why not? I don't know why not. I'm not doing anything. I have no plans. I could live anywhere I want",
+      "emotion": "anger",
+      "emotion_confidence": 0.373,
+      "sentiment_score": -0.153,
+      "pitch_mean": 371.51
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.153,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 257.31,
+    "avg_pitch": 360.01
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro07",
+    "utterance_id": "Ses05F_impro07_M016",
+    "transcript_ground_truth": "Sure, why not.  I don't know why not, I'm not doing anything I have no plans, I could live anywhere I want."
+  }
+}

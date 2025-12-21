@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses05M_impro03_M010",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:38:22.958934",
+  "duration_seconds": 11.16,
+  "transcript": "And I pop up out of the water and I'd planted already, you know. I pop up out of the water and I'm like, and I'd like grab her hands, you know. And in my hand, I've got the ring.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.24,
+      "text": "And I pop up out of the water and I'd planted already, you know.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.465,
+      "sentiment_score": 0.2852,
+      "pitch_mean": 328.04
+    },
+    {
+      "start_time": 3.24,
+      "end_time": 4.76,
+      "text": "I pop up out of the water and I'm like,",
+      "emotion": "neutral",
+      "emotion_confidence": 0.436,
+      "sentiment_score": 0.2315,
+      "pitch_mean": 329.08
+    },
+    {
+      "start_time": 4.76,
+      "end_time": 8.0,
+      "text": "and I'd like grab her hands, you know.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.607,
+      "sentiment_score": 0.1764,
+      "pitch_mean": 313.12
+    },
+    {
+      "start_time": 8.0,
+      "end_time": 10.76,
+      "text": "And in my hand, I've got the ring.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.768,
+      "sentiment_score": 0.6739,
+      "pitch_mean": 313.89
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3417,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "disgust": 0.25,
+      "neutral": 0.75
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 215.11,
+    "avg_pitch": 318.95
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "hap",
+    "valence": 4.0,
+    "arousal": 3.6667,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro03",
+    "utterance_id": "Ses05M_impro03_M010",
+    "transcript_ground_truth": "And I pop up out of the water -- and I had planned it already, you know? I pop up out of the water and I [BREATHING] and I like, grab her hand, you know.  and that In my hand, I've got the ring."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03F_impro03_F023",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:19:41.628524",
+  "duration_seconds": 8.94,
+  "transcript": "Maybe I don't know. I've been there so many times. I think we're gonna get married in Spain and then we're gonna have get married here.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Maybe I don't know. I've been there so many times.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.668,
+      "sentiment_score": -0.1703,
+      "pitch_mean": 318.71
+    },
+    {
+      "start_time": 4.0,
+      "end_time": 8.0,
+      "text": "I think we're gonna get married in Spain and then we're gonna have get married here.",
+      "emotion": "joy",
+      "emotion_confidence": 0.77,
+      "sentiment_score": 0.1181,
+      "pitch_mean": 332.69
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0261,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "joy": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 174.5,
+    "avg_pitch": 325.88
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro03",
+    "utterance_id": "Ses03F_impro03_F023",
+    "transcript_ground_truth": "Oh, maybe. I don't know. I've been there so many times. I think it's--we're going to get married in Spain and then we're going to get married here."
+  }
+}

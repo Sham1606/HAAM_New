@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro04_F011",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:51:30.572101",
+  "duration_seconds": 10.49,
+  "transcript": "And the fact that, you know, there's always different types of things that what kind of people they want in the office and whether it's male or female or you know, you know, I mean like things that are out of your control.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 10.5,
+      "text": "And the fact that, you know, there's always different types of things that what kind of people they want in the office and whether it's male or female or you know, you know, I mean like things that are out of your control.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.825,
+      "sentiment_score": -0.4344,
+      "pitch_mean": 344.1
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4344,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 245.93,
+    "avg_pitch": 344.1
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 2.0,
+    "dominance": 3.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro04",
+    "utterance_id": "Ses02M_impro04_F011",
+    "transcript_ground_truth": "and the fact that you know there is always different types of things and what kind of people they want in the office and whether it's male or female or you know what I mean, like things are out of your control."
+  }
+}

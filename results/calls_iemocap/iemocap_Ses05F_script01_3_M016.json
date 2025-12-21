@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05F_script01_3_M016",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:19:29.380526",
+  "duration_seconds": 9.12,
+  "transcript": "God, I can't stand it. I can't believe I can't stand it. How long have I been doing this?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.8,
+      "text": "God, I can't stand it. I can't believe I can't stand it.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.442,
+      "sentiment_score": -0.9357,
+      "pitch_mean": 327.6
+    },
+    {
+      "start_time": 4.8,
+      "end_time": 7.0,
+      "text": "How long have I been doing this?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.628,
+      "sentiment_score": -0.0942,
+      "pitch_mean": 350.63
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5149,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 124.95,
+    "avg_pitch": 331.49
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 5.0,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_3",
+    "utterance_id": "Ses05F_script01_3_M016",
+    "transcript_ground_truth": "Oh God- I kissed Annie! I can't believe I kissed Annie!  How long I've wanted to do this."
+  }
+}

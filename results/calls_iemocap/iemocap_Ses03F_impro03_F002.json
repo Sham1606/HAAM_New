@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03F_impro03_F002",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:19:01.921608",
+  "duration_seconds": 11.49,
+  "transcript": "Oh man, so I was okay, so we went to go see this show on Broadway right? Yeah, and it was the what the the Lousy Chaperone, you see that one?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.08,
+      "text": "Oh man, so I was okay, so we went to go see this show on Broadway right? Yeah, and",
+      "emotion": "disgust",
+      "emotion_confidence": 0.42,
+      "sentiment_score": 0.837,
+      "pitch_mean": 340.42
+    },
+    {
+      "start_time": 7.08,
+      "end_time": 11.06,
+      "text": "it was the what the the Lousy Chaperone, you see that one?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.849,
+      "sentiment_score": -0.6282,
+      "pitch_mean": 347.48
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1044,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 161.81,
+    "avg_pitch": 342.47
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro03",
+    "utterance_id": "Ses03F_impro03_F002",
+    "transcript_ground_truth": "Oh, man. So I was--okay, so we went to go see this show on Broadway, right? And it was The wed- the wed- The Lousy Chaperone. Have you seen that one?"
+  }
+}

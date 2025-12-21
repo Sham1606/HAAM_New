@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01F_impro03_M012",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:20:06.171152",
+  "duration_seconds": 3.92,
+  "transcript": "Oh, how you gonna do the long distance thing? Somebody are you gonna move there?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Oh, how you gonna do the long distance thing?",
+      "emotion": "anger",
+      "emotion_confidence": 0.338,
+      "sentiment_score": -0.126,
+      "pitch_mean": 344.42
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "Somebody are you gonna move there?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": -0.083,
+      "pitch_mean": 338.47
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1045,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 229.89,
+    "avg_pitch": 338.47
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.3333,
+    "arousal": 3.6667,
+    "dominance": 2.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro03",
+    "utterance_id": "Ses01F_impro03_M012",
+    "transcript_ground_truth": "Oh, how are you going to do the long distance thing?  So wait, are you going to move there?"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses05M_impro08_M019",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:52:06.737786",
+  "duration_seconds": 11.56,
+  "transcript": "Set to zero. So okay, maybe that's our problem that could very well be our problem there somehow you've lost your IP address I'm not sure why that would happen every week. It could be a cycling issue something like that But let's go ahead and type your IP address in again",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.18,
+      "text": "Set to zero. So okay, maybe that's our problem that could very well be our problem there somehow you've lost your IP address",
+      "emotion": "neutral",
+      "emotion_confidence": 0.781,
+      "sentiment_score": -0.6265,
+      "pitch_mean": 340.1
+    },
+    {
+      "start_time": 5.18,
+      "end_time": 9.14,
+      "text": "I'm not sure why that would happen every week. It could be a cycling issue something like that",
+      "emotion": "disgust",
+      "emotion_confidence": 0.505,
+      "sentiment_score": -0.4688,
+      "pitch_mean": 328.31
+    },
+    {
+      "start_time": 9.14,
+      "end_time": 11.14,
+      "text": "But let's go ahead and type your IP address in again",
+      "emotion": "neutral",
+      "emotion_confidence": 0.926,
+      "sentiment_score": -0.0182,
+      "pitch_mean": 335.98
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3711,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "disgust": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 269.9,
+    "avg_pitch": 335.2
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro08",
+    "utterance_id": "Ses05M_impro08_M019",
+    "transcript_ground_truth": "It's set to zeros.  Okay, maybe that's our problem.  That could very well be our problem there.  Somehow you've lost your IP address.  I'm not sure why that would happen every week.  It could be a cycling issue, something like that.  But let's go ahead and type your IP address in again."
+  }
+}

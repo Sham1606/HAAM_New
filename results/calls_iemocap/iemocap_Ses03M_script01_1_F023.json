@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_script01_1_F023",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:37:45.943204",
+  "duration_seconds": 3.55,
+  "transcript": "You know, I know or would I got ignored?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "You know, I know or would I got ignored?",
+      "emotion": "sadness",
+      "emotion_confidence": 0.393,
+      "sentiment_score": -0.2243,
+      "pitch_mean": 315.13
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2243,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 152.09,
+    "avg_pitch": 313.16
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script01_1",
+    "utterance_id": "Ses03M_script01_1_F023",
+    "transcript_ground_truth": "You know I ignore what I got to ignore."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses04M_impro02_F011",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:48:31.707848",
+  "duration_seconds": 10.32,
+  "transcript": "And what happens if at the end of that year they ask you to stay longer? Are you just gonna agree or are you just gonna absolutely mindedly brainwashedly do whatever it is they tell you to do?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.2,
+      "text": "And what happens if at the end of that year they ask you to stay longer?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.706,
+      "sentiment_score": -0.112,
+      "pitch_mean": 360.89
+    },
+    {
+      "start_time": 3.2,
+      "end_time": 8.6,
+      "text": "Are you just gonna agree or are you just gonna absolutely mindedly brainwashedly do whatever it is they tell you to do?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.369,
+      "sentiment_score": -0.666,
+      "pitch_mean": 361.17
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.389,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.5,
+      "disgust": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 220.93,
+    "avg_pitch": 349.29
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_impro02",
+    "utterance_id": "Ses04M_impro02_F011",
+    "transcript_ground_truth": "And what happens if, at the end of that year, they ask you to stay longer?  Are you just going to agree?  Are you just going to absentmindedly brainwashedly do whatever it is they tell you to do?"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses03M_impro02_M000",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:50:16.387964",
+  "duration_seconds": 3.42,
+  "transcript": "Hey!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Hey!",
+      "emotion": "sadness",
+      "emotion_confidence": 0.645,
+      "sentiment_score": 0.6964,
+      "pitch_mean": 317.44
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.6964,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 17.53,
+    "avg_pitch": 319.62
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 2.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro02",
+    "utterance_id": "Ses03M_impro02_M000",
+    "transcript_ground_truth": "Hey sweetie."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro04_M002",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:24:03.914114",
+  "duration_seconds": 4.87,
+  "transcript": "Yeah, I know what you mean. I mean, I've gone through like similar stuff, but...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Yeah, I know what you mean. I mean, I've gone through like similar stuff, but...",
+      "emotion": "neutral",
+      "emotion_confidence": 0.654,
+      "sentiment_score": -0.1844,
+      "pitch_mean": 325.6
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1844,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 184.8,
+    "avg_pitch": 325.6
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro04",
+    "utterance_id": "Ses02F_impro04_M002",
+    "transcript_ground_truth": "Yeah--I know what you mean.  I've gone through like similar stuff, but--"
+  }
+}

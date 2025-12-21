@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_impro01_M001",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:47:31.303350",
+  "duration_seconds": 2.66,
+  "transcript": "Yeah, I just want to get this done good",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.56,
+      "text": "Yeah, I just want to get this done good",
+      "emotion": "disgust",
+      "emotion_confidence": 0.49,
+      "sentiment_score": 0.6628,
+      "pitch_mean": 324.32
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.6628,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 203.01,
+    "avg_pitch": 323.49
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.5,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_impro01",
+    "utterance_id": "Ses02M_impro01_M001",
+    "transcript_ground_truth": "Yea. I just want to get this done,"
+  }
+}

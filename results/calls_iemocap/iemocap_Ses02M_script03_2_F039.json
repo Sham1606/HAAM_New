@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script03_2_F039",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:13:46.871657",
+  "duration_seconds": 4.23,
+  "transcript": "This is the end. Do you hear the end finally and forever?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.52,
+      "text": "This is the end. Do you hear the end finally and forever?",
+      "emotion": "anger",
+      "emotion_confidence": 0.482,
+      "sentiment_score": -0.404,
+      "pitch_mean": 395.92
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.404,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 170.09,
+    "avg_pitch": 384.69
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.0,
+    "arousal": 4.5,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script03_2",
+    "utterance_id": "Ses02M_script03_2_F039",
+    "transcript_ground_truth": "This is the end, do you hear? The end finally and forever."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03F_script01_3_M032",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:35:54.427571",
+  "duration_seconds": 6.56,
+  "transcript": "Yeah, it takes little wild toss that off. Because they weren't just men.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.5,
+      "text": "Yeah, it takes little wild toss that off.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.935,
+      "sentiment_score": -0.2183,
+      "pitch_mean": 332.65
+    },
+    {
+      "start_time": 3.5,
+      "end_time": 6.5,
+      "text": "Because they weren't just men.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.915,
+      "sentiment_score": -0.2784,
+      "pitch_mean": 330.01
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2484,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 118.84,
+    "avg_pitch": 331.18
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_3",
+    "utterance_id": "Ses03F_script01_3_M032",
+    "transcript_ground_truth": "It takes a little while to toss that off. Because they weren't just men."
+  }
+}

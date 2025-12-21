@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses02F_script01_1_F014",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:31:46.631968",
+  "duration_seconds": 9.81,
+  "transcript": "to you it is and to me but not to him. You can talk yourself blue in the face, but there's nobody and no grave, so where are you?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.52,
+      "text": "to you it is and to me but not to him.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.693,
+      "sentiment_score": -0.0514,
+      "pitch_mean": 370.55
+    },
+    {
+      "start_time": 2.52,
+      "end_time": 5.68,
+      "text": "You can talk yourself blue in the face,",
+      "emotion": "disgust",
+      "emotion_confidence": 0.473,
+      "sentiment_score": -0.4221,
+      "pitch_mean": 326.08
+    },
+    {
+      "start_time": 5.68,
+      "end_time": 9.52,
+      "text": "but there's nobody and no grave, so where are you?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.518,
+      "sentiment_score": -0.5638,
+      "pitch_mean": 339.33
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3458,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 0.667,
+      "disgust": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 177.37,
+    "avg_pitch": 341.08
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_1",
+    "utterance_id": "Ses02F_script01_1_F014",
+    "transcript_ground_truth": "To you it is and to me, but not to him.  I mean, you can talk yourself blue in the face, but he--there's no body and no grave so where are you?"
+  }
+}

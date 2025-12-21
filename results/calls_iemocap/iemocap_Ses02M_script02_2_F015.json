@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02M_script02_2_F015",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:08:21.280311",
+  "duration_seconds": 6.4,
+  "transcript": "Do you remember the first time we came to see it? It was about four years ago, right after we got married.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Do you remember the first time we came to see it?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.341,
+      "sentiment_score": 0.0626,
+      "pitch_mean": 339.89
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 6.0,
+      "text": "It was about four years ago, right after we got married.",
+      "emotion": "joy",
+      "emotion_confidence": 0.662,
+      "sentiment_score": 0.0864,
+      "pitch_mean": 344.95
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0745,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "joy": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 206.25,
+    "avg_pitch": 342.29
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script02_2",
+    "utterance_id": "Ses02M_script02_2_F015",
+    "transcript_ground_truth": "Do you remember the first time we came to see it? It was about four years ago right after we got married."
+  }
+}

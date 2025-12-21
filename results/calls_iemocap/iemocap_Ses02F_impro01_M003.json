@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro01_M003",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:19:40.624871",
+  "duration_seconds": 6.41,
+  "transcript": "No, no, no. No one told you that you needed your real adversity.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.0,
+      "text": "No, no, no. No one told you that you needed your real adversity.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.615,
+      "sentiment_score": -0.4549,
+      "pitch_mean": 317.91
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4549,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 121.61,
+    "avg_pitch": 318.64
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.5,
+    "arousal": 2.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro01",
+    "utterance_id": "Ses02F_impro01_M003",
+    "transcript_ground_truth": "No. no  Uh, no one told you that you needed your original birth certificate."
+  }
+}

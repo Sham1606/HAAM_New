@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses05F_impro05_M019",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:03:21.485312",
+  "duration_seconds": 1.11,
+  "transcript": "Yeah. When you're author.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 0.8,
+      "text": "Yeah.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.814,
+      "sentiment_score": 0.2224,
+      "pitch_mean": 340.34
+    },
+    {
+      "start_time": 0.8,
+      "end_time": 3.84,
+      "text": "When you're author.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.929,
+      "sentiment_score": 0.1079,
+      "pitch_mean": 342.83
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1651,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 216.23,
+    "avg_pitch": 342.83
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro05",
+    "utterance_id": "Ses05F_impro05_M019",
+    "transcript_ground_truth": "Well,"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "call_id": "iemocap_Ses03F_script01_1_F006",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:29:25.248800",
+  "duration_seconds": 8.98,
+  "transcript": "What was he doing out there at that time? He's dreaming about him again. He's walking around at night again.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "What was he doing out there at that time?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.386,
+      "sentiment_score": -0.2074,
+      "pitch_mean": 316.66
+    },
+    {
+      "start_time": 3.0,
+      "end_time": 6.0,
+      "text": "He's dreaming about him again.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.617,
+      "sentiment_score": 0.1689,
+      "pitch_mean": 307.65
+    },
+    {
+      "start_time": 6.0,
+      "end_time": 9.0,
+      "text": "He's walking around at night again.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.5,
+      "sentiment_score": 0.0456,
+      "pitch_mean": 310.51
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0024,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.333,
+      "sadness": 0.333,
+      "neutral": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 133.67,
+    "avg_pitch": 310.51
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script01_1",
+    "utterance_id": "Ses03F_script01_1_F006",
+    "transcript_ground_truth": "What was he doing out there at that time? He was dreaming about him again. He's walking around at night again."
+  }
+}

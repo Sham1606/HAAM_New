@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro03_M020",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:53:41.819836",
+  "duration_seconds": 1.54,
+  "transcript": "Am I in it?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Am I in it?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.511,
+      "sentiment_score": 0.0186,
+      "pitch_mean": 328.95
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0186,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 155.84,
+    "avg_pitch": 328.95
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro03",
+    "utterance_id": "Ses05F_impro03_M020",
+    "transcript_ground_truth": "Am I in it?"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro02_M004",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:20:55.292831",
+  "duration_seconds": 2.85,
+  "transcript": "It's not gonna be the same.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It's not gonna be the same.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.431,
+      "sentiment_score": -0.8014,
+      "pitch_mean": 338.65
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8014,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 126.41,
+    "avg_pitch": 328.69
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 2.0,
+    "dominance": 2.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro02",
+    "utterance_id": "Ses02F_impro02_M004",
+    "transcript_ground_truth": "It's not going to be the same."
+  }
+}

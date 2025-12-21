@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses03M_impro01_M015",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:48:38.395212",
+  "duration_seconds": 4.52,
+  "transcript": "No, I'm not waiting, I'm not coming back again. I don't have time to come back five days ago.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.3,
+      "text": "No, I'm not waiting, I'm not coming back again.",
+      "emotion": "joy",
+      "emotion_confidence": 0.444,
+      "sentiment_score": -0.5164,
+      "pitch_mean": 388.7
+    },
+    {
+      "start_time": 2.3,
+      "end_time": 4.3,
+      "text": "I don't have time to come back five days ago.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.759,
+      "sentiment_score": -0.7279,
+      "pitch_mean": 362.37
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6221,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 0.5,
+      "sadness": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 252.39,
+    "avg_pitch": 370.85
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_impro01",
+    "utterance_id": "Ses03M_impro01_M015",
+    "transcript_ground_truth": "-- No.  I'm not waiting...I'm not coming back again.  I don't have time to come back five days."
+  }
+}

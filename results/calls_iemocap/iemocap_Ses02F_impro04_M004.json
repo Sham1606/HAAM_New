@@ -1,0 +1,71 @@
+{
+  "call_id": "iemocap_Ses02F_impro04_M004",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:24:08.636212",
+  "duration_seconds": 12.96,
+  "transcript": "I know, I know, it's hard, but you just gotta keep going. I mean, you've been going at it for so long, you know, there's something is definitely gonna come up. I know it will, because you're a good worker.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.28,
+      "text": "I know, I know, it's hard, but you just gotta keep going.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.523,
+      "sentiment_score": -0.0682,
+      "pitch_mean": 330.21
+    },
+    {
+      "start_time": 4.28,
+      "end_time": 6.3,
+      "text": "I mean, you've been going at it for so long, you know,",
+      "emotion": "disgust",
+      "emotion_confidence": 0.55,
+      "sentiment_score": 0.1022,
+      "pitch_mean": 323.92
+    },
+    {
+      "start_time": 6.3,
+      "end_time": 9.52,
+      "text": "there's something is definitely gonna come up.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.466,
+      "sentiment_score": 0.0252,
+      "pitch_mean": 320.17
+    },
+    {
+      "start_time": 9.52,
+      "end_time": 12.68,
+      "text": "I know it will, because you're a good worker.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.747,
+      "sentiment_score": 0.9378,
+      "pitch_mean": 326.83
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2492,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.75,
+      "neutral": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 185.18,
+    "avg_pitch": 326.95
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro04",
+    "utterance_id": "Ses02F_impro04_M004",
+    "transcript_ground_truth": "I know.  I know. It's hard, but you just--you gotta keep going.  I mean, you've been going at it for so long, you know.  Something is definitely going to come up.  I-I know it will, because you're a good worker--"
+  }
+}

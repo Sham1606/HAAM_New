@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_impro01_M002",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:46:27.977621",
+  "duration_seconds": 4.83,
+  "transcript": "Yeah, I understand that, man, but I don't know what they said to you, but you need to be in a different line.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Yeah, I understand that, man, but I don't know what they said to you, but you need to be in a different line.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.8,
+      "sentiment_score": -0.5545,
+      "pitch_mean": 329.12
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5545,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 285.72,
+    "avg_pitch": 333.19
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro01",
+    "utterance_id": "Ses05F_impro01_M002",
+    "transcript_ground_truth": "Yeah, I understand that ma'am.  I don't know what they said to you, but you need to be in a different line."
+  }
+}

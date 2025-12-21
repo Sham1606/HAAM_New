@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro04_F008",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:39:52.555125",
+  "duration_seconds": 8.09,
+  "transcript": "It's really hard. I mean have you tried like just going into a bar a couple times to make friends with your work there and",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.3,
+      "text": "It's really hard. I mean have you tried like just going into a bar a couple times to make friends with your work there and",
+      "emotion": "disgust",
+      "emotion_confidence": 0.562,
+      "sentiment_score": -0.3492,
+      "pitch_mean": 350.19
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3492,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 185.41,
+    "avg_pitch": 347.65
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro04",
+    "utterance_id": "Ses05M_impro04_F008",
+    "transcript_ground_truth": "L.A. is really hard.  I mean, have you tried like just going into a bar a couple of times to make friends with people who work there? and"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses03F_script02_1_M042",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:38:41.253698",
+  "duration_seconds": 9.87,
+  "transcript": "where we stand for a massive celebration of sex and death. Ah, god, I'm giving myself goosebumps. Look, all my hairs on my arms are sticking out.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.68,
+      "text": "where we stand for a massive celebration of sex and death.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.397,
+      "sentiment_score": -0.5938,
+      "pitch_mean": 327.64
+    },
+    {
+      "start_time": 3.68,
+      "end_time": 6.56,
+      "text": "Ah, god, I'm giving myself goosebumps.",
+      "emotion": "joy",
+      "emotion_confidence": 0.843,
+      "sentiment_score": 0.888,
+      "pitch_mean": 367.24
+    },
+    {
+      "start_time": 6.56,
+      "end_time": 9.6,
+      "text": "Look, all my hairs on my arms are sticking out.",
+      "emotion": "joy",
+      "emotion_confidence": 0.346,
+      "sentiment_score": -0.3791,
+      "pitch_mean": 357.48
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0283,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "disgust": 0.333,
+      "joy": 0.667
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 164.11,
+    "avg_pitch": 344.63
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 4.5,
+    "arousal": 5.0,
+    "dominance": 5.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_script02_1",
+    "utterance_id": "Ses03F_script02_1_M042",
+    "transcript_ground_truth": "where we stand for a massive celebration of sex and death. Oh, God, I'm giving myself goosebumps. Look, I'm all-all my hairs on my arms is sticking up."
+  }
+}

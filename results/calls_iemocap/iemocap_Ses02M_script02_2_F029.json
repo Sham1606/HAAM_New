@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script02_2_F029",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:08:44.651554",
+  "duration_seconds": 4.26,
+  "transcript": "This what what is this isn't even anything",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.68,
+      "text": "This what what is this isn't even anything",
+      "emotion": "disgust",
+      "emotion_confidence": 0.395,
+      "sentiment_score": -0.8405,
+      "pitch_mean": 352.67
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.8405,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 112.68,
+    "avg_pitch": 350.54
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.0,
+    "dominance": 4.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script02_2",
+    "utterance_id": "Ses02M_script02_2_F029",
+    "transcript_ground_truth": "This? What, what is this? This isn't even anything."
+  }
+}

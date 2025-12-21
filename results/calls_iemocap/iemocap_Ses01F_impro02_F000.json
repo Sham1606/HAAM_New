@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01F_impro02_F000",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:16:21.559535",
+  "duration_seconds": 9.33,
+  "transcript": "Did you get the mail? See you somewhere later.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Did you get the mail?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.724,
+      "sentiment_score": 0.0215,
+      "pitch_mean": 325.96
+    },
+    {
+      "start_time": 5.0,
+      "end_time": 7.0,
+      "text": "See you somewhere later.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.779,
+      "sentiment_score": 0.1549,
+      "pitch_mean": 329.98
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0882,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 57.87,
+    "avg_pitch": 329.55
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 2.0,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro02",
+    "utterance_id": "Ses01F_impro02_F000",
+    "transcript_ground_truth": "Did you get the mail? So you saw my letter?"
+  }
+}

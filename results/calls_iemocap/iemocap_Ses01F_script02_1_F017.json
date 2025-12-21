@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01F_script02_1_F017",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:37:56.976759",
+  "duration_seconds": 9.09,
+  "transcript": "That's what up. I mean these fish swim out of the ocean, they flop around on the beach, they swim away and then they die.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 6.04,
+      "text": "That's what up. I mean these fish swim out of the ocean, they flop around on the beach,",
+      "emotion": "joy",
+      "emotion_confidence": 0.397,
+      "sentiment_score": -0.1368,
+      "pitch_mean": 346.44
+    },
+    {
+      "start_time": 6.04,
+      "end_time": 8.08,
+      "text": "they swim away and then they die.",
+      "emotion": "joy",
+      "emotion_confidence": 0.507,
+      "sentiment_score": -0.6694,
+      "pitch_mean": 371.61
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4031,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 165.02,
+    "avg_pitch": 348.76
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_script02_1",
+    "utterance_id": "Ses01F_script02_1_F017",
+    "transcript_ground_truth": "Pass what up?  I mean these fish swim out of the ocean, they flop around on the beach, they swim away and then they die."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script03_2_M010",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:14:11.566441",
+  "duration_seconds": 2.37,
+  "transcript": "I'll have a little I think.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I'll have a little I think.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.939,
+      "sentiment_score": 0.2259,
+      "pitch_mean": 335.94
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2259,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 151.91,
+    "avg_pitch": 334.73
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.0,
+    "arousal": 3.0,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script03_2",
+    "utterance_id": "Ses02M_script03_2_M010",
+    "transcript_ground_truth": "I have a little I think."
+  }
+}

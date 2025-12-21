@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05F_impro02_M009",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T14:49:03.131269",
+  "duration_seconds": 4.52,
+  "transcript": "Nobody's even here. Your parents live on the other side of the country.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Nobody's even here.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.346,
+      "sentiment_score": -0.6043,
+      "pitch_mean": 326.62
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 4.0,
+      "text": "Your parents live on the other side of the country.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.847,
+      "sentiment_score": -0.2719,
+      "pitch_mean": 328.95
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4381,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 172.57,
+    "avg_pitch": 325.7
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 1.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_impro02",
+    "utterance_id": "Ses05F_impro02_M009",
+    "transcript_ground_truth": "Nobody's even here.  Your parents live on the other side of the country."
+  }
+}

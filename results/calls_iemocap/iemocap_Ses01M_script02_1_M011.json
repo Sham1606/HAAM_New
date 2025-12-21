@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses01M_script02_1_M011",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T02:08:56.408452",
+  "duration_seconds": 5.2,
+  "transcript": "God, she's a brother. I can't believe I forgot that.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.2,
+      "text": "God, she's a brother.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.618,
+      "sentiment_score": 0.7837,
+      "pitch_mean": 334.17
+    },
+    {
+      "start_time": 3.2,
+      "end_time": 5.2,
+      "text": "I can't believe I forgot that.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.946,
+      "sentiment_score": -0.5765,
+      "pitch_mean": 339.4
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1036,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 115.36,
+    "avg_pitch": 336.23
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.5,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_script02_1",
+    "utterance_id": "Ses01M_script02_1_M011",
+    "transcript_ground_truth": "Gosh, I should have brought it. I can't believe I forgot that."
+  }
+}

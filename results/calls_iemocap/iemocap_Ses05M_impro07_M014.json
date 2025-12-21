@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_impro07_M014",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:48:46.365421",
+  "duration_seconds": 3.73,
+  "transcript": "Perfect. Oh my god. Are you staying are you gonna live on campus?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.22,
+      "text": "Perfect. Oh my god. Are you staying are you gonna live on campus?",
+      "emotion": "neutral",
+      "emotion_confidence": 0.881,
+      "sentiment_score": 0.9448,
+      "pitch_mean": 358.97
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9448,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 209.12,
+    "avg_pitch": 349.38
+  },
+  "ground_truth": {
+    "emotion": "joy",
+    "raw_emotion": "exc",
+    "valence": 5.0,
+    "arousal": 3.5,
+    "dominance": 2.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro07",
+    "utterance_id": "Ses05M_impro07_M014",
+    "transcript_ground_truth": "Perfect!  Oh, my God.  Are you staying, are you going to live on campus?"
+  }
+}

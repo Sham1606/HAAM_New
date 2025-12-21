@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro03_M006",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:19:49.133175",
+  "duration_seconds": 2.09,
+  "transcript": "He turned to you and was like",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "He turned to you and was like",
+      "emotion": "disgust",
+      "emotion_confidence": 0.493,
+      "sentiment_score": 0.0707,
+      "pitch_mean": 323.51
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0707,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 200.96,
+    "avg_pitch": 322.25
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 4.0,
+    "arousal": 2.6667,
+    "dominance": 2.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro03",
+    "utterance_id": "Ses01F_impro03_M006",
+    "transcript_ground_truth": "He turned to you and was like..."
+  }
+}

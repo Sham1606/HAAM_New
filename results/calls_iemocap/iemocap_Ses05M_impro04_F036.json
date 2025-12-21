@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses05M_impro04_F036",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:41:02.260854",
+  "duration_seconds": 8.48,
+  "transcript": "Okay, well that's good. Yeah, I mean you're you're you're when you're happy you're a pretty personable guy and I don't I don't",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Okay, well that's good.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.344,
+      "sentiment_score": 0.9468,
+      "pitch_mean": 332.34
+    },
+    {
+      "start_time": 2.76,
+      "end_time": 8.38,
+      "text": "Yeah, I mean you're you're you're when you're happy you're a pretty personable guy and I don't I don't",
+      "emotion": "joy",
+      "emotion_confidence": 0.87,
+      "sentiment_score": 0.8181,
+      "pitch_mean": 334.96
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.8825,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 0.5,
+      "joy": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 162.74,
+    "avg_pitch": 331.6
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 3.5,
+    "arousal": 2.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_impro04",
+    "utterance_id": "Ses05M_impro04_F036",
+    "transcript_ground_truth": "Okay.  Well, that's good.  Yeah, I mean, you're you're- when you're happy you're a pretty personable guy.  And I don't --I don't"
+  }
+}

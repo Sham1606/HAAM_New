@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01M_impro01_M033",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:49:32.790840",
+  "duration_seconds": 5.03,
+  "transcript": "Oh no honey you're not and you're gonna miss the Christmas card too. This shame is gonna be a good nice picture",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.7,
+      "text": "Oh no honey you're not and you're gonna miss the Christmas card too. This shame is gonna be a good nice picture",
+      "emotion": "sadness",
+      "emotion_confidence": 0.649,
+      "sentiment_score": 0.1156,
+      "pitch_mean": 357.77
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1156,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 262.3,
+    "avg_pitch": 357.23
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 1.0,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro01",
+    "utterance_id": "Ses01M_impro01_M033",
+    "transcript_ground_truth": "Oh, no honey. And you're going to miss the Christmas card too. It's a shame. It's going to be a good, nice picture."
+  }
+}

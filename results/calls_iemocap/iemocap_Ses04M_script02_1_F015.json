@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04M_script02_1_F015",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T13:10:18.846766",
+  "duration_seconds": 4.67,
+  "transcript": "This isn't a moon landing we're talking about, it's fish, it's fish, nobody even eats.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.4,
+      "text": "This isn't a moon landing we're talking about, it's fish, it's fish, nobody even eats.",
+      "emotion": "joy",
+      "emotion_confidence": 0.35,
+      "sentiment_score": -0.7658,
+      "pitch_mean": 353.13
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7658,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 192.72,
+    "avg_pitch": 352.2
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04M_script02_1",
+    "utterance_id": "Ses04M_script02_1_F015",
+    "transcript_ground_truth": "This isn't a moon landing we're talking about.  It's fish.  It's fish nobody even eats."
+  }
+}

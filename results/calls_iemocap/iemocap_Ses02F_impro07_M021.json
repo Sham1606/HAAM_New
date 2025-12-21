@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02F_impro07_M021",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:29:26.547589",
+  "duration_seconds": 2.68,
+  "transcript": "I mean, yeah, it's good all around.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I mean, yeah, it's good all around.",
+      "emotion": "joy",
+      "emotion_confidence": 0.812,
+      "sentiment_score": 0.9384,
+      "pitch_mean": 337.8
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9384,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 156.43,
+    "avg_pitch": 336.78
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 4.0,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_impro07",
+    "utterance_id": "Ses02F_impro07_M021",
+    "transcript_ground_truth": "I know.  I mean, it's good all around."
+  }
+}

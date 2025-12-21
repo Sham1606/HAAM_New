@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses02M_script01_1_F021",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:00:09.319356",
+  "duration_seconds": 5.18,
+  "transcript": "From Father's point of view, he is in debt and you have no right to take his girl.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "From Father's point of view, he is in debt and you have no right to take his girl.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.465,
+      "sentiment_score": -0.7747,
+      "pitch_mean": 344.9
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.7747,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 208.49,
+    "avg_pitch": 345.53
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "neu",
+    "valence": 2.0,
+    "arousal": 3.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script01_1",
+    "utterance_id": "Ses02M_script01_1_F021",
+    "transcript_ground_truth": "From father's point of you he isn't dead and you have no right to take his girl."
+  }
+}

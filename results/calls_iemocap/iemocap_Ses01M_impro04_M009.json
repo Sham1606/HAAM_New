@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses01M_impro04_M009",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:54:12.718955",
+  "duration_seconds": 5.54,
+  "transcript": "It's really hard to shake that off when you're going to an audition or room or whatever. You know what I mean?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.4,
+      "text": "It's really hard to shake that off when you're going to an audition or room or whatever.",
+      "emotion": "fear",
+      "emotion_confidence": 0.921,
+      "sentiment_score": -0.6042,
+      "pitch_mean": 343.75
+    },
+    {
+      "start_time": 4.4,
+      "end_time": 5.4,
+      "text": "You know what I mean?",
+      "emotion": "anger",
+      "emotion_confidence": 0.438,
+      "sentiment_score": 0.0239,
+      "pitch_mean": 335.58
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2902,
+    "dominant_emotion": "fear",
+    "emotion_distribution": {
+      "fear": 0.5,
+      "anger": 0.5
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 238.27,
+    "avg_pitch": 341.92
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "fru",
+    "valence": 2.0,
+    "arousal": 4.5,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01M_impro04",
+    "utterance_id": "Ses01M_impro04_M009",
+    "transcript_ground_truth": "Like it's really hard to like shake that off when you go into like audition a room or whatever, you know what I mean?"
+  }
+}

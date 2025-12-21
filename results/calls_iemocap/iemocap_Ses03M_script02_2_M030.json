@@ -1,0 +1,52 @@
+{
+  "call_id": "iemocap_Ses03M_script02_2_M030",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T11:50:47.445665",
+  "duration_seconds": 14.88,
+  "transcript": "I was just like you. I thought it was gonna be all peaches and roses and everything great and the sand and our toes and the wind in our hair And the fish will always come and the bills will pay themselves and we'd have three big fat rosy kids and",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 7.28,
+      "text": "I was just like you. I thought it was gonna be all peaches and roses and everything great and the sand and our toes and the wind in our hair",
+      "emotion": "neutral",
+      "emotion_confidence": 0.699,
+      "sentiment_score": 0.7405,
+      "pitch_mean": 322.26
+    },
+    {
+      "start_time": 7.28,
+      "end_time": 13.94,
+      "text": "And the fish will always come and the bills will pay themselves and we'd have three big fat rosy kids and",
+      "emotion": "neutral",
+      "emotion_confidence": 0.641,
+      "sentiment_score": 0.6553,
+      "pitch_mean": 314.12
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.6979,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 205.7,
+    "avg_pitch": 318.2
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 2.0,
+    "arousal": 3.3333,
+    "dominance": 3.3333
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03M_script02_2",
+    "utterance_id": "Ses03M_script02_2_M030",
+    "transcript_ground_truth": "I was just like you.  I thought it was going to be all peaches and roses and everything great and the sand in our toes and the wind in our hair and the fish will always come and the bills will pay themselves and we'd have three big fat rosy kids..."
+  }
+}

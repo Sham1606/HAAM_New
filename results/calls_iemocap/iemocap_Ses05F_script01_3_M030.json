@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05F_script01_3_M030",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:20:13.483376",
+  "duration_seconds": 5.18,
+  "transcript": "I mean that exactly. A little more selfish and they would have been here today.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "I mean that exactly. A little more selfish and they would have been here today.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.506,
+      "sentiment_score": -0.9116,
+      "pitch_mean": 326.77
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9116,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 173.82,
+    "avg_pitch": 327.33
+  },
+  "ground_truth": {
+    "emotion": "sadness",
+    "raw_emotion": "sad",
+    "valence": 2.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05F_script01_3",
+    "utterance_id": "Ses05F_script01_3_M030",
+    "transcript_ground_truth": "I mean that exactly that-a little more selfish and they would have still been here today."
+  }
+}

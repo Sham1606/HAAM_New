@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses04F_script02_1_M001",
+  "agent_id": "iemocap_agent_04_M",
+  "timestamp": "2025-12-21T12:33:15.407720",
+  "duration_seconds": 5.67,
+  "transcript": "Actually, I wanted to go a little farther up because get away from the lights and the people, but I was afraid to miss it. How you doing?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.0,
+      "text": "Actually, I wanted to go a little farther up because get away from the lights and the people, but I was afraid to miss it. How you doing?",
+      "emotion": "fear",
+      "emotion_confidence": 0.954,
+      "sentiment_score": -0.1019,
+      "pitch_mean": 326.35
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1019,
+    "dominant_emotion": "fear",
+    "emotion_distribution": {
+      "fear": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 296.54,
+    "avg_pitch": 324.91
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 2.5,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 4,
+    "dialogue": "Ses04F_script02_1",
+    "utterance_id": "Ses04F_script02_1_M001",
+    "transcript_ground_truth": "Actually, I wanted to go a little farther up the coast, get away from the lights and the people, but I was afraid to miss it.  How you doing?"
+  }
+}

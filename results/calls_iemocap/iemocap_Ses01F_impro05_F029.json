@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses01F_impro05_F029",
+  "agent_id": "iemocap_agent_01_M",
+  "timestamp": "2025-12-21T01:25:14.676931",
+  "duration_seconds": 3.95,
+  "transcript": "I don't think you've done everything you could do because I don't have my back here yet",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.34,
+      "text": "I don't think you've done everything you could do because I don't have my back here yet",
+      "emotion": "neutral",
+      "emotion_confidence": 0.92,
+      "sentiment_score": -0.6967,
+      "pitch_mean": 337.49
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6967,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 258.23,
+    "avg_pitch": 335.33
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 1,
+    "dialogue": "Ses01F_impro05",
+    "utterance_id": "Ses01F_impro05_F029",
+    "transcript_ground_truth": "I don't think you have done everything you could do because I don't have my bag here yet."
+  }
+}

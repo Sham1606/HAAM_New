@@ -1,0 +1,53 @@
+{
+  "call_id": "iemocap_Ses02F_script03_1_F018",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:42:42.407022",
+  "duration_seconds": 2.06,
+  "transcript": "What serious enough isn't it? No.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "What serious enough isn't it?",
+      "emotion": "disgust",
+      "emotion_confidence": 0.443,
+      "sentiment_score": -0.7761,
+      "pitch_mean": 337.02
+    },
+    {
+      "start_time": 2.0,
+      "end_time": 3.0,
+      "text": "No.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.83,
+      "sentiment_score": 0.122,
+      "pitch_mean": 336.47
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.327,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.5,
+      "neutral": 0.5
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 174.76,
+    "avg_pitch": 336.47
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.6667,
+    "arousal": 2.3333,
+    "dominance": 1.6667
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script03_1",
+    "utterance_id": "Ses02F_script03_1_F018",
+    "transcript_ground_truth": "That's serious enough, isn't it?"
+  }
+}

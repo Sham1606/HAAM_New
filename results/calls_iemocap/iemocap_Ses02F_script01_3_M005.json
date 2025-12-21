@@ -1,0 +1,62 @@
+{
+  "call_id": "iemocap_Ses02F_script01_3_M005",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T02:36:11.571747",
+  "duration_seconds": 9.14,
+  "transcript": "The trouble is I Plan on sort of sneaking up on you over a period of a week or so They take it for granted that we're all set",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "The trouble is I",
+      "emotion": "disgust",
+      "emotion_confidence": 0.406,
+      "sentiment_score": -0.4832,
+      "pitch_mean": 335.49
+    },
+    {
+      "start_time": 2.16,
+      "end_time": 5.36,
+      "text": "Plan on sort of sneaking up on you over a period of a week or so",
+      "emotion": "disgust",
+      "emotion_confidence": 0.402,
+      "sentiment_score": -0.0199,
+      "pitch_mean": 334.04
+    },
+    {
+      "start_time": 6.24,
+      "end_time": 8.24,
+      "text": "They take it for granted that we're all set",
+      "emotion": "neutral",
+      "emotion_confidence": 0.942,
+      "sentiment_score": -0.39,
+      "pitch_mean": 330.14
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2977,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 0.667,
+      "neutral": 0.333
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 190.37,
+    "avg_pitch": 333.31
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 3.5,
+    "arousal": 3.5,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02F_script01_3",
+    "utterance_id": "Ses02F_script01_3_M005",
+    "transcript_ground_truth": "The trouble is, I planned on sort of sneaking up on you over a period of a week or so.  But, they take it for granted that we're all set."
+  }
+}

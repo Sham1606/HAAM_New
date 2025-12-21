@@ -1,0 +1,43 @@
+{
+  "call_id": "iemocap_Ses05M_script01_1_M026",
+  "agent_id": "iemocap_agent_05_M",
+  "timestamp": "2025-12-21T15:55:06.607787",
+  "duration_seconds": 3.38,
+  "transcript": "I wanted to get this taken care of first.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I wanted to get this taken care of first.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.505,
+      "sentiment_score": -0.1798,
+      "pitch_mean": 328.64
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1798,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 159.77,
+    "avg_pitch": 328.46
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 2.0,
+    "arousal": 3.0,
+    "dominance": 3.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 5,
+    "dialogue": "Ses05M_script01_1",
+    "utterance_id": "Ses05M_script01_1_M026",
+    "transcript_ground_truth": "I wanted to get this taken care of first."
+  }
+}

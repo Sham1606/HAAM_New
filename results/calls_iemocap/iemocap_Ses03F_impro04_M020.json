@@ -1,0 +1,31 @@
+{
+  "call_id": "iemocap_Ses03F_impro04_M020",
+  "agent_id": "iemocap_agent_03_M",
+  "timestamp": "2025-12-21T03:22:00.560736",
+  "duration_seconds": 1.56,
+  "transcript": "",
+  "segments": [],
+  "overall_metrics": {
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {},
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 0.0,
+    "avg_pitch": 333.82
+  },
+  "ground_truth": {
+    "emotion": "neutral",
+    "raw_emotion": "xxx",
+    "valence": 5.0,
+    "arousal": 4.0,
+    "dominance": 3.0
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 3,
+    "dialogue": "Ses03F_impro04",
+    "utterance_id": "Ses03F_impro04_M020",
+    "transcript_ground_truth": "[LAUGHTER]"
+  }
+}

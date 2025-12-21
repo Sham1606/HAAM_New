@@ -1,0 +1,72 @@
+{
+  "call_id": "iemocap_Ses02M_script02_2_F011",
+  "agent_id": "iemocap_agent_02_M",
+  "timestamp": "2025-12-21T03:08:13.807478",
+  "duration_seconds": 12.03,
+  "transcript": "I mean, I feel like my whole life is gonna be spent standing on the beach waiting for the fish to show up with my eyes open and my hands clasp expectingly and the fish won't show up.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.58,
+      "text": "I mean, I feel like my whole life is gonna be spent",
+      "emotion": "sadness",
+      "emotion_confidence": 0.911,
+      "sentiment_score": -0.6174,
+      "pitch_mean": 355.87
+    },
+    {
+      "start_time": 2.58,
+      "end_time": 5.48,
+      "text": "standing on the beach waiting for the fish to show up",
+      "emotion": "neutral",
+      "emotion_confidence": 0.701,
+      "sentiment_score": 0.1023,
+      "pitch_mean": 352.69
+    },
+    {
+      "start_time": 5.48,
+      "end_time": 9.44,
+      "text": "with my eyes open and my hands clasp expectingly",
+      "emotion": "joy",
+      "emotion_confidence": 0.37,
+      "sentiment_score": 0.1317,
+      "pitch_mean": 352.02
+    },
+    {
+      "start_time": 9.44,
+      "end_time": 11.68,
+      "text": "and the fish won't show up.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.87,
+      "sentiment_score": -0.6831,
+      "pitch_mean": 368.16
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2666,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 0.5,
+      "neutral": 0.25,
+      "joy": 0.25
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 189.51,
+    "avg_pitch": 354.24
+  },
+  "ground_truth": {
+    "emotion": "anger",
+    "raw_emotion": "ang",
+    "valence": 1.5,
+    "arousal": 4.0,
+    "dominance": 4.5
+  },
+  "metadata": {
+    "dataset": "IEMOCAP",
+    "session": 2,
+    "dialogue": "Ses02M_script02_2",
+    "utterance_id": "Ses02M_script02_2_F011",
+    "transcript_ground_truth": "I mean I feel like my whole life is going to be spent standing on the beach waiting for the fish to show up with my eyes open and my hands clasped expectantly and the fish won't show up."
+  }
+}
