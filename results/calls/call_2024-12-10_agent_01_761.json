@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-10_agent_01_761",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T19:27:36.895188",
+  "duration_seconds": 1.84,
+  "transcript": "\u060c \u0648\u0645\u0646 \u0644\u0627 \u0623\u0632\u0646\u062a \u0627\u0644\u0625\u0645\u0643\u0627\u0646.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "\u060c \u0648\u0645\u0646 \u0644\u0627 \u0623\u0632\u0646\u062a \u0627\u0644\u0625\u0645\u0643\u0627\u0646.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.864,
+      "sentiment_score": -0.0499,
+      "pitch_mean": 280.84
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0499,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 163.47,
+    "avg_pitch": 280.84
+  }
+}

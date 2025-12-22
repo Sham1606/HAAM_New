@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-16_agent_01_2057",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T20:15:58.160351",
+  "duration_seconds": 2.2,
+  "transcript": "It's a little muconic.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It's a little muconic.",
+      "emotion": "joy",
+      "emotion_confidence": 0.293,
+      "sentiment_score": -0.0214,
+      "pitch_mean": 301.04
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0214,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 108.98,
+    "avg_pitch": 301.04
+  }
+}

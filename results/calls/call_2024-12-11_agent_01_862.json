@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-11_agent_01_862",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T19:31:13.937515",
+  "duration_seconds": 2.47,
+  "transcript": "It's a lovely car.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It's a lovely car.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.706,
+      "sentiment_score": 0.9588,
+      "pitch_mean": 279.75
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9588,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 97.2,
+    "avg_pitch": 279.75
+  }
+}

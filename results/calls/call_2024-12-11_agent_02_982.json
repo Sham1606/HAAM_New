@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-11_agent_02_982",
+  "agent_id": "agent_02",
+  "timestamp": "2025-12-20T19:37:13.166247",
+  "duration_seconds": 2.1,
+  "transcript": "Don't you love me like that?",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Don't you love me like that?",
+      "emotion": "sadness",
+      "emotion_confidence": 0.487,
+      "sentiment_score": 0.6911,
+      "pitch_mean": 315.04
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.6911,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 171.26,
+    "avg_pitch": 315.04
+  }
+}

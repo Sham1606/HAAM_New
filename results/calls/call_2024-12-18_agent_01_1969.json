@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-18_agent_01_1969",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T20:12:21.265497",
+  "duration_seconds": 2.24,
+  "transcript": "It's still in a clock.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It's still in a clock.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.406,
+      "sentiment_score": -0.0343,
+      "pitch_mean": 299.59
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0343,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 134.19,
+    "avg_pitch": 299.59
+  }
+}

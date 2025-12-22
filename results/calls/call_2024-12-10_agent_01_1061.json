@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-10_agent_01_1061",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T19:40:07.514212",
+  "duration_seconds": 3.74,
+  "transcript": "We'll stop in a couple of minutes.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "We'll stop in a couple of minutes.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.622,
+      "sentiment_score": 0.0708,
+      "pitch_mean": 281.57
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0708,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 112.39,
+    "avg_pitch": 281.57
+  }
+}

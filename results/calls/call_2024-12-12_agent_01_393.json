@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-12_agent_01_393",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T19:17:14.418932",
+  "duration_seconds": 2.67,
+  "transcript": "It's a legend of clock.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It's a legend of clock.",
+      "emotion": "joy",
+      "emotion_confidence": 0.448,
+      "sentiment_score": 0.6278,
+      "pitch_mean": 310.91
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.6278,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 112.39,
+    "avg_pitch": 310.91
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-13_agent_01_1834",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T20:06:51.939476",
+  "duration_seconds": 3.2,
+  "transcript": "Maybe the morrow will be cowered.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "Maybe the morrow will be cowered.",
+      "emotion": "fear",
+      "emotion_confidence": 0.331,
+      "sentiment_score": -0.5794,
+      "pitch_mean": 260.72
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.5794,
+    "dominant_emotion": "fear",
+    "emotion_distribution": {
+      "fear": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 112.39,
+    "avg_pitch": 260.72
+  }
+}

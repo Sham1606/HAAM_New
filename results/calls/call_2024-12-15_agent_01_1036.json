@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-15_agent_01_1036",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T19:39:18.599374",
+  "duration_seconds": 2.77,
+  "transcript": "The airplane is almost full.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "The airplane is almost full.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.278,
+      "sentiment_score": 0.0034,
+      "pitch_mean": 296.1
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0034,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 108.33,
+    "avg_pitch": 296.1
+  }
+}

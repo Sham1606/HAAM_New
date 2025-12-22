@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-12_agent_01_2193",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T20:21:18.320988",
+  "duration_seconds": 3.47,
+  "transcript": "I would like a new alarm clock.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I would like a new alarm clock.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.461,
+      "sentiment_score": 0.1384,
+      "pitch_mean": 286.47
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1384,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 121.03,
+    "avg_pitch": 286.47
+  }
+}

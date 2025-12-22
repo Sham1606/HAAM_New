@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-17_agent_01_1028",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T19:39:03.094964",
+  "duration_seconds": 2.34,
+  "transcript": "We'll start for a couple of minutes.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "We'll start for a couple of minutes.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.359,
+      "sentiment_score": 0.1183,
+      "pitch_mean": 303.2
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1183,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 179.82,
+    "avg_pitch": 303.2
+  }
+}

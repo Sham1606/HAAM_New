@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-19_agent_01_1030",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T19:39:07.098318",
+  "duration_seconds": 2.67,
+  "transcript": "Among my way to the meeting.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Among my way to the meeting.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.295,
+      "sentiment_score": 0.0835,
+      "pitch_mean": 286.33
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0835,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 134.87,
+    "avg_pitch": 286.33
+  }
+}

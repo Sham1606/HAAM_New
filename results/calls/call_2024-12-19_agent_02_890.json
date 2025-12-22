@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-19_agent_02_890",
+  "agent_id": "agent_02",
+  "timestamp": "2025-12-20T19:32:24.320247",
+  "duration_seconds": 1.8,
+  "transcript": "So level a clock.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "So level a clock.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.551,
+      "sentiment_score": 0.0023,
+      "pitch_mean": 301.25
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0023,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 133.2,
+    "avg_pitch": 301.25
+  }
+}

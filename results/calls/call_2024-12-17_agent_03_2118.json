@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-17_agent_03_2118",
+  "agent_id": "agent_03",
+  "timestamp": "2025-12-20T20:18:27.678522",
+  "duration_seconds": 2.27,
+  "transcript": "It's a little like a rock.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It's a little like a rock.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.445,
+      "sentiment_score": -0.1276,
+      "pitch_mean": 308.79
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1276,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 158.66,
+    "avg_pitch": 308.79
+  }
+}

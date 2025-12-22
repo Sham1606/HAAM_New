@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-17_agent_03_2018",
+  "agent_id": "agent_03",
+  "timestamp": "2025-12-20T20:14:19.074947",
+  "duration_seconds": 2.87,
+  "transcript": "It's all over the clock.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It's all over the clock.",
+      "emotion": "anger",
+      "emotion_confidence": 0.329,
+      "sentiment_score": -0.0516,
+      "pitch_mean": 323.17
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0516,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 104.55,
+    "avg_pitch": 323.17
+  }
+}

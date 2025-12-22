@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-10_agent_03_1551",
+  "agent_id": "agent_03",
+  "timestamp": "2025-12-20T19:55:54.585249",
+  "duration_seconds": 1.5,
+  "transcript": "Let's see who I'm with Mark.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Let's see who I'm with Mark.",
+      "emotion": "anger",
+      "emotion_confidence": 0.357,
+      "sentiment_score": 0.1173,
+      "pitch_mean": 329.26
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1173,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 239.76,
+    "avg_pitch": 329.26
+  }
+}

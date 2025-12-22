@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-19_agent_01_850",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T19:30:50.975713",
+  "duration_seconds": 2.4,
+  "transcript": "Maybe commenting on it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.88,
+      "text": "Maybe commenting on it.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.696,
+      "sentiment_score": -0.0703,
+      "pitch_mean": 273.18
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0703,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 99.9,
+    "avg_pitch": 273.18
+  }
+}

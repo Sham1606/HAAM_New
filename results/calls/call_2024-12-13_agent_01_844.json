@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-13_agent_01_844",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T19:30:29.623890",
+  "duration_seconds": 2.54,
+  "transcript": "It's a little bit clock.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It's a little bit clock.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.315,
+      "sentiment_score": 0.0382,
+      "pitch_mean": 269.52
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0382,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 118.3,
+    "avg_pitch": 269.52
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-14_agent_01_1025",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T19:38:56.745007",
+  "duration_seconds": 2.8,
+  "transcript": "The hairplate is almost full.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "The hairplate is almost full.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.342,
+      "sentiment_score": 0.1144,
+      "pitch_mean": 305.56
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1144,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 107.04,
+    "avg_pitch": 305.56
+  }
+}

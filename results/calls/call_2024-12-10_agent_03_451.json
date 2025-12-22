@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-10_agent_03_451",
+  "agent_id": "agent_03",
+  "timestamp": "2025-12-20T19:18:50.070839",
+  "duration_seconds": 1.87,
+  "transcript": "It's about a clock!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It's about a clock!",
+      "emotion": "anger",
+      "emotion_confidence": 0.504,
+      "sentiment_score": 0.1176,
+      "pitch_mean": 319.97
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1176,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 128.45,
+    "avg_pitch": 319.97
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-17_agent_03_088",
+  "agent_id": "agent_03",
+  "timestamp": "2025-12-20T19:08:29.095430",
+  "duration_seconds": 2.77,
+  "transcript": "atual machen\ufffd \ubb38\uc81c",
+  "segments": [
+    {
+      "start_time": 0.2,
+      "end_time": 2.92,
+      "text": "atual machen\ufffd \ubb38\uc81c",
+      "emotion": "anger",
+      "emotion_confidence": 0.776,
+      "sentiment_score": 0.0531,
+      "pitch_mean": 331.01
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0531,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 65.0,
+    "avg_pitch": 331.01
+  }
+}

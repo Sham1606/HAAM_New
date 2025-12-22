@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-11_agent_03_2012",
+  "agent_id": "agent_03",
+  "timestamp": "2025-12-20T20:14:05.924246",
+  "duration_seconds": 2.27,
+  "transcript": "So lemma like clock.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "So lemma like clock.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.51,
+      "sentiment_score": 0.013,
+      "pitch_mean": 321.01
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.013,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 105.78,
+    "avg_pitch": 321.01
+  }
+}

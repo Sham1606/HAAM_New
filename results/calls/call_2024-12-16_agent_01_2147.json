@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-16_agent_01_2147",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T20:19:35.267706",
+  "duration_seconds": 3.8,
+  "transcript": "I think I have a darkens appointment.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I think I have a darkens appointment.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.555,
+      "sentiment_score": 0.1183,
+      "pitch_mean": 316.26
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1183,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 110.42,
+    "avg_pitch": 316.26
+  }
+}

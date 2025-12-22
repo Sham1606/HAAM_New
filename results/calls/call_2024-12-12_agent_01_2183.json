@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-12_agent_01_2183",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T20:20:55.635732",
+  "duration_seconds": 3.1,
+  "transcript": "I wonder what this is about.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I wonder what this is about.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.562,
+      "sentiment_score": -0.0555,
+      "pitch_mean": 294.73
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0555,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 116.01,
+    "avg_pitch": 294.73
+  }
+}

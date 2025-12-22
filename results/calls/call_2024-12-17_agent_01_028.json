@@ -1,28 +1,29 @@
 {
   "call_id": "call_2024-12-17_agent_01_028",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T18:18:21.510416",
-  "duration_seconds": 1.5,
-  "transcript": "It's 11 o'clock!",
+  "timestamp": "2025-12-20T19:06:33.042584",
+  "duration_seconds": 2.0,
+  "transcript": "It's a living clock!",
   "segments": [
     {
       "start_time": 0.0,
       "end_time": 2.0,
-      "text": "It's 11 o'clock!",
-      "emotion": "surprise",
-      "sentiment_score": 0.245,
-      "pitch_mean": 299.23
+      "text": "It's a living clock!",
+      "emotion": "anger",
+      "emotion_confidence": 0.419,
+      "sentiment_score": 0.2277,
+      "pitch_mean": 342.98
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.245,
-    "dominant_emotion": "surprise",
+    "avg_sentiment": 0.2277,
+    "dominant_emotion": "anger",
     "emotion_distribution": {
-      "surprise": 1.0
+      "anger": 1.0
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.2,
+    "agent_stress_score": 0.4,
     "speech_rate_wpm": 119.88,
-    "avg_pitch": 299.23
+    "avg_pitch": 342.98
   }
 }

@@ -1,28 +1,29 @@
 {
   "call_id": "call_2024-12-15_agent_01_016",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T18:17:52.677886",
-  "duration_seconds": 1.77,
-  "transcript": "It's 11 o'clock!",
+  "timestamp": "2025-12-20T19:06:12.281523",
+  "duration_seconds": 2.74,
+  "transcript": "It's a little clock!",
   "segments": [
     {
       "start_time": 0.0,
       "end_time": 2.0,
-      "text": "It's 11 o'clock!",
-      "emotion": "surprise",
-      "sentiment_score": 0.245,
-      "pitch_mean": 333.64
+      "text": "It's a little clock!",
+      "emotion": "anger",
+      "emotion_confidence": 0.787,
+      "sentiment_score": 0.3932,
+      "pitch_mean": 315.16
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.245,
-    "dominant_emotion": "surprise",
+    "avg_sentiment": 0.3932,
+    "dominant_emotion": "anger",
     "emotion_distribution": {
-      "surprise": 1.0
+      "anger": 1.0
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.2,
-    "speech_rate_wpm": 101.78,
-    "avg_pitch": 333.64
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 87.72,
+    "avg_pitch": 315.16
   }
 }

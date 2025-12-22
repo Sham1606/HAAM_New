@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-18_agent_03_1939",
+  "agent_id": "agent_03",
+  "timestamp": "2025-12-20T20:10:53.769237",
+  "duration_seconds": 1.77,
+  "transcript": "It's a lot of clock.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It's a lot of clock.",
+      "emotion": "anger",
+      "emotion_confidence": 0.382,
+      "sentiment_score": -0.1785,
+      "pitch_mean": 322.55
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1785,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 169.64,
+    "avg_pitch": 322.55
+  }
+}

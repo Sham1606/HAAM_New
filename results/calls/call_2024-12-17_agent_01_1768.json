@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-17_agent_01_1768",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T20:03:51.011244",
+  "duration_seconds": 2.37,
+  "transcript": "Maybe tomorrow will be cold.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Maybe tomorrow will be cold.",
+      "emotion": "fear",
+      "emotion_confidence": 0.545,
+      "sentiment_score": -0.3719,
+      "pitch_mean": 317.82
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3719,
+    "dominant_emotion": "fear",
+    "emotion_distribution": {
+      "fear": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 126.64,
+    "avg_pitch": 317.82
+  }
+}

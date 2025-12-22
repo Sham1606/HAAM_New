@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-12_agent_03_633",
+  "agent_id": "agent_03",
+  "timestamp": "2025-12-20T19:23:52.719963",
+  "duration_seconds": 1.57,
+  "transcript": "So I'm gonna cop",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.48,
+      "text": "So I'm gonna cop",
+      "emotion": "joy",
+      "emotion_confidence": 0.464,
+      "sentiment_score": 0.5301,
+      "pitch_mean": 301.44
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5301,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 153.04,
+    "avg_pitch": 301.44
+  }
+}

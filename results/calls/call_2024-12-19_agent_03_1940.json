@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-19_agent_03_1940",
+  "agent_id": "agent_03",
+  "timestamp": "2025-12-20T20:10:56.629847",
+  "duration_seconds": 2.9,
+  "transcript": "It's a lemon of clock.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "It's a lemon of clock.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.462,
+      "sentiment_score": -0.0083,
+      "pitch_mean": 301.61
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0083,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 103.35,
+    "avg_pitch": 301.61
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-13_agent_01_2164",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T20:20:13.281979",
+  "duration_seconds": 4.27,
+  "transcript": "that is exactly what happened.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "that is exactly what happened.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.318,
+      "sentiment_score": -0.4887,
+      "pitch_mean": 303.13
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.4887,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 70.24,
+    "avg_pitch": 303.13
+  }
+}

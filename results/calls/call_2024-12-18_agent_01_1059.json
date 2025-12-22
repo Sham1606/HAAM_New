@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-18_agent_01_1059",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T19:40:03.807329",
+  "duration_seconds": 3.0,
+  "transcript": "It has exactly what happened.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "It has exactly what happened.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.579,
+      "sentiment_score": -0.2847,
+      "pitch_mean": 278.62
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2847,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 99.9,
+    "avg_pitch": 278.62
+  }
+}

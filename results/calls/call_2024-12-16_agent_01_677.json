@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-16_agent_01_677",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T19:25:00.083892",
+  "duration_seconds": 3.37,
+  "transcript": "The surface is slink.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "The surface is slink.",
+      "emotion": "joy",
+      "emotion_confidence": 0.353,
+      "sentiment_score": -0.0725,
+      "pitch_mean": 301.68
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0725,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 71.22,
+    "avg_pitch": 301.68
+  }
+}

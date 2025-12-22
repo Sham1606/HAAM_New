@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-10_agent_01_2201",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T20:21:36.514081",
+  "duration_seconds": 3.7,
+  "transcript": "No more my way to the meeting.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "No more my way to the meeting.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.32,
+      "sentiment_score": -0.1013,
+      "pitch_mean": 268.83
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1013,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 113.4,
+    "avg_pitch": 268.83
+  }
+}

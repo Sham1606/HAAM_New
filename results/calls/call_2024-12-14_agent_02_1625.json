@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-14_agent_02_1625",
+  "agent_id": "agent_02",
+  "timestamp": "2025-12-20T19:58:23.912432",
+  "duration_seconds": 1.77,
+  "transcript": "It's a lot of them, Bob.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It's a lot of them, Bob.",
+      "emotion": "fear",
+      "emotion_confidence": 0.489,
+      "sentiment_score": 0.0026,
+      "pitch_mean": 296.97
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0026,
+    "dominant_emotion": "fear",
+    "emotion_distribution": {
+      "fear": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 203.57,
+    "avg_pitch": 296.97
+  }
+}

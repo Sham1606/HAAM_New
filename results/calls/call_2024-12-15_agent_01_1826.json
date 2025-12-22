@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-15_agent_01_1826",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T20:06:32.649438",
+  "duration_seconds": 2.24,
+  "transcript": "The surface is slid.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "The surface is slid.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.367,
+      "sentiment_score": -0.1529,
+      "pitch_mean": 265.06
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1529,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 107.36,
+    "avg_pitch": 265.06
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-14_agent_02_045",
+  "agent_id": "agent_02",
+  "timestamp": "2025-12-20T19:07:00.095201",
+  "duration_seconds": 2.6,
+  "transcript": "It's alive in a park!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It's alive in a park!",
+      "emotion": "anger",
+      "emotion_confidence": 0.887,
+      "sentiment_score": 0.5632,
+      "pitch_mean": 327.76
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.5632,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 115.27,
+    "avg_pitch": 327.76
+  }
+}

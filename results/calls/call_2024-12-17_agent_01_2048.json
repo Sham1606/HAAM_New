@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-17_agent_01_2048",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T20:15:35.135196",
+  "duration_seconds": 2.07,
+  "transcript": "It's a lot look like.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It's a lot look like.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.518,
+      "sentiment_score": -0.05,
+      "pitch_mean": 288.19
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.05,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 145.02,
+    "avg_pitch": 288.19
+  }
+}

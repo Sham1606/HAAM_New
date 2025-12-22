@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-17_agent_01_1978",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T20:12:42.665403",
+  "duration_seconds": 2.28,
+  "transcript": "Ah, it's a limit of clock!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Ah, it's a limit of clock!",
+      "emotion": "anger",
+      "emotion_confidence": 0.384,
+      "sentiment_score": 0.2543,
+      "pitch_mean": 309.0
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2543,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 158.2,
+    "avg_pitch": 309.0
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-10_agent_03_541",
+  "agent_id": "agent_03",
+  "timestamp": "2025-12-20T19:21:17.061382",
+  "duration_seconds": 1.84,
+  "transcript": "It's a lambda clock!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It's a lambda clock!",
+      "emotion": "joy",
+      "emotion_confidence": 0.476,
+      "sentiment_score": 0.1862,
+      "pitch_mean": 329.23
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1862,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 130.78,
+    "avg_pitch": 329.23
+  }
+}

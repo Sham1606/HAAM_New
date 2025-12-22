@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-13_agent_03_2014",
+  "agent_id": "agent_03",
+  "timestamp": "2025-12-20T20:14:10.204168",
+  "duration_seconds": 1.97,
+  "transcript": "It's a love like rock!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It's a love like rock!",
+      "emotion": "disgust",
+      "emotion_confidence": 0.408,
+      "sentiment_score": 0.9528,
+      "pitch_mean": 321.75
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9528,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 152.39,
+    "avg_pitch": 321.75
+  }
+}

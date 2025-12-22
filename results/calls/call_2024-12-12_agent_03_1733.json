@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-12_agent_03_1733",
+  "agent_id": "agent_03",
+  "timestamp": "2025-12-20T20:02:29.527567",
+  "duration_seconds": 1.53,
+  "transcript": "Let's all have a look around.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Let's all have a look around.",
+      "emotion": "fear",
+      "emotion_confidence": 0.394,
+      "sentiment_score": 0.2216,
+      "pitch_mean": 311.2
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2216,
+    "dominant_emotion": "fear",
+    "emotion_distribution": {
+      "fear": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 234.55,
+    "avg_pitch": 311.2
+  }
+}

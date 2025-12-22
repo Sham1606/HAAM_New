@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-16_agent_03_1557",
+  "agent_id": "agent_03",
+  "timestamp": "2025-12-20T19:56:06.264632",
+  "duration_seconds": 1.77,
+  "transcript": "It's a lot of the fuck!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It's a lot of the fuck!",
+      "emotion": "anger",
+      "emotion_confidence": 0.6,
+      "sentiment_score": -0.9122,
+      "pitch_mean": 327.71
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.9122,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 203.57,
+    "avg_pitch": 327.71
+  }
+}

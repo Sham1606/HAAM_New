@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-12_agent_01_003",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T18:17:20.430246",
+  "timestamp": "2025-12-20T19:05:51.688017",
   "duration_seconds": 2.57,
   "transcript": "It's eleven o'clock!",
   "segments": [
@@ -9,19 +9,20 @@
       "start_time": 0.0,
       "end_time": 2.0,
       "text": "It's eleven o'clock!",
-      "emotion": "surprise",
+      "emotion": "anger",
+      "emotion_confidence": 0.488,
       "sentiment_score": 0.2779,
-      "pitch_mean": 333.38
+      "pitch_mean": 322.64
     }
   ],
   "overall_metrics": {
     "avg_sentiment": 0.2779,
-    "dominant_emotion": "surprise",
+    "dominant_emotion": "anger",
     "emotion_distribution": {
-      "surprise": 1.0
+      "anger": 1.0
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.2,
+    "agent_stress_score": 0.4,
     "speech_rate_wpm": 70.06,
     "avg_pitch": 322.64
   }

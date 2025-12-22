@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-11_agent_03_832",
+  "agent_id": "agent_03",
+  "timestamp": "2025-12-20T19:30:06.367985",
+  "duration_seconds": 2.5,
+  "transcript": "That's what I'm going to come on.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "That's what I'm going to come on.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.681,
+      "sentiment_score": 0.1763,
+      "pitch_mean": 260.88
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1763,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 167.83,
+    "avg_pitch": 260.88
+  }
+}

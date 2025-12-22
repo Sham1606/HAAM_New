@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-17_agent_01_658",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T19:24:31.109164",
+  "duration_seconds": 2.34,
+  "transcript": "I'm on my way to the meeting.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I'm on my way to the meeting.",
+      "emotion": "joy",
+      "emotion_confidence": 0.391,
+      "sentiment_score": 0.1498,
+      "pitch_mean": 295.97
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1498,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 179.82,
+    "avg_pitch": 295.97
+  }
+}

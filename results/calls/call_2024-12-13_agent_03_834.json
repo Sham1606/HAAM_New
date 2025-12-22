@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-13_agent_03_834",
+  "agent_id": "agent_03",
+  "timestamp": "2025-12-20T19:30:10.060665",
+  "duration_seconds": 1.8,
+  "transcript": "It's still on my clock.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It's still on my clock.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.807,
+      "sentiment_score": 0.0378,
+      "pitch_mean": 297.27
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0378,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 166.5,
+    "avg_pitch": 297.27
+  }
+}

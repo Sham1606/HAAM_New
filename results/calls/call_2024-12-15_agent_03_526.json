@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-15_agent_03_526",
+  "agent_id": "agent_03",
+  "timestamp": "2025-12-20T19:20:51.045831",
+  "duration_seconds": 1.7,
+  "transcript": "see you soon on the clock !",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.36,
+      "text": "see you soon on the clock !",
+      "emotion": "disgust",
+      "emotion_confidence": 0.423,
+      "sentiment_score": 0.6521,
+      "pitch_mean": 323.59
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.6521,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 246.81,
+    "avg_pitch": 323.59
+  }
+}

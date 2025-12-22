@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-10_agent_01_1341",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T19:49:00.242748",
+  "duration_seconds": 1.97,
+  "transcript": "Don't forget to check it.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Don't forget to check it.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.652,
+      "sentiment_score": 0.2401,
+      "pitch_mean": 308.06
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.2401,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 152.39,
+    "avg_pitch": 308.06
+  }
+}

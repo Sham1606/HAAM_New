@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-13_agent_02_894",
+  "agent_id": "agent_02",
+  "timestamp": "2025-12-20T19:32:32.077811",
+  "duration_seconds": 3.37,
+  "transcript": "So let me have a clock.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "So let me have a clock.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.616,
+      "sentiment_score": 0.1036,
+      "pitch_mean": 309.38
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1036,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 106.82,
+    "avg_pitch": 309.38
+  }
+}

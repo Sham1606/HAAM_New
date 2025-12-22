@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-17_agent_01_338",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T19:15:47.662439",
+  "duration_seconds": 2.5,
+  "transcript": "The surface is slick!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "The surface is slick!",
+      "emotion": "anger",
+      "emotion_confidence": 0.338,
+      "sentiment_score": 0.3826,
+      "pitch_mean": 291.94
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3826,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 95.9,
+    "avg_pitch": 291.94
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-15_agent_01_1296",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T19:47:37.926751",
+  "duration_seconds": 2.14,
+  "transcript": "and one more way to the meeting.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "and one more way to the meeting.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.885,
+      "sentiment_score": 0.0268,
+      "pitch_mean": 293.93
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0268,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 196.68,
+    "avg_pitch": 293.93
+  }
+}

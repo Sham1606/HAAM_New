@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-18_agent_01_769",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T19:27:51.828469",
+  "duration_seconds": 3.24,
+  "transcript": "It's a loving clock.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It's a loving clock.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.807,
+      "sentiment_score": 0.8752,
+      "pitch_mean": 280.29
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.8752,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 74.15,
+    "avg_pitch": 280.29
+  }
+}

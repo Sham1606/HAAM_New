@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-16_agent_03_997",
+  "agent_id": "agent_03",
+  "timestamp": "2025-12-20T19:37:55.675361",
+  "duration_seconds": 1.84,
+  "transcript": "into 11 o'clock.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "into 11 o'clock.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.543,
+      "sentiment_score": 0.0518,
+      "pitch_mean": 310.96
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0518,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 98.08,
+    "avg_pitch": 310.96
+  }
+}

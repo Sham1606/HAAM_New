@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-18_agent_02_2079",
+  "agent_id": "agent_02",
+  "timestamp": "2025-12-20T20:17:00.718591",
+  "duration_seconds": 1.74,
+  "transcript": "So loving and clock.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "So loving and clock.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.516,
+      "sentiment_score": 0.8408,
+      "pitch_mean": 303.76
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.8408,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 138.32,
+    "avg_pitch": 303.76
+  }
+}

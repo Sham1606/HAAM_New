@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-10_agent_01_2171",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T20:20:28.998295",
+  "duration_seconds": 2.24,
+  "transcript": "I would like to do a alarm clock.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I would like to do a alarm clock.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.386,
+      "sentiment_score": 0.1668,
+      "pitch_mean": 304.06
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1668,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 214.71,
+    "avg_pitch": 304.06
+  }
+}

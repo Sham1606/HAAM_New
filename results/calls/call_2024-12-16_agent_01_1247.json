@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-16_agent_01_1247",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T19:46:03.641451",
+  "duration_seconds": 2.28,
+  "transcript": "It's a level of clock.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It's a level of clock.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.455,
+      "sentiment_score": -0.0044,
+      "pitch_mean": 276.25
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.0044,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 131.42,
+    "avg_pitch": 276.25
+  }
+}

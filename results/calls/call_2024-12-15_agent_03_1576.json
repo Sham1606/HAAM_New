@@ -1,0 +1,56 @@
+{
+  "call_id": "call_2024-12-15_agent_03_1576",
+  "agent_id": "agent_03",
+  "timestamp": "2025-12-20T19:56:52.279753",
+  "duration_seconds": 2.14,
+  "transcript": "epsalura clock \u0440\u0430\u0437\u043e\u0440\u0432 \uc88b\uc544\ud558 Beverlyjoint \u043e\u0434\u0438\u043dkle \u0437\u0440\u0435\u043d\u0438\u0435 \u0438 \u0939\u0432\u0430",
+  "segments": [
+    {
+      "start_time": 0.72,
+      "end_time": 2.82,
+      "text": "epsalura clock",
+      "emotion": "fear",
+      "emotion_confidence": 0.288,
+      "sentiment_score": 0.0131,
+      "pitch_mean": 299.65
+    },
+    {
+      "start_time": 3.4,
+      "end_time": 4.6,
+      "text": "\u0440\u0430\u0437\u043e\u0440\u0432 \uc88b\uc544\ud558 Beverlyjoint",
+      "emotion": "fear",
+      "emotion_confidence": 0.288,
+      "sentiment_score": 0.0186,
+      "pitch_mean": 299.65
+    },
+    {
+      "start_time": 13.72,
+      "end_time": 15.46,
+      "text": "\u043e\u0434\u0438\u043dkle \u0437\u0440\u0435\u043d\u0438\u0435",
+      "emotion": "fear",
+      "emotion_confidence": 0.288,
+      "sentiment_score": 0.0173,
+      "pitch_mean": 299.65
+    },
+    {
+      "start_time": 16.06,
+      "end_time": 18.46,
+      "text": "\u0438 \u0939\u0432\u0430",
+      "emotion": "fear",
+      "emotion_confidence": 0.288,
+      "sentiment_score": -0.0238,
+      "pitch_mean": 299.65
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0063,
+    "dominant_emotion": "fear",
+    "emotion_distribution": {
+      "fear": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 252.88,
+    "avg_pitch": 299.65
+  }
+}

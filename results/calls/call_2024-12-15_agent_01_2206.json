@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-15_agent_01_2206",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T20:21:48.129544",
+  "duration_seconds": 4.07,
+  "transcript": "Maybe the Marlin will be my hold.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.0,
+      "text": "Maybe the Marlin will be my hold.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.291,
+      "sentiment_score": 0.3022,
+      "pitch_mean": 269.23
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3022,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 103.18,
+    "avg_pitch": 269.23
+  }
+}

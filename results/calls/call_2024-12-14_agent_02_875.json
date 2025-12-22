@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-14_agent_02_875",
+  "agent_id": "agent_02",
+  "timestamp": "2025-12-20T19:31:49.136265",
+  "duration_seconds": 2.37,
+  "transcript": "It's the morning of clock.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It's the morning of clock.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.608,
+      "sentiment_score": 0.0718,
+      "pitch_mean": 287.76
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0718,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 126.64,
+    "avg_pitch": 287.76
+  }
+}

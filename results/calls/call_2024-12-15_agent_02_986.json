@@ -1,0 +1,47 @@
+{
+  "call_id": "call_2024-12-15_agent_02_986",
+  "agent_id": "agent_02",
+  "timestamp": "2025-12-20T19:37:28.345997",
+  "duration_seconds": 2.87,
+  "transcript": "I don't know what I'm going to do but here the time's over. I do not know.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 11.42,
+      "text": "I don't know what I'm going to do but here the",
+      "emotion": "sadness",
+      "emotion_confidence": 0.839,
+      "sentiment_score": -0.4622,
+      "pitch_mean": 300.59
+    },
+    {
+      "start_time": 11.42,
+      "end_time": 14.58,
+      "text": "time's over.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.839,
+      "sentiment_score": -0.089,
+      "pitch_mean": 300.59
+    },
+    {
+      "start_time": 14.58,
+      "end_time": 27.22,
+      "text": "I do not know.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.839,
+      "sentiment_score": -0.222,
+      "pitch_mean": 300.59
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.2577,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 355.46,
+    "avg_pitch": 300.59
+  }
+}

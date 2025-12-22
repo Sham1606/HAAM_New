@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-11_agent_03_532",
+  "agent_id": "agent_03",
+  "timestamp": "2025-12-20T19:21:02.114285",
+  "duration_seconds": 1.63,
+  "transcript": "It's about gonna clock!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.0,
+      "text": "It's about gonna clock!",
+      "emotion": "fear",
+      "emotion_confidence": 0.425,
+      "sentiment_score": 0.1905,
+      "pitch_mean": 314.41
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1905,
+    "dominant_emotion": "fear",
+    "emotion_distribution": {
+      "fear": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 146.79,
+    "avg_pitch": 314.41
+  }
+}

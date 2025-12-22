@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-11_agent_02_1702",
+  "agent_id": "agent_02",
+  "timestamp": "2025-12-20T20:01:17.587796",
+  "duration_seconds": 1.77,
+  "transcript": "So, on the clock.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "So, on the clock.",
+      "emotion": "fear",
+      "emotion_confidence": 0.562,
+      "sentiment_score": 0.0436,
+      "pitch_mean": 310.59
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0436,
+    "dominant_emotion": "fear",
+    "emotion_distribution": {
+      "fear": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 135.71,
+    "avg_pitch": 310.59
+  }
+}

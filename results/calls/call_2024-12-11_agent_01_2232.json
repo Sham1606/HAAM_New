@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-11_agent_01_2232",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T20:22:57.594801",
+  "duration_seconds": 2.74,
+  "transcript": "Amalmoll under the meeting.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 4.4,
+      "text": "Amalmoll under the meeting.",
+      "emotion": "fear",
+      "emotion_confidence": 0.347,
+      "sentiment_score": 0.0541,
+      "pitch_mean": 260.0
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0541,
+    "dominant_emotion": "fear",
+    "emotion_distribution": {
+      "fear": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 87.72,
+    "avg_pitch": 260.0
+  }
+}

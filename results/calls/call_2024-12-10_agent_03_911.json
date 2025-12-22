@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-10_agent_03_911",
+  "agent_id": "agent_03",
+  "timestamp": "2025-12-20T19:33:34.048845",
+  "duration_seconds": 2.4,
+  "transcript": "Till 11 o'clock.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Till 11 o'clock.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.67,
+      "sentiment_score": 0.0773,
+      "pitch_mean": 307.37
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0773,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 74.93,
+    "avg_pitch": 307.37
+  }
+}

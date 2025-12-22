@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-13_agent_01_1764",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T20:03:42.114261",
+  "duration_seconds": 2.1,
+  "transcript": "I think I have a doctor's support bit.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I think I have a doctor's support bit.",
+      "emotion": "fear",
+      "emotion_confidence": 0.446,
+      "sentiment_score": 0.1953,
+      "pitch_mean": 311.08
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1953,
+    "dominant_emotion": "fear",
+    "emotion_distribution": {
+      "fear": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 228.34,
+    "avg_pitch": 311.08
+  }
+}

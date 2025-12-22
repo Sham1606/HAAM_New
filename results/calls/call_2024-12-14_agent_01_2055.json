@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-14_agent_01_2055",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T20:15:53.413834",
+  "duration_seconds": 2.14,
+  "transcript": "to go in a clock.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "to go in a clock.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.346,
+      "sentiment_score": 0.0131,
+      "pitch_mean": 284.66
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0131,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 140.49,
+    "avg_pitch": 284.66
+  }
+}

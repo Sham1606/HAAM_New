@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-17_agent_01_1968",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T20:12:18.495743",
+  "duration_seconds": 2.3,
+  "transcript": "It's a love at a clock.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It's a love at a clock.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.33,
+      "sentiment_score": 0.3252,
+      "pitch_mean": 286.92
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3252,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 156.36,
+    "avg_pitch": 286.92
+  }
+}

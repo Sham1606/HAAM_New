@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-16_agent_02_127",
+  "agent_id": "agent_02",
+  "timestamp": "2025-12-20T19:09:48.927303",
+  "duration_seconds": 2.3,
+  "transcript": "11 o'clock!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "11 o'clock!",
+      "emotion": "anger",
+      "emotion_confidence": 0.471,
+      "sentiment_score": 0.3071,
+      "pitch_mean": 313.27
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.3071,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 52.12,
+    "avg_pitch": 313.27
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-10_agent_01_751",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T19:27:07.505565",
+  "duration_seconds": 2.54,
+  "transcript": "\u0622\u062e\u0631\u0643\u0646 \u0647\u0648\u0627 \u0648 \u0647\u0630\u0627 \u03b6 Anyways",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.2,
+      "text": "\u0622\u062e\u0631\u0643\u0646 \u0647\u0648\u0627 \u0648 \u0647\u0630\u0627 \u03b6 Anyways",
+      "emotion": "sadness",
+      "emotion_confidence": 0.699,
+      "sentiment_score": -0.026,
+      "pitch_mean": 265.75
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.026,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 141.96,
+    "avg_pitch": 265.75
+  }
+}

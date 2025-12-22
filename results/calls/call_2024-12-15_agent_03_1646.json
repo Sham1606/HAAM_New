@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-15_agent_03_1646",
+  "agent_id": "agent_03",
+  "timestamp": "2025-12-20T19:59:06.856305",
+  "duration_seconds": 3.17,
+  "transcript": "I don't know, Ee should've let them at clock.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 5.4,
+      "text": "I don't know, Ee should've let them at clock.",
+      "emotion": "fear",
+      "emotion_confidence": 0.219,
+      "sentiment_score": -0.1946,
+      "pitch_mean": 312.81
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.1946,
+    "dominant_emotion": "fear",
+    "emotion_distribution": {
+      "fear": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 170.36,
+    "avg_pitch": 312.81
+  }
+}

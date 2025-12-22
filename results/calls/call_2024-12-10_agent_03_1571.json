@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-10_agent_03_1571",
+  "agent_id": "agent_03",
+  "timestamp": "2025-12-20T19:56:32.883966",
+  "duration_seconds": 2.4,
+  "transcript": "It's 11 o'clock.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It's 11 o'clock.",
+      "emotion": "joy",
+      "emotion_confidence": 0.456,
+      "sentiment_score": 0.0865,
+      "pitch_mean": 289.41
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0865,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 74.93,
+    "avg_pitch": 289.41
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-14_agent_01_2065",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T20:16:24.138476",
+  "duration_seconds": 1.63,
+  "transcript": "It's around a clock.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It's around a clock.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.257,
+      "sentiment_score": 0.0181,
+      "pitch_mean": 311.02
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0181,
+    "dominant_emotion": "disgust",
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 146.79,
+    "avg_pitch": 311.02
+  }
+}

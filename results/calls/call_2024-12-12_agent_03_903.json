@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-12_agent_03_903",
+  "agent_id": "agent_03",
+  "timestamp": "2025-12-20T19:33:08.160400",
+  "duration_seconds": 2.67,
+  "transcript": "to lawyer",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.88,
+      "text": "to lawyer",
+      "emotion": "sadness",
+      "emotion_confidence": 0.635,
+      "sentiment_score": 0.0053,
+      "pitch_mean": 300.05
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0053,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 44.96,
+    "avg_pitch": 300.05
+  }
+}

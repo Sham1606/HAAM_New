@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-11_agent_01_1762",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T20:03:37.627443",
+  "duration_seconds": 2.17,
+  "transcript": "Don't forget to jack it!",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Don't forget to jack it!",
+      "emotion": "fear",
+      "emotion_confidence": 0.456,
+      "sentiment_score": 0.6365,
+      "pitch_mean": 301.08
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.6365,
+    "dominant_emotion": "fear",
+    "emotion_distribution": {
+      "fear": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 138.32,
+    "avg_pitch": 301.08
+  }
+}

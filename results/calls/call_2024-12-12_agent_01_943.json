@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-12_agent_01_943",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T19:35:30.922636",
+  "duration_seconds": 1.57,
+  "transcript": "Just load a cock.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Just load a cock.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.669,
+      "sentiment_score": -0.6735,
+      "pitch_mean": 284.41
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.6735,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": true,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 153.04,
+    "avg_pitch": 284.41
+  }
+}

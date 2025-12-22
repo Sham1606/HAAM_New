@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-12_agent_01_1073",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T19:40:29.100083",
+  "duration_seconds": 2.67,
+  "transcript": "Don't forget a jackpot.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Don't forget a jackpot.",
+      "emotion": "fear",
+      "emotion_confidence": 0.285,
+      "sentiment_score": 0.4148,
+      "pitch_mean": 281.9
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4148,
+    "dominant_emotion": "fear",
+    "emotion_distribution": {
+      "fear": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 89.91,
+    "avg_pitch": 281.9
+  }
+}

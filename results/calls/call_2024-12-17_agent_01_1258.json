@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-17_agent_01_1258",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T19:46:24.659995",
+  "duration_seconds": 2.34,
+  "transcript": "Don't forget a jacket.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "Don't forget a jacket.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.685,
+      "sentiment_score": 0.4273,
+      "pitch_mean": 294.81
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.4273,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 102.75,
+    "avg_pitch": 294.81
+  }
+}

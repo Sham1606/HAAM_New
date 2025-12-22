@@ -1,0 +1,101 @@
+{
+  "call_id": "call_2024-12-14_agent_03_435",
+  "agent_id": "agent_03",
+  "timestamp": "2025-12-20T19:18:24.960769",
+  "duration_seconds": 1.63,
+  "transcript": "Let's make it Delong off the 15 or staghmasth. ah you this is one of the fifth aloud of It's veryleigh That went completely",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 1.86,
+      "text": "Let's make it Delong off the 15 or staghmasth.",
+      "emotion": "anger",
+      "emotion_confidence": 0.36,
+      "sentiment_score": 0.0719,
+      "pitch_mean": 329.07
+    },
+    {
+      "start_time": 2.18,
+      "end_time": 3.16,
+      "text": "ah",
+      "emotion": "anger",
+      "emotion_confidence": 0.36,
+      "sentiment_score": 0.3953,
+      "pitch_mean": 329.07
+    },
+    {
+      "start_time": 4.56,
+      "end_time": 5.82,
+      "text": "you",
+      "emotion": "anger",
+      "emotion_confidence": 0.36,
+      "sentiment_score": 0.2595,
+      "pitch_mean": 329.07
+    },
+    {
+      "start_time": 8.98,
+      "end_time": 11.18,
+      "text": "this is",
+      "emotion": "anger",
+      "emotion_confidence": 0.36,
+      "sentiment_score": 0.1591,
+      "pitch_mean": 329.07
+    },
+    {
+      "start_time": 11.24,
+      "end_time": 14.14,
+      "text": "one of the fifth aloud",
+      "emotion": "anger",
+      "emotion_confidence": 0.36,
+      "sentiment_score": 0.0917,
+      "pitch_mean": 329.07
+    },
+    {
+      "start_time": 15.24,
+      "end_time": 17.46,
+      "text": "of",
+      "emotion": "anger",
+      "emotion_confidence": 0.36,
+      "sentiment_score": 0.136,
+      "pitch_mean": 329.07
+    },
+    {
+      "start_time": 23.92,
+      "end_time": 25.0,
+      "text": "It's veryleigh",
+      "emotion": "anger",
+      "emotion_confidence": 0.36,
+      "sentiment_score": 0.1112,
+      "pitch_mean": 329.07
+    },
+    {
+      "start_time": 26.06,
+      "end_time": 27.94,
+      "text": "That went",
+      "emotion": "anger",
+      "emotion_confidence": 0.36,
+      "sentiment_score": 0.1438,
+      "pitch_mean": 329.07
+    },
+    {
+      "start_time": 28.7,
+      "end_time": 29.5,
+      "text": "completely",
+      "emotion": "anger",
+      "emotion_confidence": 0.36,
+      "sentiment_score": 0.0866,
+      "pitch_mean": 329.07
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1617,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 880.77,
+    "avg_pitch": 329.07
+  }
+}

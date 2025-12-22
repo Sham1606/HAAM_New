@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-18_agent_01_849",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T19:30:44.045416",
+  "duration_seconds": 1.87,
+  "transcript": "It's over clock.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "It's over clock.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.796,
+      "sentiment_score": 0.0296,
+      "pitch_mean": 281.14
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0296,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 96.33,
+    "avg_pitch": 281.14
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-10_agent_01_1831",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T20:06:45.149527",
+  "duration_seconds": 3.8,
+  "transcript": "I think I've seen this before.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I think I've seen this before.",
+      "emotion": "fear",
+      "emotion_confidence": 0.386,
+      "sentiment_score": 0.0663,
+      "pitch_mean": 260.03
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0663,
+    "dominant_emotion": "fear",
+    "emotion_distribution": {
+      "fear": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 94.64,
+    "avg_pitch": 260.03
+  }
+}

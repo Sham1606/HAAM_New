@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-14_agent_01_1225",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T19:45:20.811041",
+  "duration_seconds": 2.67,
+  "transcript": "I think I have a doctor's appointment.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.0,
+      "text": "I think I have a doctor's appointment.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.324,
+      "sentiment_score": 0.1036,
+      "pitch_mean": 290.88
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.1036,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 157.34,
+    "avg_pitch": 290.88
+  }
+}

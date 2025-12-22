@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-10_agent_02_221",
+  "agent_id": "agent_02",
+  "timestamp": "2025-12-20T19:12:25.674462",
+  "duration_seconds": 1.97,
+  "transcript": "This will have a clock.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "This will have a clock.",
+      "emotion": "anger",
+      "emotion_confidence": 0.243,
+      "sentiment_score": 0.0872,
+      "pitch_mean": 303.85
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0872,
+    "dominant_emotion": "anger",
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 152.39,
+    "avg_pitch": 303.85
+  }
+}

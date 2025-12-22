@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-14_agent_03_805",
+  "agent_id": "agent_03",
+  "timestamp": "2025-12-20T19:29:05.464809",
+  "duration_seconds": 2.04,
+  "transcript": "I love my car.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I love my car.",
+      "emotion": "sadness",
+      "emotion_confidence": 0.754,
+      "sentiment_score": 0.9679,
+      "pitch_mean": 305.26
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.9679,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 117.91,
+    "avg_pitch": 305.26
+  }
+}

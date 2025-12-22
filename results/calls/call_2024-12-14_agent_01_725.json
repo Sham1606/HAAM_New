@@ -1,0 +1,29 @@
+{
+  "call_id": "call_2024-12-14_agent_01_725",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T19:26:14.664594",
+  "duration_seconds": 2.24,
+  "transcript": "I think I have a dog.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "I think I have a dog.",
+      "emotion": "joy",
+      "emotion_confidence": 0.363,
+      "sentiment_score": 0.275,
+      "pitch_mean": 304.02
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.275,
+    "dominant_emotion": "joy",
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 161.03,
+    "avg_pitch": 304.02
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "call_id": "call_2024-12-19_agent_01_2210",
+  "agent_id": "agent_01",
+  "timestamp": "2025-12-20T20:22:03.350433",
+  "duration_seconds": 3.97,
+  "transcript": "...this is just by breaking down And then applying...",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 3.56,
+      "text": "...this is just by breaking down",
+      "emotion": "sadness",
+      "emotion_confidence": 0.462,
+      "sentiment_score": -0.6333,
+      "pitch_mean": 268.74
+    },
+    {
+      "start_time": 5.94,
+      "end_time": 8.34,
+      "text": "And then applying...",
+      "emotion": "sadness",
+      "emotion_confidence": 0.462,
+      "sentiment_score": -0.0378,
+      "pitch_mean": 268.74
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": -0.3356,
+    "dominant_emotion": "sadness",
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 136.0,
+    "avg_pitch": 268.74
+  }
+}
