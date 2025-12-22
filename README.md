@@ -313,3 +313,19 @@ The framework includes a validation suite to benchmark emotion detection accurac
 - **Accuracy Chart**: `docs/cremad_accuracy_chart.png`
 - **Detailed Report**: `docs/cremad_detailed_report.txt`
 
+
+## 🧠 Hybrid Emotion Model Features (New!)
+
+The core of HAAM is now a **Multi-modal Attention Fusion Network** trained on a hybrid dataset (CREMA-D + IEMOCAP).
+
+- **Architecture**: Fuses acoustic features (Pitch, Rate, Stress) with textual sentiment (DistilRoBERTa).
+- **Performance**: 54.5% Accuracy (5-class), robust to conversational speech.
+- **Inference**: Real-time (<600ms), exposed via REST API.
+
+### Quick Inference
+```bash
+python scripts/test_hybrid_inference.py data/sample.wav
+```
+
+### Documentation
+See [HYBRID_MODEL_GUIDE.md](docs/HYBRID_MODEL_GUIDE.md) for full details.
