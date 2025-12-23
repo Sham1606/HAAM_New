@@ -6,7 +6,7 @@ librosa
 pyannote.audio
 moviepy
 pandas
-numpy
+numpy<2
 scikit-learn
 matplotlib
 seaborn
