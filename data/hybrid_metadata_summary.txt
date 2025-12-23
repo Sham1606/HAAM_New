@@ -1,0 +1,14 @@
+Total Samples: 12271
+Dataset Distribution:
+dataset
+IEMOCAP    10039
+CREMA-D     2232
+
+Emotion Distribution (Ground Truth):
+emotion_true
+neutral    4697
+anger      3324
+joy        2008
+sadness    1456
+fear        412
+disgust     374
