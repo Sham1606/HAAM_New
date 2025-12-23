@@ -3,14 +3,29 @@ import React from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, ReferenceLine } from 'recharts';
 
 const EmotionTimeline = ({ segments }) => {
-    // Map segments to timeline points
-    // We take the mid-point of each segment
-    const data = segments.map(seg => ({
-        time: (seg.start_time + seg.end_time) / 2,
-        sentiment: seg.sentiment_score,
-        text: seg.text.substring(0, 30) + '...',
-        emotion: seg.emotion
-    }));
+    // Transform segments into a time series that represents duration
+    // For each segment, we add a start point and an end point with the same sentiment
+    // This creates a "step" or continuous flow effect
+    const data = [];
+    segments.forEach(seg => {
+        data.push({
+            time: seg.start_time,
+            sentiment: seg.sentiment_score,
+            text: seg.text.substring(0, 30) + '...',
+            emotion: seg.emotion
+        });
+        data.push({
+            time: seg.end_time,
+            sentiment: seg.sentiment_score,
+            text: seg.text.substring(0, 30) + '...',
+            emotion: seg.emotion
+        });
+    });
+
+    // Calculate domain to ensure chart renders even with single point
+    const xDomain = data.length === 1
+        ? [Math.max(0, data[0].time - 2), data[0].time + 2]
+        : ['dataMin', 'dataMax'];
 
     const CustomTooltip = ({ active, payload, label }) => {
         if (active && payload && payload.length) {
@@ -32,11 +47,12 @@ const EmotionTimeline = ({ segments }) => {
             <h2 className="text-lg font-bold text-gray-900 mb-4">Sentiment Timeline</h2>
             <div className="h-64">
                 <ResponsiveContainer width="100%" height="100%">
-                    <LineChart data={data}>
+                    <LineChart data={data} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
                         <CartesianGrid strokeDasharray="3 3" vertical={false} />
                         <XAxis
                             dataKey="time"
                             type="number"
+                            domain={xDomain}
                             tickFormatter={(val) => `${Math.round(val)}s`}
                             label={{ value: 'Time (s)', position: 'insideBottomRight', offset: -5 }}
                         />

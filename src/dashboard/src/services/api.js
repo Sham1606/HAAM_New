@@ -1,7 +1,7 @@
 
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:8001/api';
+const API_BASE_URL = 'http://localhost:8000/api';
 
 const api = axios.create({
     baseURL: API_BASE_URL,
@@ -30,6 +30,14 @@ export const agentsAPI = {
 
 export const analyticsAPI = {
     getOverview: () => api.get('/analytics/overview')
+};
+
+export const modelAPI = {
+    getHealth: () => api.get('/health'),
+    getInfo: () => api.get('/model/info'),
+    predict: (formData) => api.post('/predict/emotion', formData, {
+        headers: { 'Content-Type': 'multipart/form-data' }
+    })
 };
 
 export default api;

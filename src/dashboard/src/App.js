@@ -6,6 +6,7 @@ import CallsListPage from './pages/CallsListPage';
 import CallDetailPage from './pages/CallDetailPage';
 import AgentRiskPage from './pages/AgentRiskPage';
 import AnalyticsPage from './pages/AnalyticsPage';
+import PredictEmotionPage from './pages/PredictEmotionPage';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/call/:callId" element={<CallDetailPage />} />
             <Route path="/agents" element={<AgentRiskPage />} />
             <Route path="/analytics" element={<AnalyticsPage />} />
+            <Route path="/predict" element={<PredictEmotionPage />} />
           </Routes>
         </main>
       </div>
