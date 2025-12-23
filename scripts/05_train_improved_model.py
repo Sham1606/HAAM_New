@@ -13,20 +13,24 @@ from torch.utils.data import DataLoader, Dataset
 import numpy as np
 import pandas as pd
 from pathlib import Path
+from tqdm import tqdm
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, accuracy_score, confusion_matrix
 import seaborn as sns
 import matplotlib.pyplot as plt
 import json
+import joblib
+from sklearn.preprocessing import StandardScaler
 
 from src.models.attention_fusion_model import AttentionFusionNetwork
 from src.utils.balanced_sampler import get_balanced_sampler
 
 class HybridDataset(Dataset):
-    def __init__(self, df, feature_dir, emotion_map):
-        self.df = df
+    def __init__(self, df, feature_dir, emotion_map, scaler=None):
+        self.df = df.copy()
         self.feature_dir = Path(feature_dir)
         self.emotion_map = emotion_map
+        self.scaler = scaler
         
     def __len__(self):
         return len(self.df)
@@ -39,7 +43,11 @@ class HybridDataset(Dataset):
             features = torch.load(feature_path)
             
             # Acoustic (12 dim)
-            acoustic = torch.tensor(features['acoustic'], dtype=torch.float32)
+            acoustic = features['acoustic']
+            if self.scaler:
+                acoustic = self.scaler.transform(acoustic.reshape(1, -1))[0]
+            
+            acoustic = torch.tensor(acoustic, dtype=torch.float32)
             
             # Text (768 dim)
             text = torch.tensor(features['text_embedding'], dtype=torch.float32)
@@ -167,31 +175,45 @@ def main():
     
     print(f"Train: {len(df_train)}, Val: {len(df_val)}, Test: {len(df_test)}")
     
+    # 1. Fit Scaler on Training Data
+    print("Fitting scaler on training features...")
+    all_acoustic = []
+    for cid in tqdm(df_train['call_id'], desc="Loading features for scaling"):
+        try:
+            ft = torch.load(feature_dir / f"{cid}.pt")
+            all_acoustic.append(ft['acoustic'])
+        except: continue
+    
+    scaler = StandardScaler()
+    scaler.fit(np.array(all_acoustic))
+    joblib.dump(scaler, 'models/improved/scaler.pkl')
+    print("  Scaler saved.")
+
     # Datasets
-    train_ds = HybridDataset(df_train, feature_dir, emotion_map)
-    val_ds = HybridDataset(df_val, feature_dir, emotion_map)
-    test_ds = HybridDataset(df_test, feature_dir, emotion_map)
+    train_ds = HybridDataset(df_train, feature_dir, emotion_map, scaler=scaler)
+    val_ds = HybridDataset(df_val, feature_dir, emotion_map, scaler=scaler)
+    test_ds = HybridDataset(df_test, feature_dir, emotion_map, scaler=scaler)
     
     # Sampler
     # Get labels for training set for balancing
     train_labels = [emotion_map.get(e, 0) for e in df_train['emotion']]
     sampler, class_weights = get_balanced_sampler(train_labels)
-    print(f"Class weights (inverse freq): {class_weights}")
+    # print(f"Class weights (inverse freq): {class_weights}")
     
     # Loaders
     train_loader = DataLoader(train_ds, batch_size=BATCH_SIZE, sampler=sampler)
-    # Validate on standard distribution (no sampler)
     val_loader = DataLoader(val_ds, batch_size=BATCH_SIZE, shuffle=False)
     test_loader = DataLoader(test_ds, batch_size=BATCH_SIZE, shuffle=False)
     
     # Model
     model = AttentionFusionNetwork(num_classes=5).to(DEVICE)
-    optimizer = optim.Adam(model.parameters(), lr=LEARNING_RATE, weight_decay=1e-4)
+    optimizer = optim.Adam(model.parameters(), lr=0.001, weight_decay=1e-4) # Higher start LR
+    scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='max', factor=0.5, patience=3, verbose=True)
     criterion = nn.CrossEntropyLoss()
     
     # Train
     best_val_acc = 0
-    patience = 8
+    patience = 12 # More patience for scheduler to work
     counter = 0
     history = {'train_loss': [], 'val_loss': [], 'train_acc': [], 'val_acc': []}
     
@@ -200,12 +222,14 @@ def main():
         train_loss, train_acc = train_one_epoch(model, train_loader, criterion, optimizer, DEVICE)
         val_loss, val_acc, _, _ = evaluate(model, val_loader, criterion, DEVICE)
         
+        scheduler.step(val_acc)
+        
         history['train_loss'].append(train_loss)
         history['val_loss'].append(val_loss)
         history['train_acc'].append(train_acc)
         history['val_acc'].append(val_acc)
         
-        print(f"Epoch {epoch+1:02d} | Train Loss: {train_loss:.4f} Acc: {train_acc:.4f} | Val Loss: {val_loss:.4f} Acc: {val_acc:.4f}")
+        print(f"Epoch {epoch+1:02d} | Train Loss: {train_loss:.4f} Acc: {train_acc:.4f} | Val Loss: {val_loss:.4f} Acc: {val_acc:.4f} | LR: {optimizer.param_groups[0]['lr']:.6f}")
         
         # Checkpoint
         if val_acc > best_val_acc:

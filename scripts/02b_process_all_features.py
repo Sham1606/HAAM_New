@@ -15,6 +15,7 @@ from pathlib import Path
 from tqdm import tqdm
 import warnings
 import whisper
+import numpy as np
 
 def main():
     print("="*80)
@@ -99,6 +100,7 @@ def main():
             torch.save(data, output_dir / f"{call_id}.pt")
             
         except Exception as e:
+            print(f"Error processing {call_id}: {e}")
             errors.append({'call_id': call_id, 'error': str(e)})
     
     if errors:

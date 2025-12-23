@@ -157,10 +157,23 @@ def main():
         print("Error loading metadata")
         return
         
-    # Check if features exist
-    available = list(Path('data/processed/features_v2').glob('*.pt'))
-    if not available:
+    # Check if features exist and filter dataframe
+    feature_dir = Path('data/processed/features_v2')
+    if not feature_dir.exists():
+        print("Feature directory not found!")
+        return
+        
+    available_ids = {f.stem for f in feature_dir.glob('*.pt')}
+    if not available_ids:
         print("No features found! Run Batch Feature Extraction first.")
+        return
+        
+    original_len = len(df)
+    df = df[df['call_id'].astype(str).isin(available_ids)]
+    print(f"Filtered to {len(df)} available features (out of {original_len})")
+    
+    if len(df) < 50:
+        print("Not enough features for training yet. Wait for more processing.")
         return
 
     # Filter columns
