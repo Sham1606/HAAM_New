@@ -34,9 +34,19 @@ const CallDetailPage = () => {
 
     // Helper to safely access metrics which might be missing in old data
     const metrics = callData.overall_metrics || {};
-    const acoustic = callData.acoustic_features || {};
-    const sentiment = callData.text_features?.sentiment_distribution || {};
+
+    // Schema Resilience (v1 vs v2 fallback)
+    const acoustic = {
+        pitch_mean: callData.acoustic_features?.pitch_mean || metrics.avg_pitch || 0,
+        speech_rate_wpm: callData.acoustic_features?.speech_rate_wpm || metrics.speech_rate_wpm || 0,
+        agent_stress_score: callData.acoustic_features?.agent_stress_score || metrics.agent_stress_score || 0
+    };
+
+    // Emotion Distribution - check v1/v2 locations
+    const sentiment = callData.text_features?.sentiment_distribution || metrics.emotion_distribution || {};
+
     const predictions = metrics.top_3_predictions || [];
+    const fusion = callData.fusion_weights || metrics.fusion_weights || null;
 
     return (
         <div className="space-y-6">
@@ -103,6 +113,32 @@ const CallDetailPage = () => {
                                         </div>
                                     </div>
                                 ))}
+                            </div>
+                        )}
+
+                        {fusion && (
+                            <div className="mt-4 pt-4 border-t border-gray-100">
+                                <h4 className="text-xs font-bold text-gray-400 uppercase mb-3">Modality Attention</h4>
+                                <div className="space-y-3">
+                                    <div>
+                                        <div className="flex justify-between text-xs mb-1">
+                                            <span>Acoustic</span>
+                                            <span className="font-bold">{Math.round(fusion.acoustic * 100)}%</span>
+                                        </div>
+                                        <div className="w-full bg-gray-100 rounded-full h-1.5">
+                                            <div className="bg-blue-500 h-1.5 rounded-full" style={{ width: `${fusion.acoustic * 100}%` }}></div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div className="flex justify-between text-xs mb-1">
+                                            <span>Text</span>
+                                            <span className="font-bold">{Math.round(fusion.text * 100)}%</span>
+                                        </div>
+                                        <div className="w-full bg-gray-100 rounded-full h-1.5">
+                                            <div className="bg-purple-500 h-1.5 rounded-full" style={{ width: `${fusion.text * 100}%` }}></div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         )}
                     </div>
@@ -183,9 +219,9 @@ const CallDetailPage = () => {
                     <TranscriptView segments={callData.segments} />
 
                     <div className="bg-gray-50 p-4 rounded text-center text-sm text-gray-500">
-                        Analysis powered by <strong>HAAM Hybrid Fusion Network v1.0</strong>
+                        Analysis powered by <strong>HAAM Hybrid Fusion Network v2.0</strong>
                         <br />
-                        Test Accuracy: 54.5% (Benchmark)
+                        Test Accuracy: 50.0% (Current v2 Benchmark)
                     </div>
                 </div>
             </div>

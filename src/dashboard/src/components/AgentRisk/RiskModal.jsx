@@ -5,11 +5,13 @@ import RiskBadge from './RiskBadge';
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
 
 const RiskModal = ({ agent, onClose }) => {
-    // Mock trend data if not available
-    const trendData = [
-        { day: '1', score: 0.2 }, { day: '5', score: 0.15 }, { day: '10', score: 0.1 },
-        { day: '15', score: 0.05 }, { day: '20', score: -0.1 }, { day: '25', score: -0.2 }
-    ];
+    // Use real trend data if available, otherwise fallback to a more neutral placeholder
+    const trendData = agent.sentiment_history && agent.sentiment_history.length > 0
+        ? agent.sentiment_history.map((h, i) => ({ day: h.day || i.toString(), score: h.score }))
+        : [
+            { day: '1', score: 0.1 }, { day: '5', score: 0.1 }, { day: '10', score: 0.1 },
+            { day: '15', score: 0.1 }, { day: '20', score: 0.1 }, { day: '25', score: 0.1 }
+        ];
 
     return (
         <div className="fixed inset-0 bg-gray-600 bg-opacity-75 overflow-y-auto h-full w-full z-50 flex items-center justify-center p-4">

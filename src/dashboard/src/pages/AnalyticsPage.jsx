@@ -141,7 +141,7 @@ const AnalyticsPage = () => {
                                         <div className="bg-purple-600 h-2.5 rounded-full" style={{ width: `${data.validation_metrics?.combined_accuracy}%` }}></div>
                                     </div>
                                     <p className="text-xs text-gray-500 mt-2">
-                                        * Hybrid model balances performance across diverse audio conditions.
+                                        * v2.0 Hybrid Model uses Attention Fusion (Acoustic + Text).
                                     </p>
                                 </div>
                             </div>

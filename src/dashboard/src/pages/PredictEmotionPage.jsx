@@ -136,10 +136,41 @@ const PredictEmotionPage = () => {
                                 <div className="text-sm text-gray-500 uppercase tracking-wide">Confidence</div>
                             </div>
                             <div className="text-center">
-                                <div className="text-2xl font-bold text-gray-600">{result.inference_time_ms}ms</div>
+                                <div className="text-2xl font-bold text-gray-600">
+                                    {result.inference_time_ms || result.latency_ms || 0}ms
+                                </div>
                                 <div className="text-sm text-gray-500 uppercase tracking-wide">Latency</div>
                             </div>
                         </div>
+
+                        {/* Modality Attention Section */}
+                        {result.fusion_weights && (
+                            <div className="flex-1 max-w-xs ml-8 hidden md:block">
+                                <h3 className="text-xs font-bold text-gray-400 uppercase mb-2">Modality Attention</h3>
+                                <div className="space-y-3">
+                                    <div className="flex justify-between text-xs font-semibold">
+                                        <span>Acoustic</span>
+                                        <span className="text-blue-500">{Math.round(result.fusion_weights.acoustic * 100)}%</span>
+                                    </div>
+                                    <div className="w-full bg-gray-100 rounded-full h-2">
+                                        <div 
+                                            className="bg-blue-500 h-2 rounded-full transition-all duration-1000" 
+                                            style={{ width: `${result.fusion_weights.acoustic * 100}%` }}
+                                        ></div>
+                                    </div>
+                                    <div className="flex justify-between text-xs font-semibold">
+                                        <span>Text</span>
+                                        <span className="text-purple-500">{Math.round(result.fusion_weights.text * 100)}%</span>
+                                    </div>
+                                    <div className="w-full bg-gray-100 rounded-full h-2">
+                                        <div 
+                                            className="bg-purple-500 h-2 rounded-full transition-all duration-1000" 
+                                            style={{ width: `${result.fusion_weights.text * 100}%` }}
+                                        ></div>
+                                    </div>
+                                </div>
+                            </div>
+                        )}
 
                         <button onClick={handleReset} className="mt-4 md:mt-0 p-2 hover:bg-gray-100 rounded-full transition">
                             <RefreshCw className="h-6 w-6 text-gray-500" />
@@ -156,43 +187,65 @@ const PredictEmotionPage = () => {
                             </h3>
 
                             <div className="features-grid">
-                                <div className="feature-card">
-                                    <div className="text-sm text-gray-500">Pitch (Mean)</div>
-                                    <div className="feature-value">{result.acoustic_features.pitch} Hz</div>
-                                    <div className="feature-bar">
-                                        <div className="bar-fill" style={{ width: `${Math.min(result.acoustic_features.pitch / 300 * 100, 100)}%` }}></div>
-                                    </div>
-                                </div>
+                                {result.acoustic_summary ? (
+                                    <>
+                                        <div className="feature-card">
+                                            <div className="text-sm text-gray-500">Pitch (Mean)</div>
+                                            <div className="feature-value">{result.acoustic_summary.pitch_mean} Hz</div>
+                                            <div className="feature-bar">
+                                                <div className="bar-fill" style={{ width: `${Math.min(result.acoustic_summary.pitch_mean / 300 * 100, 100)}%` }}></div>
+                                            </div>
+                                        </div>
 
-                                <div className="feature-card">
-                                    <div className="text-sm text-gray-500">Speech Rate</div>
-                                    <div className="feature-value">{result.acoustic_features.speech_rate} <span className="text-sm">WPM</span></div>
-                                    <div className="feature-bar">
-                                        <div className="bar-fill" style={{ width: `${Math.min(result.acoustic_features.speech_rate / 250 * 100, 100)}%` }}></div>
-                                    </div>
-                                </div>
+                                        <div className="feature-card">
+                                            <div className="text-sm text-gray-500">Amplitude (RMS)</div>
+                                            <div className="feature-value">{result.acoustic_summary.rms_mean?.toFixed(3)}</div>
+                                            <div className="feature-bar">
+                                                <div className="bar-fill" style={{ width: `${Math.min(result.acoustic_summary.rms_mean * 1000, 100)}%` }}></div>
+                                            </div>
+                                        </div>
+                                    </>
+                                ) : (
+                                    <>
+                                        <div className="feature-card">
+                                            <div className="text-sm text-gray-500">Pitch (Mean)</div>
+                                            <div className="feature-value">{result.acoustic_features?.pitch || 0} Hz</div>
+                                            <div className="feature-bar">
+                                                <div className="bar-fill" style={{ width: `${Math.min((result.acoustic_features?.pitch || 0) / 300 * 100, 100)}%` }}></div>
+                                            </div>
+                                        </div>
 
-                                <div className="feature-card">
-                                    <div className="text-sm text-gray-500">Stress Level</div>
-                                    <div className={`feature-value ${result.acoustic_features.stress > 0.5 ? 'text-red-500' : 'text-green-500'}`}>
-                                        {result.acoustic_features.stress}
-                                    </div>
-                                    <div className="feature-bar stress">
-                                        <div className="bar-fill" style={{ width: `${result.acoustic_features.stress * 100}%` }}></div>
-                                    </div>
-                                </div>
+                                        <div className="feature-card">
+                                            <div className="text-sm text-gray-500">Speech Rate</div>
+                                            <div className="feature-value">{result.acoustic_features?.speech_rate || 0} <span className="text-sm">WPM</span></div>
+                                            <div className="feature-bar">
+                                                <div className="bar-fill" style={{ width: `${Math.min((result.acoustic_features?.speech_rate || 0) / 250 * 100, 100)}%` }}></div>
+                                            </div>
+                                        </div>
+                                    </>
+                                )}
                             </div>
                         </div>
 
-                        {/* Sentiment */}
+                        {/* Probabilities */}
                         <div className="bg-white p-6 rounded-lg shadow-sm">
                             <h3 className="text-lg font-bold text-gray-900 mb-6 flex items-center">
                                 <Activity className="w-5 h-5 mr-2 text-purple-500" />
-                                Hybrid Probabilities
+                                Emotion Confidence
                             </h3>
 
                             <div className="sentiment-distribution">
-                                {Object.entries(result.sentiment_distribution).map(([emo, score]) => (
+                                {(result.top_3_predictions || result.sentiment_distribution ? Object.entries(result.sentiment_distribution || {}) : []).map(([emo, score]) => (
+                                    <div key={emo} className="sentiment-item">
+                                        <div className="emotion-label">{emo}</div>
+                                        <div className="sentiment-bar">
+                                            <div className={`bar-fill ${emo}`} style={{ width: `${score * 100}%` }}></div>
+                                        </div>
+                                        <div className="text-sm font-bold w-12 text-right">{Math.round(score * 100)}%</div>
+                                    </div>
+                                ))}
+                                
+                                {result.top_3_predictions && result.top_3_predictions.map(([emo, score]) => (
                                     <div key={emo} className="sentiment-item">
                                         <div className="emotion-label">{emo}</div>
                                         <div className="sentiment-bar">
