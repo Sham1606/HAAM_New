@@ -214,6 +214,14 @@ def calculate_agent_risk(agent_timeseries_df, lookback_days=14):
     if not recommendations and risk_score < 0.3:
         recommendations.append("Maintain current performance")
         
+    # Sentiment history for the trend chart (last 30 days)
+    history = []
+    for _, row in recent_df.iterrows():
+        history.append({
+            "day": row['date'],
+            "score": round(row['avg_sentiment'], 3)
+        })
+
     return {
         "agent_id": current_metrics['agent_id'],
         "risk_score": round(risk_score, 2),
@@ -225,7 +233,8 @@ def calculate_agent_risk(agent_timeseries_df, lookback_days=14):
             "current_sentiment": round(recent_sentiment_avg, 2),
             "baseline_sentiment": round(baseline_sentiment_avg, 2),
             "current_stress": round(current_stress, 2)
-        }
+        },
+        "sentiment_history": history
     }
 
 def score_all_agents(features_csv):

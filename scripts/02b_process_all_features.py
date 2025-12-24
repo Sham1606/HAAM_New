@@ -22,7 +22,7 @@ def main():
     print("PHASE 1.5: BATCH FEATURE EXTRACTION")
     print("="*80)
     
-    output_dir = Path('data/processed/features_v2')
+    output_dir = Path('data/processed/features_v3')
     output_dir.mkdir(parents=True, exist_ok=True)
     
     # Initialize
@@ -64,6 +64,7 @@ def main():
                  pass 
              
              if not Path(found_path).exists():
+                # print(f"File not found: {found_path}")
                 errors.append({'call_id': call_id, 'error': f'File not found: {found_path}'})
                 continue
             

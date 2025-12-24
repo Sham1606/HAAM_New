@@ -10,61 +10,80 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 class AttentionFusionNetwork(nn.Module):
-    def __init__(self, acoustic_dim=12, text_dim=768, num_classes=5, hidden_dim=128):
+    def __init__(self, acoustic_dim=43, text_dim=768, num_classes=5, hidden_dim=256, nhead=8):
         super().__init__()
         
-        # Acoustic Branch
-        self.acoustic_net = nn.Sequential(
-            nn.Linear(acoustic_dim, hidden_dim),
-            nn.LayerNorm(hidden_dim),
+        # Branch Projection Layers
+        self.acoustic_proj = nn.Sequential(
+            nn.Linear(acoustic_dim, hidden_dim * 2),
+            nn.LayerNorm(hidden_dim * 2),
             nn.ReLU(),
-            nn.Dropout(0.3),
-            nn.Linear(hidden_dim, hidden_dim)
+            nn.Linear(hidden_dim * 2, hidden_dim),
+            nn.Dropout(0.2)
         )
         
-        # Text Branch
-        self.text_net = nn.Sequential(
-            nn.Linear(text_dim, hidden_dim*2),
-            nn.LayerNorm(hidden_dim*2),
+        self.text_proj = nn.Sequential(
+            nn.Linear(text_dim, hidden_dim * 2),
+            nn.LayerNorm(hidden_dim * 2),
             nn.ReLU(),
-            nn.Dropout(0.3),
-            nn.Linear(hidden_dim*2, hidden_dim)
+            nn.Linear(hidden_dim * 2, hidden_dim),
+            nn.Dropout(0.2)
         )
         
-        # Attention Fusion
-        # Calculate attention weights for each modality
-        self.attention_fc = nn.Sequential(
-            nn.Linear(hidden_dim * 2, 64),
+        # Interaction Layer: Multi-Head Attention
+        self.mha = nn.MultiheadAttention(embed_dim=hidden_dim, num_heads=nhead, dropout=0.2, batch_first=True)
+        self.norm_mha = nn.LayerNorm(hidden_dim)
+        
+        # Modality Tokens (Learnable)
+        self.modality_pos = nn.Parameter(torch.randn(1, 2, hidden_dim))
+        
+        # Gating Layer for Fusion Weights
+        self.gate = nn.Sequential(
+            nn.Linear(hidden_dim * 2, hidden_dim),
             nn.Tanh(),
-            nn.Linear(64, 2), # 2 weights (acoustic, text)
+            nn.Linear(hidden_dim, 2),
             nn.Softmax(dim=1)
         )
         
-        # Combined Classifier
+        # Final Classifier with Residual-like depth
         self.classifier = nn.Sequential(
-            nn.Linear(hidden_dim, 64),
+            nn.Linear(hidden_dim, hidden_dim),
+            nn.LayerNorm(hidden_dim),
             nn.ReLU(),
-            nn.Dropout(0.2),
-            nn.Linear(64, num_classes)
+            nn.Dropout(0.3),
+            nn.Linear(hidden_dim, hidden_dim // 2),
+            nn.LayerNorm(hidden_dim // 2),
+            nn.ReLU(),
+            nn.Linear(hidden_dim // 2, num_classes)
         )
         
     def forward(self, acoustic, text):
-        a_feat = self.acoustic_net(acoustic) # [batch, hidden]
-        t_feat = self.text_net(text)         # [batch, hidden]
+        # 1. Project to common hidden space
+        a_feat = self.acoustic_proj(acoustic).unsqueeze(1) # [batch, 1, hidden]
+        t_feat = self.text_proj(text).unsqueeze(1)         # [batch, 1, hidden]
         
-        # Concat for attention
-        combined = torch.cat([a_feat, t_feat], dim=1) # [batch, hidden*2]
+        # 2. Concat into sequence
+        x = torch.cat([a_feat, t_feat], dim=1)
         
-        # Get weights
-        weights = self.attention_fc(combined) # [batch, 2]
+        # 3. Add modality-specific positional encoding
+        x = x + self.modality_pos
         
-        # Weighted sum: w0*a + w1*t
-        # Expand weights for broadcasting
-        w_a = weights[:, 0].unsqueeze(1)
-        w_t = weights[:, 1].unsqueeze(1)
+        # 4. Multi-Head Interaction Attention (with Residual Connection)
+        attn_out, _ = self.mha(x, x, x)
+        x = self.norm_mha(x + attn_out) # Residual + Norm
         
-        fused = (w_a * a_feat) + (w_t * t_feat)
+        # 5. Extract interacted features
+        a_inter = x[:, 0, :]
+        t_inter = x[:, 1, :]
         
-        output = self.classifier(fused)
+        # 6. Calculate Gating Weights for Fusion
+        combined_aux = torch.cat([a_inter, t_inter], dim=1)
+        weights = self.gate(combined_aux)
         
-        return output, weights
+        # 7. Weighted Fusion
+        fused = (weights[:, 0].unsqueeze(1) * a_inter) + (weights[:, 1].unsqueeze(1) * t_inter)
+        
+        # 8. Classify
+        logits = self.classifier(fused)
+        
+        return logits, weights

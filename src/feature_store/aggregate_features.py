@@ -41,8 +41,9 @@ def load_sprint_data(calls_dir, date_from=None):
     Load and validate JSON files from the calls directory.
     Returns a pandas DataFrame of individual calls.
     """
-    json_files = glob.glob(os.path.join(calls_dir, "call_*.json"))
-    logger.info(f"Found {len(json_files)} JSON files in {calls_dir}")
+    # Support recursive search (to catch results/calls, results/calls_iemocap, etc.)
+    json_files = glob.glob(os.path.join(calls_dir, "**", "*.json"), recursive=True)
+    logger.info(f"Found {len(json_files)} JSON files in {calls_dir} (recursive)")
     
     records = []
     

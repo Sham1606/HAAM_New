@@ -40,13 +40,18 @@ class HybridDataset(Dataset):
         feature_path = self.feature_dir / f"{row['call_id']}.pt"
         
         try:
-            features = torch.load(feature_path)
+            features = torch.load(feature_path, weights_only=False)
             
-            # Acoustic (12 dim)
+            # Acoustic (43 dim)
             acoustic = features['acoustic']
             if self.scaler:
                 acoustic = self.scaler.transform(acoustic.reshape(1, -1))[0]
             
+            # Data Augmentation: Random Noise (only during training)
+            if self.df.iloc[idx]['split'] == 'train' and np.random.random() > 0.5:
+                noise = np.random.normal(0, 0.01, acoustic.shape)
+                acoustic = acoustic + noise
+                
             acoustic = torch.tensor(acoustic, dtype=torch.float32)
             
             # Text (768 dim)
@@ -64,7 +69,7 @@ class HybridDataset(Dataset):
             
         except Exception as e:
             # print(f"Error loading {feature_path}: {e}")
-            return torch.zeros(12), torch.zeros(768), 0
+            return torch.zeros(43), torch.zeros(768), 0
 
 def train_one_epoch(model, loader, criterion, optimizer, device):
     model.train()
@@ -126,7 +131,7 @@ def main():
     print(f"Using device: {DEVICE}")
     
     # Paths
-    feature_dir = Path('data/processed/features_v2')
+    feature_dir = Path('data/processed/features_v3')
     Path('models/improved').mkdir(parents=True, exist_ok=True)
     Path('results/improved').mkdir(parents=True, exist_ok=True)
     
@@ -206,8 +211,8 @@ def main():
     test_loader = DataLoader(test_ds, batch_size=BATCH_SIZE, shuffle=False)
     
     # Model
-    model = AttentionFusionNetwork(num_classes=5).to(DEVICE)
-    optimizer = optim.Adam(model.parameters(), lr=0.001, weight_decay=1e-4) # Higher start LR
+    model = AttentionFusionNetwork(acoustic_dim=43, num_classes=5).to(DEVICE)
+    optimizer = optim.Adam(model.parameters(), lr=0.0005, weight_decay=1e-4) # Slightly lower LR for stability
     scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='max', factor=0.5, patience=3, verbose=True)
     criterion = nn.CrossEntropyLoss()
     

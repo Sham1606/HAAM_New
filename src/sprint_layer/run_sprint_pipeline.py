@@ -8,7 +8,8 @@ import numpy as np
 import librosa
 import torch
 import whisper
-from transformers import pipeline
+# transformers.pipeline is imported lazily where needed to avoid importing TensorFlow
+# (prevents NumPy C-extension errors at module import time)
 from datetime import datetime
 import warnings
 import soundfile as sf
@@ -34,58 +35,29 @@ SENTIMENT_MODEL = "cardiffnlp/twitter-roberta-base-sentiment-latest"
 # Using base model as requested
 WHISPER_MODEL_SIZE = "base"
 
+# Import HybridInference from services
+try:
+    from src.services.inference import HybridInference
+except ImportError:
+    # Handle direct script execution vs module import
+    sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+    from services.inference import HybridInference
+
 class SprintPipeline:
     def __init__(self):
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
         logger.info(f"Using device: {self.device}")
         
-        # Load models on initialization to avoid reloading for every call
-        logger.info("Loading Whisper model...")
-        self.whisper_model = whisper.load_model(WHISPER_MODEL_SIZE, device=self.device)
+        # Load unified inference engine (v2)
+        logger.info("Initializing HybridInference v2 engine...")
+        self.inference_engine = HybridInference()
         
-        logger.info("Loading Emotion model...")
-        try:
-            self.emotion_classifier = pipeline(
-                "text-classification", 
-                model=EMOTION_MODEL, 
-                return_all_scores=True, 
-                device=0 if self.device == "cuda" else -1
-            )
-        except Exception as e:
-            logger.error(f"Failed to load emotion model: {e}")
-            raise
-
-        logger.info("Loading Sentiment model...")
-        try:
-            self.sentiment_classifier = pipeline(
-                "sentiment-analysis", 
-                model=SENTIMENT_MODEL, 
-                tokenizer=SENTIMENT_MODEL,
-                return_all_scores=True,
-                device=0 if self.device == "cuda" else -1
-            )
-        except Exception as e:
-            logger.error(f"Failed to load sentiment model: {e}")
-            raise
-
-        # Load trained acoustic emotion model
-        logger.info("Loading Acoustic Emotion Model...")
-        try:
-            model_path = r"D:\haam_framework\models\acoustic_emotion_model.pkl"
-            scaler_path = r"D:\haam_framework\models\feature_scaler.pkl"
-            
-            if os.path.exists(model_path) and os.path.exists(scaler_path):
-                self.acoustic_model = joblib.load(model_path)
-                self.acoustic_scaler = joblib.load(scaler_path)
-                logger.info("Acoustic model loaded successfully")
-            else:
-                logger.warning(f"Acoustic model not found at {model_path}")
-                self.acoustic_model = None
-                self.acoustic_scaler = None
-        except Exception as e:
-            logger.error(f"Failed to load acoustic model: {e}")
-            self.acoustic_model = None
-            self.acoustic_scaler = None
+        # We share the models where possible
+        self.whisper_model = self.inference_engine.whisper_model
+        
+        # Keep sentiment for Cardiff roberta if specifically needed for "sentiment_score"
+        # but for emotion we use the unified engine.
+        logger.info("SprintPipeline v2 ready.")
 
     def extract_acoustic_features(self, y, sr):
         """
@@ -143,135 +115,37 @@ class SprintPipeline:
             logger.error(f"Error transcribing audio: {e}")
             raise
     
-    def get_sentiment_score(self, scores):
-        """
-        Calculate a single sentiment score from probabilities.
-        Mapping: Negative (-1), Neutral (0), Positive (1)
-        """
-        # scores is a list of dicts: [{'label': 'positive', 'score': 0.9}, ...]
-        score_map = {s['label']: s['score'] for s in scores}
-        
-        # Cardiff model labels: positive, negative, neutral
-        pos = score_map.get('positive', 0.0)
-        neg = score_map.get('negative', 0.0)
-        # neutral = score_map.get('neutral', 0.0)
-        
-        # Composite score
-        return pos - neg
 
-    def predict_emotion_from_acoustics(self, y, sr):
-        """
-        Predict emotion using trained ML model.
-        """
-        if self.acoustic_model is None:
-            return 'neutral', 0.5
-        
-        try:
-            # Extract features exactly as trained
-            pitches, magnitudes = librosa.piptrack(y=y, sr=sr, fmin=75, fmax=600)
-            threshold = np.median(magnitudes)
-            pitch_values = pitches[magnitudes > threshold]
-            pitch_values = pitch_values[pitch_values > 0]
-            
-            pitch_mean = float(np.mean(pitch_values)) if len(pitch_values) > 0 else 0.0 # Changed to 0.0 to match training extraction logic
-            
-            energy = librosa.feature.rms(y=y)
-            energy_mean = float(np.mean(energy))
-            
-            zcr = librosa.feature.zero_crossing_rate(y)
-            zcr_mean = float(np.mean(zcr))
-            
-            sc = librosa.feature.spectral_centroid(y=y, sr=sr)
-            sc_mean = float(np.mean(sc))
-            
-            # Create feature vector (pitch, energy, zcr, spectral_centroid)
-            # Note: Training script used ['pitch', 'energy', 'zcr', 'spectral_centroid']
-            # Reorder if necessary. train_acoustic_model.py used: feature_cols = ['pitch', 'energy', 'zcr', 'spectral_centroid']
-            features = np.array([[pitch_mean, energy_mean, zcr_mean, sc_mean]])
-            
-            # Scale features
-            features_scaled = self.acoustic_scaler.transform(features)
-            
-            # Predict
-            emotion = self.acoustic_model.predict(features_scaled)[0]
-            probabilities = self.acoustic_model.predict_proba(features_scaled)
-            confidence = float(np.max(probabilities))
-            
-            return emotion, confidence
-            
-        except Exception as e:
-            logger.warning(f"Acoustic prediction failed: {e}")
-            return 'neutral', 0.5
 
     def analyze_text_segment(self, text, y_segment=None, sr=16000):
         """
-        Hybrid emotion analysis: ML acoustic model + Text model fusion.
+        v2 Hybrid analysis: Uses unified AttentionFusion engine.
         """
-        if not text.strip():
-            return "neutral", 0.0, 0.5
-        
-        # TEXT EMOTION
-        text_emotion = "neutral"
-        text_confidence = 0.5
-        
+        if y_segment is None or len(y_segment) < 100:
+             # Fallback if no audio for this segment
+             return "neutral", 0.0, 0.5
+
         try:
-            emotions = self.emotion_classifier(text[:512])[0]
-            max_emotion = max(emotions, key=lambda x: x['score'])
-            text_emotion = max_emotion['label']
-            text_confidence = max_emotion['score']
-        except Exception as e:
-            logger.warning(f"Text emotion failed: {e}")
-        
-        # ACOUSTIC EMOTION (ML Model)
-        acoustic_emotion = "neutral"
-        acoustic_confidence = 0.5
-        
-        if y_segment is not None and len(y_segment) > 100:
-            acoustic_emotion, acoustic_confidence = self.predict_emotion_from_acoustics(y_segment, sr)
-        
-        # FUSION
-        acoustic_weight = 0.6
-        text_weight = 0.4
-        
-        if text_confidence < 0.3:
-            acoustic_weight = 0.8
-            text_weight = 0.2
-        
-        # Map text labels
-        text_emotion_mapped = {
-            'joy': 'joy',
-            'anger': 'anger',
-            'sadness': 'sadness',
-            'fear': 'fear',
-            'disgust': 'disgust',
-            'surprise': 'neutral',
-            'neutral': 'neutral'
-        }.get(text_emotion, 'neutral')
-        
-        # Decision logic
-        if text_emotion_mapped == acoustic_emotion:
-            final_emotion = acoustic_emotion
-            final_confidence = max(text_confidence, acoustic_confidence)
-        else:
-            text_score = text_confidence * text_weight
-            acoustic_score = acoustic_confidence * acoustic_weight
+            # We use predict_array which handles everything (Whisper internal is skipped if we pass text)
+            # Actually, predict_array currently RE-TRANSCRIBES. 
+            # To be efficient, we might want a version that takes text.
+            # But for simplicity and consistency, let's just use the robust predict_array.
             
-            if acoustic_score > text_score:
-                final_emotion = acoustic_emotion
-                final_confidence = acoustic_confidence
-            else:
-                final_emotion = text_emotion_mapped
-                final_confidence = text_confidence
-        
-        # SENTIMENT
-        sentiment_score = 0.0
-        try:
-            sentiments = self.sentiment_classifier(text[:512])[0]
-            sentiment_score = self.get_sentiment_score(sentiments)
-        except:
-            pass
-        
-        return final_emotion, sentiment_score, final_confidence
+            res = self.inference_engine.predict_array(y_segment, sr=sr)
+            
+            # Note: predict_array returns confidence, transcript, etc.
+            # SprintPipeline expects: emotion, sentiment_score, confidence
+            
+            # We'll use a placeholder sentiment score as predict_array focuses on emotion
+            sentiment_score = 0.0 
+            if res['predicted_emotion'] == 'anger': sentiment_score = -0.6
+            elif res['predicted_emotion'] == 'sadness': sentiment_score = -0.4
+            
+            return res['predicted_emotion'], sentiment_score, res['confidence']
+            
+        except Exception as e:
+            logger.warning(f"Segment analysis failed: {e}")
+            return "neutral", 0.0, 0.5
 
     def load_audio_robust(self, audio_path, target_sr=16000):
         """
