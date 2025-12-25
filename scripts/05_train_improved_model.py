@@ -42,7 +42,7 @@ class HybridDataset(Dataset):
         try:
             features = torch.load(feature_path, weights_only=False)
             
-            # Acoustic (43 dim)
+            # Acoustic (12 dim - Robust)
             acoustic = features['acoustic']
             if self.scaler:
                 acoustic = self.scaler.transform(acoustic.reshape(1, -1))[0]
@@ -131,7 +131,7 @@ def main():
     print(f"Using device: {DEVICE}")
     
     # Paths
-    feature_dir = Path('data/processed/features_v2')
+    feature_dir = Path('data/processed/features_v2_fixed')
     Path('models/improved').mkdir(parents=True, exist_ok=True)
     Path('results/improved').mkdir(parents=True, exist_ok=True)
     
@@ -212,9 +212,13 @@ def main():
     
     # Model
     model = AttentionFusionNetwork(acoustic_dim=12, num_classes=5).to(DEVICE)
-    optimizer = optim.Adam(model.parameters(), lr=0.001, weight_decay=1e-4)
+    optimizer = optim.Adam(model.parameters(), lr=0.001, weight_decay=1e-4) # Standard LR for 12-dim
     scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='max', factor=0.5, patience=3, verbose=True)
-    criterion = nn.CrossEntropyLoss()
+    
+    # Loss with Class Weights to fix Fear/Disgust recall
+    # Weights based on inverse frequency/audit results: Neutral=1, Anger=0.8, Disgust=1.5, Fear=1.5, Sadness=1
+    weights = torch.tensor([1.0, 0.8, 1.8, 1.8, 1.0]).to(DEVICE)
+    criterion = nn.CrossEntropyLoss(weight=weights)
     
     # Train
     best_val_acc = 0
