@@ -69,7 +69,7 @@ class HybridDataset(Dataset):
             
         except Exception as e:
             # print(f"Error loading {feature_path}: {e}")
-            return torch.zeros(43), torch.zeros(768), 0
+            return torch.zeros(12), torch.zeros(768), 0
 
 def train_one_epoch(model, loader, criterion, optimizer, device):
     model.train()
@@ -131,7 +131,7 @@ def main():
     print(f"Using device: {DEVICE}")
     
     # Paths
-    feature_dir = Path('data/processed/features_v3')
+    feature_dir = Path('data/processed/features_v2')
     Path('models/improved').mkdir(parents=True, exist_ok=True)
     Path('results/improved').mkdir(parents=True, exist_ok=True)
     
@@ -211,8 +211,8 @@ def main():
     test_loader = DataLoader(test_ds, batch_size=BATCH_SIZE, shuffle=False)
     
     # Model
-    model = AttentionFusionNetwork(acoustic_dim=43, num_classes=5).to(DEVICE)
-    optimizer = optim.Adam(model.parameters(), lr=0.0005, weight_decay=1e-4) # Slightly lower LR for stability
+    model = AttentionFusionNetwork(acoustic_dim=12, num_classes=5).to(DEVICE)
+    optimizer = optim.Adam(model.parameters(), lr=0.001, weight_decay=1e-4)
     scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='max', factor=0.5, patience=3, verbose=True)
     criterion = nn.CrossEntropyLoss()
     

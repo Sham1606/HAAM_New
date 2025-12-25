@@ -34,26 +34,19 @@ class ImprovedAcousticExtractor:
              return self.get_empty_features()
 
     def get_empty_features(self):
-        # 12 original + 20 MFCC + 7 Spectral Contrast + 4 Spectral Flatness/Rolloff/Bandwidth
-        base = [
-            'pitch_mean', 'pitch_std', 'pitch_range', 'pitch_slope',
-            'jitter', 'shimmer', 'hnr',
-            'rms_mean', 'rms_std',
-            'speech_rate', 'zero_crossing_rate',
-            'spectral_centroid'
-        ]
-        mfccs = [f'mfcc_{i}' for i in range(20)]
-        spectral = [f'spectral_contrast_{i}' for i in range(7)]
-        others = ['spectral_flatness', 'spectral_rolloff', 'spectral_bandwidth_mean', 'spectral_bandwidth_std']
-        
-        all_keys = base + mfccs + spectral + others
-        return {k: 0.0 for k in all_keys}
+        return {k: 0.0 for k in [
+                'pitch_mean', 'pitch_std', 'pitch_range', 'pitch_slope',
+                'jitter', 'shimmer', 'hnr',
+                'rms_mean', 'rms_std',
+                'speech_rate', 'zero_crossing_rate',
+                'spectral_centroid'
+            ]}
 
     def extract_from_signal(self, audio, sr):
-        """Extract enriched features (43 dimensions)"""
+        """Extract features directly from numpy array (12 dimensions)"""
         features = {}
         
-        # 1-4: Prosody (Faster setup)
+        # 1-4: Prosody
         try:
             f0, _, _ = librosa.pyin(audio, fmin=65, fmax=1000, sr=sr, frame_length=2048, hop_length=1024)
             f0_clean = f0[~np.isnan(f0)]
@@ -91,26 +84,14 @@ class ImprovedAcousticExtractor:
         zcr = librosa.feature.zero_crossing_rate(audio)
         features['zero_crossing_rate'] = float(np.mean(zcr))
         
-        # 12-31: MFCCs (The Texture)
-        mfccs = librosa.feature.mfcc(y=audio, sr=sr, n_mfcc=20)
-        for i in range(20):
-            features[f'mfcc_{i}'] = float(np.mean(mfccs[i, :]))
-            
-        # 32-38: Spectral Contrast
-        stft = np.abs(librosa.stft(audio))
-        contrast = librosa.feature.spectral_contrast(S=stft, sr=sr)
-        for i in range(7):
-            features[f'spectral_contrast_{i}'] = float(np.mean(contrast[i, :]))
-            
-        # 39-43: Advanced Spectral
-        features['spectral_centroid'] = float(np.mean(librosa.feature.spectral_centroid(S=stft, sr=sr)))
-        features['spectral_flatness'] = float(np.mean(librosa.feature.spectral_flatness(S=stft)))
-        features['spectral_rolloff'] = float(np.mean(librosa.feature.spectral_rolloff(S=stft, sr=sr)))
-        bandwidth = librosa.feature.spectral_bandwidth(S=stft, sr=sr)
-        features['spectral_bandwidth_mean'] = float(np.mean(bandwidth))
-        features['spectral_bandwidth_std'] = float(np.std(bandwidth))
+        # 12: Spectral
+        try:
+            spectral_centroids = librosa.feature.spectral_centroid(y=audio, sr=sr)
+            features['spectral_centroid'] = float(np.mean(spectral_centroids))
+        except:
+            features['spectral_centroid'] = 0
 
-        # Padding for rhythm
+        # Rhythm (speech rate)
         try:
             onset_env = librosa.onset.onset_strength(y=audio, sr=sr)
             peaks = librosa.util.peak_pick(onset_env, pre_max=3, post_max=3, pre_avg=3, post_avg=5, delta=0.5, wait=10)
@@ -122,13 +103,16 @@ class ImprovedAcousticExtractor:
         return features
     
     def extract_array(self, audio_input, sr=None):
-        """Return as numpy array (43 dimensions)"""
+        """Return as numpy array (12 dimensions)"""
         if sr is None: sr = self.sr
         if isinstance(audio_input, str) or isinstance(audio_input, Path):
              features = self.extract(audio_input)
         else:
              features = self.extract_from_signal(audio_input, sr)
              
-        # Sorting is critical for consistency
-        keys = sorted(list(features.keys()))
-        return np.array([features[k] for k in keys], dtype=np.float32)
+        feature_order = ['pitch_mean', 'pitch_std', 'pitch_range', 'pitch_slope',
+                        'jitter', 'shimmer', 'hnr',
+                        'rms_mean', 'rms_std',
+                        'speech_rate', 'zero_crossing_rate',
+                        'spectral_centroid']
+        return np.array([features[f] for f in feature_order], dtype=np.float32)

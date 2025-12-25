@@ -1,0 +1,19 @@
+{
+  "overall_acc": 44.99385749385749,
+  "dataset_acc": {
+    "CREMA-D": 49.615228837586066,
+    "IEMOCAP": 30.495552731893266
+  },
+  "per_emotion_recall": {
+    "anger": 0.77,
+    "disgust": 0.22330097087378642,
+    "fear": 0.3313953488372093,
+    "neutral": 0.3447265625,
+    "sadness": 0.6056572379367721
+  },
+  "feature_zeros": {
+    "pitch_is_zero": 404,
+    "jitter_is_zero": 404,
+    "shimmer_is_zero": 404
+  }
+}

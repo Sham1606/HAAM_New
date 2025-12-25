@@ -56,8 +56,8 @@ class HybridInference:
         self.whisper_model = whisper.load_model("base")
         
         # 2. Load PyTorch Attention Fusion Model
-        # acoustic_dim=43 as per v3 architecture
-        self.model = AttentionFusionNetwork(acoustic_dim=43, num_classes=5)
+        # acoustic_dim=12 as per stable v2.1 architecture
+        self.model = AttentionFusionNetwork(acoustic_dim=12, num_classes=5)
         if os.path.exists(MODEL_PATH):
             self.model.load_state_dict(torch.load(MODEL_PATH, map_location=torch.device(self.device)))
             self.model.to(self.device)
