@@ -41,8 +41,8 @@ import sys
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 from sprint_layer.run_sprint_pipeline import SprintPipeline
-from feature_store.aggregate_features import aggregate_sprint_to_timeseries, load_sprint_data
-from marathon_layer.risk_scoring import score_all_agents, calculate_agent_risk
+from marathon_layer.aggregate_features import run_aggregation
+from marathon_layer.risk_scoring import run_scoring, calculate_agent_risk
 from services.inference import HybridInference
 
 from api.models import (
@@ -54,8 +54,9 @@ from api.models import (
 CALLS_DIR = "results/calls"
 CALLS_DIR_IEMOCAP = "results/calls_iemocap"
 METRICS_FILE = "results/analysis/evaluation_metrics.json"
-AGGREGATED_CSV = "results/aggregated/agent_features.csv"
-RISK_SCORES_CSV = "results/risk_scores.csv"
+AGGREGATED_CSV = "results/marathon/agent_features.csv"
+RISK_SCORES_CSV = "results/marathon/agent_risk_profiles.csv"
+MARATHON_MODEL_PATH = "saved_models/marathon_risk_predictor.pth"
 UPLOAD_DIR = "data/uploads"
 
 # Logging
@@ -253,6 +254,53 @@ async def get_call_detail(call_id: str):
         data = json.load(f)
     return data
 
+@app.get("/api/calls/{call_id}/xai-report")
+async def get_xai_report(call_id: str):
+    """
+    Get the MD explainability report for a call.
+    """
+    report_path = f"results/xai_reports/call_{call_id}_xai_report.md"
+    if not os.path.exists(report_path):
+        # Try without prefix
+        report_path = f"results/xai_reports/{call_id}_xai_report.md"
+        
+    if not os.path.exists(report_path):
+        raise HTTPException(status_code=404, detail="XAI report not found")
+        
+    with open(report_path, 'r') as f:
+        return {"content": f.read()}
+
+@app.get("/api/calls/{call_id}/xai-plot/{plot_type}")
+async def get_xai_plot(call_id: str, plot_type: str):
+    """
+    Stream the XAI plot image.
+    plot_type can be: trajectory, flow, importance
+    """
+    mapping = {
+        "trajectory": f"{call_id}_emotion_trajectory.png",
+        "flow": f"{call_id}_sentiment_flow.png",
+        "importance": f"{call_id}_modality_importance.png"
+    }
+    
+    fname = mapping.get(plot_type)
+    if not fname:
+        raise HTTPException(status_code=400, detail="Invalid plot type")
+        
+    # Check both potential filename patterns
+    patterns = [fname, f"call_{fname}"]
+    p_path = None
+    for p in patterns:
+        path = os.path.join("results/xai_dialogues", p)
+        if os.path.exists(path):
+            p_path = path
+            break
+            
+    if not p_path:
+        raise HTTPException(status_code=404, detail="Plot not found")
+        
+    from fastapi.responses import FileResponse
+    return FileResponse(p_path)
+
 @app.get("/api/agents", response_model=List[AgentStats])
 async def list_agents():
     """
@@ -391,27 +439,27 @@ async def trigger_aggregation(background_tasks: BackgroundTasks):
     Trigger feature aggregation.
     """
     def run_agg():
-        logger.info("Starting aggregation...")
-        aggregate_sprint_to_timeseries(CALLS_DIR, AGGREGATED_CSV)
+        logger.info("Starting Marathon aggregation...")
+        run_aggregation(CALLS_DIR, os.path.dirname(AGGREGATED_CSV))
         logger.info("Aggregation complete.")
         
     background_tasks.add_task(run_agg)
-    return {"status": "processing", "details": "Aggregation started in background"}
+    return {"status": "processing", "details": "Marathon aggregation started in background"}
 
 @app.post("/api/marathon/update-risk", response_model=OperationStatus)
 async def trigger_risk_scoring(background_tasks: BackgroundTasks):
     """
     Trigger risk scoring update.
     """
-    def run_scoring():
+    def run_scoring_task():
         if not os.path.exists(AGGREGATED_CSV):
             logger.warning("Cannot score, aggregation missing.")
             return
-        score_all_agents(AGGREGATED_CSV).to_csv(RISK_SCORES_CSV, index=False)
+        run_scoring(AGGREGATED_CSV, RISK_SCORES_CSV, MARATHON_MODEL_PATH)
         logger.info("Risk scoring complete.")
         
-    background_tasks.add_task(run_scoring)
-    return {"status": "processing", "details": "Risk scoring started in background"}
+    background_tasks.add_task(run_scoring_task)
+    return {"status": "processing", "details": "Risk scoring engine started in background"}
 
 # --- New Inference Endpoints ---
 

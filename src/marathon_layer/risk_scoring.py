@@ -1,320 +1,185 @@
-
 import pandas as pd
 import argparse
 import os
 import json
 import logging
 import numpy as np
+import torch
+from pathlib import Path
+from datetime import datetime
 
 # Configure logging
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.StreamHandler()
-    ]
-)
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-def calculate_agent_risk(agent_timeseries_df, lookback_days=14):
-    """
-    Calculate risk score for a single agent based on their timeseries data.
-    """
-    if agent_timeseries_df.empty:
+# --- Configuration & Thresholds ---
+RISK_FACTORS = {
+    'sentiment_decline': {
+        'threshold': -0.15,  # 15% drop in avg sentiment over 7 days
+        'weight': 0.25,
+        'severity': 'high',
+        'recommendation': "Agent showing declining satisfaction. Recommend wellness check-in."
+    },
+    'stress_spike': {
+        'threshold': 0.40,   # >40% calls with negative sentiment (stress_indicator)
+        'weight': 0.20,
+        'severity': 'medium',
+        'recommendation': "High stress levels detected in recent calls."
+    },
+    'anger_increase': {
+        'threshold': 0.20,   # 20% increase in anger emotion
+        'weight': 0.15,
+        'severity': 'medium',
+        'recommendation': "Increased anger exposure. Schedule coaching session."
+    },
+    'workload_overload': {
+        'threshold': 1.5,    # 50% above historical average calls/day (workload_spike)
+        'weight': 0.20,
+        'severity': 'high',
+        'recommendation': "Excessive call volume detected. Consider redistributing workload."
+    },
+    'disengagement': {
+        'threshold': 0.30,   # engagement_score < 30%
+        'weight': 0.20,
+        'severity': 'medium',
+        'recommendation': "Agent showing signs of disengagement from customer needs."
+    }
+}
+
+def load_ml_model(model_path):
+    """Loads the LSTM risk predictor if available."""
+    if not os.path.exists(model_path):
+        return None
+    try:
+        from src.marathon_layer.train_risk_predictor import LSTMRiskPredictor
+        # Assuming 12 input features from aggregate_features.py
+        model = LSTMRiskPredictor(input_dim=12) 
+        model.load_state_dict(torch.load(model_path))
+        model.eval()
+        return model
+    except Exception as e:
+        logger.warning(f"Could not load ML model: {e}")
         return None
 
-    # Sort by date
-    df = agent_timeseries_df.sort_values('date').reset_index(drop=True)
+def calculate_agent_risk(agent_df, ml_model=None):
+    """
+    Calculate hybrid risk score using rules and optional ML metadata.
+    """
+    if agent_df.empty: return None
     
-    # Get recent data window
-    recent_df = df.tail(lookback_days)
-    if recent_df.empty:
-        return None
-        
-    current_metrics = recent_df.iloc[-1]
+    # Latest day data
+    current = agent_df.iloc[-1]
     
-    # Baseline: First 7 days of available data (or less if not enough history)
-    baseline_window = df.head(7)
-    
-    # --- Metrics ---
-    # Sentiment
-    current_sentiment = recent_df['avg_sentiment'].mean() # Average over recent window or last day? "Recent 7 days" vs baseline.
-    # Requirement: "Compare recent 7 days vs baseline (first 7 days)"
-    # Let's take the last 7 days from recent_df
-    recent_7d = df.tail(7)
-    recent_sentiment_avg = recent_7d['avg_sentiment'].mean()
-    baseline_sentiment_avg = baseline_window['avg_sentiment'].mean()
-    
-    # Stress
-    current_stress = recent_7d['avg_stress_score'].mean()
-    baseline_stress = baseline_window['avg_stress_score'].mean()
-    
-    # Negative Emotions (Anger)
-    current_anger_pct = recent_7d['angry_calls_pct'].mean()
-    baseline_anger_pct = baseline_window['angry_calls_pct'].mean()
-    
-    # Escalation
-    current_escalation_rate = recent_7d['escalation_count'].sum() / recent_7d['call_count'].sum() if recent_7d['call_count'].sum() > 0 else 0.0
-    
-    # Workload
-    # "If call_volume_change_pct > 30%". This is already a rolling feature for the last day.
-    # Let's use the average of this metric over the last few days or just the latest value.
-    # Using latest available value.
-    current_vol_change = current_metrics['call_volume_change_pct']
-
-    
-    # --- Scoring Logic ---
     risk_score = 0.0
-    risk_factors = []
-    
-    # a) Sentiment Decline (30% weight)
-    # Decline calculation: (Baseline - Recent) / Baseline. 
-    # Careful with signs. Sentiment is -1 to 1.
-    # If baseline is 0.5 and recent is 0.4, decline is (0.5 - 0.4) / 0.5 = 0.2 (20%).
-    # If baseline is negative and recent is more negative, it's worsening.
-    # Absolute drop might be safer or check specific requirement logic.
-    # Requirement: "If decline > 15%" implied percentage relative to baseline?
-    # Or percentage points? "dropped 25%" usually means relative.
-    # Handling divide by zero or small baseline:
-    # Let's use raw difference if close to zero, or standard % change logic.
-    # Shift to 0-2 scale for easier % calc? (x+1). 
-    # Let's stick to simple algebraic decrease for now: if baseline > 0, (base-rec)/base.
-    
-    sentiment_decline_pct = 0.0
-    if baseline_sentiment_avg > 0:
-        sentiment_decline_pct = (baseline_sentiment_avg - recent_sentiment_avg) / baseline_sentiment_avg
-    elif baseline_sentiment_avg == 0:
-        if recent_sentiment_avg < 0: sentiment_decline_pct = 1.0 # arbitrary large
-    else:
-        # Baseline negative. Recent more negative?
-        # e.g. -0.2 to -0.4. magnitude increased 100%. Worsened.
-        if recent_sentiment_avg < baseline_sentiment_avg:
-             sentiment_decline_pct = (recent_sentiment_avg - baseline_sentiment_avg) / baseline_sentiment_avg # Positive result
-    
-    if sentiment_decline_pct > 0.25:
-        risk_score += 0.5
-        risk_factors.append({
-            "factor": "sentiment_decline",
-            "severity": round(sentiment_decline_pct, 2),
-            "description": f"Sentiment dropped {sentiment_decline_pct:.1%} vs baseline",
-            "contribution": 0.5
-        })
-    elif sentiment_decline_pct > 0.15:
-        risk_score += 0.3
-        risk_factors.append({
-            "factor": "sentiment_decline",
-            "severity": round(sentiment_decline_pct, 2),
-            "description": f"Sentiment dropped {sentiment_decline_pct:.1%} vs baseline",
-            "contribution": 0.3
-        })
-        
-    # b) Stress Level (25% weight)
-    added_stress_risk = 0.0
-    if current_stress > 0.6:
-        added_stress_risk += 0.25
-        risk_factors.append({
-            "factor": "high_stress",
-            "severity": round(current_stress, 2),
-            "description": f"Average stress score {current_stress:.2f} > 0.6",
-            "contribution": 0.25
-        })
-    
-    # Stress increasing
-    if current_stress > baseline_stress * 1.1: # >10% increase? Requirement: "If stress increasing". Let's say strictly greater.
-        # Check simple increase
-        if current_stress > baseline_stress:
-             # But wait, logic says "add 0.15".
-             # Is it cumulative with >0.6? Yes.
-             added_stress_risk += 0.15
-             risk_factors.append({
-                "factor": "stress_increasing",
-                "severity": round(current_stress - baseline_stress, 2),
-                "description": "Stress level is trending upwards",
-                "contribution": 0.15
-             })
-    risk_score += added_stress_risk
-    
-    # c) Negative Emotions (20% weight)
-    added_anger_risk = 0.0
-    if current_anger_pct > 0.15: # 15%
-        added_anger_risk += 0.2
-        risk_factors.append({
-            "factor": "high_anger_exposure",
-            "severity": round(current_anger_pct, 2),
-            "description": f"{current_anger_pct:.1%} of calls have high anger",
-            "contribution": 0.2
-        })
-    
-    # Increasing > 5% vs baseline (Percentage points or relative? "increasing >5%". Usually points for percentages).
-    # e.g. Baseline 5%, Current 11% (Diff 6%).
-    if (current_anger_pct - baseline_anger_pct) > 0.05:
-        added_anger_risk += 0.15
-        risk_factors.append({
-            "factor": "anger_increasing",
-            "severity": round(current_anger_pct - baseline_anger_pct, 2),
-            "description": "Anger exposure increased by >5%",
-            "contribution": 0.15
-        })
-    risk_score += added_anger_risk
-    
-    # d) Escalation Rate (15% weight)
-    if current_escalation_rate > 0.10:
-        risk_score += 0.2
-        risk_factors.append({
-            "factor": "high_escalation",
-            "severity": round(current_escalation_rate, 2),
-            "description": f"Escalation rate {current_escalation_rate:.1%} > 10%",
-            "contribution": 0.2
-        })
-
-    # e) Workload (10% weight)
-    # Using 'call_volume_change_pct' from last record
-    # This might be NaN for first week, assume 0
-    vol_change = 0.0
-    if not pd.isna(current_vol_change):
-        vol_change = current_vol_change
-        
-    if vol_change > 0.30:
-        risk_score += 0.1
-        risk_factors.append({
-            "factor": "workload_spike",
-            "severity": round(vol_change, 2),
-            "description": f"Call volume increased by {vol_change:.1%}",
-            "contribution": 0.1
-        })
-        
-    # Cap risk score at 1.0? Requirement doesn't say, but typical.
-    risk_score = min(risk_score, 1.0)
-    
-    # Classify
-    if risk_score >= 0.7:
-        risk_level = "critical"
-        trend_direction = "worsening" # simplistic assumption if high risk
-    elif risk_score >= 0.5:
-        risk_level = "high"
-        trend_direction = "concerning" 
-    elif risk_score >= 0.3:
-        risk_level = "medium"
-        trend_direction = "stable"
-    else:
-        risk_level = "low"
-        trend_direction = "improving"
-
-    # Recommendations
+    triggered_factors = []
     recommendations = []
-    if risk_score >= 0.5:
-        recommendations.append("Schedule 1-on-1 check-in")
-    if any(f['factor'] == 'high_anger_exposure' for f in risk_factors):
-        recommendations.append("Review recent difficult calls for coaching")
-    if any(f['factor'] == 'high_stress' for f in risk_factors):
-        recommendations.append("Suggest short break or wellness check")
-    if 'workload_spike' in [f['factor'] for f in risk_factors]:
-        recommendations.append("Review scheduling/workload distribution")
+    
+    # 1. Rule-Based Scoring
+    # a) Sentiment Decline (Using sentiment_trend_7d)
+    if current['sentiment_trend_7d'] <= RISK_FACTORS['sentiment_decline']['threshold']:
+        config = RISK_FACTORS['sentiment_decline']
+        risk_score += config['weight']
+        triggered_factors.append("sentiment_decline")
+        recommendations.append(config['recommendation'])
         
-    if not recommendations and risk_score < 0.3:
-        recommendations.append("Maintain current performance")
+    # b) Stress Spike (Using stress_indicator: % of negative calls)
+    if current.get('stress_indicator', 0) >= RISK_FACTORS['stress_spike']['threshold']:
+        config = RISK_FACTORS['stress_spike']
+        risk_score += config['weight']
+        triggered_factors.append("stress_spike")
+        recommendations.append(config['recommendation'])
         
-    # Sentiment history for the trend chart (last 30 days)
-    history = []
-    for _, row in recent_df.iterrows():
-        history.append({
-            "day": row['date'],
-            "score": round(row['avg_sentiment'], 3)
-        })
+    # c) Anger Increase (Using anger_trend_7d)
+    if current['anger_trend_7d'] >= RISK_FACTORS['anger_increase']['threshold']:
+        config = RISK_FACTORS['anger_increase']
+        risk_score += config['weight']
+        triggered_factors.append("anger_increase")
+        recommendations.append(config['recommendation'])
+        
+    # d) Workload Overload (Using workload_spike)
+    if current['workload_spike'] >= RISK_FACTORS['workload_overload']['threshold']:
+        config = RISK_FACTORS['workload_overload']
+        risk_score += config['weight']
+        triggered_factors.append("workload_overload")
+        recommendations.append(config['recommendation'])
+        
+    # e) Disengagement (Using engagement_score)
+    if current['engagement_score'] <= RISK_FACTORS['disengagement']['threshold']:
+        config = RISK_FACTORS['disengagement']
+        risk_score += config['weight']
+        triggered_factors.append("disengagement")
+        recommendations.append(config['recommendation'])
+
+    # Special Combo Recommendation
+    if "anger_increase" in triggered_factors and "stress_spike" in triggered_factors:
+        recommendations.append("High emotional strain. Schedule coaching session.")
+
+    # 2. ML Prediction (Optional)
+    ml_prob = 0.0
+    if ml_model and len(agent_df) >= 14:
+        # Get last 14 days features
+        feature_cols = [
+            'total_calls', 'avg_sentiment', 'anger_pct', 'sadness_pct', 
+            'fear_pct', 'joy_pct', 'avg_stress_score', 'engagement_score',
+            'sentiment_trend_7d', 'anger_trend_7d', 'duration_trend_7d', 'workload_spike'
+        ]
+        seq = torch.FloatTensor(agent_df.tail(14)[feature_cols].values).unsqueeze(0)
+        with torch.no_grad():
+            ml_prob = ml_model(seq).item()
+        
+        # Hybrid combine: 70% Rules, 30% ML
+        risk_score = (risk_score * 0.7) + (ml_prob * 0.3)
+    
+    # 3. Final Classification
+    risk_score = min(risk_score, 1.0)
+    if risk_score >= 0.6: risk_level = "Critical"
+    elif risk_score >= 0.4: risk_level = "High"
+    elif risk_score >= 0.2: risk_level = "Medium"
+    else: risk_level = "Low"
+    
+    if not recommendations:
+        recommendations.append("Maintain current performance.")
 
     return {
-        "agent_id": current_metrics['agent_id'],
-        "risk_score": round(risk_score, 2),
+        "agent_id": current['agent_id'],
+        "risk_score": round(risk_score, 3),
         "risk_level": risk_level,
-        "trend_direction": trend_direction,
-        "risk_factors": risk_factors,
-        "recommendations": list(set(recommendations)),
-        "key_metrics": {
-            "current_sentiment": round(recent_sentiment_avg, 2),
-            "baseline_sentiment": round(baseline_sentiment_avg, 2),
-            "current_stress": round(current_stress, 2)
-        },
-        "sentiment_history": history
+        "triggered_factors": ", ".join(triggered_factors) if triggered_factors else "None",
+        "recommendations": " | ".join(list(set(recommendations))),
+        "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     }
 
-def score_all_agents(features_csv):
-    """
-    Load features CSV and score all agents.
-    Returns DataFrame.
-    """
-    if not os.path.exists(features_csv):
-        logging.error(f"File not found: {features_csv}")
-        return pd.DataFrame()
+def run_scoring(input_csv, output_csv, model_path=None):
+    if not os.path.exists(input_csv):
+        logger.error(f"Input file not found: {input_csv}")
+        return
         
-    df = pd.read_csv(features_csv)
+    df = pd.read_csv(input_csv)
+    ml_model = load_ml_model(model_path) if model_path else None
     
     results = []
-    agent_ids = df['agent_id'].unique()
+    for agent_id, group in df.groupby('agent_id'):
+        group = group.sort_values('date')
+        profile = calculate_agent_risk(group, ml_model)
+        if profile:
+            results.append(profile)
+            
+    res_df = pd.DataFrame(results)
+    os.makedirs(os.path.dirname(output_csv), exist_ok=True)
+    res_df.to_csv(output_csv, index=False)
+    logger.info(f"Generated risk profiles for {len(res_df)} agents in {output_csv}")
     
-    for agent in agent_ids:
-        agent_df = df[df['agent_id'] == agent].copy()
-        risk_profile = calculate_agent_risk(agent_df)
-        
-        if risk_profile:
-            # Flatten for CSV output (simplified)
-            row = {
-                "agent_id": risk_profile['agent_id'],
-                "risk_score": risk_profile['risk_score'],
-                "risk_level": risk_profile['risk_level'],
-                "top_factor": risk_profile['risk_factors'][0]['factor'] if risk_profile['risk_factors'] else "none",
-                "recommendation_count": len(risk_profile['recommendations']),
-                "details_json": json.dumps(risk_profile) # Embed full details
-            }
-            results.append(row)
-            
-    return pd.DataFrame(results)
-
-def visualize_risk_factors(risk_details):
-    """
-    Generate a simple text-based visualization/report.
-    """
-    print(f"\n--- Risk Report for {risk_details['agent_id']} ---")
-    print(f"Score: {risk_details['risk_score']} [{risk_details['risk_level'].upper()}]")
-    print("Risk Factors:")
-    if not risk_details['risk_factors']:
-        print("  - None")
-    else:
-        for f in risk_details['risk_factors']:
-            print(f"  [!] {f['factor']} (Contrib: {f['contribution']}): {f['description']}")
-            
-    print("Recommendations:")
-    for r in risk_details['recommendations']:
-        print(f"  -> {r}")
-    print("-" * 40)
+    # Summary stats
+    logger.info(f"Risk Level Counts:\n{res_df['risk_level'].value_counts()}")
 
 def main():
-    parser = argparse.ArgumentParser(description="Marathon Layer Risk Scoring")
-    parser.add_argument("--input", required=True, help="Aggregated features CSV")
-    parser.add_argument("--output", required=True, help="Output CSV for risk scores")
-    parser.add_argument("--visualize", action="store_true", help="Print detailed reports to console")
-    
+    parser = argparse.ArgumentParser(description="Marathon Layer Risk Scoring Engine")
+    parser.add_argument("--input", default="results/marathon/agent_features.csv")
+    parser.add_argument("--output", default="results/marathon/agent_risk_profiles.csv")
+    parser.add_argument("--model", default="saved_models/marathon_risk_predictor.pth")
     args = parser.parse_args()
     
-    if not os.path.exists(args.input):
-        logger.error(f"Input file not found: {args.input}")
-        return
-
-    scores_df = score_all_agents(args.input)
-    
-    if scores_df.empty:
-        logger.warning("No scores generated.")
-        return
-        
-    os.makedirs(os.path.dirname(args.output), exist_ok=True)
-    scores_df.to_csv(args.output, index=False)
-    logger.info(f"Risk scores saved to {args.output}")
-    
-    if args.visualize:
-        # Visualize top risks
-        # We need to parse the JSON back if we just used the dataframe
-        for idx, row in scores_df.iterrows():
-            details = json.loads(row['details_json'])
-            visualize_risk_factors(details)
+    run_scoring(args.input, args.output, args.model)
 
 if __name__ == "__main__":
     main()

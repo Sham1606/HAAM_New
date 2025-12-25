@@ -60,10 +60,9 @@ class RiskProfileResponse(BaseModel):
     agent_id: str
     risk_score: float
     risk_level: str
-    trend_direction: str
-    risk_factors: List[RiskFactor]
-    recommendations: List[str]
-    key_metrics: KeyMetrics
+    triggered_factors: str
+    recommendations: str
+    last_updated: str
 
 class AnalyticsOverview(BaseModel):
     total_calls: int

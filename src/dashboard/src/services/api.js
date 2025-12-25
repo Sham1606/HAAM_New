@@ -20,7 +20,9 @@ api.interceptors.response.use(
 export const callsAPI = {
     getAll: (params) => api.get('/calls', { params }),
     getById: (id) => api.get(`/calls/${id}`),
-    process: (formData) => api.post('/calls/process', formData)
+    process: (formData) => api.post('/calls/process', formData),
+    getXaiReport: (id) => api.get(`/calls/${id}/xai-report`),
+    getXaiPlotURL: (id, type) => `${API_BASE_URL}/calls/${id}/xai-plot/${type}`
 };
 
 export const agentsAPI = {
