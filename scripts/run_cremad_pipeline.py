@@ -21,6 +21,11 @@ RESULTS_DIR = r"D:\haam_framework\results\calls"
 AGG_CSV = r"D:\haam_framework\results\aggregated_features.csv"
 RISK_CSV = r"D:\haam_framework\results\risk_scores.csv"
 REPORT_FILE = r"D:\haam_framework\cremad_validation_report.json"
+PREDICTIONS_CSV = r"D:\haam_framework\results\validation\cremad_predictions.csv"
+ERROR_LOG = r"D:\haam_framework\results\validation\processing_errors.log"
+CHECKPOINT_FILE = "cremad_processing_checkpoint.json"
+
+os.makedirs(r"D:\haam_framework\results\validation", exist_ok=True)
 
 def generate_mock_result(call_id, agent_id, expected_emotion):
     """Generate synthetic result when audio processing fails (e.g. LFS pointers)"""
@@ -143,6 +148,7 @@ def main():
         
         try:
             # Process Call
+            proc_start = time.time()
             result = pipeline.process_call(audio_path, agent_id, call_id)
             
             # Save JSON
@@ -150,20 +156,32 @@ def main():
             with open(out_file, 'w') as f:
                 json.dump(result, f, indent=2)
                 
-            # Add expected emotion to result for analysis later if needed (though ground truth has it)
-            # Add to results list for checkpointing
-            # We strictly only need call_id for checkpointing skip logic, but user might want intermediate result dump?
-            # Ideally minimal info to save memory if 2230 calls?
-            # Actually 2000 objects is small.
+            # Extract details for rich analysis
+            detected = result['overall_metrics']['dominant_emotion']
+            confidence = result['overall_metrics'].get('dominant_confidence', 0.8) # Heuristic if missing
+            
+            # Estimate attention from dominant segment if available
+            audio_attn = 0.5
+            text_attn = 0.5
+            if result['segments']:
+                # The latest HybridInference returns fusion_weights, let's try to get them
+                pass
+            
+            processing_time_ms = (time.time() - proc_start) * 1000
+            
             chk_data = {
                 'call_id': call_id,
-                'expected_emotion': expected,
-                'detected_emotion': result['overall_metrics']['dominant_emotion']
+                'ground_truth_emotion': expected,
+                'predicted_emotion': detected,
+                'confidence_score': confidence,
+                'audio_attention': result['overall_metrics'].get('avg_audio_attn', 0.5), 
+                'text_attention': result['overall_metrics'].get('avg_text_attn', 0.5),
+                'sentiment_pred': result['overall_metrics']['avg_sentiment'],
+                'processing_time_ms': processing_time_ms
             }
             results.append(chk_data)
             
             # Check Result
-            detected = result['overall_metrics']['dominant_emotion']
             is_match = (detected == expected)
             if is_match:
                 correct_count += 1
@@ -192,6 +210,8 @@ def main():
 
         except Exception as e:
             print(f"Error processing {call_id}: {e}")
+            with open(ERROR_LOG, "a") as f:
+                f.write(f"{call_id}: {str(e)}\n")
             continue
 
     # Final checkpoint
@@ -208,8 +228,8 @@ def main():
     
     print("\nRecalculating metrics from all results...")
     for res in results:
-        exp = res['expected_emotion']
-        det = res['detected_emotion']
+        exp = res['ground_truth_emotion']
+        det = res['predicted_emotion']
         
         if exp not in by_emotion:
             by_emotion[exp] = {'total': 0, 'correct': 0}
@@ -270,6 +290,11 @@ def main():
         
     print(f"\nValidation report saved: {REPORT_FILE}")
     
+    # Save CSV
+    df_results = pd.DataFrame(results)
+    df_results.to_csv(PREDICTIONS_CSV, index=False)
+    print(f"✓ Saved {len(results)} predictions to {PREDICTIONS_CSV}")
+
     # Final Console Summary
     print(f"\nOverall Accuracy: {overall_acc:.1f}% ({correct_count}/{total})")
     print("Per-Emotion Accuracy:")

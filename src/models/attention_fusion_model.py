@@ -84,3 +84,28 @@ class AttentionFusionNetwork(nn.Module):
         logits = self.classifier(fused)
         
         return logits, weights
+
+    def freeze_encoders(self):
+        """Freeze acoustic and text projection layers for fine-tuning"""
+        for param in self.acoustic_proj.parameters():
+            param.requires_grad = False
+        for param in self.text_proj.parameters():
+            param.requires_grad = False
+        # Also freeze Interaction Attention if needed for very stable fine-tuning
+        for param in self.mha.parameters():
+            param.requires_grad = False
+        for param in self.modality_pos:
+            param.requires_grad = False
+        print("✓ Encoders and Interaction layers frozen")
+
+    def unfreeze_all(self):
+        """Unfreeze all parameters"""
+        for param in self.parameters():
+            param.requires_grad = True
+        print("✓ All layers trainable")
+
+    def freeze_classifier(self):
+        """Freeze only classification heads"""
+        for param in self.classifier.parameters():
+            param.requires_grad = False
+        print("✓ Classifier frozen")

@@ -39,8 +39,12 @@ from src.features.emotion_text import EmotionTextExtractor
 logger = logging.getLogger(__name__)
 
 # Constants
-MODEL_PATH = r"D:\haam_framework\models\improved\best_model.pth"
+BASE_MODEL_PATH = r"D:\haam_framework\models\improved\best_model.pth"
+FINETUNED_MODEL_PATH = r"D:\haam_framework\saved_models\iemocap_finetuned.pth"
 SCALER_PATH = r"D:\haam_framework\models\improved\scaler.pkl"
+
+# Default to finetuned if available (better generalization for natural speech)
+MODEL_PATH = FINETUNED_MODEL_PATH if os.path.exists(FINETUNED_MODEL_PATH) else BASE_MODEL_PATH
 
 TARGET_EMOTIONS = ['neutral', 'anger', 'disgust', 'fear', 'sadness']
 
