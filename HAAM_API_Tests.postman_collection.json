@@ -1,0 +1,176 @@
+{
+    "info": {
+        "name": "HAAM API Tests",
+        "description": "Complete test suite for HAAM Hybrid Emotion Recognition API",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Health Check",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8000/health",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "health"
+                    ]
+                },
+                "description": "Simple health check endpoint"
+            },
+            "response": []
+        },
+        {
+            "name": "Get Model Info",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8000/api/model/info",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "api",
+                        "model",
+                        "info"
+                    ]
+                },
+                "description": "Get metadata about the hybrid fusion model"
+            },
+            "response": []
+        },
+        {
+            "name": "Predict Emotion",
+            "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                    "mode": "formdata",
+                    "formdata": [
+                        {
+                            "key": "audio",
+                            "type": "file",
+                            "src": "D:/audioVisual_2D/AudioWAV/1001_DFA_ANG_XX.wav",
+                            "description": "Audio file to analyze"
+                        }
+                    ]
+                },
+                "url": {
+                    "raw": "http://localhost:8000/api/predict/emotion",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "api",
+                        "predict",
+                        "emotion"
+                    ]
+                },
+                "description": "Upload audio file and get emotion prediction"
+            },
+            "response": []
+        },
+        {
+            "name": "List Calls",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8000/api/calls?limit=10",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "api",
+                        "calls"
+                    ],
+                    "query": [
+                        {
+                            "key": "limit",
+                            "value": "10",
+                            "description": "Number of calls to retrieve"
+                        }
+                    ]
+                },
+                "description": "Get list of processed calls"
+            },
+            "response": []
+        },
+        {
+            "name": "Get Analytics Overview",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8000/api/analytics/overview",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "api",
+                        "analytics",
+                        "overview"
+                    ]
+                },
+                "description": "Get dashboard analytics"
+            },
+            "response": []
+        },
+        {
+            "name": "Process Call (Upload)",
+            "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                    "mode": "formdata",
+                    "formdata": [
+                        {
+                            "key": "file",
+                            "type": "file",
+                            "src": "D:/audioVisual_2D/AudioWAV/1001_DFA_ANG_XX.wav"
+                        },
+                        {
+                            "key": "agent_id",
+                            "value": "agent_001",
+                            "type": "text"
+                        },
+                        {
+                            "key": "call_id",
+                            "value": "test_call_001",
+                            "type": "text"
+                        }
+                    ]
+                },
+                "url": {
+                    "raw": "http://localhost:8000/api/calls/process",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "api",
+                        "calls",
+                        "process"
+                    ]
+                },
+                "description": "Upload and process a new call"
+            },
+            "response": []
+        }
+    ]
+}
