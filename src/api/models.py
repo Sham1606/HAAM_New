@@ -60,8 +60,8 @@ class RiskProfileResponse(BaseModel):
     agent_id: str
     risk_score: float
     risk_level: str
-    triggered_factors: str
-    recommendations: str
+    risk_factors: List[Dict[str, Any]] = []
+    triggered_factors: List[Dict[str, Any]] = []
     last_updated: str
 
 class AnalyticsOverview(BaseModel):

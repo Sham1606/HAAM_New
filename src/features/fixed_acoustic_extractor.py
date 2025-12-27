@@ -3,6 +3,10 @@ Fixed Acoustic Feature Extractor
 Purpose: Replace broken extraction with robust fallbacks to ensure 0% Zero-Extraction rate.
 """
 
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning)
+warnings.filterwarnings("ignore", category=FutureWarning)
+
 import librosa
 import numpy as np
 import parselmouth

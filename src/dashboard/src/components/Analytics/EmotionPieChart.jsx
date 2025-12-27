@@ -2,8 +2,8 @@
 import React from 'react';
 import { PieChart, Pie, Cell, ResponsiveContainer, Legend, Tooltip } from 'recharts';
 
-const EmotionPieChart = ({ distribution }) => {
-    const data = Object.keys(distribution).map(key => ({
+const EmotionPieChart = ({ distribution = {} }) => {
+    const data = Object.keys(distribution || {}).map(key => ({
         name: key.charAt(0).toUpperCase() + key.slice(1),
         value: distribution[key]
     }));

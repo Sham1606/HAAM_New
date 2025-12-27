@@ -8,6 +8,11 @@ from pathlib import Path
 # Add project root to path
 sys.path.append(str(Path(__file__).parent.parent))
 
+import os
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning)
+warnings.filterwarnings("ignore", category=FutureWarning)
+
 from src.features.fixed_acoustic_extractor import RobustAcousticExtractor
 from src.features.emotion_text import EmotionTextExtractor
 import pandas as pd
@@ -23,6 +28,9 @@ def main():
     print("="*80)
     print("REPROCESSING FEATURES (v2_fixed)")
     print("="*80)
+    
+    # Create logs directory
+    os.makedirs("logs", exist_ok=True)
     
     # Create output directory
     output_dir = Path('data/processed/features_v2_fixed')
@@ -58,14 +66,12 @@ def main():
     
     for idx, row in tqdm(df_to_process.iterrows(), total=len(df_to_process), desc="Processing"):
         try:
-            audio_path = row['filepath']
+            audio_path = os.path.normpath(row['filepath'])
             if not os.path.exists(audio_path):
-                # Try fallback for path separators
-                audio_path = audio_path.replace('\\', '/')
-                if not os.path.exists(audio_path):
-                    # print(f"\nFile not found: {audio_path}")
-                    failure_count += 1
-                    continue
+                if failure_count < 10:
+                    print(f"\nFile not found: {audio_path}")
+                failure_count += 1
+                continue
             
             # 1. Acoustic Features (Robust)
             acoustic_features = acoustic_extractor.extract_array(audio_path)
@@ -104,7 +110,8 @@ def main():
                     torch.cuda.empty_cache()
                     
         except Exception as e:
-            # print(f"\nError processing {row['call_id']}: {e}")
+            if failure_count < 10: # Only print first 10 errors to avoid flooding
+                print(f"\nError processing {row['call_id']}: {e}")
             failure_count += 1
             continue
             

@@ -7,6 +7,32 @@ import pandas as pd
 from pathlib import Path
 import os
 from tqdm import tqdm
+import logging
+
+# Setup logging
+logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
+logger = logging.getLogger(__name__)
+
+def robust_rglob(base_path, pattern):
+    """
+    A robust version of rglob that catches OSErrors (e.g. corrupted directories).
+    """
+    base = Path(base_path)
+    try:
+        # We use os.walk or similar logic if rglob fails, 
+        # but actually pathlib.Path.rglob is what's failing in the user's case.
+        # Let's use a manual recursive search to catch errors at each folder level.
+        for root, dirs, files in os.walk(base_path):
+            try:
+                for f in files:
+                    full_path = Path(root) / f
+                    if full_path.match(pattern):
+                        yield full_path
+            except OSError as e:
+                logger.warning(f"Skipping files in corrupted directory {root}: {e}")
+                continue
+    except OSError as e:
+        logger.error(f"Global OSError scanning {base_path}: {e}")
 
 def scan_crema(base_path, emotion_map):
     print(f"Scanning CREMA-D at {base_path}...")
@@ -20,10 +46,16 @@ def scan_crema(base_path, emotion_map):
     # I'll scan recursively.
     
     files = []
-    for root, dirs, filenames in os.walk(base_path):
-        for f in filenames:
-            if f.endswith('.flv') or f.endswith('.wav'):
-                files.append(os.path.join(root, f))
+    try:
+        for root, dirs, filenames in os.walk(base_path):
+            try:
+                for f in filenames:
+                    if f.endswith('.flv') or f.endswith('.wav'):
+                        files.append(os.path.join(root, f))
+            except OSError as e:
+                logger.warning(f"Skipping corrupted directory in CREMA: {root} - {e}")
+    except OSError as e:
+        logger.error(f"Critical error scanning CREMA: {e}")
                 
     print(f"  Found {len(files)} files")
     
@@ -56,8 +88,8 @@ def scan_iemocap(base_path, emotion_map):
     # Let's focus on CREMA-D matching for now since it's easier to parse from filename.
     # For IEMOCAP, I will search for the "EmoEvaluation" folder to get labels.
     
-    # Find all .txt files in EmoEvaluation
-    emo_files = list(Path(base_path).rglob('*EmoEvaluation/*.txt'))
+    # Find all .txt files in EmoEvaluation using robust scanner
+    emo_files = list(robust_rglob(base_path, '*EmoEvaluation/*.txt'))
     print(f"  Found {len(emo_files)} EmoEvaluation files")
     
     # Parse EmoEval
@@ -65,9 +97,9 @@ def scan_iemocap(base_path, emotion_map):
     # Ses01F_impro01_F000\tneu\t[2.5000, 2.5000, 2.5000]
     
     file_map = {} # map turn_name to full path
-    # First, find all wavs
+    # First, find all wavs using robust scanner
     print("  Indexing wav files...")
-    wav_gen = Path(base_path).rglob('*.wav')
+    wav_gen = robust_rglob(base_path, '*.wav')
     for w in wav_gen:
         if not w.name.startswith('.'): # ignore hidden
             file_map[w.stem] = str(w)
@@ -144,6 +176,9 @@ def main():
     all_records.extend(iemocap_records)
     
     df = pd.DataFrame(all_records)
+    # Standardize paths for Windows
+    df['filepath'] = df['filepath'].apply(lambda x: os.path.abspath(x).replace('/', '\\'))
+    
     print(f"Total records found: {len(df)}")
     print(df['dataset'].value_counts())
     print(df['emotion'].value_counts())

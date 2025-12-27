@@ -24,12 +24,13 @@ from src.utils.data_augmentation import augment_batch # If using raw audio
 
 # Re-using HybridDataset but with IEMOCAP specific logic if needed
 class FinetuneDataset(Dataset):
-    def __init__(self, df, feature_dir, emotion_map, scaler=None, augment=False):
+    def __init__(self, df, feature_dir, emotion_map, scaler=None, augment=False, acoustic_dim=12):
         self.df = df.copy()
         self.feature_dir = Path(feature_dir)
         self.emotion_map = emotion_map
         self.scaler = scaler
         self.augment = augment
+        self.acoustic_dim = acoustic_dim
         
     def __len__(self):
         return len(self.df)
@@ -43,7 +44,12 @@ class FinetuneDataset(Dataset):
             acoustic = features['acoustic']
             
             if self.scaler:
-                acoustic = self.scaler.transform(acoustic.reshape(1, -1))[0]
+                # Handle possible dimension mismatch in scaler
+                try:
+                    acoustic = self.scaler.transform(acoustic.reshape(1, -1))[0]
+                except:
+                    # In case scaler was trained on different dim, we skip or use raw
+                    pass
             
             # Simple feature-level augmentation if raw audio isn't used
             if self.augment and np.random.random() > 0.5:
@@ -58,7 +64,7 @@ class FinetuneDataset(Dataset):
             
             return acoustic, text, label
         except Exception as e:
-            return torch.zeros(12), torch.zeros(768), 0
+            return torch.zeros(self.acoustic_dim), torch.zeros(768), 0
 
 def evaluate(model, loader, device, num_classes=5):
     model.eval()
@@ -84,6 +90,7 @@ def main():
     parser.add_argument("--batch-size", type=int, default=16)
     parser.add_argument("--freeze-encoder", type=bool, default=True)
     parser.add_argument("--save-path", type=str, default="saved_models/iemocap_finetuned.pth")
+    parser.add_argument("--acoustic-dim", type=int, default=12)
     args = parser.parse_args()
 
     DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu'
@@ -104,7 +111,7 @@ def main():
     test_df = df_iemocap[df_iemocap['split'] == 'test']
     
     # 2. Setup Model
-    model = AttentionFusionNetwork(num_classes=5).to(DEVICE)
+    model = AttentionFusionNetwork(acoustic_dim=args.acoustic_dim, num_classes=5).to(DEVICE)
     model.load_state_dict(torch.load(args.pretrained_model, map_location=DEVICE))
     print(f"Loaded pre-trained weights from {args.pretrained_model}")
 
@@ -119,9 +126,9 @@ def main():
     if os.path.exists('models/improved/scaler.pkl'):
         scaler = joblib.load('models/improved/scaler.pkl')
 
-    train_ds = FinetuneDataset(train_df, args.iemocap_data, emotion_map, scaler=scaler, augment=True)
-    val_ds = FinetuneDataset(val_df, args.iemocap_data, emotion_map, scaler=scaler, augment=False)
-    test_ds = FinetuneDataset(test_df, args.iemocap_data, emotion_map, scaler=scaler, augment=False)
+    train_ds = FinetuneDataset(train_df, args.iemocap_data, emotion_map, scaler=scaler, augment=True, acoustic_dim=args.acoustic_dim)
+    val_ds = FinetuneDataset(val_df, args.iemocap_data, emotion_map, scaler=scaler, augment=False, acoustic_dim=args.acoustic_dim)
+    test_ds = FinetuneDataset(test_df, args.iemocap_data, emotion_map, scaler=scaler, augment=False, acoustic_dim=args.acoustic_dim)
 
     train_loader = DataLoader(train_ds, batch_size=args.batch_size, shuffle=True)
     val_loader = DataLoader(val_ds, batch_size=args.batch_size, shuffle=False)

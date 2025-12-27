@@ -8,6 +8,10 @@ from pathlib import Path
 # Add project root to path
 sys.path.append(str(Path(__file__).parent.parent))
 
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning)
+warnings.filterwarnings("ignore", category=FutureWarning)
+
 from src.features.improved_acoustic import LibrosaAcousticExtractor
 import pandas as pd
 import torch
@@ -17,6 +21,7 @@ import os
 import logging
 
 # Configure logging
+os.makedirs("logs", exist_ok=True)
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
@@ -58,7 +63,7 @@ def main():
     
     for idx, row in tqdm(df.iterrows(), total=len(df), desc="Reprocessing Acoustic"):
         call_id = row['call_id']
-        audio_path = row['filepath']
+        audio_path = os.path.normpath(row['filepath'])
         
         # Output path
         out_path = output_feature_dir / f"{call_id}.pt"

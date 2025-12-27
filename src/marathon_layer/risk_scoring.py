@@ -140,12 +140,23 @@ def calculate_agent_risk(agent_df, ml_model=None):
     if not recommendations:
         recommendations.append("Maintain current performance.")
 
+    # Structured factors for frontend
+    risk_factors_detail = []
+    for factor in triggered_factors:
+        config = RISK_FACTORS.get(factor, {})
+        risk_factors_detail.append({
+            "factor": factor.replace('_', ' ').title(),
+            "description": config.get('recommendation', ""),
+            "contribution": config.get('weight', 0.2)
+        })
+
     return {
         "agent_id": current['agent_id'],
         "risk_score": round(risk_score, 3),
         "risk_level": risk_level,
-        "triggered_factors": ", ".join(triggered_factors) if triggered_factors else "None",
-        "recommendations": " | ".join(list(set(recommendations))),
+        "risk_factors": risk_factors_detail,
+        "triggered_factors": [], # for BC
+        "recommendations": list(set(recommendations)),
         "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     }
 

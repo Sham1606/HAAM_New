@@ -32,9 +32,9 @@ const SummaryCards = ({ totalCalls, totalAgents, avgSentiment, highRiskAgents })
             />
             <SummaryCard
                 title="Avg Sentiment"
-                value={avgSentiment.toFixed(2)}
+                value={(avgSentiment || 0).toFixed(2)}
                 icon={TrendingUp}
-                color={avgSentiment > 0 ? "bg-green-500" : "bg-red-500"}
+                color={(avgSentiment || 0) > 0 ? "bg-green-500" : "bg-red-500"}
             />
             <SummaryCard
                 title="High Risk Agents"
