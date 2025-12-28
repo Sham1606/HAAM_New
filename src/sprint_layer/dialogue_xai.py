@@ -68,10 +68,8 @@ class DialogueXAI:
     def plot_emotion_trajectory(self, df, call_id):
         """
         Stacked area chart for emotion probabilities.
-        Note: Needs segment-level distribution if available, 
-        fallback to dominant emotion dummy encoding if not.
         """
-        plt.figure(figsize=(12, 6))
+        plt.figure(figsize=(14, 7))
         
         # If we have distribution in segments
         if 'emotion_distribution' in df.columns:
@@ -81,7 +79,7 @@ class DialogueXAI:
             
             dist_df[available_emotions].plot(kind='area', stacked=True, 
                                             color=[self.emotion_colors.get(e, 'gray') for e in available_emotions],
-                                            alpha=0.6, ax=plt.gca())
+                                            alpha=0.7, ax=plt.gca())
         else:
             # Fallback based on dominant 'emotion' column
             emotions = df['emotion'].unique()
@@ -89,14 +87,16 @@ class DialogueXAI:
                 subset = (df['emotion'] == emo).astype(float)
                 plt.fill_between(df['turn'], subset, alpha=0.3, label=emo, color=self.emotion_colors.get(emo, 'gray'))
 
-        plt.title(f"Temporal Emotion Trajectory - {call_id}", fontsize=14)
-        plt.xlabel("Turn Number")
-        plt.ylabel("Probability / Intensity")
-        plt.legend(loc='upper right')
+        plt.title(f"Emotion Dynamics Overview", fontsize=16, fontweight='bold', pad=20)
+        plt.xlabel("Conversation Turn (Time)", fontsize=12, labelpad=10)
+        plt.ylabel("Emotion Intensity (Probability)", fontsize=12, labelpad=10)
+        plt.legend(loc='upper center', bbox_to_anchor=(0.5, -0.15), ncol=6, frameon=True)
+        plt.grid(axis='y', linestyle='--', alpha=0.5)
+        sns.despine(left=True)
         
         save_path = self.output_dir / f"{call_id}_emotion_trajectory.png"
         plt.tight_layout()
-        plt.savefig(save_path)
+        plt.savefig(save_path, bbox_inches='tight')
         plt.close()
         return save_path
 
@@ -104,31 +104,36 @@ class DialogueXAI:
         """
         Timeline showing sentiment shift and escalation points.
         """
-        plt.figure(figsize=(12, 4))
+        plt.figure(figsize=(14, 5))
         
-        # Smoothed sentiment
-        plt.plot(df['turn'], df['sentiment_score'], marker='o', linestyle='-', color='teal', label='Utterance Sentiment')
+        # Gradient fill for positive/negative areas
+        plt.fill_between(df['turn'], df['sentiment_score'], 0, where=(df['sentiment_score'] > 0), color='green', alpha=0.1, interpolate=True)
+        plt.fill_between(df['turn'], df['sentiment_score'], 0, where=(df['sentiment_score'] < 0), color='red', alpha=0.1, interpolate=True)
+
+        # Main line
+        plt.plot(df['turn'], df['sentiment_score'], marker='o', markersize=4, linestyle='-', color='#2d3748', linewidth=2, label='Sentiment Flow')
         
         # Detect escalations (drop > 0.3)
         df['sentiment_shift'] = df['sentiment_score'].diff()
         escalations = df[df['sentiment_shift'] < -0.3]
         
         for _, row in escalations.iterrows():
-            plt.annotate('ESCALATION', xy=(row['turn'], row['sentiment_score']), 
-                         xytext=(row['turn'], row['sentiment_score'] - 0.2),
-                         arrowprops=dict(facecolor='red', shrink=0.05),
-                         fontsize=10, color='red', fontweight='bold')
+            plt.annotate('⚠️ DROP', xy=(row['turn'], row['sentiment_score']), 
+                         xytext=(row['turn'], row['sentiment_score'] + 0.4),
+                         arrowprops=dict(facecolor='#e53e3e', shrink=0.05, width=2),
+                         fontsize=10, color='#c53030', fontweight='bold', ha='center')
 
-        plt.axhline(0, color='black', alpha=0.3, linestyle='--')
-        plt.title(f"Sentiment Flow & Escalation Detection - {call_id}", fontsize=14)
-        plt.xlabel("Turn Number")
-        plt.ylabel("Sentiment Score")
-        plt.ylim(-1.1, 1.1)
-        plt.legend()
+        plt.axhline(0, color='gray', alpha=0.5, linestyle=':', linewidth=1)
+        plt.title(f"Sentiment Progression & Critical Events", fontsize=16, fontweight='bold', pad=20)
+        plt.xlabel("Conversation Turn", fontsize=12)
+        plt.ylabel("Sentiment Score (-1 to +1)", fontsize=12)
+        plt.ylim(-1.2, 1.2)
+        plt.legend(loc='upper right')
+        sns.despine()
         
         save_path = self.output_dir / f"{call_id}_sentiment_flow.png"
         plt.tight_layout()
-        plt.savefig(save_path)
+        plt.savefig(save_path, bbox_inches='tight')
         plt.close()
         return save_path
 
@@ -136,7 +141,7 @@ class DialogueXAI:
         """
         Audio vs Text attention weights across dialogue.
         """
-        plt.figure(figsize=(12, 5))
+        plt.figure(figsize=(14, 6))
         
         # Check if modality weights exist in segments
         if 'attention_weights' in df.columns:
@@ -146,27 +151,31 @@ class DialogueXAI:
             t_col = 'text'
             
             if a_col in weights.columns:
-                plt.plot(df['turn'], weights[a_col], label='Acoustic Importance', color='blue', linewidth=2)
-                plt.plot(df['turn'], weights[t_col], label='Text Importance', color='purple', linewidth=2)
+                plt.plot(df['turn'], weights[a_col], label='Vocal Cues (Pitch, Tone)', color='#3182ce', linewidth=2.5)
+                plt.plot(df['turn'], weights[t_col], label='Verbal Content (Words)', color='#805ad5', linewidth=2.5, linestyle='--')
                 
-                # Highlight dominant turns
-                audio_dom = df[weights[a_col] > 0.7]
-                text_dom = df[weights[t_col] > 0.7]
+                # Fill dominant areas
+                plt.fill_between(df['turn'], weights[a_col], weights[t_col], where=(weights[a_col] > weights[t_col]), color='#3182ce', alpha=0.1, interpolate=True)
                 
-                plt.scatter(audio_dom['turn'], [1.05]*len(audio_dom), marker='v', color='blue', label='Vocal Dominant')
-                plt.scatter(text_dom['turn'], [1.05]*len(text_dom), marker='v', color='purple', label='Verbal Dominant')
-        else:
-            plt.text(0.5, 0.5, "Modality weights not available for this call version", ha='center')
+                # Highlight dominant turns peaks
+                audio_dom = df[weights[a_col] > 0.8]
+                if not audio_dom.empty:
+                    plt.scatter(audio_dom['turn'], weights[a_col].loc[audio_dom.index], s=50, color='#3182ce', zorder=5)
 
-        plt.title(f"Modality Importance over Time - {call_id}", fontsize=14)
-        plt.xlabel("Turn Number")
-        plt.ylabel("Attention Weight")
-        plt.legend(loc='lower right')
-        plt.ylim(0, 1.15)
+        else:
+            plt.text(0.5, 0.5, "Modality weights not available for this call version", ha='center', fontsize=12)
+
+        plt.title(f"Model Attention: Voice vs. Text", fontsize=16, fontweight='bold', pad=20)
+        plt.xlabel("Conversation Turn", fontsize=12)
+        plt.ylabel("Importance Weight (0-1)", fontsize=12)
+        plt.legend(loc='upper right', frameon=True, fancybox=True, shadow=True)
+        plt.ylim(0, 1.1)
+        plt.grid(True, linestyle=':', alpha=0.6)
+        sns.despine()
         
         save_path = self.output_dir / f"{call_id}_modality_importance.png"
         plt.tight_layout()
-        plt.savefig(save_path)
+        plt.savefig(save_path, bbox_inches='tight')
         plt.close()
         return save_path
 
@@ -227,7 +236,7 @@ class DialogueXAI:
 """
 
         report_file = self.report_dir / f"{call_id}_xai_report.md"
-        with open(report_file, 'w') as f:
+        with open(report_file, 'w', encoding='utf-8') as f:
             f.write(report_content)
         
         logger.info(f"Generated report: {report_file}")

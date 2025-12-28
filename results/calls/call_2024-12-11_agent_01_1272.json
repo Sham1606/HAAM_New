@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-11_agent_01_1272",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T19:46:51.983792",
+  "timestamp": "2025-12-28T17:34:02.281586",
   "duration_seconds": 2.1,
   "transcript": "I'm on my way to the meeting.",
   "segments": [
@@ -10,20 +10,38 @@
       "end_time": 2.0,
       "text": "I'm on my way to the meeting.",
       "emotion": "neutral",
-      "emotion_confidence": 0.393,
-      "sentiment_score": 0.1498,
-      "pitch_mean": 299.56
+      "emotion_confidence": 0.826,
+      "emotion_distribution": {
+        "neutral": 0.8257161378860474,
+        "anger": 0.0949866995215416,
+        "disgust": 0.06576744467020035,
+        "fear": 0.008619965054094791,
+        "sadness": 0.0049097235314548016
+      },
+      "attention_weights": {
+        "acoustic": 0.363,
+        "text": 0.637
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 301.99
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.1498,
+    "avg_sentiment": 0.0,
     "dominant_emotion": "neutral",
     "emotion_distribution": {
-      "neutral": 1.0
+      "neutral": 0.8257,
+      "anger": 0.095,
+      "sadness": 0.0049,
+      "fear": 0.0086,
+      "joy": 0.0,
+      "disgust": 0.0658
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.7,
+    "agent_stress_score": 0.5,
     "speech_rate_wpm": 199.8,
-    "avg_pitch": 299.56
+    "avg_pitch": 299.56,
+    "avg_audio_attn": 0.363,
+    "avg_text_attn": 0.637
   }
 }

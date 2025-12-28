@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-18_agent_01_1829",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T20:06:40.554578",
+  "timestamp": "2025-12-28T18:20:49.779429",
   "duration_seconds": 3.37,
   "transcript": "I'm on my way to the beating.",
   "segments": [
@@ -10,20 +10,38 @@
       "end_time": 3.0,
       "text": "I'm on my way to the beating.",
       "emotion": "sadness",
-      "emotion_confidence": 0.47,
-      "sentiment_score": 0.1129,
-      "pitch_mean": 249.16
+      "emotion_confidence": 0.505,
+      "emotion_distribution": {
+        "neutral": 0.0863410085439682,
+        "anger": 0.0026649751234799623,
+        "disgust": 0.34550678730010986,
+        "fear": 0.060301315039396286,
+        "sadness": 0.5051859617233276
+      },
+      "attention_weights": {
+        "acoustic": 0.768,
+        "text": 0.232
+      },
+      "sentiment_score": -0.4,
+      "pitch_mean": 248.64
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.1129,
+    "avg_sentiment": -0.4,
     "dominant_emotion": "sadness",
     "emotion_distribution": {
-      "sadness": 1.0
+      "neutral": 0.0863,
+      "anger": 0.0027,
+      "sadness": 0.5052,
+      "fear": 0.0603,
+      "joy": 0.0,
+      "disgust": 0.3455
     },
     "escalation_flag": false,
     "agent_stress_score": 0.4,
     "speech_rate_wpm": 124.63,
-    "avg_pitch": 249.16
+    "avg_pitch": 249.16,
+    "avg_audio_attn": 0.768,
+    "avg_text_attn": 0.232
   }
 }

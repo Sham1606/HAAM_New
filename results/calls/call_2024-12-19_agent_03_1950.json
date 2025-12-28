@@ -1,29 +1,47 @@
 {
   "call_id": "call_2024-12-19_agent_03_1950",
   "agent_id": "agent_03",
-  "timestamp": "2025-12-20T20:11:31.672147",
+  "timestamp": "2025-12-28T19:28:29.749922",
   "duration_seconds": 1.87,
-  "transcript": "Ed Salaman at Krak.",
+  "transcript": "It's not a matter of luck.",
   "segments": [
     {
       "start_time": 0.0,
-      "end_time": 1.88,
-      "text": "Ed Salaman at Krak.",
+      "end_time": 1.84,
+      "text": "It's not a matter of luck.",
       "emotion": "disgust",
-      "emotion_confidence": 0.462,
-      "sentiment_score": 0.0348,
-      "pitch_mean": 309.59
+      "emotion_confidence": 0.775,
+      "emotion_distribution": {
+        "neutral": 0.10819119960069656,
+        "anger": 0.0808471217751503,
+        "disgust": 0.774827241897583,
+        "fear": 0.0032257644925266504,
+        "sadness": 0.03290878236293793
+      },
+      "attention_weights": {
+        "acoustic": 0.784,
+        "text": 0.216
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 310.64
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.0348,
+    "avg_sentiment": 0.0,
     "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "disgust": 1.0
+      "neutral": 0.1082,
+      "anger": 0.0808,
+      "sadness": 0.0329,
+      "fear": 0.0032,
+      "joy": 0.0,
+      "disgust": 0.7748
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.2,
-    "speech_rate_wpm": 128.45,
-    "avg_pitch": 309.59
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 192.67,
+    "avg_pitch": 309.59,
+    "avg_audio_attn": 0.784,
+    "avg_text_attn": 0.216
   }
 }

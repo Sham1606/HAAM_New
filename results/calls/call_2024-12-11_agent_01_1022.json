@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-11_agent_01_1022",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T19:38:50.161369",
+  "timestamp": "2025-12-28T17:06:22.466042",
   "duration_seconds": 2.84,
   "transcript": "I would like to do a alarm clock.",
   "segments": [
@@ -9,21 +9,39 @@
       "start_time": 0.0,
       "end_time": 2.0,
       "text": "I would like to do a alarm clock.",
-      "emotion": "neutral",
-      "emotion_confidence": 0.296,
-      "sentiment_score": 0.1668,
-      "pitch_mean": 293.76
+      "emotion": "disgust",
+      "emotion_confidence": 0.648,
+      "emotion_distribution": {
+        "neutral": 0.1963566392660141,
+        "anger": 0.028358658775687218,
+        "disgust": 0.6479112505912781,
+        "fear": 0.009240464307367802,
+        "sadness": 0.11813299357891083
+      },
+      "attention_weights": {
+        "acoustic": 0.871,
+        "text": 0.129
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 305.01
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.1668,
-    "dominant_emotion": "neutral",
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "neutral": 1.0
+      "neutral": 0.1964,
+      "anger": 0.0284,
+      "sadness": 0.1181,
+      "fear": 0.0092,
+      "joy": 0.0,
+      "disgust": 0.6479
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.7,
+    "agent_stress_score": 0.5,
     "speech_rate_wpm": 169.24,
-    "avg_pitch": 293.76
+    "avg_pitch": 293.76,
+    "avg_audio_attn": 0.871,
+    "avg_text_attn": 0.129
   }
 }

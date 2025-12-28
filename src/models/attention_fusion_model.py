@@ -94,8 +94,7 @@ class AttentionFusionNetwork(nn.Module):
         # Also freeze Interaction Attention if needed for very stable fine-tuning
         for param in self.mha.parameters():
             param.requires_grad = False
-        for param in self.modality_pos:
-            param.requires_grad = False
+        self.modality_pos.requires_grad = False
         print("✓ Encoders and Interaction layers frozen")
 
     def unfreeze_all(self):

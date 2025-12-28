@@ -42,33 +42,61 @@ const EmotionTimeline = ({ segments }) => {
         return null;
     };
 
+    const emotionColors = {
+        neutral: '#9ca3af',
+        anger: '#ef4444',
+        joy: '#eab308',
+        sadness: '#3b82f6',
+        fear: '#a855f7',
+        disgust: '#22c55e'
+    };
+
+    const CustomDot = (props) => {
+        const { cx, cy, payload } = props;
+        const fill = emotionColors[payload.emotion] || '#2563eb';
+        return (
+            <circle cx={cx} cy={cy} r={5} fill={fill} stroke="white" strokeWidth={2} />
+        );
+    };
+
     return (
         <div className="bg-white rounded-lg shadow-sm p-6">
-            <h2 className="text-lg font-bold text-gray-900 mb-4">Sentiment Timeline</h2>
+            <h2 className="text-lg font-bold text-gray-900 mb-4">Sentiment Timeline (Colored by Emotion)</h2>
             <div className="h-64">
                 <ResponsiveContainer width="100%" height="100%">
-                    <LineChart data={data} margin={{ top: 5, right: 20, bottom: 5, left: 0 }}>
+                    <LineChart data={data} margin={{ top: 5, right: 20, bottom: 20, left: 20 }}>
                         <CartesianGrid strokeDasharray="3 3" vertical={false} />
                         <XAxis
                             dataKey="time"
                             type="number"
                             domain={xDomain}
                             tickFormatter={(val) => `${Math.round(val)}s`}
-                            label={{ value: 'Time (s)', position: 'insideBottomRight', offset: -5 }}
+                            label={{ value: 'Duration (seconds)', position: 'bottom', offset: 0 }}
                         />
-                        <YAxis domain={[-1, 1]} />
+                        <YAxis
+                            domain={[-1, 1]}
+                            label={{ value: 'Sentiment Score', angle: -90, position: 'insideLeft', offset: 10 }}
+                        />
                         <Tooltip content={<CustomTooltip />} />
                         <ReferenceLine y={0} stroke="#9ca3af" strokeDasharray="3 3" />
                         <Line
                             type="monotone"
                             dataKey="sentiment"
-                            stroke="#2563eb"
+                            stroke="#cbd5e1"
                             strokeWidth={2}
-                            dot={{ r: 4 }}
-                            activeDot={{ r: 6 }}
+                            dot={<CustomDot />}
+                            activeDot={{ r: 8 }}
                         />
                     </LineChart>
                 </ResponsiveContainer>
+            </div>
+            <div className="mt-4 flex flex-wrap gap-4 justify-center text-xs">
+                {Object.entries(emotionColors).map(([emo, color]) => (
+                    <div key={emo} className="flex items-center">
+                        <span className="w-3 h-3 rounded-full mr-1" style={{ backgroundColor: color }}></span>
+                        <span className="capitalize text-gray-600">{emo}</span>
+                    </div>
+                ))}
             </div>
         </div>
     );

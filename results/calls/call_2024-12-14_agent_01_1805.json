@@ -1,29 +1,47 @@
 {
   "call_id": "call_2024-12-14_agent_01_1805",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T20:05:28.587298",
+  "timestamp": "2025-12-28T19:27:31.764518",
   "duration_seconds": 2.6,
-  "transcript": "Ostepher couple of minutes.",
+  "transcript": "Oskarporia Kapal of Menace",
   "segments": [
     {
       "start_time": 0.0,
-      "end_time": 8.44,
-      "text": "Ostepher couple of minutes.",
+      "end_time": 2.26,
+      "text": "Oskarporia Kapal of Menace",
       "emotion": "fear",
-      "emotion_confidence": 0.265,
-      "sentiment_score": 0.079,
-      "pitch_mean": 302.64
+      "emotion_confidence": 0.729,
+      "emotion_distribution": {
+        "neutral": 0.1456415206193924,
+        "anger": 0.018439754843711853,
+        "disgust": 0.07587974518537521,
+        "fear": 0.7291193604469299,
+        "sadness": 0.03091958723962307
+      },
+      "attention_weights": {
+        "acoustic": 0.673,
+        "text": 0.327
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 304.37
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.079,
+    "avg_sentiment": 0.0,
     "dominant_emotion": "fear",
     "emotion_distribution": {
-      "fear": 1.0
+      "neutral": 0.1456,
+      "anger": 0.0184,
+      "sadness": 0.0309,
+      "fear": 0.7291,
+      "joy": 0.0,
+      "disgust": 0.0759
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.2,
+    "agent_stress_score": 0.4,
     "speech_rate_wpm": 92.21,
-    "avg_pitch": 302.64
+    "avg_pitch": 302.64,
+    "avg_audio_attn": 0.673,
+    "avg_text_attn": 0.327
   }
 }

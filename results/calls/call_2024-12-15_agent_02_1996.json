@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-15_agent_02_1996",
   "agent_id": "agent_02",
-  "timestamp": "2025-12-20T20:13:30.189502",
+  "timestamp": "2025-12-28T18:34:35.879656",
   "duration_seconds": 2.04,
   "transcript": "Till I'm in the clock.",
   "segments": [
@@ -10,20 +10,38 @@
       "end_time": 2.0,
       "text": "Till I'm in the clock.",
       "emotion": "disgust",
-      "emotion_confidence": 0.281,
-      "sentiment_score": 0.0944,
-      "pitch_mean": 319.99
+      "emotion_confidence": 0.369,
+      "emotion_distribution": {
+        "neutral": 0.18639813363552094,
+        "anger": 0.01339514460414648,
+        "disgust": 0.3685154318809509,
+        "fear": 0.3104422688484192,
+        "sadness": 0.12124902009963989
+      },
+      "attention_weights": {
+        "acoustic": 0.827,
+        "text": 0.173
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 320.08
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.0944,
+    "avg_sentiment": 0.0,
     "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "disgust": 1.0
+      "neutral": 0.1864,
+      "anger": 0.0134,
+      "sadness": 0.1212,
+      "fear": 0.3104,
+      "joy": 0.0,
+      "disgust": 0.3685
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.4,
+    "agent_stress_score": 0.2,
     "speech_rate_wpm": 147.39,
-    "avg_pitch": 319.99
+    "avg_pitch": 319.99,
+    "avg_audio_attn": 0.827,
+    "avg_text_attn": 0.173
   }
 }

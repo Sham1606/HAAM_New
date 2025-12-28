@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-19_agent_03_2020",
   "agent_id": "agent_03",
-  "timestamp": "2025-12-20T20:14:23.705150",
+  "timestamp": "2025-12-28T18:36:41.492291",
   "duration_seconds": 1.77,
   "transcript": "It's a level of clock!",
   "segments": [
@@ -10,20 +10,38 @@
       "end_time": 1.6,
       "text": "It's a level of clock!",
       "emotion": "anger",
-      "emotion_confidence": 0.421,
-      "sentiment_score": 0.1987,
-      "pitch_mean": 347.28
+      "emotion_confidence": 0.85,
+      "emotion_distribution": {
+        "neutral": 0.07059860229492188,
+        "anger": 0.849504828453064,
+        "disgust": 0.07346058636903763,
+        "fear": 0.004275898914784193,
+        "sadness": 0.0021600297186523676
+      },
+      "attention_weights": {
+        "acoustic": 0.623,
+        "text": 0.377
+      },
+      "sentiment_score": -0.6,
+      "pitch_mean": 352.17
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.1987,
+    "avg_sentiment": -0.6,
     "dominant_emotion": "anger",
     "emotion_distribution": {
-      "anger": 1.0
+      "neutral": 0.0706,
+      "anger": 0.8495,
+      "sadness": 0.0022,
+      "fear": 0.0043,
+      "joy": 0.0,
+      "disgust": 0.0735
     },
     "escalation_flag": true,
     "agent_stress_score": 0.7,
     "speech_rate_wpm": 169.64,
-    "avg_pitch": 347.28
+    "avg_pitch": 347.28,
+    "avg_audio_attn": 0.623,
+    "avg_text_attn": 0.377
   }
 }

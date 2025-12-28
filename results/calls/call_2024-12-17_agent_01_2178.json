@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-17_agent_01_2178",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T20:20:44.134379",
+  "timestamp": "2025-12-28T18:48:53.709915",
   "duration_seconds": 2.74,
   "transcript": "Don't forget it, Jacket!",
   "segments": [
@@ -10,20 +10,38 @@
       "end_time": 2.0,
       "text": "Don't forget it, Jacket!",
       "emotion": "disgust",
-      "emotion_confidence": 0.296,
-      "sentiment_score": 0.6946,
-      "pitch_mean": 316.23
+      "emotion_confidence": 0.711,
+      "emotion_distribution": {
+        "neutral": 0.08381607383489609,
+        "anger": 0.19623017311096191,
+        "disgust": 0.7113738059997559,
+        "fear": 0.003212698269635439,
+        "sadness": 0.005367211997509003
+      },
+      "attention_weights": {
+        "acoustic": 0.715,
+        "text": 0.285
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 323.88
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.6946,
+    "avg_sentiment": 0.0,
     "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "disgust": 1.0
+      "neutral": 0.0838,
+      "anger": 0.1962,
+      "sadness": 0.0054,
+      "fear": 0.0032,
+      "joy": 0.0,
+      "disgust": 0.7114
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.4,
+    "agent_stress_score": 0.2,
     "speech_rate_wpm": 87.72,
-    "avg_pitch": 316.23
+    "avg_pitch": 316.23,
+    "avg_audio_attn": 0.715,
+    "avg_text_attn": 0.285
   }
 }

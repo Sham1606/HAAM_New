@@ -1,47 +1,47 @@
 {
   "call_id": "call_2024-12-19_agent_01_2060",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T20:16:12.704031",
+  "timestamp": "2025-12-28T19:29:17.453515",
   "duration_seconds": 2.17,
-  "transcript": "Lets do this, what is next around? Moving towards another routine. Frozen...",
+  "transcript": "to live in a clock.",
   "segments": [
     {
       "start_time": 0.0,
-      "end_time": 7.36,
-      "text": "Lets do this, what is next around?",
-      "emotion": "sadness",
-      "emotion_confidence": 0.406,
-      "sentiment_score": 0.4017,
-      "pitch_mean": 293.2
-    },
-    {
-      "start_time": 7.36,
-      "end_time": 15.72,
-      "text": "Moving towards another routine.",
-      "emotion": "sadness",
-      "emotion_confidence": 0.406,
-      "sentiment_score": 0.0604,
-      "pitch_mean": 293.2
-    },
-    {
-      "start_time": 15.72,
-      "end_time": 25.68,
-      "text": "Frozen...",
-      "emotion": "sadness",
-      "emotion_confidence": 0.406,
-      "sentiment_score": 0.0573,
-      "pitch_mean": 293.2
+      "end_time": 2.0,
+      "text": "to live in a clock.",
+      "emotion": "disgust",
+      "emotion_confidence": 0.778,
+      "emotion_distribution": {
+        "neutral": 0.10750889033079147,
+        "anger": 0.012925856746733189,
+        "disgust": 0.7781596779823303,
+        "fear": 0.006478763651102781,
+        "sadness": 0.0949268564581871
+      },
+      "attention_weights": {
+        "acoustic": 0.633,
+        "text": 0.367
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 296.39
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.1731,
-    "dominant_emotion": "sadness",
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "sadness": 1.0
+      "neutral": 0.1075,
+      "anger": 0.0129,
+      "sadness": 0.0949,
+      "fear": 0.0065,
+      "joy": 0.0,
+      "disgust": 0.7782
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.5,
-    "speech_rate_wpm": 331.98,
-    "avg_pitch": 293.2
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 138.32,
+    "avg_pitch": 293.2,
+    "avg_audio_attn": 0.633,
+    "avg_text_attn": 0.367
   }
 }

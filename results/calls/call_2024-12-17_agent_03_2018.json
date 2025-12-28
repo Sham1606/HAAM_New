@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-17_agent_03_2018",
   "agent_id": "agent_03",
-  "timestamp": "2025-12-20T20:14:19.074947",
+  "timestamp": "2025-12-28T18:36:30.564395",
   "duration_seconds": 2.87,
   "transcript": "It's all over the clock.",
   "segments": [
@@ -9,21 +9,39 @@
       "start_time": 0.0,
       "end_time": 2.0,
       "text": "It's all over the clock.",
-      "emotion": "anger",
-      "emotion_confidence": 0.329,
-      "sentiment_score": -0.0516,
-      "pitch_mean": 323.17
+      "emotion": "disgust",
+      "emotion_confidence": 0.568,
+      "emotion_distribution": {
+        "neutral": 0.3096254765987396,
+        "anger": 0.08654358237981796,
+        "disgust": 0.5683535933494568,
+        "fear": 0.004049126990139484,
+        "sadness": 0.03142829239368439
+      },
+      "attention_weights": {
+        "acoustic": 0.719,
+        "text": 0.281
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 328.97
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": -0.0516,
-    "dominant_emotion": "anger",
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "anger": 1.0
+      "neutral": 0.3096,
+      "anger": 0.0865,
+      "sadness": 0.0314,
+      "fear": 0.004,
+      "joy": 0.0,
+      "disgust": 0.5684
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.4,
+    "agent_stress_score": 0.2,
     "speech_rate_wpm": 104.55,
-    "avg_pitch": 323.17
+    "avg_pitch": 323.17,
+    "avg_audio_attn": 0.719,
+    "avg_text_attn": 0.281
   }
 }

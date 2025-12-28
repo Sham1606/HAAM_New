@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-19_agent_01_340",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T19:15:50.879465",
+  "timestamp": "2025-12-28T15:38:00.502026",
   "duration_seconds": 2.5,
   "transcript": "Don't forget to jack it!",
   "segments": [
@@ -10,20 +10,38 @@
       "end_time": 2.0,
       "text": "Don't forget to jack it!",
       "emotion": "anger",
-      "emotion_confidence": 0.757,
-      "sentiment_score": 0.6365,
-      "pitch_mean": 288.88
+      "emotion_confidence": 0.909,
+      "emotion_distribution": {
+        "neutral": 0.08567441254854202,
+        "anger": 0.9094793200492859,
+        "disgust": 0.0010648516472429037,
+        "fear": 0.0026803782675415277,
+        "sadness": 0.0011010131565853953
+      },
+      "attention_weights": {
+        "acoustic": 0.17,
+        "text": 0.83
+      },
+      "sentiment_score": -0.6,
+      "pitch_mean": 310.83
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.6365,
+    "avg_sentiment": -0.6,
     "dominant_emotion": "anger",
     "emotion_distribution": {
-      "anger": 1.0
+      "neutral": 0.0857,
+      "anger": 0.9095,
+      "sadness": 0.0011,
+      "fear": 0.0027,
+      "joy": 0.0,
+      "disgust": 0.0011
     },
-    "escalation_flag": false,
+    "escalation_flag": true,
     "agent_stress_score": 0.4,
     "speech_rate_wpm": 119.88,
-    "avg_pitch": 288.88
+    "avg_pitch": 288.88,
+    "avg_audio_attn": 0.17,
+    "avg_text_attn": 0.83
   }
 }

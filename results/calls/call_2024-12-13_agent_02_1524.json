@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-13_agent_02_1524",
   "agent_id": "agent_02",
-  "timestamp": "2025-12-20T19:54:49.715869",
+  "timestamp": "2025-12-28T17:56:24.120925",
   "duration_seconds": 2.0,
   "transcript": "It's a love to clock!",
   "segments": [
@@ -9,21 +9,39 @@
       "start_time": 0.0,
       "end_time": 2.0,
       "text": "It's a love to clock!",
-      "emotion": "anger",
-      "emotion_confidence": 0.521,
-      "sentiment_score": 0.7659,
+      "emotion": "fear",
+      "emotion_confidence": 0.844,
+      "emotion_distribution": {
+        "neutral": 0.02639561891555786,
+        "anger": 0.1162581816315651,
+        "disgust": 0.012813888490200043,
+        "fear": 0.8439823985099792,
+        "sadness": 0.0005499835242517292
+      },
+      "attention_weights": {
+        "acoustic": 0.773,
+        "text": 0.227
+      },
+      "sentiment_score": 0.0,
       "pitch_mean": 327.67
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.7659,
-    "dominant_emotion": "anger",
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "fear",
     "emotion_distribution": {
-      "anger": 1.0
+      "neutral": 0.0264,
+      "anger": 0.1163,
+      "sadness": 0.0005,
+      "fear": 0.844,
+      "joy": 0.0,
+      "disgust": 0.0128
     },
     "escalation_flag": false,
     "agent_stress_score": 0.4,
     "speech_rate_wpm": 149.85,
-    "avg_pitch": 327.67
+    "avg_pitch": 327.67,
+    "avg_audio_attn": 0.773,
+    "avg_text_attn": 0.227
   }
 }

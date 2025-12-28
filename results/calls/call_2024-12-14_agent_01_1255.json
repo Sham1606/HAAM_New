@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-14_agent_01_1255",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T19:46:19.015482",
+  "timestamp": "2025-12-28T17:31:59.488358",
   "duration_seconds": 2.84,
   "transcript": "That is exactly what happened.",
   "segments": [
@@ -9,21 +9,39 @@
       "start_time": 0.0,
       "end_time": 2.0,
       "text": "That is exactly what happened.",
-      "emotion": "neutral",
-      "emotion_confidence": 0.702,
-      "sentiment_score": -0.4417,
-      "pitch_mean": 270.72
+      "emotion": "disgust",
+      "emotion_confidence": 0.546,
+      "emotion_distribution": {
+        "neutral": 0.3997329771518707,
+        "anger": 0.020872220396995544,
+        "disgust": 0.545963704586029,
+        "fear": 0.011912379413843155,
+        "sadness": 0.021518690511584282
+      },
+      "attention_weights": {
+        "acoustic": 0.888,
+        "text": 0.112
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 280.33
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": -0.4417,
-    "dominant_emotion": "neutral",
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "neutral": 1.0
+      "neutral": 0.3997,
+      "anger": 0.0209,
+      "sadness": 0.0215,
+      "fear": 0.0119,
+      "joy": 0.0,
+      "disgust": 0.546
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.4,
+    "agent_stress_score": 0.2,
     "speech_rate_wpm": 105.78,
-    "avg_pitch": 270.72
+    "avg_pitch": 270.72,
+    "avg_audio_attn": 0.888,
+    "avg_text_attn": 0.112
   }
 }

@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-16_agent_01_2147",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T20:19:35.267706",
+  "timestamp": "2025-12-28T18:46:30.698800",
   "duration_seconds": 3.8,
   "transcript": "I think I have a darkens appointment.",
   "segments": [
@@ -10,20 +10,38 @@
       "end_time": 3.0,
       "text": "I think I have a darkens appointment.",
       "emotion": "disgust",
-      "emotion_confidence": 0.555,
-      "sentiment_score": 0.1183,
-      "pitch_mean": 316.26
+      "emotion_confidence": 0.842,
+      "emotion_distribution": {
+        "neutral": 0.0851222351193428,
+        "anger": 0.051159825176000595,
+        "disgust": 0.8419671654701233,
+        "fear": 0.0024174025747925043,
+        "sadness": 0.019333288073539734
+      },
+      "attention_weights": {
+        "acoustic": 0.832,
+        "text": 0.168
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 320.29
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.1183,
+    "avg_sentiment": 0.0,
     "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "disgust": 1.0
+      "neutral": 0.0851,
+      "anger": 0.0512,
+      "sadness": 0.0193,
+      "fear": 0.0024,
+      "joy": 0.0,
+      "disgust": 0.842
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.4,
+    "agent_stress_score": 0.2,
     "speech_rate_wpm": 110.42,
-    "avg_pitch": 316.26
+    "avg_pitch": 316.26,
+    "avg_audio_attn": 0.832,
+    "avg_text_attn": 0.168
   }
 }

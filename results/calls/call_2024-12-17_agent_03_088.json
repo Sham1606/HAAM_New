@@ -1,29 +1,47 @@
 {
   "call_id": "call_2024-12-17_agent_03_088",
   "agent_id": "agent_03",
-  "timestamp": "2025-12-20T19:08:29.095430",
+  "timestamp": "2025-12-28T15:18:40.250033",
   "duration_seconds": 2.77,
-  "transcript": "atual machen\ufffd \ubb38\uc81c",
+  "transcript": "Jetzt auch mal will perpendicular",
   "segments": [
     {
-      "start_time": 0.2,
-      "end_time": 2.92,
-      "text": "atual machen\ufffd \ubb38\uc81c",
+      "start_time": 0.0,
+      "end_time": 2.3,
+      "text": "Jetzt auch mal will perpendicular",
       "emotion": "anger",
-      "emotion_confidence": 0.776,
-      "sentiment_score": 0.0531,
-      "pitch_mean": 331.01
+      "emotion_confidence": 0.462,
+      "emotion_distribution": {
+        "neutral": 0.1219203770160675,
+        "anger": 0.4619637131690979,
+        "disgust": 0.006297603715211153,
+        "fear": 0.4091677963733673,
+        "sadness": 0.0006503536715172231
+      },
+      "attention_weights": {
+        "acoustic": 0.775,
+        "text": 0.225
+      },
+      "sentiment_score": -0.6,
+      "pitch_mean": 349.76
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.0531,
+    "avg_sentiment": -0.6,
     "dominant_emotion": "anger",
     "emotion_distribution": {
-      "anger": 1.0
+      "neutral": 0.1219,
+      "anger": 0.462,
+      "sadness": 0.0007,
+      "fear": 0.4092,
+      "joy": 0.0,
+      "disgust": 0.0063
     },
-    "escalation_flag": false,
-    "agent_stress_score": 0.2,
-    "speech_rate_wpm": 65.0,
-    "avg_pitch": 331.01
+    "escalation_flag": true,
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 108.33,
+    "avg_pitch": 331.01,
+    "avg_audio_attn": 0.775,
+    "avg_text_attn": 0.225
   }
 }

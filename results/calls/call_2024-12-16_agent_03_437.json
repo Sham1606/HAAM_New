@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-16_agent_03_437",
   "agent_id": "agent_03",
-  "timestamp": "2025-12-20T19:18:28.097921",
+  "timestamp": "2025-12-28T15:44:12.085167",
   "duration_seconds": 2.17,
   "transcript": "money. It's 11 o'clock.",
   "segments": [
@@ -10,20 +10,38 @@
       "end_time": 2.0,
       "text": "money. It's 11 o'clock.",
       "emotion": "disgust",
-      "emotion_confidence": 0.402,
-      "sentiment_score": 0.197,
-      "pitch_mean": 313.59
+      "emotion_confidence": 0.692,
+      "emotion_distribution": {
+        "neutral": 0.13455204665660858,
+        "anger": 0.10655064880847931,
+        "disgust": 0.6918860077857971,
+        "fear": 0.015671594068408012,
+        "sadness": 0.051339685916900635
+      },
+      "attention_weights": {
+        "acoustic": 0.692,
+        "text": 0.308
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 313.14
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.197,
+    "avg_sentiment": 0.0,
     "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "disgust": 1.0
+      "neutral": 0.1346,
+      "anger": 0.1066,
+      "sadness": 0.0513,
+      "fear": 0.0157,
+      "joy": 0.0,
+      "disgust": 0.6919
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.4,
+    "agent_stress_score": 0.2,
     "speech_rate_wpm": 110.66,
-    "avg_pitch": 313.59
+    "avg_pitch": 313.59,
+    "avg_audio_attn": 0.692,
+    "avg_text_attn": 0.308
   }
 }

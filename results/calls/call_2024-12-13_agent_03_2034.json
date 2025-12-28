@@ -1,29 +1,47 @@
 {
   "call_id": "call_2024-12-13_agent_03_2034",
   "agent_id": "agent_03",
-  "timestamp": "2025-12-20T20:15:00.884747",
+  "timestamp": "2025-12-28T18:38:05.433765",
   "duration_seconds": 2.47,
-  "transcript": "It's aern rook",
+  "transcript": "It's a shame the clock.",
   "segments": [
     {
       "start_time": 0.0,
-      "end_time": 2.0,
-      "text": "It's aern rook",
+      "end_time": 1.84,
+      "text": "It's a shame the clock.",
       "emotion": "sadness",
-      "emotion_confidence": 0.836,
-      "sentiment_score": 0.0247,
-      "pitch_mean": 275.99
+      "emotion_confidence": 0.448,
+      "emotion_distribution": {
+        "neutral": 0.07517602294683456,
+        "anger": 0.0014817708870396018,
+        "disgust": 0.37668806314468384,
+        "fear": 0.09835421293973923,
+        "sadness": 0.4482998847961426
+      },
+      "attention_weights": {
+        "acoustic": 0.862,
+        "text": 0.138
+      },
+      "sentiment_score": -0.4,
+      "pitch_mean": 286.9
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.0247,
+    "avg_sentiment": -0.4,
     "dominant_emotion": "sadness",
     "emotion_distribution": {
-      "sadness": 1.0
+      "neutral": 0.0752,
+      "anger": 0.0015,
+      "sadness": 0.4483,
+      "fear": 0.0984,
+      "joy": 0.0,
+      "disgust": 0.3767
     },
     "escalation_flag": false,
     "agent_stress_score": 0.4,
-    "speech_rate_wpm": 72.9,
-    "avg_pitch": 275.99
+    "speech_rate_wpm": 121.5,
+    "avg_pitch": 275.99,
+    "avg_audio_attn": 0.862,
+    "avg_text_attn": 0.138
   }
 }

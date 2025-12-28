@@ -1,29 +1,47 @@
 {
   "call_id": "call_2024-12-15_agent_03_1646",
   "agent_id": "agent_03",
-  "timestamp": "2025-12-20T19:59:06.856305",
+  "timestamp": "2025-12-28T18:08:09.572140",
   "duration_seconds": 3.17,
-  "transcript": "I don't know, Ee should've let them at clock.",
+  "transcript": "oj shadow I was leaving my clock",
   "segments": [
     {
       "start_time": 0.0,
-      "end_time": 5.4,
-      "text": "I don't know, Ee should've let them at clock.",
-      "emotion": "fear",
-      "emotion_confidence": 0.219,
-      "sentiment_score": -0.1946,
-      "pitch_mean": 312.81
+      "end_time": 2.0,
+      "text": "oj shadow I was leaving my clock",
+      "emotion": "disgust",
+      "emotion_confidence": 0.857,
+      "emotion_distribution": {
+        "neutral": 0.04667853191494942,
+        "anger": 0.03200060874223709,
+        "disgust": 0.8572366833686829,
+        "fear": 0.058537807315588,
+        "sadness": 0.005546325817704201
+      },
+      "attention_weights": {
+        "acoustic": 0.889,
+        "text": 0.111
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 310.24
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": -0.1946,
-    "dominant_emotion": "fear",
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "fear": 1.0
+      "neutral": 0.0467,
+      "anger": 0.032,
+      "sadness": 0.0055,
+      "fear": 0.0585,
+      "joy": 0.0,
+      "disgust": 0.8572
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.5,
-    "speech_rate_wpm": 170.36,
-    "avg_pitch": 312.81
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 132.5,
+    "avg_pitch": 312.81,
+    "avg_audio_attn": 0.889,
+    "avg_text_attn": 0.111
   }
 }

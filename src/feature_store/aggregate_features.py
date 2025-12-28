@@ -86,14 +86,18 @@ def load_sprint_data(calls_dir, date_from=None):
             
             # Emotion: "angry_calls_pct" needs to check provided emotion distribution or dominant.
             # Requirement: "% calls with >20% angry emotion"
-            angry_pct_in_call = metrics.get('emotion_distribution', {}).get('anger', 0.0)
-            is_angry_call = 1 if angry_pct_in_call > 0.20 else 0
+            dist = metrics.get('emotion_distribution', {})
             
             record = {
                 'agent_id': data['agent_id'],
                 'date': date_str,
                 'sentiment': metrics.get('avg_sentiment', 0.0),
-                'anger_flag': is_angry_call,
+                'anger_flag': 1 if dist.get('anger', 0.0) > 0.20 else 0,
+                'joy_pct': dist.get('joy', 0.0),
+                'neutral_pct': dist.get('neutral', 0.0),
+                'sadness_pct': dist.get('sadness', 0.0),
+                'fear_pct': dist.get('fear', 0.0),
+                'anger_pct': dist.get('anger', 0.0),
                 'escalation_flag': 1 if metrics.get('escalation_flag', False) else 0,
                 'duration': data.get('duration_seconds', 0.0),
                 'stress_score': metrics.get('agent_stress_score', 0.0),
@@ -125,15 +129,16 @@ def aggregate_daily(df):
     
     agg_funcs = {
         'sentiment': ['count', 'mean', 'std'],
-        'anger_flag': 'mean', # % of calls
+        'anger_flag': 'mean',
+        'joy_pct': 'mean',
+        'neutral_pct': 'mean',
+        'sadness_pct': 'mean',
+        'fear_pct': 'mean',
+        'anger_pct': 'mean',
         'escalation_flag': 'sum',
         'duration': 'mean',
         'stress_score': 'mean',
-        'pitch': 'var' # variance of pitch means across calls? or specific pitch variance? 
-                       # Requirement: "avg_pitch_variance" -> likely average of intra-call variance?
-                       # Or variance of pitches in that day?
-                       # Given input limitations (we only stored avg_pitch per call), we calculate variance of pitch means across the day.
-                       # Or we update this to be 0 if only 1 call.
+        'pitch': 'var'
     }
     
     daily = df.groupby(['agent_id', 'date']).agg(agg_funcs)
@@ -147,11 +152,16 @@ def aggregate_daily(df):
         'sentiment_count': 'call_count',
         'sentiment_mean': 'avg_sentiment',
         'sentiment_std': 'sentiment_std',
-        'anger_flag_mean': 'angry_calls_pct', # mean of 0/1 is pct
+        'joy_pct_mean': 'joy_pct',
+        'neutral_pct_mean': 'neutral_pct',
+        'sadness_pct_mean': 'sadness_pct',
+        'fear_pct_mean': 'fear_pct',
+        'anger_pct_mean': 'anger_pct',
+        'anger_flag_mean': 'angry_calls_pct',
         'escalation_flag_sum': 'escalation_count',
         'duration_mean': 'avg_duration',
         'stress_score_mean': 'avg_stress_score',
-        'pitch_var': 'avg_pitch_variance' # This is actually variance of daily pitch means. Close enough given input.
+        'pitch_var': 'avg_pitch_variance'
     }, inplace=True)
     
     # Fill NaN for std/var if only 1 call
@@ -191,31 +201,32 @@ def calculate_rolling_features(daily_df):
         # Requirement: "Handle missing dates". Usually filling with 0 for counts makes sense, 
         # but for sentiment? ffill?
         # Let's fill call_count with 0, others with NaN, but rolling mean ignores NaN.
-        
-        # Temp columns for rolling
-        agent_df['temp_sentiment'] = agent_df['avg_sentiment'] # keep NaNs as is
+        # Temp columns for rolling (handles gaps in daily data)
+        agent_df['temp_sentiment'] = agent_df['avg_sentiment']
         agent_df['temp_count'] = agent_df['call_count'].fillna(0)
         agent_df['temp_stress'] = agent_df['avg_stress_score']
         
-        # 1. sentiment_7day_trend (Rolling average of daily avg sentiment)
-        # min_periods=1 allows output even if some days missing, but standard rolling usually wants window.
-        # "First 7 days no rolling features" -> shift?
-        # Rolling usually includes current day.
-        agent_df['sentiment_7day_trend'] = agent_df['temp_sentiment'].rolling(window=7, min_periods=1).mean()
-        
-        # 2. call_volume_change_pct (% change vs previous 7 days)
-        # sum of last 7 days vs sum of 7 days before that? Or simple change vs rolling mean?
-        # "Change vs previous 7 days" usually means: (Current 7d Sum - Prev 7d Sum) / Prev 7d Sum
-        # Or (Day Vol - Prev 7d Avg) / Prev 7d Avg?
-        # Let's Implement: (Volume(t-7...t) - Volume(t-14...t-7)) / Volume(t-14...t-7)
-        # OR simpler: pct_change of rolling sum.
-        r7_sum = agent_df['temp_count'].rolling(window=7, min_periods=7).sum()
-        # Shifted by 7 days gives the previous window
-        prev_r7_sum = r7_sum.shift(7)
-        agent_df['call_volume_change_pct'] = (r7_sum - prev_r7_sum) / (prev_r7_sum + 1e-6) # avoid div0
-        
-        # 3. stress_7day_mean
+        # 1. Trajectory Trends (Rolling averages)
+        agent_df['sentiment_trend_7d'] = agent_df['temp_sentiment'].rolling(window=7, min_periods=1).mean()
         agent_df['stress_7day_mean'] = agent_df['temp_stress'].rolling(window=7, min_periods=1).mean()
+        agent_df['anger_trend_7d'] = agent_df['anger_pct'].rolling(window=7, min_periods=1).mean()
+        agent_df['duration_trend_7d'] = agent_df['avg_duration'].rolling(window=7, min_periods=1).mean()
+        
+        # 2. workload_spike (% change vs previous 7 days)
+        r7_sum = agent_df['temp_count'].rolling(window=7, min_periods=7).sum()
+        prev_r7_sum = r7_sum.shift(7)
+        agent_df['workload_spike'] = (r7_sum - prev_r7_sum) / (prev_r7_sum + 1e-6)
+        
+        # 3. engagement_score (Heuristic: 1.0 - weighted penalty of anger and stress)
+        # Higher stress and higher anger = Lower engagement
+        # Note: Using .fillna(0) for calculations to avoid propogating NaNs aggressively
+        engagement = 1.0 - (agent_df['anger_pct'].fillna(0) * 0.4 + agent_df['avg_stress_score'].fillna(0) * 0.4)
+        agent_df['engagement_score'] = engagement.clip(0, 1)
+        
+        # Aliases for cross-script compatibility
+        agent_df['stress_indicator'] = agent_df['avg_stress_score']
+        agent_df['sentiment_7day_trend'] = agent_df['sentiment_trend_7d']
+        agent_df['call_volume_change_pct'] = agent_df['workload_spike']
         
         # Cleanup: Drop rows that were added just for filling (missing days)
         # OR keep them? Requirement says "Handle missing dates (fill with NaN or skip)".
@@ -242,7 +253,9 @@ def calculate_rolling_features(daily_df):
     # If we added a row for a missing day:
     # call_count -> 0
     # others -> NaN
-    final_df['call_count'] = final_df['call_count'].fillna(0).astype(int)
+    # Add alias for visualization script
+    final_df['sentiment_ma7'] = final_df['sentiment_trend_7d']
+    final_df['total_calls'] = final_df['call_count']
     
     return final_df
 
@@ -264,7 +277,8 @@ def aggregate_sprint_to_timeseries(calls_dir, output_csv):
     # Round floats
     cols_to_round = ['avg_sentiment', 'sentiment_std', 'angry_calls_pct', 
                      'avg_duration', 'avg_stress_score', 'avg_pitch_variance',
-                     'sentiment_7day_trend', 'call_volume_change_pct', 'stress_7day_mean']
+                     'sentiment_trend_7d', 'workload_spike', 'stress_7day_mean',
+                     'anger_trend_7d', 'duration_trend_7d', 'engagement_score']
     
     for col in cols_to_round:
         if col in df_final.columns:

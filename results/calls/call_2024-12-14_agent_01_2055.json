@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-14_agent_01_2055",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T20:15:53.413834",
+  "timestamp": "2025-12-28T18:40:01.227091",
   "duration_seconds": 2.14,
   "transcript": "to go in a clock.",
   "segments": [
@@ -9,21 +9,39 @@
       "start_time": 0.0,
       "end_time": 2.0,
       "text": "to go in a clock.",
-      "emotion": "sadness",
-      "emotion_confidence": 0.346,
-      "sentiment_score": 0.0131,
-      "pitch_mean": 284.66
+      "emotion": "disgust",
+      "emotion_confidence": 0.482,
+      "emotion_distribution": {
+        "neutral": 0.10491405427455902,
+        "anger": 0.009127085097134113,
+        "disgust": 0.48248472809791565,
+        "fear": 0.058233436197042465,
+        "sadness": 0.34524068236351013
+      },
+      "attention_weights": {
+        "acoustic": 0.747,
+        "text": 0.253
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 285.59
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.0131,
-    "dominant_emotion": "sadness",
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "sadness": 1.0
+      "neutral": 0.1049,
+      "anger": 0.0091,
+      "sadness": 0.3452,
+      "fear": 0.0582,
+      "joy": 0.0,
+      "disgust": 0.4825
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.4,
+    "agent_stress_score": 0.2,
     "speech_rate_wpm": 140.49,
-    "avg_pitch": 284.66
+    "avg_pitch": 284.66,
+    "avg_audio_attn": 0.747,
+    "avg_text_attn": 0.253
   }
 }

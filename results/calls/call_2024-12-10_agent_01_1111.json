@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-10_agent_01_1111",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T19:41:38.418982",
+  "timestamp": "2025-12-28T17:14:28.772715",
   "duration_seconds": 3.27,
   "transcript": "The airplane is almost full.",
   "segments": [
@@ -9,21 +9,39 @@
       "start_time": 0.0,
       "end_time": 2.0,
       "text": "The airplane is almost full.",
-      "emotion": "joy",
-      "emotion_confidence": 0.332,
-      "sentiment_score": 0.0034,
-      "pitch_mean": 298.45
+      "emotion": "fear",
+      "emotion_confidence": 0.705,
+      "emotion_distribution": {
+        "neutral": 0.0325218103826046,
+        "anger": 0.0029423122759908438,
+        "disgust": 0.05562084540724754,
+        "fear": 0.7049885392189026,
+        "sadness": 0.20392639935016632
+      },
+      "attention_weights": {
+        "acoustic": 0.793,
+        "text": 0.207
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 310.4
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.0034,
-    "dominant_emotion": "joy",
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "fear",
     "emotion_distribution": {
-      "joy": 1.0
+      "neutral": 0.0325,
+      "anger": 0.0029,
+      "sadness": 0.2039,
+      "fear": 0.705,
+      "joy": 0.0,
+      "disgust": 0.0556
     },
     "escalation_flag": false,
     "agent_stress_score": 0.4,
     "speech_rate_wpm": 91.74,
-    "avg_pitch": 298.45
+    "avg_pitch": 298.45,
+    "avg_audio_attn": 0.793,
+    "avg_text_attn": 0.207
   }
 }

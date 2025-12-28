@@ -50,7 +50,10 @@ const AgentRiskPage = () => {
     }, []);
 
     const filteredAgents = showHighRiskOnly
-        ? agents.filter(a => ['high', 'critical'].includes(a.risk_level))
+        ? agents.filter(a => {
+            const level = (a.risk_level || 'low').toLowerCase();
+            return ['high', 'critical'].includes(level);
+        })
         : agents;
 
     const sortedAgents = [...filteredAgents].sort((a, b) => b.risk_score - a.risk_score);

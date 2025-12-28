@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-11_agent_01_1092",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T19:41:03.050288",
+  "timestamp": "2025-12-28T17:12:48.423566",
   "duration_seconds": 3.77,
   "transcript": "Put us exactly what happened.",
   "segments": [
@@ -10,20 +10,38 @@
       "end_time": 3.0,
       "text": "Put us exactly what happened.",
       "emotion": "sadness",
-      "emotion_confidence": 0.662,
-      "sentiment_score": -0.4277,
-      "pitch_mean": 244.97
+      "emotion_confidence": 0.767,
+      "emotion_distribution": {
+        "neutral": 0.03077322244644165,
+        "anger": 0.0006350986077450216,
+        "disgust": 0.04094676673412323,
+        "fear": 0.16035890579223633,
+        "sadness": 0.7672860026359558
+      },
+      "attention_weights": {
+        "acoustic": 0.851,
+        "text": 0.149
+      },
+      "sentiment_score": -0.4,
+      "pitch_mean": 248.25
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": -0.4277,
+    "avg_sentiment": -0.4,
     "dominant_emotion": "sadness",
     "emotion_distribution": {
-      "sadness": 1.0
+      "neutral": 0.0308,
+      "anger": 0.0006,
+      "sadness": 0.7673,
+      "fear": 0.1604,
+      "joy": 0.0,
+      "disgust": 0.0409
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.2,
+    "agent_stress_score": 0.4,
     "speech_rate_wpm": 79.57,
-    "avg_pitch": 244.97
+    "avg_pitch": 244.97,
+    "avg_audio_attn": 0.851,
+    "avg_text_attn": 0.149
   }
 }

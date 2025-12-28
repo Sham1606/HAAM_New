@@ -5,32 +5,42 @@ Runs sequential training sessions and compares recall for Fear/Disgust.
 
 import subprocess
 import json
+import sys
 from pathlib import Path
 import pandas as pd
 
 def run_training(dim, feature_dir, results_suffix):
     cmd = [
-        "python", "scripts/05_train_improved_model.py",
+        sys.executable, "scripts/05_train_improved_model.py",
         "--acoustic-dim", str(dim),
         "--feature-dir", feature_dir,
         "--epochs", "20" # Faster for ablation
     ]
-    print(f"\n>>> Running Training: {dim} Dimensions...")
-    subprocess.run(cmd)
+    print(f"\n>>> Running Training: {dim} Dimensions using {feature_dir}...")
+    try:
+        subprocess.run(cmd, check=True)
+    except subprocess.CalledProcessError:
+        print(f"ERROR: Training failed for {dim} dimensions.")
+        return None
     
     # Load metrics
     metrics_path = Path("results/improved/metrics.json")
     if metrics_path.exists():
-        with open(metrics_path, "r") as f:
-            data = json.load(f)
-        return data
+        try:
+            with open(metrics_path, "r") as f:
+                data = json.load(f)
+            return data
+        except json.JSONDecodeError:
+            print(f"ERROR: Could not decode metrics.json for {dim} dimensions.")
+            return None
     return None
 
 def main():
     results = {}
     
     # 1. Baseline (12-dim)
-    res_12 = run_training(12, "data/processed/features_v3_librosa", "12d")
+    # Using features_v2_fixed which correctly has 12 dims
+    res_12 = run_training(12, "data/processed/features_v2_fixed", "12d")
     if res_12:
         results['12d'] = res_12
         
@@ -38,11 +48,11 @@ def main():
     # Ensure upgrade script has been run!
     if not Path("data/processed/features_v4_20dim").exists():
         print("\nERROR: data/processed/features_v4_20dim not found. Run scripts/upgrade_features_to_20dim.py first.")
-        return
-        
-    res_20 = run_training(20, "data/processed/features_v4_20dim", "20d")
-    if res_20:
-        results['20d'] = res_20
+        # Try to proceed with just 12d if available
+    else:
+        res_20 = run_training(20, "data/processed/features_v4_20dim", "20d")
+        if res_20:
+            results['20d'] = res_20
         
     # 3. Comparison Report
     print("\n" + "="*80)
@@ -53,15 +63,11 @@ def main():
     
     metrics_to_show = ['test_accuracy', 'best_val_accuracy']
     for m in metrics_to_show:
-        v1 = results['12d'].get(m, 0)
-        v2 = results['20d'].get(m, 0)
+        v1 = results['12d'].get(m, 0) if '12d' in results else 0
+        v2 = results['20d'].get(m, 0) if '20d' in results else 0
         gain = v2 - v1
-        print(f"{m:<20} | {v1:<15.4f} | {v2:<15.4f} | {gain:+.4f}")
+        print(f"{m:<10} | {v1:<15.4f} | {v2:<15.4f} | {gain:+.4f}")
 
-    # Special check for Fear/Disgust recall (index 3 and 2)
-    # This requires looking at history or the final class report if we saved it in metrics.json
-    # I'll update 05_train_improved_model.py to save more details in metrics.json if needed.
-    
     # Save comparison to docs/
     Path('docs').mkdir(exist_ok=True)
     with open('docs/mfcc_ablation_report.json', 'w') as f:

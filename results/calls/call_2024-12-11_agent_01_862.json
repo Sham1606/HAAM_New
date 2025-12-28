@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-11_agent_01_862",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T19:31:13.937515",
+  "timestamp": "2025-12-28T16:52:39.323719",
   "duration_seconds": 2.47,
   "transcript": "It's a lovely car.",
   "segments": [
@@ -9,21 +9,39 @@
       "start_time": 0.0,
       "end_time": 2.0,
       "text": "It's a lovely car.",
-      "emotion": "sadness",
-      "emotion_confidence": 0.706,
-      "sentiment_score": 0.9588,
-      "pitch_mean": 279.75
+      "emotion": "disgust",
+      "emotion_confidence": 0.371,
+      "emotion_distribution": {
+        "neutral": 0.15168145298957825,
+        "anger": 0.009914700873196125,
+        "disgust": 0.37058040499687195,
+        "fear": 0.10551281273365021,
+        "sadness": 0.36231061816215515
+      },
+      "attention_weights": {
+        "acoustic": 0.815,
+        "text": 0.185
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 281.5
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.9588,
-    "dominant_emotion": "sadness",
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "sadness": 1.0
+      "neutral": 0.1517,
+      "anger": 0.0099,
+      "sadness": 0.3623,
+      "fear": 0.1055,
+      "joy": 0.0,
+      "disgust": 0.3706
     },
     "escalation_flag": false,
     "agent_stress_score": 0.2,
     "speech_rate_wpm": 97.2,
-    "avg_pitch": 279.75
+    "avg_pitch": 279.75,
+    "avg_audio_attn": 0.815,
+    "avg_text_attn": 0.185
   }
 }

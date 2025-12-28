@@ -63,6 +63,7 @@ class RiskProfileResponse(BaseModel):
     risk_factors: List[Dict[str, Any]] = []
     triggered_factors: List[Dict[str, Any]] = []
     last_updated: str
+    sentiment_history: List[Dict[str, Any]] = []
 
 class AnalyticsOverview(BaseModel):
     total_calls: int

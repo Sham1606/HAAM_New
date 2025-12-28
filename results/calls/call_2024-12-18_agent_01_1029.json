@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-18_agent_01_1029",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T19:39:05.010758",
+  "timestamp": "2025-12-28T17:07:02.268350",
   "duration_seconds": 2.37,
   "transcript": "Don't forget to check it.",
   "segments": [
@@ -9,21 +9,39 @@
       "start_time": 0.0,
       "end_time": 2.0,
       "text": "Don't forget to check it.",
-      "emotion": "sadness",
-      "emotion_confidence": 0.545,
-      "sentiment_score": 0.2401,
-      "pitch_mean": 298.92
+      "emotion": "neutral",
+      "emotion_confidence": 0.368,
+      "emotion_distribution": {
+        "neutral": 0.36765140295028687,
+        "anger": 0.001752719166688621,
+        "disgust": 0.33030813932418823,
+        "fear": 0.1338919848203659,
+        "sadness": 0.16639573872089386
+      },
+      "attention_weights": {
+        "acoustic": 0.903,
+        "text": 0.097
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 298.42
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.2401,
-    "dominant_emotion": "sadness",
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "neutral",
     "emotion_distribution": {
-      "sadness": 1.0
+      "neutral": 0.3677,
+      "anger": 0.0018,
+      "sadness": 0.1664,
+      "fear": 0.1339,
+      "joy": 0.0,
+      "disgust": 0.3303
     },
     "escalation_flag": false,
     "agent_stress_score": 0.2,
     "speech_rate_wpm": 126.64,
-    "avg_pitch": 298.92
+    "avg_pitch": 298.92,
+    "avg_audio_attn": 0.903,
+    "avg_text_attn": 0.097
   }
 }

@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-13_agent_01_1064",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T19:40:13.416607",
+  "timestamp": "2025-12-28T17:10:10.976350",
   "duration_seconds": 3.27,
   "transcript": "I think I have a top disappointment.",
   "segments": [
@@ -9,21 +9,39 @@
       "start_time": 0.0,
       "end_time": 3.0,
       "text": "I think I have a top disappointment.",
-      "emotion": "neutral",
-      "emotion_confidence": 0.405,
-      "sentiment_score": -0.8562,
-      "pitch_mean": 299.51
+      "emotion": "disgust",
+      "emotion_confidence": 0.753,
+      "emotion_distribution": {
+        "neutral": 0.10515261441469193,
+        "anger": 0.007890414446592331,
+        "disgust": 0.7534268498420715,
+        "fear": 0.00932427030056715,
+        "sadness": 0.12420585006475449
+      },
+      "attention_weights": {
+        "acoustic": 0.912,
+        "text": 0.088
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 302.23
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": -0.8562,
-    "dominant_emotion": "neutral",
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "neutral": 1.0
+      "neutral": 0.1052,
+      "anger": 0.0079,
+      "sadness": 0.1242,
+      "fear": 0.0093,
+      "joy": 0.0,
+      "disgust": 0.7534
     },
-    "escalation_flag": true,
-    "agent_stress_score": 0.4,
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
     "speech_rate_wpm": 128.44,
-    "avg_pitch": 299.51
+    "avg_pitch": 299.51,
+    "avg_audio_attn": 0.912,
+    "avg_text_attn": 0.088
   }
 }

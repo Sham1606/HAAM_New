@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-14_agent_03_075",
   "agent_id": "agent_03",
-  "timestamp": "2025-12-20T19:08:02.955365",
+  "timestamp": "2025-12-28T15:17:35.433762",
   "duration_seconds": 2.5,
   "transcript": "It's a leaven o'clock!",
   "segments": [
@@ -10,20 +10,38 @@
       "end_time": 2.0,
       "text": "It's a leaven o'clock!",
       "emotion": "anger",
-      "emotion_confidence": 0.735,
-      "sentiment_score": 0.479,
-      "pitch_mean": 321.29
+      "emotion_confidence": 0.76,
+      "emotion_distribution": {
+        "neutral": 0.1912464052438736,
+        "anger": 0.7600250840187073,
+        "disgust": 0.022180620580911636,
+        "fear": 0.026002921164035797,
+        "sadness": 0.0005449551972560585
+      },
+      "attention_weights": {
+        "acoustic": 0.456,
+        "text": 0.544
+      },
+      "sentiment_score": -0.6,
+      "pitch_mean": 332.02
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.479,
+    "avg_sentiment": -0.6,
     "dominant_emotion": "anger",
     "emotion_distribution": {
-      "anger": 1.0
+      "neutral": 0.1912,
+      "anger": 0.76,
+      "sadness": 0.0005,
+      "fear": 0.026,
+      "joy": 0.0,
+      "disgust": 0.0222
     },
-    "escalation_flag": false,
+    "escalation_flag": true,
     "agent_stress_score": 0.4,
     "speech_rate_wpm": 95.9,
-    "avg_pitch": 321.29
+    "avg_pitch": 321.29,
+    "avg_audio_attn": 0.456,
+    "avg_text_attn": 0.544
   }
 }

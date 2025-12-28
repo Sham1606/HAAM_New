@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-13_agent_03_064",
   "agent_id": "agent_03",
-  "timestamp": "2025-12-20T19:07:38.514147",
+  "timestamp": "2025-12-28T15:16:36.718419",
   "duration_seconds": 2.24,
   "transcript": "It's 11 a cro-",
   "segments": [
@@ -11,19 +11,37 @@
       "text": "It's 11 a cro-",
       "emotion": "anger",
       "emotion_confidence": 0.867,
-      "sentiment_score": -0.1099,
-      "pitch_mean": 359.5
+      "emotion_distribution": {
+        "neutral": 0.07882219552993774,
+        "anger": 0.8672197461128235,
+        "disgust": 0.004753549117594957,
+        "fear": 0.04854962229728699,
+        "sadness": 0.0006549548706971109
+      },
+      "attention_weights": {
+        "acoustic": 0.343,
+        "text": 0.657
+      },
+      "sentiment_score": -0.6,
+      "pitch_mean": 356.94
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": -0.1099,
+    "avg_sentiment": -0.6,
     "dominant_emotion": "anger",
     "emotion_distribution": {
-      "anger": 1.0
+      "neutral": 0.0788,
+      "anger": 0.8672,
+      "sadness": 0.0007,
+      "fear": 0.0485,
+      "joy": 0.0,
+      "disgust": 0.0048
     },
-    "escalation_flag": false,
+    "escalation_flag": true,
     "agent_stress_score": 0.4,
     "speech_rate_wpm": 107.36,
-    "avg_pitch": 359.5
+    "avg_pitch": 359.5,
+    "avg_audio_attn": 0.343,
+    "avg_text_attn": 0.657
   }
 }

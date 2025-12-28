@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-18_agent_01_009",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T19:06:00.835912",
+  "timestamp": "2025-12-28T15:11:50.476002",
   "duration_seconds": 2.77,
   "transcript": "It's a loving o'clock!",
   "segments": [
@@ -9,21 +9,39 @@
       "start_time": 0.0,
       "end_time": 2.0,
       "text": "It's a loving o'clock!",
-      "emotion": "anger",
-      "emotion_confidence": 0.975,
-      "sentiment_score": 0.9439,
-      "pitch_mean": 340.58
+      "emotion": "neutral",
+      "emotion_confidence": 0.83,
+      "emotion_distribution": {
+        "neutral": 0.8300403952598572,
+        "anger": 0.07610218226909637,
+        "disgust": 0.0007585645071230829,
+        "fear": 0.08539725840091705,
+        "sadness": 0.007701667957007885
+      },
+      "attention_weights": {
+        "acoustic": 0.536,
+        "text": 0.464
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 365.92
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.9439,
-    "dominant_emotion": "anger",
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "neutral",
     "emotion_distribution": {
-      "anger": 1.0
+      "neutral": 0.83,
+      "anger": 0.0761,
+      "sadness": 0.0077,
+      "fear": 0.0854,
+      "joy": 0.0,
+      "disgust": 0.0008
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.4,
+    "agent_stress_score": 0.2,
     "speech_rate_wpm": 86.66,
-    "avg_pitch": 340.58
+    "avg_pitch": 340.58,
+    "avg_audio_attn": 0.536,
+    "avg_text_attn": 0.464
   }
 }

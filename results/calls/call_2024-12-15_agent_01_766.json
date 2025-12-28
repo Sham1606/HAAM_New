@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-15_agent_01_766",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T19:27:46.160469",
+  "timestamp": "2025-12-28T16:44:59.505657",
   "duration_seconds": 2.28,
   "transcript": "12 o'clock",
   "segments": [
@@ -9,21 +9,39 @@
       "start_time": 0.0,
       "end_time": 2.0,
       "text": "12 o'clock",
-      "emotion": "sadness",
-      "emotion_confidence": 0.404,
-      "sentiment_score": 0.1159,
-      "pitch_mean": 301.39
+      "emotion": "disgust",
+      "emotion_confidence": 0.546,
+      "emotion_distribution": {
+        "neutral": 0.25132086873054504,
+        "anger": 0.1385500431060791,
+        "disgust": 0.5461859107017517,
+        "fear": 0.010127651505172253,
+        "sadness": 0.05381550267338753
+      },
+      "attention_weights": {
+        "acoustic": 0.672,
+        "text": 0.328
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 306.8
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.1159,
-    "dominant_emotion": "sadness",
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "sadness": 1.0
+      "neutral": 0.2513,
+      "anger": 0.1386,
+      "sadness": 0.0538,
+      "fear": 0.0101,
+      "joy": 0.0,
+      "disgust": 0.5462
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.4,
+    "agent_stress_score": 0.2,
     "speech_rate_wpm": 52.73,
-    "avg_pitch": 301.39
+    "avg_pitch": 301.39,
+    "avg_audio_attn": 0.672,
+    "avg_text_attn": 0.328
   }
 }

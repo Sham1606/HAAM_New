@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-11_agent_01_1122",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T19:42:00.393122",
+  "timestamp": "2025-12-28T17:15:25.108992",
   "duration_seconds": 2.84,
   "transcript": "I would like to do a Lord clock.",
   "segments": [
@@ -9,21 +9,39 @@
       "start_time": 0.0,
       "end_time": 2.0,
       "text": "I would like to do a Lord clock.",
-      "emotion": "neutral",
-      "emotion_confidence": 0.382,
-      "sentiment_score": 0.2983,
-      "pitch_mean": 308.33
+      "emotion": "disgust",
+      "emotion_confidence": 0.603,
+      "emotion_distribution": {
+        "neutral": 0.28530606627464294,
+        "anger": 0.1013837605714798,
+        "disgust": 0.6029245257377625,
+        "fear": 0.004384428262710571,
+        "sadness": 0.0060012442991137505
+      },
+      "attention_weights": {
+        "acoustic": 0.621,
+        "text": 0.379
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 320.34
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.2983,
-    "dominant_emotion": "neutral",
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "neutral": 1.0
+      "neutral": 0.2853,
+      "anger": 0.1014,
+      "sadness": 0.006,
+      "fear": 0.0044,
+      "joy": 0.0,
+      "disgust": 0.6029
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.7,
+    "agent_stress_score": 0.5,
     "speech_rate_wpm": 169.24,
-    "avg_pitch": 308.33
+    "avg_pitch": 308.33,
+    "avg_audio_attn": 0.621,
+    "avg_text_attn": 0.379
   }
 }

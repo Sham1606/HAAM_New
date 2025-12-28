@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-10_agent_03_921",
   "agent_id": "agent_03",
-  "timestamp": "2025-12-20T19:34:12.880701",
+  "timestamp": "2025-12-28T16:58:06.893080",
   "duration_seconds": 2.5,
   "transcript": "It's a limited clock.",
   "segments": [
@@ -9,21 +9,39 @@
       "start_time": 0.0,
       "end_time": 2.0,
       "text": "It's a limited clock.",
-      "emotion": "sadness",
-      "emotion_confidence": 0.644,
-      "sentiment_score": 0.0022,
-      "pitch_mean": 275.82
+      "emotion": "disgust",
+      "emotion_confidence": 0.486,
+      "emotion_distribution": {
+        "neutral": 0.009459126740694046,
+        "anger": 0.004174378700554371,
+        "disgust": 0.4858683943748474,
+        "fear": 0.3177033066749573,
+        "sadness": 0.18279477953910828
+      },
+      "attention_weights": {
+        "acoustic": 0.868,
+        "text": 0.132
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 284.3
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.0022,
-    "dominant_emotion": "sadness",
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "sadness": 1.0
+      "neutral": 0.0095,
+      "anger": 0.0042,
+      "sadness": 0.1828,
+      "fear": 0.3177,
+      "joy": 0.0,
+      "disgust": 0.4859
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.4,
+    "agent_stress_score": 0.2,
     "speech_rate_wpm": 95.9,
-    "avg_pitch": 275.82
+    "avg_pitch": 275.82,
+    "avg_audio_attn": 0.868,
+    "avg_text_attn": 0.132
   }
 }

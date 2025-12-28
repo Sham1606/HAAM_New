@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-12_agent_01_1423",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T19:51:34.833243",
+  "timestamp": "2025-12-28T17:45:59.054775",
   "duration_seconds": 2.67,
   "transcript": "The surface is slick.",
   "segments": [
@@ -9,21 +9,39 @@
       "start_time": 0.0,
       "end_time": 2.0,
       "text": "The surface is slick.",
-      "emotion": "neutral",
-      "emotion_confidence": 0.32,
-      "sentiment_score": 0.0286,
-      "pitch_mean": 297.11
+      "emotion": "disgust",
+      "emotion_confidence": 0.596,
+      "emotion_distribution": {
+        "neutral": 0.1358712762594223,
+        "anger": 0.15121783316135406,
+        "disgust": 0.5962592363357544,
+        "fear": 0.06651619076728821,
+        "sadness": 0.05013546347618103
+      },
+      "attention_weights": {
+        "acoustic": 0.904,
+        "text": 0.096
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 289.45
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.0286,
-    "dominant_emotion": "neutral",
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "neutral": 1.0
+      "neutral": 0.1359,
+      "anger": 0.1512,
+      "sadness": 0.0501,
+      "fear": 0.0665,
+      "joy": 0.0,
+      "disgust": 0.5963
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.4,
+    "agent_stress_score": 0.2,
     "speech_rate_wpm": 89.91,
-    "avg_pitch": 297.11
+    "avg_pitch": 297.11,
+    "avg_audio_attn": 0.904,
+    "avg_text_attn": 0.096
   }
 }

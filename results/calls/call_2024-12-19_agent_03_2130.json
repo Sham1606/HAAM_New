@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-19_agent_03_2130",
   "agent_id": "agent_03",
-  "timestamp": "2025-12-20T20:18:54.393910",
+  "timestamp": "2025-12-28T18:45:10.747132",
   "duration_seconds": 2.44,
   "transcript": "So, I'm gonna quack.",
   "segments": [
@@ -10,20 +10,38 @@
       "end_time": 2.0,
       "text": "So, I'm gonna quack.",
       "emotion": "sadness",
-      "emotion_confidence": 0.877,
-      "sentiment_score": -0.0258,
-      "pitch_mean": 284.75
+      "emotion_confidence": 0.378,
+      "emotion_distribution": {
+        "neutral": 0.21089047193527222,
+        "anger": 0.004203808028250933,
+        "disgust": 0.37288057804107666,
+        "fear": 0.03405342996120453,
+        "sadness": 0.37797167897224426
+      },
+      "attention_weights": {
+        "acoustic": 0.833,
+        "text": 0.167
+      },
+      "sentiment_score": -0.4,
+      "pitch_mean": 292.91
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": -0.0258,
+    "avg_sentiment": -0.4,
     "dominant_emotion": "sadness",
     "emotion_distribution": {
-      "sadness": 1.0
+      "neutral": 0.2109,
+      "anger": 0.0042,
+      "sadness": 0.378,
+      "fear": 0.0341,
+      "joy": 0.0,
+      "disgust": 0.3729
     },
     "escalation_flag": false,
     "agent_stress_score": 0.4,
     "speech_rate_wpm": 98.53,
-    "avg_pitch": 284.75
+    "avg_pitch": 284.75,
+    "avg_audio_attn": 0.833,
+    "avg_text_attn": 0.167
   }
 }

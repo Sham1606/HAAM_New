@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-13_agent_01_1834",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T20:06:51.939476",
+  "timestamp": "2025-12-28T18:21:10.685228",
   "duration_seconds": 3.2,
   "transcript": "Maybe the morrow will be cowered.",
   "segments": [
@@ -9,21 +9,39 @@
       "start_time": 0.0,
       "end_time": 3.0,
       "text": "Maybe the morrow will be cowered.",
-      "emotion": "fear",
-      "emotion_confidence": 0.331,
-      "sentiment_score": -0.5794,
-      "pitch_mean": 260.72
+      "emotion": "sadness",
+      "emotion_confidence": 0.598,
+      "emotion_distribution": {
+        "neutral": 0.07621751725673676,
+        "anger": 0.006420989986509085,
+        "disgust": 0.2129439115524292,
+        "fear": 0.10675018280744553,
+        "sadness": 0.5976673364639282
+      },
+      "attention_weights": {
+        "acoustic": 0.652,
+        "text": 0.348
+      },
+      "sentiment_score": -0.4,
+      "pitch_mean": 264.11
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": -0.5794,
-    "dominant_emotion": "fear",
+    "avg_sentiment": -0.4,
+    "dominant_emotion": "sadness",
     "emotion_distribution": {
-      "fear": 1.0
+      "neutral": 0.0762,
+      "anger": 0.0064,
+      "sadness": 0.5977,
+      "fear": 0.1068,
+      "joy": 0.0,
+      "disgust": 0.2129
     },
-    "escalation_flag": true,
+    "escalation_flag": false,
     "agent_stress_score": 0.4,
     "speech_rate_wpm": 112.39,
-    "avg_pitch": 260.72
+    "avg_pitch": 260.72,
+    "avg_audio_attn": 0.652,
+    "avg_text_attn": 0.348
   }
 }

@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-12_agent_01_713",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T19:25:55.963975",
+  "timestamp": "2025-12-28T16:39:51.556683",
   "duration_seconds": 3.8,
   "transcript": "Don't move my way to the meeting.",
   "segments": [
@@ -9,21 +9,39 @@
       "start_time": 0.0,
       "end_time": 3.0,
       "text": "Don't move my way to the meeting.",
-      "emotion": "neutral",
-      "emotion_confidence": 0.377,
-      "sentiment_score": -0.3687,
-      "pitch_mean": 256.13
+      "emotion": "anger",
+      "emotion_confidence": 0.761,
+      "emotion_distribution": {
+        "neutral": 0.10912202298641205,
+        "anger": 0.7609810829162598,
+        "disgust": 0.1004558727145195,
+        "fear": 0.0105205737054348,
+        "sadness": 0.018920397385954857
+      },
+      "attention_weights": {
+        "acoustic": 0.257,
+        "text": 0.743
+      },
+      "sentiment_score": -0.6,
+      "pitch_mean": 269.65
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": -0.3687,
-    "dominant_emotion": "neutral",
+    "avg_sentiment": -0.6,
+    "dominant_emotion": "anger",
     "emotion_distribution": {
-      "neutral": 1.0
+      "neutral": 0.1091,
+      "anger": 0.761,
+      "sadness": 0.0189,
+      "fear": 0.0105,
+      "joy": 0.0,
+      "disgust": 0.1005
     },
-    "escalation_flag": false,
+    "escalation_flag": true,
     "agent_stress_score": 0.4,
     "speech_rate_wpm": 110.42,
-    "avg_pitch": 256.13
+    "avg_pitch": 256.13,
+    "avg_audio_attn": 0.257,
+    "avg_text_attn": 0.743
   }
 }

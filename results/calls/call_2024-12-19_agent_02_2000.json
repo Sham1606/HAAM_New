@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-19_agent_02_2000",
   "agent_id": "agent_02",
-  "timestamp": "2025-12-20T20:13:39.614203",
+  "timestamp": "2025-12-28T18:34:59.023783",
   "duration_seconds": 2.37,
   "transcript": "It's the living o'clock.",
   "segments": [
@@ -10,20 +10,38 @@
       "end_time": 2.0,
       "text": "It's the living o'clock.",
       "emotion": "disgust",
-      "emotion_confidence": 0.447,
-      "sentiment_score": 0.0848,
-      "pitch_mean": 328.53
+      "emotion_confidence": 0.691,
+      "emotion_distribution": {
+        "neutral": 0.06434766203165054,
+        "anger": 0.22867552936077118,
+        "disgust": 0.6914154291152954,
+        "fear": 0.013611179776489735,
+        "sadness": 0.0019502498907968402
+      },
+      "attention_weights": {
+        "acoustic": 0.728,
+        "text": 0.272
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 337.96
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.0848,
+    "avg_sentiment": 0.0,
     "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "disgust": 1.0
+      "neutral": 0.0643,
+      "anger": 0.2287,
+      "sadness": 0.002,
+      "fear": 0.0136,
+      "joy": 0.0,
+      "disgust": 0.6914
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.4,
+    "agent_stress_score": 0.2,
     "speech_rate_wpm": 101.31,
-    "avg_pitch": 328.53
+    "avg_pitch": 328.53,
+    "avg_audio_attn": 0.728,
+    "avg_text_attn": 0.272
   }
 }

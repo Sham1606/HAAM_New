@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-17_agent_01_2148",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T20:19:37.468624",
+  "timestamp": "2025-12-28T18:46:35.281612",
   "duration_seconds": 2.84,
   "transcript": "I think I've seen this before.",
   "segments": [
@@ -10,20 +10,38 @@
       "end_time": 2.0,
       "text": "I think I've seen this before.",
       "emotion": "disgust",
-      "emotion_confidence": 0.391,
-      "sentiment_score": 0.0663,
-      "pitch_mean": 301.66
+      "emotion_confidence": 0.616,
+      "emotion_distribution": {
+        "neutral": 0.15800313651561737,
+        "anger": 0.1814018189907074,
+        "disgust": 0.6163846254348755,
+        "fear": 0.0070121632888913155,
+        "sadness": 0.037198346108198166
+      },
+      "attention_weights": {
+        "acoustic": 0.785,
+        "text": 0.215
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 311.41
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.0663,
+    "avg_sentiment": 0.0,
     "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "disgust": 1.0
+      "neutral": 0.158,
+      "anger": 0.1814,
+      "sadness": 0.0372,
+      "fear": 0.007,
+      "joy": 0.0,
+      "disgust": 0.6164
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.4,
+    "agent_stress_score": 0.2,
     "speech_rate_wpm": 126.93,
-    "avg_pitch": 301.66
+    "avg_pitch": 301.66,
+    "avg_audio_attn": 0.785,
+    "avg_text_attn": 0.215
   }
 }

@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-14_agent_01_2155",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T20:19:53.198986",
+  "timestamp": "2025-12-28T18:47:06.028345",
   "duration_seconds": 3.44,
   "transcript": "We'll stop in a couple of minutes.",
   "segments": [
@@ -10,20 +10,38 @@
       "end_time": 3.0,
       "text": "We'll stop in a couple of minutes.",
       "emotion": "anger",
-      "emotion_confidence": 0.649,
-      "sentiment_score": 0.0708,
-      "pitch_mean": 309.1
+      "emotion_confidence": 0.708,
+      "emotion_distribution": {
+        "neutral": 0.24816398322582245,
+        "anger": 0.7075388431549072,
+        "disgust": 0.035901181399822235,
+        "fear": 0.007674532011151314,
+        "sadness": 0.0007213925709947944
+      },
+      "attention_weights": {
+        "acoustic": 0.434,
+        "text": 0.566
+      },
+      "sentiment_score": -0.6,
+      "pitch_mean": 311.42
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.0708,
+    "avg_sentiment": -0.6,
     "dominant_emotion": "anger",
     "emotion_distribution": {
-      "anger": 1.0
+      "neutral": 0.2482,
+      "anger": 0.7075,
+      "sadness": 0.0007,
+      "fear": 0.0077,
+      "joy": 0.0,
+      "disgust": 0.0359
     },
-    "escalation_flag": false,
+    "escalation_flag": true,
     "agent_stress_score": 0.4,
     "speech_rate_wpm": 122.21,
-    "avg_pitch": 309.1
+    "avg_pitch": 309.1,
+    "avg_audio_attn": 0.434,
+    "avg_text_attn": 0.566
   }
 }

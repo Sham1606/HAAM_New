@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-12_agent_01_2203",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T20:21:41.491793",
+  "timestamp": "2025-12-28T18:50:55.731734",
   "duration_seconds": 4.5,
   "transcript": "I think I've seen this before. Okay.",
   "segments": [
@@ -10,29 +10,58 @@
       "end_time": 3.0,
       "text": "I think I've seen this before.",
       "emotion": "disgust",
-      "emotion_confidence": 0.283,
-      "sentiment_score": 0.0663,
-      "pitch_mean": 278.0
+      "emotion_confidence": 0.443,
+      "emotion_distribution": {
+        "neutral": 0.2532636523246765,
+        "anger": 0.03704053908586502,
+        "disgust": 0.44340527057647705,
+        "fear": 0.023137133568525314,
+        "sadness": 0.243153378367424
+      },
+      "attention_weights": {
+        "acoustic": 0.679,
+        "text": 0.321
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 293.1
     },
     {
       "start_time": 3.0,
       "end_time": 4.0,
       "text": "Okay.",
-      "emotion": "disgust",
-      "emotion_confidence": 0.283,
-      "sentiment_score": 0.2809,
-      "pitch_mean": 278.0
+      "emotion": "sadness",
+      "emotion_confidence": 0.48,
+      "emotion_distribution": {
+        "neutral": 0.021788550540804863,
+        "anger": 0.00022967996483203024,
+        "disgust": 0.022930409759283066,
+        "fear": 0.4751955270767212,
+        "sadness": 0.47985586524009705
+      },
+      "attention_weights": {
+        "acoustic": 0.764,
+        "text": 0.236
+      },
+      "sentiment_score": -0.4,
+      "pitch_mean": 224.6
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.1736,
-    "dominant_emotion": "disgust",
+    "avg_sentiment": -0.2,
+    "dominant_emotion": "sadness",
     "emotion_distribution": {
-      "disgust": 1.0
+      "neutral": 0.1375,
+      "anger": 0.0186,
+      "sadness": 0.3615,
+      "fear": 0.2492,
+      "joy": 0.0,
+      "disgust": 0.2332
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.4,
+    "agent_stress_score": 0.2,
     "speech_rate_wpm": 93.24,
-    "avg_pitch": 278.0
+    "avg_pitch": 278.0,
+    "avg_audio_attn": 0.722,
+    "avg_text_attn": 0.278
   }
 }

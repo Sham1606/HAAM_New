@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-12_agent_01_1853",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T20:07:34.261212",
+  "timestamp": "2025-12-28T18:22:42.202183",
   "duration_seconds": 2.44,
   "transcript": "I would like to know a long clock!",
   "segments": [
@@ -9,21 +9,39 @@
       "start_time": 0.0,
       "end_time": 2.0,
       "text": "I would like to know a long clock!",
-      "emotion": "anger",
-      "emotion_confidence": 0.525,
-      "sentiment_score": 0.0952,
-      "pitch_mean": 328.92
+      "emotion": "fear",
+      "emotion_confidence": 0.915,
+      "emotion_distribution": {
+        "neutral": 0.056800004094839096,
+        "anger": 0.023522892966866493,
+        "disgust": 0.002499048598110676,
+        "fear": 0.9152594208717346,
+        "sadness": 0.0019186645513400435
+      },
+      "attention_weights": {
+        "acoustic": 0.744,
+        "text": 0.256
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 346.05
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.0952,
-    "dominant_emotion": "anger",
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "fear",
     "emotion_distribution": {
-      "anger": 1.0
+      "neutral": 0.0568,
+      "anger": 0.0235,
+      "sadness": 0.0019,
+      "fear": 0.9153,
+      "joy": 0.0,
+      "disgust": 0.0025
     },
     "escalation_flag": false,
     "agent_stress_score": 0.7,
     "speech_rate_wpm": 197.06,
-    "avg_pitch": 328.92
+    "avg_pitch": 328.92,
+    "avg_audio_attn": 0.744,
+    "avg_text_attn": 0.256
   }
 }

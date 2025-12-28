@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-14_agent_03_1015",
   "agent_id": "agent_03",
-  "timestamp": "2025-12-20T19:38:35.364551",
+  "timestamp": "2025-12-28T17:05:50.795933",
   "duration_seconds": 2.7,
   "transcript": "It's a lot more crack.",
   "segments": [
@@ -10,20 +10,38 @@
       "end_time": 2.0,
       "text": "It's a lot more crack.",
       "emotion": "sadness",
-      "emotion_confidence": 0.851,
-      "sentiment_score": -0.3573,
-      "pitch_mean": 284.31
+      "emotion_confidence": 0.545,
+      "emotion_distribution": {
+        "neutral": 0.014875990338623524,
+        "anger": 0.0007301151636056602,
+        "disgust": 0.13641324639320374,
+        "fear": 0.3033175766468048,
+        "sadness": 0.5446630716323853
+      },
+      "attention_weights": {
+        "acoustic": 0.903,
+        "text": 0.097
+      },
+      "sentiment_score": -0.4,
+      "pitch_mean": 288.76
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": -0.3573,
+    "avg_sentiment": -0.4,
     "dominant_emotion": "sadness",
     "emotion_distribution": {
-      "sadness": 1.0
+      "neutral": 0.0149,
+      "anger": 0.0007,
+      "sadness": 0.5447,
+      "fear": 0.3033,
+      "joy": 0.0,
+      "disgust": 0.1364
     },
     "escalation_flag": false,
     "agent_stress_score": 0.4,
     "speech_rate_wpm": 111.0,
-    "avg_pitch": 284.31
+    "avg_pitch": 284.31,
+    "avg_audio_attn": 0.903,
+    "avg_text_attn": 0.097
   }
 }

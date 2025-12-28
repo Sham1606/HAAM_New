@@ -1,29 +1,47 @@
 {
   "call_id": "call_2024-12-16_agent_01_847",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T19:30:40.445080",
+  "timestamp": "2025-12-28T16:51:24.660015",
   "duration_seconds": 2.67,
-  "transcript": "love at the clock",
+  "transcript": "It's about the clock.",
   "segments": [
     {
       "start_time": 0.0,
       "end_time": 2.0,
-      "text": "love at the clock",
+      "text": "It's about the clock.",
       "emotion": "sadness",
-      "emotion_confidence": 0.711,
-      "sentiment_score": 0.4832,
-      "pitch_mean": 252.84
+      "emotion_confidence": 0.759,
+      "emotion_distribution": {
+        "neutral": 0.06136268377304077,
+        "anger": 0.0003969115496147424,
+        "disgust": 0.07876669615507126,
+        "fear": 0.10056420415639877,
+        "sadness": 0.7589095234870911
+      },
+      "attention_weights": {
+        "acoustic": 0.796,
+        "text": 0.204
+      },
+      "sentiment_score": -0.4,
+      "pitch_mean": 260.56
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.4832,
+    "avg_sentiment": -0.4,
     "dominant_emotion": "sadness",
     "emotion_distribution": {
-      "sadness": 1.0
+      "neutral": 0.0614,
+      "anger": 0.0004,
+      "sadness": 0.7589,
+      "fear": 0.1006,
+      "joy": 0.0,
+      "disgust": 0.0788
     },
     "escalation_flag": false,
     "agent_stress_score": 0.4,
     "speech_rate_wpm": 89.91,
-    "avg_pitch": 252.84
+    "avg_pitch": 252.84,
+    "avg_audio_attn": 0.796,
+    "avg_text_attn": 0.204
   }
 }

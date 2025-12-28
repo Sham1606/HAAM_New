@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-11_agent_02_982",
   "agent_id": "agent_02",
-  "timestamp": "2025-12-20T19:37:13.166247",
+  "timestamp": "2025-12-28T17:03:09.835294",
   "duration_seconds": 2.1,
   "transcript": "Don't you love me like that?",
   "segments": [
@@ -9,21 +9,39 @@
       "start_time": 0.0,
       "end_time": 2.0,
       "text": "Don't you love me like that?",
-      "emotion": "sadness",
-      "emotion_confidence": 0.487,
-      "sentiment_score": 0.6911,
-      "pitch_mean": 315.04
+      "emotion": "disgust",
+      "emotion_confidence": 0.536,
+      "emotion_distribution": {
+        "neutral": 0.14073728024959564,
+        "anger": 0.028390491381287575,
+        "disgust": 0.5361375212669373,
+        "fear": 0.12370085716247559,
+        "sadness": 0.1710337996482849
+      },
+      "attention_weights": {
+        "acoustic": 0.827,
+        "text": 0.173
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 315.29
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.6911,
-    "dominant_emotion": "sadness",
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "sadness": 1.0
+      "neutral": 0.1407,
+      "anger": 0.0284,
+      "sadness": 0.171,
+      "fear": 0.1237,
+      "joy": 0.0,
+      "disgust": 0.5361
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.7,
+    "agent_stress_score": 0.5,
     "speech_rate_wpm": 171.26,
-    "avg_pitch": 315.04
+    "avg_pitch": 315.04,
+    "avg_audio_attn": 0.827,
+    "avg_text_attn": 0.173
   }
 }

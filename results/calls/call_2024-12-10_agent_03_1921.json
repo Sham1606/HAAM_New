@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-10_agent_03_1921",
   "agent_id": "agent_03",
-  "timestamp": "2025-12-20T20:10:13.837200",
+  "timestamp": "2025-12-28T18:27:45.253926",
   "duration_seconds": 2.3,
   "transcript": "So level of clock.",
   "segments": [
@@ -10,20 +10,38 @@
       "end_time": 2.0,
       "text": "So level of clock.",
       "emotion": "disgust",
-      "emotion_confidence": 0.452,
-      "sentiment_score": -0.0329,
-      "pitch_mean": 316.34
+      "emotion_confidence": 0.816,
+      "emotion_distribution": {
+        "neutral": 0.11333807557821274,
+        "anger": 0.019007228314876556,
+        "disgust": 0.8160571455955505,
+        "fear": 0.0063841198571026325,
+        "sadness": 0.04521351307630539
+      },
+      "attention_weights": {
+        "acoustic": 0.876,
+        "text": 0.124
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 318.72
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": -0.0329,
+    "avg_sentiment": 0.0,
     "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "disgust": 1.0
+      "neutral": 0.1133,
+      "anger": 0.019,
+      "sadness": 0.0452,
+      "fear": 0.0064,
+      "joy": 0.0,
+      "disgust": 0.8161
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.4,
+    "agent_stress_score": 0.2,
     "speech_rate_wpm": 104.24,
-    "avg_pitch": 316.34
+    "avg_pitch": 316.34,
+    "avg_audio_attn": 0.876,
+    "avg_text_attn": 0.124
   }
 }

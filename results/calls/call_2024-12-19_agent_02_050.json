@@ -1,29 +1,47 @@
 {
   "call_id": "call_2024-12-19_agent_02_050",
   "agent_id": "agent_02",
-  "timestamp": "2025-12-20T19:07:13.150043",
+  "timestamp": "2025-12-28T15:15:32.891863",
   "duration_seconds": 2.37,
-  "transcript": "It's a level, FREOTICATM",
+  "transcript": "Esse lever le au c\u0153ur !",
   "segments": [
     {
       "start_time": 0.0,
-      "end_time": 2.4,
-      "text": "It's a level, FREOTICATM",
+      "end_time": 2.02,
+      "text": "Esse lever le au c\u0153ur !",
       "emotion": "anger",
-      "emotion_confidence": 0.639,
-      "sentiment_score": 0.2587,
-      "pitch_mean": 351.19
+      "emotion_confidence": 0.713,
+      "emotion_distribution": {
+        "neutral": 0.1824229657649994,
+        "anger": 0.7134149074554443,
+        "disgust": 0.0014090390177443624,
+        "fear": 0.10173001885414124,
+        "sadness": 0.0010230536572635174
+      },
+      "attention_weights": {
+        "acoustic": 0.226,
+        "text": 0.774
+      },
+      "sentiment_score": -0.6,
+      "pitch_mean": 364.07
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.2587,
+    "avg_sentiment": -0.6,
     "dominant_emotion": "anger",
     "emotion_distribution": {
-      "anger": 1.0
+      "neutral": 0.1824,
+      "anger": 0.7134,
+      "sadness": 0.001,
+      "fear": 0.1017,
+      "joy": 0.0,
+      "disgust": 0.0014
     },
-    "escalation_flag": false,
-    "agent_stress_score": 0.2,
-    "speech_rate_wpm": 101.31,
-    "avg_pitch": 351.19
+    "escalation_flag": true,
+    "agent_stress_score": 0.7,
+    "speech_rate_wpm": 151.96,
+    "avg_pitch": 351.19,
+    "avg_audio_attn": 0.226,
+    "avg_text_attn": 0.774
   }
 }

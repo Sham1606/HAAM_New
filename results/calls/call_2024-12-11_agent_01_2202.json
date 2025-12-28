@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-11_agent_01_2202",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T20:21:38.953625",
+  "timestamp": "2025-12-28T18:50:48.497008",
   "duration_seconds": 4.27,
   "transcript": "I think I had a doctor at the point.",
   "segments": [
@@ -9,21 +9,39 @@
       "start_time": 0.0,
       "end_time": 4.0,
       "text": "I think I had a doctor at the point.",
-      "emotion": "sadness",
-      "emotion_confidence": 0.561,
-      "sentiment_score": 0.0912,
-      "pitch_mean": 275.37
+      "emotion": "disgust",
+      "emotion_confidence": 0.729,
+      "emotion_distribution": {
+        "neutral": 0.04309725761413574,
+        "anger": 0.0013813034165650606,
+        "disgust": 0.729363739490509,
+        "fear": 0.008960245177149773,
+        "sadness": 0.2171974629163742
+      },
+      "attention_weights": {
+        "acoustic": 0.816,
+        "text": 0.184
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 278.0
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.0912,
-    "dominant_emotion": "sadness",
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "sadness": 1.0
+      "neutral": 0.0431,
+      "anger": 0.0014,
+      "sadness": 0.2172,
+      "fear": 0.009,
+      "joy": 0.0,
+      "disgust": 0.7294
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.4,
+    "agent_stress_score": 0.2,
     "speech_rate_wpm": 126.44,
-    "avg_pitch": 275.37
+    "avg_pitch": 275.37,
+    "avg_audio_attn": 0.816,
+    "avg_text_attn": 0.184
   }
 }

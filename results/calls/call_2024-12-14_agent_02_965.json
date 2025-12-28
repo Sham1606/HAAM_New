@@ -1,29 +1,47 @@
 {
   "call_id": "call_2024-12-14_agent_02_965",
   "agent_id": "agent_02",
-  "timestamp": "2025-12-20T19:36:37.894491",
+  "timestamp": "2025-12-28T17:02:06.449710",
   "duration_seconds": 2.04,
-  "transcript": "Das ist sicher wirklich le composivartlos.",
+  "transcript": "der sogenannten Clock.",
   "segments": [
     {
       "start_time": 0.0,
-      "end_time": 4.14,
-      "text": "Das ist sicher wirklich le composivartlos.",
+      "end_time": 1.84,
+      "text": "der sogenannten Clock.",
       "emotion": "sadness",
-      "emotion_confidence": 0.478,
-      "sentiment_score": 0.0802,
-      "pitch_mean": 291.33
+      "emotion_confidence": 0.571,
+      "emotion_distribution": {
+        "neutral": 0.09652597457170486,
+        "anger": 0.0011486976873129606,
+        "disgust": 0.22723375260829926,
+        "fear": 0.10396195948123932,
+        "sadness": 0.571129560470581
+      },
+      "attention_weights": {
+        "acoustic": 0.707,
+        "text": 0.293
+      },
+      "sentiment_score": -0.4,
+      "pitch_mean": 291.2
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.0802,
+    "avg_sentiment": -0.4,
     "dominant_emotion": "sadness",
     "emotion_distribution": {
-      "sadness": 1.0
+      "neutral": 0.0965,
+      "anger": 0.0011,
+      "sadness": 0.5711,
+      "fear": 0.104,
+      "joy": 0.0,
+      "disgust": 0.2272
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.5,
-    "speech_rate_wpm": 176.87,
-    "avg_pitch": 291.33
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 88.44,
+    "avg_pitch": 291.33,
+    "avg_audio_attn": 0.707,
+    "avg_text_attn": 0.293
   }
 }

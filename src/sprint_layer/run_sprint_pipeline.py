@@ -1,5 +1,6 @@
 
 import os
+import sys
 import json
 import argparse
 import logging
@@ -126,26 +127,23 @@ class SprintPipeline:
              return "neutral", 0.0, 0.5
 
         try:
-            # We use predict_array which handles everything (Whisper internal is skipped if we pass text)
-            # Actually, predict_array currently RE-TRANSCRIBES. 
-            # To be efficient, we might want a version that takes text.
-            # But for simplicity and consistency, let's just use the robust predict_array.
-            
             res = self.inference_engine.predict_array(y_segment, sr=sr)
             
-            # Note: predict_array returns confidence, transcript, etc.
-            # SprintPipeline expects: emotion, sentiment_score, confidence
-            
-            # We'll use a placeholder sentiment score as predict_array focuses on emotion
+            # SprintPipeline expects: emotion, sentiment_score, confidence, metadata
             sentiment_score = 0.0 
             if res['predicted_emotion'] == 'anger': sentiment_score = -0.6
             elif res['predicted_emotion'] == 'sadness': sentiment_score = -0.4
             
-            return res['predicted_emotion'], sentiment_score, res['confidence']
+            metadata = {
+                "emotion_distribution": res.get('emotion_distribution', {}),
+                "attention_weights": res.get('fusion_weights', {})
+            }
+            
+            return res['predicted_emotion'], sentiment_score, res['confidence'], metadata
             
         except Exception as e:
             logger.warning(f"Segment analysis failed: {e}")
-            return "neutral", 0.0, 0.5
+            return "neutral", 0.0, 0.5, {}
 
     def load_audio_robust(self, audio_path, target_sr=16000):
         """
@@ -208,6 +206,10 @@ class SprintPipeline:
         emotion_counts = {}
         total_sentiment = 0.0
         
+        # Track modality weights for overall metrics
+        total_audio_attn = 0.0
+        total_text_attn = 0.0
+        
         # Word count for speech rate
         word_count = len(full_transcript.split())
         speech_rate_wps = word_count / acoustic_features['duration_seconds'] if acoustic_features['duration_seconds'] > 0 else 0
@@ -229,11 +231,15 @@ class SprintPipeline:
                 y_seg = y[start_sample:end_sample]
             
             # Analyze with HYBRID approach (text + acoustics)
-            emotion, sentiment, confidence = self.analyze_text_segment(text, y_seg, sr)
+            # v2 returns metadata dict with distribution and weights
+            emotion, sentiment, confidence, metadata = self.analyze_text_segment(text, y_seg, sr)
             
             # Track emotion distribution
             emotion_counts[emotion] = emotion_counts.get(emotion, 0) + 1
             total_sentiment += sentiment
+            
+            total_audio_attn += metadata.get('attention_weights', {}).get('acoustic', 0.5)
+            total_text_attn += metadata.get('attention_weights', {}).get('text', 0.5)
             
             # Extract segment-level pitch for metrics
             seg_pitch = acoustic_features['pitch_mean']  # Default to overall
@@ -249,6 +255,8 @@ class SprintPipeline:
                 "text": text,
                 "emotion": emotion,
                 "emotion_confidence": round(confidence, 3),
+                "emotion_distribution": metadata.get('emotion_distribution', {}),
+                "attention_weights": metadata.get('attention_weights', {}),
                 "sentiment_score": round(sentiment, 4),
                 "pitch_mean": round(seg_pitch, 2)
             })
@@ -257,10 +265,30 @@ class SprintPipeline:
         num_segments = len(processed_segments)
         avg_sentiment = total_sentiment / num_segments if num_segments > 0 else 0.0
         
-        # Emotion distribution
-        total_emotions = sum(emotion_counts.values())
-        emotion_dist = {k: round(v / total_emotions, 3) for k, v in emotion_counts.items()} if total_emotions > 0 else {}
-        dominant_emotion = max(emotion_counts, key=emotion_counts.get) if emotion_counts else "neutral"
+        # Soft Probability Aggregation
+        overall_dist = {}
+        if processed_segments:
+            # Initialize with 0s
+            for emo in ['neutral', 'anger', 'sadness', 'fear', 'joy', 'disgust']:
+                overall_dist[emo] = 0.0
+            
+            # Sum up probabilities
+            valid_segs = 0
+            for seg in processed_segments:
+                dist = seg.get('emotion_distribution', {})
+                if dist:
+                    valid_segs += 1
+                    for emo, prob in dist.items():
+                        overall_dist[emo] = overall_dist.get(emo, 0.0) + prob
+            
+            # Average
+            if valid_segs > 0:
+                overall_dist = {k: round(v / valid_segs, 3) for k, v in overall_dist.items()}
+            else:
+                overall_dist = {}
+
+        dominant_emotion = max(overall_dist, key=overall_dist.get) if overall_dist else "neutral"
+        emotion_dist = overall_dist
 
         # Logic for flags
         escalation_flag = False
@@ -284,7 +312,9 @@ class SprintPipeline:
             "escalation_flag": escalation_flag,
             "agent_stress_score": round(agent_stress_score, 2),
             "speech_rate_wpm": round(speech_rate_wps * 60, 2),
-            "avg_pitch": round(acoustic_features['pitch_mean'], 2)
+            "avg_pitch": round(acoustic_features['pitch_mean'], 2),
+            "avg_audio_attn": round(total_audio_attn / num_segments, 3) if num_segments > 0 else 0.5,
+            "avg_text_attn": round(total_text_attn / num_segments, 3) if num_segments > 0 else 0.5
         }
 
         # 5. Construct Output

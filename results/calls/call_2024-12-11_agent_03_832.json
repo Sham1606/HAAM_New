@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-11_agent_03_832",
   "agent_id": "agent_03",
-  "timestamp": "2025-12-20T19:30:06.367985",
+  "timestamp": "2025-12-28T16:50:21.068181",
   "duration_seconds": 2.5,
   "transcript": "That's what I'm going to come on.",
   "segments": [
@@ -10,20 +10,38 @@
       "end_time": 2.0,
       "text": "That's what I'm going to come on.",
       "emotion": "sadness",
-      "emotion_confidence": 0.681,
-      "sentiment_score": 0.1763,
-      "pitch_mean": 260.88
+      "emotion_confidence": 0.773,
+      "emotion_distribution": {
+        "neutral": 0.04079234600067139,
+        "anger": 0.0010932068107649684,
+        "disgust": 0.0892586037516594,
+        "fear": 0.09540439397096634,
+        "sadness": 0.7734515070915222
+      },
+      "attention_weights": {
+        "acoustic": 0.732,
+        "text": 0.268
+      },
+      "sentiment_score": -0.4,
+      "pitch_mean": 265.36
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.1763,
+    "avg_sentiment": -0.4,
     "dominant_emotion": "sadness",
     "emotion_distribution": {
-      "sadness": 1.0
+      "neutral": 0.0408,
+      "anger": 0.0011,
+      "sadness": 0.7735,
+      "fear": 0.0954,
+      "joy": 0.0,
+      "disgust": 0.0893
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.5,
+    "agent_stress_score": 0.7,
     "speech_rate_wpm": 167.83,
-    "avg_pitch": 260.88
+    "avg_pitch": 260.88,
+    "avg_audio_attn": 0.732,
+    "avg_text_attn": 0.268
   }
 }

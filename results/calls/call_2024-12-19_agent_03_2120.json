@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-19_agent_03_2120",
   "agent_id": "agent_03",
-  "timestamp": "2025-12-20T20:18:32.074591",
+  "timestamp": "2025-12-28T18:44:30.215690",
   "duration_seconds": 2.3,
   "transcript": "It's a little clock.",
   "segments": [
@@ -9,21 +9,39 @@
       "start_time": 0.0,
       "end_time": 2.0,
       "text": "It's a little clock.",
-      "emotion": "fear",
-      "emotion_confidence": 0.34,
-      "sentiment_score": 0.0619,
-      "pitch_mean": 301.8
+      "emotion": "disgust",
+      "emotion_confidence": 0.678,
+      "emotion_distribution": {
+        "neutral": 0.16261708736419678,
+        "anger": 0.01370905339717865,
+        "disgust": 0.6784833669662476,
+        "fear": 0.016746429726481438,
+        "sadness": 0.12844404578208923
+      },
+      "attention_weights": {
+        "acoustic": 0.917,
+        "text": 0.083
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 305.6
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.0619,
-    "dominant_emotion": "fear",
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "fear": 1.0
+      "neutral": 0.1626,
+      "anger": 0.0137,
+      "sadness": 0.1284,
+      "fear": 0.0167,
+      "joy": 0.0,
+      "disgust": 0.6785
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.4,
+    "agent_stress_score": 0.2,
     "speech_rate_wpm": 104.24,
-    "avg_pitch": 301.8
+    "avg_pitch": 301.8,
+    "avg_audio_attn": 0.917,
+    "avg_text_attn": 0.083
   }
 }

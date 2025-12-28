@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-16_agent_01_287",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T19:14:12.135088",
+  "timestamp": "2025-12-28T15:33:56.212588",
   "duration_seconds": 2.94,
   "transcript": "I think I have a doctor's appointment.",
   "segments": [
@@ -9,21 +9,39 @@
       "start_time": 0.0,
       "end_time": 2.0,
       "text": "I think I have a doctor's appointment.",
-      "emotion": "anger",
-      "emotion_confidence": 0.415,
-      "sentiment_score": 0.1036,
-      "pitch_mean": 305.81
+      "emotion": "disgust",
+      "emotion_confidence": 0.705,
+      "emotion_distribution": {
+        "neutral": 0.2083657681941986,
+        "anger": 0.07346253097057343,
+        "disgust": 0.7051545977592468,
+        "fear": 0.010300113819539547,
+        "sadness": 0.002717055147513747
+      },
+      "attention_weights": {
+        "acoustic": 0.784,
+        "text": 0.216
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 310.63
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.1036,
-    "dominant_emotion": "anger",
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "anger": 1.0
+      "neutral": 0.2084,
+      "anger": 0.0735,
+      "sadness": 0.0027,
+      "fear": 0.0103,
+      "joy": 0.0,
+      "disgust": 0.7052
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.4,
+    "agent_stress_score": 0.2,
     "speech_rate_wpm": 143.04,
-    "avg_pitch": 305.81
+    "avg_pitch": 305.81,
+    "avg_audio_attn": 0.784,
+    "avg_text_attn": 0.216
   }
 }

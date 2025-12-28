@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-10_agent_03_2041",
   "agent_id": "agent_03",
-  "timestamp": "2025-12-20T20:15:19.018510",
+  "timestamp": "2025-12-28T18:38:44.604685",
   "duration_seconds": 2.64,
   "transcript": "It's a love and a croc.",
   "segments": [
@@ -10,20 +10,38 @@
       "end_time": 2.0,
       "text": "It's a love and a croc.",
       "emotion": "disgust",
-      "emotion_confidence": 0.479,
-      "sentiment_score": 0.3547,
-      "pitch_mean": 309.9
+      "emotion_confidence": 0.806,
+      "emotion_distribution": {
+        "neutral": 0.10906652361154556,
+        "anger": 0.02313479594886303,
+        "disgust": 0.8062083125114441,
+        "fear": 0.002939200960099697,
+        "sadness": 0.058651264756917953
+      },
+      "attention_weights": {
+        "acoustic": 0.839,
+        "text": 0.161
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 313.3
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.3547,
+    "avg_sentiment": 0.0,
     "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "disgust": 1.0
+      "neutral": 0.1091,
+      "anger": 0.0231,
+      "sadness": 0.0587,
+      "fear": 0.0029,
+      "joy": 0.0,
+      "disgust": 0.8062
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.4,
+    "agent_stress_score": 0.2,
     "speech_rate_wpm": 136.57,
-    "avg_pitch": 309.9
+    "avg_pitch": 309.9,
+    "avg_audio_attn": 0.839,
+    "avg_text_attn": 0.161
   }
 }

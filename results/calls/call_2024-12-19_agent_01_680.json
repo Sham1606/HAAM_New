@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-19_agent_01_680",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T19:25:04.746714",
+  "timestamp": "2025-12-28T16:36:56.060005",
   "duration_seconds": 2.24,
   "transcript": "I'm on my way to the meat",
   "segments": [
@@ -9,21 +9,39 @@
       "start_time": 0.0,
       "end_time": 2.0,
       "text": "I'm on my way to the meat",
-      "emotion": "joy",
-      "emotion_confidence": 0.411,
-      "sentiment_score": 0.303,
-      "pitch_mean": 295.82
+      "emotion": "disgust",
+      "emotion_confidence": 0.487,
+      "emotion_distribution": {
+        "neutral": 0.4499584138393402,
+        "anger": 0.03725201264023781,
+        "disgust": 0.48723477125167847,
+        "fear": 0.019737882539629936,
+        "sadness": 0.0058168675750494
+      },
+      "attention_weights": {
+        "acoustic": 0.927,
+        "text": 0.073
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 293.75
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.303,
-    "dominant_emotion": "joy",
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "joy": 1.0
+      "neutral": 0.45,
+      "anger": 0.0373,
+      "sadness": 0.0058,
+      "fear": 0.0197,
+      "joy": 0.0,
+      "disgust": 0.4872
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.7,
+    "agent_stress_score": 0.5,
     "speech_rate_wpm": 187.87,
-    "avg_pitch": 295.82
+    "avg_pitch": 295.82,
+    "avg_audio_attn": 0.927,
+    "avg_text_attn": 0.073
   }
 }

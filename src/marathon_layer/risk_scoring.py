@@ -183,6 +183,26 @@ def run_scoring(input_csv, output_csv, model_path=None):
     # Summary stats
     logger.info(f"Risk Level Counts:\n{res_df['risk_level'].value_counts()}")
 
+def score_all_agents(input_csv, model_path=None):
+    """
+    Interface for CREMA-D pipeline. Calculates risk for all agents and returns a DataFrame.
+    """
+    if not os.path.exists(input_csv):
+        logger.error(f"Input file not found: {input_csv}")
+        return pd.DataFrame()
+        
+    df = pd.read_csv(input_csv)
+    ml_model = load_ml_model(model_path) if model_path else None
+    
+    results = []
+    for agent_id, group in df.groupby('agent_id'):
+        group = group.sort_values('date')
+        profile = calculate_agent_risk(group, ml_model)
+        if profile:
+            results.append(profile)
+            
+    return pd.DataFrame(results)
+
 def main():
     parser = argparse.ArgumentParser(description="Marathon Layer Risk Scoring Engine")
     parser.add_argument("--input", default="results/marathon/agent_features.csv")

@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-17_agent_03_2118",
   "agent_id": "agent_03",
-  "timestamp": "2025-12-20T20:18:27.678522",
+  "timestamp": "2025-12-28T18:44:23.747122",
   "duration_seconds": 2.27,
   "transcript": "It's a little like a rock.",
   "segments": [
@@ -10,20 +10,38 @@
       "end_time": 2.0,
       "text": "It's a little like a rock.",
       "emotion": "disgust",
-      "emotion_confidence": 0.445,
-      "sentiment_score": -0.1276,
-      "pitch_mean": 308.79
+      "emotion_confidence": 0.748,
+      "emotion_distribution": {
+        "neutral": 0.0907626673579216,
+        "anger": 0.017663879320025444,
+        "disgust": 0.7484932541847229,
+        "fear": 0.01147408876568079,
+        "sadness": 0.13160602748394012
+      },
+      "attention_weights": {
+        "acoustic": 0.868,
+        "text": 0.132
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 309.47
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": -0.1276,
+    "avg_sentiment": 0.0,
     "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "disgust": 1.0
+      "neutral": 0.0908,
+      "anger": 0.0177,
+      "sadness": 0.1316,
+      "fear": 0.0115,
+      "joy": 0.0,
+      "disgust": 0.7485
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.7,
+    "agent_stress_score": 0.5,
     "speech_rate_wpm": 158.66,
-    "avg_pitch": 308.79
+    "avg_pitch": 308.79,
+    "avg_audio_attn": 0.868,
+    "avg_text_attn": 0.132
   }
 }

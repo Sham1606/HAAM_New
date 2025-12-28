@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-12_agent_03_1923",
   "agent_id": "agent_03",
-  "timestamp": "2025-12-20T20:10:18.270727",
+  "timestamp": "2025-12-28T18:27:54.294504",
   "duration_seconds": 2.57,
   "transcript": "It's the heaven of the clock.",
   "segments": [
@@ -10,20 +10,38 @@
       "end_time": 2.0,
       "text": "It's the heaven of the clock.",
       "emotion": "disgust",
-      "emotion_confidence": 0.515,
-      "sentiment_score": 0.6999,
-      "pitch_mean": 302.91
+      "emotion_confidence": 0.447,
+      "emotion_distribution": {
+        "neutral": 0.17960157990455627,
+        "anger": 0.015550061129033566,
+        "disgust": 0.44658443331718445,
+        "fear": 0.34551236033439636,
+        "sadness": 0.01275154110044241
+      },
+      "attention_weights": {
+        "acoustic": 0.966,
+        "text": 0.034
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 302.78
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.6999,
+    "avg_sentiment": 0.0,
     "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "disgust": 1.0
+      "neutral": 0.1796,
+      "anger": 0.0156,
+      "sadness": 0.0128,
+      "fear": 0.3455,
+      "joy": 0.0,
+      "disgust": 0.4466
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.4,
+    "agent_stress_score": 0.2,
     "speech_rate_wpm": 140.12,
-    "avg_pitch": 302.91
+    "avg_pitch": 302.91,
+    "avg_audio_attn": 0.966,
+    "avg_text_attn": 0.034
   }
 }

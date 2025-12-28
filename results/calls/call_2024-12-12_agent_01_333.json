@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-12_agent_01_333",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T19:15:37.964750",
+  "timestamp": "2025-12-28T15:37:27.780887",
   "duration_seconds": 2.24,
   "transcript": "I would like a new alarm",
   "segments": [
@@ -10,20 +10,38 @@
       "end_time": 2.0,
       "text": "I would like a new alarm",
       "emotion": "anger",
-      "emotion_confidence": 0.684,
-      "sentiment_score": 0.162,
-      "pitch_mean": 301.93
+      "emotion_confidence": 0.856,
+      "emotion_distribution": {
+        "neutral": 0.02945011854171753,
+        "anger": 0.8558879494667053,
+        "disgust": 0.008909999392926693,
+        "fear": 0.10252049565315247,
+        "sadness": 0.003231607610359788
+      },
+      "attention_weights": {
+        "acoustic": 0.303,
+        "text": 0.697
+      },
+      "sentiment_score": -0.6,
+      "pitch_mean": 292.52
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.162,
+    "avg_sentiment": -0.6,
     "dominant_emotion": "anger",
     "emotion_distribution": {
-      "anger": 1.0
+      "neutral": 0.0295,
+      "anger": 0.8559,
+      "sadness": 0.0032,
+      "fear": 0.1025,
+      "joy": 0.0,
+      "disgust": 0.0089
     },
-    "escalation_flag": false,
+    "escalation_flag": true,
     "agent_stress_score": 0.7,
     "speech_rate_wpm": 161.03,
-    "avg_pitch": 301.93
+    "avg_pitch": 301.93,
+    "avg_audio_attn": 0.303,
+    "avg_text_attn": 0.697
   }
 }

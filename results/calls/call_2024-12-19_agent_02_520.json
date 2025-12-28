@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-19_agent_02_520",
   "agent_id": "agent_02",
-  "timestamp": "2025-12-20T19:20:36.261007",
+  "timestamp": "2025-12-28T15:49:11.895398",
   "duration_seconds": 2.28,
   "transcript": "Until 11 o'clock.",
   "segments": [
@@ -10,20 +10,38 @@
       "end_time": 2.0,
       "text": "Until 11 o'clock.",
       "emotion": "disgust",
-      "emotion_confidence": 0.415,
-      "sentiment_score": 0.0678,
-      "pitch_mean": 321.2
+      "emotion_confidence": 0.732,
+      "emotion_distribution": {
+        "neutral": 0.07068634033203125,
+        "anger": 0.174648255109787,
+        "disgust": 0.7320268750190735,
+        "fear": 0.013651886023581028,
+        "sadness": 0.008986554108560085
+      },
+      "attention_weights": {
+        "acoustic": 0.723,
+        "text": 0.277
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 321.4
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.0678,
+    "avg_sentiment": 0.0,
     "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "disgust": 1.0
+      "neutral": 0.0707,
+      "anger": 0.1746,
+      "sadness": 0.009,
+      "fear": 0.0137,
+      "joy": 0.0,
+      "disgust": 0.732
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.4,
+    "agent_stress_score": 0.2,
     "speech_rate_wpm": 79.1,
-    "avg_pitch": 321.2
+    "avg_pitch": 321.2,
+    "avg_audio_attn": 0.723,
+    "avg_text_attn": 0.277
   }
 }

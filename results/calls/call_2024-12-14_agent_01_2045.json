@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-14_agent_01_2045",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T20:15:28.513362",
+  "timestamp": "2025-12-28T18:39:06.797474",
   "duration_seconds": 2.0,
   "transcript": "It's a lot of mccluck.",
   "segments": [
@@ -10,20 +10,38 @@
       "end_time": 2.0,
       "text": "It's a lot of mccluck.",
       "emotion": "disgust",
-      "emotion_confidence": 0.552,
-      "sentiment_score": -0.4594,
+      "emotion_confidence": 0.656,
+      "emotion_distribution": {
+        "neutral": 0.19340547919273376,
+        "anger": 0.03185524791479111,
+        "disgust": 0.6555553078651428,
+        "fear": 0.006249368656426668,
+        "sadness": 0.11293469369411469
+      },
+      "attention_weights": {
+        "acoustic": 0.783,
+        "text": 0.217
+      },
+      "sentiment_score": 0.0,
       "pitch_mean": 303.12
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": -0.4594,
+    "avg_sentiment": 0.0,
     "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "disgust": 1.0
+      "neutral": 0.1934,
+      "anger": 0.0319,
+      "sadness": 0.1129,
+      "fear": 0.0062,
+      "joy": 0.0,
+      "disgust": 0.6556
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.4,
+    "agent_stress_score": 0.2,
     "speech_rate_wpm": 149.85,
-    "avg_pitch": 303.12
+    "avg_pitch": 303.12,
+    "avg_audio_attn": 0.783,
+    "avg_text_attn": 0.217
   }
 }

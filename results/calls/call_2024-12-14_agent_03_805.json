@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-14_agent_03_805",
   "agent_id": "agent_03",
-  "timestamp": "2025-12-20T19:29:05.464809",
+  "timestamp": "2025-12-28T16:47:54.320249",
   "duration_seconds": 2.04,
   "transcript": "I love my car.",
   "segments": [
@@ -10,20 +10,38 @@
       "end_time": 2.0,
       "text": "I love my car.",
       "emotion": "sadness",
-      "emotion_confidence": 0.754,
-      "sentiment_score": 0.9679,
-      "pitch_mean": 305.26
+      "emotion_confidence": 0.625,
+      "emotion_distribution": {
+        "neutral": 0.07230660319328308,
+        "anger": 0.00033502536825835705,
+        "disgust": 0.2106000930070877,
+        "fear": 0.09194070845842361,
+        "sadness": 0.6248175501823425
+      },
+      "attention_weights": {
+        "acoustic": 0.871,
+        "text": 0.129
+      },
+      "sentiment_score": -0.4,
+      "pitch_mean": 305.1
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.9679,
+    "avg_sentiment": -0.4,
     "dominant_emotion": "sadness",
     "emotion_distribution": {
-      "sadness": 1.0
+      "neutral": 0.0723,
+      "anger": 0.0003,
+      "sadness": 0.6248,
+      "fear": 0.0919,
+      "joy": 0.0,
+      "disgust": 0.2106
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.2,
+    "agent_stress_score": 0.4,
     "speech_rate_wpm": 117.91,
-    "avg_pitch": 305.26
+    "avg_pitch": 305.26,
+    "avg_audio_attn": 0.871,
+    "avg_text_attn": 0.129
   }
 }

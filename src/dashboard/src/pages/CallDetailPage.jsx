@@ -50,6 +50,9 @@ const CallDetailPage = () => {
     const predictions = metrics.top_3_predictions || [];
     const fusion = callData.fusion_weights || metrics.fusion_weights || null;
 
+    // derived confidence
+    const displayConfidence = metrics.confidence || (predictions.length > 0 ? predictions[0][1] : 0);
+
     return (
         <div className="space-y-6">
             <div className="flex items-center justify-between">
@@ -89,13 +92,13 @@ const CallDetailPage = () => {
                         <div className="mb-4">
                             <div className="flex justify-between text-sm mb-1">
                                 <span className="font-semibold text-gray-700">Confidence</span>
-                                <span>{Math.round((metrics.confidence || 0) * 100)}%</span>
+                                <span>{Math.round(displayConfidence * 100)}%</span>
                             </div>
                             <div className="confidence-bar">
                                 <div className="bar-container">
                                     <div
                                         className="bar-fill"
-                                        style={{ width: `${(metrics.confidence || 0) * 100}%` }}
+                                        style={{ width: `${displayConfidence * 100}%` }}
                                     ></div>
                                 </div>
                             </div>

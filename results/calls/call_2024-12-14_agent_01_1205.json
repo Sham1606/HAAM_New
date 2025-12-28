@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-14_agent_01_1205",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T19:44:42.179722",
+  "timestamp": "2025-12-28T17:24:40.272912",
   "duration_seconds": 2.67,
   "transcript": "I would like a new alarm clock.",
   "segments": [
@@ -9,21 +9,39 @@
       "start_time": 0.0,
       "end_time": 2.0,
       "text": "I would like a new alarm clock.",
-      "emotion": "neutral",
-      "emotion_confidence": 0.413,
-      "sentiment_score": 0.1384,
-      "pitch_mean": 313.98
+      "emotion": "disgust",
+      "emotion_confidence": 0.425,
+      "emotion_distribution": {
+        "neutral": 0.4082239270210266,
+        "anger": 0.06931115686893463,
+        "disgust": 0.4253794550895691,
+        "fear": 0.03893570601940155,
+        "sadness": 0.05814977362751961
+      },
+      "attention_weights": {
+        "acoustic": 0.758,
+        "text": 0.242
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 331.88
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.1384,
-    "dominant_emotion": "neutral",
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "neutral": 1.0
+      "neutral": 0.4082,
+      "anger": 0.0693,
+      "sadness": 0.0581,
+      "fear": 0.0389,
+      "joy": 0.0,
+      "disgust": 0.4254
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.7,
+    "agent_stress_score": 0.5,
     "speech_rate_wpm": 157.34,
-    "avg_pitch": 313.98
+    "avg_pitch": 313.98,
+    "avg_audio_attn": 0.758,
+    "avg_text_attn": 0.242
   }
 }

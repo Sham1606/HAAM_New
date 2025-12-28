@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-12_agent_03_1663",
   "agent_id": "agent_03",
-  "timestamp": "2025-12-20T19:59:44.722870",
+  "timestamp": "2025-12-28T18:09:17.756815",
   "duration_seconds": 2.54,
   "transcript": "It's the live in a clock.",
   "segments": [
@@ -10,20 +10,38 @@
       "end_time": 2.0,
       "text": "It's the live in a clock.",
       "emotion": "sadness",
-      "emotion_confidence": 0.542,
-      "sentiment_score": 0.0147,
-      "pitch_mean": 265.8
+      "emotion_confidence": 0.729,
+      "emotion_distribution": {
+        "neutral": 0.03066481277346611,
+        "anger": 0.00026928208535537124,
+        "disgust": 0.12281695753335953,
+        "fear": 0.11710653454065323,
+        "sadness": 0.7291423678398132
+      },
+      "attention_weights": {
+        "acoustic": 0.861,
+        "text": 0.139
+      },
+      "sentiment_score": -0.4,
+      "pitch_mean": 267.43
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.0147,
+    "avg_sentiment": -0.4,
     "dominant_emotion": "sadness",
     "emotion_distribution": {
-      "sadness": 1.0
+      "neutral": 0.0307,
+      "anger": 0.0003,
+      "sadness": 0.7291,
+      "fear": 0.1171,
+      "joy": 0.0,
+      "disgust": 0.1228
     },
     "escalation_flag": false,
     "agent_stress_score": 0.4,
     "speech_rate_wpm": 141.96,
-    "avg_pitch": 265.8
+    "avg_pitch": 265.8,
+    "avg_audio_attn": 0.861,
+    "avg_text_attn": 0.139
   }
 }

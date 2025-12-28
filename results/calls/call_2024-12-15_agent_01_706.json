@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-15_agent_01_706",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T19:25:44.999952",
+  "timestamp": "2025-12-28T16:39:17.049921",
   "duration_seconds": 2.8,
   "transcript": "I wonder what this is about?",
   "segments": [
@@ -9,21 +9,39 @@
       "start_time": 0.0,
       "end_time": 2.0,
       "text": "I wonder what this is about?",
-      "emotion": "joy",
-      "emotion_confidence": 0.454,
-      "sentiment_score": -0.0511,
-      "pitch_mean": 290.5
+      "emotion": "fear",
+      "emotion_confidence": 0.753,
+      "emotion_distribution": {
+        "neutral": 0.22553670406341553,
+        "anger": 0.016173146665096283,
+        "disgust": 0.004398076329380274,
+        "fear": 0.7525847554206848,
+        "sadness": 0.0013072899309918284
+      },
+      "attention_weights": {
+        "acoustic": 0.845,
+        "text": 0.155
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 308.67
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": -0.0511,
-    "dominant_emotion": "joy",
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "fear",
     "emotion_distribution": {
-      "joy": 1.0
+      "neutral": 0.2255,
+      "anger": 0.0162,
+      "sadness": 0.0013,
+      "fear": 0.7526,
+      "joy": 0.0,
+      "disgust": 0.0044
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.2,
+    "agent_stress_score": 0.4,
     "speech_rate_wpm": 128.44,
-    "avg_pitch": 290.5
+    "avg_pitch": 290.5,
+    "avg_audio_attn": 0.845,
+    "avg_text_attn": 0.155
   }
 }

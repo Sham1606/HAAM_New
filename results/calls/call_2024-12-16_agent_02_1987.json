@@ -1,29 +1,47 @@
 {
   "call_id": "call_2024-12-16_agent_02_1987",
   "agent_id": "agent_02",
-  "timestamp": "2025-12-20T20:13:08.944964",
+  "timestamp": "2025-12-28T18:33:44.898969",
   "duration_seconds": 2.0,
-  "transcript": "It's a lemon of shores.",
+  "transcript": "Its 11 o'clock",
   "segments": [
     {
       "start_time": 0.0,
-      "end_time": 2.06,
-      "text": "It's a lemon of shores.",
-      "emotion": "joy",
-      "emotion_confidence": 0.389,
-      "sentiment_score": -0.0451,
+      "end_time": 2.0,
+      "text": "Its 11 o'clock",
+      "emotion": "disgust",
+      "emotion_confidence": 0.474,
+      "emotion_distribution": {
+        "neutral": 0.10378222167491913,
+        "anger": 0.41186225414276123,
+        "disgust": 0.47370436787605286,
+        "fear": 0.005120959132909775,
+        "sadness": 0.005530211143195629
+      },
+      "attention_weights": {
+        "acoustic": 0.599,
+        "text": 0.401
+      },
+      "sentiment_score": 0.0,
       "pitch_mean": 330.04
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": -0.0451,
-    "dominant_emotion": "joy",
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "joy": 1.0
+      "neutral": 0.1038,
+      "anger": 0.4119,
+      "sadness": 0.0055,
+      "fear": 0.0051,
+      "joy": 0.0,
+      "disgust": 0.4737
     },
     "escalation_flag": false,
     "agent_stress_score": 0.2,
-    "speech_rate_wpm": 149.85,
-    "avg_pitch": 330.04
+    "speech_rate_wpm": 89.91,
+    "avg_pitch": 330.04,
+    "avg_audio_attn": 0.599,
+    "avg_text_attn": 0.401
   }
 }

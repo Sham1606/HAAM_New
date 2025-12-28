@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-16_agent_01_1837",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T20:06:58.369263",
+  "timestamp": "2025-12-28T18:21:24.770397",
   "duration_seconds": 2.8,
   "transcript": "The surface is like...",
   "segments": [
@@ -9,21 +9,39 @@
       "start_time": 0.0,
       "end_time": 2.0,
       "text": "The surface is like...",
-      "emotion": "fear",
-      "emotion_confidence": 0.5,
-      "sentiment_score": 0.001,
-      "pitch_mean": 255.17
+      "emotion": "sadness",
+      "emotion_confidence": 0.629,
+      "emotion_distribution": {
+        "neutral": 0.06882397830486298,
+        "anger": 0.00025571987498551607,
+        "disgust": 0.1554497331380844,
+        "fear": 0.14688296616077423,
+        "sadness": 0.628587543964386
+      },
+      "attention_weights": {
+        "acoustic": 0.833,
+        "text": 0.167
+      },
+      "sentiment_score": -0.4,
+      "pitch_mean": 261.74
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.001,
-    "dominant_emotion": "fear",
+    "avg_sentiment": -0.4,
+    "dominant_emotion": "sadness",
     "emotion_distribution": {
-      "fear": 1.0
+      "neutral": 0.0688,
+      "anger": 0.0003,
+      "sadness": 0.6286,
+      "fear": 0.1469,
+      "joy": 0.0,
+      "disgust": 0.1554
     },
     "escalation_flag": false,
     "agent_stress_score": 0.4,
     "speech_rate_wpm": 85.63,
-    "avg_pitch": 255.17
+    "avg_pitch": 255.17,
+    "avg_audio_attn": 0.833,
+    "avg_text_attn": 0.167
   }
 }

@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-16_agent_01_1767",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T20:03:48.914833",
+  "timestamp": "2025-12-28T18:16:04.229702",
   "duration_seconds": 2.2,
   "transcript": "I want you what this is about.",
   "segments": [
@@ -9,21 +9,39 @@
       "start_time": 0.0,
       "end_time": 2.0,
       "text": "I want you what this is about.",
-      "emotion": "disgust",
-      "emotion_confidence": 0.313,
-      "sentiment_score": 0.1428,
-      "pitch_mean": 300.54
+      "emotion": "anger",
+      "emotion_confidence": 0.5,
+      "emotion_distribution": {
+        "neutral": 0.14295433461666107,
+        "anger": 0.49965715408325195,
+        "disgust": 0.07894391566514969,
+        "fear": 0.2769598662853241,
+        "sadness": 0.001484690117649734
+      },
+      "attention_weights": {
+        "acoustic": 0.767,
+        "text": 0.233
+      },
+      "sentiment_score": -0.6,
+      "pitch_mean": 306.27
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.1428,
-    "dominant_emotion": "disgust",
+    "avg_sentiment": -0.6,
+    "dominant_emotion": "anger",
     "emotion_distribution": {
-      "disgust": 1.0
+      "neutral": 0.143,
+      "anger": 0.4997,
+      "sadness": 0.0015,
+      "fear": 0.277,
+      "joy": 0.0,
+      "disgust": 0.0789
     },
-    "escalation_flag": false,
+    "escalation_flag": true,
     "agent_stress_score": 0.7,
     "speech_rate_wpm": 190.72,
-    "avg_pitch": 300.54
+    "avg_pitch": 300.54,
+    "avg_audio_attn": 0.767,
+    "avg_text_attn": 0.233
   }
 }

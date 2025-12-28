@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-18_agent_01_1969",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T20:12:21.265497",
+  "timestamp": "2025-12-28T18:32:00.241818",
   "duration_seconds": 2.24,
   "transcript": "It's still in a clock.",
   "segments": [
@@ -9,21 +9,39 @@
       "start_time": 0.0,
       "end_time": 2.0,
       "text": "It's still in a clock.",
-      "emotion": "disgust",
-      "emotion_confidence": 0.406,
-      "sentiment_score": -0.0343,
-      "pitch_mean": 299.59
+      "emotion": "neutral",
+      "emotion_confidence": 0.471,
+      "emotion_distribution": {
+        "neutral": 0.47108936309814453,
+        "anger": 0.08507773280143738,
+        "disgust": 0.4073386490345001,
+        "fear": 0.03068717196583748,
+        "sadness": 0.005806994624435902
+      },
+      "attention_weights": {
+        "acoustic": 0.893,
+        "text": 0.107
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 298.56
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": -0.0343,
-    "dominant_emotion": "disgust",
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "neutral",
     "emotion_distribution": {
-      "disgust": 1.0
+      "neutral": 0.4711,
+      "anger": 0.0851,
+      "sadness": 0.0058,
+      "fear": 0.0307,
+      "joy": 0.0,
+      "disgust": 0.4073
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.4,
+    "agent_stress_score": 0.2,
     "speech_rate_wpm": 134.19,
-    "avg_pitch": 299.59
+    "avg_pitch": 299.59,
+    "avg_audio_attn": 0.893,
+    "avg_text_attn": 0.107
   }
 }

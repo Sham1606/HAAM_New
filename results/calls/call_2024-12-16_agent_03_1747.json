@@ -1,29 +1,47 @@
 {
   "call_id": "call_2024-12-16_agent_03_1747",
   "agent_id": "agent_03",
-  "timestamp": "2025-12-20T20:03:01.344899",
+  "timestamp": "2025-12-28T19:27:06.097834",
   "duration_seconds": 2.0,
-  "transcript": "to live in a quark.",
+  "transcript": "It's a loving clock.",
   "segments": [
     {
       "start_time": 0.0,
       "end_time": 2.0,
-      "text": "to live in a quark.",
+      "text": "It's a loving clock.",
       "emotion": "fear",
-      "emotion_confidence": 0.483,
-      "sentiment_score": -0.0942,
+      "emotion_confidence": 0.526,
+      "emotion_distribution": {
+        "neutral": 0.1047884002327919,
+        "anger": 0.0034864700865000486,
+        "disgust": 0.1099109873175621,
+        "fear": 0.5260249972343445,
+        "sadness": 0.2557891607284546
+      },
+      "attention_weights": {
+        "acoustic": 0.481,
+        "text": 0.519
+      },
+      "sentiment_score": 0.0,
       "pitch_mean": 293.79
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": -0.0942,
+    "avg_sentiment": 0.0,
     "dominant_emotion": "fear",
     "emotion_distribution": {
-      "fear": 1.0
+      "neutral": 0.1048,
+      "anger": 0.0035,
+      "sadness": 0.2558,
+      "fear": 0.526,
+      "joy": 0.0,
+      "disgust": 0.1099
     },
     "escalation_flag": false,
     "agent_stress_score": 0.4,
-    "speech_rate_wpm": 149.85,
-    "avg_pitch": 293.79
+    "speech_rate_wpm": 119.88,
+    "avg_pitch": 293.79,
+    "avg_audio_attn": 0.481,
+    "avg_text_attn": 0.519
   }
 }

@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-19_agent_02_800",
   "agent_id": "agent_02",
-  "timestamp": "2025-12-20T19:28:55.702971",
+  "timestamp": "2025-12-28T16:47:34.185167",
   "duration_seconds": 2.3,
   "transcript": "It's what I'm gonna clap.",
   "segments": [
@@ -10,20 +10,38 @@
       "end_time": 2.0,
       "text": "It's what I'm gonna clap.",
       "emotion": "sadness",
-      "emotion_confidence": 0.72,
-      "sentiment_score": 0.8112,
-      "pitch_mean": 313.03
+      "emotion_confidence": 0.521,
+      "emotion_distribution": {
+        "neutral": 0.016353989019989967,
+        "anger": 0.00024098648282233626,
+        "disgust": 0.08614867925643921,
+        "fear": 0.3760993778705597,
+        "sadness": 0.5211569666862488
+      },
+      "attention_weights": {
+        "acoustic": 0.872,
+        "text": 0.128
+      },
+      "sentiment_score": -0.4,
+      "pitch_mean": 312.1
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.8112,
+    "avg_sentiment": -0.4,
     "dominant_emotion": "sadness",
     "emotion_distribution": {
-      "sadness": 1.0
+      "neutral": 0.0164,
+      "anger": 0.0002,
+      "sadness": 0.5212,
+      "fear": 0.3761,
+      "joy": 0.0,
+      "disgust": 0.0861
     },
     "escalation_flag": false,
     "agent_stress_score": 0.4,
     "speech_rate_wpm": 130.3,
-    "avg_pitch": 313.03
+    "avg_pitch": 313.03,
+    "avg_audio_attn": 0.872,
+    "avg_text_attn": 0.128
   }
 }

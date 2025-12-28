@@ -3,6 +3,7 @@ import os
 import sys
 import json
 import csv
+import argparse
 import pandas as pd
 import time
 from tqdm import tqdm
@@ -18,8 +19,8 @@ import random
 # Configuration
 GROUND_TRUTH_FILE = r"D:\haam_framework\data\cremad_ground_truth.csv"
 RESULTS_DIR = r"D:\haam_framework\results\calls"
-AGG_CSV = r"D:\haam_framework\results\aggregated_features.csv"
-RISK_CSV = r"D:\haam_framework\results\risk_scores.csv"
+AGG_CSV = r"D:\haam_framework\results\marathon\agent_features.csv"
+RISK_CSV = r"D:\haam_framework\results\marathon\agent_risk_profiles.csv"
 REPORT_FILE = r"D:\haam_framework\cremad_validation_report.json"
 PREDICTIONS_CSV = r"D:\haam_framework\results\validation\cremad_predictions.csv"
 ERROR_LOG = r"D:\haam_framework\results\validation\processing_errors.log"
@@ -75,6 +76,10 @@ def generate_mock_result(call_id, agent_id, expected_emotion):
     }
 
 def main():
+    parser = argparse.ArgumentParser(description="Run CREMA-D Pipeline Validation")
+    parser.add_argument("--limit", type=int, default=None, help="Limit number of calls to process")
+    args_cli = parser.parse_args()
+
     print(f"Loading ground truth from {GROUND_TRUTH_FILE}...")
     if not os.path.exists(GROUND_TRUTH_FILE):
         print("Ground truth file not found. Please run prepare_cremad_data.py first.")
@@ -86,6 +91,9 @@ def main():
         calls = list(reader)
         
     print(f"Loaded {len(calls)} calls.")
+    if args_cli.limit:
+        calls = calls[:args_cli.limit]
+        print(f"Limited to first {len(calls)} calls for quick run.")
 
     print("Loading Sprint Layer models...")
     try:
@@ -116,15 +124,43 @@ def main():
     if ENABLE_CHECKPOINT and os.path.exists(checkpoint_file):
         try:
             with open(checkpoint_file, 'r') as f:
-                results = json.load(f)
+                checkpoint_data = json.load(f)
+            
+            enriched_results = []
+            for r in checkpoint_data:
+                cid = r['call_id']
+                json_path = os.path.join(RESULTS_DIR, f"{cid}.json")
+                
+                # Support legacy keys
+                exp = r.get('ground_truth_emotion', r.get('expected_emotion'))
+                det = r.get('predicted_emotion', r.get('detected_emotion', r.get('predicted_emotion')))
+                
+                # Enrich from JSON if possible to populate confidence/attn for downstream v2 scripts
+                if os.path.exists(json_path):
+                    try:
+                        with open(json_path, 'r') as jf:
+                            call_res = json.load(jf)
+                            metrics = call_res.get('overall_metrics', {})
+                            enriched_results.append({
+                                'call_id': cid,
+                                'ground_truth_emotion': exp,
+                                'predicted_emotion': det,
+                                'confidence_score': metrics.get('confidence', 0.8),
+                                'audio_attention': metrics.get('avg_audio_attn', 0.5),
+                                'text_attention': metrics.get('avg_text_attn', 0.5),
+                                'sentiment_pred': metrics.get('avg_sentiment', 0.0),
+                                'processing_time_ms': r.get('processing_time_ms', 0)
+                            })
+                    except:
+                        enriched_results.append(r)
+                else:
+                    r['ground_truth_emotion'] = exp
+                    r['predicted_emotion'] = det
+                    enriched_results.append(r)
+            
+            results = enriched_results
             processed_ids = {r['call_id'] for r in results}
             print(f"Resuming from checkpoint: {len(results)} calls already processed.")
-            # Update metrics from checkpoint
-            for res in results:
-                expected = res.get('expected_emotion') # Need to ensure we have this. 
-                # Actually, results in JSON usually don't store 'expected_emotion' unless we put it there.
-                # However, we can re-calculate metrics at end.
-                # Just keeping processed_ids is enough to skip.
         except Exception as e:
             print(f"Error loading checkpoint: {e}")
 
@@ -228,8 +264,10 @@ def main():
     
     print("\nRecalculating metrics from all results...")
     for res in results:
-        exp = res['ground_truth_emotion']
-        det = res['predicted_emotion']
+        exp = res.get('ground_truth_emotion', res.get('expected_emotion'))
+        det = res.get('predicted_emotion', res.get('detected_emotion'))
+        
+        if not exp: continue
         
         if exp not in by_emotion:
             by_emotion[exp] = {'total': 0, 'correct': 0}

@@ -1,29 +1,47 @@
 {
   "call_id": "call_2024-12-10_agent_01_751",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T19:27:07.505565",
+  "timestamp": "2025-12-28T16:43:24.316270",
   "duration_seconds": 2.54,
-  "transcript": "\u0622\u062e\u0631\u0643\u0646 \u0647\u0648\u0627 \u0648 \u0647\u0630\u0627 \u03b6 Anyways",
+  "transcript": "\u0646\u0644\u0641 minimize",
   "segments": [
     {
       "start_time": 0.0,
-      "end_time": 2.2,
-      "text": "\u0622\u062e\u0631\u0643\u0646 \u0647\u0648\u0627 \u0648 \u0647\u0630\u0627 \u03b6 Anyways",
+      "end_time": 1.22,
+      "text": "\u0646\u0644\u0641 minimize",
       "emotion": "sadness",
-      "emotion_confidence": 0.699,
-      "sentiment_score": -0.026,
-      "pitch_mean": 265.75
+      "emotion_confidence": 0.696,
+      "emotion_distribution": {
+        "neutral": 0.16544926166534424,
+        "anger": 0.0002694348222576082,
+        "disgust": 0.04938965290784836,
+        "fear": 0.08847054094076157,
+        "sadness": 0.6964210867881775
+      },
+      "attention_weights": {
+        "acoustic": 0.762,
+        "text": 0.238
+      },
+      "sentiment_score": -0.4,
+      "pitch_mean": 260.22
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": -0.026,
+    "avg_sentiment": -0.4,
     "dominant_emotion": "sadness",
     "emotion_distribution": {
-      "sadness": 1.0
+      "neutral": 0.1654,
+      "anger": 0.0003,
+      "sadness": 0.6964,
+      "fear": 0.0885,
+      "joy": 0.0,
+      "disgust": 0.0494
     },
     "escalation_flag": false,
     "agent_stress_score": 0.4,
-    "speech_rate_wpm": 141.96,
-    "avg_pitch": 265.75
+    "speech_rate_wpm": 47.32,
+    "avg_pitch": 265.75,
+    "avg_audio_attn": 0.762,
+    "avg_text_attn": 0.238
   }
 }

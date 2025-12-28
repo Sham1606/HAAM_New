@@ -1,29 +1,47 @@
 {
   "call_id": "call_2024-12-14_agent_01_1685",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T20:00:38.422639",
+  "timestamp": "2025-12-28T19:25:51.047544",
   "duration_seconds": 1.9,
-  "transcript": "So that woman is talking",
+  "transcript": "It's loud enough, fuck.",
   "segments": [
     {
       "start_time": 0.0,
-      "end_time": 2.28,
-      "text": "So that woman is talking",
-      "emotion": "neutral",
-      "emotion_confidence": 0.354,
-      "sentiment_score": -0.2225,
-      "pitch_mean": 291.5
+      "end_time": 1.62,
+      "text": "It's loud enough, fuck.",
+      "emotion": "fear",
+      "emotion_confidence": 0.427,
+      "emotion_distribution": {
+        "neutral": 0.3193318843841553,
+        "anger": 0.09835167974233627,
+        "disgust": 0.14972862601280212,
+        "fear": 0.4267038106918335,
+        "sadness": 0.005883984733372927
+      },
+      "attention_weights": {
+        "acoustic": 0.457,
+        "text": 0.543
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 294.79
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": -0.2225,
-    "dominant_emotion": "neutral",
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "fear",
     "emotion_distribution": {
-      "neutral": 1.0
+      "neutral": 0.3193,
+      "anger": 0.0984,
+      "sadness": 0.0059,
+      "fear": 0.4267,
+      "joy": 0.0,
+      "disgust": 0.1497
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.5,
-    "speech_rate_wpm": 157.74,
-    "avg_pitch": 291.5
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 126.19,
+    "avg_pitch": 291.5,
+    "avg_audio_attn": 0.457,
+    "avg_text_attn": 0.543
   }
 }

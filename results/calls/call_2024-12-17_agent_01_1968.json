@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-17_agent_01_1968",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T20:12:18.495743",
+  "timestamp": "2025-12-28T18:31:54.533682",
   "duration_seconds": 2.3,
   "transcript": "It's a love at a clock.",
   "segments": [
@@ -10,20 +10,38 @@
       "end_time": 2.0,
       "text": "It's a love at a clock.",
       "emotion": "sadness",
-      "emotion_confidence": 0.33,
-      "sentiment_score": 0.3252,
-      "pitch_mean": 286.92
+      "emotion_confidence": 0.372,
+      "emotion_distribution": {
+        "neutral": 0.17130225896835327,
+        "anger": 0.00807387288659811,
+        "disgust": 0.3627098798751831,
+        "fear": 0.08568141609430313,
+        "sadness": 0.3722326159477234
+      },
+      "attention_weights": {
+        "acoustic": 0.8,
+        "text": 0.2
+      },
+      "sentiment_score": -0.4,
+      "pitch_mean": 290.6
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.3252,
+    "avg_sentiment": -0.4,
     "dominant_emotion": "sadness",
     "emotion_distribution": {
-      "sadness": 1.0
+      "neutral": 0.1713,
+      "anger": 0.0081,
+      "sadness": 0.3722,
+      "fear": 0.0857,
+      "joy": 0.0,
+      "disgust": 0.3627
     },
     "escalation_flag": false,
     "agent_stress_score": 0.7,
     "speech_rate_wpm": 156.36,
-    "avg_pitch": 286.92
+    "avg_pitch": 286.92,
+    "avg_audio_attn": 0.8,
+    "avg_text_attn": 0.2
   }
 }

@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-11_agent_01_942",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T19:35:27.705384",
+  "timestamp": "2025-12-28T17:00:14.676252",
   "duration_seconds": 2.34,
   "transcript": "It's so lovely and dark.",
   "segments": [
@@ -9,21 +9,39 @@
       "start_time": 0.0,
       "end_time": 2.0,
       "text": "It's so lovely and dark.",
-      "emotion": "sadness",
-      "emotion_confidence": 0.418,
-      "sentiment_score": 0.9518,
-      "pitch_mean": 280.51
+      "emotion": "disgust",
+      "emotion_confidence": 0.539,
+      "emotion_distribution": {
+        "neutral": 0.10331135988235474,
+        "anger": 0.013474417850375175,
+        "disgust": 0.5386052131652832,
+        "fear": 0.04990484565496445,
+        "sadness": 0.2947041690349579
+      },
+      "attention_weights": {
+        "acoustic": 0.62,
+        "text": 0.38
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 286.6
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.9518,
-    "dominant_emotion": "sadness",
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "sadness": 1.0
+      "neutral": 0.1033,
+      "anger": 0.0135,
+      "sadness": 0.2947,
+      "fear": 0.0499,
+      "joy": 0.0,
+      "disgust": 0.5386
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.4,
+    "agent_stress_score": 0.2,
     "speech_rate_wpm": 128.44,
-    "avg_pitch": 280.51
+    "avg_pitch": 280.51,
+    "avg_audio_attn": 0.62,
+    "avg_text_attn": 0.38
   }
 }

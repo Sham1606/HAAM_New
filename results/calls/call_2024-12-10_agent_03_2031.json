@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-10_agent_03_2031",
   "agent_id": "agent_03",
-  "timestamp": "2025-12-20T20:14:48.343425",
+  "timestamp": "2025-12-28T18:37:27.001843",
   "duration_seconds": 2.74,
   "transcript": "It's a letter to clock.",
   "segments": [
@@ -10,20 +10,38 @@
       "end_time": 2.0,
       "text": "It's a letter to clock.",
       "emotion": "disgust",
-      "emotion_confidence": 0.387,
-      "sentiment_score": 0.0104,
-      "pitch_mean": 304.8
+      "emotion_confidence": 0.455,
+      "emotion_distribution": {
+        "neutral": 0.13223004341125488,
+        "anger": 0.38985350728034973,
+        "disgust": 0.4548085033893585,
+        "fear": 0.0094404062256217,
+        "sadness": 0.013667422346770763
+      },
+      "attention_weights": {
+        "acoustic": 0.904,
+        "text": 0.096
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 301.12
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.0104,
+    "avg_sentiment": 0.0,
     "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "disgust": 1.0
+      "neutral": 0.1322,
+      "anger": 0.3899,
+      "sadness": 0.0137,
+      "fear": 0.0094,
+      "joy": 0.0,
+      "disgust": 0.4548
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.4,
+    "agent_stress_score": 0.2,
     "speech_rate_wpm": 109.65,
-    "avg_pitch": 304.8
+    "avg_pitch": 304.8,
+    "avg_audio_attn": 0.904,
+    "avg_text_attn": 0.096
   }
 }

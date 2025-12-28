@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-18_agent_02_1629",
   "agent_id": "agent_02",
-  "timestamp": "2025-12-20T19:58:31.509625",
+  "timestamp": "2025-12-28T18:06:29.243069",
   "duration_seconds": 2.07,
   "transcript": "Is er 11 op klak?",
   "segments": [
@@ -9,21 +9,39 @@
       "start_time": 0.0,
       "end_time": 2.0,
       "text": "Is er 11 op klak?",
-      "emotion": "fear",
-      "emotion_confidence": 0.38,
-      "sentiment_score": 0.0195,
-      "pitch_mean": 342.29
+      "emotion": "anger",
+      "emotion_confidence": 0.706,
+      "emotion_distribution": {
+        "neutral": 0.22188419103622437,
+        "anger": 0.7064828276634216,
+        "disgust": 0.03946457803249359,
+        "fear": 0.031607918441295624,
+        "sadness": 0.0005604809848591685
+      },
+      "attention_weights": {
+        "acoustic": 0.413,
+        "text": 0.587
+      },
+      "sentiment_score": -0.6,
+      "pitch_mean": 344.75
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.0195,
-    "dominant_emotion": "fear",
+    "avg_sentiment": -0.6,
+    "dominant_emotion": "anger",
     "emotion_distribution": {
-      "fear": 1.0
+      "neutral": 0.2219,
+      "anger": 0.7065,
+      "sadness": 0.0006,
+      "fear": 0.0316,
+      "joy": 0.0,
+      "disgust": 0.0395
     },
     "escalation_flag": true,
     "agent_stress_score": 0.4,
     "speech_rate_wpm": 145.02,
-    "avg_pitch": 342.29
+    "avg_pitch": 342.29,
+    "avg_audio_attn": 0.413,
+    "avg_text_attn": 0.587
   }
 }

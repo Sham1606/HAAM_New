@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-13_agent_01_864",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T19:31:22.873220",
+  "timestamp": "2025-12-28T16:52:49.535272",
   "duration_seconds": 2.64,
   "transcript": "It's a little bit of clock.",
   "segments": [
@@ -9,21 +9,39 @@
       "start_time": 0.0,
       "end_time": 2.0,
       "text": "It's a little bit of clock.",
-      "emotion": "sadness",
-      "emotion_confidence": 0.485,
-      "sentiment_score": 0.0251,
-      "pitch_mean": 283.33
+      "emotion": "disgust",
+      "emotion_confidence": 0.662,
+      "emotion_distribution": {
+        "neutral": 0.26855483651161194,
+        "anger": 0.008040914312005043,
+        "disgust": 0.6615512371063232,
+        "fear": 0.015188193880021572,
+        "sadness": 0.04666484519839287
+      },
+      "attention_weights": {
+        "acoustic": 0.926,
+        "text": 0.074
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 284.69
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.0251,
-    "dominant_emotion": "sadness",
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "sadness": 1.0
+      "neutral": 0.2686,
+      "anger": 0.008,
+      "sadness": 0.0467,
+      "fear": 0.0152,
+      "joy": 0.0,
+      "disgust": 0.6616
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.4,
+    "agent_stress_score": 0.2,
     "speech_rate_wpm": 136.57,
-    "avg_pitch": 283.33
+    "avg_pitch": 283.33,
+    "avg_audio_attn": 0.926,
+    "avg_text_attn": 0.074
   }
 }

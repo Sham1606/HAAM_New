@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-10_agent_01_361",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T19:16:24.108110",
+  "timestamp": "2025-12-28T15:39:32.026150",
   "duration_seconds": 2.04,
   "transcript": "Don't forget a jacket!",
   "segments": [
@@ -9,21 +9,39 @@
       "start_time": 0.0,
       "end_time": 2.0,
       "text": "Don't forget a jacket!",
-      "emotion": "anger",
-      "emotion_confidence": 0.548,
-      "sentiment_score": 0.7075,
-      "pitch_mean": 340.56
+      "emotion": "fear",
+      "emotion_confidence": 0.943,
+      "emotion_distribution": {
+        "neutral": 0.020551934838294983,
+        "anger": 0.03066532500088215,
+        "disgust": 0.004279127344489098,
+        "fear": 0.9430466294288635,
+        "sadness": 0.0014569420600309968
+      },
+      "attention_weights": {
+        "acoustic": 0.7,
+        "text": 0.3
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 343.2
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.7075,
-    "dominant_emotion": "anger",
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "fear",
     "emotion_distribution": {
-      "anger": 1.0
+      "neutral": 0.0206,
+      "anger": 0.0307,
+      "sadness": 0.0015,
+      "fear": 0.943,
+      "joy": 0.0,
+      "disgust": 0.0043
     },
-    "escalation_flag": true,
+    "escalation_flag": false,
     "agent_stress_score": 0.4,
     "speech_rate_wpm": 117.91,
-    "avg_pitch": 340.56
+    "avg_pitch": 340.56,
+    "avg_audio_attn": 0.7,
+    "avg_text_attn": 0.3
   }
 }

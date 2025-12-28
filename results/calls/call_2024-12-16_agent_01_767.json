@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-16_agent_01_767",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T19:27:48.128139",
+  "timestamp": "2025-12-28T16:45:04.308060",
   "duration_seconds": 3.04,
   "transcript": "It's a lot of knock-off.",
   "segments": [
@@ -10,20 +10,38 @@
       "end_time": 3.0,
       "text": "It's a lot of knock-off.",
       "emotion": "sadness",
-      "emotion_confidence": 0.702,
-      "sentiment_score": -0.0365,
-      "pitch_mean": 286.95
+      "emotion_confidence": 0.723,
+      "emotion_distribution": {
+        "neutral": 0.040475305169820786,
+        "anger": 0.0011133612133562565,
+        "disgust": 0.09371538460254669,
+        "fear": 0.141779825091362,
+        "sadness": 0.7229161858558655
+      },
+      "attention_weights": {
+        "acoustic": 0.808,
+        "text": 0.192
+      },
+      "sentiment_score": -0.4,
+      "pitch_mean": 287.63
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": -0.0365,
+    "avg_sentiment": -0.4,
     "dominant_emotion": "sadness",
     "emotion_distribution": {
-      "sadness": 1.0
+      "neutral": 0.0405,
+      "anger": 0.0011,
+      "sadness": 0.7229,
+      "fear": 0.1418,
+      "joy": 0.0,
+      "disgust": 0.0937
     },
     "escalation_flag": false,
     "agent_stress_score": 0.4,
     "speech_rate_wpm": 98.8,
-    "avg_pitch": 286.95
+    "avg_pitch": 286.95,
+    "avg_audio_attn": 0.808,
+    "avg_text_attn": 0.192
   }
 }

@@ -1,29 +1,47 @@
 {
   "call_id": "call_2024-12-10_agent_03_1551",
   "agent_id": "agent_03",
-  "timestamp": "2025-12-20T19:55:54.585249",
+  "timestamp": "2025-12-28T17:58:42.266091",
   "duration_seconds": 1.5,
-  "transcript": "Let's see who I'm with Mark.",
+  "transcript": "Let's see what I'm with Mark!",
   "segments": [
     {
       "start_time": 0.0,
-      "end_time": 2.0,
-      "text": "Let's see who I'm with Mark.",
-      "emotion": "anger",
-      "emotion_confidence": 0.357,
-      "sentiment_score": 0.1173,
-      "pitch_mean": 329.26
+      "end_time": 1.28,
+      "text": "Let's see what I'm with Mark!",
+      "emotion": "neutral",
+      "emotion_confidence": 0.662,
+      "emotion_distribution": {
+        "neutral": 0.6615839004516602,
+        "anger": 0.04836490377783775,
+        "disgust": 0.014113700948655605,
+        "fear": 0.274608850479126,
+        "sadness": 0.0013286301400512457
+      },
+      "attention_weights": {
+        "acoustic": 0.752,
+        "text": 0.248
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 337.09
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.1173,
-    "dominant_emotion": "anger",
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "neutral",
     "emotion_distribution": {
-      "anger": 1.0
+      "neutral": 0.6616,
+      "anger": 0.0484,
+      "sadness": 0.0013,
+      "fear": 0.2746,
+      "joy": 0.0,
+      "disgust": 0.0141
     },
     "escalation_flag": false,
     "agent_stress_score": 0.5,
     "speech_rate_wpm": 239.76,
-    "avg_pitch": 329.26
+    "avg_pitch": 329.26,
+    "avg_audio_attn": 0.752,
+    "avg_text_attn": 0.248
   }
 }

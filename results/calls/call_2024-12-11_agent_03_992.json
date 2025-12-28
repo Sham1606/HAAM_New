@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-11_agent_03_992",
   "agent_id": "agent_03",
-  "timestamp": "2025-12-20T19:37:42.646453",
+  "timestamp": "2025-12-28T17:04:13.177075",
   "duration_seconds": 2.37,
   "transcript": "It's a lot of the clock.",
   "segments": [
@@ -10,20 +10,38 @@
       "end_time": 2.0,
       "text": "It's a lot of the clock.",
       "emotion": "sadness",
-      "emotion_confidence": 0.426,
-      "sentiment_score": -0.0385,
-      "pitch_mean": 310.75
+      "emotion_confidence": 0.493,
+      "emotion_distribution": {
+        "neutral": 0.049176834523677826,
+        "anger": 0.0015124037163332105,
+        "disgust": 0.19266650080680847,
+        "fear": 0.2634653151035309,
+        "sadness": 0.49317896366119385
+      },
+      "attention_weights": {
+        "acoustic": 0.75,
+        "text": 0.25
+      },
+      "sentiment_score": -0.4,
+      "pitch_mean": 311.8
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": -0.0385,
+    "avg_sentiment": -0.4,
     "dominant_emotion": "sadness",
     "emotion_distribution": {
-      "sadness": 1.0
+      "neutral": 0.0492,
+      "anger": 0.0015,
+      "sadness": 0.4932,
+      "fear": 0.2635,
+      "joy": 0.0,
+      "disgust": 0.1927
     },
     "escalation_flag": false,
     "agent_stress_score": 0.7,
     "speech_rate_wpm": 151.96,
-    "avg_pitch": 310.75
+    "avg_pitch": 310.75,
+    "avg_audio_attn": 0.75,
+    "avg_text_attn": 0.25
   }
 }

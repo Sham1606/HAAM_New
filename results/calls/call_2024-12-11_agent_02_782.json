@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-11_agent_02_782",
   "agent_id": "agent_02",
-  "timestamp": "2025-12-20T19:28:16.116831",
+  "timestamp": "2025-12-28T16:46:15.153138",
   "duration_seconds": 2.8,
   "transcript": "It's 11 o'clock.",
   "segments": [
@@ -9,21 +9,39 @@
       "start_time": 0.0,
       "end_time": 2.0,
       "text": "It's 11 o'clock.",
-      "emotion": "sadness",
-      "emotion_confidence": 0.388,
-      "sentiment_score": 0.0865,
-      "pitch_mean": 309.26
+      "emotion": "disgust",
+      "emotion_confidence": 0.552,
+      "emotion_distribution": {
+        "neutral": 0.19432847201824188,
+        "anger": 0.009703638032078743,
+        "disgust": 0.5517867803573608,
+        "fear": 0.014839638955891132,
+        "sadness": 0.22934149205684662
+      },
+      "attention_weights": {
+        "acoustic": 0.758,
+        "text": 0.242
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 307.18
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.0865,
-    "dominant_emotion": "sadness",
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "sadness": 1.0
+      "neutral": 0.1943,
+      "anger": 0.0097,
+      "sadness": 0.2293,
+      "fear": 0.0148,
+      "joy": 0.0,
+      "disgust": 0.5518
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.4,
+    "agent_stress_score": 0.2,
     "speech_rate_wpm": 64.22,
-    "avg_pitch": 309.26
+    "avg_pitch": 309.26,
+    "avg_audio_attn": 0.758,
+    "avg_text_attn": 0.242
   }
 }

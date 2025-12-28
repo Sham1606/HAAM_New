@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-18_agent_03_1759",
   "agent_id": "agent_03",
-  "timestamp": "2025-12-20T20:03:31.116194",
+  "timestamp": "2025-12-28T18:15:30.099050",
   "duration_seconds": 2.7,
   "transcript": "It's a live recording.",
   "segments": [
@@ -10,20 +10,38 @@
       "end_time": 2.0,
       "text": "It's a live recording.",
       "emotion": "fear",
-      "emotion_confidence": 0.38,
-      "sentiment_score": 0.0602,
-      "pitch_mean": 288.71
+      "emotion_confidence": 0.383,
+      "emotion_distribution": {
+        "neutral": 0.012650149874389172,
+        "anger": 0.0029643934685736895,
+        "disgust": 0.3333333730697632,
+        "fear": 0.3830348551273346,
+        "sadness": 0.2680172026157379
+      },
+      "attention_weights": {
+        "acoustic": 0.93,
+        "text": 0.07
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 284.14
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.0602,
+    "avg_sentiment": 0.0,
     "dominant_emotion": "fear",
     "emotion_distribution": {
-      "fear": 1.0
+      "neutral": 0.0127,
+      "anger": 0.003,
+      "sadness": 0.268,
+      "fear": 0.383,
+      "joy": 0.0,
+      "disgust": 0.3333
     },
     "escalation_flag": false,
     "agent_stress_score": 0.4,
     "speech_rate_wpm": 88.8,
-    "avg_pitch": 288.71
+    "avg_pitch": 288.71,
+    "avg_audio_attn": 0.93,
+    "avg_text_attn": 0.07
   }
 }

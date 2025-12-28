@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-14_agent_01_1025",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T19:38:56.745007",
+  "timestamp": "2025-12-28T17:06:38.638104",
   "duration_seconds": 2.8,
   "transcript": "The hairplate is almost full.",
   "segments": [
@@ -9,21 +9,39 @@
       "start_time": 0.0,
       "end_time": 2.0,
       "text": "The hairplate is almost full.",
-      "emotion": "sadness",
-      "emotion_confidence": 0.342,
-      "sentiment_score": 0.1144,
-      "pitch_mean": 305.56
+      "emotion": "disgust",
+      "emotion_confidence": 0.619,
+      "emotion_distribution": {
+        "neutral": 0.05079084262251854,
+        "anger": 0.0019689251203089952,
+        "disgust": 0.6187308430671692,
+        "fear": 0.04574372619390488,
+        "sadness": 0.28276556730270386
+      },
+      "attention_weights": {
+        "acoustic": 0.91,
+        "text": 0.09
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 307.35
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.1144,
-    "dominant_emotion": "sadness",
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "sadness": 1.0
+      "neutral": 0.0508,
+      "anger": 0.002,
+      "sadness": 0.2828,
+      "fear": 0.0457,
+      "joy": 0.0,
+      "disgust": 0.6187
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.4,
+    "agent_stress_score": 0.2,
     "speech_rate_wpm": 107.04,
-    "avg_pitch": 305.56
+    "avg_pitch": 305.56,
+    "avg_audio_attn": 0.91,
+    "avg_text_attn": 0.09
   }
 }

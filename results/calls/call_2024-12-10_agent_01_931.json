@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-10_agent_01_931",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T19:34:44.730850",
+  "timestamp": "2025-12-28T16:59:09.853506",
   "duration_seconds": 2.4,
   "transcript": "So let me have a clock.",
   "segments": [
@@ -9,21 +9,39 @@
       "start_time": 0.0,
       "end_time": 2.0,
       "text": "So let me have a clock.",
-      "emotion": "sadness",
-      "emotion_confidence": 0.787,
-      "sentiment_score": 0.1036,
-      "pitch_mean": 290.61
+      "emotion": "disgust",
+      "emotion_confidence": 0.399,
+      "emotion_distribution": {
+        "neutral": 0.1303538978099823,
+        "anger": 0.0045817214995622635,
+        "disgust": 0.39907509088516235,
+        "fear": 0.06939228624105453,
+        "sadness": 0.3965970277786255
+      },
+      "attention_weights": {
+        "acoustic": 0.795,
+        "text": 0.205
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 293.98
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.1036,
-    "dominant_emotion": "sadness",
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "sadness": 1.0
+      "neutral": 0.1304,
+      "anger": 0.0046,
+      "sadness": 0.3966,
+      "fear": 0.0694,
+      "joy": 0.0,
+      "disgust": 0.3991
     },
     "escalation_flag": false,
     "agent_stress_score": 0.2,
     "speech_rate_wpm": 149.85,
-    "avg_pitch": 290.61
+    "avg_pitch": 290.61,
+    "avg_audio_attn": 0.795,
+    "avg_text_attn": 0.205
   }
 }

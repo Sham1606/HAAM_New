@@ -39,11 +39,6 @@ const AnalyticsPage = () => {
         <div className="space-y-6">
             <div className="flex justify-between items-center">
                 <h1 className="text-2xl font-bold text-gray-900">Analytics Overview</h1>
-                {data?.is_demo && (
-                    <span className="bg-amber-100 text-amber-800 text-xs font-medium px-2.5 py-0.5 rounded border border-amber-200 animate-pulse">
-                        DOCUMENTATION / BASELINE MODE
-                    </span>
-                )}
             </div>
 
             {error && <ErrorToast message={error} onClose={() => setError(null)} />}
@@ -173,12 +168,12 @@ const AnalyticsPage = () => {
 
                             <div className="bg-white p-6 rounded-lg shadow-sm">
                                 <h3 className="text-lg font-bold text-gray-900 mb-4">Call Volume (30 Days)</h3>
-                                <CallVolumeChart />
+                                <CallVolumeChart data={data.volume_trend} />
                             </div>
 
                             <div className="bg-white p-6 rounded-lg shadow-sm lg:col-span-2">
                                 <h3 className="text-lg font-bold text-gray-900 mb-4">Sentiment Trend</h3>
-                                <SentimentTrendChart />
+                                <SentimentTrendChart data={data.sentiment_trend} />
                             </div>
                         </div>
                     </>

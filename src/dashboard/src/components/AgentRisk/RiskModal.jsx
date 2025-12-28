@@ -90,11 +90,19 @@ const RiskModal = ({ agent, onClose }) => {
                         <h3 className="text-lg font-bold text-gray-900 mb-4">30-Day Sentiment Trend</h3>
                         <div className="h-48 w-full">
                             <ResponsiveContainer width="100%" height="100%">
-                                <LineChart data={trendData}>
-                                    <XAxis dataKey="day" hide />
-                                    <YAxis />
+                                <LineChart data={trendData} margin={{ top: 5, right: 20, bottom: 20, left: 10 }}>
+                                    <XAxis
+                                        dataKey="day"
+                                        hide={false}
+                                        tick={{ fontSize: 10 }}
+                                        label={{ value: 'Timeline', position: 'bottom', offset: 0 }}
+                                    />
+                                    <YAxis
+                                        domain={[-1, 1]}
+                                        label={{ value: 'Sentiment', angle: -90, position: 'insideLeft' }}
+                                    />
                                     <Tooltip />
-                                    <Line type="monotone" dataKey="score" stroke="#2563eb" strokeWidth={2} dot={false} />
+                                    <Line type="monotone" dataKey="score" stroke="#2563eb" strokeWidth={2} dot={true} />
                                 </LineChart>
                             </ResponsiveContainer>
                         </div>

@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-10_agent_01_2151",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T20:19:44.427846",
+  "timestamp": "2025-12-28T18:46:49.423596",
   "duration_seconds": 3.64,
   "transcript": "Maybe tomorrow it will be cold.",
   "segments": [
@@ -10,20 +10,38 @@
       "end_time": 3.0,
       "text": "Maybe tomorrow it will be cold.",
       "emotion": "disgust",
-      "emotion_confidence": 0.497,
-      "sentiment_score": -0.264,
-      "pitch_mean": 308.85
+      "emotion_confidence": 0.662,
+      "emotion_distribution": {
+        "neutral": 0.20669680833816528,
+        "anger": 0.07334140688180923,
+        "disgust": 0.6619124412536621,
+        "fear": 0.052290450781583786,
+        "sadness": 0.00575881265103817
+      },
+      "attention_weights": {
+        "acoustic": 0.893,
+        "text": 0.107
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 314.2
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": -0.264,
+    "avg_sentiment": 0.0,
     "dominant_emotion": "disgust",
     "emotion_distribution": {
-      "disgust": 1.0
+      "neutral": 0.2067,
+      "anger": 0.0733,
+      "sadness": 0.0058,
+      "fear": 0.0523,
+      "joy": 0.0,
+      "disgust": 0.6619
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.4,
+    "agent_stress_score": 0.2,
     "speech_rate_wpm": 98.98,
-    "avg_pitch": 308.85
+    "avg_pitch": 308.85,
+    "avg_audio_attn": 0.893,
+    "avg_text_attn": 0.107
   }
 }

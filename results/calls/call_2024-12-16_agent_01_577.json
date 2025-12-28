@@ -1,38 +1,47 @@
 {
   "call_id": "call_2024-12-16_agent_01_577",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T19:22:16.464551",
+  "timestamp": "2025-12-28T19:15:14.245962",
   "duration_seconds": 1.6,
-  "transcript": "amusing stururururururururururururururururur",
+  "transcript": "ketallem\u6a94",
   "segments": [
     {
       "start_time": 0.0,
-      "end_time": 2.92,
-      "text": "amusing",
-      "emotion": "neutral",
-      "emotion_confidence": 0.542,
-      "sentiment_score": -0.5547,
-      "pitch_mean": 298.36
-    },
-    {
-      "start_time": 22.94,
-      "end_time": 29.38,
-      "text": "stururururururururururururururururur",
-      "emotion": "neutral",
-      "emotion_confidence": 0.542,
-      "sentiment_score": -0.1056,
-      "pitch_mean": 298.36
+      "end_time": 1.5,
+      "text": "ketallem\u6a94",
+      "emotion": "fear",
+      "emotion_confidence": 0.414,
+      "emotion_distribution": {
+        "neutral": 0.1386750489473343,
+        "anger": 0.13730651140213013,
+        "disgust": 0.26554906368255615,
+        "fear": 0.413754403591156,
+        "sadness": 0.044714976102113724
+      },
+      "attention_weights": {
+        "acoustic": 0.666,
+        "text": 0.334
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 300.45
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": -0.3302,
-    "dominant_emotion": "neutral",
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "fear",
     "emotion_distribution": {
-      "neutral": 1.0
+      "neutral": 0.1387,
+      "anger": 0.1373,
+      "sadness": 0.0447,
+      "fear": 0.4138,
+      "joy": 0.0,
+      "disgust": 0.2655
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.2,
-    "speech_rate_wpm": 74.92,
-    "avg_pitch": 298.36
+    "agent_stress_score": 0.4,
+    "speech_rate_wpm": 37.46,
+    "avg_pitch": 298.36,
+    "avg_audio_attn": 0.666,
+    "avg_text_attn": 0.334
   }
 }

@@ -1,29 +1,47 @@
 {
   "call_id": "call_2024-12-10_agent_01_941",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T19:35:25.097282",
+  "timestamp": "2025-12-28T19:19:54.769132",
   "duration_seconds": 1.8,
-  "transcript": "Es war immer krank",
+  "transcript": "2-\u5169\u500b klark",
   "segments": [
     {
       "start_time": 0.0,
-      "end_time": 1.56,
-      "text": "Es war immer krank",
+      "end_time": 1.46,
+      "text": "2-\u5169\u500b klark",
       "emotion": "sadness",
-      "emotion_confidence": 0.686,
-      "sentiment_score": -0.1024,
-      "pitch_mean": 277.13
+      "emotion_confidence": 0.49,
+      "emotion_distribution": {
+        "neutral": 0.021650271490216255,
+        "anger": 0.0005108076729811728,
+        "disgust": 0.15454088151454926,
+        "fear": 0.33377256989479065,
+        "sadness": 0.4895254373550415
+      },
+      "attention_weights": {
+        "acoustic": 0.704,
+        "text": 0.296
+      },
+      "sentiment_score": -0.4,
+      "pitch_mean": 288.13
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": -0.1024,
+    "avg_sentiment": -0.4,
     "dominant_emotion": "sadness",
     "emotion_distribution": {
-      "sadness": 1.0
+      "neutral": 0.0217,
+      "anger": 0.0005,
+      "sadness": 0.4895,
+      "fear": 0.3338,
+      "joy": 0.0,
+      "disgust": 0.1545
     },
     "escalation_flag": false,
     "agent_stress_score": 0.4,
-    "speech_rate_wpm": 133.2,
-    "avg_pitch": 277.13
+    "speech_rate_wpm": 66.6,
+    "avg_pitch": 277.13,
+    "avg_audio_attn": 0.704,
+    "avg_text_attn": 0.296
   }
 }

@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-12_agent_01_1513",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T19:54:27.662699",
+  "timestamp": "2025-12-28T17:55:32.833389",
   "duration_seconds": 2.34,
   "transcript": "It's over the clock!",
   "segments": [
@@ -10,20 +10,38 @@
       "end_time": 2.0,
       "text": "It's over the clock!",
       "emotion": "fear",
-      "emotion_confidence": 0.273,
-      "sentiment_score": 0.2815,
-      "pitch_mean": 284.67
+      "emotion_confidence": 0.497,
+      "emotion_distribution": {
+        "neutral": 0.19405484199523926,
+        "anger": 0.2560064196586609,
+        "disgust": 0.052727289497852325,
+        "fear": 0.49679338932037354,
+        "sadness": 0.0004180049290880561
+      },
+      "attention_weights": {
+        "acoustic": 0.932,
+        "text": 0.068
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 288.32
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.2815,
+    "avg_sentiment": 0.0,
     "dominant_emotion": "fear",
     "emotion_distribution": {
-      "fear": 1.0
+      "neutral": 0.1941,
+      "anger": 0.256,
+      "sadness": 0.0004,
+      "fear": 0.4968,
+      "joy": 0.0,
+      "disgust": 0.0527
     },
     "escalation_flag": false,
     "agent_stress_score": 0.4,
     "speech_rate_wpm": 102.75,
-    "avg_pitch": 284.67
+    "avg_pitch": 284.67,
+    "avg_audio_attn": 0.932,
+    "avg_text_attn": 0.068
   }
 }

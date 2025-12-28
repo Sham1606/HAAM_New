@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-11_agent_01_712",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T19:25:54.315758",
+  "timestamp": "2025-12-28T16:39:45.521791",
   "duration_seconds": 2.2,
   "transcript": "Oh, forget to check it!",
   "segments": [
@@ -9,21 +9,39 @@
       "start_time": 0.0,
       "end_time": 2.0,
       "text": "Oh, forget to check it!",
-      "emotion": "neutral",
-      "emotion_confidence": 0.534,
-      "sentiment_score": -0.4049,
-      "pitch_mean": 268.01
+      "emotion": "sadness",
+      "emotion_confidence": 0.505,
+      "emotion_distribution": {
+        "neutral": 0.16514280438423157,
+        "anger": 0.0005629353108815849,
+        "disgust": 0.09308883547782898,
+        "fear": 0.23606738448143005,
+        "sadness": 0.5051379799842834
+      },
+      "attention_weights": {
+        "acoustic": 0.79,
+        "text": 0.21
+      },
+      "sentiment_score": -0.4,
+      "pitch_mean": 269.9
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": -0.4049,
-    "dominant_emotion": "neutral",
+    "avg_sentiment": -0.4,
+    "dominant_emotion": "sadness",
     "emotion_distribution": {
-      "neutral": 1.0
+      "neutral": 0.1651,
+      "anger": 0.0006,
+      "sadness": 0.5051,
+      "fear": 0.2361,
+      "joy": 0.0,
+      "disgust": 0.0931
     },
     "escalation_flag": false,
     "agent_stress_score": 0.4,
     "speech_rate_wpm": 136.23,
-    "avg_pitch": 268.01
+    "avg_pitch": 268.01,
+    "avg_audio_attn": 0.79,
+    "avg_text_attn": 0.21
   }
 }

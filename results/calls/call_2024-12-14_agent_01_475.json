@@ -1,7 +1,7 @@
 {
   "call_id": "call_2024-12-14_agent_01_475",
   "agent_id": "agent_01",
-  "timestamp": "2025-12-20T19:19:26.795345",
+  "timestamp": "2025-12-28T15:46:43.922337",
   "duration_seconds": 2.2,
   "transcript": "It's a lovely clock.",
   "segments": [
@@ -10,20 +10,38 @@
       "end_time": 2.0,
       "text": "It's a lovely clock.",
       "emotion": "neutral",
-      "emotion_confidence": 0.487,
-      "sentiment_score": 0.9512,
-      "pitch_mean": 287.46
+      "emotion_confidence": 0.607,
+      "emotion_distribution": {
+        "neutral": 0.6069681644439697,
+        "anger": 0.0314406082034111,
+        "disgust": 0.3052499294281006,
+        "fear": 0.0454258993268013,
+        "sadness": 0.010915469378232956
+      },
+      "attention_weights": {
+        "acoustic": 0.83,
+        "text": 0.17
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 289.36
     }
   ],
   "overall_metrics": {
-    "avg_sentiment": 0.9512,
+    "avg_sentiment": 0.0,
     "dominant_emotion": "neutral",
     "emotion_distribution": {
-      "neutral": 1.0
+      "neutral": 0.607,
+      "anger": 0.0314,
+      "sadness": 0.0109,
+      "fear": 0.0454,
+      "joy": 0.0,
+      "disgust": 0.3052
     },
     "escalation_flag": false,
-    "agent_stress_score": 0.4,
+    "agent_stress_score": 0.2,
     "speech_rate_wpm": 108.98,
-    "avg_pitch": 287.46
+    "avg_pitch": 287.46,
+    "avg_audio_attn": 0.83,
+    "avg_text_attn": 0.17
   }
 }

@@ -63,8 +63,9 @@ const ExplainabilityView = ({ callId }) => {
                         <h3 className="text-lg font-bold text-blue-900">Automated XAI Insights</h3>
                     </div>
                     <div className="prose prose-blue max-w-none text-blue-800 text-sm whitespace-pre-wrap">
-                        {/* Basic MD rendering or plain text fallback */}
-                        {report.split('## 📊 Critical Insights')[1] || "Full report content available in results/xai_reports."}
+                        {report.includes('## 📊 Critical Insights')
+                            ? report.split('## 📊 Critical Insights')[1]
+                            : report}
                     </div>
                 </div>
             )}

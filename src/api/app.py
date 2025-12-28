@@ -1,8 +1,8 @@
 import sys
 import os
 
-# START HACK: Prevent TensorFlow import due to Numpy 2.0 incompatibility
-sys.modules['tensorflow'] = None
+import warnings
+warnings.filterwarnings("ignore")
 
 # START HACK: Bypass CVE-2025-32434 check in transformers (we trust local models)
 try:
@@ -223,21 +223,6 @@ async def list_calls(
     # Sort by timestamp desc
     results.sort(key=lambda x: str(x['timestamp']), reverse=True)
     
-    if not results and not agent_id:
-        # DEMO MODE FALLBACK
-        demo_calls = []
-        now = datetime.now()
-        for i in range(10):
-            ts = (now - timedelta(hours=i*2)).isoformat()
-            demo_calls.append({
-                "call_id": f"demo_call_{1000+i}",
-                "agent_id": "AGT-1024" if i % 2 == 0 else "AGT-2048",
-                "timestamp": ts,
-                "avg_sentiment": 0.5 - (i * 0.1),
-                "dominant_emotion": ["neutral", "anger", "joy", "sadness", "fear"][i % 5]
-            })
-        return demo_calls
-        
     return results
 
 @app.get("/api/calls/{call_id}", response_model=CallDetailResponse)
@@ -264,34 +249,6 @@ async def get_call_detail(call_id: str):
         fpath = p2
     
     if not fpath:
-        if call_id.startswith("demo_call_"):
-             return {
-                "call_id": call_id,
-                "agent_id": "AGT-1024",
-                "timestamp": datetime.now().isoformat(),
-                "duration_seconds": 124.5,
-                "transcript": "Hello, this is a demo transcript. The customer expressed concern about their billing cycle. The agent handled it calmly and politely.",
-                "segments": [
-                    {
-                        "start_time": 0.0, "end_time": 5.0, 
-                        "text": "Hello, thanks for calling support. How can I help you?", 
-                        "emotion": "neutral", "sentiment_score": 0.2, "pitch_mean": 150.0
-                    },
-                    {
-                        "start_time": 5.0, "end_time": 10.0, 
-                        "text": "I am very frustrated with my bill!", 
-                        "emotion": "anger", "sentiment_score": -0.8, "pitch_mean": 210.0
-                    }
-                ],
-                "overall_metrics": {
-                    "avg_sentiment": -0.3,
-                    "dominant_emotion": "anger",
-                    "emotion_distribution": {"neutral": 0.5, "anger": 0.5},
-                    "escalation_flag": True,
-                    "agent_stress_score": 0.65,
-                    "avg_pitch": 180.0
-                }
-            }
         raise HTTPException(status_code=404, detail=f"Call not found: {call_id}")
         
     with open(fpath, 'r') as f:
@@ -353,22 +310,16 @@ async def list_agents():
     if os.path.exists(AGGREGATED_CSV):
         df = pd.read_csv(AGGREGATED_CSV)
         summary = df.groupby('agent_id').agg({
-            'call_count': 'sum',
+            'total_calls': 'sum',
             'avg_sentiment': 'mean'
-        }).reset_index()
+        }).reset_index().rename(columns={'total_calls': 'call_count'})
         return summary.to_dict('records')
     else:
-        # DEMO MODE FALLBACK: Provide representative agent list for documentation
-        return [
-            {"agent_id": "AGT-1024", "call_count": 156, "avg_sentiment": 0.42},
-            {"agent_id": "AGT-2048", "call_count": 89, "avg_sentiment": -0.15},
-            {"agent_id": "AGT-3072", "call_count": 210, "avg_sentiment": 0.68},
-            {"agent_id": "AGT-4096", "call_count": 45, "avg_sentiment": -0.32},
-            {"agent_id": "AGT-5120", "call_count": 122, "avg_sentiment": 0.12}
-        ]
+        return []
 
 @app.get("/api/agents/{agent_id}/risk", response_model=RiskProfileResponse)
-async def get_agent_risk(agent_id: str):
+@limiter.limit("100/minute")
+async def get_agent_risk(agent_id: str, request: Request):
     """
     Get latest risk profile for an agent.
     """
@@ -376,7 +327,40 @@ async def get_agent_risk(agent_id: str):
         scores_df = pd.read_csv(RISK_SCORES_CSV)
         agent_score = scores_df[scores_df['agent_id'] == agent_id]
         if not agent_score.empty:
-            details = json.loads(agent_score.iloc[0]['details_json'])
+            row = agent_score.iloc[0]
+            # Handle list parsing safely
+            def parse_list(val):
+                if isinstance(val, str):
+                    try: 
+                        return eval(val) # Using eval for simple stringified lists/dicts from pandas
+                    except: 
+                        return []
+                return val
+
+            # Construct history for plot (synthesized from current + trend)
+            # In a real DB, we would query the daily_aggregates table.
+            # Here we simulate the past 7 days based on the trend.
+            history = []
+            try:
+                current_sentiment = df[df['agent_id'] == agent_id]['avg_sentiment'].iloc[0]
+                if 'sentiment_trend_7d' in df.columns:
+                    trend = df[df['agent_id'] == agent_id]['sentiment_trend_7d'].iloc[0]
+                    # Back-calculate 7 points
+                    for i in range(7):
+                        day_val = current_sentiment - (trend * (6-i)/7) # Rough linear approximation
+                        history.append({"day": f"Day {i+1}", "score": round(day_val, 3)})
+            except:
+                pass
+
+            details = {
+                "agent_id": row['agent_id'],
+                "risk_score": float(row['risk_score']),
+                "risk_level": row['risk_level'],
+                "risk_factors": parse_list(row['risk_factors']),
+                "recommendations": parse_list(row['recommendations']),
+                "last_updated": row['last_updated'],
+                "sentiment_history": history
+            }
             return details
             
     if os.path.exists(AGGREGATED_CSV):
@@ -387,56 +371,7 @@ async def get_agent_risk(agent_id: str):
             if risk:
                 return risk
                 
-    # DEMO MODE FALLBACK
-    demo_risks = {
-        "AGT-1024": {
-            "risk_score": 0.42, "risk_level": "low", 
-            "triggered_factors": [], 
-            "recommendations": ["Continue regular monitoring.", "Standard monthly review."]
-        },
-        "AGT-2048": {
-            "risk_score": 0.75, "risk_level": "high", 
-            "triggered_factors": [
-                {"factor": "Negative Sentiment", "description": "Below baseline for 3 days", "contribution": 0.6},
-                {"factor": "Speech Rate Spikes", "description": "Potential agitation detected", "contribution": 0.4}
-            ], 
-            "recommendations": ["Schedule supervisor coaching session.", "Monitor next 5 calls closely."]
-        },
-        "AGT-3072": {
-            "risk_score": 0.15, "risk_level": "low", 
-            "triggered_factors": [], 
-            "recommendations": ["Positive performance trend noted.", "Eligible for mentor program."]
-        },
-        "AGT-4096": {
-            "risk_score": 0.88, "risk_level": "critical", 
-            "triggered_factors": [
-                {"factor": "Severe Sentiment Drop", "description": "Critical decline in avg sentiment", "contribution": 0.7},
-                {"factor": "Stress Markers", "description": "High vocal tension detected", "contribution": 0.3}
-            ], 
-            "recommendations": ["Immediate wellness check required.", "Mandatory break assigned."]
-        },
-        "AGT-5120": {
-            "risk_score": 0.35, "risk_level": "low", 
-            "triggered_factors": [{"factor": "Sentiment Fluctuation", "description": "Minor variance", "contribution": 0.2}], 
-            "recommendations": ["No immediate action needed."]
-        }
-    }
-    
-    risk_data = demo_risks.get(agent_id, {
-        "risk_score": 0.25, "risk_level": "low", 
-        "triggered_factors": [], 
-        "recommendations": ["Standard monitoring."]
-    })
-    
-    return {
-        "agent_id": agent_id,
-        "risk_score": risk_data["risk_score"],
-        "risk_level": risk_data["risk_level"],
-        "risk_factors": risk_data["triggered_factors"], # Note: Frontend uses risk_factors
-        "triggered_factors": [], # keep for BC
-        "recommendations": risk_data["recommendations"],
-        "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    }
+    raise HTTPException(status_code=404, detail="Risk profile not found")
 
 @app.get("/api/analytics/overview")
 async def get_analytics_overview():
@@ -471,13 +406,14 @@ async def get_analytics_overview():
             agg_df = pd.read_csv(AGGREGATED_CSV)
             risk_df = pd.read_csv(RISK_SCORES_CSV) if os.path.exists(RISK_SCORES_CSV) else pd.DataFrame()
             
-            total_calls = int(agg_df['call_count'].sum())
+            total_calls = int(agg_df['total_calls'].sum())
             total_agents = int(agg_df['agent_id'].nunique())
             avg_sentiment = float(agg_df['avg_sentiment'].mean())
             
             high_risk_count = 0
             if not risk_df.empty:
-                high_risk_count = len(risk_df[risk_df['risk_level'].isin(['high', 'critical'])])
+                # Case insensitive check
+                high_risk_count = len(risk_df[risk_df['risk_level'].str.lower().isin(['high', 'critical'])])
 
             # Emotion distribution from hybrid_metadata if it exists
             dist = {}
@@ -487,6 +423,16 @@ async def get_analytics_overview():
                 m_df = pd.read_csv(meta_path)
                 dist = m_df['emotion_pred'].value_counts(normalize=True).to_dict()
                 dataset_breakdown = m_df['dataset'].value_counts().to_dict()
+
+            # Calculate Sentiment Trend from Agent Features (Daily Avg)
+            sen_trend = []
+            if 'date' in agg_df.columns:
+                daily_sen = agg_df.groupby('date')['avg_sentiment'].mean().reset_index()
+                sen_trend = daily_sen.rename(columns={'avg_sentiment': 'sentiment'}).to_dict('records')
+            
+            # If empty (no date col), fallback to single point
+            if not sen_trend:
+                 sen_trend = [{"date": "Today", "sentiment": avg_sentiment}]
 
             # Validation metrics from file
             val_metrics = default_res["validation_metrics"].copy()
@@ -499,6 +445,66 @@ async def get_analytics_overview():
                         "combined_accuracy": round(m.get('combined', {}).get('weighted_accuracy', 0.500)*100, 1)
                     }
 
+            # Calculate daily trends from all files (Real Data)
+            daily_stats = {}
+            for fpath in all_files:
+                try:
+                    # Determine date from filename or content? 
+                    # Filename format: call_YYYY-MM-DD_...
+                    # Faster than opening every file: parse filename
+                    basename = os.path.basename(fpath)
+                    # extraction patterns
+                    parts = basename.split('_')
+                    date_str = "Unknown"
+                    if len(parts) >= 2 and parts[1].count('-') == 2:
+                        date_str = parts[1] # 2024-12-10
+                    
+                    if date_str not in daily_stats:
+                        daily_stats[date_str] = {'count': 0, 'sentiment_sum': 0.0}
+                    
+                    # We need sentiment. If we don't open file, we can't get accurate sentiment per call.
+                    # Opening 1700 files might be slow.
+                    # Compromise: If aggregated CSV exists, use it? aggregated CSV is by agent-day.
+                    # But aggregated CSV overwrites per agent.
+                    # Let's use metadata file if exists (hybrid_metadata.csv) - it has date and sentiment/emotion.
+                    pass 
+                except:
+                    pass
+            
+            # Better approach: Read hybrid_metadata.csv for fast aggregation
+            trends = []
+            if os.path.exists("data/hybrid_metadata.csv"):
+                m_df = pd.read_csv("data/hybrid_metadata.csv")
+                # Ensure date column exists or extract from call_id/timestamp
+                # Assuming 'timestamp' or 'date' column
+                if 'timestamp' in m_df.columns:
+                    m_df['date'] = pd.to_datetime(m_df['timestamp']).dt.date
+                    daily = m_df.groupby('date').agg({
+                        'call_id': 'count',
+                        'sentiment': 'mean' # metadata has 'sentiment' inferred? No, it has 'emotion_pred'.
+                        # Metadata might lack sentiment score.
+                    }).reset_index()
+                    # Fallback: metadata usually just has emotions.
+            
+            # Parsing filenames is safest fallback for count.
+            # For sentiment, we might stick to global avg or read a subset.
+            # Actually, let's just parse the filenames for Volume at least.
+            
+            for fpath in all_files:
+                fname = os.path.basename(fpath)
+                try:
+                    # call_2024-12-10_...
+                    d = fname.split('_')[1]
+                    if d not in daily_stats:
+                        daily_stats[d] = 0
+                    daily_stats[d] += 1
+                except:
+                    pass
+            
+            # Sort by date
+            sorted_dates = sorted(daily_stats.keys())
+            volume_trend = [{"date": d, "calls": daily_stats[d]} for d in sorted_dates]
+
             return {
                 "total_calls": total_calls,
                 "total_agents": total_agents,
@@ -507,36 +513,15 @@ async def get_analytics_overview():
                 "emotion_distribution": dist,
                 "dataset_breakdown": dataset_breakdown,
                 "validation_metrics": val_metrics,
-                "is_demo": False
+                "volume_trend": volume_trend,
+                "sentiment_trend": sen_trend
             }
         except Exception as e:
             logger.error(f"Aggregation read error: {e}")
-    
-    # DEMO MODE FALLBACK: High-performance Phase 4 results
-    return {
-        "total_calls": 10256,
-        "total_agents": 42,
-        "avg_sentiment": 0.35,
-        "high_risk_agents": 3,
-        "emotion_distribution": {
-            "neutral": 0.45,
-            "anger": 0.15,
-            "joy": 0.20,
-            "sadness": 0.10,
-            "fear": 0.05,
-            "disgust": 0.05
-        },
-        "dataset_breakdown": {
-            "CREMA-D": 7442,
-            "IEMOCAP": 2814
-        },
-        "validation_metrics": {
-            "crema_d_accuracy": 64.8,
-            "iemocap_accuracy": 58.2,
-            "combined_accuracy": 52.7
-        },
-        "is_demo": True
-    }
+            return default_res
+
+    # Fallback if aggregated data missing but files exist
+    return default_res
 
 @app.get("/api/datasets/metrics")
 async def get_dataset_metrics():
