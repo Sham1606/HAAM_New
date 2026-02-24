@@ -2,11 +2,13 @@
 
 **Human-Agent-Action-Management** (HAAM) is an agentic coding framework for call center audio analysis, feature aggregation, risk scoring, and visualization.
 
-## Features
-- **Sprint Layer**: Processes audio calls, transcribes text, and extracts sentiment/emotions.
-- **Marathon Layer**: Aggregates data into time-series, calculates rolling trends, and scores burnout risk.
-- **API**: FastAPI backend for real-time processing and data retrieval.
-- **Dashboard**: React-based UI for monitoring calls and agent risk profiles.
+## Key Features
+- **Deep Multimodal Fusion**: Analyzes audio acoustics + transcript text simultaneously via attention mechanisms.
+- **Sprint Layer (Real-Time)**: Processes live audio streams, transcribes text, and predicts instantaneous sentiment/emotions.
+- **Marathon Layer (Long-Term)**: Aggregates historical data into time-series to score and track agent burnout risks over time.
+- **Explainable AI (XAI)**: Generates visual plots and reports (SHAP, Attention Weights) to explain *why* an emotion or risk was predicted.
+- **Advanced Dashboard**: Real-time multi-agent monitoring, live call analysis, alert settings, and interactive risk analytics.
+- **Automated Alerts**: Email and Slack integrations to notify supervisors when agent stress passes critical thresholds.
 
 ---
 
@@ -104,11 +106,14 @@ curl -X POST http://localhost:8000/api/calls/process \
 
 ## Dashboard
 
-### Pages
-- **Calls List**: Filterable table of all processed calls. Upload interface.
-- **Call Detail**: Interactive transcript with sentiment analysis per segment. Charts for emotion timeline.
-- **Agent Risk**: High-level view of agent burnout risk. 
-- **Analytics**: System-wide overview of call volume, sentiment trends, and emotion distribution.
+### Comprehensive Feature List
+- **Calls List**: Filterable database of all processed calls with upload capabilities.
+- **Live Analysis (New)**: Stream real-time calls to monitor audio and textual emotion second-by-second.
+- **Multi-Agent Monitor (New)**: View real-time risk trackers and live emotion statuses for active agents concurrently.
+- **Call Detail / XAI**: Interactive dashboard displaying call transcription, sentiment segmentation, and explainable AI insights.
+- **Agent Risk**: High-level tracking of burnout risk, stress history, and longitudinal analytics.
+- **Analytics Overview**: System-wide performance, datasets distribution, and global emotion breakdown.
+- **Alert Settings (New)**: Configure risk thresholds and notification endpoints (Email/Slack).
 
 ---
 
