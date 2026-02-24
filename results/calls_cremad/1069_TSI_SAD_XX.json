@@ -1,0 +1,22 @@
+{
+  "call_id": "1069_TSI_SAD_XX",
+  "agent_id": "crema_actor_1069",
+  "original_filename": "1069_TSI_SAD_XX.wav",
+  "overall_metrics": {
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "avg_pitch": 285.42,
+    "speech_rate_wpm": 216.35,
+    "agent_stress_score": 0.5,
+    "avg_sentiment": 0.1
+  },
+  "ground_truth": {
+    "emotion": "sadness"
+  },
+  "metadata": {
+    "dataset": "CREMA-D",
+    "intensity": "XX"
+  },
+  "duration_seconds": 2.2
+}

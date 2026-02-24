@@ -35,10 +35,14 @@ class CallDetailResponse(BaseModel):
 
 class CallSummaryModel(BaseModel):
     call_id: str
-    agent_id: str
-    timestamp: str
-    avg_sentiment: float
-    dominant_emotion: str
+    agent_id: Optional[str] = None
+    timestamp: Optional[str] = None
+    dataset: Optional[str] = None
+    avg_sentiment: Optional[float] = 0.0
+    dominant_emotion: Optional[str] = 'neutral'
+    avg_pitch: Optional[float] = 0.0
+    agent_stress_score: Optional[float] = 0.0
+    fusion_weights: Optional[Dict[str, float]] = None
 
 class AgentStats(BaseModel):
     agent_id: str

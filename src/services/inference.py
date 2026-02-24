@@ -32,6 +32,7 @@ from pathlib import Path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
 from src.models.attention_fusion_model import AttentionFusionNetwork
+from src.models.improved_hybrid_model import ImprovedHybridModel
 from src.preprocessing.audio_preprocessor import AudioPreprocessor
 from src.features.improved_acoustic import ImprovedAcousticExtractor
 from src.features.emotion_text import EmotionTextExtractor
@@ -39,9 +40,11 @@ from src.features.emotion_text import EmotionTextExtractor
 logger = logging.getLogger(__name__)
 
 # Constants
-BASE_MODEL_PATH = r"D:\haam_framework\models\improved\best_model.pth"
-FINETUNED_MODEL_PATH = r"D:\haam_framework\saved_models\iemocap_finetuned.pth"
-SCALER_PATH = r"D:\haam_framework\models\improved\scaler.pkl"
+# Constants
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+BASE_MODEL_PATH = os.path.join(PROJECT_ROOT, "saved_models", "hybrid_fusion_model.pth")
+FINETUNED_MODEL_PATH = os.path.join(PROJECT_ROOT, "saved_models", "hybrid_fusion_model.pth") # Use same for now
+SCALER_PATH = os.path.join(PROJECT_ROOT, "saved_models", "hybrid_scaler.pkl")
 
 # Default to finetuned if available (better generalization for natural speech)
 MODEL_PATH = FINETUNED_MODEL_PATH if os.path.exists(FINETUNED_MODEL_PATH) else BASE_MODEL_PATH
@@ -61,26 +64,37 @@ class HybridInference:
         
         # 2. Dynamic Model Loading
         if os.path.exists(MODEL_PATH):
-            # Detect dimension from state dict
             state_dict = torch.load(MODEL_PATH, map_location=torch.device(self.device), weights_only=False)
-            # Find input dimension of acoustic projection
-            if 'acoustic_proj.0.weight' in state_dict:
-                detected_dim = state_dict['acoustic_proj.0.weight'].shape[1]
-                logger.info(f"Detected acoustic dimension from model: {detected_dim}")
+
+            # ── Auto-detect which architecture was used to save the checkpoint ──
+            is_improved = 'acoustic_res1.main.0.weight' in state_dict or 'attention_gate.0.weight' in state_dict
+
+            if is_improved:
+                # ImprovedHybridModel: acoustic_dim=20, text=(768+5), residual blocks
+                self.model = ImprovedHybridModel(n_acoustic=20, n_text_emb=768, n_text_probs=5, n_classes=5)
+                self.model.load_state_dict(state_dict, strict=True)
+                self.acoustic_dim = 20
+                self.model_type = 'improved'
+                logger.info("✅ ImprovedHybridModel loaded from checkpoint")
             else:
-                detected_dim = 12 # Fallback
-            
-            self.model = AttentionFusionNetwork(acoustic_dim=detected_dim, num_classes=5)
-            self.model.load_state_dict(state_dict)
+                # AttentionFusionNetwork: detect acoustic_dim from proj weights
+                if 'acoustic_proj.0.weight' in state_dict:
+                    detected_dim = state_dict['acoustic_proj.0.weight'].shape[1]
+                else:
+                    detected_dim = 12
+                self.model = AttentionFusionNetwork(acoustic_dim=detected_dim, num_classes=5)
+                self.model.load_state_dict(state_dict, strict=True)
+                self.acoustic_dim = detected_dim
+                self.model_type = 'attention_fusion'
+                logger.info(f"✅ AttentionFusionNetwork ({detected_dim}D) loaded from checkpoint")
+
             self.model.to(self.device)
             self.model.eval()
-            self.acoustic_dim = detected_dim
-            logger.info(f"✅ Attention Fusion Model ({detected_dim}D) loaded from {MODEL_PATH}")
         else:
             logger.error(f"❌ Model not found at {MODEL_PATH}")
-            # Fallback to 12 if error, but might fail later
-            self.model = AttentionFusionNetwork(acoustic_dim=12, num_classes=5)
-            self.acoustic_dim = 12
+            self.model = ImprovedHybridModel(n_acoustic=20, n_text_emb=768, n_text_probs=5, n_classes=5)
+            self.acoustic_dim = 20
+            self.model_type = 'improved'
 
         # 3. Load Scaler
         if os.path.exists(SCALER_PATH):
@@ -137,7 +151,16 @@ class HybridInference:
             if tx_tensor.dim() > 2: tx_tensor = tx_tensor.squeeze(1)
             
             with torch.no_grad():
-                outputs, weights = self.model(ac_tensor, tx_tensor)
+                # ImprovedHybridModel needs text_probs as 3rd arg
+                if self.model_type == 'improved':
+                    text_probs_arr = np.array(
+                        [text_res.get('emotion_probabilities', {}).get(e, 1.0/5) for e in TARGET_EMOTIONS],
+                        dtype=np.float32
+                    )
+                    tp_tensor = torch.tensor(text_probs_arr, dtype=torch.float32).unsqueeze(0).to(self.device)
+                    outputs, weights = self.model(ac_tensor, tx_tensor, tp_tensor)
+                else:
+                    outputs, weights = self.model(ac_tensor, tx_tensor)
                 probs = torch.softmax(outputs, dim=1).cpu().numpy()[0]
                 attn_weights = weights.cpu().numpy()[0]
                 
@@ -165,13 +188,10 @@ class HybridInference:
                 },
                 "acoustic_summary": {
                     "pitch_mean": round(float(acoustic_features[0]), 2),
-                    "rms_mean": round(float(acoustic_features[7]), 3)
+                    "rms_mean": round(float(acoustic_features[4]), 3)
                 },
                 "inference_time_ms": round(inference_time * 1000, 2)
             }
         except Exception as e:
             logger.error(f"Inference array error: {e}")
-            raise e
-        except Exception as e:
-            logger.error(f"Inference error: {e}")
             raise e

@@ -2,123 +2,173 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
+
+class ResidualBlock(nn.Module):
+    """Residual block: output = activation(Linear(x)) + projection(x)"""
+    def __init__(self, in_dim: int, out_dim: int, dropout: float = 0.25):
+        super().__init__()
+        self.main = nn.Sequential(
+            nn.Linear(in_dim, out_dim),
+            nn.BatchNorm1d(out_dim),
+            nn.GELU(),
+            nn.Dropout(dropout),
+            nn.Linear(out_dim, out_dim),
+            nn.BatchNorm1d(out_dim),
+        )
+        self.skip = nn.Linear(in_dim, out_dim, bias=False) if in_dim != out_dim else nn.Identity()
+        self.act  = nn.GELU()
+
+    def forward(self, x):
+        return self.act(self.main(x) + self.skip(x))
+
+
+class CrossModalAttention(nn.Module):
+    """
+    Scaled dot-product attention: query from one modality, key/value from the other.
+    Learns how acoustic and text features should cross-attend to each other.
+    """
+    def __init__(self, q_dim: int, kv_dim: int, out_dim: int, dropout: float = 0.1):
+        super().__init__()
+        self.scale    = out_dim ** -0.5
+        self.q_proj   = nn.Linear(q_dim,  out_dim, bias=False)
+        self.k_proj   = nn.Linear(kv_dim, out_dim, bias=False)
+        self.v_proj   = nn.Linear(kv_dim, out_dim, bias=False)
+        self.out_proj = nn.Linear(out_dim, out_dim)
+        self.dropout  = nn.Dropout(dropout)
+
+    def forward(self, query, key_value):
+        Q = self.q_proj(query)                        # [B, D]
+        K = self.k_proj(key_value)                    # [B, D]
+        V = self.v_proj(key_value)                    # [B, D]
+        # Single-vector attention (batch of scalars)
+        attn = torch.sigmoid((Q * K).sum(dim=-1, keepdim=True) * self.scale)   # [B, 1]
+        out  = self.dropout(attn) * V                 # [B, D]
+        return self.out_proj(out), attn.squeeze(-1)   # [B, D], [B]
+
+
 class ImprovedHybridModel(nn.Module):
     """
-    Improved Hybrid Fusion Model for Emotion Recognition.
-    
-    Inputs:
-    - Acoustic: 12 features (Pitch, Jitter, Shimmer, HNR, RMS, ZCR, Rate, Spectral)
-    - Text: 5 emotion probabilities + 768-dim RoBERTa embedding
-    
+    Enhanced Hybrid Fusion Model v2.1
+
     Architecture:
-    - Acoustic Branch (MLP)
-    - Text Branch (MLP)
-    - Late Fusion via Concatenation
-    - Classification Head
+    ┌──────────────────────────────┐    ┌──────────────────────────────┐
+    │  Acoustic Branch             │    │  Text Branch                 │
+    │  20 → 128 → 64 → 64         │    │  773 → 512 → 256 → 256       │
+    │  (3 residual blocks + GELU)  │    │  (3 residual blocks + GELU)  │
+    └──────────────┬───────────────┘    └──────────────┬───────────────┘
+                   │                                   │
+                   ├──── Cross-Modal Attention ←───────┘
+                   │       (acoustic attends to text,
+                   │        text attends to acoustic)
+                   ↓
+           concat [a_attended(64) || t_attended(256)] = 320
+                   ↓
+           Attention Gate → [w_audio, w_text]   ← XAI output
+                   ↓
+           Classifier (320 → 128 → n_classes)
     """
-    
-    def __init__(self, n_acoustic=12, n_text_emb=768, n_text_probs=5, n_classes=5, dropout=0.3):
-        super(ImprovedHybridModel, self).__init__()
-        
-        # === Acoustic Branch ===
-        # Input: 12
-        self.acoustic_net = nn.Sequential(
-            nn.Linear(n_acoustic, 64),
-            nn.BatchNorm1d(64),
-            nn.ReLU(),
-            nn.Dropout(dropout),
-            
-            nn.Linear(64, 32),
-            nn.BatchNorm1d(32),
-            nn.ReLU()
-        )
-        
-        # === Text Branch ===
-        # Input: 768 (embedding) + 5 (probabilities) = 773
-        self.text_input_dim = n_text_emb + n_text_probs
-        self.text_net = nn.Sequential(
-            nn.Linear(self.text_input_dim, 256),
-            nn.BatchNorm1d(256),
-            nn.ReLU(),
-            nn.Dropout(dropout),
-            
-            nn.Linear(256, 128),
+
+    def __init__(self, n_acoustic=20, n_text_emb=768, n_text_probs=5,
+                 n_classes=5, dropout=0.25):
+        super().__init__()
+
+        A_DIM = 64    # final acoustic branch dim
+        T_DIM = 256   # final text branch dim
+        FUSED = A_DIM + T_DIM  # 320
+
+        # ── Acoustic Branch: 20 → 128 → 64 → 64 ──────────────────────────────
+        self.acoustic_input = nn.Sequential(
+            nn.Linear(n_acoustic, 128),
             nn.BatchNorm1d(128),
-            nn.ReLU()
-        )
-        
-        # === Fusion Head ===
-        # 32 (Acoustic) + 128 (Text) = 160
-        self.fusion_dim = 32 + 128
-        self.classifier = nn.Sequential(
-            nn.Linear(self.fusion_dim, 64),
-            nn.BatchNorm1d(64),
-            nn.ReLU(),
+            nn.GELU(),
             nn.Dropout(dropout),
-            
-            nn.Linear(64, n_classes)
         )
-        
-        # Initialize weights
+        self.acoustic_res1 = ResidualBlock(128, 64, dropout=dropout)
+        self.acoustic_res2 = ResidualBlock(64,  A_DIM, dropout=dropout)
+
+        # ── Text Branch: (768+5) → 512 → 256 → 256 ───────────────────────────
+        self.text_input_dim = n_text_emb + n_text_probs           # 773
+        self.text_input = nn.Sequential(
+            nn.Linear(self.text_input_dim, 512),
+            nn.BatchNorm1d(512),
+            nn.GELU(),
+            nn.Dropout(dropout),
+        )
+        self.text_res1 = ResidualBlock(512, 256, dropout=dropout)
+        self.text_res2 = ResidualBlock(256, T_DIM, dropout=dropout)
+
+        # ── Cross-Modal Attention ──────────────────────────────────────────────
+        # acoustic (Q) attends to text (K,V) → a_attended [B, A_DIM]
+        self.a2t_attn = CrossModalAttention(A_DIM, T_DIM, A_DIM, dropout=0.1)
+        # text (Q) attends to acoustic (K,V) → t_attended [B, T_DIM]
+        self.t2a_attn = CrossModalAttention(T_DIM, A_DIM, T_DIM, dropout=0.1)
+
+        # ── Attention Gate (XAI) ──────────────────────────────────────────────
+        self.attention_gate = nn.Sequential(
+            nn.Linear(FUSED, 64),
+            nn.Tanh(),
+            nn.Linear(64, 2),
+            nn.Softmax(dim=1)
+        )
+
+        # ── Classification Head: 320 → 128 → n_classes ───────────────────────
+        self.classifier = nn.Sequential(
+            nn.Linear(FUSED, 128),
+            nn.BatchNorm1d(128),
+            nn.GELU(),
+            nn.Dropout(dropout),
+            nn.Linear(128, n_classes),
+        )
+
         self._init_weights()
 
     def _init_weights(self):
         for m in self.modules():
             if isinstance(m, nn.Linear):
-                nn.init.kaiming_normal_(m.weight, mode='fan_out', nonlinearity='relu')
+                nn.init.kaiming_normal_(m.weight, nonlinearity='relu')
                 if m.bias is not None:
-                    nn.init.constant_(m.bias, 0)
+                    nn.init.zeros_(m.bias)
             elif isinstance(m, nn.BatchNorm1d):
-                nn.init.constant_(m.weight, 1)
-                nn.init.constant_(m.bias, 0)
+                nn.init.ones_(m.weight)
+                nn.init.zeros_(m.bias)
 
     def forward(self, x_acoustic, x_text_emb, x_text_probs):
         """
-        Forward pass.
-        
         Args:
-            x_acoustic: [Batch, 12]
-            x_text_emb: [Batch, 768] (RoBERTa CLS)
-            x_text_probs: [Batch, 5] (Emotion probabilities)
+            x_acoustic:   [B, 20]
+            x_text_emb:   [B, 768]
+            x_text_probs: [B, 5]
+
+        Returns:
+            logits:       [B, n_classes]
+            attn_weights: [B, 2]  → [w_audio, w_text]  for XAI
         """
-        # Checks
-        if x_text_emb.dim() == 1: x_text_emb = x_text_emb.unsqueeze(0)
-        
-        # 1. Acoustic Process
-        a_out = self.acoustic_net(x_acoustic)
-        
-        # 2. Text Process
-        # Concatenate embedding and probabilities
-        t_input = torch.cat([x_text_emb, x_text_probs], dim=1)
-        t_out = self.text_net(t_input)
-        
-        # 3. Fusion
-        combined = torch.cat([a_out, t_out], dim=1)
-        
-        # 4. Classification
-        logits = self.classifier(combined)
-        
-        return logits
+        # 1. Acoustic Branch
+        a = self.acoustic_input(x_acoustic)    # [B, 128]
+        a = self.acoustic_res1(a)               # [B, 64]
+        a_out = self.acoustic_res2(a)           # [B, 64]
 
-    def predict(self, x_acoustic, x_text_emb, x_text_probs):
-        """Inference helper."""
-        self.eval()
-        with torch.no_grad():
-            logits = self.forward(x_acoustic, x_text_emb, x_text_probs)
-            probs = F.softmax(logits, dim=1)
-        return probs
+        # 2. Text Branch
+        t_input = torch.cat([x_text_emb, x_text_probs], dim=1)   # [B, 773]
+        t = self.text_input(t_input)            # [B, 512]
+        t = self.text_res1(t)                   # [B, 256]
+        t_out = self.text_res2(t)               # [B, 256]
 
-if __name__ == "__main__":
-    # Test Architecture
-    model = ImprovedHybridModel()
-    print("Model Architecture:")
-    print(model)
-    
-    # Dummy Input
-    bs = 4
-    x_ac = torch.randn(bs, 12)
-    x_temb = torch.randn(bs, 768)
-    x_tprob = torch.rand(bs, 5)
-    
-    out = model(x_ac, x_temb, x_tprob)
-    print(f"\nOutput Shape: {out.shape}")
+        # 3. Cross-Modal Attention
+        a_attended, _  = self.a2t_attn(a_out, t_out)   # acoustic attends to text
+        t_attended, _  = self.t2a_attn(t_out, a_out)   # text attends to acoustic
+
+        # Residual connection: add original + attended
+        a_final = a_out + a_attended    # [B, 64]
+        t_final = t_out + t_attended    # [B, 256]
+
+        # 4. Fuse
+        combined = torch.cat([a_final, t_final], dim=1)  # [B, 320]
+
+        # 5. Attention Gate (XAI)
+        attn_weights = self.attention_gate(combined)      # [B, 2]
+
+        # 6. Classify
+        logits = self.classifier(combined)                # [B, n_classes]
+
+        return logits, attn_weights

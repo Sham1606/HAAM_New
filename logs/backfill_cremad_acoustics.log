@@ -1,0 +1,4 @@
+2026-02-21 03:14:27,731 INFO Found 5 CREMA-D JSON files to process.
+2026-02-21 03:14:27,732 INFO Using 4 parallel workers.
+2026-02-21 03:15:07,871 INFO Found 7442 CREMA-D JSON files to process.
+2026-02-21 03:15:07,871 INFO Using sequential processing.

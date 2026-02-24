@@ -1,0 +1,22 @@
+{
+  "call_id": "1056_IEO_SAD_HI",
+  "agent_id": "crema_actor_1056",
+  "original_filename": "1056_IEO_SAD_HI.wav",
+  "overall_metrics": {
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "avg_pitch": 237.89,
+    "speech_rate_wpm": 148.03,
+    "agent_stress_score": 0.2,
+    "avg_sentiment": 0.1
+  },
+  "ground_truth": {
+    "emotion": "sadness"
+  },
+  "metadata": {
+    "dataset": "CREMA-D",
+    "intensity": "HI"
+  },
+  "duration_seconds": 2.3
+}

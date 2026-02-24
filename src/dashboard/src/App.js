@@ -6,7 +6,9 @@ import CallsListPage from './pages/CallsListPage';
 import CallDetailPage from './pages/CallDetailPage';
 import AgentRiskPage from './pages/AgentRiskPage';
 import AnalyticsPage from './pages/AnalyticsPage';
-import PredictEmotionPage from './pages/PredictEmotionPage';
+import LiveAnalysisPage from './pages/LiveAnalysisPage';
+import MultiAgentMonitorPage from './pages/MultiAgentMonitorPage';
+import AlertsSettingsPage from './pages/AlertsSettingsPage';
 
 function App() {
   return (
@@ -19,7 +21,9 @@ function App() {
             <Route path="/call/:callId" element={<CallDetailPage />} />
             <Route path="/agents" element={<AgentRiskPage />} />
             <Route path="/analytics" element={<AnalyticsPage />} />
-            <Route path="/predict" element={<PredictEmotionPage />} />
+            <Route path="/live" element={<LiveAnalysisPage />} />
+            <Route path="/monitor" element={<MultiAgentMonitorPage />} />
+            <Route path="/alerts" element={<AlertsSettingsPage />} />
           </Routes>
         </main>
       </div>

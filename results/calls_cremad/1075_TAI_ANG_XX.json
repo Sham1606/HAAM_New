@@ -1,0 +1,22 @@
+{
+  "call_id": "1075_TAI_ANG_XX",
+  "agent_id": "crema_actor_1075",
+  "original_filename": "1075_TAI_ANG_XX.wav",
+  "overall_metrics": {
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "avg_pitch": 321.95,
+    "speech_rate_wpm": 140.62,
+    "agent_stress_score": 0.35,
+    "avg_sentiment": 0.1
+  },
+  "ground_truth": {
+    "emotion": "anger"
+  },
+  "metadata": {
+    "dataset": "CREMA-D",
+    "intensity": "XX"
+  },
+  "duration_seconds": 2.87
+}

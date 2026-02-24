@@ -1,0 +1,22 @@
+{
+  "call_id": "1065_TSI_DIS_XX",
+  "agent_id": "crema_actor_1065",
+  "original_filename": "1065_TSI_DIS_XX.wav",
+  "overall_metrics": {
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "avg_pitch": 247.05,
+    "speech_rate_wpm": 117.19,
+    "agent_stress_score": 0.2,
+    "avg_sentiment": 0.1
+  },
+  "ground_truth": {
+    "emotion": "disgust"
+  },
+  "metadata": {
+    "dataset": "CREMA-D",
+    "intensity": "XX"
+  },
+  "duration_seconds": 2.07
+}

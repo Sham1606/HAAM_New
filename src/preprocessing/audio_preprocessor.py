@@ -1,6 +1,7 @@
 """
-Normalize audio: trim silence, fix volume, remove DC offset, resample
-Critical for consistent feature extraction
+Normalize audio: trim silence, fix volume, remove DC offset, resample.
+Also applies spectral noise reduction (noisereduce) before feature extraction
+to improve Whisper transcription quality on noisy call recordings.
 """
 
 import librosa
@@ -8,6 +9,13 @@ import numpy as np
 from scipy import signal
 import soundfile as sf
 import warnings
+
+# noisereduce is optional — graceful fallback if not installed
+try:
+    import noisereduce as nr
+    _NR_AVAILABLE = True
+except ImportError:
+    _NR_AVAILABLE = False
 
 class AudioPreprocessor:
     def __init__(self, target_sr=16000):
@@ -31,6 +39,14 @@ class AudioPreprocessor:
             print(f"Error loading {audio_path}: {e}")
             raise e
         
+        # ── Spectral Noise Reduction (improves Whisper transcription accuracy) ──
+        if _NR_AVAILABLE:
+            try:
+                # stationary=True uses a fixed noise profile (faster, suitable for calls)
+                audio = nr.reduce_noise(y=audio, sr=sr, stationary=True, prop_decrease=0.75)
+            except Exception:
+                pass  # Skip silently on any error
+
         # Remove DC offset
         audio = audio - np.mean(audio)
         

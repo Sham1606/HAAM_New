@@ -1,29 +1,29 @@
 
 import os
-import shutil
+import json
 import random
-import csv
-from datetime import datetime, timedelta
 
 # Configuration
-CREMAD_SOURCE = r"D:\haam_framework\crema-d-mirror-main\AudioWAV"
-TARGET_DIR = r"D:\haam_framework\data\cremad_samples"
-GROUND_TRUTH_FILE = r"D:\haam_framework\data\cremad_ground_truth.csv"
+CREMAD_SOURCE = r"d:\haam\HAAM_New\data\CREMA-D"
+OUTPUT_DIR = r"d:\haam\HAAM_New\results\calls_cremad"
 
 # Mappings
+# CREMA-D codes: ANG, DES, DIS, FEA, HAP, NEU, SAD
 EMOTION_MAP = {
     'ANG': 'anger',
     'HAP': 'joy',
     'SAD': 'sadness',
     'NEU': 'neutral',
     'FEA': 'fear',
-    'DIS': 'disgust'
+    'DIS': 'disgust',
+    'DES': 'disgust' # Mapping desire/disgust variant if present, usually just DIS
 }
 
-INTENSITY_PRIORITY = {'HI': 3, 'MD': 2, 'LO': 1, 'XX': 0}
+# Standardize to model allowed emotions (removed surprise if not in standard 4-6 set, but let's map widely)
+# Model typically expects: neutral, anger, joy, sadness, fear, disgust.
 
 def parse_filename(filename):
-    # Example: 1001_DFA_ANG_HI.wav
+    # Example: 1001_DFA_ANG_XX.wav
     base = os.path.splitext(filename)[0]
     parts = base.split('_')
     
@@ -33,131 +33,68 @@ def parse_filename(filename):
         emotion_code = parts[2]
         intensity = parts[3] if len(parts) > 3 else 'XX'
         return {
-            'filename': filename,
+            'call_id': base,
             'actor_id': actor_id,
-            'sentence': sentence,
             'emotion_code': emotion_code,
             'intensity': intensity,
-            'expected_emotion': EMOTION_MAP.get(emotion_code)
+            'emotion_label': EMOTION_MAP.get(emotion_code)
         }
     return None
 
-def get_agent_id(actor_id):
-    if 1001 <= actor_id <= 1030:
-        return 'agent_01'
-    elif 1031 <= actor_id <= 1060:
-        return 'agent_02'
-    else:
-        return 'agent_03'
-
 def main():
-    print("Processing CREMA-D dataset...")
+    print(f"Generating metadata for CREMA-D from {CREMAD_SOURCE}...")
     
     if not os.path.exists(CREMAD_SOURCE):
         print(f"Error: Source directory not found: {CREMAD_SOURCE}")
         return
 
-    # Ensure target directory exists
-    os.makedirs(TARGET_DIR, exist_ok=True)
-    os.makedirs(os.path.dirname(GROUND_TRUTH_FILE), exist_ok=True)
-
-    # 1. Scan files
-    all_files = [f for f in os.listdir(CREMAD_SOURCE) if f.endswith('.wav')]
-    print(f"Found {len(all_files)} files in AudioWAV folder")
-
-    # Group by emotion
-    emotion_groups = {e: [] for e in EMOTION_MAP.values()}
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
     
-    for fname in all_files:
+    files = [f for f in os.listdir(CREMAD_SOURCE) if f.endswith('.wav')]
+    print(f"Found {len(files)} WAV files.")
+    
+    processed_count = 0
+    skipped_count = 0
+    
+    for fname in files:
         meta = parse_filename(fname)
-        if meta and meta['expected_emotion']:
-            emotion_groups[meta['expected_emotion']].append(meta)
-
-    # 2. Select balanced sample (372 per emotion ≈ 2230 total)
-    SAMPLES_PER_EMOTION = 372
-    selected_samples = []
-    
-    print("\nEmotion distribution (Source / Selected):")
-    for emotion, samples in emotion_groups.items():
-        # Sort by intensity (HI > MD > LO > XX)
-        sorted_samples = sorted(samples, key=lambda x: INTENSITY_PRIORITY.get(x['intensity'], 0), reverse=True)
-        
-        # Select target amount
-        available = len(sorted_samples)
-        if available < SAMPLES_PER_EMOTION:
-            print(f"  Note: Only {available} samples available for {emotion}, requested {SAMPLES_PER_EMOTION}")
-            selection = sorted_samples
-        else:
-            selection = sorted_samples[:SAMPLES_PER_EMOTION]
+        if not meta or not meta['emotion_label']:
+            skipped_count += 1
+            continue
             
-        selected_samples.extend(selection)
-        print(f"  {emotion:<10}: {len(samples):<5} / {len(selection)}")
-
-    # 3. Process and Copy
-    print(f"\nCopying {len(selected_samples)} files to {TARGET_DIR}...")
-    
-    ground_truth_rows = []
-    start_date = datetime(2024, 12, 10)
-    
-    for i, meta in enumerate(selected_samples):
-        # Generate metadata
-        agent = get_agent_id(meta['actor_id'])
+        emotion = meta['emotion_label']
         
-        # Random time between 9am - 5pm
-        day_offset = i % 10
-        hour_offset = random.randint(9, 16)
-        minute_offset = random.randint(0, 59)
-        dt = start_date + timedelta(days=day_offset)
-        dt = dt.replace(hour=hour_offset, minute=minute_offset)
+        # Create JSON structure compatible with training script
+        json_data = {
+            "call_id": meta['call_id'],
+            "agent_id": f"crema_actor_{meta['actor_id']}",
+            "original_filename": fname,
+            "overall_metrics": {
+                "emotion_distribution": {
+                    emotion: 1.0  # Hardcoded confidence for ground truth
+                },
+                "avg_pitch": 0.0, # Will be extracted later or ignored
+                "speech_rate_wpm": 0.0,
+                "agent_stress_score": 0.0
+            },
+            "ground_truth": {
+                "emotion": emotion
+            },
+            "metadata": {
+                "dataset": "CREMA-D",
+                "intensity": meta['intensity']
+            }
+        }
         
-        timestamp = dt.isoformat()
-        date_str = dt.strftime('%Y-%m-%d')
+        out_path = os.path.join(OUTPUT_DIR, f"{meta['call_id']}.json")
+        with open(out_path, 'w') as f:
+            json.dump(json_data, f, indent=2)
+            
+        processed_count += 1
         
-        # Call ID: call_YYYY-MM-DD_agent_XXX
-        call_id = f"call_{date_str}_{agent}_{str(i+1).zfill(3)}"
-        
-        # Paths
-        src_path = os.path.join(CREMAD_SOURCE, meta['filename'])
-        dest_filename = f"{call_id}.wav"
-        dest_path = os.path.join(TARGET_DIR, dest_filename)
-        
-        # Copy file
-        shutil.copy2(src_path, dest_path)
-        
-        ground_truth_rows.append({
-            'call_id': call_id,
-            'agent_id': agent,
-            'timestamp': timestamp,
-            'date': date_str,
-            'expected_emotion': meta['expected_emotion'],
-            'emotion_code': meta['emotion_code'],
-            'intensity': meta['intensity'],
-            'actor_id': meta['actor_id'],
-            'sentence': meta['sentence'],
-            'audio_file': dest_filename,
-            'local_path': dest_path
-        })
-
-    # 4. Save CSV
-    with open(GROUND_TRUTH_FILE, 'w', newline='', encoding='utf-8') as f:
-        fieldnames = ['call_id', 'agent_id', 'timestamp', 'date', 'expected_emotion', 
-                      'emotion_code', 'intensity', 'actor_id', 'sentence', 'audio_file', 'local_path']
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(ground_truth_rows)
-        
-    print(f"\nGround truth saved to: {GROUND_TRUTH_FILE}")
-    print("\nSummary:")
-    print(f"  Total calls: {len(ground_truth_rows)}")
-    
-    agent_counts = {}
-    for r in ground_truth_rows:
-        agent_counts[r['agent_id']] = agent_counts.get(r['agent_id'], 0) + 1
-        
-    for agent, count in sorted(agent_counts.items()):
-        print(f"  {agent}: {count} calls")
-        
-    print(f"  Date range: {ground_truth_rows[0]['date']} to {ground_truth_rows[-1]['date']}")
+    print(f"Finished.")
+    print(f"Generated {processed_count} JSON files in {OUTPUT_DIR}")
+    print(f"Skipped {skipped_count} files (unrecognized format/emotion).")
 
 if __name__ == "__main__":
     main()

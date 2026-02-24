@@ -16,7 +16,7 @@ transformers.modeling_utils.check_torch_load_is_safe = no_op_check
 # END HACK
 
 import torch
-from transformers import pipeline, AutoTokenizer, AutoModel
+from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification
 import numpy as np
 import warnings
 
@@ -36,7 +36,7 @@ class EmotionTextExtractor:
             )
             
             self.tokenizer = AutoTokenizer.from_pretrained("j-hartmann/emotion-english-distilroberta-base")
-            self.model = AutoModel.from_pretrained("j-hartmann/emotion-english-distilroberta-base")
+            self.model = AutoModelForSequenceClassification.from_pretrained("j-hartmann/emotion-english-distilroberta-base")
             if torch.cuda.is_available():
                 self.model = self.model.cuda()
                 
@@ -100,10 +100,13 @@ class EmotionTextExtractor:
                 inputs = {k: v.to('cuda') for k, v in inputs.items()}
             
             with torch.no_grad():
-                outputs = self.model(**inputs)
-                embedding = outputs.last_hidden_state[:, 0, :].cpu().numpy()  # [CLS] token
+                outputs = self.model(**inputs, output_hidden_states=True)
+                # SequenceClassifierOutput: use hidden_states[-1] (last transformer layer)
+                # hidden_states is a tuple of [batch, seq_len, hidden_dim] tensors
+                last_hidden = outputs.hidden_states[-1]      # [1, seq_len, 768]
+                embedding = last_hidden[:, 0, :].cpu().numpy()  # [CLS] token → [768]
                 if len(embedding.shape) > 1:
-                     embedding = embedding.squeeze()
+                    embedding = embedding.squeeze()
             
             return {
                 'emotion_probabilities': emotion_probs,

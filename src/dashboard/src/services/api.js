@@ -21,13 +21,16 @@ export const callsAPI = {
     getAll: (params) => api.get('/calls', { params }),
     getById: (id) => api.get(`/calls/${id}`),
     process: (formData) => api.post('/calls/process', formData),
-    getXaiReport: (id) => api.get(`/calls/${id}/xai-report`),
+    getXaiReport: (id) => api.get(`/calls/${id}/explain`),
     getXaiPlotURL: (id, type) => `${API_BASE_URL}/calls/${id}/xai-plot/${type}`
+
 };
 
 export const agentsAPI = {
     getAll: () => api.get('/agents'),
-    getRisk: (id) => api.get(`/agents/${id}/risk`)
+    getRisk: (id) => api.get(`/agents/${id}/risk`),
+    getCalls: (id, limit = 50) => api.get(`/agents/${id}/calls`, { params: { limit } }),
+    getStats: (id) => api.get(`/agents/${id}/stats`),
 };
 
 export const analyticsAPI = {

@@ -1,0 +1,22 @@
+{
+  "call_id": "1087_WSI_DIS_XX",
+  "agent_id": "crema_actor_1087",
+  "original_filename": "1087_WSI_DIS_XX.wav",
+  "overall_metrics": {
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "avg_pitch": 219.86,
+    "speech_rate_wpm": 156.25,
+    "agent_stress_score": 0.35,
+    "avg_sentiment": 0.1
+  },
+  "ground_truth": {
+    "emotion": "disgust"
+  },
+  "metadata": {
+    "dataset": "CREMA-D",
+    "intensity": "XX"
+  },
+  "duration_seconds": 3.4
+}

@@ -11,7 +11,9 @@ const Navbar = () => {
         { name: 'Calls', path: '/' },
         { name: 'Agents', path: '/agents' },
         { name: 'Analytics', path: '/analytics' },
-        { name: 'Live Prediction', path: '/predict' },
+        { name: 'Live Analysis', path: '/live' },
+        { name: 'Monitor', path: '/monitor' },
+        { name: 'Alerts', path: '/alerts' },
     ];
 
     const isActive = (path) => {

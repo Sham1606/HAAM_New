@@ -1,0 +1,22 @@
+{
+  "call_id": "1010_ITH_SAD_XX",
+  "agent_id": "crema_actor_1010",
+  "original_filename": "1010_ITH_SAD_XX.wav",
+  "overall_metrics": {
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "avg_pitch": 256.99,
+    "speech_rate_wpm": 148.03,
+    "agent_stress_score": 0.35,
+    "avg_sentiment": 0.1
+  },
+  "ground_truth": {
+    "emotion": "sadness"
+  },
+  "metadata": {
+    "dataset": "CREMA-D",
+    "intensity": "XX"
+  },
+  "duration_seconds": 2.87
+}

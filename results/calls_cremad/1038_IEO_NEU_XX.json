@@ -1,0 +1,22 @@
+{
+  "call_id": "1038_IEO_NEU_XX",
+  "agent_id": "crema_actor_1038",
+  "original_filename": "1038_IEO_NEU_XX.wav",
+  "overall_metrics": {
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "avg_pitch": 263.22,
+    "speech_rate_wpm": 216.35,
+    "agent_stress_score": 0.5,
+    "avg_sentiment": 0.1
+  },
+  "ground_truth": {
+    "emotion": "neutral"
+  },
+  "metadata": {
+    "dataset": "CREMA-D",
+    "intensity": "XX"
+  },
+  "duration_seconds": 1.97
+}

@@ -269,8 +269,11 @@ class SprintPipeline:
         overall_dist = {}
         if processed_segments:
             # Initialize with 0s
-            for emo in ['neutral', 'anger', 'sadness', 'fear', 'joy', 'disgust']:
+            # Initialise with exactly the emotions the hybrid model can predict
+            from src.services.inference import TARGET_EMOTIONS as _MODEL_EMOTIONS
+            for emo in _MODEL_EMOTIONS:
                 overall_dist[emo] = 0.0
+
             
             # Sum up probabilities
             valid_segs = 0

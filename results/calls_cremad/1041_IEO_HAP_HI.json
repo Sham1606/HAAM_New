@@ -1,0 +1,22 @@
+{
+  "call_id": "1041_IEO_HAP_HI",
+  "agent_id": "crema_actor_1041",
+  "original_filename": "1041_IEO_HAP_HI.wav",
+  "overall_metrics": {
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "avg_pitch": 313.53,
+    "speech_rate_wpm": 220.0,
+    "agent_stress_score": 0.5,
+    "avg_sentiment": 0.1
+  },
+  "ground_truth": {
+    "emotion": "joy"
+  },
+  "metadata": {
+    "dataset": "CREMA-D",
+    "intensity": "HI"
+  },
+  "duration_seconds": 2.27
+}

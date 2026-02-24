@@ -10,59 +10,53 @@
 
 ---
 
-## Installation
+## Installation & Quick Start
+
+This repository is pre-configured with **fully trained models** and **pre-calculated call data**. There is no need to retrain models or run heavy data processing pipelines.
 
 ### Prerequisites
 - Python 3.8+
 - Node.js 14+
-- FFmpeg (for audio processing)
+- (Optional) FFmpeg if you plan to process *new* audio live.
 
 ### Setup
+
 1. **Clone the repository**:
    ```bash
    git clone <repo-url>
    cd haam_framework
    ```
 
-2. **Install Python dependencies**:
+2. **Install Python backend dependencies**:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Install Dashboard dependencies**:
+3. **Install React dashboard dependencies**:
    ```bash
    cd src/dashboard
    npm install
    cd ../..
    ```
 
-4. **Environment Configuration**:
-   Create a `.env` file (optional, defaults provided):
-   ```env
-   # API Configuration
-   HOST=0.0.0.0
-   PORT=8000
-   ```
+### Running the Application
 
----
+To load the pre-processed dashboard with all historical calls and agent risk profiles, simply start the backend and frontend.
 
-## Quick Start
-
-### 1. Start the API
+**1. Start the API (Terminal 1)**
 ```bash
 uvicorn src.api.app:app --reload --port 8000
 ```
 
-### 2. Start the Dashboard
-In a new terminal:
+**2. Start the Dashboard (Terminal 2)**
 ```bash
 cd src/dashboard
 npm start
 ```
-Access the dashboard at [http://localhost:3000](http://localhost:3000).
+Access the dashboard at [http://localhost:3000](http://localhost:3000). All data will be perfectly loaded.
 
-### 3. Process a Call
-Upload a .wav file via the **Calls List** page in the dashboard or use Curl:
+### Processing New Calls (Optional)
+If you wish to test the live inference pipeline with a new `.wav` file:
 ```bash
 curl -X POST http://localhost:8000/api/calls/process \
   -F "file=@sample.wav" \
@@ -319,7 +313,8 @@ The framework includes a validation suite to benchmark emotion detection accurac
 The core of HAAM is now a **Multi-modal Attention Fusion Network** trained on a hybrid dataset (CREMA-D + IEMOCAP).
 
 - **Architecture**: Fuses acoustic features (Pitch, Rate, Stress) with textual sentiment (DistilRoBERTa).
-- **Performance**: 54.5% Accuracy (5-class), robust to conversational speech.
+- **Performance**: 78.0% Accuracy (5-class), robust to conversational speech.
+
 - **Inference**: Real-time (<600ms), exposed via REST API.
 
 ### Quick Inference

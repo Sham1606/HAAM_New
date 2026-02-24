@@ -1,0 +1,22 @@
+{
+  "call_id": "1056_DFA_DIS_XX",
+  "agent_id": "crema_actor_1056",
+  "original_filename": "1056_DFA_DIS_XX.wav",
+  "overall_metrics": {
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "avg_pitch": 341.25,
+    "speech_rate_wpm": 200.89,
+    "agent_stress_score": 0.5,
+    "avg_sentiment": 0.1
+  },
+  "ground_truth": {
+    "emotion": "disgust"
+  },
+  "metadata": {
+    "dataset": "CREMA-D",
+    "intensity": "XX"
+  },
+  "duration_seconds": 2.0
+}

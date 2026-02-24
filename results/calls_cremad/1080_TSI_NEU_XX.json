@@ -1,0 +1,22 @@
+{
+  "call_id": "1080_TSI_NEU_XX",
+  "agent_id": "crema_actor_1080",
+  "original_filename": "1080_TSI_NEU_XX.wav",
+  "overall_metrics": {
+    "emotion_distribution": {
+      "neutral": 1.0
+    },
+    "avg_pitch": 259.58,
+    "speech_rate_wpm": 148.03,
+    "agent_stress_score": 0.35,
+    "avg_sentiment": 0.1
+  },
+  "ground_truth": {
+    "emotion": "neutral"
+  },
+  "metadata": {
+    "dataset": "CREMA-D",
+    "intensity": "XX"
+  },
+  "duration_seconds": 2.84
+}

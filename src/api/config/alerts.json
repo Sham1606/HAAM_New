@@ -1,0 +1,15 @@
+{
+  "email": {
+    "enabled": false,
+    "smtp_host": "smtp.gmail.com",
+    "smtp_port": 587,
+    "sender": "",
+    "password": "",
+    "recipients": []
+  },
+  "slack": {
+    "enabled": false,
+    "webhook_url": ""
+  },
+  "risk_threshold": 0.6
+}

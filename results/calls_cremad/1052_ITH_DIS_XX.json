@@ -1,0 +1,22 @@
+{
+  "call_id": "1052_ITH_DIS_XX",
+  "agent_id": "crema_actor_1052",
+  "original_filename": "1052_ITH_DIS_XX.wav",
+  "overall_metrics": {
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "avg_pitch": 261.21,
+    "speech_rate_wpm": 220.0,
+    "agent_stress_score": 0.5,
+    "avg_sentiment": 0.1
+  },
+  "ground_truth": {
+    "emotion": "disgust"
+  },
+  "metadata": {
+    "dataset": "CREMA-D",
+    "intensity": "XX"
+  },
+  "duration_seconds": 3.87
+}

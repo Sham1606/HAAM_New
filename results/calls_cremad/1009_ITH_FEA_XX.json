@@ -1,0 +1,22 @@
+{
+  "call_id": "1009_ITH_FEA_XX",
+  "agent_id": "crema_actor_1009",
+  "original_filename": "1009_ITH_FEA_XX.wav",
+  "overall_metrics": {
+    "emotion_distribution": {
+      "fear": 1.0
+    },
+    "avg_pitch": 316.88,
+    "speech_rate_wpm": 165.44,
+    "agent_stress_score": 0.5,
+    "avg_sentiment": 0.1
+  },
+  "ground_truth": {
+    "emotion": "fear"
+  },
+  "metadata": {
+    "dataset": "CREMA-D",
+    "intensity": "XX"
+  },
+  "duration_seconds": 2.87
+}

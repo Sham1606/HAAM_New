@@ -1,0 +1,22 @@
+{
+  "call_id": "1035_IEO_ANG_MD",
+  "agent_id": "crema_actor_1035",
+  "original_filename": "1035_IEO_ANG_MD.wav",
+  "overall_metrics": {
+    "emotion_distribution": {
+      "anger": 1.0
+    },
+    "avg_pitch": 288.82,
+    "speech_rate_wpm": 140.62,
+    "agent_stress_score": 0.35,
+    "avg_sentiment": 0.1
+  },
+  "ground_truth": {
+    "emotion": "anger"
+  },
+  "metadata": {
+    "dataset": "CREMA-D",
+    "intensity": "MD"
+  },
+  "duration_seconds": 2.4
+}

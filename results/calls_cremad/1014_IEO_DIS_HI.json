@@ -1,0 +1,22 @@
+{
+  "call_id": "1014_IEO_DIS_HI",
+  "agent_id": "crema_actor_1014",
+  "original_filename": "1014_IEO_DIS_HI.wav",
+  "overall_metrics": {
+    "emotion_distribution": {
+      "disgust": 1.0
+    },
+    "avg_pitch": 305.25,
+    "speech_rate_wpm": 187.5,
+    "agent_stress_score": 0.5,
+    "avg_sentiment": 0.1
+  },
+  "ground_truth": {
+    "emotion": "disgust"
+  },
+  "metadata": {
+    "dataset": "CREMA-D",
+    "intensity": "HI"
+  },
+  "duration_seconds": 2.97
+}

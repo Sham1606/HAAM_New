@@ -1,0 +1,22 @@
+{
+  "call_id": "1043_TAI_SAD_XX",
+  "agent_id": "crema_actor_1043",
+  "original_filename": "1043_TAI_SAD_XX.wav",
+  "overall_metrics": {
+    "emotion_distribution": {
+      "sadness": 1.0
+    },
+    "avg_pitch": 258.84,
+    "speech_rate_wpm": 148.03,
+    "agent_stress_score": 0.35,
+    "avg_sentiment": 0.1
+  },
+  "ground_truth": {
+    "emotion": "sadness"
+  },
+  "metadata": {
+    "dataset": "CREMA-D",
+    "intensity": "XX"
+  },
+  "duration_seconds": 2.27
+}

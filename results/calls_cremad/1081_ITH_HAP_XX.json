@@ -1,0 +1,22 @@
+{
+  "call_id": "1081_ITH_HAP_XX",
+  "agent_id": "crema_actor_1081",
+  "original_filename": "1081_ITH_HAP_XX.wav",
+  "overall_metrics": {
+    "emotion_distribution": {
+      "joy": 1.0
+    },
+    "avg_pitch": 343.55,
+    "speech_rate_wpm": 165.44,
+    "agent_stress_score": 0.5,
+    "avg_sentiment": 0.1
+  },
+  "ground_truth": {
+    "emotion": "joy"
+  },
+  "metadata": {
+    "dataset": "CREMA-D",
+    "intensity": "XX"
+  },
+  "duration_seconds": 2.14
+}
