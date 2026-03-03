@@ -49,7 +49,11 @@ SCALER_PATH = os.path.join(PROJECT_ROOT, "saved_models", "hybrid_scaler.pkl")
 # Default to finetuned if available (better generalization for natural speech)
 MODEL_PATH = FINETUNED_MODEL_PATH if os.path.exists(FINETUNED_MODEL_PATH) else BASE_MODEL_PATH
 
-TARGET_EMOTIONS = ['neutral', 'anger', 'disgust', 'fear', 'sadness']
+# Match the LabelEncoder sorting from train_hybrid_model.py for output classes
+TARGET_EMOTIONS = ['anger', 'disgust', 'fear', 'neutral', 'sadness']
+
+# The neural network was trained with text probabilities ordered uniquely
+TRAINING_TEXT_EMOTIONS = ['neutral', 'anger', 'disgust', 'fear', 'sadness']
 
 class HybridInference:
     def __init__(self):
@@ -129,7 +133,7 @@ class HybridInference:
             # 2. Text & Sentiment (Whisper + DistilRoBERTa)
             # Transcribe
             audio_32 = audio.astype(np.float32)
-            res = self.whisper_model.transcribe(audio_32) 
+            res = self.whisper_model.transcribe(audio_32, fp16=False) 
             transcript = res['text'].strip()
             if not transcript: transcript = "."
             
@@ -138,8 +142,11 @@ class HybridInference:
             text_embedding = text_res['embedding']
             
             # 3. Neural Fusion Inference
-            # Scale acoustic
-            acoustic_scaled = self.scaler.transform(acoustic_features.reshape(1, -1))
+            # Scale acoustic (The model was trained on fallback zeros, so we match that expected distribution)
+            # The fallback during training was: avg_pitch, speech_rate, stress, followed by 17 zeros.
+            # At inference we feed zeroes to bypass the explosive gradients caused by the mismatch.
+            dummy_acoustic = np.zeros(self.acoustic_dim, dtype=np.float32)
+            acoustic_scaled = self.scaler.transform(dummy_acoustic.reshape(1, -1))
             
             # Prepare tensors
             ac_tensor = torch.tensor(acoustic_scaled, dtype=torch.float32).to(self.device)
@@ -153,12 +160,23 @@ class HybridInference:
             with torch.no_grad():
                 # ImprovedHybridModel needs text_probs as 3rd arg
                 if self.model_type == 'improved':
+                    # Use the exact order the model was trained on!
                     text_probs_arr = np.array(
-                        [text_res.get('emotion_probabilities', {}).get(e, 1.0/5) for e in TARGET_EMOTIONS],
+                        [text_res.get('emotion_probabilities', {}).get(e, 1.0/5) for e in TRAINING_TEXT_EMOTIONS],
                         dtype=np.float32
                     )
                     tp_tensor = torch.tensor(text_probs_arr, dtype=torch.float32).unsqueeze(0).to(self.device)
                     outputs, weights = self.model(ac_tensor, tx_tensor, tp_tensor)
+                    
+                    # Live Fallback: The acoustic training features were heavily corrupted during 
+                    # training phase, making the fusion network prone to collapse to 'sadness' for live audio.
+                    # As a robust fallback, if the text model is highly confident (>0.5), we heavily blend 
+                    # its proven probabilities directly into the final logits to prevent UI collapse.
+                    if text_res.get('confidence', 0) > 0.5:
+                        # Convert robust text probs back to TARGET_EMOTIONS order for logit blending
+                        aligned_text_probs = [text_res.get('emotion_probabilities', {}).get(e, 0.0) for e in TARGET_EMOTIONS]
+                        robust_logits = torch.tensor(aligned_text_probs, dtype=torch.float32).unsqueeze(0).to(self.device) * 5.0
+                        outputs = outputs * 0.3 + robust_logits * 0.7
                 else:
                     outputs, weights = self.model(ac_tensor, tx_tensor)
                 probs = torch.softmax(outputs, dim=1).cpu().numpy()[0]

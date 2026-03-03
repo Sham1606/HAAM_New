@@ -224,10 +224,17 @@ def train_model():
         log.error("No data found.")
         return
 
-    encoder  = LabelEncoder()
-    y_enc    = encoder.fit_transform(y_raw)
-    n_classes = len(encoder.classes_)
-    log.info(f"Classes: {encoder.classes_}")
+    # Map strings directly to TARGET_EMOTIONS indexes
+    y_enc = np.array([TARGET_EMOTIONS.index(lab) for lab in y_raw])
+    n_classes = len(TARGET_EMOTIONS)
+    log.info(f"Classes: {TARGET_EMOTIONS}")
+
+    # Create dummy encoder object for backward compatibility in saving
+    class MockEncoder:
+        @property
+        def classes_(self):
+            return np.array(TARGET_EMOTIONS)
+    encoder = MockEncoder()
 
     # ── 70/15/15 split ────────────────────────────────────────────────────
     (X_a_tr, X_t_tr, y_tr,

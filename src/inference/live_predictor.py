@@ -87,7 +87,7 @@ class LivePredictor:
         if self.has_whisper:
             try:
                 # Whisper expects float32
-                result = self.whisper_model.transcribe(audio_data.astype(np.float32))
+                result = self.whisper_model.transcribe(audio_data.astype(np.float32), fp16=False)
                 transcript = result['text'].strip()
             except Exception as e:
                 logger.error(f"Whisper failed: {e}")

@@ -154,19 +154,19 @@ const LiveAnalysisPage = () => {
                 analyserRef.current = analyser;
                 source.connect(analyser);
 
-                // ScriptProcessor to capture raw PCM
-                const processor = ctx.createScriptProcessor(4096, 1, 1);
-                processorRef.current = processor;
+                await ctx.audioWorklet.addModule('/audio-processor.js');
+                const workletNode = new AudioWorkletNode(ctx, 'mic-audio-processor');
+                processorRef.current = workletNode;
 
-                processor.onaudioprocess = (e) => {
+                workletNode.port.onmessage = (e) => {
                     if (ws.readyState !== WebSocket.OPEN) return;
-                    const raw = e.inputBuffer.getChannelData(0);
+                    const raw = e.data;
                     const resampled = downsample(raw, ctx.sampleRate, TARGET_SR);
                     ws.send(resampled.buffer);
                 };
 
-                source.connect(processor);
-                processor.connect(ctx.destination);
+                source.connect(workletNode);
+                workletNode.connect(ctx.destination);
 
                 setStatus('recording');
                 updateMicLevel();

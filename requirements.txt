@@ -18,13 +18,15 @@ scipy==1.11.4
 webrtcvad-wheels
 praat-parselmouth==0.4.3
 fastapi==0.104.1
-uvicorn==0.24.0
+uvicorn[standard]==0.24.0
 python-multipart==0.0.6
 slowapi==0.1.8
 pytest==7.4.3
 httpx==0.25.1
-huggingface_hub==1.4.1
+huggingface_hub<1.0,>=0.16.4
 noisereduce>=3.0.0
 imbalanced-learn>=0.11.0
 captum>=0.7.0
 reportlab>=4.0.0
+sounddevice>=0.4.6
+websockets>=12.0

@@ -297,6 +297,19 @@ async def get_call_detail(call_id: str):
         
     with open(fpath, 'r') as f:
         data = json.load(f)
+        
+    # Populate top_3_predictions dynamically for frontend
+    if 'overall_metrics' in data and 'emotion_distribution' in data['overall_metrics']:
+        dist = data['overall_metrics']['emotion_distribution']
+        if dist:
+            sorted_emotions = sorted(dist.items(), key=lambda x: x[1], reverse=True)[:3]
+            data['overall_metrics']['top_3_predictions'] = [
+                {"emotion": k, "confidence": round(v * 100, 1)}
+                for k, v in sorted_emotions
+            ]
+        else:
+            data['overall_metrics']['top_3_predictions'] = []
+            
     return data
 
 @app.get("/api/calls/{call_id}/xai-report")
@@ -1003,14 +1016,21 @@ async def explain_call(call_id: str):
     then computes per-feature attribution via HAAMExplainer.
     """
     import numpy as np
+    
+    logger.info(f"EXPLAIN ENDPOINT HIT FOR CALL ID: {call_id}")
 
     # ── Locate call JSON ──────────────────────────────────────────────────────
     search_dirs = [CALLS_DIR, "results/calls_cremad", CALLS_DIR_IEMOCAP]
     call_path = None
     for d in search_dirs:
-        candidate = os.path.join(d, f"call_{call_id}.json")
+        candidate = os.path.join(d, f"{call_id}.json")
+        candidate_prefix = os.path.join(d, f"call_{call_id}.json")
+        
         if os.path.exists(candidate):
             call_path = candidate
+            break
+        elif os.path.exists(candidate_prefix):
+            call_path = candidate_prefix
             break
 
     if not call_path:
@@ -1109,11 +1129,16 @@ async def explain_call(call_id: str):
         logger.error(f"XAI explain failed: {e}")
         raise HTTPException(status_code=500, detail=f"XAI failed: {e}")
 
-    return {
+    xai_result["call_id"] = call_id
+    
+    # Return both flattened (new UI) and nested (old UI cache) structures safely
+    response_payload = {
         "call_id": call_id,
         "xai": xai_result,
     }
-
+    response_payload.update(xai_result)
+    
+    return response_payload
 
 
 # Init pipeline on import if desired, or let first request handle it.
@@ -1181,8 +1206,17 @@ async def mic_stream_endpoint(websocket: WebSocket):
     from collections import deque
 
     # ── Session state ─────────────────────────────────────────────────────────
-    CHUNK_SAMPLES  = 16000   # 1 second at 16kHz (was 2s = 32000)
-    audio_buffer   = np.array([], dtype=np.float32)
+    CHUNK_SAMPLES  = 16000   
+    SAMPLE_RATE    = 16000
+    VAD_THRESHOLD_DB = -35
+    rms_threshold  = 10 ** (VAD_THRESHOLD_DB / 20)
+    
+    recv_buffer     = np.array([], dtype=np.float32)
+    speech_buffer   = []
+    pre_roll_buffer = deque(maxlen=4)
+    is_speaking     = False
+    silence_samples = 0
+
     emotion_history = deque(maxlen=20)
     emotion_counts  = {}
     turn_count      = 0
@@ -1210,62 +1244,81 @@ async def mic_stream_endpoint(websocket: WebSocket):
             if 'bytes' in msg and msg['bytes']:
                 # Incoming: raw float32 PCM bytes from browser
                 chunk = np.frombuffer(msg['bytes'], dtype=np.float32)
-                prev_len = len(audio_buffer)
-                audio_buffer = np.concatenate([audio_buffer, chunk])
+                recv_buffer = np.concatenate([recv_buffer, chunk])
 
-                # Instant feedback: tell browser we're receiving audio (first chunk only per run)
-                if prev_len == 0 and len(audio_buffer) > 0:
-                    await websocket.send_json({'type': 'listening'})
+                # Process chunks of 4096 for VAD
+                while len(recv_buffer) >= 4096:
+                    block = recv_buffer[:4096]
+                    recv_buffer = recv_buffer[4096:]
 
-                # Process when we have enough audio (1 second = 16000 samples)
-                while len(audio_buffer) >= CHUNK_SAMPLES:
-                    segment      = audio_buffer[:CHUNK_SAMPLES]
-                    audio_buffer = audio_buffer[CHUNK_SAMPLES:]
+                    rms = np.sqrt(np.mean(block**2))
+                    if rms > rms_threshold:
+                        if not is_speaking:
+                            is_speaking = True
+                            await websocket.send_json({'type': 'listening'})
+                            speech_buffer.extend(pre_roll_buffer)
+                            pre_roll_buffer.clear()
+                        silence_samples = 0
+                        speech_buffer.append(block)
+                    else:
+                        if is_speaking:
+                            speech_buffer.append(block)
+                            silence_samples += len(block)
 
-                    # Tell frontend inference has started
-                    await websocket.send_json({'type': 'processing'})
+                            # 1.5 seconds of silence ends the turn
+                            if silence_samples >= SAMPLE_RATE * 1.5:
+                                full_audio = np.concatenate(speech_buffer)
+                                speech_buffer = []
+                                is_speaking = False
+                                silence_samples = 0
 
-                    try:
-                        result = engine.predict_array(segment, sr=16000)
-                    except Exception as e:
-                        logger.warning(f"Inference error on mic chunk: {e}")
-                        continue
+                                # Only process if duration >= 2.0 seconds
+                                if len(full_audio) >= SAMPLE_RATE * 2.0:
+                                    await websocket.send_json({'type': 'processing'})
 
-                    # ── Session tracking ──────────────────────────────────────
-                    turn_count += 1
-                    emo = result['predicted_emotion']
-                    emotion_counts[emo] = emotion_counts.get(emo, 0) + 1
-                    emotion_history.append(emo)
+                                    try:
+                                        result = engine.predict_array(full_audio, sr=SAMPLE_RATE)
+                                    except Exception as e:
+                                        logger.warning(f"Inference error on mic chunk: {e}")
+                                        continue
 
-                    dominant = max(emotion_counts, key=emotion_counts.get)
-                    neg_pct  = sum(emotion_counts.get(e, 0) for e in ['anger','fear','disgust','sadness'])
-                    risk     = round(neg_pct / turn_count, 2)
+                                    # ── Session tracking ──────────────────────────────────────
+                                    turn_count += 1
+                                    emo = result['predicted_emotion']
+                                    emotion_counts[emo] = emotion_counts.get(emo, 0) + 1
+                                    emotion_history.append(emo)
 
-                    # Trend from last 5 turns
-                    recent_scores = [score_map.get(e, 0) for e in list(emotion_history)[-5:]]
-                    trend = 'Stable'
-                    if len(recent_scores) > 1:
-                        slope = np.polyfit(range(len(recent_scores)), recent_scores, 1)[0]
-                        if slope < -0.2: trend = '⬇ Worsening'
-                        elif slope > 0.2: trend = '⬆ Improving'
+                                    dominant = max(emotion_counts, key=emotion_counts.get)
+                                    neg_pct  = sum(emotion_counts.get(e, 0) for e in ['anger','fear','disgust','sadness'])
+                                    risk     = round(neg_pct / turn_count, 2)
 
-                    session = {
-                        'turn_count':       turn_count,
-                        'dominant_emotion': dominant,
-                        'risk_score':       risk,
-                        'trend':            trend,
-                        'emotion_counts':   emotion_counts,
-                    }
+                                    # Trend from last 5 turns
+                                    recent_scores = [score_map.get(e, 0) for e in list(emotion_history)[-5:]]
+                                    trend = 'Stable'
+                                    if len(recent_scores) > 1:
+                                        slope = np.polyfit(range(len(recent_scores)), recent_scores, 1)[0]
+                                        if slope < -0.2: trend = '⬇ Worsening'
+                                        elif slope > 0.2: trend = '⬆ Improving'
 
-                    await websocket.send_json({
-                        'type':               'turn_result',
-                        'emotion':            result['predicted_emotion'],
-                        'confidence':         round(result['confidence'], 3),
-                        'transcript':         result.get('transcript', ''),
-                        'emotion_distribution': result.get('emotion_distribution', {}),
-                        'fusion_weights':     result.get('fusion_weights', {}),
-                        'session':            session,
-                    })
+                                    session = {
+                                        'turn_count':       turn_count,
+                                        'dominant_emotion': dominant,
+                                        'risk_score':       risk,
+                                        'trend':            trend,
+                                        'emotion_counts':   emotion_counts,
+                                    }
+
+                                    await websocket.send_json({
+                                        'type':               'turn_result',
+                                        'emotion':            result['predicted_emotion'],
+                                        'confidence':         round(result['confidence'], 3),
+                                        'transcript':         result.get('transcript', ''),
+                                        'emotion_distribution': result.get('emotion_distribution', {}),
+                                        'fusion_weights':     result.get('fusion_weights', {}),
+                                        'session':            session,
+                                    })
+                        else:
+                            pre_roll_buffer.append(block)
 
             elif 'text' in msg and msg['text'] == 'ping':
                 await websocket.send_text('pong')

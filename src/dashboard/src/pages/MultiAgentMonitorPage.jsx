@@ -75,15 +75,16 @@ const AgentTile = ({ agent, onRemove }) => {
                 const analyser = ctx.createAnalyser(); analyser.fftSize = 256;
                 analyserRef.current = analyser;
                 source.connect(analyser);
-                const processor = ctx.createScriptProcessor(4096, 1, 1);
-                processorRef.current = processor;
-                processor.onaudioprocess = (e) => {
+                await ctx.audioWorklet.addModule('/audio-processor.js');
+                const workletNode = new AudioWorkletNode(ctx, 'mic-audio-processor');
+                processorRef.current = workletNode;
+                workletNode.port.onmessage = (e) => {
                     if (ws.readyState !== WebSocket.OPEN) return;
-                    const raw = e.inputBuffer.getChannelData(0);
+                    const raw = e.data;
                     ws.send(downsample(raw, ctx.sampleRate, TARGET_SR).buffer);
                 };
-                source.connect(processor);
-                processor.connect(ctx.destination);
+                source.connect(workletNode);
+                workletNode.connect(ctx.destination);
                 setStatus('recording');
                 levelLoop();
             } catch (err) {

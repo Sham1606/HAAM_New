@@ -140,11 +140,8 @@ def process_datasets():
                     # Load audio (sr=16000 default)
                     y, sr = librosa.load(audio_path, sr=16000)
                     
-                    # Extract 20-dim features
-                    # The class I viewed shows extract_from_signal calling _extract_features
-                    # But extract_array calls super().extract_array
-                    # Let's use extract_from_signal as it seems to be the 'improved' one
-                    features = extractor.extract_from_signal(y, sr) 
+                    # Extract 20-dim features as a proper NumPy array
+                    features = extractor.extract_array(y, sr) 
                     
                     # Save
                     np.save(os.path.join(OUTPUT_DIR, f"{out_name}.npy"), features)

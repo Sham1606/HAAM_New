@@ -23,6 +23,7 @@ class OverallMetricsModel(BaseModel):
     agent_stress_score: float
     speech_rate_wpm: Optional[float] = 0.0
     avg_pitch: float
+    top_3_predictions: Optional[List[Dict[str, Any]]] = None
 
 class CallDetailResponse(BaseModel):
     call_id: str

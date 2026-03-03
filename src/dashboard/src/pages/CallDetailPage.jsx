@@ -108,7 +108,7 @@ const EmotionPie = ({ distribution }) => {
 // ─── Top3 Predictions Bar Chart ───────────────────────────────────────────────
 const PredictionsBar = ({ predictions }) => {
     if (!predictions || predictions.length === 0) return <p className="text-sm text-gray-400 italic">No prediction data</p>;
-    const data = predictions.map(([emo, score]) => ({ emotion: emo, confidence: Math.round(score * 100) }));
+    const data = predictions.map(p => ({ emotion: p.emotion, confidence: Math.round((p.confidence || p.score * 100 || 0)) }));
     return (
         <ResponsiveContainer width="100%" height={160}>
             <BarChart data={data} layout="vertical" margin={{ left: 10, right: 30 }}>
@@ -174,7 +174,7 @@ const XAIPanel = ({ callData, acousticFusion }) => {
     useEffect(() => {
         if (!callId) { setXaiLoading(false); return; }
         callsAPI.getXaiReport(callId)
-            .then(res => setXaiData(res.data?.xai || null))
+            .then(res => setXaiData(res.data || null))
             .catch(() => setXaiData(null))
             .finally(() => setXaiLoading(false));
     }, [callId]);

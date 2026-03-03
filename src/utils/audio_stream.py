@@ -1,4 +1,3 @@
-
 import numpy as np
 import sounddevice as sd
 import queue
@@ -13,9 +12,9 @@ AUDIO_config = {
     "SAMPLE_RATE": 16000,
     "BLOCK_SIZE": 4096,        # Processing chunk size
     "VAD_THRESHOLD_DB": -35,   # Energy threshold for speech
-    "SILENCE_DURATION": 0.6,   # Seconds of silence to end a turn (was 2.0)
-    "MIN_TURN_DURATION": 0.5,  # Minimum speech duration to process
-    "MAX_TURN_DURATION": 8.0   # Max duration to force a cut (was 15.0)
+    "SILENCE_DURATION": 1.5,   # Seconds of silence to end a turn (increased from 0.6 to 1.5 so it waits longer before sending)
+    "MIN_TURN_DURATION": 2.0,  # Minimum speech duration to process (increased from 0.8 to 2.0 for better context)
+    "MAX_TURN_DURATION": 15.0  # Max duration to force a cut (increased from 8.0 to 15.0)
 }
 
 class AudioStreamManager:
@@ -26,6 +25,7 @@ class AudioStreamManager:
         """
         self.callback = callback_function
         self.q = queue.Queue()
+        self.callback_q = queue.Queue() # Prevents thread explosion
         self.running = False
         self.stream = None
         
@@ -47,7 +47,7 @@ class AudioStreamManager:
     def _audio_callback(self, indata, frames, time, status):
         """Called by sounddevice for each audio block"""
         if status:
-            logger.warning(f"Audio status: {status}")
+            pass # Suppressed constant warning to avoid console spam
         self.q.put(indata.copy())
 
     def _process_loop(self):
@@ -69,7 +69,6 @@ class AudioStreamManager:
                     if not self.is_speaking:
                         self.is_speaking = True
                         self.turn_start_time = time.time()
-                        # logger.debug("Speech started")
                     
                     self.silence_start = None # Reset silence timer
                     self.buffer.append(data)
@@ -92,8 +91,21 @@ class AudioStreamManager:
             except Exception as e:
                 logger.error(f"Error in audio processing: {e}")
 
+    def _callback_worker_loop(self):
+        """Processes turns strictly ONE AT A TIME so we don't crash Windows/CPU"""
+        while self.running:
+            try:
+                full_audio, start_time = self.callback_q.get(timeout=0.5)
+                # Only process if audio is long enough
+                if len(full_audio) >= int(AUDIO_config["MIN_TURN_DURATION"] * self.sample_rate):
+                    self.callback(full_audio, start_time)
+            except queue.Empty:
+                continue
+            except Exception as e:
+                logger.error(f"Callback worker failed: {e}")
+
     def _flush_turn(self):
-        """Finalize turn and send to callback"""
+        """Finalize turn and send to callback queue"""
         if not self.buffer:
             return
             
@@ -101,12 +113,12 @@ class AudioStreamManager:
         duration = len(full_audio) / self.sample_rate
         
         if duration >= AUDIO_config["MIN_TURN_DURATION"]:
-            logger.info(f"Turn detected: {duration:.2f}s")
-            # Run callback in a separate thread to not block audio processing
+            logger.info(f"Turn detected: {duration:.2f}s... Added to processing queue.")
+            # Put in queue instead of creating a new thread each time
             try:
-                threading.Thread(target=self.callback, args=(full_audio, self.turn_start_time)).start()
+                self.callback_q.put((full_audio, self.turn_start_time))
             except Exception as e:
-                logger.error(f"Callback failed: {e}")
+                logger.error(f"Failed to queue callback: {e}")
         
         # Reset state
         self.buffer = []
@@ -127,8 +139,14 @@ class AudioStreamManager:
             )
             self.stream.start()
             
+            # Start mic consumer
             self.thread = threading.Thread(target=self._process_loop)
             self.thread.start()
+            
+            # Start prediction sequencer worker
+            self.worker_thread = threading.Thread(target=self._callback_worker_loop)
+            self.worker_thread.start()
+            
             logger.info("Microphone stream started. Listening...")
         except Exception as e:
             logger.error(f"Failed to start audio stream: {e}")

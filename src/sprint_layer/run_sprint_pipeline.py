@@ -110,7 +110,7 @@ class SprintPipeline:
         Returns the full result dict from Whisper (text + segments).
         """
         try:
-            result = self.whisper_model.transcribe(audio_path)
+            result = self.whisper_model.transcribe(audio_path, fp16=False)
             return result
         except Exception as e:
             logger.error(f"Error transcribing audio: {e}")
@@ -196,7 +196,7 @@ class SprintPipeline:
         # Or just call model directly here?
         # Let's check transcribe_audio signature. It uses self.whisper_model.transcribe(path).
         # We can pass 'y' (float32 array) to it instead of path.
-        transcription_result = self.whisper_model.transcribe(y.astype(np.float32))
+        transcription_result = self.whisper_model.transcribe(y.astype(np.float32), fp16=False)
         full_transcript = transcription_result['text']
         whisper_segments = transcription_result['segments']
 
