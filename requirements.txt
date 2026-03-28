@@ -1,32 +1,49 @@
+# ─── Core ML/DL ────────────────────────────────────────────────────
 torch==2.1.0
 torchaudio==2.1.0
 transformers==4.35.2
 datasets==2.15.0
+openai-whisper
+captum>=0.7.0
+
+# ─── Audio Processing ─────────────────────────────────────────────
 librosa==0.10.1
-pyannote.audio==3.1.1
-moviepy==1.0.3
+sounddevice>=0.4.6
+webrtcvad-wheels
+praat-parselmouth==0.4.3
+noisereduce>=3.0.0
+
+# ─── Data & Visualization ─────────────────────────────────────────
 pandas==2.1.4
 numpy==1.26.4
 scikit-learn==1.3.2
 matplotlib==3.8.2
 seaborn==0.13.0
-flask==3.0.0
-python-dotenv==1.0.0
-tqdm==4.66.1
-openai-whisper
 scipy==1.11.4
-webrtcvad-wheels
-praat-parselmouth==0.4.3
+imbalanced-learn>=0.11.0
+
+# ─── Backend API ───────────────────────────────────────────────────
 fastapi==0.104.1
 uvicorn[standard]==0.24.0
 python-multipart==0.0.6
 slowapi==0.1.8
+websockets>=12.0
+
+# ─── Authentication & Database ─────────────────────────────────────
+sqlalchemy>=2.0.0
+passlib[bcrypt]>=1.7.4
+bcrypt==4.0.1
+python-jose[cryptography]>=3.3.0
+
+# ─── Reports & Export ──────────────────────────────────────────────
+reportlab>=4.0.0
+
+# ─── Utilities ─────────────────────────────────────────────────────
+python-dotenv==1.0.0
+tqdm==4.66.1
+huggingface_hub<1.0,>=0.16.4
+requests>=2.31.0
+
+# ─── Testing ───────────────────────────────────────────────────────
 pytest==7.4.3
 httpx==0.25.1
-huggingface_hub<1.0,>=0.16.4
-noisereduce>=3.0.0
-imbalanced-learn>=0.11.0
-captum>=0.7.0
-reportlab>=4.0.0
-sounddevice>=0.4.6
-websockets>=12.0

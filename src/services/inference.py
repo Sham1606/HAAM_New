@@ -64,7 +64,7 @@ class HybridInference:
         self.preprocessor = AudioPreprocessor()
         self.acoustic_extractor = ImprovedAcousticExtractor()
         self.text_extractor = EmotionTextExtractor()
-        self.whisper_model = whisper.load_model("base")
+        self.whisper_model = whisper.load_model("tiny") # Optimized for latency
         
         # 2. Dynamic Model Loading
         if os.path.exists(MODEL_PATH):
@@ -122,7 +122,7 @@ class HybridInference:
             logger.error(f"Inference error: {e}")
             raise e
 
-    def predict_array(self, audio, sr=16000):
+    def predict_array(self, audio, sr=16000, text=None):
         start_time = time.time()
         try:
             # 1. Acoustic Features (In-Memory)
@@ -132,9 +132,12 @@ class HybridInference:
             
             # 2. Text & Sentiment (Whisper + DistilRoBERTa)
             # Transcribe
-            audio_32 = audio.astype(np.float32)
-            res = self.whisper_model.transcribe(audio_32, fp16=False) 
-            transcript = res['text'].strip()
+            if text is not None:
+                transcript = text.strip()
+            else:
+                audio_32 = audio.astype(np.float32)
+                res = self.whisper_model.transcribe(audio_32, fp16=False) 
+                transcript = res['text'].strip()
             if not transcript: transcript = "."
             
             # Text features & embeddings

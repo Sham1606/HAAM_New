@@ -127,7 +127,7 @@ class SprintPipeline:
              return "neutral", 0.0, 0.5
 
         try:
-            res = self.inference_engine.predict_array(y_segment, sr=sr)
+            res = self.inference_engine.predict_array(y_segment, sr=sr, text=text)
             
             # SprintPipeline expects: emotion, sentiment_score, confidence, metadata
             sentiment_score = 0.0 

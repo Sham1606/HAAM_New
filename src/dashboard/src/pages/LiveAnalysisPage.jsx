@@ -7,9 +7,10 @@ import {
     LineChart, Line, XAxis, YAxis, CartesianGrid,
     Tooltip, ResponsiveContainer, Cell, BarChart, Bar
 } from 'recharts';
+import { useAuth } from '../services/AuthContext';
 
 // ─── Constants ────────────────────────────────────────────────────────────────
-const WS_URL = 'ws://localhost:8000/ws/mic-stream';
+const WS_BASE = 'ws://localhost:8000/ws/mic-stream';
 const TARGET_SR = 16000;
 
 const EMOTION_CONFIG = {
@@ -61,8 +62,9 @@ const EmotionDistBar = ({ distribution }) => {
 // ─── Emotion Timeline Chart ────────────────────────────────────────────────────
 const EmotionTimeline = ({ turns }) => {
     const emotionToScore = { neutral: 0, sadness: -1, fear: -2, disgust: -2, anger: -3 };
+    const startIndex = Math.max(0, turns.length - 15);
     const data = turns.slice(-15).map((t, i) => ({
-        turn: `T${i + 1}`, score: emotionToScore[t.emotion] ?? 0, emotion: t.emotion,
+        turn: `T${startIndex + i + 1}`, score: emotionToScore[t.emotion] ?? 0, emotion: t.emotion,
     }));
     return (
         <ResponsiveContainer width="100%" height={130}>
@@ -73,7 +75,7 @@ const EmotionTimeline = ({ turns }) => {
                     tickFormatter={v => ['😠', '😨', '😢', '😐', '😊'][v + 3]} tick={{ fontSize: 12 }} />
                 <Tooltip formatter={(v, _, p) => [p.payload.emotion, 'Emotion']} />
                 <Line type="monotone" dataKey="score" stroke="#6366f1" strokeWidth={2}
-                    dot={{ r: 4, fill: '#6366f1' }} activeDot={{ r: 6 }} />
+                    dot={{ r: 4, fill: '#6366f1' }} activeDot={{ r: 6 }} isAnimationActive={false} />
             </LineChart>
         </ResponsiveContainer>
     );
@@ -81,6 +83,7 @@ const EmotionTimeline = ({ turns }) => {
 
 // ─── Main Page ────────────────────────────────────────────────────────────────
 const LiveAnalysisPage = () => {
+    const { user } = useAuth();
     const [status, setStatus] = useState('idle');     // idle | connecting | recording | error
     const [turns, setTurns] = useState([]);
     const [currentTurn, setCurrentTurn] = useState(null);
@@ -131,8 +134,9 @@ const LiveAnalysisPage = () => {
         setErrorMsg('');
         setStatus('connecting');
 
-        // 1. Connect WebSocket first
-        const ws = new WebSocket(WS_URL);
+        // 1. Connect WebSocket with agent_id for admin monitoring
+        const wsUrl = user?.id ? `${WS_BASE}?agent_id=${user.id}` : WS_BASE;
+        const ws = new WebSocket(wsUrl);
         wsRef.current = ws;
 
         ws.onopen = async () => {

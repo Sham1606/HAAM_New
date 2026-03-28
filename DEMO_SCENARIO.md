@@ -1,4 +1,3 @@
-
 # HAAM Framework Demo Scenario
 
 This guide walks through a full usage scenario of the HAAM framework.

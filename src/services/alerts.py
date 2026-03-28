@@ -144,6 +144,28 @@ class AlertService:
                 raise RuntimeError(f"Slack returned HTTP {resp.status}")
         logger.info("Slack alert sent.")
 
+    def send_direct_agent_alert(self, agent_id: str, email: str, risk_score: float, summary: dict):
+        """Sends an on-demand alert to a specific email address (bypassing global recipients)."""
+        cfg = self.config.get("email", {})
+        if not cfg.get("sender"):
+            raise ValueError("Email sender not configured in Alert settings. Cannot send direct alert.")
+
+        subject = f"⚠️ HAAM Alert — High Risk Detected for Agent {agent_id}"
+        body = self._format_body(agent_id, risk_score, summary)
+
+        msg = MIMEMultipart()
+        msg["From"] = cfg["sender"]
+        msg["To"] = email
+        msg["Subject"] = subject
+        msg.attach(MIMEText(body, "plain"))
+
+        with smtplib.SMTP(cfg["smtp_host"], cfg["smtp_port"]) as server:
+            server.starttls()
+            server.login(cfg["sender"], cfg["password"])
+            server.sendmail(cfg["sender"], [email], msg.as_string())
+        
+        logger.info(f"Direct agent alert successfully sent to {email}")
+
 
 # Module-level singleton
 alert_service = AlertService()

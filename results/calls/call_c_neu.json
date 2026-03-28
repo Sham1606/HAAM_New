@@ -1,0 +1,46 @@
+{
+  "call_id": "c_neu",
+  "agent_id": "agent_001",
+  "timestamp": "2026-03-27T20:40:31.166310",
+  "duration_seconds": 2.3,
+  "transcript": "The airplane is almost full. The airplane is almost full.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "The airplane is almost full. The airplane is almost full.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.911,
+      "emotion_distribution": {
+        "anger": 0.016019238159060478,
+        "disgust": 0.007071202155202627,
+        "fear": 0.029065271839499474,
+        "neutral": 0.9106186628341675,
+        "sadness": 0.03722558170557022
+      },
+      "attention_weights": {
+        "acoustic": 0.586,
+        "text": 0.414
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 297.18
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "anger": 0.016,
+      "disgust": 0.007,
+      "fear": 0.029,
+      "neutral": 0.911,
+      "sadness": 0.037
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.5,
+    "speech_rate_wpm": 260.61,
+    "avg_pitch": 295.64,
+    "avg_audio_attn": 0.586,
+    "avg_text_attn": 0.414
+  }
+}

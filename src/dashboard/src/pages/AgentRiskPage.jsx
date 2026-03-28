@@ -11,7 +11,8 @@ import {
 import {
     Users, AlertTriangle, Shield, TrendingUp, TrendingDown,
     Minus, ChevronRight, X, Phone, Mic, Activity, Brain,
-    CheckCircle, Search, RefreshCw, Info, Volume2, MessageSquare
+    CheckCircle, Search, RefreshCw, Info, Volume2, MessageSquare,
+    Mail, Send
 } from 'lucide-react';
 
 // ─── Constants ─────────────────────────────────────────────────────────────
@@ -68,6 +69,27 @@ const AgentDetailPanel = ({ agent, onClose }) => {
     const [risk, setRisk] = useState(null);
     const [busy, setBusy] = useState(true);
     const [tab, setTab] = useState('overview');
+    const [sendingAlert, setSendingAlert] = useState(false);
+    const [alertFeedback, setAlertFeedback] = useState(null);
+
+    const handleSendAlert = async () => {
+        setSendingAlert(true);
+        setAlertFeedback(null);
+        try {
+            const res = await fetch(`http://localhost:8000/api/agents/${agent.agent_id}/alert`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ email: 'shamganesh1606@gmail.com' }), // Spec required recipient
+            });
+            if (!res.ok) throw new Error(await res.text());
+            setAlertFeedback({ type: 'success', msg: 'Alert successfully sent to shamganesh1606@gmail.com' });
+        } catch (e) {
+            setAlertFeedback({ type: 'error', msg: 'Failed to send alert. Check backend logs.' });
+        } finally {
+            setSendingAlert(false);
+            setTimeout(() => setAlertFeedback(null), 5000);
+        }
+    };
 
     useEffect(() => {
         const load = async () => {
@@ -212,6 +234,48 @@ const AgentDetailPanel = ({ agent, onClose }) => {
                                                     <Line type="monotone" dataKey="score" stroke="#6366f1" strokeWidth={2} dot={{ fill: '#6366f1', r: 3 }} />
                                                 </LineChart>
                                             </ResponsiveContainer>
+                                        </div>
+                                    )}
+
+                                    {/* Explainability & Actions (Only visible for High/Critical Risk) */}
+                                    {['high', 'critical'].includes((risk?.risk_level || agent.risk_level || 'low').toLowerCase()) && (
+                                        <div className="bg-red-50 border border-red-100 rounded-2xl p-5 mt-6 animate-fadeIn">
+                                            <h3 className="text-sm font-bold text-red-800 uppercase tracking-wider mb-3 flex items-center gap-2">
+                                                <AlertTriangle className="h-5 w-5" /> High Risk Explainability
+                                            </h3>
+                                            <div className="bg-white rounded-xl p-4 text-sm text-gray-700 shadow-sm mb-4">
+                                                <p className="font-semibold text-gray-900 mb-2">Automated Risk Assessment:</p>
+                                                {risk?.risk_factors?.length > 0 ? (
+                                                    <ul className="list-disc list-inside space-y-1 text-gray-600">
+                                                        {risk.risk_factors.map((rf, idx) => (
+                                                            <li key={idx}><strong>{rf.factor}:</strong> {rf.description}</li>
+                                                        ))}
+                                                    </ul>
+                                                ) : (
+                                                    <p className="italic text-gray-500">Agent sustained high levels of stress and negative dominant emotions across multiple recent calls.</p>
+                                                )}
+                                            </div>
+
+                                            <div className="flex items-center justify-between border-t border-red-200 pt-4">
+                                                <div>
+                                                    <p className="text-xs font-semibold text-red-800">Action Required</p>
+                                                    <p className="text-xs text-red-600 mt-0.5">Notify management or take agent offline for coaching.</p>
+                                                </div>
+                                                <button
+                                                    onClick={handleSendAlert}
+                                                    disabled={sendingAlert}
+                                                    className="flex items-center gap-2 px-4 py-2 bg-red-600 text-white font-bold rounded-xl hover:bg-red-700 transition disabled:opacity-50"
+                                                >
+                                                    {sendingAlert ? <RefreshCw className="h-4 w-4 animate-spin" /> : <Send className="h-4 w-4" />}
+                                                    {sendingAlert ? 'Sending...' : 'Send Alert Mail'}
+                                                </button>
+                                            </div>
+                                            {alertFeedback && (
+                                                <div className={`mt-3 p-3 rounded-lg text-xs font-semibold flex items-center gap-2 ${alertFeedback.type === 'success' ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'}`}>
+                                                    {alertFeedback.type === 'success' ? <CheckCircle className="h-4 w-4" /> : <AlertTriangle className="h-4 w-4" />}
+                                                    {alertFeedback.msg}
+                                                </div>
+                                            )}
                                         </div>
                                     )}
                                 </div>

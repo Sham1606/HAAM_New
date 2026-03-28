@@ -1,0 +1,46 @@
+{
+  "call_id": "c_SAD_test",
+  "agent_id": "agent_001",
+  "timestamp": "2026-03-27T20:43:56.853415",
+  "duration_seconds": 2.67,
+  "transcript": "The airplane is almost full.",
+  "segments": [
+    {
+      "start_time": 0.0,
+      "end_time": 2.0,
+      "text": "The airplane is almost full.",
+      "emotion": "neutral",
+      "emotion_confidence": 0.919,
+      "emotion_distribution": {
+        "anger": 0.016705375164747238,
+        "disgust": 0.004963737912476063,
+        "fear": 0.026191189885139465,
+        "neutral": 0.9191445708274841,
+        "sadness": 0.0329950787127018
+      },
+      "attention_weights": {
+        "acoustic": 0.593,
+        "text": 0.407
+      },
+      "sentiment_score": 0.0,
+      "pitch_mean": 316.83
+    }
+  ],
+  "overall_metrics": {
+    "avg_sentiment": 0.0,
+    "dominant_emotion": "neutral",
+    "emotion_distribution": {
+      "anger": 0.017,
+      "disgust": 0.005,
+      "fear": 0.026,
+      "neutral": 0.919,
+      "sadness": 0.033
+    },
+    "escalation_flag": false,
+    "agent_stress_score": 0.2,
+    "speech_rate_wpm": 112.39,
+    "avg_pitch": 313.6,
+    "avg_audio_attn": 0.593,
+    "avg_text_attn": 0.407
+  }
+}

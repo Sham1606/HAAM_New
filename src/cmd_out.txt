@@ -1,0 +1,23 @@
+2. Backend API Test (Sprint Layer)
+POST /process: {
+  "call_id": "single_test_call",
+  "message": "Call queued for processing",
+  "status": "queued"
+}
+GET /calls/single_test_call: {
+  "emotion": "neutral",
+  "sentiment": 0.0,
+  "stress_score": 0.2,
+  "modality_weights": {
+    "audio": 0.65,
+    "text": 0.35
+  }
+}
+
+3. Marathon Layer Test (Trend Analysis)
+Aggregating marathon features...
+Updating risk scores...
+Risk JSON: {"agent_id":"agent_001","risk_score":0.0,"risk_level":"Low","risk_factors":[],"triggered_factors":[],"last_updated":"2026-03-27 20:44:07","sentiment_history":[]}
+
+4. XAI Explainability Test
+XAI: {'detail': 'XAI report not found'} ...

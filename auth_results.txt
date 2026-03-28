@@ -1,0 +1,157 @@
+============================================================
+TEST 1: Login as admin
+  Status: 200
+  Response: {
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbl8wMDEiLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3NzQ3MjUyNjd9.pPeTZg9T4u0PoEXosMp3QZp-aUYQMwwndRTC26XvMfo",
+  "token_type": "bearer",
+  "agent_id": "admin_001",
+  "role": "admin",
+  "display_name": "HAAM Admin"
+}
+
+TEST 2: Login as agent (sham)
+  Status: 200
+  Response: {
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZ2VudF8wMDEiLCJyb2xlIjoiYWdlbnQiLCJleHAiOjE3NzQ3MjUyNjl9.iMp7w1_Lv8Fe6aScJviEkZF5MQ-_Flouz9HZZQ7kIMA",
+  "token_type": "bearer",
+  "agent_id": "agent_001",
+  "role": "agent",
+  "display_name": "Sham"
+}
+
+TEST 3: GET /auth/me (admin)
+  Status: 200
+  Response: {
+  "id": "admin_001",
+  "username": "admin",
+  "role": "admin",
+  "status": "online",
+  "display_name": "HAAM Admin",
+  "avatar": "",
+  "created_at": "2026-03-27T19:05:38.189238"
+}
+
+TEST 4: GET /api/agents/me (agent)
+  Status: 200
+  Response: {
+  "id": "agent_001",
+  "username": "sham",
+  "role": "agent",
+  "status": "online",
+  "display_name": "Sham",
+  "avatar": "",
+  "created_at": "2026-03-27T19:05:38.495812"
+}
+
+TEST 5: GET /api/agents/status (admin-only)
+  Status: 200
+  Response: [
+  {
+    "id": "admin_001",
+    "username": "admin",
+    "display_name": "HAAM Admin",
+    "role": "admin",
+    "status": "online",
+    "live_emotion": null,
+    "feedback": null,
+    "last_ping": "2026-03-27T19:14:27.052301",
+    "avatar": ""
+  },
+  {
+    "id": "agent_001",
+    "username": "sham",
+    "display_name": "Sham",
+    "role": "agent",
+    "status": "online",
+    "live_emotion": null,
+    "feedback": null,
+    "last_ping": "2026-03-27T19:14:29.620939",
+    "avatar": ""
+  },
+  {
+    "id": "agent_002",
+    "username": "priya",
+    "display_name": "Priya",
+    "role": "agent",
+    "status": "offline",
+    "live_emotion": null,
+    "feedback": null,
+    "last_ping": "2026-03-27T19:05:38.793453",
+    "avatar": ""
+  },
+  {
+    "id": "agent_003",
+    "username": "rahul",
+    "display_name": "Rahul",
+    "role": "agent",
+    "status": "offline",
+    "live_emotion": null,
+    "feedback": null,
+    "last_ping": "2026-03-27T19:05:39.099346",
+    "avatar": ""
+  }
+]
+
+TEST 6: POST /api/status/heartbeat/agent_001 (agent)
+  Status: 200
+  Response: {
+  "agent_id": "agent_001",
+  "status": "online",
+  "last_ping": "2026-03-27T19:14:37.857819"
+}
+
+TEST 7: POST /api/feedback/predict
+  Status: 200
+  Response: {
+  "emotion": "anger",
+  "stress_score": 0.7,
+  "feedback": "\ud83d\udd36 Elevated frustration \u2014 try slowing speech pace. A brief pause between calls may help."
+}
+
+TEST 8: GET /api/agents/registered
+  Status: 200
+  Response: [
+  {
+    "id": "admin_001",
+    "username": "admin",
+    "display_name": "HAAM Admin",
+    "role": "admin",
+    "status": "online"
+  },
+  {
+    "id": "agent_001",
+    "username": "sham",
+    "display_name": "Sham",
+    "role": "agent",
+    "status": "online"
+  },
+  {
+    "id": "agent_002",
+    "username": "priya",
+    "display_name": "Priya",
+    "role": "agent",
+    "status": "offline"
+  },
+  {
+    "id": "agent_003",
+    "username": "rahul",
+    "display_name": "Rahul",
+    "role": "agent",
+    "status": "offline"
+  }
+]
+
+TEST 9: Invalid login (wrong password)
+  Status: 401
+  Response: {
+  "detail": "Invalid credentials"
+}
+
+TEST 10: GET /api/agents/status (agent = forbidden)
+  Status: 403
+  Response: {
+  "detail": "Admin access required"
+}
+
+============================================================
+ALL TESTS COMPLETED

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "D:\haam\HAAM_New\migrate.py", line 95, in <module>
+    migrate()
+  File "D:\haam\HAAM_New\migrate.py", line 55, in migrate
+    print(f"\U0001f4e6 Database path: {DB_PATH}")
+  File "C:\Users\SHAM\AppData\Local\Programs\Python\Python310\lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4e6' in position 0: character maps to <undefined>

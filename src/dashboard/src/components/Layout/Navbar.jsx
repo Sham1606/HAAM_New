@@ -1,20 +1,31 @@
 
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Activity } from 'lucide-react';
+import { Menu, X, Activity, LogOut, Shield, User } from 'lucide-react';
+import { useAuth } from '../../services/AuthContext';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const location = useLocation();
+    const { user, logout, isAdmin } = useAuth();
 
-    const navLinks = [
+    // ── Role-based navigation ────────────────────────────────────────────────
+    const adminLinks = [
         { name: 'Calls', path: '/' },
         { name: 'Agents', path: '/agents' },
         { name: 'Analytics', path: '/analytics' },
-        { name: 'Live Analysis', path: '/live' },
-        { name: 'Monitor', path: '/monitor' },
+        { name: 'Agent Grid', path: '/agent-grid' },
         { name: 'Alerts', path: '/alerts' },
     ];
+
+    const agentLinks = [
+        { name: 'My Dashboard', path: '/' },
+        { name: 'Live Analysis', path: '/live' },
+        { name: 'My Calls', path: '/my-calls' },
+        { name: 'My Feedback', path: '/my-feedback' },
+    ];
+
+    const navLinks = isAdmin ? adminLinks : agentLinks;
 
     const isActive = (path) => {
         return location.pathname === path ? 'text-primary border-b-2 border-primary' : 'text-gray-600 hover:text-primary';
@@ -41,6 +52,37 @@ const Navbar = () => {
                             ))}
                         </div>
                     </div>
+
+                    {/* User Info + Logout */}
+                    <div className="hidden sm:flex items-center gap-3">
+                        {user && (
+                            <>
+                                <div className="flex items-center gap-2 px-3 py-1.5 bg-gray-50 rounded-lg border border-gray-100">
+                                    {isAdmin ? (
+                                        <Shield className="h-3.5 w-3.5 text-purple-500" />
+                                    ) : (
+                                        <User className="h-3.5 w-3.5 text-indigo-500" />
+                                    )}
+                                    <span className="text-xs font-semibold text-gray-700">
+                                        {user.display_name || user.username}
+                                    </span>
+                                    <span className={`text-xs px-1.5 py-0.5 rounded-full font-medium ${isAdmin ? 'bg-purple-100 text-purple-600' : 'bg-blue-100 text-blue-600'
+                                        }`}>
+                                        {user.role}
+                                    </span>
+                                </div>
+                                <button
+                                    onClick={logout}
+                                    className="flex items-center gap-1 px-3 py-1.5 text-xs font-medium text-gray-500 hover:text-red-600 hover:bg-red-50 rounded-lg transition"
+                                    title="Sign out"
+                                >
+                                    <LogOut className="h-3.5 w-3.5" />
+                                    Logout
+                                </button>
+                            </>
+                        )}
+                    </div>
+
                     <div className="-mr-2 flex items-center sm:hidden">
                         <button
                             onClick={() => setIsOpen(!isOpen)}
@@ -69,6 +111,15 @@ const Navbar = () => {
                                 {link.name}
                             </Link>
                         ))}
+                        {user && (
+                            <button
+                                onClick={() => { logout(); setIsOpen(false); }}
+                                className="block w-full text-left pl-3 pr-4 py-2 border-l-4 border-transparent text-base font-medium text-red-600 hover:bg-red-50"
+                            >
+                                <LogOut className="h-4 w-4 inline mr-2" />
+                                Logout ({user.display_name || user.username})
+                            </button>
+                        )}
                     </div>
                 </div>
             )}

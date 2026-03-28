@@ -30,6 +30,7 @@ from datetime import datetime, timedelta
 import pandas as pd
 
 from fastapi import FastAPI, UploadFile, File, Form, HTTPException, BackgroundTasks, Query, Depends, Request
+from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from slowapi import Limiter, _rate_limit_exceeded_handler
@@ -50,6 +51,12 @@ from api.models import (
     ProcessCallResponse, CallSummaryModel, CallDetailResponse, 
     AgentStats, RiskProfileResponse, AnalyticsOverview, OperationStatus
 )
+
+# ── Auth & WebSocket imports ──────────────────────────────────────────────────
+from api.auth import router as auth_router, require_auth, require_admin, get_current_user
+from api.database import init_db, get_db
+from api import crud
+from api.websocket_manager import status_manager, generate_feedback
 
 # Configuration
 CALLS_DIR = "results/calls"
@@ -91,9 +98,15 @@ app.add_middleware(
 pipeline_instance: Optional[SprintPipeline] = None
 inference_engine: Optional[HybridInference] = None
 
+# ── Register Auth Router ──────────────────────────────────────────────────────
+app.include_router(auth_router)
+
 @app.on_event("startup")
 async def startup_event():
     logger.info("Application starting up...")
+    # Initialize SQLite database tables
+    init_db()
+    logger.info("SQLite database initialized.")
     # Load Inference Engine on startup for faster first request
     global inference_engine
     try:
@@ -824,6 +837,39 @@ async def test_alert():
     ]}
 
 
+class DirectAlertRequest(BaseModel):
+    email: str
+
+@app.post("/api/agents/{agent_id}/alert")
+async def send_agent_alert(agent_id: str, request: DirectAlertRequest, req: Request):
+    """Send a direct email alert regarding a specific agent's high risk score."""
+    
+    # We can fetch the agent's risk profile directly from the existing endpoint function
+    risk_data_response = await get_agent_risk(agent_id, req)
+    if not risk_data_response:
+        raise HTTPException(status_code=404, detail="Agent risk profile not found.")
+        
+    risk_score = risk_data_response.get("risk_score", 0.0)
+    
+    # We create a structured mock 'summary' to format the email body nicely
+    summary = {
+        "call_id": "Multiple Recent Calls",
+        "dominant_emotion": risk_data_response.get("risk_level", "Unknown").capitalize() + " Risk",
+        "confidence": 1.0,
+        "transcript_excerpt": "Risk Factors identified:\n- " + "\n- ".join(
+            [f.get("description", "") if isinstance(f, dict) else str(f) for f in risk_data_response.get("risk_factors", [])]
+        ) if risk_data_response.get("risk_factors") else "No specific factors identified, but stress trends are high."
+    }
+    
+    try:
+        alert_service.send_direct_agent_alert(agent_id, request.email, risk_score, summary)
+        return {"status": "success", "message": f"Alert sent to {request.email}"}
+    except ValueError as ve:
+        raise HTTPException(status_code=400, detail=str(ve))
+    except Exception as e:
+        logger.error(f"Failed to send direct alert for agent {agent_id}: {e}")
+        raise HTTPException(status_code=500, detail="Failed to send email alert.")
+
 # ─── Agent Report Export Endpoints ───────────────────────────────────────────
 
 @app.get("/api/agents/{agent_id}/export/csv")
@@ -1157,8 +1203,8 @@ async def start_live_pipeline():
     loop = asyncio.get_running_loop()
     live_pipeline.set_loop(loop)
     try:
-        live_pipeline.start_listening()   # server-side mic (optional)
-        logger.info("🎙️ HAAM Server-side mic pipeline active")
+        # live_pipeline.start_listening()   # server-side mic (disabled by default to prevent unwanted background processing)
+        logger.info("🎙️ HAAM Server-side mic pipeline ready (listening disabled until requested)")
     except Exception as e:
         logger.warning(f"Server mic not available (OK — browser mic mode active): {e}")
 
@@ -1190,17 +1236,25 @@ async def websocket_endpoint(websocket: WebSocket):
 # runs HybridInference per 2-second chunk, streams JSON results back.
 
 @app.websocket("/ws/mic-stream")
-async def mic_stream_endpoint(websocket: WebSocket):
+async def mic_stream_endpoint(websocket: WebSocket, agent_id: str = ""):
     """
     Browser-side mic streaming endpoint.
-    Protocol:
-      - Client sends binary frames: raw PCM float32 at 16000 Hz
-      - Server accumulates chunks (~2s = 32000 samples) then runs inference
-      - Server sends JSON: {type, emotion, confidence, transcript,
-                            emotion_distribution, fusion_weights, session}
+    Accepts optional ?agent_id=xxx query param to identify the streaming agent.
+    When agent_id is provided, live emotion results are broadcast to admin
+    dashboards via the status_manager WebSocket.
     """
     await websocket.accept()
-    logger.info("Browser mic stream connected")
+    logger.info(f"Browser mic stream connected (agent_id={agent_id or 'anonymous'})")
+
+    # Mark agent as on-call if identified
+    if agent_id:
+        try:
+            db = next(get_db())
+            crud.update_agent_status(db, agent_id, "on-call")
+            db.close()
+        except Exception:
+            pass
+        await status_manager.update_agent(agent_id, {"status": "on-call", "live_emotion": None, "feedback": None})
 
     import numpy as np
     from collections import deque
@@ -1317,6 +1371,23 @@ async def mic_stream_endpoint(websocket: WebSocket):
                                         'fusion_weights':     result.get('fusion_weights', {}),
                                         'session':            session,
                                     })
+
+                                    # ── Broadcast to admin dashboards ────────────
+                                    if agent_id:
+                                        stress = risk
+                                        feedback = generate_feedback(emo, stress, result['confidence'])
+                                        await status_manager.update_agent(agent_id, {
+                                            "status": "on-call",
+                                            "live_emotion": emo,
+                                            "confidence": round(result['confidence'], 3),
+                                            "transcript": result.get('transcript', '')[:100],
+                                            "feedback": feedback,
+                                            "turn_count": turn_count,
+                                            "risk_score": risk,
+                                            "trend": trend,
+                                            "dominant_emotion": dominant,
+                                            "emotion_counts": dict(emotion_counts),
+                                        })
                         else:
                             pre_roll_buffer.append(block)
 
@@ -1328,4 +1399,142 @@ async def mic_stream_endpoint(websocket: WebSocket):
     except Exception as e:
         logger.error(f"mic-stream error: {e}")
     finally:
-        logger.info("Browser mic stream disconnected")
+        # Mark agent offline when they disconnect
+        if agent_id:
+            try:
+                db = next(get_db())
+                crud.update_agent_status(db, agent_id, "online")
+                db.close()
+            except Exception:
+                pass
+            await status_manager.update_agent(agent_id, {
+                "status": "online", "live_emotion": None, "feedback": None
+            })
+        logger.info(f"Browser mic stream disconnected (agent_id={agent_id or 'anonymous'})")
+
+
+# ─── Auth-Protected Agent Endpoints ───────────────────────────────────────────
+
+@app.get("/api/agents/me")
+async def get_my_profile(agent=Depends(require_auth)):
+    """Own profile (JWT required)."""
+    return {
+        "id": agent.id,
+        "username": agent.username,
+        "role": agent.role,
+        "status": agent.status,
+        "display_name": agent.display_name or agent.username,
+        "avatar": agent.avatar or "",
+        "created_at": agent.created_at.isoformat() if agent.created_at else "",
+    }
+
+
+@app.get("/api/agents/status")
+async def get_all_agent_statuses(agent=Depends(require_admin), db=Depends(get_db)):
+    """Admin-only: Get live status of all registered agents."""
+    agents = crud.get_all_agents(db)
+    result = []
+    for a in agents:
+        live = status_manager.agent_states.get(a.id, {})
+        result.append({
+            "id": a.id,
+            "username": a.username,
+            "display_name": a.display_name or a.username,
+            "role": a.role,
+            "status": live.get("status", a.status),
+            "live_emotion": live.get("live_emotion", None),
+            "feedback": live.get("feedback", None),
+            "last_ping": a.last_ping.isoformat() if a.last_ping else None,
+            "avatar": a.avatar or "",
+        })
+    return result
+
+
+@app.post("/api/status/heartbeat/{agent_id}")
+async def heartbeat(agent_id: str, agent=Depends(require_auth), db=Depends(get_db)):
+    """Keep agent online. Agents can only heartbeat for themselves; admins can heartbeat anyone."""
+    if agent.role != "admin" and agent.id != agent_id:
+        raise HTTPException(status_code=403, detail="Cannot heartbeat for another agent")
+
+    updated = crud.heartbeat_agent(db, agent_id)
+    if not updated:
+        raise HTTPException(status_code=404, detail="Agent not found")
+
+    await status_manager.update_agent(agent_id, {"status": updated.status})
+    return {"agent_id": agent_id, "status": updated.status, "last_ping": updated.last_ping.isoformat()}
+
+
+@app.post("/api/status/update/{agent_id}")
+async def update_status(agent_id: str, request: Request, agent=Depends(require_auth), db=Depends(get_db)):
+    """Update agent status (online/on-call/offline)."""
+    if agent.role != "admin" and agent.id != agent_id:
+        raise HTTPException(status_code=403, detail="Cannot update another agent's status")
+
+    body = await request.json()
+    new_status = body.get("status", "online")
+    if new_status not in ("offline", "online", "on-call"):
+        raise HTTPException(status_code=400, detail="Status must be: offline, online, on-call")
+
+    updated = crud.update_agent_status(db, agent_id, new_status)
+    if not updated:
+        raise HTTPException(status_code=404, detail="Agent not found")
+
+    await status_manager.update_agent(agent_id, {"status": new_status})
+    return {"agent_id": agent_id, "status": new_status}
+
+
+@app.post("/api/feedback/predict")
+async def predict_feedback(request: Request):
+    """
+    Sprint-layer feedback: emotion + stress → natural language coaching.
+    Body: {"emotion": "anger", "stress_score": 0.7}
+    Returns: {"feedback": "High stress detected — take 5min break"}
+    """
+    body = await request.json()
+    emotion = body.get("emotion", "neutral")
+    stress = float(body.get("stress_score", 0.0))
+    confidence = float(body.get("confidence", 0.5))
+
+    feedback = generate_feedback(emotion, stress, confidence)
+    return {"emotion": emotion, "stress_score": stress, "feedback": feedback}
+
+
+@app.get("/api/agents/registered")
+async def get_registered_agents(db=Depends(get_db)):
+    """Get list of all registered agents (public: for login page agent selector)."""
+    agents = crud.get_all_agents(db)
+    return [
+        {
+            "id": a.id,
+            "username": a.username,
+            "display_name": a.display_name or a.username,
+            "role": a.role,
+            "status": a.status,
+        }
+        for a in agents
+    ]
+
+
+# ─── WebSocket: Agent Status Stream (Admin Dashboard) ─────────────────────────
+
+@app.websocket("/ws/agents")
+async def ws_agent_status(websocket: WebSocket):
+    """
+    Admin dashboard connects here to receive live agent status updates.
+    Protocol:
+      Server → Client: {"type": "snapshot", "agents": {...}}       (on connect)
+      Server → Client: {"type": "agent_update", "agent_id": ..., "data": {...}}
+      Client → Server: "ping" → "pong"
+    """
+    await status_manager.connect(websocket)
+    try:
+        while True:
+            msg = await websocket.receive_text()
+            if msg == "ping":
+                await websocket.send_text("pong")
+    except WebSocketDisconnect:
+        status_manager.disconnect(websocket)
+    except Exception as e:
+        logger.error(f"ws/agents error: {e}")
+        status_manager.disconnect(websocket)
+

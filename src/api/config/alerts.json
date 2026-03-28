@@ -1,11 +1,13 @@
 {
   "email": {
-    "enabled": false,
+    "enabled": true,
     "smtp_host": "smtp.gmail.com",
     "smtp_port": 587,
-    "sender": "",
+    "sender": "shamganesh806@gmail.com",
     "password": "",
-    "recipients": []
+    "recipients": [
+      "shamganesh1606@gmail.com"
+    ]
   },
   "slack": {
     "enabled": false,
