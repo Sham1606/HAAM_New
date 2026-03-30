@@ -204,13 +204,22 @@ const AgentGridPage = () => {
 
     // WebSocket connection for live updates
     useEffect(() => {
+        let cancelled = false;
+        let reconnectTimer = null;
+
         const connect = () => {
+            if (cancelled) return;
+
             const ws = new WebSocket(WS_URL);
             wsRef.current = ws;
 
-            ws.onopen = () => setWsConnected(true);
+            ws.onopen = () => {
+                if (cancelled) { ws.close(); return; }
+                setWsConnected(true);
+            };
 
             ws.onmessage = (e) => {
+                if (cancelled) return;
                 try {
                     const msg = JSON.parse(e.data);
                     if (msg.type === 'snapshot') {
@@ -225,14 +234,26 @@ const AgentGridPage = () => {
             };
 
             ws.onclose = () => {
+                if (cancelled) return;
                 setWsConnected(false);
-                setTimeout(connect, 3000);
+                reconnectTimer = setTimeout(connect, 3000);
             };
-            ws.onerror = () => ws.close();
+
+            ws.onerror = () => {
+                // onclose will fire after this, which handles reconnect
+            };
         };
 
         connect();
-        return () => { if (wsRef.current) wsRef.current.close(); };
+
+        return () => {
+            cancelled = true;
+            clearTimeout(reconnectTimer);
+            if (wsRef.current) {
+                wsRef.current.onclose = null;  // prevent reconnect from firing
+                wsRef.current.close();
+            }
+        };
     }, []);
 
     const onCallCount = agents.filter(a => (liveStates[a.id]?.status || a.status) === 'on-call').length;

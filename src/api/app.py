@@ -25,8 +25,10 @@ import json
 import shutil
 import logging
 import asyncio
+import threading
 from typing import List, Optional
 from datetime import datetime, timedelta
+from concurrent.futures import ThreadPoolExecutor
 import pandas as pd
 
 from fastapi import FastAPI, UploadFile, File, Form, HTTPException, BackgroundTasks, Query, Depends, Request
@@ -93,10 +95,73 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Global Pipeline Instance (Lazy Loading or Startup)
 # Global Pipeline & Inference Instances
 pipeline_instance: Optional[SprintPipeline] = None
 inference_engine: Optional[HybridInference] = None
+
+# ── Thread pool for offloading sync I/O ──────────────────────────────────────
+_executor = ThreadPoolExecutor(max_workers=2)
+
+# ── Call Data Cache (avoids re-scanning 19K+ JSON files per request) ──────────
+_call_cache: dict = {}        # {call_id: {summary dict}}
+_call_cache_ready = False
+_call_cache_lock = threading.Lock()
+
+def _load_call_cache():
+    """Scan all call JSON files once and cache summaries in memory."""
+    global _call_cache, _call_cache_ready
+    logger.info("Loading call data cache (this runs in background)...")
+    cache = {}
+    search_dirs = [
+        (CALLS_DIR,         "call_*.json", "CREMA-D"),
+        (CALLS_DIR_IEMOCAP, "*.json",      "IEMOCAP"),
+        ("results/calls_cremad", "*.json",  "CREMA-D"),
+    ]
+    for directory, pattern, default_ds in search_dirs:
+        for fpath in glob.glob(os.path.join(directory, pattern)):
+            try:
+                with open(fpath, 'r') as f:
+                    data = json.load(f)
+                call_id = data.get('call_id', os.path.basename(fpath).replace('.json', ''))
+                metrics = data.get('overall_metrics', {})
+
+                meta_ds = data.get('metadata', {}).get('dataset', '')
+                ds = meta_ds if meta_ds else ('IEMOCAP' if call_id.startswith('iemocap_') else default_ds)
+
+                emo_dist = metrics.get('emotion_distribution', {})
+                emo_vals = list(emo_dist.values())
+                if emo_vals:
+                    max_prob = max(emo_vals)
+                    acoustic_w = round(0.4 + 0.4 * max_prob, 3)
+                    text_w = round(1.0 - acoustic_w, 3)
+                else:
+                    acoustic_w, text_w = 0.5, 0.5
+
+                cache[call_id] = {
+                    "call_id":            call_id,
+                    "agent_id":           data.get('agent_id'),
+                    "timestamp":          data.get('timestamp'),
+                    "dataset":            ds,
+                    "avg_sentiment":      metrics.get('avg_sentiment', 0.0),
+                    "dominant_emotion":   metrics.get('dominant_emotion', 'neutral'),
+                    "avg_pitch":          metrics.get('avg_pitch', 0.0),
+                    "agent_stress_score": metrics.get('agent_stress_score', 0.0),
+                    "speech_rate_wpm":    metrics.get('speech_rate_wpm', 0.0),
+                    "fusion_weights":     {"acoustic": acoustic_w, "text": text_w},
+                    "emotion_distribution": emo_dist,
+                    "_filepath":          fpath,
+                }
+            except Exception:
+                continue
+    with _call_cache_lock:
+        _call_cache = cache
+        _call_cache_ready = True
+    logger.info(f"Call cache loaded: {len(cache)} calls indexed.")
+
+def _get_cached_calls():
+    """Return the current call cache snapshot."""
+    with _call_cache_lock:
+        return dict(_call_cache)
 
 # ── Register Auth Router ──────────────────────────────────────────────────────
 app.include_router(auth_router)
@@ -104,16 +169,25 @@ app.include_router(auth_router)
 @app.on_event("startup")
 async def startup_event():
     logger.info("Application starting up...")
-    # Initialize SQLite database tables
+    # Initialize SQLite database tables (fast, sync is fine)
     init_db()
     logger.info("SQLite database initialized.")
-    # Load Inference Engine on startup for faster first request
-    global inference_engine
-    try:
-        inference_engine = HybridInference()
-        logger.info("Inference Engine loaded.")
-    except Exception as e:
-        logger.error(f"Failed to load Inference Engine: {e}")
+
+    # Load inference engine in background thread (heavy: ~10-30s)
+    def _load_models():
+        global inference_engine
+        try:
+            inference_engine = HybridInference()
+            logger.info("Inference Engine loaded.")
+        except Exception as e:
+            logger.error(f"Failed to load Inference Engine: {e}")
+
+    threading.Thread(target=_load_models, daemon=True).start()
+
+    # Load call cache in background thread (scans 19K+ files once)
+    threading.Thread(target=_load_call_cache, daemon=True).start()
+
+    logger.info("Server is accepting requests. Models loading in background...")
 
 def get_pipeline():
     global pipeline_instance
@@ -202,6 +276,13 @@ async def process_call(
         "status": "queued"
     }
 
+async def _wait_for_cache(timeout=30.0):
+    elapsed = 0
+    while not _call_cache_ready and elapsed < timeout:
+        import asyncio
+        await asyncio.sleep(1)
+        elapsed += 1
+
 @app.get("/api/calls", response_model=List[CallSummaryModel])
 async def list_calls(
     agent_id: Optional[str] = None,
@@ -209,76 +290,25 @@ async def list_calls(
     limit: int = 2000
 ):
     """
-    List processed calls with optional filtering.
+    List processed calls. Uses in-memory cache for instant response.
     """
-    files_crema = glob.glob(os.path.join(CALLS_DIR, "call_*.json"))
-    files_iemocap = glob.glob(os.path.join(CALLS_DIR_IEMOCAP, "*.json"))
-    
-    all_files = []
-    if not dataset or dataset == 'CREMA-D':
-        all_files.extend(files_crema)
-    if not dataset or dataset == 'IEMOCAP':
-        all_files.extend(files_iemocap)
-        
+    await _wait_for_cache()
+    cache = _get_cached_calls()
+    if not cache:
+        # Cache not ready yet, return empty so frontend doesn't hang
+        return []
+
     results = []
-    
-    # Sort files by mtime or name to get recent ones first if needed before reading
-    # For now, just read limited amount
-    
-    count = 0
-    for fpath in all_files:
-        if count >= limit:
-            break
-        try:
-            with open(fpath, 'r') as f:
-                data = json.load(f)
-                
-            if agent_id and data.get('agent_id') != agent_id:
-                continue
-                
-            metrics = data.get('overall_metrics', {})
-            
-            # Determine dataset from call_id or metadata
-            call_id_val = data.get('call_id', '')
-            meta_dataset = data.get('metadata', {}).get('dataset', '')
-            if meta_dataset:
-                ds = meta_dataset
-            elif call_id_val.startswith('iemocap_'):
-                ds = 'IEMOCAP'
-            else:
-                ds = 'CREMA-D'
-            
-            # Compute simple acoustic vs text attention weight from emotion distribution
-            # If one emotion strongly dominates → voice is clear signal (high acoustic weight)
-            # Uniform distribution → text carries more weight
-            emo_dist = metrics.get('emotion_distribution', {})
-            emo_vals = list(emo_dist.values())
-            if emo_vals:
-                max_prob = max(emo_vals)
-                # high max_prob -> clearer voice signal -> higher acoustic weight
-                acoustic_w = round(0.4 + 0.4 * max_prob, 3)   # range [0.4, 0.8]
-                text_w     = round(1.0 - acoustic_w, 3)
-            else:
-                acoustic_w, text_w = 0.5, 0.5
-            
-            results.append({
-                "call_id":            call_id_val,
-                "agent_id":           data.get('agent_id'),
-                "timestamp":          data.get('timestamp'),
-                "dataset":            ds,
-                "avg_sentiment":      metrics.get('avg_sentiment', 0.0),
-                "dominant_emotion":   metrics.get('dominant_emotion', 'neutral'),
-                "avg_pitch":          metrics.get('avg_pitch', 0.0),
-                "agent_stress_score": metrics.get('agent_stress_score', 0.0),
-                "fusion_weights":     {"acoustic": acoustic_w, "text": text_w},
-            })
-            count += 1
-        except:
+    for call_id, entry in cache.items():
+        if agent_id and entry.get('agent_id') != agent_id:
             continue
-            
-    # Sort by timestamp desc
-    results.sort(key=lambda x: str(x['timestamp']), reverse=True)
-    
+        if dataset and entry.get('dataset') != dataset:
+            continue
+        results.append({k: v for k, v in entry.items() if not k.startswith('_')})
+        if len(results) >= limit:
+            break
+
+    results.sort(key=lambda x: str(x.get('timestamp', '')), reverse=True)
     return results
 
 
@@ -447,35 +477,25 @@ async def get_agent_risk(agent_id: str, request: Request):
 @app.get("/api/agents/{agent_id}/calls")
 async def get_agent_calls(agent_id: str, limit: int = 50):
     """
-    Get all calls for a specific agent, with emotion breakdown per call.
+    Get all calls for a specific agent. Uses in-memory cache.
     """
-    files_crema   = glob.glob(os.path.join(CALLS_DIR, "call_*.json"))
-    files_iemocap = glob.glob(os.path.join(CALLS_DIR_IEMOCAP, "*.json"))
-    all_files     = files_crema + files_iemocap
-
+    await _wait_for_cache()
+    cache = _get_cached_calls()
     calls = []
-    for fpath in all_files:
-        try:
-            with open(fpath, 'r') as f:
-                data = json.load(f)
-            if data.get('agent_id') != agent_id:
-                continue
-            metrics = data.get('overall_metrics', {})
-            emo_dist = metrics.get('emotion_distribution', {})
-            calls.append({
-                "call_id":            data.get('call_id'),
-                "timestamp":          data.get('timestamp'),
-                "dominant_emotion":   metrics.get('dominant_emotion', 'neutral'),
-                "avg_sentiment":      metrics.get('avg_sentiment', 0.0),
-                "avg_pitch":          metrics.get('avg_pitch', 0.0),
-                "agent_stress_score": metrics.get('agent_stress_score', 0.0),
-                "speech_rate_wpm":    metrics.get('speech_rate_wpm', 0.0),
-                "emotion_distribution": emo_dist,
-                "ground_truth_emotion": data.get('ground_truth', {}).get('emotion', ''),
-                "dataset": data.get('metadata', {}).get('dataset', 'CREMA-D'),
-            })
-        except:
+    for cid, entry in cache.items():
+        if entry.get('agent_id') != agent_id:
             continue
+        calls.append({
+            "call_id":            entry.get('call_id'),
+            "timestamp":          entry.get('timestamp'),
+            "dominant_emotion":   entry.get('dominant_emotion', 'neutral'),
+            "avg_sentiment":      entry.get('avg_sentiment', 0.0),
+            "avg_pitch":          entry.get('avg_pitch', 0.0),
+            "agent_stress_score": entry.get('agent_stress_score', 0.0),
+            "speech_rate_wpm":    entry.get('speech_rate_wpm', 0.0),
+            "emotion_distribution": entry.get('emotion_distribution', {}),
+            "dataset":            entry.get('dataset', 'CREMA-D'),
+        })
 
     calls.sort(key=lambda x: str(x.get('timestamp', '')), reverse=True)
     return calls[:limit]
@@ -484,12 +504,10 @@ async def get_agent_calls(agent_id: str, limit: int = 50):
 @app.get("/api/agents/{agent_id}/stats")
 async def get_agent_stats(agent_id: str):
     """
-    Aggregated emotion breakdown and acoustic stats for an agent across all their calls.
+    Aggregated emotion breakdown and acoustic stats. Uses in-memory cache.
     """
-    files_crema   = glob.glob(os.path.join(CALLS_DIR, "call_*.json"))
-    files_iemocap = glob.glob(os.path.join(CALLS_DIR_IEMOCAP, "*.json"))
-    all_files     = files_crema + files_iemocap
-
+    await _wait_for_cache()
+    cache = _get_cached_calls()
     emotion_counts: dict = {}
     total_pitch = 0.0
     total_stress = 0.0
@@ -497,22 +515,16 @@ async def get_agent_stats(agent_id: str):
     total_speech_rate = 0.0
     n = 0
 
-    for fpath in all_files:
-        try:
-            with open(fpath, 'r') as f:
-                data = json.load(f)
-            if data.get('agent_id') != agent_id:
-                continue
-            metrics  = data.get('overall_metrics', {})
-            dominant = metrics.get('dominant_emotion', 'neutral')
-            emotion_counts[dominant] = emotion_counts.get(dominant, 0) + 1
-            total_pitch       += metrics.get('avg_pitch', 0.0)
-            total_stress      += metrics.get('agent_stress_score', 0.0)
-            total_sentiment   += metrics.get('avg_sentiment', 0.0)
-            total_speech_rate += metrics.get('speech_rate_wpm', 0.0)
-            n += 1
-        except:
+    for cid, entry in cache.items():
+        if entry.get('agent_id') != agent_id:
             continue
+        dominant = entry.get('dominant_emotion', 'neutral')
+        emotion_counts[dominant] = emotion_counts.get(dominant, 0) + 1
+        total_pitch       += entry.get('avg_pitch', 0.0)
+        total_stress      += entry.get('agent_stress_score', 0.0)
+        total_sentiment   += entry.get('avg_sentiment', 0.0)
+        total_speech_rate += entry.get('speech_rate_wpm', 0.0)
+        n += 1
 
     if n == 0:
         raise HTTPException(status_code=404, detail="No calls found for this agent")
@@ -534,40 +546,44 @@ async def get_agent_stats(agent_id: str):
 @app.get("/api/analytics/overview")
 async def get_analytics_overview():
     """
-    Dashboard high-level metrics calculated directly from all call JSON files.
-    Returns real counts, emotion distribution per dataset, acoustic averages, and validation metrics.
+    Dashboard metrics. Pre-computed from cache for instant response.
     """
-    files_crema   = glob.glob(os.path.join("results/calls_cremad", "*.json")) + glob.glob(os.path.join(CALLS_DIR, "*.json"))
-    files_iemocap = glob.glob(os.path.join(CALLS_DIR_IEMOCAP, "*.json"))
+    await _wait_for_cache()
+    return await asyncio.get_event_loop().run_in_executor(_executor, _compute_analytics)
+
+_analytics_cache = None
+
+def _compute_analytics():
+    """Compute analytics from the in-memory call cache. Thread-safe."""
+    global _analytics_cache
+    if _analytics_cache is not None:
+        return _analytics_cache
+
+    cache = _get_cached_calls()
+    if not cache:
+        return {"total_calls": 0, "total_agents": 0}
 
     stats = {
         "CREMA-D":  {"n": 0, "emotions": {}, "pitch": 0.0, "stress": 0.0, "sentiment": 0.0, "wpm": 0.0},
         "IEMOCAP":  {"n": 0, "emotions": {}, "pitch": 0.0, "stress": 0.0, "sentiment": 0.0, "wpm": 0.0},
     }
-    agents: set = set()
+    agents_set = set()
 
-    def scan_files(file_list, ds_key):
-        for fpath in file_list:
-            try:
-                with open(fpath, "r") as f:
-                    data = json.load(f)
-                metrics = data.get("overall_metrics", {})
-                dominant = metrics.get("dominant_emotion", "neutral")
-                s = stats[ds_key]
-                s["n"] += 1
-                s["emotions"][dominant] = s["emotions"].get(dominant, 0) + 1
-                s["pitch"]     += metrics.get("avg_pitch", 0.0)
-                s["stress"]    += metrics.get("agent_stress_score", 0.0)
-                s["sentiment"] += metrics.get("avg_sentiment", 0.0)
-                s["wpm"]       += metrics.get("speech_rate_wpm", 0.0)
-                aid = data.get("agent_id")
-                if aid:
-                    agents.add(aid)
-            except:
-                continue
-
-    scan_files(files_crema,   "CREMA-D")
-    scan_files(files_iemocap, "IEMOCAP")
+    for cid, entry in cache.items():
+        ds_key = entry.get('dataset', 'CREMA-D')
+        if ds_key not in stats:
+            ds_key = 'CREMA-D'
+        s = stats[ds_key]
+        dominant = entry.get('dominant_emotion', 'neutral')
+        s["n"] += 1
+        s["emotions"][dominant] = s["emotions"].get(dominant, 0) + 1
+        s["pitch"]     += entry.get('avg_pitch', 0.0)
+        s["stress"]    += entry.get('agent_stress_score', 0.0)
+        s["sentiment"] += entry.get('avg_sentiment', 0.0)
+        s["wpm"]       += entry.get('speech_rate_wpm', 0.0)
+        aid = entry.get('agent_id')
+        if aid:
+            agents_set.add(aid)
 
     def agg(s):
         n = s["n"] or 1
@@ -586,79 +602,66 @@ async def get_analytics_overview():
     crema_stats   = agg(stats["CREMA-D"])
     iemocap_stats = agg(stats["IEMOCAP"])
 
-    combined_emotions: dict = {}
+    combined_emotions = {}
     for ds in ("CREMA-D", "IEMOCAP"):
         for emo, cnt in stats[ds]["emotions"].items():
             combined_emotions[emo] = combined_emotions.get(emo, 0) + cnt
-    total_emotions_combined = sum(combined_emotions.values()) or 1
-    emotion_distribution = {k: round(v / total_emotions_combined, 4)
+    total_emo = sum(combined_emotions.values()) or 1
+    emotion_distribution = {k: round(v / total_emo, 4)
                             for k, v in sorted(combined_emotions.items(), key=lambda x: -x[1])}
 
-    # Read from the actual real metric files
-    HYBRID_METRICS_FILE  = "results/hybrid_model_metrics.json"
-    CREMAD_REPORT_FILE   = "cremad_validation_report.json"
-    TRAINING_HISTORY     = "saved_models/training_history.json"
-    crema_acc    = 70.0
-    iemocap_acc  = 47.5
-    combined_acc = 80.7   # default: best val_emo_acc from training
+    # Validation metrics (small file reads — OK synchronous)
+    crema_acc, iemocap_acc, combined_acc = 70.0, 47.5, 80.7
     try:
-        if os.path.exists(CREMAD_REPORT_FILE):
-            cr = json.load(open(CREMAD_REPORT_FILE, "r"))
-            crema_acc = round(cr.get("summary", {}).get("overall_accuracy", 70.0), 1)
+        p = "cremad_validation_report.json"
+        if os.path.exists(p):
+            crema_acc = round(json.load(open(p))["summary"]["overall_accuracy"], 1)
     except: pass
     try:
-        if os.path.exists(HYBRID_METRICS_FILE):
-            hm = json.load(open(HYBRID_METRICS_FILE, "r"))
+        p = "results/hybrid_model_metrics.json"
+        if os.path.exists(p):
+            hm = json.load(open(p))
             ta = hm.get("test_accuracy") or hm.get("classification_report", {}).get("accuracy")
             if ta: iemocap_acc = round(float(ta) * 100, 1)
     except: pass
     try:
-        if os.path.exists(TRAINING_HISTORY):
-            th = json.load(open(TRAINING_HISTORY, "r"))
-            val_emo = th.get("val_emo_acc", [])
+        p = "saved_models/training_history.json"
+        if os.path.exists(p):
+            val_emo = json.load(open(p)).get("val_emo_acc", [])
             if val_emo: combined_acc = round(max(val_emo) * 100, 1)
     except: pass
-    val_metrics = {
-        "crema_d_accuracy":  crema_acc,
-        "iemocap_accuracy":  iemocap_acc,
-        "combined_accuracy": combined_acc,
-    }
 
     high_risk_count = 0
     if os.path.exists(RISK_SCORES_CSV):
         try:
             risk_df = pd.read_csv(RISK_SCORES_CSV)
             high_risk_count = int(len(risk_df[risk_df["risk_level"].str.lower().isin(["high", "critical"])]))
-        except:
-            pass
+        except: pass
 
     total_n = (stats["CREMA-D"]["n"] + stats["IEMOCAP"]["n"]) or 1
-    avg_sentiment   = round((stats["CREMA-D"]["sentiment"] + stats["IEMOCAP"]["sentiment"]) / total_n, 4)
-    avg_pitch       = round((stats["CREMA-D"]["pitch"]     + stats["IEMOCAP"]["pitch"])     / total_n, 2)
-    avg_stress      = round((stats["CREMA-D"]["stress"]    + stats["IEMOCAP"]["stress"])    / total_n, 4)
-    avg_speech_rate = round((stats["CREMA-D"]["wpm"]       + stats["IEMOCAP"]["wpm"])       / total_n, 2)
-
-    return {
+    result = {
         "total_calls":      crema_stats["count"] + iemocap_stats["count"],
-        "total_agents":     len(agents),
-        "avg_sentiment":    avg_sentiment,
-        "avg_pitch":        avg_pitch,
-        "avg_stress":       avg_stress,
-        "avg_speech_rate":  avg_speech_rate,
+        "total_agents":     len(agents_set),
+        "avg_sentiment":    round((stats["CREMA-D"]["sentiment"] + stats["IEMOCAP"]["sentiment"]) / total_n, 4),
+        "avg_pitch":        round((stats["CREMA-D"]["pitch"]     + stats["IEMOCAP"]["pitch"])     / total_n, 2),
+        "avg_stress":       round((stats["CREMA-D"]["stress"]    + stats["IEMOCAP"]["stress"])    / total_n, 4),
+        "avg_speech_rate":  round((stats["CREMA-D"]["wpm"]       + stats["IEMOCAP"]["wpm"])       / total_n, 2),
         "high_risk_agents": high_risk_count,
         "emotion_distribution": emotion_distribution,
         "emotion_counts":   combined_emotions,
-        "dataset_breakdown": {
-            "CREMA-D": crema_stats["count"],
-            "IEMOCAP": iemocap_stats["count"],
+        "dataset_breakdown": {"CREMA-D": crema_stats["count"], "IEMOCAP": iemocap_stats["count"]},
+        "dataset_stats":    {"CREMA-D": crema_stats, "IEMOCAP": iemocap_stats},
+        "validation_metrics": {
+            "crema_d_accuracy": crema_acc,
+            "iemocap_accuracy": iemocap_acc,
+            "combined_accuracy": combined_acc,
         },
-        "dataset_stats": {
-            "CREMA-D":  crema_stats,
-            "IEMOCAP":  iemocap_stats,
-        },
-        "validation_metrics": val_metrics,
         "dominant_emotion": max(combined_emotions, key=combined_emotions.get) if combined_emotions else "neutral",
     }
+
+    _analytics_cache = result
+    logger.info(f"Analytics pre-computed: {result['total_calls']} calls")
+    return result
 
 @app.get("/api/datasets/metrics")
 async def get_dataset_metrics():
@@ -1274,6 +1277,10 @@ async def mic_stream_endpoint(websocket: WebSocket, agent_id: str = ""):
     emotion_history = deque(maxlen=20)
     emotion_counts  = {}
     turn_count      = 0
+    session_transcript = ""
+    recent_chunks   = deque(maxlen=3)
+    all_segments    = []
+    final_risk      = 0.0
 
     score_map = {'anger': -1, 'disgust': -1, 'fear': -1, 'sadness': -1, 'neutral': 0}
 
@@ -1331,7 +1338,18 @@ async def mic_stream_endpoint(websocket: WebSocket, agent_id: str = ""):
                                     await websocket.send_json({'type': 'processing'})
 
                                     try:
-                                        result = engine.predict_array(full_audio, sr=SAMPLE_RATE)
+                                        # Transcribe just the latest chunk
+                                        chunk_text = engine.whisper_model.transcribe(full_audio.astype(np.float32), fp16=False)['text'].strip()
+                                        if not chunk_text: chunk_text = "."
+                                        session_transcript += (" " if session_transcript else "") + chunk_text
+                                        
+                                        # Predict emotion using recent context (last 3 chunks) to prevent overriding recent emotional spikes with old neutral text
+                                        recent_chunks.append(chunk_text)
+                                        context_text = " ".join(recent_chunks)
+                                        
+                                        result = engine.predict_array(full_audio, sr=SAMPLE_RATE, text=context_text)
+                                        # Restore chunk text just for the UI timeline blocks
+                                        result['transcript'] = chunk_text
                                     except Exception as e:
                                         logger.warning(f"Inference error on mic chunk: {e}")
                                         continue
@@ -1345,6 +1363,15 @@ async def mic_stream_endpoint(websocket: WebSocket, agent_id: str = ""):
                                     dominant = max(emotion_counts, key=emotion_counts.get)
                                     neg_pct  = sum(emotion_counts.get(e, 0) for e in ['anger','fear','disgust','sadness'])
                                     risk     = round(neg_pct / turn_count, 2)
+                                    final_risk = risk
+
+                                    all_segments.append({
+                                        'transcript': chunk_text,
+                                        'emotion': emo,
+                                        'confidence': round(result['confidence'], 3),
+                                        'emotion_distribution': result.get('emotion_distribution', {}),
+                                        'fusion_weights': result.get('fusion_weights', {})
+                                    })
 
                                     # Trend from last 5 turns
                                     recent_scores = [score_map.get(e, 0) for e in list(emotion_history)[-5:]]
@@ -1410,6 +1437,53 @@ async def mic_stream_endpoint(websocket: WebSocket, agent_id: str = ""):
             await status_manager.update_agent(agent_id, {
                 "status": "online", "live_emotion": None, "feedback": None
             })
+            
+        # Save completed live call session
+        if turn_count > 0:
+            import time
+            call_id = f"live_{agent_id or 'anon'}_{int(time.time())}"
+            dominant = max(emotion_counts, key=emotion_counts.get) if emotion_counts else 'neutral'
+            
+            emo_vals = list(emotion_counts.values())
+            max_p = max(emo_vals) / sum(emo_vals) if sum(emo_vals) > 0 else 0
+            acoustic_w = round(0.4 + 0.4 * max_p, 3)
+            
+            call_data = {
+                "call_id": call_id,
+                "agent_id": agent_id or "anonymous",
+                "timestamp": datetime.now().isoformat(),
+                "duration_seconds": turn_count * 2.0,
+                "transcript": session_transcript,
+                "overall_metrics": {
+                    "emotion_distribution": emotion_counts,
+                    "dominant_emotion": dominant,
+                    "agent_stress_score": final_risk,
+                    "fusion_weights": {"acoustic": acoustic_w, "text": round(1.0 - acoustic_w, 3)}
+                },
+                "segments": all_segments,
+                "metadata": {"dataset": "LIVE"}
+            }
+            
+            os.makedirs(CALLS_DIR, exist_ok=True)
+            fpath = os.path.join(CALLS_DIR, f"{call_id}.json")
+            with open(fpath, "w") as f:
+                json.dump(call_data, f, indent=2)
+                
+            if _call_cache_ready:
+                with _call_cache_lock:
+                    _call_cache[call_id] = {
+                        "call_id": call_id,
+                        "agent_id": agent_id or "anonymous",
+                        "timestamp": call_data["timestamp"],
+                        "dataset": "LIVE",
+                        "avg_sentiment": 0.0,
+                        "dominant_emotion": dominant,
+                        "agent_stress_score": call_data["overall_metrics"]["agent_stress_score"],
+                        "fusion_weights": call_data["overall_metrics"]["fusion_weights"],
+                        "emotion_distribution": emotion_counts,
+                        "_filepath": fpath,
+                    }
+
         logger.info(f"Browser mic stream disconnected (agent_id={agent_id or 'anonymous'})")
 
 

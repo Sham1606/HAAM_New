@@ -187,9 +187,9 @@ const XAIPanel = ({ callData, acousticFusion }) => {
     const speechRate = metrics.speech_rate_wpm || callData.acoustic_features?.speech_rate_wpm || 0;
     const predictions = metrics.top_3_predictions || [];
 
-    // Resolve modality split — prefer real Captum data, else attention gate
-    const ac_pct = xaiData?.modality_split?.acoustic ?? Math.round((acousticFusion ?? 0.5) * 100);
-    const tx_pct = xaiData?.modality_split?.text ?? (100 - ac_pct);
+    // Resolve modality split — enforce the UI-calculated fusion state for consistency across tabs
+    const ac_pct = Math.round((acousticFusion ?? 0.5) * 100);
+    const tx_pct = 100 - ac_pct;
     const acoustic = ac_pct / 100;
     const textW = tx_pct / 100;
 
@@ -434,7 +434,6 @@ const CallDetailPage = () => {
                     <div className="flex items-center gap-2 mt-1 flex-wrap">
                         {callData.timestamp && <span className="text-xs text-gray-400">{new Date(callData.timestamp).toLocaleString()}</span>}
                         {callData.agent_id && <span className="text-xs text-gray-500">· Agent: {callData.agent_id}</span>}
-                        <span className={`dataset-badge ${dataset.toLowerCase().includes('iemocap') ? 'iemocap' : 'crema-d'}`}>{dataset}</span>
                     </div>
                 </div>
                 {/* Dominant Emotion Hero */}

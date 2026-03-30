@@ -28,6 +28,21 @@ export function AuthProvider({ children }) {
         }
     }, [token]);
 
+    // Auto-logout on tab close
+    useEffect(() => {
+        const handleUnload = () => {
+            if (token) {
+                fetch(`${API_BASE}/auth/logout`, {
+                    method: 'POST',
+                    headers: { 'Authorization': `Bearer ${token}` },
+                    keepalive: true
+                }).catch(() => {});
+            }
+        };
+        window.addEventListener('beforeunload', handleUnload);
+        return () => window.removeEventListener('beforeunload', handleUnload);
+    }, [token]);
+
     // On mount: validate stored token by fetching /auth/me
     useEffect(() => {
         if (token) {

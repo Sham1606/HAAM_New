@@ -83,7 +83,7 @@ const EmotionTimeline = ({ turns }) => {
 
 // ─── Main Page ────────────────────────────────────────────────────────────────
 const LiveAnalysisPage = () => {
-    const { user } = useAuth();
+    const { user, isAdmin } = useAuth();
     const [status, setStatus] = useState('idle');     // idle | connecting | recording | error
     const [turns, setTurns] = useState([]);
     const [currentTurn, setCurrentTurn] = useState(null);
@@ -298,9 +298,38 @@ const LiveAnalysisPage = () => {
             </div>
 
             {/* Main Grid */}
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            <div className={`grid grid-cols-1 ${isAdmin ? 'lg:grid-cols-3' : 'lg:grid-cols-2 lg:max-w-5xl lg:mx-auto'} gap-6`}>
 
-                {/* LEFT: Current Emotion + Distribution */}
+                {/* LEFT: Agent View Status (Agent Only) */}
+                {!isAdmin && (
+                    <div className="space-y-4">
+                        <div className="rounded-2xl border p-8 text-center bg-white border-gray-100 shadow-sm flex flex-col items-center justify-center min-h-[460px]">
+                            <div className="relative w-32 h-32 mb-8">
+                               {isRec ? (
+                                   <>
+                                     <div className="absolute inset-0 bg-indigo-500 rounded-full animate-ping opacity-20"></div>
+                                     <div className="relative w-full h-full bg-gradient-to-tr from-indigo-500 to-purple-500 rounded-full flex items-center justify-center text-white shadow-xl shadow-indigo-200">
+                                         <Activity className="h-12 w-12 animate-pulse" />
+                                     </div>
+                                   </>
+                               ) : (
+                                   <div className="w-full h-full bg-gray-50 border-2 border-dashed border-gray-200 rounded-full flex items-center justify-center text-gray-300">
+                                       <MicOff className="h-10 w-10 opacity-50" />
+                                   </div>
+                               )}
+                            </div>
+                            <h2 className="text-2xl font-bold text-gray-800 mb-2">
+                                {isRec ? 'Telemetry Active' : 'System Standby'}
+                            </h2>
+                            <p className="text-sm text-gray-400 max-w-xs mx-auto">
+                                {isRec ? "Your conversation is being securely transcribed and analyzed by the HAAM backend in real-time." : "Click Start Listening when you are ready to begin the interaction."}
+                            </p>
+                        </div>
+                    </div>
+                )}
+
+                {/* LEFT: Current Emotion + Distribution (Admin Only) */}
+                {isAdmin && (
                 <div className="space-y-4">
                     {/* Current Emotion Card */}
                     <div className={`rounded-2xl border p-6 transition-all duration-500 ${emo ? emo.bg + ' border-transparent' : 'bg-white border-gray-100'}`}>
@@ -367,6 +396,7 @@ const LiveAnalysisPage = () => {
                         </div>
                     )}
                 </div>
+                )}
 
                 {/* MIDDLE: Transcript Feed */}
                 <div className="bg-white rounded-2xl border border-gray-100 shadow-sm flex flex-col" style={{ minHeight: '460px' }}>
@@ -387,11 +417,19 @@ const LiveAnalysisPage = () => {
                             turns.map((t, i) => {
                                 const cfg = EMOTION_CONFIG[t.emotion] || EMOTION_CONFIG.neutral;
                                 return (
-                                    <div key={t.id} className={`rounded-xl p-3 border ${cfg.bg} border-transparent`}>
+                                    <div key={t.id} className={`rounded-xl p-3 border ${isAdmin ? cfg.bg + ' border-transparent' : 'bg-gray-50 border-gray-100'}`}>
                                         <div className="flex items-center gap-2 mb-1">
-                                            <span>{cfg.icon}</span>
-                                            <span className={`text-xs font-bold uppercase ${cfg.text}`}>{t.emotion}</span>
-                                            <span className="ml-auto text-xs text-gray-400">{Math.round(t.confidence * 100)}%</span>
+                                            {isAdmin ? (
+                                                <>
+                                                    <span>{cfg.icon}</span>
+                                                    <span className={`text-xs font-bold uppercase ${cfg.text}`}>{t.emotion}</span>
+                                                    <span className="ml-auto text-xs text-gray-400">{Math.round(t.confidence * 100)}%</span>
+                                                </>
+                                            ) : (
+                                                <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest bg-white border border-gray-100 px-2 py-0.5 rounded shadow-sm">
+                                                    Agent • Audio Log
+                                                </span>
+                                            )}
                                         </div>
                                         <p className="text-sm text-gray-700 leading-relaxed">
                                             {t.transcript || <span className="italic text-gray-400">…</span>}
@@ -404,6 +442,7 @@ const LiveAnalysisPage = () => {
                 </div>
 
                 {/* RIGHT: Emotion Timeline + Session Distribution */}
+                {isAdmin && (
                 <div className="space-y-4">
                     <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-4">
                         <div className="flex items-center gap-2 mb-3">
@@ -454,6 +493,7 @@ const LiveAnalysisPage = () => {
                         </div>
                     )}
                 </div>
+                )}
             </div>
         </div>
     );

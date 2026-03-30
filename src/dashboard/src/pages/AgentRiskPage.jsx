@@ -413,7 +413,6 @@ const AgentDetailPanel = ({ agent, onClose }) => {
                                                     <p className="text-xs font-mono font-medium text-indigo-600 truncate">{call.call_id}</p>
                                                     <div className="flex items-center gap-3 mt-0.5">
                                                         <span className="text-xs font-bold capitalize" style={{ color }}>{emo}</span>
-                                                        <span className="text-xs text-gray-400">{call.dataset}</span>
                                                     </div>
                                                 </div>
                                                 <div className="text-right flex-shrink-0">

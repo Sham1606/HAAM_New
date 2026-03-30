@@ -1,0 +1,151 @@
+{
+  "call_id": "live_agent_001_1774820717",
+  "agent_id": "agent_001",
+  "timestamp": "2026-03-30T03:15:17.255335",
+  "duration_seconds": 16.0,
+  "transcript": "Let people up your account details, it will just take a moment. Please stop shouting. I'm trying to help you fix this issue right now. Unfortunately, your application was renewed and there is nothing else I can do. . It makes me hard to hear it at your terrible experience with our service. Hello. Hello. You have done a great job.",
+  "overall_metrics": {
+    "emotion_distribution": {
+      "anger": 8
+    },
+    "dominant_emotion": "anger",
+    "agent_stress_score": 1.0,
+    "fusion_weights": {
+      "acoustic": 0.8,
+      "text": 0.2
+    }
+  },
+  "segments": [
+    {
+      "transcript": "Let people up your account details, it will just take a moment.",
+      "emotion": "anger",
+      "confidence": 1.0,
+      "emotion_distribution": {
+        "anger": 1.0,
+        "disgust": 0.0,
+        "fear": 0.0,
+        "neutral": 5.06016907658358e-28,
+        "sadness": 1.0529323821332372e-29
+      },
+      "fusion_weights": {
+        "acoustic": 0.73,
+        "text": 0.27
+      }
+    },
+    {
+      "transcript": "Please stop shouting. I'm trying to help you fix this issue right now.",
+      "emotion": "anger",
+      "confidence": 1.0,
+      "emotion_distribution": {
+        "anger": 1.0,
+        "disgust": 0.0,
+        "fear": 0.0,
+        "neutral": 0.0,
+        "sadness": 0.0
+      },
+      "fusion_weights": {
+        "acoustic": 0.702,
+        "text": 0.298
+      }
+    },
+    {
+      "transcript": "Unfortunately, your application was renewed and there is nothing else I can do.",
+      "emotion": "anger",
+      "confidence": 1.0,
+      "emotion_distribution": {
+        "anger": 1.0,
+        "disgust": 0.0,
+        "fear": 0.0,
+        "neutral": 4.237035766519711e-28,
+        "sadness": 4.459115229889489e-28
+      },
+      "fusion_weights": {
+        "acoustic": 0.73,
+        "text": 0.27
+      }
+    },
+    {
+      "transcript": ".",
+      "emotion": "anger",
+      "confidence": 1.0,
+      "emotion_distribution": {
+        "anger": 1.0,
+        "disgust": 0.0,
+        "fear": 0.0,
+        "neutral": 6.671733328884601e-39,
+        "sadness": 0.0
+      },
+      "fusion_weights": {
+        "acoustic": 0.73,
+        "text": 0.27
+      }
+    },
+    {
+      "transcript": "It makes me hard to hear it at your terrible experience with our service.",
+      "emotion": "anger",
+      "confidence": 1.0,
+      "emotion_distribution": {
+        "anger": 0.9999997615814209,
+        "disgust": 0.0,
+        "fear": 0.0,
+        "neutral": 2.658757862295173e-23,
+        "sadness": 2.631856546031486e-07
+      },
+      "fusion_weights": {
+        "acoustic": 0.702,
+        "text": 0.298
+      }
+    },
+    {
+      "transcript": "Hello.",
+      "emotion": "anger",
+      "confidence": 1.0,
+      "emotion_distribution": {
+        "anger": 1.0,
+        "disgust": 0.0,
+        "fear": 0.0,
+        "neutral": 1.1530379135519226e-20,
+        "sadness": 2.9522311706386972e-08
+      },
+      "fusion_weights": {
+        "acoustic": 0.73,
+        "text": 0.27
+      }
+    },
+    {
+      "transcript": "Hello.",
+      "emotion": "anger",
+      "confidence": 1.0,
+      "emotion_distribution": {
+        "anger": 1.0,
+        "disgust": 0.0,
+        "fear": 0.0,
+        "neutral": 1.673029815643337e-24,
+        "sadness": 7.215515605756632e-39
+      },
+      "fusion_weights": {
+        "acoustic": 0.73,
+        "text": 0.27
+      }
+    },
+    {
+      "transcript": "You have done a great job.",
+      "emotion": "anger",
+      "confidence": 1.0,
+      "emotion_distribution": {
+        "anger": 1.0,
+        "disgust": 0.0,
+        "fear": 0.0,
+        "neutral": 1.3135943611907895e-28,
+        "sadness": 4.366915954289126e-36
+      },
+      "fusion_weights": {
+        "acoustic": 0.73,
+        "text": 0.27
+      }
+    }
+  ],
+  "metadata": {
+    "dataset": "LIVE"
+  }
+}

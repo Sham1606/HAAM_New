@@ -15,7 +15,16 @@ class SprintLayer:
     Output: Emotion, Confidence, Transcript, Attention
     """
     def __init__(self):
-        self.predictor = LivePredictor()
+        self._predictor = None
+
+    @property
+    def predictor(self):
+        """Lazy-load LivePredictor on first use to avoid blocking server startup."""
+        if self._predictor is None:
+            logger.info("Lazy-loading LivePredictor for Sprint Layer...")
+            self._predictor = LivePredictor()
+            logger.info("✅ LivePredictor loaded.")
+        return self._predictor
 
     def process_turn(self, audio_data, start_time):
         """
@@ -104,11 +113,18 @@ class MarathonLayer:
 
 class LivePipeline:
     def __init__(self):
-        self.sprint = SprintLayer()
+        self._sprint = None
         self.marathon = MarathonLayer()
         self.audio_manager = None
         self.active_websockets = [] # List of active connections
         self.loop = None
+
+    @property
+    def sprint(self):
+        """Lazy-load SprintLayer (and its LivePredictor) on first use."""
+        if self._sprint is None:
+            self._sprint = SprintLayer()
+        return self._sprint
 
     def set_loop(self, loop):
         self.loop = loop

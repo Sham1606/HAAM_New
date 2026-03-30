@@ -229,17 +229,16 @@ class HAAMExplainer:
             else:
                 emb_layer = list(lm.modules())[1]  # best-effort fallback
 
-            def forward_fn(input_embs):
-                outputs = lm(inputs_embeds=input_embs, attention_mask=attention_mask)
+            def forward_fn(input_ids_tensor, attn_mask):
+                outputs = lm(input_ids=input_ids_tensor, attention_mask=attn_mask)
                 return outputs.logits
 
             lig = LayerIntegratedGradients(forward_fn, emb_layer)
-            baseline_emb = emb_layer(torch.zeros_like(input_ids))
-            input_emb    = emb_layer(input_ids)
 
             attributions, _ = lig.attribute(
-                input_emb,
-                baselines=baseline_emb,
+                inputs=input_ids,
+                baselines=torch.zeros_like(input_ids),
+                additional_forward_args=(attention_mask,),
                 target=target_class,
                 n_steps=30,
                 return_convergence_delta=True,

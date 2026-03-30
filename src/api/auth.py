@@ -224,13 +224,14 @@ def logout(agent=Depends(require_auth), db: Session = Depends(get_db)):
 
 
 @router.get("/me", response_model=AgentProfile)
-def get_my_profile(agent=Depends(require_auth)):
-    """Return the authenticated agent's profile."""
+def get_my_profile(agent=Depends(require_auth), db: Session = Depends(get_db)):
+    """Return the authenticated agent's profile and synchronize online status."""
+    crud.update_agent_status(db, agent.id, "online")
     return AgentProfile(
         id=agent.id,
         username=agent.username,
         role=agent.role,
-        status=agent.status,
+        status="online",
         display_name=agent.display_name or agent.username,
         avatar=agent.avatar or "",
         created_at=agent.created_at.isoformat() if agent.created_at else "",

@@ -1,0 +1,200 @@
+{
+  "call_id": "live_agent_001_1774820947",
+  "agent_id": "agent_001",
+  "timestamp": "2026-03-30T03:19:07.841819",
+  "duration_seconds": 22.0,
+  "transcript": "Hello. Hello. Let me pull up your account details. It will just take a moment. Please stop shouting. I'm trying to help you fix this issue right now. Please stop shouting. I'm trying to help you fix the tissue right now. Unfortunately, your application was denied and there is nothing I can do. Wait, wait, wait, please don't hang up yet. Let me get a manager. Ask Your slashed your postamping fatigue you Subscribe to our channel right now at the center of our COM page called Out With Hands and they are especially supportive. Like Please stop shouting. I am trying to help you fix this issue right now. Please stop shouting. I'm trying to help you fix this issue right now. Over. Okay. Okay. Okay. Alright. OK. Next question. Okay. Okay. Yeah. So. Okay. That's all right. All right. All right. Good. All right. Now. All right. Okay. Thank you. Okay. Okay. Okay. Okay. All right. Okay. Well.",
+  "overall_metrics": {
+    "emotion_distribution": {
+      "neutral": 5,
+      "sadness": 6
+    },
+    "dominant_emotion": "sadness",
+    "agent_stress_score": 0.55,
+    "fusion_weights": {
+      "acoustic": 0.618,
+      "text": 0.382
+    }
+  },
+  "segments": [
+    {
+      "transcript": "Hello.",
+      "emotion": "neutral",
+      "confidence": 0.887,
+      "emotion_distribution": {
+        "anger": 0.016358032822608948,
+        "disgust": 0.008536277338862419,
+        "fear": 0.022486528381705284,
+        "neutral": 0.8871703147888184,
+        "sadness": 0.0654488280415535
+      },
+      "fusion_weights": {
+        "acoustic": 0.621,
+        "text": 0.379
+      }
+    },
+    {
+      "transcript": "Hello.",
+      "emotion": "neutral",
+      "confidence": 0.88,
+      "emotion_distribution": {
+        "anger": 0.015223170630633831,
+        "disgust": 0.011050837114453316,
+        "fear": 0.02343897335231304,
+        "neutral": 0.8804373145103455,
+        "sadness": 0.06984968483448029
+      },
+      "fusion_weights": {
+        "acoustic": 0.567,
+        "text": 0.433
+      }
+    },
+    {
+      "transcript": "Let me pull up your account details. It will just take a moment.",
+      "emotion": "neutral",
+      "confidence": 0.949,
+      "emotion_distribution": {
+        "anger": 0.004091437440365553,
+        "disgust": 0.005644471384584904,
+        "fear": 0.010673482902348042,
+        "neutral": 0.9487952589988708,
+        "sadness": 0.03079541027545929
+      },
+      "fusion_weights": {
+        "acoustic": 0.878,
+        "text": 0.122
+      }
+    },
+    {
+      "transcript": "Please stop shouting. I'm trying to help you fix this issue right now.",
+      "emotion": "neutral",
+      "confidence": 0.686,
+      "emotion_distribution": {
+        "anger": 0.03816569223999977,
+        "disgust": 0.02617812715470791,
+        "fear": 0.09024118632078171,
+        "neutral": 0.685997486114502,
+        "sadness": 0.15941748023033142
+      },
+      "fusion_weights": {
+        "acoustic": 0.591,
+        "text": 0.409
+      }
+    },
+    {
+      "transcript": "Please stop shouting. I'm trying to help you fix the tissue right now.",
+      "emotion": "neutral",
+      "confidence": 0.539,
+      "emotion_distribution": {
+        "anger": 0.06238655373454094,
+        "disgust": 0.03747882321476936,
+        "fear": 0.1461220532655716,
+        "neutral": 0.5388310551643372,
+        "sadness": 0.21518146991729736
+      },
+      "fusion_weights": {
+        "acoustic": 0.622,
+        "text": 0.378
+      }
+    },
+    {
+      "transcript": "Unfortunately, your application was denied and there is nothing I can do.",
+      "emotion": "sadness",
+      "confidence": 0.911,
+      "emotion_distribution": {
+        "anger": 0.014393601566553116,
+        "disgust": 0.008375863544642925,
+        "fear": 0.023160751909017563,
+        "neutral": 0.04301648214459419,
+        "sadness": 0.9110532999038696
+      },
+      "fusion_weights": {
+        "acoustic": 0.197,
+        "text": 0.803
+      }
+    },
+    {
+      "transcript": "Wait, wait, wait, please don't hang up yet. Let me get a manager.",
+      "emotion": "sadness",
+      "confidence": 0.758,
+      "emotion_distribution": {
+        "anger": 0.028695596382021904,
+        "disgust": 0.01543157547712326,
+        "fear": 0.042035263031721115,
+        "neutral": 0.15577508509159088,
+        "sadness": 0.758062481880188
+      },
+      "fusion_weights": {
+        "acoustic": 0.325,
+        "text": 0.675
+      }
+    },
+    {
+      "transcript": "Ask Your slashed your postamping fatigue you Subscribe to our channel right now at the center of our COM page called Out With Hands and they are especially supportive. Like",
+      "emotion": "sadness",
+      "confidence": 0.731,
+      "emotion_distribution": {
+        "anger": 0.022680362686514854,
+        "disgust": 0.019915450364351273,
+        "fear": 0.04784861579537392,
+        "neutral": 0.17872461676597595,
+        "sadness": 0.7308309674263
+      },
+      "fusion_weights": {
+        "acoustic": 0.247,
+        "text": 0.753
+      }
+    },
+    {
+      "transcript": "Please stop shouting. I am trying to help you fix this issue right now.",
+      "emotion": "sadness",
+      "confidence": 0.709,
+      "emotion_distribution": {
+        "anger": 0.023118630051612854,
+        "disgust": 0.018543364480137825,
+        "fear": 0.04656575992703438,
+        "neutral": 0.20312480628490448,
+        "sadness": 0.7086474895477295
+      },
+      "fusion_weights": {
+        "acoustic": 0.209,
+        "text": 0.791
+      }
+    },
+    {
+      "transcript": "Please stop shouting. I'm trying to help you fix this issue right now.",
+      "emotion": "sadness",
+      "confidence": 0.71,
+      "emotion_distribution": {
+        "anger": 0.023039953783154488,
+        "disgust": 0.01828818768262863,
+        "fear": 0.04508417844772339,
+        "neutral": 0.20316079258918762,
+        "sadness": 0.710426926612854
+      },
+      "fusion_weights": {
+        "acoustic": 0.209,
+        "text": 0.791
+      }
+    },
+    {
+      "transcript": "Over. Okay. Okay. Okay. Alright. OK. Next question. Okay. Okay. Yeah. So. Okay. That's all right. All right. All right. Good. All right. Now. All right. Okay. Thank you. Okay. Okay. Okay. Okay. All right. Okay. Well.",
+      "emotion": "sadness",
+      "confidence": 0.689,
+      "emotion_distribution": {
+        "anger": 0.024700907990336418,
+        "disgust": 0.019868029281497,
+        "fear": 0.04835774376988411,
+        "neutral": 0.21810168027877808,
+        "sadness": 0.6889716386795044
+      },
+      "fusion_weights": {
+        "acoustic": 0.212,
+        "text": 0.788
+      }
+    }
+  ],
+  "metadata": {
+    "dataset": "LIVE"
+  }
+}
